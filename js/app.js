@@ -2116,7 +2116,7 @@ function getCookie(name)
 }
   
 const i18n = new VueI18n({
-    locale: 'ja', // set locale
+    locale: 'en', // set locale
     messages: messages // set locale messages
 });
   
@@ -2170,11 +2170,11 @@ var app = new Vue({
         ],
         
         //setting
-        lang_value:0,
+        lang_value:2,
         lang_options:[
             {text:'日本語', value:0},
-            {text:'繁體中文', value:1}//,
-            //{text:'English', value:2}
+            {text:'繁體中文', value:1},
+            {text:'English', value:2}
         ],
         allow_down_grade:0,
         allow_down_grade_options:[
