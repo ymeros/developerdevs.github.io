@@ -12,7 +12,7 @@ const ddd_stable = [
     {
         name:'大天使',
         name_tw:'大天使',
-        name_en:'',
+        name_en:'Herald',
         formulas:[
             ['神獸','女神'],
             ['神獸','魔神'],
@@ -24,17 +24,17 @@ const ddd_stable = [
         ],
         devils:[
             {   name:'メタトロン',       name_tw:'梅塔特隆', name_en:'Metatron',   rarity:5,   grade:99,  icon:'daitensi_metatoron.png',  skills:['天罰','無限のチャクラ','シナイの神火'], skill4:['不屈の闘志','マハンマダイン','メシアライザー','二分の魔脈','電撃反射'], skill5:['','吸魔','マハポイズマ','マハジオダイン','マハラギダイン'], elements:['','耐','耐','耐','耐','無',''], type:"攻擊"     },
-            {   name:'ミカエル',        name_tw:'米迦勒', name_en:'',      rarity:5,    grade:90, icon:'daitensi_mikaeru.png', skills:["勝利の息吹","魂の審判","メギドラオン"], skill4:["食いしばり","裁きの雷火","メディアラハン","地獄のマスク","呪殺反射"], skill5:['','ティタノマキア','火炎耐性','ジオダイン','刹那五月雨撃ち'], elements:["","","無","無","","反","弱"], type:"攻擊"     },
-            {   name:'マンセマット',        name_tw:'莫塞瑪特', name_en:'',     rarity:5,    grade:83, icon:'daitensi_mansemato.png', skills:["審判の光","バインドボイス","憎悪の試練"], skill4:["二分の魔脈","アイスエイジ","マカジャマオン","破魔ハイブースタ","氷結反射"], skill5:['','殺風激','乱れ狂い','ハマダイン','電撃耐性'], elements:["","弱","無","","反","反",""], type:"攻擊"     },
-            {   name:'アズラエル',      name_tw:'阿斯萊爾',    name_en:'', rarity:4,    grade:67, icon:'daitensi_azuraeru.png', skills:["テトラカーン","イービルアイ","アギダイン"], skill4:["マカラカーン","ムドダイン","祟り","マカラカシフト","呪殺無効"], skill5:["","甘噛み","デクンダ","野獣の勘","審判の光"], elements:["耐","耐","弱","","","反","耐"], type:"支援"            },
-            {   name:'サンダルフォン',   name_tw:'聖達芬',     name_en:'', rarity:4,           grade:61, icon:'daitensi_sandaruhuon.png', skills:["ハマダイン","ザンダイン","スクカオート"], skill4:["アムリタ","マハンマオン","サマリカーム","野獣の勘","衝撃耐性"],skill5:["","メポズムディ","反撃","ラクンダ","メガトンプレス"], elements:["耐","","","耐","","反","無"], type:"攻擊"         },
-            {   name:'ライラ',          name_tw:'萊拉',    name_en:'', rarity:3,           grade:43, icon:'daitensi_raira.png', skills:["メディラ","破魔ブースタ","マハンマオン"], skill4:["マカジャマオン","ハマダイン","リカーム","勝利の息吹","電撃耐性"],skill5:["","ザン","マハザン","ヒートウェイブ","ブフ"], elements:["","","","弱","耐","無","弱"], type:"攻擊"          }
+            {   name:'ミカエル',        name_tw:'米迦勒', name_en:'Michael',      rarity:5,    grade:90, icon:'daitensi_mikaeru.png', skills:["勝利の息吹","魂の審判","メギドラオン"], skill4:["食いしばり","裁きの雷火","メディアラハン","地獄のマスク","呪殺反射"], skill5:['','ティタノマキア','火炎耐性','ジオダイン','刹那五月雨撃ち'], elements:["","","無","無","","反","弱"], type:"攻擊"     },
+            {   name:'マンセマット',        name_tw:'莫塞瑪特', name_en:'Mastema',     rarity:5,    grade:83, icon:'daitensi_mansemato.png', skills:["審判の光","バインドボイス","憎悪の試練"], skill4:["二分の魔脈","アイスエイジ","マカジャマオン","破魔ハイブースタ","氷結反射"], skill5:['','殺風激','乱れ狂い','ハマダイン','電撃耐性'], elements:["","弱","無","","反","反",""], type:"攻擊"     },
+            {   name:'アズラエル',      name_tw:'阿斯萊爾',    name_en:'Azrael', rarity:4,    grade:67, icon:'daitensi_azuraeru.png', skills:["テトラカーン","イービルアイ","アギダイン"], skill4:["マカラカーン","ムドダイン","祟り","マカラカシフト","呪殺無効"], skill5:["","甘噛み","デクンダ","野獣の勘","審判の光"], elements:["耐","耐","弱","","","反","耐"], type:"支援"            },
+            {   name:'サンダルフォン',   name_tw:'聖達芬',     name_en:'Sandalphon', rarity:4,           grade:61, icon:'daitensi_sandaruhuon.png', skills:["ハマダイン","ザンダイン","スクカオート"], skill4:["アムリタ","マハンマオン","サマリカーム","野獣の勘","衝撃耐性"],skill5:["","メポズムディ","反撃","ラクンダ","メガトンプレス"], elements:["耐","","","耐","","反","無"], type:"攻擊"         },
+            {   name:'ライラ',          name_tw:'萊拉',    name_en:'Lailah', rarity:3,           grade:43, icon:'daitensi_raira.png', skills:["メディラ","破魔ブースタ","マハンマオン"], skill4:["マカジャマオン","ハマダイン","リカーム","勝利の息吹","電撃耐性"],skill5:["","ザン","マハザン","ヒートウェイブ","ブフ"], elements:["","","","弱","耐","無","弱"], type:"攻擊"          }
         ]
     },
     {
         name:'女神',
         name_tw:'女神',
-        name_en:'',
+        name_en:'Megami',
         formulas:[
             ['靈鳥','大天使'],    //180419 add
             ['魔神','靈鳥'],      //180419 add
@@ -52,19 +52,19 @@ const ddd_stable = [
             ['鬼女','妖精']
         ],
         devils:[
-            {                name:'ラクシュミ',         name_tw:'吉祥天', name_en:'',       rarity:5,                grade:85, icon:'megami_rakusyumi.png', skills:["ディアラハン","ツイスター","蓮華の舞"], skill4:["二分の魔脈","殺風激","マカラカーン","狂い咲き","衝撃無効"], skill5:["","甘噛み","ジオダイン","虚弱無効","毒針"], elements:["","","","","弱","耐","無"], type:"支援"            },
-            {                name:'イシュタル',        name_tw:'伊絲塔', name_en:'',       rarity:5,                grade:82, icon:'megami_isyutaru.png', skills:["マハンマオン","ディアラハン","ジャッジメント"], skill4:["サマリカーム","裁きの雷火","コンセントレイト","テトラカシフト","衝撃無効"], skill5:["","ゴッドハンド","毒床渡り","デクンダ","アギラオ"],elements:["","","","無","弱","無","弱"], type:"回復"            },
-            {                name:'サラスヴァティ',    name_tw:'妙音天女', name_en:'',           rarity:4,                grade:69, icon:'megami_sarasuvatei.png', skills:["マハブフーラ","バリア","静寂の祈り"], skill4:["ブフダイン","絶対零度","メディラマ","追い打ち","氷結反射"],skill5:["","メチャームディ","呪い耐性","ミナゴロシの愉悦","イービルアイ"], elements:["","弱","無","","","","弱"], type:"支援"            },
-            {                name:'パラスアテナ',      name_tw:'帕拉斯雅典娜', name_en:'',         rarity:4,                grade:62, icon:'megami_parasuatena.png', skills:["衝撃耐性","刹那五月雨撃ち","天罰"], skill4:["マカラカーン","モータルジハード","ディアラハン","勝利のチャクラ","火炎無効"],skill5:["","五月雨斬り","静寂の祈り","毒針","ツイスター"], elements:["耐","","","","","無","弱"], type:"攻擊"            },
-            {                name:'スカアハ',          name_tw:'斯卡哈', name_en:'',     rarity:3,                grade:50, icon:'megami_sukaaha.png', skills:["ザンマ","冥界破","ウィンドブレス"], skill4:["二分の活泉","狂乱の剛爪","ディアラマ","地獄のマスク","電撃耐性"],skill5:["","ブフ","反撃","自然治癒","暴れまくり"], elements:["","","","弱","無","耐",""], type:"攻擊"            },
-            {                name:'アリアンロッド',     name_tw:'阿麗安蘿德', name_en:'',          rarity:3,                grade:44, icon:'megami_arianrodo.png', skills:["ハマオン","メディア","怪力乱神"], skill4:["ディアラ","刹那五月雨撃ち","リディアコワース","千発千中","氷結無効"],skill5:["","マハジオ","チャームディ","初段の恵体","クロズディ"], elements:["耐","","","","","耐",""], type:"攻擊"            },
-            {                name:'ハトホル',          name_tw:'哈索爾', name_en:'',     rarity:2,                grade:27, icon:'megami_htohoru.png', skills:["アムリタ","ザン","ジオンガ"], skill4:["メポズムディ","マハジオ","メチャームディ","一分の魔脈","衝撃無効"], skill5:["","ディア","初段の猛速","チャームディ","メウィークディ"],elements:["弱","","耐","","耐","耐",""], type:"回復"            }
+            {                name:'ラクシュミ',         name_tw:'吉祥天', name_en:'Lakshimi',       rarity:5,                grade:85, icon:'megami_rakusyumi.png', skills:["ディアラハン","ツイスター","蓮華の舞"], skill4:["二分の魔脈","殺風激","マカラカーン","狂い咲き","衝撃無効"], skill5:["","甘噛み","ジオダイン","虚弱無効","毒針"], elements:["","","","","弱","耐","無"], type:"支援"            },
+            {                name:'イシュタル',        name_tw:'伊絲塔', name_en:'Ishtar',       rarity:5,                grade:82, icon:'megami_isyutaru.png', skills:["マハンマオン","ディアラハン","ジャッジメント"], skill4:["サマリカーム","裁きの雷火","コンセントレイト","テトラカシフト","衝撃無効"], skill5:["","ゴッドハンド","毒床渡り","デクンダ","アギラオ"],elements:["","","","無","弱","無","弱"], type:"回復"            },
+            {                name:'サラスヴァティ',    name_tw:'妙音天女', name_en:'Sarasvati',           rarity:4,                grade:69, icon:'megami_sarasuvatei.png', skills:["マハブフーラ","バリア","静寂の祈り"], skill4:["ブフダイン","絶対零度","メディラマ","追い打ち","氷結反射"],skill5:["","メチャームディ","呪い耐性","ミナゴロシの愉悦","イービルアイ"], elements:["","弱","無","","","","弱"], type:"支援"            },
+            {                name:'パラスアテナ',      name_tw:'帕拉斯雅典娜', name_en:'Pallas Athena',         rarity:4,                grade:62, icon:'megami_parasuatena.png', skills:["衝撃耐性","刹那五月雨撃ち","天罰"], skill4:["マカラカーン","モータルジハード","ディアラハン","勝利のチャクラ","火炎無効"],skill5:["","五月雨斬り","静寂の祈り","毒針","ツイスター"], elements:["耐","","","","","無","弱"], type:"攻擊"            },
+            {                name:'スカアハ',          name_tw:'斯卡哈', name_en:'Scathach',     rarity:3,                grade:50, icon:'megami_sukaaha.png', skills:["ザンマ","冥界破","ウィンドブレス"], skill4:["二分の活泉","狂乱の剛爪","ディアラマ","地獄のマスク","電撃耐性"],skill5:["","ブフ","反撃","自然治癒","暴れまくり"], elements:["","","","弱","無","耐",""], type:"攻擊"            },
+            {                name:'アリアンロッド',     name_tw:'阿麗安蘿德', name_en:'Arianrhod',          rarity:3,                grade:44, icon:'megami_arianrodo.png', skills:["ハマオン","メディア","怪力乱神"], skill4:["ディアラ","刹那五月雨撃ち","リディアコワース","千発千中","氷結無効"],skill5:["","マハジオ","チャームディ","初段の恵体","クロズディ"], elements:["耐","","","","","耐",""], type:"攻擊"            },
+            {                name:'ハトホル',          name_tw:'哈索爾', name_en:'Hathor',     rarity:2,                grade:27, icon:'megami_htohoru.png', skills:["アムリタ","ザン","ジオンガ"], skill4:["メポズムディ","マハジオ","メチャームディ","一分の魔脈","衝撃無効"], skill5:["","ディア","初段の猛速","チャームディ","メウィークディ"],elements:["弱","","耐","","耐","耐",""], type:"回復"            }
         ]
     },
     {
         name:'靈鳥',              //180419 add
         name_tw:'靈鳥',
-        name_en:'',
+        name_en:'Avian',
         formulas:[
             ['神獸','大天使'],
             ['天使','神獸'],
@@ -80,18 +80,18 @@ const ddd_stable = [
             ['魔王','妖魔']
         ],
         devils:[
-            {                name:'ガルーダ',         name_tw:'迦樓羅', name_en:'',      rarity:5,                grade:80, icon:'reityou_garuda.png', skills:["ザンダイン","ラクンダオート","ヴァーハナ"], skill4:["三段の賢魔","マハラギダイン","フォッグブレス","狂戦士","破魔無效"], skill5:["","マハマカジャマ","アムリタ","火炎ブースタ","アギラオ"], elements:["","反","弱","","無","耐",""], type:"攻擊"            },
-            {                name:'ヤタガラス',         name_tw:'八咫烏', name_en:'',      rarity:4,                grade:66, icon:'reityou_yatagarasu.png', skills:["冥界破","スクンダオート","スピードスター"], skill4:["物理ブースタ","モータルジハード","スクカジャ","寸分の見切り","物理耐性"], skill5:["","マハラギオン","一分の魔脈","ウィンドブレス","緊縛耐性"], elements:["","無","弱","","","耐",""], type:"支援"            },
-            {                name:'スザク',         name_tw:'朱雀', name_en:'',      rarity:3,                grade:53, icon:'reityou_suzaku.png', skills:["アギラオ","タルンダオート","メディラマ"], skill4:["ダークゾーン無効","マハンマ","バインドボイス","毒床渡り","物理耐性"], skill5:['','コロシの愉悦','クロズディ','メパララディ','ジオ'], elements:["弱","無","弱","","","",""], type:"回復"            },
-            {                name:'ジャターユ',         name_tw:'佳塔由', name_en:'',      rarity:3,                grade:44, icon:'reityou_jatayu.png', skills:["スクカジャ","スクカオート","デカジャ"], skill4:["スクンダ","デスバウンド","リカーム","野獣の勘","電撃耐性"],skill5:["","マハザン","乱れ狂い","メポズムディ","カースディ"], elements:["","耐","","弱","吸","無","弱"], type:"支援"            },
-            {                name:'スパルナ',         name_tw:'金翅鳥', name_en:'',      rarity:2,                grade:28, icon:'reityou_suparuna.png', skills:["ジオ","金剛発破","ラクカジャ"], skill4:["ディアラ","吸魔","タルンダ","地獄のマスク","電撃無効"],skill5:["","クロズディ","百発百中","ムド","突撃"], elements:["","","","耐","","耐","弱"], type:"攻擊"            },
-            {                name:'ハンサ',         name_tw:'漢薩', name_en:'',      rarity:2,                grade:24, icon:'reityou_hansa.png', skills:["ハマ","ジオンガ","スクカジャ"], skill4:["マカジャマ","マハンマ","メディア","スピードスター","氷結耐性"],skill5:["","ディア","ジオ","ポズムディ","なぎ払い"], elements:["","","","耐","","","弱"], type:"支援"            }
+            {                name:'ガルーダ',         name_tw:'迦樓羅', name_en:'Garuda',      rarity:5,                grade:80, icon:'reityou_garuda.png', skills:["ザンダイン","ラクンダオート","ヴァーハナ"], skill4:["三段の賢魔","マハラギダイン","フォッグブレス","狂戦士","破魔無效"], skill5:["","マハマカジャマ","アムリタ","火炎ブースタ","アギラオ"], elements:["","反","弱","","無","耐",""], type:"攻擊"            },
+            {                name:'ヤタガラス',         name_tw:'八咫烏', name_en:'Yatagarasu',      rarity:4,                grade:66, icon:'reityou_yatagarasu.png', skills:["冥界破","スクンダオート","スピードスター"], skill4:["物理ブースタ","モータルジハード","スクカジャ","寸分の見切り","物理耐性"], skill5:["","マハラギオン","一分の魔脈","ウィンドブレス","緊縛耐性"], elements:["","無","弱","","","耐",""], type:"支援"            },
+            {                name:'スザク',         name_tw:'朱雀', name_en:'Feng Huang',      rarity:3,                grade:53, icon:'reityou_suzaku.png', skills:["アギラオ","タルンダオート","メディラマ"], skill4:["ダークゾーン無効","マハンマ","バインドボイス","毒床渡り","物理耐性"], skill5:['','コロシの愉悦','クロズディ','メパララディ','ジオ'], elements:["弱","無","弱","","","",""], type:"回復"            },
+            {                name:'ジャターユ',         name_tw:'佳塔由', name_en:'Jatayu',      rarity:3,                grade:44, icon:'reityou_jatayu.png', skills:["スクカジャ","スクカオート","デカジャ"], skill4:["スクンダ","デスバウンド","リカーム","野獣の勘","電撃耐性"],skill5:["","マハザン","乱れ狂い","メポズムディ","カースディ"], elements:["","耐","","弱","吸","無","弱"], type:"支援"            },
+            {                name:'スパルナ',         name_tw:'金翅鳥', name_en:'Sparna',      rarity:2,                grade:28, icon:'reityou_suparuna.png', skills:["ジオ","金剛発破","ラクカジャ"], skill4:["ディアラ","吸魔","タルンダ","地獄のマスク","電撃無効"],skill5:["","クロズディ","百発百中","ムド","突撃"], elements:["","","","耐","","耐","弱"], type:"攻擊"            },
+            {                name:'ハンサ',         name_tw:'漢薩', name_en:'Hamsa',      rarity:2,                grade:24, icon:'reityou_hansa.png', skills:["ハマ","ジオンガ","スクカジャ"], skill4:["マカジャマ","マハンマ","メディア","スピードスター","氷結耐性"],skill5:["","ディア","ジオ","ポズムディ","なぎ払い"], elements:["","","","耐","","","弱"], type:"支援"            }
         ]
     },
     {
         name:'魔神',
         name_tw:'魔神',
-        name_en:'',
+        name_en:'Deity',
         formulas:[
             ['女神','大天使'],
             ['靈鳥','女神'],      //180419 add
@@ -106,18 +106,18 @@ const ddd_stable = [
             ['邪神','魔獸']
         ],
         devils:[
-            {                name:'ヴィシュヌ',      name_tw:'毘濕奴', name_en:'',         rarity:5,                grade:97, icon:'majin_visyunu.png', skills:["ブフダイン","天罰","アヴァターラ"], skill4:["ムドダイン","メギドラオン","常世の祈り","虚弱無効","呪殺反射"], skill5:["","モータルジハード","魔封耐性","ウィンドブレス","ハマオン"],elements:["","弱","吸","","","無","無"], type:"攻擊"            },
-            {                name:'アマテラス',      name_tw:'天照', name_en:'',         rarity:5,                grade:82, icon:'majin_amaterasu.png', skills:["マハラギオン","タルンダ","天孫降臨"], skill4:["スクカオート","トリスアギオン","メディアラハン","三段の賢魔","電撃無効"], skill5:["","ジュオン","魅了無効","ラクカジャ","スクンダ"],elements:["","反","","弱","","耐",""], type:"支援"            },
-            {                name:'オーディン',      name_tw:'奧丁', name_en:'',         rarity:4,                grade:73, icon:'majin_odein.png', skills:["氷結耐性","ショックウェーブ","グングニル"], skill4:["無慈悲な一撃","メガトンレイド","タルカジャ","千発千中","呪殺無効"], skill5:["","イービルアイ","マハラギ","ブフーラ","ポズムディ"],elements:["","","","反","弱","耐","耐"], type:"攻擊"            },
-            {                name:'プロメテウス',    name_tw:'普羅米修斯', name_en:'',           rarity:4,                grade:67, icon:'majin_purometeusu.png', skills:["火炎ブースタ","マカラカシフト","アギダイン"], skill4:["三段の恵体","マハラギダイン","リカームドラ","無限のチャクラ","火炎吸収"], skill5:["","電撃耐性","マハザンマ","乱れ狂い","毒耐性"],elements:["","無","弱","","","耐",""], type:"攻擊"            },
-            {                name:'ミトラ',         name_tw:'密特拉', name_en:'',      rarity:3,                grade:55, icon:'majin_mitora.png', skills:["マハジュ","バリアコワース","イービルアイ"], skill4:["メギド","マハンマオン","フォッグブレス","狂い咲き","衝撃耐性"], skill5:["","メディア","ディア","マハジオ","初段の恵体"],elements:["反","","弱","","","耐","耐"], type:"支援"            },
-            {                name:'ホルス',         name_tw:'荷魯斯', name_en:'',      rarity:3,                grade:49, icon:'majin_horusu.png', skills:["ディアラマ","デクンダ","マハンマ"], skill4:["二分の魔脈","ハマダイン","アムリタ","破魔ブースタ","電撃無効	"], skill5:["","カースディ","パララディ","マハラギ","カースディ"],elements:["耐","","","","","反","弱"], type:"回復"            }
+            {                name:'ヴィシュヌ',      name_tw:'毘濕奴', name_en:'Vishnu',         rarity:5,                grade:97, icon:'majin_visyunu.png', skills:["ブフダイン","天罰","アヴァターラ"], skill4:["ムドダイン","メギドラオン","常世の祈り","虚弱無効","呪殺反射"], skill5:["","モータルジハード","魔封耐性","ウィンドブレス","ハマオン"],elements:["","弱","吸","","","無","無"], type:"攻擊"            },
+            {                name:'アマテラス',      name_tw:'天照', name_en:'Amaterasu',         rarity:5,                grade:82, icon:'majin_amaterasu.png', skills:["マハラギオン","タルンダ","天孫降臨"], skill4:["スクカオート","トリスアギオン","メディアラハン","三段の賢魔","電撃無効"], skill5:["","ジュオン","魅了無効","ラクカジャ","スクンダ"],elements:["","反","","弱","","耐",""], type:"支援"            },
+            {                name:'オーディン',      name_tw:'奧丁', name_en:'Odin',         rarity:4,                grade:73, icon:'majin_odein.png', skills:["氷結耐性","ショックウェーブ","グングニル"], skill4:["無慈悲な一撃","メガトンレイド","タルカジャ","千発千中","呪殺無効"], skill5:["","イービルアイ","マハラギ","ブフーラ","ポズムディ"],elements:["","","","反","弱","耐","耐"], type:"攻擊"            },
+            {                name:'プロメテウス',    name_tw:'普羅米修斯', name_en:'Prometheus',           rarity:4,                grade:67, icon:'majin_purometeusu.png', skills:["火炎ブースタ","マカラカシフト","アギダイン"], skill4:["三段の恵体","マハラギダイン","リカームドラ","無限のチャクラ","火炎吸収"], skill5:["","電撃耐性","マハザンマ","乱れ狂い","毒耐性"],elements:["","無","弱","","","耐",""], type:"攻擊"            },
+            {                name:'ミトラ',         name_tw:'密特拉', name_en:'Mitra',      rarity:3,                grade:55, icon:'majin_mitora.png', skills:["マハジュ","バリアコワース","イービルアイ"], skill4:["メギド","マハンマオン","フォッグブレス","狂い咲き","衝撃耐性"], skill5:["","メディア","ディア","マハジオ","初段の恵体"],elements:["反","","弱","","","耐","耐"], type:"支援"            },
+            {                name:'ホルス',         name_tw:'荷魯斯', name_en:'Horus',      rarity:3,                grade:49, icon:'majin_horusu.png', skills:["ディアラマ","デクンダ","マハンマ"], skill4:["二分の魔脈","ハマダイン","アムリタ","破魔ブースタ","電撃無効	"], skill5:["","カースディ","パララディ","マハラギ","カースディ"],elements:["耐","","","","","反","弱"], type:"回復"            }
         ]
     },
     {
         name:'神獸',
         name_tw:'神獸',
-        name_en:'',
+        name_en:'Avatar',
         formulas:[
             ['聖獸','魔神'],
             ['龍神','靈鳥'],    //180713 add
@@ -133,17 +133,17 @@ const ddd_stable = [
             ['外道','聖獸']
         ],
         devils:[
-            {                name:'バロン',         name_tw:'巴隆', name_en:'',      rarity:5,                grade:84, icon:'sinjyuu_baron.png', skills:["マハジオンガ","ショックウェーブ","バロンダンス"], skill4:["食いしばり","真理の雷","リカームドラ","電撃ハイブースタ","呪殺無効"], skill5:["","ブフダイン","マハシバブー","二段の恵体","マカジャマ"],elements:["耐","","","無","弱","無","弱"],type:"支援"           },
-            {                name:'アヌビス',       name_tw:'阿努比斯', name_en:'',        rarity:4,                grade:70, icon:'sinjyuu_anubisu.png', skills:["呪殺ブースタ","ムドダイン","審判の光"], skill4:["デクンダ","煉獄","テトラカーン","無慈悲な一撃","呪殺無効"], skill5:["","吸魔","ポイズマ","ディア","アギラオ"],elements:["","","","","","無","耐"],type:"攻擊"            },
-            {                name:'キマイラ',       name_tw:'奇美拉', name_en:'',        rarity:3,                grade:49, icon:'sinjyuu_kimaira.png', skills:["マカラコワース","ジオンガ","狂乱の剛爪"], skill4:["怪力乱神","マハジオンガ","雄叫び","猛反撃","衝撃耐性"], skill5:["","パララディ","マハンマ","メディア","自然治癒"],elements:["","耐","","耐","弱","",""],type:"支援"            },
-            {                name:'マカミ',         name_tw:'真神', name_en:'',      rarity:3,                grade:41, icon:'sinjyuu_makami.png', skills:["メパララディ","緊縛無効","ディアラマ"], skill4:["アムリタ","怪力乱神","サマリカーム","回復ブースタ","電撃無効"], skill5:["","パララディ","マハザン","ディア","アギ"],elements:["","","","","","耐","弱"],type:"回復"            },
-            {                name:'シーサー',       name_tw:'獅爺', name_en:'',        rarity:2,                grade:33, icon:'sinjyuu_sisa.png' , skills:["シバブー","ザン","ウィンドブレス"], skill4:["バインドクロー","マハザン","バリアコワース","緊縛追撃","氷結耐性"], skill5:["","ブフ","アギ","百発百中","ジオ"],elements:["","耐","","","耐","耐",""],type:"支援"           }
+            {                name:'バロン',         name_tw:'巴隆', name_en:'Barong',      rarity:5,                grade:84, icon:'sinjyuu_baron.png', skills:["マハジオンガ","ショックウェーブ","バロンダンス"], skill4:["食いしばり","真理の雷","リカームドラ","電撃ハイブースタ","呪殺無効"], skill5:["","ブフダイン","マハシバブー","二段の恵体","マカジャマ"],elements:["耐","","","無","弱","無","弱"],type:"支援"           },
+            {                name:'アヌビス',       name_tw:'阿努比斯', name_en:'Anubis',        rarity:4,                grade:70, icon:'sinjyuu_anubisu.png', skills:["呪殺ブースタ","ムドダイン","審判の光"], skill4:["デクンダ","煉獄","テトラカーン","無慈悲な一撃","呪殺無効"], skill5:["","吸魔","ポイズマ","ディア","アギラオ"],elements:["","","","","","無","耐"],type:"攻擊"            },
+            {                name:'キマイラ',       name_tw:'奇美拉', name_en:'Chimera',        rarity:3,                grade:49, icon:'sinjyuu_kimaira.png', skills:["マカラコワース","ジオンガ","狂乱の剛爪"], skill4:["怪力乱神","マハジオンガ","雄叫び","猛反撃","衝撃耐性"], skill5:["","パララディ","マハンマ","メディア","自然治癒"],elements:["","耐","","耐","弱","",""],type:"支援"            },
+            {                name:'マカミ',         name_tw:'真神', name_en:'Makami',      rarity:3,                grade:41, icon:'sinjyuu_makami.png', skills:["メパララディ","緊縛無効","ディアラマ"], skill4:["アムリタ","怪力乱神","サマリカーム","回復ブースタ","電撃無効"], skill5:["","パララディ","マハザン","ディア","アギ"],elements:["","","","","","耐","弱"],type:"回復"            },
+            {                name:'シーサー',       name_tw:'獅爺', name_en:'Shiisaa',        rarity:2,                grade:33, icon:'sinjyuu_sisa.png' , skills:["シバブー","ザン","ウィンドブレス"], skill4:["バインドクロー","マハザン","バリアコワース","緊縛追撃","氷結耐性"], skill5:["","ブフ","アギ","百発百中","ジオ"],elements:["","耐","","","耐","耐",""],type:"支援"           }
         ]
     },
     {
         name:'聖獸',
         name_tw:'聖獸',
-        name_en:'',
+        name_en:'Holy',
         formulas:[
             ['神獸','靈鳥'],      //180419 add
             //['破壞神','神獸'],    //180713 remove
@@ -162,18 +162,18 @@ const ddd_stable = [
             ['幽鬼','妖精']
         ],
         devils:[
-            {                name:'スフィンクス',     name_tw:'斯芬克斯', name_en:'',          rarity:4,                grade:76, icon:'seijyuu_sufuinkusu.png', skills:["バリア","テトラカシフト","マハンマオン"], skill4:["モータルジハード","ジオダイン","メディアラハン","ラクカオート","氷結無効"], skill5:["","ジュ","メガトンプレス","氷結耐性","イービルアイ"],elements:["","無","弱","","","反","弱"], type:"支援"            },
-            {                name:'スレイプニル',     name_tw:'八腳天馬', name_en:'',          rarity:4,                grade:62, icon:'seijyuu_sureipuniru.png', skills:["破魔ブースタ","マハンマオン","スピードスター"], skill4:["サマリカーム","ハマダイン","ディアラハン","三段の猛速","破魔無効"], skill5:["","ファイアブレ","暴飲暴食","ツイスター","マハシバブオン"],elements:["","弱","","","","耐",""],type:"攻擊"            },
-            {                name:'ビャッコ',         name_tw:'白虎', name_en:'',      rarity:3,                grade:48, icon:'seijyuu_byako.png', skills:["スクンダ","ジオンガ","電撃ブースタ"], skill4:["狂乱の剛爪","マハジオンガ","コンセントレイト","威圧の構え","物理耐性"], skill5:["","乱れ狂い","マハブフ","精神漏出","毒床歩き"],elements:["","","","無","弱","",""],type:"攻擊"            },
-            {                name:'アピス',           name_tw:'阿庇斯', name_en:'',    rarity:3,                grade:44, icon:'seijyuu_apisu.png', skills:["タルカジャ","マハンマ","マカラカシフト"], skill4:["メディラ","捨て身の一撃","ディスコード","三分の活泉","呪殺耐性"], skill5:["","アギ","ポイズマオン","メディア","クロズディ"],elements:["","","","","","耐","弱"],type:"支援"            },
-            {                name:'ユニコーン',       name_tw:'獨角獸', name_en:'',        rarity:3,                grade:42, icon:'seijyuu_unicon.png', skills:["メチャームディ","魅了無効","マハザン"], skill4:["ブフダイン","絶対零度","メクロズディ","虐殺者","氷結耐性"], skill5:["","アギ","初段の賢魔","カースディ","なぎ払い"],elements:["","","","弱","","無","無"],type:"回復"            },
-            {                name:'へケト',           name_tw:'海奎特', name_en:'',    rarity:2,                grade:27, icon:'seijyuu_heketo.png', skills:["メディア","マハジオ","メポズムディ"], skill4:["ジオンガ","放電","デクンダ","二分の活泉","火炎耐性"], skill5:["","メチャームディ","なぎ払い","見切り","百発百中"],elements:["","","","耐","弱","",""],type:"回復"            }
+            {                name:'スフィンクス',     name_tw:'斯芬克斯', name_en:'Sphinx',          rarity:4,                grade:76, icon:'seijyuu_sufuinkusu.png', skills:["バリア","テトラカシフト","マハンマオン"], skill4:["モータルジハード","ジオダイン","メディアラハン","ラクカオート","氷結無効"], skill5:["","ジュ","メガトンプレス","氷結耐性","イービルアイ"],elements:["","無","弱","","","反","弱"], type:"支援"            },
+            {                name:'スレイプニル',     name_tw:'八腳天馬', name_en:'Sleipnir',          rarity:4,                grade:62, icon:'seijyuu_sureipuniru.png', skills:["破魔ブースタ","マハンマオン","スピードスター"], skill4:["サマリカーム","ハマダイン","ディアラハン","三段の猛速","破魔無効"], skill5:["","ファイアブレ","暴飲暴食","ツイスター","マハシバブオン"],elements:["","弱","","","","耐",""],type:"攻擊"            },
+            {                name:'ビャッコ',         name_tw:'白虎', name_en:'Baihu',      rarity:3,                grade:48, icon:'seijyuu_byako.png', skills:["スクンダ","ジオンガ","電撃ブースタ"], skill4:["狂乱の剛爪","マハジオンガ","コンセントレイト","威圧の構え","物理耐性"], skill5:["","乱れ狂い","マハブフ","精神漏出","毒床歩き"],elements:["","","","無","弱","",""],type:"攻擊"            },
+            {                name:'アピス',           name_tw:'阿庇斯', name_en:'Apis',    rarity:3,                grade:44, icon:'seijyuu_apisu.png', skills:["タルカジャ","マハンマ","マカラカシフト"], skill4:["メディラ","捨て身の一撃","ディスコード","三分の活泉","呪殺耐性"], skill5:["","アギ","ポイズマオン","メディア","クロズディ"],elements:["","","","","","耐","弱"],type:"支援"            },
+            {                name:'ユニコーン',       name_tw:'獨角獸', name_en:'Unicorn',        rarity:3,                grade:42, icon:'seijyuu_unicon.png', skills:["メチャームディ","魅了無効","マハザン"], skill4:["ブフダイン","絶対零度","メクロズディ","虐殺者","氷結耐性"], skill5:["","アギ","初段の賢魔","カースディ","なぎ払い"],elements:["","","","弱","","無","無"],type:"回復"            },
+            {                name:'へケト',           name_tw:'海奎特', name_en:'Heqet',    rarity:2,                grade:27, icon:'seijyuu_heketo.png', skills:["メディア","マハジオ","メポズムディ"], skill4:["ジオンガ","放電","デクンダ","二分の活泉","火炎耐性"], skill5:["","メチャームディ","なぎ払い","見切り","百発百中"],elements:["","","","耐","弱","",""],type:"回復"            }
         ]
     },
     {
         name:'幻魔',
         name_tw:'幻魔',
-        name_en:'',
+        name_en:'Genma',
         formulas:[
             ['龍神','妖魔'],    //180713 add
             ['龍神','幽鬼'],    //180713 add
@@ -194,18 +194,18 @@ const ddd_stable = [
             ['幽鬼','魔神']
         ],
         devils:[
-            {                name:'クー・フーリン',    name_tw:'庫夫林', name_en:'',           rarity:5,                grade:81, icon:'genma_kuhurin.png', skills:["ミナゴロシの愉悦","マハザンダイン","ゲイボルグ"], skill4:["リベリオン","殺風激","リカームドラ","衝撃貫通","呪殺反射"], skill5:["","メギドラ","マカジャマ","デスバウンド","アイスエイジ"],elements:["耐","","","","無","",""],type:"攻擊"            },
-            {                name:'ツクヨミ',          name_tw:'月讀', name_en:'',     rarity:4,                grade:67, icon:'genma_tukuyomi.png', skills:["一分の魔脈","ザンマ","月の加護"], skill4:["マハザン","ムドオン","リカーム","二分の活泉","火炎吸収"], skill5:["","スクカジャ","自然治癒","ハマオン","ジオンガ"],elements:["弱","無","無","耐","耐","",""], type:"支援"            },
-            {                name:'ハヌマーン',        name_tw:'哈奴曼', name_en:'',       rarity:4,                grade:60, icon:'genma_hanuman.png', skills:["物理耐性","空間殺法","マハザンマ"], skill4:["狂乱の剛爪","ザンダイン","挑発","猛反撃","衝撃反射"], skill5:["","初段の恵体","イービルアイ","審判の光","虚弱耐性"],elements:["","","","弱","無","",""],type:"攻擊"            },
-            {                name:'クルースニク',      name_tw:'克雷斯尼克', name_en:'',         rarity:3,                grade:49, icon:'genma_kurusuniku.png', skills:["スクンダ","電撃無効","審判の光"], skill4:["勝利のチャクラ","五月雨斬","リベリオ","無慈悲な一撃","呪殺無効"], skill5:["","初段の恵体","マハムド","猛反撃","百発百中"],elements:["","","","","弱","無",""],type:"攻擊"            },
-            {                name:'タム・リン',        name_tw:'塔姆林', name_en:'',       rarity:3,                grade:40, icon:'genma_tamurin.png', skills:["自然治癒","ウィンドブレス","暗夜剣"], skill4:["ハマダイン","デスバウンド","メディラ","テトラカシフト","火炎耐性"], skill5:["","マハザン","マハラギ","突撃","スラッシュ"],elements:["","","","","","耐","弱"],type:"攻擊"            },
-            {                name:'クラマテング',      name_tw:'鞍馬天狗', name_en:'',         rarity:2,                grade:27, icon:'genma_muramatengu.png', skills:["スクカジャ","ハマ","マハザン"], skill4:["マハンマ","ザンマ","スクンダ","毒床渡り","火炎耐性"], skill5:["","メディア","マハブフ","パララディ","メチャームディ"],elements:["","","","弱","無","",""], type:"攻擊"           }
+            {                name:'クー・フーリン',    name_tw:'庫夫林', name_en:'Cu Chulainn',           rarity:5,                grade:81, icon:'genma_kuhurin.png', skills:["ミナゴロシの愉悦","マハザンダイン","ゲイボルグ"], skill4:["リベリオン","殺風激","リカームドラ","衝撃貫通","呪殺反射"], skill5:["","メギドラ","マカジャマ","デスバウンド","アイスエイジ"],elements:["耐","","","","無","",""],type:"攻擊"            },
+            {                name:'ツクヨミ',          name_tw:'月讀', name_en:'Tsukuyomi',     rarity:4,                grade:67, icon:'genma_tukuyomi.png', skills:["一分の魔脈","ザンマ","月の加護"], skill4:["マハザン","ムドオン","リカーム","二分の活泉","火炎吸収"], skill5:["","スクカジャ","自然治癒","ハマオン","ジオンガ"],elements:["弱","無","無","耐","耐","",""], type:"支援"            },
+            {                name:'ハヌマーン',        name_tw:'哈奴曼', name_en:'Hanuman',       rarity:4,                grade:60, icon:'genma_hanuman.png', skills:["物理耐性","空間殺法","マハザンマ"], skill4:["狂乱の剛爪","ザンダイン","挑発","猛反撃","衝撃反射"], skill5:["","初段の恵体","イービルアイ","審判の光","虚弱耐性"],elements:["","","","弱","無","",""],type:"攻擊"            },
+            {                name:'クルースニク',      name_tw:'克雷斯尼克', name_en:'Kresnik',         rarity:3,                grade:49, icon:'genma_kurusuniku.png', skills:["スクンダ","電撃無効","審判の光"], skill4:["勝利のチャクラ","五月雨斬","リベリオ","無慈悲な一撃","呪殺無効"], skill5:["","初段の恵体","マハムド","猛反撃","百発百中"],elements:["","","","","弱","無",""],type:"攻擊"            },
+            {                name:'タム・リン',        name_tw:'塔姆林', name_en:'Tam Lin',       rarity:3,                grade:40, icon:'genma_tamurin.png', skills:["自然治癒","ウィンドブレス","暗夜剣"], skill4:["ハマダイン","デスバウンド","メディラ","テトラカシフト","火炎耐性"], skill5:["","マハザン","マハラギ","突撃","スラッシュ"],elements:["","","","","","耐","弱"],type:"攻擊"            },
+            {                name:'クラマテング',      name_tw:'鞍馬天狗', name_en:'Kurama Tengu',         rarity:2,                grade:27, icon:'genma_muramatengu.png', skills:["スクカジャ","ハマ","マハザン"], skill4:["マハンマ","ザンマ","スクンダ","毒床渡り","火炎耐性"], skill5:["","メディア","マハブフ","パララディ","メチャームディ"],elements:["","","","弱","無","",""], type:"攻擊"           }
         ]
     },
     {
         name:'破壞神',
         name_tw:'破壞神',
-        name_en:'',
+        name_en:'Fury',
         formulas:[
             ['龍神','神獸'],    //180713 add
             ['龍神','地母神'],  //180713 add
@@ -225,17 +225,17 @@ const ddd_stable = [
             ['幽鬼','女神']
         ],
         devils:[
-            {                name:'シヴァ',           name_tw:'濕婆', name_en:'',    rarity:5,                grade:93, icon:'hakaisin_siva.png' , skills:["虐殺者","空間殺法","プララヤ"], skill4:["魅了無効","ゴッドハンド","リベリオン","寸分の見切り","氷結吸収"], skill5:["","デゾレトオン","アイスブレス","ブフーラ","マハポイズマ"],elements:["耐","吸","弱","吸","","",""],type:"攻擊"           },
-            {                name:'スサノオ',         name_tw:'素盞嗚尊', name_en:'',      rarity:5,                grade:82, icon:'hakaisin_susanoo.png', skills:["暗殺者","モータルジハード","天叢雲剣"], skill4:["三段の剛力","殺風激","チャージ","無慈悲な一撃","電撃吸収"], skill5:["","ディアラハン","地獄の業火","フォッグブレス","ハマダイン"],elements:["耐","弱","","","吸","",""],type:"攻擊"            },
-            {                name:'ホクトセイクン',    name_tw:'北斗星君', name_en:'',           rarity:4,                grade:69, icon:'hakaisin_hokutoseikun.png', skills:["氷結ブースタ","ブフダイン","絶対零度"], skill4:["リカーム","マハブフダイン","バリア","呪い無効","氷結反射"], skill5:["","破魔耐性","マハザン","ブフ","乱れ狂い"],elements:["","弱","無","","","耐",""],type:"攻擊"            },
-            {                name:'セイテンタイセイ',  name_tw:'齊天大聖', name_en:'',             rarity:4,                grade:61, icon:'hakaisin_seitentaisei.png', skills:["物理ブースタ","挑発","鬼神楽"], skill4:["チャージ","ティタノマキア","アウトブレイク","三段の恵体","物理無効"], skill5:["","裁きの雷火","ヘルズアイ","マハラギ","毒追撃"],elements:["耐","耐","","弱","耐","耐","弱"],type:"攻擊"            },
-            {                name:'アレス',           name_tw:'阿瑞斯', name_en:'',    rarity:3,                grade:44, icon:'hakaisin_aresu.png', skills:["金剛発破","反撃","地獄の業火"], skill4:["デクンダ","怪力乱神","チャージ","コロシの愉悦","物理耐性"], skill5:["","地獄のマスク","セクシーダンス","シバブオン","暴れまくり"],elements:["","","","","","耐","弱"],type:"攻擊"            }
+            {                name:'シヴァ',           name_tw:'濕婆', name_en:'Shiva',    rarity:5,                grade:93, icon:'hakaisin_siva.png' , skills:["虐殺者","空間殺法","プララヤ"], skill4:["魅了無効","ゴッドハンド","リベリオン","寸分の見切り","氷結吸収"], skill5:["","デゾレトオン","アイスブレス","ブフーラ","マハポイズマ"],elements:["耐","吸","弱","吸","","",""],type:"攻擊"           },
+            {                name:'スサノオ',         name_tw:'素盞嗚尊', name_en:'Susano-o',      rarity:5,                grade:82, icon:'hakaisin_susanoo.png', skills:["暗殺者","モータルジハード","天叢雲剣"], skill4:["三段の剛力","殺風激","チャージ","無慈悲な一撃","電撃吸収"], skill5:["","ディアラハン","地獄の業火","フォッグブレス","ハマダイン"],elements:["耐","弱","","","吸","",""],type:"攻擊"            },
+            {                name:'ホクトセイクン',    name_tw:'北斗星君', name_en:'Beiji-Weng',           rarity:4,                grade:69, icon:'hakaisin_hokutoseikun.png', skills:["氷結ブースタ","ブフダイン","絶対零度"], skill4:["リカーム","マハブフダイン","バリア","呪い無効","氷結反射"], skill5:["","破魔耐性","マハザン","ブフ","乱れ狂い"],elements:["","弱","無","","","耐",""],type:"攻擊"            },
+            {                name:'セイテンタイセイ',  name_tw:'齊天大聖', name_en:'Wu Kong',             rarity:4,                grade:61, icon:'hakaisin_seitentaisei.png', skills:["物理ブースタ","挑発","鬼神楽"], skill4:["チャージ","ティタノマキア","アウトブレイク","三段の恵体","物理無効"], skill5:["","裁きの雷火","ヘルズアイ","マハラギ","毒追撃"],elements:["耐","耐","","弱","耐","耐","弱"],type:"攻擊"            },
+            {                name:'アレス',           name_tw:'阿瑞斯', name_en:'Ares',    rarity:3,                grade:44, icon:'hakaisin_aresu.png', skills:["金剛発破","反撃","地獄の業火"], skill4:["デクンダ","怪力乱神","チャージ","コロシの愉悦","物理耐性"], skill5:["","地獄のマスク","セクシーダンス","シバブオン","暴れまくり"],elements:["","","","","","耐","弱"],type:"攻擊"            }
         ]
     },
     {
         name:'龍神',
         name_tw:'龍神',
-        name_en:'',
+        name_en:'Dragon',
         formulas:[
             ['破壞神','神獸'],
             ['破壞神','幻魔'],
@@ -249,19 +249,19 @@ const ddd_stable = [
             ['幽鬼','鬼神']
         ],
         devils:[
-            {  name:'コウリュウ',  name_tw:'黃龍', name_en:'',  rarity:5,  grade:88, icon:'ryuusin_kouryu.png' , skills:["二段の猛速","メギドラオン","五行思想"], skill4:["勝利の息吹","エナジードレイン","ラスタキャンディ","スピードスター","呪殺無効"], skill5:["","三段の賢魔","虐殺者","ヘルズアイ","不屈の闘志"],elements:["","耐","耐","耐","耐","無",""],type:"支援"   },
-            {  name:'ケツアルカトル',  name_tw:'羽蛇神', name_en:'',  rarity:5,  grade:80, icon:'ryuusin_kezuarukatoru.png' , skills:["マハラギダイン","マハザンダイン","セアカトルの再臨"], skill4:["毒無効","マハンマダイン","コンセントレイト","タルンダオート","物理反射"], skill5:["","マハブフダイン","追い打ち","魔封無効","マハムドダイン"],elements:["耐","耐","","","耐","耐","弱"],type:"攻擊"   },
-            {  name:'グクマッツ',  name_tw:'庫庫爾坎', name_en:'',  rarity:4,  grade:69, icon:'ryuusin_gukumatu.png' , skills:["ヒートウェイブ","アイスブレス","タルンダオート"], skill4:["野生の勘","ウィンドブレス","フォッグブレス","テトラカシフト","火炎無効"], skill5:["","怪力乱神","タルンダ","猛反撃","メディラ"],elements:["","弱","耐","","耐","",""],type:"支援"   },
-            {  name:'セイリュウ',  name_tw:'青龍', name_en:'',  rarity:4,  grade:63, icon:'ryuusin_seiryuu.png' , skills:["衝撃ブースタ","ザンダイン","龍の反応"], skill4:["二段の猛速","怪力乱神","コンセントレイト","勝利のチャクラ","衝撃反射"], skill5:["","マハザンダイン","空間殺法","ジオダイン","マカラコワース"],elements:["","","耐","弱","無","",""],type:"攻擊"   },
-            {  name:'イルルヤンカシュ',  name_tw:'伊虛延卡', name_en:'',  rarity:3,  grade:47, icon:'ryuusin_iruruyankasyu.png' , skills:["アイスブレス","ザンマ","龍の反応"], skill4:["ブフダイン","マハザンマ","溶解ブレス","二段の賢魔","衝撃無効"], skill5:["","ヒートウェイブ","見切り","ハマオン","野生の勘"],elements:["","","耐","","耐","",""],type:"攻擊"   },
-            {  name:'マカラ',  name_tw:'摩伽羅', name_en:'',  rarity:3,  grade:41, icon:'ryuusin_makara.png' , skills:["マカラコワース","マハブフ","タルンダ"], skill4:["虚弱無効","メギド","マカラカーン","三分の活泉","火炎耐性"], skill5:["","ブフーラ","反撃","精神漏出","甘噛み"],elements:["","弱","耐","","","",""],type:"支援"   },
-            {  name:'パトリムパス',  name_tw:'帕托利姆帕斯', name_en:'',  rarity:2,  grade:35, icon:'ryuusin_patorimupasu.png' , skills:["リカーム","ディアラマ","テトラジャ"], skill4:["自然治癒","ウィンドブレス","アムリタ","食いしばり","火炎耐性"], skill5:["","","","",""],elements:["","弱","耐","","耐","","弱"],type:"回復"   }
+            {  name:'コウリュウ',  name_tw:'黃龍', name_en:'Huang Long',  rarity:5,  grade:88, icon:'ryuusin_kouryu.png' , skills:["二段の猛速","メギドラオン","五行思想"], skill4:["勝利の息吹","エナジードレイン","ラスタキャンディ","スピードスター","呪殺無効"], skill5:["","三段の賢魔","虐殺者","ヘルズアイ","不屈の闘志"],elements:["","耐","耐","耐","耐","無",""],type:"支援"   },
+            {  name:'ケツアルカトル',  name_tw:'羽蛇神', name_en:'Quetzalcoatl',  rarity:5,  grade:80, icon:'ryuusin_kezuarukatoru.png' , skills:["マハラギダイン","マハザンダイン","セアカトルの再臨"], skill4:["毒無効","マハンマダイン","コンセントレイト","タルンダオート","物理反射"], skill5:["","マハブフダイン","追い打ち","魔封無効","マハムドダイン"],elements:["耐","耐","","","耐","耐","弱"],type:"攻擊"   },
+            {  name:'グクマッツ',  name_tw:'庫庫爾坎', name_en:'Gucumatz',  rarity:4,  grade:69, icon:'ryuusin_gukumatu.png' , skills:["ヒートウェイブ","アイスブレス","タルンダオート"], skill4:["野生の勘","ウィンドブレス","フォッグブレス","テトラカシフト","火炎無効"], skill5:["","怪力乱神","タルンダ","猛反撃","メディラ"],elements:["","弱","耐","","耐","",""],type:"支援"   },
+            {  name:'セイリュウ',  name_tw:'青龍', name_en:'Seiryu',  rarity:4,  grade:63, icon:'ryuusin_seiryuu.png' , skills:["衝撃ブースタ","ザンダイン","龍の反応"], skill4:["二段の猛速","怪力乱神","コンセントレイト","勝利のチャクラ","衝撃反射"], skill5:["","マハザンダイン","空間殺法","ジオダイン","マカラコワース"],elements:["","","耐","弱","無","",""],type:"攻擊"   },
+            {  name:'イルルヤンカシュ',  name_tw:'伊虛延卡', name_en:'Illuyanka',  rarity:3,  grade:47, icon:'ryuusin_iruruyankasyu.png' , skills:["アイスブレス","ザンマ","龍の反応"], skill4:["ブフダイン","マハザンマ","溶解ブレス","二段の賢魔","衝撃無効"], skill5:["","ヒートウェイブ","見切り","ハマオン","野生の勘"],elements:["","","耐","","耐","",""],type:"攻擊"   },
+            {  name:'マカラ',  name_tw:'摩伽羅', name_en:'Makara',  rarity:3,  grade:41, icon:'ryuusin_makara.png' , skills:["マカラコワース","マハブフ","タルンダ"], skill4:["虚弱無効","メギド","マカラカーン","三分の活泉","火炎耐性"], skill5:["","ブフーラ","反撃","精神漏出","甘噛み"],elements:["","弱","耐","","","",""],type:"支援"   },
+            {  name:'パトリムパス',  name_tw:'帕托利姆帕斯', name_en:'Patrimpas',  rarity:2,  grade:35, icon:'ryuusin_patorimupasu.png' , skills:["リカーム","ディアラマ","テトラジャ"], skill4:["自然治癒","ウィンドブレス","アムリタ","食いしばり","火炎耐性"], skill5:["","","","",""],elements:["","弱","耐","","耐","","弱"],type:"回復"   }
         ]
     },
     {
         name:'地母神',
         name_tw:'地母神',
-        name_en:'',
+        name_en:'Lady',
         formulas:[
             ['聖獸','靈鳥'],      //180419 add
             //['破壞神','幻魔'],    //180713 remove
@@ -281,18 +281,18 @@ const ddd_stable = [
             ['魔王','夜魔']
         ],
         devils:[
-            {   name:'アシェラト',    name_tw:'亞舍拉', name_en:'', rarity:5,        grade:83, icon:'tibosin_asyerato.png', skills:["メディラマ","サマリカーム","マハラギオン"], skill4:["混沌の海","トリスアギオン","静寂の祈り","回復ハイブースタ","氷結反射"], skill5:["","審判の光","地獄のマスク","二段の強運","緊縛追撃"],elements:["","無","弱","","無","","弱"], type:"回復"            },
-            {   name:'スカディ',      name_tw:'絲卡蒂', name_en:'', rarity:4,        grade:67, icon:'tibosin_sukadei.png', skills:["マハマカジャマ","魔封追撃","マハムドオン"], skill4:["二段の強運","絶対零度","マカラコワース","狂い咲き","火炎耐性"], skill5:["","放電","二段の剛力","メディラ","電撃耐性"],elements:["","弱","吸","","","",""], type:"支援"             },
-            {                name:'キクリヒメ',     name_tw:'菊理媛', name_en:'',          rarity:4,                grade:60, icon:'tibosin_kikurihime.png', skills:["リディア","マハラギオン","マリンカリオン"], skill4:["二段の恵体","アギダイン","ディアラマ","テトラカシフト","呪殺耐性"],skill5:["","火炎耐性","マハポイズマオン","捨て身の一撃","ラクカジャ"], elements:["","","","弱","無","","弱"], type:"回復"            },
-            {                name:'イシス',        name_tw:'伊西斯',  name_en:'',      rarity:3,                grade:54, icon:'tibosin_isisu.png', skills:["サマリカーム","ザンダイン","マハマカジャマ"], skill4:["二分の魔脈","マハザン","メウィークディ","追い打","衝撃無効"], skill5:["","初段の剛力","百発百中","メチャームディ","ザン"],elements:["","耐","","無","","",""], type:"支援"            },
-            {                name:'クシナビヒメ',   name_tw:'奇稻田姬', name_en:'',            rarity:3,                grade:47, icon:'tibosin_kusinabihime.png', skills:["ディアラ","回復ブースタ","マハンマ"], skill4:["メディア","ハマオン","リディア","自然治癒","破魔無効"], skill5:["","ムド","マハラギ","メパララディ","ジオ"],elements:["","","","","","耐","弱"], type:"回復"            },
-            {                name:'ペレ',          name_tw:'佩蕾', name_en:'',     rarity:3,                grade:40, icon:'tibosin_pere.png', skills:["メポズムディ","アギラオ","毒無効"], skill4:["ディアラ","マハラギオン","リカーム","二段の強運","物理耐性"], skill5:["","メウィークディ","マハザン","毒床歩き","初段の賢魔"],elements:["","耐","弱","","","",""], type:"回復"            }
+            {   name:'アシェラト',    name_tw:'亞舍拉', name_en:'Asherah', rarity:5,        grade:83, icon:'tibosin_asyerato.png', skills:["メディラマ","サマリカーム","マハラギオン"], skill4:["混沌の海","トリスアギオン","静寂の祈り","回復ハイブースタ","氷結反射"], skill5:["","審判の光","地獄のマスク","二段の強運","緊縛追撃"],elements:["","無","弱","","無","","弱"], type:"回復"            },
+            {   name:'スカディ',      name_tw:'絲卡蒂', name_en:'Skadi', rarity:4,        grade:67, icon:'tibosin_sukadei.png', skills:["マハマカジャマ","魔封追撃","マハムドオン"], skill4:["二段の強運","絶対零度","マカラコワース","狂い咲き","火炎耐性"], skill5:["","放電","二段の剛力","メディラ","電撃耐性"],elements:["","弱","吸","","","",""], type:"支援"             },
+            {                name:'キクリヒメ',     name_tw:'菊理媛', name_en:'Kikuri-Hime',          rarity:4,                grade:60, icon:'tibosin_kikurihime.png', skills:["リディア","マハラギオン","マリンカリオン"], skill4:["二段の恵体","アギダイン","ディアラマ","テトラカシフト","呪殺耐性"],skill5:["","火炎耐性","マハポイズマオン","捨て身の一撃","ラクカジャ"], elements:["","","","弱","無","","弱"], type:"回復"            },
+            {                name:'イシス',        name_tw:'伊西斯',  name_en:'Isis',      rarity:3,                grade:54, icon:'tibosin_isisu.png', skills:["サマリカーム","ザンダイン","マハマカジャマ"], skill4:["二分の魔脈","マハザン","メウィークディ","追い打","衝撃無効"], skill5:["","初段の剛力","百発百中","メチャームディ","ザン"],elements:["","耐","","無","","",""], type:"支援"            },
+            {                name:'クシナビヒメ',   name_tw:'奇稻田姬', name_en:'Kushinada-Hime',            rarity:3,                grade:47, icon:'tibosin_kusinabihime.png', skills:["ディアラ","回復ブースタ","マハンマ"], skill4:["メディア","ハマオン","リディア","自然治癒","破魔無効"], skill5:["","ムド","マハラギ","メパララディ","ジオ"],elements:["","","","","","耐","弱"], type:"回復"            },
+            {                name:'ペレ',          name_tw:'佩蕾', name_en:'Pele',     rarity:3,                grade:40, icon:'tibosin_pere.png', skills:["メポズムディ","アギラオ","毒無効"], skill4:["ディアラ","マハラギオン","リカーム","二段の強運","物理耐性"], skill5:["","メウィークディ","マハザン","毒床歩き","初段の賢魔"],elements:["","耐","弱","","","",""], type:"回復"            }
         ]
     },
     {
         name:'鬼神',
         name_tw:'鬼神',
-        name_en:'',
+        name_en:'Kishin',
         formulas:[
             ['幻魔','神獸'],
             ['破壞神','聖獸'],
@@ -311,19 +311,19 @@ const ddd_stable = [
             ['魔王','龍王']
         ],
         devils:[
-            {                name:'トール',          name_tw:'索爾', name_en:'',     rarity:5,                grade:83, icon:'kisin_toru.png', skills:["メガトンレイド","チャージ","ミョルニル"], skill4:["マハジオダイン","ギガントマキア","リベリオン","電撃貫通","火炎反射"], skill5:["","マハンマダイン","マハマリカリオン","イービルアイ","マハマリンカリン"],elements:["耐","無","","吸","弱","耐",""], type:"攻擊"            },
-            {                name:'ショウキ',        name_tw:'鍾馗', name_en:'',       rarity:4,                grade:75, icon:'kisin_syouki.png', skills:["地獄のマスク","タルカオート","鬼神楽"], skill4:["魔封無効","メガトンレイド","デゾレトオン","威圧の構え","物理耐性"], skill5:["","マハムドダイン","毒床渡り","魔封追撃","マハンマオン"],elements:["","耐","","","弱","耐",""], type:"攻擊"            },
-            {                name:'ビシャモンテン',   name_tw:'毘沙門天', name_en:'',           rarity:4,                grade:70, icon:'kisin_bisyamonten.png', skills:["破魔耐性","ブフダイン","怪力乱神"], skill4:["タルカジャ","冥界破","ディスコード","追い打ち","呪殺耐性"], skill5:["","エナジードレイン","マカジャマオン","メチャームディ","衝撃耐性"],elements:["","弱","無","","","",""], type:"攻擊"            },
-            {                name:'ジコクテン',       name_tw:'持國天', name_en:'',        rarity:4,                grade:62, icon:'kisin_jikokuten.png', skills:["マハザンマ","冥界破","食いしばり"], skill4:["ザンダイン","メガトンレイド","マハシバブオン","三分の活泉","火炎無効"], skill5:["","バインドクロー","メディアラハン","ホワイトノイズ","吸血"],elements:["","","","弱","無","耐",""], type:"攻擊"            },
-            {                name:'コウモクテン',     name_tw:'廣目天', name_en:'',          rarity:3,                grade:50, icon:'kisin_koumokuten.png', skills:["ジオンガ","テトラコワース","冥界破"], skill4:["メガトンプレス","ジオダイン","スクカジャ","反撃","物理耐性"], skill5:["","初段の強運","マハブフ","コロシの愉悦","ブフ"],elements:["","","","無","弱","耐",""], type:"攻擊"            },
-            {                name:'ゾウチョウテン',   name_tw:'增長天', name_en:'',            rarity:3,                grade:41, icon:'kisin_zoutyouten.png', skills:["ラクカジャ","金剛発破","アギラオ"], skill4:["チャージ","ファイアブレス","挑発","毒床無効","呪殺耐性"], skill5:["","地獄のマスク","初段の剛力","メチャームディ","メチャームディ"],elements:["","無","弱","","","耐",""], type:"攻擊"            },
-            {                name:'タケミナカタ',     name_tw:'建御名方', name_en:'',          rarity:2,                grade:27, icon:'kisin_takeminakata.png', skills:["反撃","ジオンガ","鬼神楽"], skill4:["電撃ブースタ","放電","メパララディ","一分の魔脈","呪殺耐性"], skill5:["","ザン","百発百中","突撃","マハブフ"],elements:["","弱","","耐","","",""], type:"攻擊"            }
+            {                name:'トール',          name_tw:'索爾', name_en:'Thor',     rarity:5,                grade:83, icon:'kisin_toru.png', skills:["メガトンレイド","チャージ","ミョルニル"], skill4:["マハジオダイン","ギガントマキア","リベリオン","電撃貫通","火炎反射"], skill5:["","マハンマダイン","マハマリカリオン","イービルアイ","マハマリンカリン"],elements:["耐","無","","吸","弱","耐",""], type:"攻擊"            },
+            {                name:'ショウキ',        name_tw:'鍾馗', name_en:'Zhong Kui',       rarity:4,                grade:75, icon:'kisin_syouki.png', skills:["地獄のマスク","タルカオート","鬼神楽"], skill4:["魔封無効","メガトンレイド","デゾレトオン","威圧の構え","物理耐性"], skill5:["","マハムドダイン","毒床渡り","魔封追撃","マハンマオン"],elements:["","耐","","","弱","耐",""], type:"攻擊"            },
+            {                name:'ビシャモンテン',   name_tw:'毘沙門天', name_en:'Bishamonten',           rarity:4,                grade:70, icon:'kisin_bisyamonten.png', skills:["破魔耐性","ブフダイン","怪力乱神"], skill4:["タルカジャ","冥界破","ディスコード","追い打ち","呪殺耐性"], skill5:["","エナジードレイン","マカジャマオン","メチャームディ","衝撃耐性"],elements:["","弱","無","","","",""], type:"攻擊"            },
+            {                name:'ジコクテン',       name_tw:'持國天', name_en:'Jikokuten',        rarity:4,                grade:62, icon:'kisin_jikokuten.png', skills:["マハザンマ","冥界破","食いしばり"], skill4:["ザンダイン","メガトンレイド","マハシバブオン","三分の活泉","火炎無効"], skill5:["","バインドクロー","メディアラハン","ホワイトノイズ","吸血"],elements:["","","","弱","無","耐",""], type:"攻擊"            },
+            {                name:'コウモクテン',     name_tw:'廣目天', name_en:'Koumokuten',          rarity:3,                grade:50, icon:'kisin_koumokuten.png', skills:["ジオンガ","テトラコワース","冥界破"], skill4:["メガトンプレス","ジオダイン","スクカジャ","反撃","物理耐性"], skill5:["","初段の強運","マハブフ","コロシの愉悦","ブフ"],elements:["","","","無","弱","耐",""], type:"攻擊"            },
+            {                name:'ゾウチョウテン',   name_tw:'增長天', name_en:'Zouchouten',            rarity:3,                grade:41, icon:'kisin_zoutyouten.png', skills:["ラクカジャ","金剛発破","アギラオ"], skill4:["チャージ","ファイアブレス","挑発","毒床無効","呪殺耐性"], skill5:["","地獄のマスク","初段の剛力","メチャームディ","メチャームディ"],elements:["","無","弱","","","耐",""], type:"攻擊"            },
+            {                name:'タケミナカタ',     name_tw:'建御名方', name_en:'Take-Minakata',          rarity:2,                grade:27, icon:'kisin_takeminakata.png', skills:["反撃","ジオンガ","鬼神楽"], skill4:["電撃ブースタ","放電","メパララディ","一分の魔脈","呪殺耐性"], skill5:["","ザン","百発百中","突撃","マハブフ"],elements:["","弱","","耐","","",""], type:"攻擊"            }
         ]
     },
     {
         name:'天使',
         name_tw:'天使',
-        name_en:'Angle',
+        name_en:'Divine',
         formulas:[
             ['幻魔','女神'],
             ['妖魔','聖獸'],
@@ -339,19 +339,19 @@ const ddd_stable = [
             ['幽鬼','聖獸']
         ],
         devils:[
-            {                name:'ソロネ',         name_tw:'座天使', name_en:'',      rarity:4,                grade:60, icon:'tensi_sorone.png', skills:["電撃耐性","マハラギオン","ダークゾーン無効"], skill4:["メディラ","マハンマオン","ディアラハン","寸分の見切り","氷結無効"], skill5:["","雄叫び","氷結耐性","デスタッチ","野生の勘"],elements:["","無","弱","","","無","弱"], type:"攻擊"            },
-            {                name:'ドミニオン',     name_tw:'主天使', name_en:'',          rarity:3,                grade:53, icon:'tensi_dominion.png', skills:["メカースディ","呪い無効","マハジオンガ"], skill4:["メギド","ジオダイン","常世の祈り","魔封無効","電撃無効"], skill5:["","メチャームディ","スラッシュ","初段の恵体","ブフ"],elements:["","","","耐","弱","無","弱"], type:"回復"            },
-            {                name:'ヴァーチャー',    name_tw:'力天使', name_en:'',           rarity:3,                grade:47, icon:'tensi_vatya.png', skills:["メクロズディ","魔封無効","ハマオン"], skill4:["バリア","審判の光","コンセントレイト","スクカオート","氷結無効"], skill5:["","マハジオ","アギ","初段の強運","初段の猛速"],elements:["","","","弱","無","無","弱"], type:"回復"            },
-            {                name:'パワー',          name_tw:'能天使', name_en:'',     rarity:3,                grade:40, icon:'tensi_pawa.png', skills:["メディア","メギド","絶命剣"], skill4:["ディアラ","マハジオンガ","リベリオン","暗殺者","衝撃耐性"], skill5:["","メパララディ","ムド","初段の賢魔","自然治癒"],elements:["","","","耐","弱","無","弱"], type:"攻擊"            },
-            {                name:'プリンシパリティ',   name_tw:'權天使', name_en:'',            rarity:2,                grade:35, icon:'tensi_purinsiparitei.png', skills:["リカーム","ハマオン","ブフ"], skill4:["メディア","審判の光","カースディ","破魔ブースタ","呪殺耐性"], skill5:["","初段の賢魔","メウィークディ","毒床歩き","マハザン"], elements:["","","","","","無","弱"], type:"回復"            },
-            {                name:'アークエンジェル',   name_tw:'大天使', name_en:'',            rarity:2,                grade:25, icon:'tensi_akuenjyeru.png', skills:["タルカジャ","アギ","ハマ"], skill4:["ヒートウェイブ","アギラオ","リディアコワース","百発百中","物理耐性"], skill5:["","ザン","初段の賢魔","ブフ","百発百中"],elements:["","","","","","無","弱"], type:"攻擊"            },
-            {                name:'エンジェル',         name_tw:'天使', name_en:'',      rarity:2,                grade:20, icon:'tensi_enjyeru.png', skills:["ハマ","マハンマ","ディアラ"], skill4:["ラクカジャ","審判の光","チャームディ","魔封無効","電撃耐性"], skill5:["","クロズディ","アギ","メチャームディ","マハブフ"],elements:["","","","弱","","無","弱"], type:"回復"            }
+            {                name:'ソロネ',         name_tw:'座天使', name_en:'Throne',      rarity:4,                grade:60, icon:'tensi_sorone.png', skills:["電撃耐性","マハラギオン","ダークゾーン無効"], skill4:["メディラ","マハンマオン","ディアラハン","寸分の見切り","氷結無効"], skill5:["","雄叫び","氷結耐性","デスタッチ","野生の勘"],elements:["","無","弱","","","無","弱"], type:"攻擊"            },
+            {                name:'ドミニオン',     name_tw:'主天使', name_en:'Dominion',          rarity:3,                grade:53, icon:'tensi_dominion.png', skills:["メカースディ","呪い無効","マハジオンガ"], skill4:["メギド","ジオダイン","常世の祈り","魔封無効","電撃無効"], skill5:["","メチャームディ","スラッシュ","初段の恵体","ブフ"],elements:["","","","耐","弱","無","弱"], type:"回復"            },
+            {                name:'ヴァーチャー',    name_tw:'力天使', name_en:'Virtue',           rarity:3,                grade:47, icon:'tensi_vatya.png', skills:["メクロズディ","魔封無効","ハマオン"], skill4:["バリア","審判の光","コンセントレイト","スクカオート","氷結無効"], skill5:["","マハジオ","アギ","初段の強運","初段の猛速"],elements:["","","","弱","無","無","弱"], type:"回復"            },
+            {                name:'パワー',          name_tw:'能天使', name_en:'Power',     rarity:3,                grade:40, icon:'tensi_pawa.png', skills:["メディア","メギド","絶命剣"], skill4:["ディアラ","マハジオンガ","リベリオン","暗殺者","衝撃耐性"], skill5:["","メパララディ","ムド","初段の賢魔","自然治癒"],elements:["","","","耐","弱","無","弱"], type:"攻擊"            },
+            {                name:'プリンシパリティ',   name_tw:'權天使', name_en:'Principality',            rarity:2,                grade:35, icon:'tensi_purinsiparitei.png', skills:["リカーム","ハマオン","ブフ"], skill4:["メディア","審判の光","カースディ","破魔ブースタ","呪殺耐性"], skill5:["","初段の賢魔","メウィークディ","毒床歩き","マハザン"], elements:["","","","","","無","弱"], type:"回復"            },
+            {                name:'アークエンジェル',   name_tw:'大天使', name_en:'Archangel',            rarity:2,                grade:25, icon:'tensi_akuenjyeru.png', skills:["タルカジャ","アギ","ハマ"], skill4:["ヒートウェイブ","アギラオ","リディアコワース","百発百中","物理耐性"], skill5:["","ザン","初段の賢魔","ブフ","百発百中"],elements:["","","","","","無","弱"], type:"攻擊"            },
+            {                name:'エンジェル',         name_tw:'天使', name_en:'Angel',      rarity:2,                grade:20, icon:'tensi_enjyeru.png', skills:["ハマ","マハンマ","ディアラ"], skill4:["ラクカジャ","審判の光","チャームディ","魔封無効","電撃耐性"], skill5:["","クロズディ","アギ","メチャームディ","マハブフ"],elements:["","","","弱","","無","弱"], type:"回復"            }
         ]
     },
     {
         name:'妖魔',
         name_tw:'妖魔',
-        name_en:'',
+        name_en:'Yoma',
         formulas:[
             ['幻魔','聖獸'],
             ['鬼神','幻魔'],
@@ -367,19 +367,19 @@ const ddd_stable = [
             ['幽鬼','天使']
         ],
         devils:[
-            {                name:'ガネーシャ',     name_tw:'象頭神', name_en:'',          rarity:4,                grade:66, icon:'youma_ganesya.png', skills:["怪力乱神","チャージ","ラクカジャ"], skill4:["捨て身の一撃","メガトンレイド","挑発","物理ブースタ","呪殺無効"], skill5:["","メポズムディ","マハザンダイン","天罰","デゾレト"],elements:["耐","","","弱","無","","弱"], type:"攻擊"            },
-            {                name:'イフリート',     name_tw:'伊弗利特', name_en:'',          rarity:3,                grade:52, icon:'youma_ihurito.png', skills:["アギラオ","火炎ブースタ","マハラギ"], skill4:["アギダイン","地獄の業火","メクロズディ","追い打ち","電撃耐性"], skill5:["","なぎ払い","ヒートウェイブ","ザン","アウトブレイク"],elements:["","吸","弱","","","",""], type:"攻擊"            },
-            {                name:'ヴァルキリー',   name_tw:'女武神', name_en:'',            rarity:3,                grade:40, icon:'youma_varukiri.png' , skills:["マハンマ","絶命剣","物理ブースタ"], skill4:["ヒートウェイブ","デスバウンド","テトラコワース","三分の活泉","電撃耐性"], skill5:["","メウィークディ","スラッシュ","クロズディ","ウィークディ"],elements:["耐","","","弱","耐","",""], type:"攻擊"           },
-            {                name:'ディース',       name_tw:'迪絲', name_en:'',        rarity:2,                grade:34, icon:'youma_deisu.png', skills:["マカジャマ","アギラオ","ザン"], skill4:["メディラ","メギド","バリアコワース","魔封追撃","衝撃耐性"], skill5:["","チャームディ","初段の賢魔","初段の恵体","マハムド"],elements:["","","耐","耐","","","弱"], type:"回復"            },
-            {                name:'アプサラス',     name_tw:'飛天女神', name_en:'',          rarity:1,                grade:11, icon:'youma_apusarasu.png', skills:["ポズムディ","ブフ",""], skill4:["ディアラ","ブフーラ","メチャームディ","初段の猛速","電撃耐性"], skill5:["","メポズムディ","マハブフ","野生の勘","見切り"],elements:["","弱","耐","","","",""], type:"回復"            },
-            {                name:'コッパテング',   name_tw:'木葉天狗', name_en:'',            rarity:1,                grade:7, icon:'youma_kopatengu.png', skills:["毒床歩き","ザン",""], skill4:["ウィンドブレス","ザンマ","タルンダ","野生の勘","火炎耐性"], skill5:["","チャームディ","メクロズディ","マハジオ","パララディ"],elements:["","","","弱","耐","",""], type:"攻擊"            },
-            {                name:'アガシオン',     name_tw:'阿珈席翁', name_en:'',         rarity:1,                grade:5, icon:'youma_agasion.png', skills:["カースディ","ジオ",""], skill4:["マハジオ","ヒートウェイブ","クロズディ","初段の強運","呪殺耐性"], skill5:["","マハラギ","メクロズディ","ザン","初段の強運"],elements:["","耐","弱","耐","","","弱"], type:"攻擊"            }
+            {                name:'ガネーシャ',     name_tw:'象頭神', name_en:'Ganesha',          rarity:4,                grade:66, icon:'youma_ganesya.png', skills:["怪力乱神","チャージ","ラクカジャ"], skill4:["捨て身の一撃","メガトンレイド","挑発","物理ブースタ","呪殺無効"], skill5:["","メポズムディ","マハザンダイン","天罰","デゾレト"],elements:["耐","","","弱","無","","弱"], type:"攻擊"            },
+            {                name:'イフリート',     name_tw:'伊弗利特', name_en:'Efreet',          rarity:3,                grade:52, icon:'youma_ihurito.png', skills:["アギラオ","火炎ブースタ","マハラギ"], skill4:["アギダイン","地獄の業火","メクロズディ","追い打ち","電撃耐性"], skill5:["","なぎ払い","ヒートウェイブ","ザン","アウトブレイク"],elements:["","吸","弱","","","",""], type:"攻擊"            },
+            {                name:'ヴァルキリー',   name_tw:'女武神', name_en:'Valkyrie',            rarity:3,                grade:40, icon:'youma_varukiri.png' , skills:["マハンマ","絶命剣","物理ブースタ"], skill4:["ヒートウェイブ","デスバウンド","テトラコワース","三分の活泉","電撃耐性"], skill5:["","メウィークディ","スラッシュ","クロズディ","ウィークディ"],elements:["耐","","","弱","耐","",""], type:"攻擊"           },
+            {                name:'ディース',       name_tw:'迪絲', name_en:'Dis',        rarity:2,                grade:34, icon:'youma_deisu.png', skills:["マカジャマ","アギラオ","ザン"], skill4:["メディラ","メギド","バリアコワース","魔封追撃","衝撃耐性"], skill5:["","チャームディ","初段の賢魔","初段の恵体","マハムド"],elements:["","","耐","耐","","","弱"], type:"回復"            },
+            {                name:'アプサラス',     name_tw:'飛天女神', name_en:'Apsaras',          rarity:1,                grade:11, icon:'youma_apusarasu.png', skills:["ポズムディ","ブフ",""], skill4:["ディアラ","ブフーラ","メチャームディ","初段の猛速","電撃耐性"], skill5:["","メポズムディ","マハブフ","野生の勘","見切り"],elements:["","弱","耐","","","",""], type:"回復"            },
+            {                name:'コッパテング',   name_tw:'木葉天狗', name_en:'Koppa Tengu',            rarity:1,                grade:7, icon:'youma_kopatengu.png', skills:["毒床歩き","ザン",""], skill4:["ウィンドブレス","ザンマ","タルンダ","野生の勘","火炎耐性"], skill5:["","チャームディ","メクロズディ","マハジオ","パララディ"],elements:["","","","弱","耐","",""], type:"攻擊"            },
+            {                name:'アガシオン',     name_tw:'阿珈席翁', name_en:'Agathion',         rarity:1,                grade:5, icon:'youma_agasion.png', skills:["カースディ","ジオ",""], skill4:["マハジオ","ヒートウェイブ","クロズディ","初段の強運","呪殺耐性"], skill5:["","マハラギ","メクロズディ","ザン","初段の強運"],elements:["","耐","弱","耐","","","弱"], type:"攻擊"            }
         ]
     },
     {
         name:'龍王',
         name_tw:'龍王',
-        name_en:'',
+        name_en:'Snake',
         formulas:[
             ['龍神','墮天使'],  //180713 add
             ['龍神','邪神'],    //180713 add
@@ -400,18 +400,18 @@ const ddd_stable = [
             //['幽鬼','鬼神']     //180713 remove
         ],
         devils:[
-            {                name:'アナンタ',      name_tw:'阿南塔', name_en:'',         rarity:5,                grade:83, icon:'ryuuou_ananta.png' , skills:["ディアラハン","スクカオート","ラクカオート"], skill4:["天罰","マハブフダイン","マハポイズマオン","タルカオート","氷結吸収"], skill5:["","ギガントマキア","マハザンダイン","モータルジハード","鬼神楽"],elements:["","","無","無","弱","無",""], type:'支援'           },
-            {                name:'ユルング',      name_tw:'虹蛇', name_en:'',         rarity:4,                grade:70, icon:'ryuuou_yurungu.png', skills:["マハシバブー","サマリカーム","マハブフーラ"], skill4:["三段の強運","ブフダイン","ディアラマ","毒無効","火炎耐性"], skill5:["","溶解ブレス","リカームドラ","毒追撃","マハンマ"], elements:["","弱","無","耐","","","弱"], type:'支援'            },
-            {                name:'ヤマタノオロチ',    name_tw:'八岐大蛇', name_en:'',           rarity:4,                grade:61, icon:'ryuuou_yamatanooroti.png', skills:["ブフダイン","メガトンプレス","毒床無効"], skill4:["バリア","アギダイン","リカームドラ","タルカオート","破魔無効"], skill5:["","毒床歩き","デカジャ","吸魔","ミナゴロシの愉悦"],elements:["","無","無","弱","","",""], type:"攻擊"            },
-            {                name:'ゲンブ',        name_tw:'玄武', name_en:'',       rarity:3,                grade:45, icon:'ryuuou_genbu.png', skills:["ブフーラ","マハブフーラ","氷結ブースタ"], skill4:["ラクカジャ","ブフダイン","マカラコワース","勝利の息吹","物理耐性"], skill5:["","毒床歩き","初段の剛力","スラッシュ","乱れ狂い"],elements:["","弱","無","","","",""], type:'攻擊'            },
-            {                name:'ナーガ',        name_tw:'那迦', name_en:'',       rarity:2,                grade:28, icon:'ryuuou_naga.png', skills:["絶命剣","ブフーラ","百発百中"], skill4:["リベリオン","デスバウンド","デゾレト","二分の活泉","氷結無効"], skill5:["","突撃","見切り","メポズムディ","ヒートウェイブ"],elements:["","弱","耐","耐","弱","","弱"], type:"攻擊"            },
-            {                name:'ノズチ',        name_tw:'野槌', name_en:'',       rarity:1,                grade:15, icon:'ryuuou_nozuti.png', skills:["一分の活泉","マハジオ",""], skill4:["暴れまくり","ジオンガ","カースディ","百発百中","火炎耐性"], skill5:["","マハザン","メチャームディ","なぎ払い","パララディ"],elements:["耐","弱","耐","耐","弱","","弱"],type:"攻擊"            }
+            {                name:'アナンタ',      name_tw:'阿南塔', name_en:'Ananta',         rarity:5,                grade:83, icon:'ryuuou_ananta.png' , skills:["ディアラハン","スクカオート","ラクカオート"], skill4:["天罰","マハブフダイン","マハポイズマオン","タルカオート","氷結吸収"], skill5:["","ギガントマキア","マハザンダイン","モータルジハード","鬼神楽"],elements:["","","無","無","弱","無",""], type:'支援'           },
+            {                name:'ユルング',      name_tw:'虹蛇', name_en:'Yurlungur',         rarity:4,                grade:70, icon:'ryuuou_yurungu.png', skills:["マハシバブー","サマリカーム","マハブフーラ"], skill4:["三段の強運","ブフダイン","ディアラマ","毒無効","火炎耐性"], skill5:["","溶解ブレス","リカームドラ","毒追撃","マハンマ"], elements:["","弱","無","耐","","","弱"], type:'支援'            },
+            {                name:'ヤマタノオロチ',    name_tw:'八岐大蛇', name_en:'Orochi',           rarity:4,                grade:61, icon:'ryuuou_yamatanooroti.png', skills:["ブフダイン","メガトンプレス","毒床無効"], skill4:["バリア","アギダイン","リカームドラ","タルカオート","破魔無効"], skill5:["","毒床歩き","デカジャ","吸魔","ミナゴロシの愉悦"],elements:["","無","無","弱","","",""], type:"攻擊"            },
+            {                name:'ゲンブ',        name_tw:'玄武', name_en:'Gui Xian',       rarity:3,                grade:45, icon:'ryuuou_genbu.png', skills:["ブフーラ","マハブフーラ","氷結ブースタ"], skill4:["ラクカジャ","ブフダイン","マカラコワース","勝利の息吹","物理耐性"], skill5:["","毒床歩き","初段の剛力","スラッシュ","乱れ狂い"],elements:["","弱","無","","","",""], type:'攻擊'            },
+            {                name:'ナーガ',        name_tw:'那迦', name_en:'Naga',       rarity:2,                grade:28, icon:'ryuuou_naga.png', skills:["絶命剣","ブフーラ","百発百中"], skill4:["リベリオン","デスバウンド","デゾレト","二分の活泉","氷結無効"], skill5:["","突撃","見切り","メポズムディ","ヒートウェイブ"],elements:["","弱","耐","耐","弱","","弱"], type:"攻擊"            },
+            {                name:'ノズチ',        name_tw:'野槌', name_en:'Nozuchi',       rarity:1,                grade:15, icon:'ryuuou_nozuti.png', skills:["一分の活泉","マハジオ",""], skill4:["暴れまくり","ジオンガ","カースディ","百発百中","火炎耐性"], skill5:["","マハザン","メチャームディ","なぎ払い","パララディ"],elements:["耐","弱","耐","耐","弱","","弱"],type:"攻擊"            }
         ]
     },
     {
         name:'魔獸',
         name_tw:'魔獸',
-        name_en:'',
+        name_en:'Beast',
         formulas:[
             ['龍神','魔神'],    //180713 add
             ['龍神','妖獸'],    //180713 add
@@ -430,18 +430,18 @@ const ddd_stable = [
             ['幽鬼','魔王']
         ],
         devils:[
-            {                name:'ケルベロス',     name_tw:'地獄犬', name_en:'',          rarity:4,                grade:61, icon:'majyuu_keruberosu.png', skills:["アギダイン","地獄の獰爪","雄叫び"], skill4:["二分の活泉","ファイアブレス","マハデゾレトオン","追い打ち","物理耐性"], skill5:["","緊縛追撃","反撃","ヒートウェイブ","初段の猛速"],elements:["","反","弱","","","",""], type:'攻擊'            },
-            {                name:'アーマーン',     name_tw:'阿米特', name_en:'',          rarity:3,                grade:44, icon:'majyuu_aman.png', skills:["リベリオン","デスタッチ","狂乱の剛爪"], skill4:["二段の猛速","暴飲暴食","雄叫び","魅了無効","氷結耐性"], skill5:["","ジオ","暴れまくり","初段の恵体","マハブフ"],elements:["","","弱","無","","",""], type:'攻擊'            },
-            {                name:'オルトロス',     name_tw:'雙頭犬', name_en:'',          rarity:2,                grade:35, icon:'majyuu_orutorosu.png', skills:["アギラオ","丸かじり","マハラギ"], skill4:["金剛発破","ファイアブレス","リカーム","緊縛耐性","電撃耐性"], skill5:["","メクロズディ","ウィークディ","初段の剛力","ヒートウェイブ"],elements:["","無","弱","","","","耐"], type:'攻擊'            },
-            {                name:'ネコマタ',       name_tw:'貓怪', name_en:'',      rarity:1,                grade:14, icon:'majyuu_nekomata.png', skills:["チャームディ","マハザン",""], skill4:["スクカジャ","ザンマ","アムリタ","魅了耐性","氷結耐性"], skill5:["","マハブフ","乱れ狂い","暴れまくり","マハンマ"],elements:["","耐","弱","弱","耐","",""], type:'支援'            },
-            {                name:'イヌガミ',       name_tw:'犬神', name_en:'',        rarity:1,                grade:9, icon:'majyuu_inugami.png', skills:["アギ","パララディ",""], skill4:["マハラギ","アギラオ","ラクンダ","緊縛耐性","呪殺耐性"], skill5:["","地獄のマスク","初段の賢魔","メパララディ","ムド"],elements:["","耐","	弱","","","",""], type:'支援'            },
-            {                name:'カーシー',       name_tw:'犬妖', name_en:'',        rarity:1,                grade:3, icon:'majyuu_kasi.png', skills:["スラッシュ","アギ",""], skill4:["アムリタ","甘噛み","タルカジャ","一分の活泉","火炎耐性"], skill5:["","ポズムディ","地獄のマスク","初段の猛速","ディア"],elements:["","","","","","無",""], type:'支援'            }
+            {                name:'ケルベロス',     name_tw:'地獄犬', name_en:'Cerberus',          rarity:4,                grade:61, icon:'majyuu_keruberosu.png', skills:["アギダイン","地獄の獰爪","雄叫び"], skill4:["二分の活泉","ファイアブレス","マハデゾレトオン","追い打ち","物理耐性"], skill5:["","緊縛追撃","反撃","ヒートウェイブ","初段の猛速"],elements:["","反","弱","","","",""], type:'攻擊'            },
+            {                name:'アーマーン',     name_tw:'阿米特', name_en:'Ammut',          rarity:3,                grade:44, icon:'majyuu_aman.png', skills:["リベリオン","デスタッチ","狂乱の剛爪"], skill4:["二段の猛速","暴飲暴食","雄叫び","魅了無効","氷結耐性"], skill5:["","ジオ","暴れまくり","初段の恵体","マハブフ"],elements:["","","弱","無","","",""], type:'攻擊'            },
+            {                name:'オルトロス',     name_tw:'雙頭犬', name_en:'Orthrus',          rarity:2,                grade:35, icon:'majyuu_orutorosu.png', skills:["アギラオ","丸かじり","マハラギ"], skill4:["金剛発破","ファイアブレス","リカーム","緊縛耐性","電撃耐性"], skill5:["","メクロズディ","ウィークディ","初段の剛力","ヒートウェイブ"],elements:["","無","弱","","","","耐"], type:'攻擊'            },
+            {                name:'ネコマタ',       name_tw:'貓怪', name_en:'Nekomata',      rarity:1,                grade:14, icon:'majyuu_nekomata.png', skills:["チャームディ","マハザン",""], skill4:["スクカジャ","ザンマ","アムリタ","魅了耐性","氷結耐性"], skill5:["","マハブフ","乱れ狂い","暴れまくり","マハンマ"],elements:["","耐","弱","弱","耐","",""], type:'支援'            },
+            {                name:'イヌガミ',       name_tw:'犬神', name_en:'Inugami',        rarity:1,                grade:9, icon:'majyuu_inugami.png', skills:["アギ","パララディ",""], skill4:["マハラギ","アギラオ","ラクンダ","緊縛耐性","呪殺耐性"], skill5:["","地獄のマスク","初段の賢魔","メパララディ","ムド"],elements:["","耐","	弱","","","",""], type:'支援'            },
+            {                name:'カーシー',       name_tw:'犬妖', name_en:'Cu Sith',        rarity:1,                grade:3, icon:'majyuu_kasi.png', skills:["スラッシュ","アギ",""], skill4:["アムリタ","甘噛み","タルカジャ","一分の活泉","火炎耐性"], skill5:["","ポズムディ","地獄のマスク","初段の猛速","ディア"],elements:["","","","","","無",""], type:'支援'            }
         ]
     },
     {
         name:'妖精',
         name_tw:'妖精',
-        name_en:'',
+        name_en:'Fairy',
         formulas:[
             ['妖魔','神獸'],
             ['妖魔','天使'],
@@ -458,7 +458,7 @@ const ddd_stable = [
             ['魔王','靈鳥']      //180419 add
         ],
         devils:[
-            {                name:'オベロン',        name_tw:'奧伯隆',  name_en:'',      rarity:4,                grade:67, icon:'yousei_oberon.png', skills:["衝撃ブースタ","ザンダイン","マハマリカリオン"], skill4:["マカラカーン","ツイスター","メチャームディ","スクカオート","氷結耐性"], skill5:["","スラッシュ","初段の恵体","タルカジャ","吸魔"],elements:["","","","弱","吸","",""], type:"攻擊"            },
+            {                name:'オベロン',        name_tw:'奧伯隆',  name_en:'Oberon',      rarity:4,                grade:67, icon:'yousei_oberon.png', skills:["衝撃ブースタ","ザンダイン","マハマリカリオン"], skill4:["マカラカーン","ツイスター","メチャームディ","スクカオート","氷結耐性"], skill5:["","スラッシュ","初段の恵体","タルカジャ","吸魔"],elements:["","","","弱","吸","",""], type:"攻擊"            },
             {                name:'ティターニア',    name_tw:'提泰妮婭', name_en:'',           rarity:4,                grade:62, icon:'yousei_teitania.png', skills:["電撃ブースタ","マハジオンガ","マカジャマオン"], skill4:["二分の魔脈","ショックウェーブ","デゾレトオン","追い打ち","物理耐性"], skill5:["","タルンダ","マハムド","絶命剣","放電"],elements:["","","","","","耐","耐"], type:"支援"            },
             {                name:'セタンタ',        name_tw:'瑟坦特', name_en:'',       rarity:3,                grade:47, icon:'yousei_setanta.png', skills:["鬼神楽","千発千中","金剛発破"], skill4:["デスバウンド","ザンマ","タルカジャ","狂戦士","電撃耐性"], skill5:["","初段の恵体","ジオ","カースディ","ヒートウェイブ"],elements:["","","","弱","無","","弱"], type:"攻擊"           },
             {                name:'シルキー',        name_tw:'希路奇', name_en:'',       rarity:3,                grade:42, icon:'yousei_siruki.png', skills:["メウィークディ","虚弱無効","ブフダイン"], skill4:["メディラ","マハブフーラ","リディア","奈落のマスク","衝撃無効"], skill5:["","コロシの愉悦","なぎ払い","毒床歩き","野生の勘"],elements:["","弱","無","","","",""], type:"支援"            },
@@ -472,7 +472,7 @@ const ddd_stable = [
     {
         name:'墮天使',
         name_tw:'墮天使',
-        name_en:'',
+        name_en:'Fallen',
         formulas:[
             ['龍神','破壞神'],  //180713 add
             ['龍神','魔王'],    //180713 add
@@ -502,7 +502,7 @@ const ddd_stable = [
     {
         name:'妖鬼',
         name_tw:'妖鬼',
-        name_en:'',
+        name_en:'Brute',
         formulas:[
             ['妖魔','大天使'],
             ['魔獸','龍王'],
@@ -531,7 +531,7 @@ const ddd_stable = [
     {
         name:'鬼女',
         name_tw:'鬼女',
-        name_en:'',
+        name_en:'Femme',
         formulas:[
             ['龍神','夜魔'],    //180713 add
             ['妖魔','鬼神'],
@@ -560,7 +560,7 @@ const ddd_stable = [
     {
         name:'夜魔',
         name_tw:'夜魔',
-        name_en:'',
+        name_en:'Night',
         formulas:[
             ['龍神','妖精'],    //180713 add
             ['龍神','妖鬼'],    //180713 add
@@ -595,7 +595,7 @@ const ddd_stable = [
     {
         name:'邪神',
         name_tw:'邪神',
-        name_en:'',
+        name_en:'Vile',
         formulas:[
             ['天使','破壞神'],
             ['妖獸','魔獸'],
@@ -615,7 +615,7 @@ const ddd_stable = [
     {
         name:'妖獸',
         name_tw:'妖獸',
-        name_en:'',
+        name_en:'Wilder',
         formulas:[
             ['幻魔','大天使'],
             ['龍神','魔獸'],    //180713 add
@@ -646,7 +646,7 @@ const ddd_stable = [
     {
         name:'外道',
         name_tw:'外道',
-        name_en:'',
+        name_en:'Foul',
         formulas:[
             ['妖精','地母神'],
             ['鬼女','天使'],
@@ -669,7 +669,7 @@ const ddd_stable = [
     {
         name:'魔王',
         name_tw:'魔王',
-        name_en:'',
+        name_en:'Tyrant',
         formulas:[
             ['幻魔','魔神'],
             ['破壞神','大天使'],
@@ -694,7 +694,7 @@ const ddd_stable = [
     {
         name:'幽鬼',
         name_tw:'幽鬼',
-        name_en:'',
+        name_en:'Haunt',
         formulas:[
             ['魔獸','女神'],
             ['妖精','女神'],
@@ -723,7 +723,7 @@ const ddd_stable = [
     {
         name:'魔人',
         name_tw:'魔人',
-        name_en:'',
+        name_en:'Fiend',
         formulas:[],
         devils:[
             { name:'トランペッター', name_tw:'吹號者', name_en:'', rarity:5, grade:94, icon:'majin_toranpeta.png', skills:['コンセントレイト','ソウルドレイン','アポカリプス'], skill4:['マハマカジャオン','ジャッジメント','祟り','ラクカオート','物理耐性'], skill5:['','タルカジャ','マハブフーラ','空間殺法','火炎耐性'], elements:['','','','','','無','無'], type:'攻擊'},
@@ -734,7 +734,7 @@ const ddd_stable = [
     {
         name:'英雄',
         name_tw:'英雄',
-        name_en:'',
+        name_en:'Hero',
         formulas:[],
         devils:[
             { name:'ヨシツネ', name_tw:'義經', name_en:'', rarity:5, grade:97, icon:'eiyuu_yositune.png', skills:['空間殺法','勝利のチャクラ','八艘飛び'], skill4:['不屈の闘志','ギガントマキア','テトラカーン','物理ハイブースタ','物理吸収'], skill5:['','マハマカジャマ','マハブフダイン','殺風激','ウィンドブレス'], elements:['耐','','','','','無','無'], type:'攻擊'},
@@ -746,7 +746,7 @@ const ddd_stable = [
     {
         name:'怪異',
         name_tw:'怪異',
-        name_en:'',
+        name_en:'Rumor',
         formulas:[],
         devils:[
             { name:'かみおとこ', name_tw:'啃咬魔', name_en:'', rarity:2, grade:25, icon:'kaii_kamiotoko.png', skills:['ムドオン','狂い咲き','痺れかみつき'], skill4:['雄叫び','丸かじり','ディスコード','初段の強運','衝撃無効'], skill5:['','暴れまくり','ディア','マハンマ','コロシの愉悦'], elements:['','','','','','弱','反'], type:'支援'}
@@ -755,7 +755,7 @@ const ddd_stable = [
     {
         name:'珍獣',
         name_tw:'珍獸',
-        name_en:'',
+        name_en:'UMA',
         formulas:[],
         devils:[
             { name:'イナバシロウサギ', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'tinjyuu_inabasirousagi.png', skills:['デカジャ','メディア','ワナフーリ'], skill4:['リカーム','狂乱の剛爪','ディスコード','初段の猛速','火炎無効'], skill5:['','マハムド','マハンマ','メカースディ','メウィークディ'], elements:['','弱','','','','',''], type:'回復'},
@@ -765,7 +765,7 @@ const ddd_stable = [
     {
         name:'秘神',
         name_tw:'秘神',
-        name_en:'',
+        name_en:'Enigma',
         formulas:[],
         devils:[
             { name:'カーマ', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['スピードスター','デクンダ','魅了の神弓'], skill4:['空間殺法','刹那五月雨撃ち','静寂の祈り','スクカオート','火炎反射'], skill5:['','衝撃耐性','メポズムディ','毒針','タルンダ'], elements:['耐','弱','','','','耐',''], type:'支援'},
@@ -776,7 +776,7 @@ const ddd_stable = [
     {
         name:'狂神',
         name_tw:'狂神',
-        name_en:'',
+        name_en:'Zealot',
         formulas:[],
         devils:[
             { name:'アティス', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['不屈の闘志','リカームドラ','乱・かすみ斬り'], skill4:['勝利の息吹','マハブフダイン','ディアラマ','魅了無効','氷結無効'], skill5:['','二段の猛速','マハラギオン','毒床歩き','メチャームディ'], elements:['耐','','','','','',''], type:'攻擊'}
@@ -785,7 +785,7 @@ const ddd_stable = [
     {
         name:'威靈',
         name_tw:'威靈',
-        name_en:'',
+        name_en:'Entity',
         formulas:[],
         devils:[
             { name:'アリラト', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['メギドラ','奈落のマスク','貫反の霊圧'], skill4:['ディアラハン','ソウルドレイン','メディラマ','二分の魔脈','物理無効'], skill5:['','','','',''], elements:['耐','','','','','耐','耐'], type:'支援'}
@@ -1322,8 +1322,8 @@ const messages = {
         normal:'Normal',
         reverse_fusion: 'Reverse Fusion',
         normal_fusion: 'Normal Fusion',
-        devil: 'Devil',
-        setting:'Setting',
+        devil: 'Demon',
+        setting:'Settings',
         language: 'Language',
         downgrade_fusion: 'Downgrade Fusion',
         prevent_unload:'Prevent Unload',
@@ -1403,7 +1403,7 @@ const messages = {
 //////////////////////
 
 var Devil = function(devil){
-    
+
     this.name = devil.name;
     this.name_tw = devil.name_tw;
     this.name_en = devil.name_en;
@@ -1425,9 +1425,9 @@ var Devil = function(devil){
 };
 
 Devil.prototype.showName = function(){
-    
+
     var name;
-            
+
     switch(i18n.locale){
         case 'ja': name = this.name; break;
         case 'tw': name = this.name_tw; break;
@@ -1441,7 +1441,7 @@ Devil.prototype.showName = function(){
 }
 
 Devil.prototype.showGrade = function(){
-    
+
     return 'G.'+this.grade;
 }
 
@@ -1460,7 +1460,7 @@ Devil.prototype.showCost = function(rarity){
     return (this.cost/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 Devil.prototype.showCostPure = function(rarity){
-    
+
     /*
     var cost = this.pure_costs[rarity];
     */
@@ -1468,11 +1468,11 @@ Devil.prototype.showCostPure = function(rarity){
     return (this.cost_pure/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 Devil.prototype.fission_formulas = function(){
-    
+
     var devil = this;
-    
+
     var formulas = [];
-  
+
     this.race.formulas.forEach(function(f){
 
         var r1 = f[0];
@@ -1518,7 +1518,7 @@ Devil.prototype.fusion_formulas = function(){
         u.target.devils.forEach(function(target){
 
             var formulas = [];
-           
+
             u.r2s.forEach(function(r2){
 
                 var boms = [];
@@ -1539,12 +1539,12 @@ Devil.prototype.fusion_formulas = function(){
                 if(boms.length>0){
 
                     formulas.push({
-                        'name': d1.race.name + ' x ' + r2.name,
+                        'name': d1.race.name_en + ' x ' + r2.name_en,
                         'boms': boms
                     });
                 }
             });
-            
+
             if(formulas.length>0){
                 multi_formulas.push({
                     devil:target,
@@ -1563,8 +1563,7 @@ Devil.prototype.fusion_formulas = function(){
 ///////////////////
 
 var Race = function(race){
-    
-    this.name = race.name;
+    this.name = race.name_en
     this.formulas = race.formulas;
     this.devils = race.devils;
 }
@@ -1572,7 +1571,7 @@ var Race = function(race){
 Race.prototype.showName = function(){
 
     var name;
-            
+
     switch(i18n.locale){
         case 'ja': name = this.name; break;
         case 'tw': name = this.name_tw; break;
@@ -1601,7 +1600,7 @@ var Skill = function(skill){
     this.devils = [];
 }
 Skill.prototype.showName = function(){
-    
+
     switch(i18n.locale){
         case 'ja': name = this.name; break;
         case 'tw': name = this.name_tw; break;
@@ -1615,7 +1614,7 @@ Skill.prototype.showName = function(){
     return name;
 }
 Skill.prototype.showDesc = function(){
-   
+
     switch(i18n.locale){
         case 'ja': desc = this.desc; break;
         case 'tw': desc = this.desc_tw; break;
@@ -1626,7 +1625,7 @@ Skill.prototype.showDesc = function(){
         desc = this.desc;
     if(!desc)
         desc = '';
-   
+
     return desc;
 }
 Skill.prototype.showHint = function(){
@@ -1635,7 +1634,7 @@ Skill.prototype.showHint = function(){
     return hint;
 }
 Skill.prototype.addDevil = function(new_devil){
-    
+
     var devils = this.devils.filter(function(devil){
         return devil.name == new_devil.name;
     });
@@ -1656,7 +1655,7 @@ var SkillType = function(type){
     this.skills = type.skills;
 }
 SkillType.prototype.showName = function(){
-    
+
     switch(i18n.locale){
         case 'ja': name = this.name; break;
         case 'tw': name = this.name_tw; break;
@@ -1728,8 +1727,8 @@ DevilBom.prototype.init = function(){
         var d1 = this.child1.devil;
         var d2 = this.child2.devil;
 
-        this.order = (d1.rarity>d2.rarity) 
-            ? (d1.rarity*10+d2.rarity) 
+        this.order = (d1.rarity>d2.rarity)
+            ? (d1.rarity*10+d2.rarity)
             : (d2.rarity*10+d1.rarity);
         this.upgrade = (d1.rarity < devil.rarity && d2.rarity < devil.rarity);
         this.downgrade = (d1.rarity > devil.rarity || d2.rarity > devil.rarity);
@@ -1750,9 +1749,9 @@ DevilBom.prototype.init = function(){
         B = [0,0,0.3,0.45,60,75,1080,1260,14400,16200][Math.floor(devil.grade/10)];
 
         var mag = A + (devil.grade-g) * B;
-        
+
         this.mag = Math.floor(mag);
-       
+
         if(devil.rarity==5)         this.mag_pure = Math.floor(mag*0.7);
         else if(devil.rarity==4)    this.mag_pure = Math.floor(mag*0.5);
         else                        this.mag_pure = this.mag;
@@ -1787,7 +1786,7 @@ DevilBom.prototype.caculate_mag = function(layer){
     var mag = this.mag;
     var mag1 = (this.child1?this.child1.caculate_mag(layer+1):0);
     var mag2 = (this.child2?this.child2.caculate_mag(layer+1):0);
-    
+
     if(layer==1){
         if(mag1>mag2){  mag += mag1 + (this.child2?this.child2.caculate_mag_pure():0);   }
         else{           mag += (this.child1?this.child1.caculate_mag_pure():0) + mag2;   }
@@ -1799,7 +1798,7 @@ DevilBom.prototype.caculate_mag = function(layer){
 
 DevilBom.prototype.caculate_mag_pure = function(){
 
-    return this.mag_pure 
+    return this.mag_pure
         + (this.child1?this.child1.caculate_mag_pure():0)
         + (this.child2?this.child2.caculate_mag_pure():0);
 };
@@ -1859,7 +1858,7 @@ DevilBom.prototype.getCostPure = function(rarity){
     if(cost1==null||cost2==null)
         return null;
 
-    return (d1.rarity > rarity ? cost1 : 0) 
+    return (d1.rarity > rarity ? cost1 : 0)
         + (d2.rarity > rarity ? cost2 : 0)
         + this.mag_pure;
 };
@@ -1880,12 +1879,12 @@ DevilBom.bom = function(devil, d1, d2){
 /////////////////////////////
 
 function Resource(ddd, sss){
-    
+
     this.races = [];
     this.devils = [];
     this.skillTypes = [];
     this.skills = [];
-    
+
     var race_data = {};
     var devil_data = {};
     var devil_array = [];
@@ -1912,7 +1911,7 @@ function Resource(ddd, sss){
     //convert race to Race Class
     //convert devil to Devil Class
     ddd = ddd.map(function(race){
-        
+
         race.devils = race.devils.map(function(devil){
             return new Devil(devil);
         });
@@ -1976,7 +1975,7 @@ function Resource(ddd, sss){
         ddd.forEach(function(target){
 
             target.formulas.forEach(function(f){
-                
+
                 var r2 = null;
 
                 if(f[0].name==r1.name){
@@ -2027,7 +2026,7 @@ function Resource(ddd, sss){
     while( break_limit-- > 0 && !all_pass){
 
         all_pass = true;
-        
+
         devil_array.forEach(function(devil){
 
             var pass = true;
@@ -2038,24 +2037,24 @@ function Resource(ddd, sss){
                 var pure_cost = null;
 
                 if(devil.fission_boms.length){
-                    
+
                     devil.fission_boms.forEach(function(bom){
 
                         var l_pure_cost = bom.getCostPure(rarity);
-    
+
                         if(l_pure_cost==null) pass = false;
                         else if(pure_cost==null) pure_cost = l_pure_cost;
                         else pure_cost = pure_cost > l_pure_cost ? l_pure_cost : pure_cost;
 
                         var l_cost = bom.getCost(rarity);
-    
+
                         if(l_cost==null)    pass = false;
                         else if(cost==null) cost = l_cost;
                         else                cost = cost > l_cost ? l_cost : cost;
                     });
-    
+
                     if(devil.rarity > rarity){
-    
+
                         if(pure_cost!=null && devil.pure_costs[rarity] != pure_cost){
                             devil.pure_costs[rarity] = pure_cost;
                             pass = false;
@@ -2076,7 +2075,7 @@ function Resource(ddd, sss){
                     devil.costs[rarity] = 0;
                 }
             }
-         
+
             if(!pass)   all_pass = false;
         });
     }
@@ -2114,12 +2113,12 @@ function getCookie(name)
     var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
      if(arr != null) return unescape(arr[2]); return null;
 }
-  
+
 const i18n = new VueI18n({
     locale: 'en', // set locale
     messages: messages // set locale messages
 });
-  
+
 var app = new Vue({
     i18n:i18n,
     el:'#app',
@@ -2168,7 +2167,7 @@ var app = new Vue({
             {text:"4+5", state:true, active:false},
             {text:"5+5", state:true, active:false}
         ],
-        
+
         //setting
         lang_value:2,
         lang_options:[
@@ -2196,7 +2195,7 @@ var app = new Vue({
             {'name':'ロー', icon:'images/theme/law.png', state:false},
             {'name':'カオス', icon:'images/theme/chaos.png', state:false}
         ],
-        
+
         //timer
         now:null,
         gate_status_ch:false,
@@ -2205,11 +2204,11 @@ var app = new Vue({
         gate_timer_jp:null,
         moon_status:0,
         moon_timer:null,
-                
+
         //modal
 
         updated_at:'180719',
-         
+
         //important for update computed's getter from setter
         computed_counter:{
             builder_target:0,
@@ -2223,7 +2222,7 @@ var app = new Vue({
     created:function(){
 
         var c_lang_value = getCookie('lang_value');
-        
+
         if(c_lang_value!=null){
             this.lang_value = c_lang_value;
         }
@@ -2232,7 +2231,7 @@ var app = new Vue({
             case '0': i18n.locale='ja';break;
             case '1': i18n.locale='tw';break;
             case '2': i18n.locale='en';break;
-            default: i18n.locale='ja';break;
+            default: i18n.locale='en';break;
         }
 
         var c_allow_down_grade = getCookie('allow_down_grade');
@@ -2258,7 +2257,7 @@ var app = new Vue({
     },
     updated:function(){
 
-     
+
     },
     watch:{
         lang_value:function(){
@@ -2272,18 +2271,18 @@ var app = new Vue({
             setCookie('lang_value', this.lang_value);
         },
         allow_down_grade:function(){
-            
+
             this.update_builder_filter();
             this.update_fusion_filter();
-            
+
             setCookie('allow_down_grade', this.allow_down_grade);
         },
         allow_prevent_unload:function(){
-            
+
             setCookie('allow_prevent_unload', this.allow_prevent_unload);
         },
         resource_id:function(){
-            
+
             this.reset_builder();
             this.reset_fusion();
         }
@@ -2349,7 +2348,7 @@ var app = new Vue({
         },
         current_bom:{
             get:function(){
-                
+
                 this.computed_counter.current_bom;
                 return this.resource.current_bom;
             },
@@ -2431,12 +2430,12 @@ var app = new Vue({
             this.builder_options.forEach(function(option){
 
                 var boms = option.boms.filter(function(bom){
-                    
+
                     var r = bom.devil.rarity;
                     var r1 = bom.child1.devil.rarity;
                     var r2 = bom.child2.devil.rarity;
                     var temp = [r1,r2].sort();
-                    
+
                     r1 = temp[0];
                     r2 = temp[1];
 
@@ -2466,16 +2465,16 @@ var app = new Vue({
             this.fusion_options.forEach(function(option){
 
                 var formulas = [];
-                
+
                 option.formulas.forEach(function(formula){
 
                     var boms = formula.boms.filter(function(bom){
-                    
+
                         var r = bom.devil.rarity;
                         var r1 = bom.child1.devil.rarity;
                         var r2 = bom.child2.devil.rarity;
                         var temp = [r1,r2].sort();
-                        
+
                         r1 = temp[0];
                         r2 = temp[1];
 
@@ -2499,14 +2498,14 @@ var app = new Vue({
                     options.push({devil:option.devil,formulas:formulas,active:false});
                 }
             });
-            
+
             return options;
         }
     },
     methods:{
 
         route:function(name, skip_update_last){
-            
+
             var index_main = this.index_main;
             var index_fusion = this.index_fusion;
 
@@ -2532,7 +2531,7 @@ var app = new Vue({
             this.index_fusion = index_fusion;
         },
         isRoute:function(name){
-            
+
             var index_main = this.index_main;
             var index_fusion = this.index_fusion;
 
@@ -2577,8 +2576,8 @@ var app = new Vue({
             this.update_current_bom(null);
         },
         reset_builder:function(){
-            
-            this.builder_target = null; 
+
+            this.builder_target = null;
             this.update_current_bom(null);
         },
         builder_rarity_option_click:function(option){
@@ -2613,7 +2612,7 @@ var app = new Vue({
             }
         },
         update_builder:function(){
-            
+
             if(this.current_bom){
                 this.builder_options = this.current_bom.devil.fission_formulas();
             }
@@ -2623,7 +2622,7 @@ var app = new Vue({
             this.update_builder_filter();
         },
         update_builder_filter:function(){
-            
+
             var combs = {};
             var allow_down_grade = this.allow_down_grade;
 
@@ -2635,10 +2634,10 @@ var app = new Vue({
                     var r1 = bom.child1.devil.rarity;
                     var r2 = bom.child2.devil.rarity;
                     var temp = [r1,r2].sort();
-                    
+
                     r1 = temp[0];
                     r2 = temp[1];
-                    
+
                     if( allow_down_grade==0 && (r1>r||r2>r)){
                         //skip
                     }
@@ -2646,10 +2645,10 @@ var app = new Vue({
                         if(!combs[r1+'+'+r2])
                             combs[r1+'+'+r2] = r1+'+'+r2;
                     }
-                    
+
                 });
             });
-            
+
             this.builder_rarity_options.forEach(function(option){
 
                 if(combs[option.text]){
@@ -2709,7 +2708,7 @@ var app = new Vue({
             this.route('fusion.fusion');
         },
         reset_fusion: function(){
-            
+
             this.fusion_target = null;
             this.update_fusion();
         },
@@ -2717,7 +2716,7 @@ var app = new Vue({
 
             var combs = {};
             var allow_down_grade = this.allow_down_grade;
-            
+
             this.fusion_options.forEach(function(option){
                 option.formulas.forEach(function(formula){
                     formula.boms.forEach(function(bom){
@@ -2726,10 +2725,10 @@ var app = new Vue({
                         var r1 = bom.child1.devil.rarity;
                         var r2 = bom.child2.devil.rarity;
                         var temp = [r1,r2].sort();
-                        
+
                         r1 = temp[0];
                         r2 = temp[1];
-                        
+
                         if( allow_down_grade==0 && (r1>r||r2>r)){
                             //skip
                         }
@@ -2740,7 +2739,7 @@ var app = new Vue({
                     });
                 });
             });
-            
+
             this.fusion_rarity_options.forEach(function(option){
 
                 if(combs[option.text]){
@@ -2764,7 +2763,7 @@ var app = new Vue({
 
             if(sec==60)
                 this.update_now();
-            
+
             this.now.setSeconds( sec );
 
             var next, diff, h;
@@ -2878,7 +2877,7 @@ var app = new Vue({
             }
         },
         builder_auto_costdown:function(rarity, type){
-            
+
             this.auto_costdown(this.builder_target, rarity, type);
             this.update_current_bom(null);
         }
@@ -3023,7 +3022,7 @@ Vue.component('devil-bom-options',{
 });
 
 var window_before_unload = function(){
-    
+
     if(app.allow_prevent_unload=='1'){
         return true;
     }
