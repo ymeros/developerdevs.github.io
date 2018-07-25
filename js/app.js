@@ -23,12 +23,12 @@ const ddd_stable = [
             ['Fallen','Holy']
         ],
         devils:[
-            {   name:'Metatron',       name_tw:'梅塔特隆', name_en:'Metatron',   rarity:5,   grade:99,  icon:'daitensi_metatoron.png',  skills:['天罰','無限のチャクラ','シナイの神火'], skill4:['不屈の闘志','マハンマダイン','メシアライザー','二分の魔脈','電撃反射'], skill5:['','吸魔','マハポイズマ','マハジオダイン','マハラギダイン'], elements:['','Resist','Resist','Resist','Resist','Null',''], type:"攻擊"     },
-            {   name:'Michael',        name_tw:'米迦勒', name_en:'Michael',      rarity:5,    grade:90, icon:'daitensi_mikaeru.png', skills:["勝利の息吹","魂の審判","メギドラオン"], skill4:["食いしばり","裁きの雷火","メディアラハン","地獄のマスク","呪殺反射"], skill5:['','ティタノマキア','火炎耐性','ジオダイン','刹那五月雨撃ち'], elements:["","","Null","Null","","Repel","Weak"], type:"攻擊"     },
-            {   name:'Mastema',        name_tw:'莫塞瑪特', name_en:'Mastema',     rarity:5,    grade:83, icon:'daitensi_mansemato.png', skills:["審判の光","バインドボイス","憎悪の試練"], skill4:["二分の魔脈","アイスエイジ","マカジャマオン","破魔ハイブースタ","氷結反射"], skill5:['','殺風激','乱れ狂い','ハマダイン','電撃耐性'], elements:["","Weak","Null","","Repel","Repel",""], type:"攻擊"     },
-            {   name:'Azrael',      name_tw:'阿斯萊爾',    name_en:'Azrael', rarity:4,    grade:67, icon:'daitensi_azuraeru.png', skills:["テトラカーン","イービルアイ","アギダイン"], skill4:["マカラカーン","ムドダイン","祟り","マカラカシフト","呪殺無効"], skill5:["","甘噛み","デクンダ","野獣の勘","審判の光"], elements:["Resist","Resist","Weak","","","Repel","Resist"], type:"支援"            },
-            {   name:'Sandalphon',   name_tw:'聖達芬',     name_en:'Sandalphon', rarity:4,           grade:61, icon:'daitensi_sandaruhuon.png', skills:["ハマダイン","ザンダイン","スクカオート"], skill4:["アムリタ","マハンマオン","サマリカーム","野獣の勘","衝撃耐性"],skill5:["","メポズムディ","反撃","ラクンダ","メガトンプレス"], elements:["Resist","","","Resist","","Repel","Null"], type:"攻擊"         },
-            {   name:'Lailah',          name_tw:'萊拉',    name_en:'Lailah', rarity:3,           grade:43, icon:'daitensi_raira.png', skills:["メディラ","破魔ブースタ","マハンマオン"], skill4:["マカジャマオン","ハマダイン","リカーム","勝利の息吹","電撃耐性"],skill5:["","ザン","マハザン","ヒートウェイブ","ブフ"], elements:["","","","Weak","Resist","Null","Weak"], type:"攻擊"          }
+            {   name:'Metatron',       name_tw:'梅塔特隆', name_en:'Metatron',   rarity:5,   grade:99,  icon:'daitensi_metatoron.png',  skills:['Holy Wrath','Infinite Chakra','Sea of Chaos'], skill4:['Enduring Soul','Mahamadyne','Salvation','Mana Gain','Repel Elec'], skill5:['','Megido','Mapoisma','Maziodyne','Maragidyne'], elements:['','Resist','Resist','Resist','Resist','Null',''], type:"Attack"     },
+            {   name:'Michael',        name_tw:'米迦勒', name_en:'Michael',      rarity:5,    grade:90, icon:'daitensi_mikaeru.png', skills:["Life Aid","Soul Judgement","Pralaya"], skill4:["Endure","Thunderclap","Mediarahan","Hellish Mask","Repel Dark"], skill5:['','Titanomachia','Resist Fire','Ziodyne','Hurricane Slash'], elements:["","","Null","Null","","Repel","Weak"], type:"Attack"     },
+            {   name:'Mastema',        name_tw:'莫塞瑪特', name_en:'Mastema',     rarity:5,    grade:83, icon:'daitensi_mansemato.png', skills:["Judgement Light","Bind Voice","Ordeal of Hatred"], skill4:["Mana Gain","Ice Age","Makajamaon","Light Amp","Repel Ice"], skill5:['','Deadly Wind','Madness','Hamadyne','Resist Elec'], elements:["","Weak","Null","","Repel","Repel",""], type:"Attack"     },
+            {   name:'Azrael',      name_tw:'阿斯萊爾',    name_en:'Azrael', rarity:4,    grade:67, icon:'daitensi_azuraeru.png', skills:["Tetrakarn","Evil Gaze","Agidyne"], skill4:["Makarakarn","Mudodyne","Curse","Makara Shift","Null Dark"], skill5:["","Charm Bite","Dekunda","Wild Instinct","Judgement Light"], elements:["Resist","Resist","Weak","","","Repel","Resist"], type:"Support"            },
+            {   name:'Sandalphon',   name_tw:'聖達芬',     name_en:'Sandalphon', rarity:4,           grade:61, icon:'daitensi_sandaruhuon.png', skills:["Hamadyne","Zandyne","Auto-Sukukaja"], skill4:["Amrita","Mahamaon","Samarecarm","Wild Instinct","Resist Force"],skill5:["","Meposumudi","Counter","Rakunda","Megaton Press"], elements:["Resist","","","Resist","","Repel","Null"], type:"Attack"         },
+            {   name:'Lailah',          name_tw:'萊拉',    name_en:'Lailah', rarity:3,           grade:43, icon:'daitensi_raira.png', skills:["Mediara","Light Boost","Mahamaon"], skill4:["Makajamaon","Hamadyne","Recarm","Life Aid","Resist Elec"],skill5:["","Zan","Mazan","Heat Wave","Bufu"], elements:["","","","Weak","Resist","Null","Weak"], type:"Attack"          }
         ]
     },
     {
@@ -52,13 +52,13 @@ const ddd_stable = [
             ['Femme','Fairy']
         ],
         devils:[
-            {                name:'Lakshimi',         name_tw:'吉祥天', name_en:'Lakshimi',       rarity:5,                grade:85, icon:'megami_rakusyumi.png', skills:["ディアラハン","ツイスター","蓮華の舞"], skill4:["二分の魔脈","殺風激","マカラカーン","狂い咲き","衝撃無効"], skill5:["","甘噛み","ジオダイン","虚弱無効","毒針"], elements:["","","","","Weak","Resist","Null"], type:"支援"            },
-            {                name:'Ishtar',        name_tw:'伊絲塔', name_en:'Ishtar',       rarity:5,                grade:82, icon:'megami_isyutaru.png', skills:["マハンマオン","ディアラハン","ジャッジメント"], skill4:["サマリカーム","裁きの雷火","コンセントレイト","テトラカシフト","衝撃無効"], skill5:["","ゴッドハンド","毒床渡り","デクンダ","アギラオ"],elements:["","","","Null","Weak","Null","Weak"], type:"回復"            },
-            {                name:'Sarasvati',    name_tw:'妙音天女', name_en:'Sarasvati',           rarity:4,                grade:69, icon:'megami_sarasuvatei.png', skills:["マハブフーラ","バリア","静寂の祈り"], skill4:["ブフダイン","絶対零度","メディラマ","追い打ち","氷結反射"],skill5:["","メチャームディ","呪い耐性","ミナゴロシの愉悦","イービルアイ"], elements:["","Weak","Null","","","","Weak"], type:"支援"            },
-            {                name:'Pallas Athena',      name_tw:'帕拉斯雅典娜', name_en:'Pallas Athena',         rarity:4,                grade:62, icon:'megami_parasuatena.png', skills:["衝撃耐性","刹那五月雨撃ち","天罰"], skill4:["マカラカーン","モータルジハード","ディアラハン","勝利のチャクラ","火炎無効"],skill5:["","五月雨斬り","静寂の祈り","毒針","ツイスター"], elements:["Resist","","","","","Null","Weak"], type:"攻擊"            },
-            {                name:'Scathach',          name_tw:'斯卡哈', name_en:'Scathach',     rarity:3,                grade:50, icon:'megami_sukaaha.png', skills:["ザンマ","冥界破","ウィンドブレス"], skill4:["二分の活泉","狂乱の剛爪","ディアラマ","地獄のマスク","電撃耐性"],skill5:["","ブフ","反撃","自然治癒","暴れまくり"], elements:["","","","Weak","Null","Resist",""], type:"攻擊"            },
-            {                name:'Arianrhod',     name_tw:'阿麗安蘿德', name_en:'Arianrhod',          rarity:3,                grade:44, icon:'megami_arianrodo.png', skills:["ハマオン","メディア","怪力乱神"], skill4:["ディアラ","刹那五月雨撃ち","リディアコワース","千発千中","氷結無効"],skill5:["","マハジオ","チャームディ","初段の恵体","クロズディ"], elements:["Resist","","","","","Resist",""], type:"攻擊"            },
-            {                name:'Hathor',          name_tw:'哈索爾', name_en:'Hathor',     rarity:2,                grade:27, icon:'megami_htohoru.png', skills:["アムリタ","ザン","ジオンガ"], skill4:["メポズムディ","マハジオ","メチャームディ","一分の魔脈","衝撃無効"], skill5:["","ディア","初段の猛速","チャームディ","メウィークディ"],elements:["Weak","","Resist","","Resist","Resist",""], type:"回復"            }
+            {                name:'Lakshimi',         name_tw:'吉祥天', name_en:'Lakshimi',       rarity:5,                grade:85, icon:'megami_rakusyumi.png', skills:["Diarahan","Twister","蓮華の舞"], skill4:["Mana Gain","Deadly Wind","Makarakarn","Insanity","Null Force"], skill5:["","Charm Bite","Ziodyne","Null Weak","Toxic Sting"], elements:["","","","","Weak","Resist","Null"], type:"Support"            },
+            {                name:'Ishtar',        name_tw:'伊絲塔', name_en:'Ishtar',       rarity:5,                grade:82, icon:'megami_isyutaru.png', skills:["Mahamaon","Diarahan","Morning Star"], skill4:["Samarecarm","Thunderclap","Concentrate","Tetra Shift","Null Force"], skill5:["","God's Hand","Dmg Panel V II","Dekunda","Agilao"],elements:["","","","Null","Weak","Null","Weak"], type:"Recovery"            },
+            {                name:'Sarasvati',    name_tw:'妙音天女', name_en:'Sarasvati',           rarity:4,                grade:69, icon:'megami_sarasuvatei.png', skills:["Mabufula","Barrier","Silent Prayer"], skill4:["Bufudyne","Glacial Blast","Mediarama","Back Attack","Repel Ice"],skill5:["","Mecharmdi","Resist Curse","Savage Glee","Evil Gaze"], elements:["","Weak","Null","","","","Weak"], type:"Support"            },
+            {                name:'Pallas Athena',      name_tw:'帕拉斯雅典娜', name_en:'Pallas Athena',         rarity:4,                grade:62, icon:'megami_parasuatena.png', skills:["Resist Force","Hurricane Slash","Holy Wrath"], skill4:["Makarakarn","Mortal Jihad","Diarahan","Mana Aid","Null Fire"],skill5:["","Tempest Slash","Silent Prayer","Toxic Sting","Twister"], elements:["Resist","","","","","Null","Weak"], type:"Attack"            },
+            {                name:'Scathach',          name_tw:'斯卡哈', name_en:'Scathach',     rarity:3,                grade:50, icon:'megami_sukaaha.png', skills:["Zanma","Hades Blast","Wind Breath"], skill4:["Life Gain","Madness Nails","Diarama","Hellish Mask","Resist Elec"],skill5:["","Bufu","Counter","Fast Recovery","Rampage"], elements:["","","","Weak","Null","Resist",""], type:"Attack"            },
+            {                name:'Arianrhod',     name_tw:'阿麗安蘿德', name_en:'Arianrhod',          rarity:3,                grade:44, icon:'megami_arianrodo.png', skills:["Hamaon","Media","Berserker God"], skill4:["Diara","Hurricane Slash","Redia Break","Great Aim","Null Ice"],skill5:["","Mazio","Charmdi","Vitality Amp I","Closedi"], elements:["Resist","","","","","Resist",""], type:"Attack"            },
+            {                name:'Hathor',          name_tw:'哈索爾', name_en:'Hathor',     rarity:2,                grade:27, icon:'megami_htohoru.png', skills:["Amrita","Zan","Zionga"], skill4:["Meposumudi","Mazio","Mecharmdi","Mana Bonus","Null Force"], skill5:["","Dia","Agility Amp I","Charmdi","Meweakdi"],elements:["Weak","","Resist","","Resist","Resist",""], type:"Recovery"            }
         ]
     },
     {
@@ -80,12 +80,12 @@ const ddd_stable = [
             ['Tyrant','Yoma']
         ],
         devils:[
-            {                name:'Garuda',         name_tw:'迦樓羅', name_en:'Garuda',      rarity:5,                grade:80, icon:'reityou_garuda.png', skills:["ザンダイン","ラクンダオート","ヴァーハナ"], skill4:["三段の賢魔","マハラギダイン","フォッグブレス","狂戦士","破魔無效"], skill5:["","マハマカジャマ","アムリタ","火炎ブースタ","アギラオ"], elements:["","Repel","Weak","","Null","Resist",""], type:"攻擊"            },
-            {                name:'Yatagarasu',         name_tw:'八咫烏', name_en:'Yatagarasu',      rarity:4,                grade:66, icon:'reityou_yatagarasu.png', skills:["冥界破","スクンダオート","スピードスター"], skill4:["物理ブースタ","モータルジハード","スクカジャ","寸分の見切り","物理耐性"], skill5:["","マハラギオン","一分の魔脈","ウィンドブレス","緊縛耐性"], elements:["","Null","Weak","","","Resist",""], type:"支援"            },
-            {                name:'Feng Huang',         name_tw:'朱雀', name_en:'Feng Huang',      rarity:3,                grade:53, icon:'reityou_suzaku.png', skills:["アギラオ","タルンダオート","メディラマ"], skill4:["ダークゾーン無効","マハンマ","バインドボイス","毒床渡り","物理耐性"], skill5:['','コロシの愉悦','クロズディ','メパララディ','ジオ'], elements:["Weak","Null","Weak","","","",""], type:"回復"            },
-            {                name:'Jatayu',         name_tw:'佳塔由', name_en:'Jatayu',      rarity:3,                grade:44, icon:'reityou_jatayu.png', skills:["スクカジャ","スクカオート","デカジャ"], skill4:["スクンダ","デスバウンド","リカーム","野獣の勘","電撃耐性"],skill5:["","マハザン","乱れ狂い","メポズムディ","カースディ"], elements:["","Resist","","Weak","Drain","Null","Weak"], type:"支援"            },
-            {                name:'Sparna',         name_tw:'金翅鳥', name_en:'Sparna',      rarity:2,                grade:28, icon:'reityou_suparuna.png', skills:["ジオ","金剛発破","ラクカジャ"], skill4:["ディアラ","吸魔","タルンダ","地獄のマスク","電撃無効"],skill5:["","クロズディ","百発百中","ムド","突撃"], elements:["","","","Resist","","Resist","Weak"], type:"攻擊"            },
-            {                name:'Hamsa',         name_tw:'漢薩', name_en:'Hamsa',      rarity:2,                grade:24, icon:'reityou_hansa.png', skills:["ハマ","ジオンガ","スクカジャ"], skill4:["マカジャマ","マハンマ","メディア","スピードスター","氷結耐性"],skill5:["","ディア","ジオ","ポズムディ","なぎ払い"], elements:["","","","Resist","","","Weak"], type:"支援"            }
+            {                name:'Garuda',         name_tw:'迦樓羅', name_en:'Garuda',      rarity:5,                grade:80, icon:'reityou_garuda.png', skills:["Zandyne","Auto-Rakunda","Vahana"], skill4:["Magic Amp III","Maragidyne","Fog Breath","Berserker","破魔無效"], skill5:["","Mamakajam","Amrita","Fire Boost","Agilao"], elements:["","Repel","Weak","","Null","Resist",""], type:"Attack"            },
+            {                name:'Yatagarasu',         name_tw:'八咫烏', name_en:'Yatagarasu',      rarity:4,                grade:66, icon:'reityou_yatagarasu.png', skills:["Hades Blast","Auto-Sukunda","Speedster"], skill4:["Phys Boost","Mortal Jihad","Sukukaja","Evade","Resist Phys"], skill5:["","Maragion","Mana Bonus","Wind Breath","Resist Bind"], elements:["","Null","Weak","","","Resist",""], type:"Support"            },
+            {                name:'Feng Huang',         name_tw:'朱雀', name_en:'Feng Huang',      rarity:3,                grade:53, icon:'reityou_suzaku.png', skills:["Agilao","Auto-Tarunda","Mediarama"], skill4:["Void Dark Zones","Mahama","Bind Voice","Dmg Panel V II","Resist Phys"], skill5:['','Bloody Glee','Closedi','Meparaladi','Zio'], elements:["Weak","Null","Weak","","","",""], type:"Recovery"            },
+            {                name:'Jatayu',         name_tw:'佳塔由', name_en:'Jatayu',      rarity:3,                grade:44, icon:'reityou_jatayu.png', skills:["Sukukaja","Auto-Sukukaja","Dekaja"], skill4:["Sukunda","Darkbound","Recarm","Wild Instinct","Resist Elec"],skill5:["","Mazan","Madness","Meposumudi","Cursedi"], elements:["","Resist","","Weak","Drain","Null","Weak"], type:"Support"            },
+            {                name:'Sparna',         name_tw:'金翅鳥', name_en:'Sparna',      rarity:2,                grade:28, icon:'reityou_suparuna.png', skills:["Zio","Vajra Blast","Rakukaja"], skill4:["Diara","Megido","Tarunda","Hellish Mask","Null Elec"],skill5:["","Closedi","Good Aim","Mudo","Lunge"], elements:["","","","Resist","","Resist","Weak"], type:"Attack"            },
+            {                name:'Hamsa',         name_tw:'漢薩', name_en:'Hamsa',      rarity:2,                grade:24, icon:'reityou_hansa.png', skills:["Hama","Zionga","Sukukaja"], skill4:["Makajam","Mahama","Media","Speedster","Resist Ice"],skill5:["","Dia","Zio","Posumudi","Mow Down"], elements:["","","","Resist","","","Weak"], type:"Support"            }
         ]
     },
     {
@@ -106,12 +106,12 @@ const ddd_stable = [
             ['Vile','Beast']
         ],
         devils:[
-            {                name:'Vishnu',      name_tw:'毘濕奴', name_en:'Vishnu',         rarity:5,                grade:97, icon:'majin_visyunu.png', skills:["ブフダイン","天罰","アヴァターラ"], skill4:["ムドダイン","メギドラオン","常世の祈り","虚弱無効","呪殺反射"], skill5:["","モータルジハード","魔封耐性","ウィンドブレス","ハマオン"],elements:["","Weak","Drain","","","Null","Null"], type:"攻擊"            },
-            {                name:'Amaterasu',      name_tw:'天照', name_en:'Amaterasu',         rarity:5,                grade:82, icon:'majin_amaterasu.png', skills:["マハラギオン","タルンダ","天孫降臨"], skill4:["スクカオート","トリスアギオン","メディアラハン","三段の賢魔","電撃無効"], skill5:["","ジュオン","魅了無効","ラクカジャ","スクンダ"],elements:["","Repel","","Weak","","Resist",""], type:"支援"            },
-            {                name:'Odin',      name_tw:'奧丁', name_en:'Odin',         rarity:4,                grade:73, icon:'majin_odein.png', skills:["氷結耐性","ショックウェーブ","グングニル"], skill4:["無慈悲な一撃","メガトンレイド","タルカジャ","千発千中","呪殺無効"], skill5:["","イービルアイ","マハラギ","ブフーラ","ポズムディ"],elements:["","","","Repel","Weak","Resist","Resist"], type:"攻擊"            },
-            {                name:'Prometheus',    name_tw:'普羅米修斯', name_en:'Prometheus',           rarity:4,                grade:67, icon:'majin_purometeusu.png', skills:["火炎ブースタ","マカラカシフト","アギダイン"], skill4:["三段の恵体","マハラギダイン","リカームドラ","無限のチャクラ","火炎吸収"], skill5:["","電撃耐性","マハザンマ","乱れ狂い","毒耐性"],elements:["","Null","Weak","","","Resist",""], type:"攻擊"            },
-            {                name:'Mitra',         name_tw:'密特拉', name_en:'Mitra',      rarity:3,                grade:55, icon:'majin_mitora.png', skills:["マハジュ","バリアコワース","イービルアイ"], skill4:["メギド","マハンマオン","フォッグブレス","狂い咲き","衝撃耐性"], skill5:["","メディア","ディア","マハジオ","初段の恵体"],elements:["Repel","","Weak","","","Resist","Resist"], type:"支援"            },
-            {                name:'Horus',         name_tw:'荷魯斯', name_en:'Horus',      rarity:3,                grade:49, icon:'majin_horusu.png', skills:["ディアラマ","デクンダ","マハンマ"], skill4:["二分の魔脈","ハマダイン","アムリタ","破魔ブースタ","電撃無効	"], skill5:["","カースディ","パララディ","マハラギ","カースディ"],elements:["Resist","","","","","Repel","Weak"], type:"回復"            }
+            {                name:'Vishnu',      name_tw:'毘濕奴', name_en:'Vishnu',         rarity:5,                grade:97, icon:'majin_visyunu.png', skills:["Bufudyne","Holy Wrath","Avatar"], skill4:["Mudodyne","Pralaya","Prayer","Null Weak","Repel Dark"], skill5:["","Mortal Jihad","Resist Mute","Wind Breath","Hamaon"],elements:["","Weak","Drain","","","Null","Null"], type:"Attack"            },
+            {                name:'Amaterasu',      name_tw:'天照', name_en:'Amaterasu',         rarity:5,                grade:82, icon:'majin_amaterasu.png', skills:["Maragion","Tarunda","Tenson Kourin"], skill4:["Auto-Sukukaja","Ragnarok","Mediarahan","Magic Amp III","Null Elec"], skill5:["","Juon","Null Charm","Rakukaja","Sukunda"],elements:["","Repel","","Weak","","Resist",""], type:"Support"            },
+            {                name:'Odin',      name_tw:'奧丁', name_en:'Odin',         rarity:4,                grade:73, icon:'majin_odein.png', skills:["Resist Ice","Mjolnir","Gungnir"], skill4:["Merciless Blow","Megaton Raid","Tarukaja","Great Aim","Null Dark"], skill5:["","Evil Gaze","Maragi","Bufula","Posumudi"],elements:["","","","Repel","Weak","Resist","Resist"], type:"Attack"            },
+            {                name:'Prometheus',    name_tw:'普羅米修斯', name_en:'Prometheus',           rarity:4,                grade:67, icon:'majin_purometeusu.png', skills:["Fire Boost","Makara Shift","Agidyne"], skill4:["Vitality Amp III","Maragidyne","Recarmdra","Infinite Chakra","Drain Fire"], skill5:["","Resist Elec","Mazanma","Madness","Resist Poison"],elements:["","Null","Weak","","","Resist",""], type:"Attack"            },
+            {                name:'Mitra',         name_tw:'密特拉', name_en:'Mitra',      rarity:3,                grade:55, icon:'majin_mitora.png', skills:["Maju","Barrier Break","Evil Gaze"], skill4:["Megidola","Mahamaon","Fog Breath","Insanity","Resist Force"], skill5:["","Media","Dia","Mazio","Vitality Amp I"],elements:["Repel","","Weak","","","Resist","Resist"], type:"Support"            },
+            {                name:'Horus',         name_tw:'荷魯斯', name_en:'Horus',      rarity:3,                grade:49, icon:'majin_horusu.png', skills:["Diarama","Dekunda","Mahama"], skill4:["Mana Gain","Hamadyne","Amrita","Light Boost","Null Elec	"], skill5:["","Cursedi","Paraladi","Maragi","Cursedi"],elements:["Resist","","","","","Repel","Weak"], type:"Recovery"            }
         ]
     },
     {
@@ -133,11 +133,11 @@ const ddd_stable = [
             ['Foul','Holy']
         ],
         devils:[
-            {                name:'Barong',         name_tw:'巴隆', name_en:'Barong',      rarity:5,                grade:84, icon:'sinjyuu_baron.png', skills:["マハジオンガ","ショックウェーブ","バロンダンス"], skill4:["食いしばり","真理の雷","リカームドラ","電撃ハイブースタ","呪殺無効"], skill5:["","ブフダイン","マハシバブー","二段の恵体","マカジャマ"],elements:["Resist","","","Null","Weak","Null","Weak"],type:"支援"           },
-            {                name:'Anubis',       name_tw:'阿努比斯', name_en:'Anubis',        rarity:4,                grade:70, icon:'sinjyuu_anubisu.png', skills:["呪殺ブースタ","ムドダイン","審判の光"], skill4:["デクンダ","煉獄","テトラカーン","無慈悲な一撃","呪殺無効"], skill5:["","吸魔","ポイズマ","ディア","アギラオ"],elements:["","","","","","Null","Resist"],type:"攻擊"            },
-            {                name:'Chimera',       name_tw:'奇美拉', name_en:'Chimera',        rarity:3,                grade:49, icon:'sinjyuu_kimaira.png', skills:["マカラコワース","ジオンガ","狂乱の剛爪"], skill4:["怪力乱神","マハジオンガ","雄叫び","猛反撃","衝撃耐性"], skill5:["","パララディ","マハンマ","メディア","自然治癒"],elements:["","Resist","","Resist","Weak","",""],type:"支援"            },
-            {                name:'Makami',         name_tw:'真神', name_en:'Makami',      rarity:3,                grade:41, icon:'sinjyuu_makami.png', skills:["メパララディ","緊縛無効","ディアラマ"], skill4:["アムリタ","怪力乱神","サマリカーム","回復ブースタ","電撃無効"], skill5:["","パララディ","マハザン","ディア","アギ"],elements:["","","","","","Resist","Weak"],type:"回復"            },
-            {                name:'Shiisaa',       name_tw:'獅爺', name_en:'Shiisaa',        rarity:2,                grade:33, icon:'sinjyuu_sisa.png' , skills:["シバブー","ザン","ウィンドブレス"], skill4:["バインドクロー","マハザン","バリアコワース","緊縛追撃","氷結耐性"], skill5:["","ブフ","アギ","百発百中","ジオ"],elements:["","Resist","","","Resist","Resist",""],type:"支援"           }
+            {                name:'Barong',         name_tw:'巴隆', name_en:'Barong',      rarity:5,                grade:84, icon:'sinjyuu_baron.png', skills:["Mazionga","Mjolnir","Barong Dance"], skill4:["Endure","Thunder Reign","Recarmdra","Elec Amp","Null Dark"], skill5:["","Bufudyne","Mashibaboo","Vitality Amp II","Makajam"],elements:["Resist","","","Null","Weak","Null","Weak"],type:"Support"           },
+            {                name:'Anubis',       name_tw:'阿努比斯', name_en:'Anubis',        rarity:4,                grade:70, icon:'sinjyuu_anubisu.png', skills:["Dark Boost","Mudodyne","Judgement Light"], skill4:["Dekunda","Purgatory","Tetrakarn","Merciless Blow","Null Dark"], skill5:["","Megido","Poisma","Dia","Agilao"],elements:["","","","","","Null","Resist"],type:"Attack"            },
+            {                name:'Chimera',       name_tw:'奇美拉', name_en:'Chimera',        rarity:3,                grade:49, icon:'sinjyuu_kimaira.png', skills:["Makara Break","Zionga","Madness Nails"], skill4:["Berserker God","Mazionga","War Cry","Retaliate","Resist Force"], skill5:["","Paraladi","Mahama","Media","Fast Recovery"],elements:["","Resist","","Resist","Weak","",""],type:"Support"            },
+            {                name:'Makami',         name_tw:'真神', name_en:'Makami',      rarity:3,                grade:41, icon:'sinjyuu_makami.png', skills:["Meparaladi","Null Bind","Diarama"], skill4:["Amrita","Berserker God","Samarecarm","Heal Boost","Null Elec"], skill5:["","Paraladi","Mazan","Dia","Agi"],elements:["","","","","","Resist","Weak"],type:"Recovery"            },
+            {                name:'Shiisaa',       name_tw:'獅爺', name_en:'Shiisaa',        rarity:2,                grade:33, icon:'sinjyuu_sisa.png' , skills:["Shibaboo","Zan","Wind Breath"], skill4:["Binding Claw","Mazan","Barrier Break","Deadly Bondage","Resist Ice"], skill5:["","Bufu","Agi","Good Aim","Zio"],elements:["","Resist","","","Resist","Resist",""],type:"Support"           }
         ]
     },
     {
@@ -162,12 +162,12 @@ const ddd_stable = [
             ['Haunt','Fairy']
         ],
         devils:[
-            {                name:'Sphinx',     name_tw:'斯芬克斯', name_en:'Sphinx',          rarity:4,                grade:76, icon:'seijyuu_sufuinkusu.png', skills:["バリア","テトラカシフト","マハンマオン"], skill4:["モータルジハード","ジオダイン","メディアラハン","ラクカオート","氷結無効"], skill5:["","ジュ","メガトンプレス","氷結耐性","イービルアイ"],elements:["","Null","Weak","","","Repel","Weak"], type:"支援"            },
-            {                name:'Sleipnir',     name_tw:'八腳天馬', name_en:'Sleipnir',          rarity:4,                grade:62, icon:'seijyuu_sureipuniru.png', skills:["破魔ブースタ","マハンマオン","スピードスター"], skill4:["サマリカーム","ハマダイン","ディアラハン","三段の猛速","破魔無効"], skill5:["","ファイアブレ","暴飲暴食","ツイスター","マハシバブオン"],elements:["","Weak","","","","Resist",""],type:"攻擊"            },
-            {                name:'Baihu',         name_tw:'白虎', name_en:'Baihu',      rarity:3,                grade:48, icon:'seijyuu_byako.png', skills:["スクンダ","ジオンガ","電撃ブースタ"], skill4:["狂乱の剛爪","マハジオンガ","コンセントレイト","威圧の構え","物理耐性"], skill5:["","乱れ狂い","マハブフ","精神漏出","毒床歩き"],elements:["","","","Null","Weak","",""],type:"攻擊"            },
-            {                name:'Apis',           name_tw:'阿庇斯', name_en:'Apis',    rarity:3,                grade:44, icon:'seijyuu_apisu.png', skills:["タルカジャ","マハンマ","マカラカシフト"], skill4:["メディラ","捨て身の一撃","ディスコード","三分の活泉","呪殺耐性"], skill5:["","アギ","ポイズマオン","メディア","クロズディ"],elements:["","","","","","Resist","Weak"],type:"支援"            },
-            {                name:'Unicorn',       name_tw:'獨角獸', name_en:'Unicorn',        rarity:3,                grade:42, icon:'seijyuu_unicon.png', skills:["メチャームディ","魅了無効","マハザン"], skill4:["ブフダイン","絶対零度","メクロズディ","虐殺者","氷結耐性"], skill5:["","アギ","初段の賢魔","カースディ","なぎ払い"],elements:["","","","Weak","","Null","Null"],type:"回復"            },
-            {                name:'Heqet',           name_tw:'海奎特', name_en:'Heqet',    rarity:2,                grade:27, icon:'seijyuu_heketo.png', skills:["メディア","マハジオ","メポズムディ"], skill4:["ジオンガ","放電","デクンダ","二分の活泉","火炎耐性"], skill5:["","メチャームディ","なぎ払い","見切り","百発百中"],elements:["","","","Resist","Weak","",""],type:"回復"            }
+            {                name:'Sphinx',     name_tw:'斯芬克斯', name_en:'Sphinx',          rarity:4,                grade:76, icon:'seijyuu_sufuinkusu.png', skills:["Barrier","Tetra Shift","Mahamaon"], skill4:["Mortal Jihad","Ziodyne","Mediarahan","Auto-Rakukaja","Null Ice"], skill5:["","Ju","Megaton Press","Resist Ice","Evil Gaze"],elements:["","Null","Weak","","","Repel","Weak"], type:"Support"            },
+            {                name:'Sleipnir',     name_tw:'八腳天馬', name_en:'Sleipnir',          rarity:4,                grade:62, icon:'seijyuu_sureipuniru.png', skills:["Light Boost","Mahamaon","Speedster"], skill4:["Samarecarm","Hamadyne","Diarahan","Agility Amp III","Null Light"], skill5:["","ファイアブレ","Binge Eating","Twister","Mashibabooon"],elements:["","Weak","","","","Resist",""],type:"Attack"            },
+            {                name:'Baihu',         name_tw:'白虎', name_en:'Baihu',      rarity:3,                grade:48, icon:'seijyuu_byako.png', skills:["Sukunda","Zionga","Elec Boost"], skill4:["Madness Nails","Mazionga","Concentrate","Intimidating Stance","Resist Phys"], skill5:["","Madness","Mabufu","Judgement","Dmg Panel V I"],elements:["","","","Null","Weak","",""],type:"Attack"            },
+            {                name:'Apis',           name_tw:'阿庇斯', name_en:'Apis',    rarity:3,                grade:44, icon:'seijyuu_apisu.png', skills:["Tarukaja","Mahama","Makara Shift"], skill4:["Mediara","Power Hit","Discord","Life Surge","Resist Dark"], skill5:["","Agi","Poismaon","Media","Closedi"],elements:["","","","","","Resist","Weak"],type:"Support"            },
+            {                name:'Unicorn',       name_tw:'獨角獸', name_en:'Unicorn',        rarity:3,                grade:42, icon:'seijyuu_unicon.png', skills:["Mecharmdi","Null Charm","Mazan"], skill4:["Bufudyne","Glacial Blast","Meclosedi","Serial Killer","Resist Ice"], skill5:["","Agi","Magic Amp I","Cursedi","Mow Down"],elements:["","","","Weak","","Null","Null"],type:"Recovery"            },
+            {                name:'Heqet',           name_tw:'海奎特', name_en:'Heqet',    rarity:2,                grade:27, icon:'seijyuu_heketo.png', skills:["Media","Mazio","Meposumudi"], skill4:["Zionga","Shock","Dekunda","Life Gain","Resist Fire"], skill5:["","Mecharmdi","Mow Down","Dodge","Good Aim"],elements:["","","","Resist","Weak","",""],type:"Recovery"            }
         ]
     },
     {
@@ -194,12 +194,12 @@ const ddd_stable = [
             ['Haunt','Deity']
         ],
         devils:[
-            {                name:'Cu Chulainn',    name_tw:'庫夫林', name_en:'Cu Chulainn',           rarity:5,                grade:81, icon:'genma_kuhurin.png', skills:["ミナゴロシの愉悦","マハザンダイン","ゲイボルグ"], skill4:["リベリオン","殺風激","リカームドラ","衝撃貫通","呪殺反射"], skill5:["","メギドラ","マカジャマ","デスバウンド","アイスエイジ"],elements:["Resist","","","","Null","",""],type:"攻擊"            },
-            {                name:'Tsukuyomi',          name_tw:'月讀', name_en:'Tsukuyomi',     rarity:4,                grade:67, icon:'genma_tukuyomi.png', skills:["一分の魔脈","ザンマ","月の加護"], skill4:["マハザン","ムドオン","リカーム","二分の活泉","火炎吸収"], skill5:["","スクカジャ","自然治癒","ハマオン","ジオンガ"],elements:["Weak","Null","Null","Resist","Resist","",""], type:"支援"            },
-            {                name:'Hanuman',        name_tw:'哈奴曼', name_en:'Hanuman',       rarity:4,                grade:60, icon:'genma_hanuman.png', skills:["物理耐性","空間殺法","マハザンマ"], skill4:["狂乱の剛爪","ザンダイン","挑発","猛反撃","衝撃反射"], skill5:["","初段の恵体","イービルアイ","審判の光","虚弱耐性"],elements:["","","","Weak","Null","",""],type:"攻擊"            },
-            {                name:'Kresnik',      name_tw:'克雷斯尼克', name_en:'Kresnik',         rarity:3,                grade:49, icon:'genma_kurusuniku.png', skills:["スクンダ","電撃無効","審判の光"], skill4:["勝利のチャクラ","五月雨斬","リベリオ","無慈悲な一撃","呪殺無効"], skill5:["","初段の恵体","マハムド","猛反撃","百発百中"],elements:["","","","","Weak","Null",""],type:"攻擊"            },
-            {                name:'Tam Lin',        name_tw:'塔姆林', name_en:'Tam Lin',       rarity:3,                grade:40, icon:'genma_tamurin.png', skills:["自然治癒","ウィンドブレス","暗夜剣"], skill4:["ハマダイン","デスバウンド","メディラ","テトラカシフト","火炎耐性"], skill5:["","マハザン","マハラギ","突撃","スラッシュ"],elements:["","","","","","Resist","Weak"],type:"攻擊"            },
-            {                name:'Kurama Tengu',      name_tw:'鞍馬天狗', name_en:'Kurama Tengu',         rarity:2,                grade:27, icon:'genma_muramatengu.png', skills:["スクカジャ","ハマ","マハザン"], skill4:["マハンマ","ザンマ","スクンダ","毒床渡り","火炎耐性"], skill5:["","メディア","マハブフ","パララディ","メチャームディ"],elements:["","","","Weak","Null","",""], type:"攻擊"           }
+            {                name:'Cu Chulainn',    name_tw:'庫夫林', name_en:'Cu Chulainn',           rarity:5,                grade:81, icon:'genma_kuhurin.png', skills:["Savage Glee","Mazandyne","Gae Bolg"], skill4:["Rebellion","Deadly Wind","Recarmdra","Force Pierce","Repel Dark"], skill5:["","Megidolaon","Makajam","Darkbound","Ice Age"],elements:["Resist","","","","Null","",""],type:"Attack"            },
+            {                name:'Tsukuyomi',          name_tw:'月讀', name_en:'Tsukuyomi',     rarity:4,                grade:67, icon:'genma_tukuyomi.png', skills:["Mana Bonus","Zanma","Lunar Blessing"], skill4:["Mazan","Mudoon","Recarm","Life Gain","Drain Fire"], skill5:["","Sukukaja","Fast Recovery","Hamaon","Zionga"],elements:["Weak","Null","Null","Resist","Resist","",""], type:"Support"            },
+            {                name:'Hanuman',        name_tw:'哈奴曼', name_en:'Hanuman',       rarity:4,                grade:60, icon:'genma_hanuman.png', skills:["Resist Phys","Vorpal Blade","Mazanma"], skill4:["Madness Nails","Zandyne","Taunt","Retaliate","Repel Force"], skill5:["","Vitality Amp I","Evil Gaze","Judgement Light","Resist Weak"],elements:["","","","Weak","Null","",""],type:"Attack"            },
+            {                name:'Kresnik',      name_tw:'克雷斯尼克', name_en:'Kresnik',         rarity:3,                grade:49, icon:'genma_kurusuniku.png', skills:["Sukunda","Null Elec","Judgement Light"], skill4:["Mana Aid","五月雨斬","リベリオ","Merciless Blow","Null Dark"], skill5:["","Vitality Amp I","Mamudo","Retaliate","Good Aim"],elements:["","","","","Weak","Null",""],type:"Attack"            },
+            {                name:'Tam Lin',        name_tw:'塔姆林', name_en:'Tam Lin',       rarity:3,                grade:40, icon:'genma_tamurin.png', skills:["Fast Recovery","Wind Breath","Dark Sword"], skill4:["Hamadyne","Darkbound","Mediara","Tetra Shift","Resist Fire"], skill5:["","Mazan","Maragi","Lunge","Cleave"],elements:["","","","","","Resist","Weak"],type:"Attack"            },
+            {                name:'Kurama Tengu',      name_tw:'鞍馬天狗', name_en:'Kurama Tengu',         rarity:2,                grade:27, icon:'genma_muramatengu.png', skills:["Sukukaja","Hama","Mazan"], skill4:["Mahama","Zanma","Sukunda","Dmg Panel V II","Resist Fire"], skill5:["","Media","Mabufu","Paraladi","Mecharmdi"],elements:["","","","Weak","Null","",""], type:"Attack"           }
         ]
     },
     {
@@ -225,11 +225,11 @@ const ddd_stable = [
             ['Haunt','Megami']
         ],
         devils:[
-            {                name:'Shiva',           name_tw:'濕婆', name_en:'Shiva',    rarity:5,                grade:93, icon:'hakaisin_siva.png' , skills:["虐殺者","空間殺法","プララヤ"], skill4:["魅了無効","ゴッドハンド","リベリオン","寸分の見切り","氷結吸収"], skill5:["","デゾレトオン","アイスブレス","ブフーラ","マハポイズマ"],elements:["Resist","Drain","Weak","Drain","","",""],type:"攻擊"           },
-            {                name:'Susano-o',         name_tw:'素盞嗚尊', name_en:'Susano-o',      rarity:5,                grade:82, icon:'hakaisin_susanoo.png', skills:["暗殺者","モータルジハード","天叢雲剣"], skill4:["三段の剛力","殺風激","チャージ","無慈悲な一撃","電撃吸収"], skill5:["","ディアラハン","地獄の業火","フォッグブレス","ハマダイン"],elements:["Resist","Weak","","","Drain","",""],type:"攻擊"            },
-            {                name:'Beiji-Weng',    name_tw:'北斗星君', name_en:'Beiji-Weng',           rarity:4,                grade:69, icon:'hakaisin_hokutoseikun.png', skills:["氷結ブースタ","ブフダイン","絶対零度"], skill4:["リカーム","マハブフダイン","バリア","呪い無効","氷結反射"], skill5:["","破魔耐性","マハザン","ブフ","乱れ狂い"],elements:["","Weak","Null","","","Resist",""],type:"攻擊"            },
-            {                name:'Wu Kong',  name_tw:'齊天大聖', name_en:'Wu Kong',             rarity:4,                grade:61, icon:'hakaisin_seitentaisei.png', skills:["物理ブースタ","挑発","鬼神楽"], skill4:["チャージ","ティタノマキア","アウトブレイク","三段の恵体","物理無効"], skill5:["","裁きの雷火","ヘルズアイ","マハラギ","毒追撃"],elements:["Resist","Resist","","Weak","Resist","Resist","Weak"],type:"攻擊"            },
-            {                name:'Ares',           name_tw:'阿瑞斯', name_en:'Ares',    rarity:3,                grade:44, icon:'hakaisin_aresu.png', skills:["金剛発破","反撃","地獄の業火"], skill4:["デクンダ","怪力乱神","チャージ","コロシの愉悦","物理耐性"], skill5:["","地獄のマスク","セクシーダンス","シバブオン","暴れまくり"],elements:["","","","","","Resist","Weak"],type:"攻擊"            }
+            {                name:'Shiva',           name_tw:'濕婆', name_en:'Shiva',    rarity:5,                grade:93, icon:'hakaisin_siva.png' , skills:["Serial Killer","Vorpal Blade","Apocalypse"], skill4:["Null Charm","God's Hand","Rebellion","Evade","Drain Ice"], skill5:["","Desolateon","Ice Breath","Bufula","Mapoisma"],elements:["Resist","Drain","Weak","Drain","","",""],type:"Attack"           },
+            {                name:'Susano-o',         name_tw:'素盞嗚尊', name_en:'Susano-o',      rarity:5,                grade:82, icon:'hakaisin_susanoo.png', skills:["Assassin","Mortal Jihad","Kusanagi"], skill4:["Strength Amp III","Deadly Wind","Charge","Merciless Blow","Drain Elec"], skill5:["","Diarahan","Hellfire","Fog Breath","Hamadyne"],elements:["Resist","Weak","","","Drain","",""],type:"Attack"            },
+            {                name:'Beiji-Weng',    name_tw:'北斗星君', name_en:'Beiji-Weng',           rarity:4,                grade:69, icon:'hakaisin_hokutoseikun.png', skills:["Ice Boost","Bufudyne","Glacial Blast"], skill4:["Recarm","Mabufudyne","Barrier","Null Curse","Repel Ice"], skill5:["","Resist Light","Mazan","Bufu","Madness"],elements:["","Weak","Null","","","Resist",""],type:"Attack"            },
+            {                name:'Wu Kong',  name_tw:'齊天大聖', name_en:'Wu Kong',             rarity:4,                grade:61, icon:'hakaisin_seitentaisei.png', skills:["Phys Boost","Taunt","Oni-Kagura"], skill4:["Charge","Titanomachia","Outbreak","Vitality Amp III","Null Phys"], skill5:["","Thunderclap","Die for Me!","Maragi","Deadly Poison"],elements:["Resist","Resist","","Weak","Resist","Resist","Weak"],type:"Attack"            },
+            {                name:'Ares',           name_tw:'阿瑞斯', name_en:'Ares',    rarity:3,                grade:44, icon:'hakaisin_aresu.png', skills:["Vajra Blast","Counter","Hellfire"], skill4:["Dekunda","Berserker God","Charge","Bloody Glee","Resist Phys"], skill5:["","Hellish Mask","Sexy Dance","Shibabooon","Rampage"],elements:["","","","","","Resist","Weak"],type:"Attack"            }
         ]
     },
     {
@@ -249,13 +249,13 @@ const ddd_stable = [
             ['Haunt','Kishin']
         ],
         devils:[
-            {  name:'Huang Long',  name_tw:'黃龍', name_en:'Huang Long',  rarity:5,  grade:88, icon:'ryuusin_kouryu.png' , skills:["二段の猛速","メギドラオン","五行思想"], skill4:["勝利の息吹","エナジードレイン","ラスタキャンディ","スピードスター","呪殺無効"], skill5:["","三段の賢魔","虐殺者","ヘルズアイ","不屈の闘志"],elements:["","Resist","Resist","Resist","Resist","Null",""],type:"支援"   },
-            {  name:'Quetzalcoatl',  name_tw:'羽蛇神', name_en:'Quetzalcoatl',  rarity:5,  grade:80, icon:'ryuusin_kezuarukatoru.png' , skills:["マハラギダイン","マハザンダイン","セアカトルの再臨"], skill4:["毒無効","マハンマダイン","コンセントレイト","タルンダオート","物理反射"], skill5:["","マハブフダイン","追い打ち","魔封無効","マハムドダイン"],elements:["Resist","Resist","","","Resist","Resist","Weak"],type:"攻擊"   },
-            {  name:'Gucumatz',  name_tw:'庫庫爾坎', name_en:'Gucumatz',  rarity:4,  grade:69, icon:'ryuusin_gukumatu.png' , skills:["ヒートウェイブ","アイスブレス","タルンダオート"], skill4:["野生の勘","ウィンドブレス","フォッグブレス","テトラカシフト","火炎無効"], skill5:["","怪力乱神","タルンダ","猛反撃","メディラ"],elements:["","Weak","Resist","","Resist","",""],type:"支援"   },
-            {  name:'Seiryu',  name_tw:'青龍', name_en:'Seiryu',  rarity:4,  grade:63, icon:'ryuusin_seiryuu.png' , skills:["衝撃ブースタ","ザンダイン","龍の反応"], skill4:["二段の猛速","怪力乱神","コンセントレイト","勝利のチャクラ","衝撃反射"], skill5:["","マハザンダイン","空間殺法","ジオダイン","マカラコワース"],elements:["","","Resist","Weak","Null","",""],type:"攻擊"   },
-            {  name:'Illuyanka',  name_tw:'伊虛延卡', name_en:'Illuyanka',  rarity:3,  grade:47, icon:'ryuusin_iruruyankasyu.png' , skills:["アイスブレス","ザンマ","龍の反応"], skill4:["ブフダイン","マハザンマ","溶解ブレス","二段の賢魔","衝撃無効"], skill5:["","ヒートウェイブ","見切り","ハマオン","野生の勘"],elements:["","","Resist","","Resist","",""],type:"攻擊"   },
-            {  name:'Makara',  name_tw:'摩伽羅', name_en:'Makara',  rarity:3,  grade:41, icon:'ryuusin_makara.png' , skills:["マカラコワース","マハブフ","タルンダ"], skill4:["虚弱無効","メギド","マカラカーン","三分の活泉","火炎耐性"], skill5:["","ブフーラ","反撃","精神漏出","甘噛み"],elements:["","Weak","Resist","","","",""],type:"支援"   },
-            {  name:'Patrimpas',  name_tw:'帕托利姆帕斯', name_en:'Patrimpas',  rarity:2,  grade:35, icon:'ryuusin_patorimupasu.png' , skills:["リカーム","ディアラマ","テトラジャ"], skill4:["自然治癒","ウィンドブレス","アムリタ","食いしばり","火炎耐性"], skill5:["","","","",""],elements:["","Weak","Resist","","Resist","","Weak"],type:"回復"   }
+            {  name:'Huang Long',  name_tw:'黃龍', name_en:'Huang Long',  rarity:5,  grade:88, icon:'ryuusin_kouryu.png' , skills:["Agility Amp II","Pralaya","Five Elements "], skill4:["Life Aid","Spirit Drain","Luster Candy","Speedster","Null Dark"], skill5:["","Magic Amp III","Serial Killer","Die for Me!","Enduring Soul"],elements:["","Resist","Resist","Resist","Resist","Null",""],type:"Support"   },
+            {  name:'Quetzalcoatl',  name_tw:'羽蛇神', name_en:'Quetzalcoatl',  rarity:5,  grade:80, icon:'ryuusin_kezuarukatoru.png' , skills:["Maragidyne","Mazandyne","Ce Acatls' Return"], skill4:["Null Poison","Mahamadyne","Concentrate","Auto-Tarunda","物理反射"], skill5:["","Mabufudyne","Back Attack","Null Mute","Allure"],elements:["Resist","Resist","","","Resist","Resist","Weak"],type:"Attack"   },
+            {  name:'Gucumatz',  name_tw:'庫庫爾坎', name_en:'Gucumatz',  rarity:4,  grade:69, icon:'ryuusin_gukumatu.png' , skills:["Heat Wave","Ice Breath","Auto-Tarunda"], skill4:["Wild Guess","Wind Breath","Fog Breath","Tetra Shift","Null Fire"], skill5:["","Berserker God","Tarunda","Retaliate","Mediara"],elements:["","Weak","Resist","","Resist","",""],type:"Support"   },
+            {  name:'Seiryu',  name_tw:'青龍', name_en:'Seiryu',  rarity:4,  grade:63, icon:'ryuusin_seiryuu.png' , skills:["Force Boost","Zandyne","Dragon Sense"], skill4:["Agility Amp II","Berserker God","Concentrate","Mana Aid","Repel Force"], skill5:["","Mazandyne","Vorpal Blade","Ziodyne","Makara Break"],elements:["","","Resist","Weak","Null","",""],type:"Attack"   },
+            {  name:'Illuyanka',  name_tw:'伊虛延卡', name_en:'Illuyanka',  rarity:3,  grade:47, icon:'ryuusin_iruruyankasyu.png' , skills:["Ice Breath","Zanma","Dragon Sense"], skill4:["Bufudyne","Mazanma","Acid Breath","Magic Amp II","Null Force"], skill5:["","Heat Wave","Dodge","Hamaon","Wild Guess"],elements:["","","Resist","","Resist","",""],type:"Attack"   },
+            {  name:'Makara',  name_tw:'摩伽羅', name_en:'Makara',  rarity:3,  grade:41, icon:'ryuusin_makara.png' , skills:["Makara Break","Mabufu","Tarunda"], skill4:["Null Weak","Megidola","Makarakarn","Life Surge","Resist Fire"], skill5:["","Bufula","Counter","Judgement","Charm Bite"],elements:["","Weak","Resist","","","",""],type:"Support"   },
+            {  name:'Patrimpas',  name_tw:'帕托利姆帕斯', name_en:'Patrimpas',  rarity:2,  grade:35, icon:'ryuusin_patorimupasu.png' , skills:["Recarm","Diarama","Tetraja"], skill4:["Fast Recovery","Wind Breath","Amrita","Endure","Resist Fire"], skill5:["","","","",""],elements:["","Weak","Resist","","Resist","","Weak"],type:"Recovery"   }
         ]
     },
     {
@@ -281,12 +281,12 @@ const ddd_stable = [
             ['Tyrant','Night']
         ],
         devils:[
-            {   name:'Asherah',    name_tw:'亞舍拉', name_en:'Asherah', rarity:5,        grade:83, icon:'tibosin_asyerato.png', skills:["メディラマ","サマリカーム","マハラギオン"], skill4:["混沌の海","トリスアギオン","静寂の祈り","回復ハイブースタ","氷結反射"], skill5:["","審判の光","地獄のマスク","二段の強運","緊縛追撃"],elements:["","Null","Weak","","Null","","Weak"], type:"回復"            },
-            {   name:'Skadi',      name_tw:'絲卡蒂', name_en:'Skadi', rarity:4,        grade:67, icon:'tibosin_sukadei.png', skills:["マハマカジャマ","魔封追撃","マハムドオン"], skill4:["二段の強運","絶対零度","マカラコワース","狂い咲き","火炎耐性"], skill5:["","放電","二段の剛力","メディラ","電撃耐性"],elements:["","Weak","Drain","","","",""], type:"支援"             },
-            {                name:'Kikuri-Hime',     name_tw:'菊理媛', name_en:'Kikuri-Hime',          rarity:4,                grade:60, icon:'tibosin_kikurihime.png', skills:["リディア","マハラギオン","マリンカリオン"], skill4:["二段の恵体","アギダイン","ディアラマ","テトラカシフト","呪殺耐性"],skill5:["","火炎耐性","マハポイズマオン","捨て身の一撃","ラクカジャ"], elements:["","","","Weak","Null","","Weak"], type:"回復"            },
-            {                name:'Isis',        name_tw:'伊西斯',  name_en:'Isis',      rarity:3,                grade:54, icon:'tibosin_isisu.png', skills:["サマリカーム","ザンダイン","マハマカジャマ"], skill4:["二分の魔脈","マハザン","メウィークディ","追い打","衝撃無効"], skill5:["","初段の剛力","百発百中","メチャームディ","ザン"],elements:["","Resist","","Null","","",""], type:"支援"            },
-            {                name:'Kushinada-Hime',   name_tw:'奇稻田姬', name_en:'Kushinada-Hime',            rarity:3,                grade:47, icon:'tibosin_kusinabihime.png', skills:["ディアラ","回復ブースタ","マハンマ"], skill4:["メディア","ハマオン","リディア","自然治癒","破魔無効"], skill5:["","ムド","マハラギ","メパララディ","ジオ"],elements:["","","","","","Resist","Weak"], type:"回復"            },
-            {                name:'Pele',          name_tw:'佩蕾', name_en:'Pele',     rarity:3,                grade:40, icon:'tibosin_pere.png', skills:["メポズムディ","アギラオ","毒無効"], skill4:["ディアラ","マハラギオン","リカーム","二段の強運","物理耐性"], skill5:["","メウィークディ","マハザン","毒床歩き","初段の賢魔"],elements:["","Resist","Weak","","","",""], type:"回復"            }
+            {   name:'Asherah',    name_tw:'亞舍拉', name_en:'Asherah', rarity:5,        grade:83, icon:'tibosin_asyerato.png', skills:["Mediarama","Samarecarm","Maragion"], skill4:["Soul Drain","Ragnarok","Silent Prayer","Heal Amp","Repel Ice"], skill5:["","Judgement Light","Hellish Mask","Luck Amp II","Deadly Bondage"],elements:["","Null","Weak","","Null","","Weak"], type:"Recovery"            },
+            {   name:'Skadi',      name_tw:'絲卡蒂', name_en:'Skadi', rarity:4,        grade:67, icon:'tibosin_sukadei.png', skills:["Mamakajam","Deadly Mute","Mamudoon"], skill4:["Luck Amp II","Glacial Blast","Makara Break","Insanity","Resist Fire"], skill5:["","Shock","Strength Amp II","Mediara","Resist Elec"],elements:["","Weak","Drain","","","",""], type:"Support"             },
+            {                name:'Kikuri-Hime',     name_tw:'菊理媛', name_en:'Kikuri-Hime',          rarity:4,                grade:60, icon:'tibosin_kikurihime.png', skills:["Redia","Maragion","Marin Karion"], skill4:["Vitality Amp II","Agidyne","Diarama","Tetra Shift","Resist Dark"],skill5:["","Resist Fire","Mapoismaon","Power Hit","Rakukaja"], elements:["","","","Weak","Null","","Weak"], type:"Recovery"            },
+            {                name:'Isis',        name_tw:'伊西斯',  name_en:'Isis',      rarity:3,                grade:54, icon:'tibosin_isisu.png', skills:["Samarecarm","Zandyne","Mamakajam"], skill4:["Mana Gain","Mazan","Meweakdi","追い打","Null Force"], skill5:["","Strength Amp I","Good Aim","Mecharmdi","Zan"],elements:["","Resist","","Null","","",""], type:"Support"            },
+            {                name:'Kushinada-Hime',   name_tw:'奇稻田姬', name_en:'Kushinada-Hime',            rarity:3,                grade:47, icon:'tibosin_kusinabihime.png', skills:["Diara","Heal Boost","Mahama"], skill4:["Media","Hamaon","Redia","Fast Recovery","Null Light"], skill5:["","Mudo","Maragi","Meparaladi","Zio"],elements:["","","","","","Resist","Weak"], type:"Recovery"            },
+            {                name:'Pele',          name_tw:'佩蕾', name_en:'Pele',     rarity:3,                grade:40, icon:'tibosin_pere.png', skills:["Meposumudi","Agilao","Null Poison"], skill4:["Diara","Maragion","Recarm","Luck Amp II","Resist Phys"], skill5:["","Meweakdi","Mazan","Dmg Panel V I","Magic Amp I"],elements:["","Resist","Weak","","","",""], type:"Recovery"            }
         ]
     },
     {
@@ -311,13 +311,13 @@ const ddd_stable = [
             ['Tyrant','Snake']
         ],
         devils:[
-            {                name:'Thor',          name_tw:'索爾', name_en:'Thor',     rarity:5,                grade:83, icon:'kisin_toru.png', skills:["メガトンレイド","チャージ","ミョルニル"], skill4:["マハジオダイン","ギガントマキア","リベリオン","電撃貫通","火炎反射"], skill5:["","マハンマダイン","マハマリカリオン","イービルアイ","マハマリンカリン"],elements:["Resist","Null","","Drain","Weak","Resist",""], type:"攻擊"            },
-            {                name:'Zhong Kui',        name_tw:'鍾馗', name_en:'Zhong Kui',       rarity:4,                grade:75, icon:'kisin_syouki.png', skills:["地獄のマスク","タルカオート","鬼神楽"], skill4:["魔封無効","メガトンレイド","デゾレトオン","威圧の構え","物理耐性"], skill5:["","マハムドダイン","毒床渡り","魔封追撃","マハンマオン"],elements:["","Resist","","","Weak","Resist",""], type:"攻擊"            },
-            {                name:'Bishamonten',   name_tw:'毘沙門天', name_en:'Bishamonten',           rarity:4,                grade:70, icon:'kisin_bisyamonten.png', skills:["破魔耐性","ブフダイン","怪力乱神"], skill4:["タルカジャ","冥界破","ディスコード","追い打ち","呪殺耐性"], skill5:["","エナジードレイン","マカジャマオン","メチャームディ","衝撃耐性"],elements:["","Weak","Null","","","",""], type:"攻擊"            },
-            {                name:'Jikokuten',       name_tw:'持國天', name_en:'Jikokuten',        rarity:4,                grade:62, icon:'kisin_jikokuten.png', skills:["マハザンマ","冥界破","食いしばり"], skill4:["ザンダイン","メガトンレイド","マハシバブオン","三分の活泉","火炎無効"], skill5:["","バインドクロー","メディアラハン","ホワイトノイズ","吸血"],elements:["","","","Weak","Null","Resist",""], type:"攻擊"            },
-            {                name:'Koumokuten',     name_tw:'廣目天', name_en:'Koumokuten',          rarity:3,                grade:50, icon:'kisin_koumokuten.png', skills:["ジオンガ","テトラコワース","冥界破"], skill4:["メガトンプレス","ジオダイン","スクカジャ","反撃","物理耐性"], skill5:["","初段の強運","マハブフ","コロシの愉悦","ブフ"],elements:["","","","Null","Weak","Resist",""], type:"攻擊"            },
-            {                name:'Zouchouten',   name_tw:'增長天', name_en:'Zouchouten',            rarity:3,                grade:41, icon:'kisin_zoutyouten.png', skills:["ラクカジャ","金剛発破","アギラオ"], skill4:["チャージ","ファイアブレス","挑発","毒床無効","呪殺耐性"], skill5:["","地獄のマスク","初段の剛力","メチャームディ","メチャームディ"],elements:["","Null","Weak","","","Resist",""], type:"攻擊"            },
-            {                name:'Take-Minakata',     name_tw:'建御名方', name_en:'Take-Minakata',          rarity:2,                grade:27, icon:'kisin_takeminakata.png', skills:["反撃","ジオンガ","鬼神楽"], skill4:["電撃ブースタ","放電","メパララディ","一分の魔脈","呪殺耐性"], skill5:["","ザン","百発百中","突撃","マハブフ"],elements:["","Weak","","Resist","","",""], type:"攻擊"            }
+            {                name:'Thor',          name_tw:'索爾', name_en:'Thor',     rarity:5,                grade:83, icon:'kisin_toru.png', skills:["Megaton Raid","Charge","Mjolnir"], skill4:["Maziodyne","Gigantomachia","Rebellion","Elec Pierce","Repel Fire"], skill5:["","Mahamadyne","Mamarin Karion","Evil Gaze","Mamarin Karin"],elements:["Resist","Null","","Drain","Weak","Resist",""], type:"Attack"            },
+            {                name:'Zhong Kui',        name_tw:'鍾馗', name_en:'Zhong Kui',       rarity:4,                grade:75, icon:'kisin_syouki.png', skills:["Hellish Mask","Auto-Tarukaja","Oni-Kagura"], skill4:["Null Mute","Megaton Raid","Desolateon","Intimidating Stance","Resist Phys"], skill5:["","Allure","Dmg Panel V II","Deadly Mute","Mahamaon"],elements:["","Resist","","","Weak","Resist",""], type:"Attack"            },
+            {                name:'Bishamonten',   name_tw:'毘沙門天', name_en:'Bishamonten',           rarity:4,                grade:70, icon:'kisin_bisyamonten.png', skills:["Resist Light","Bufudyne","Berserker God"], skill4:["Tarukaja","Hades Blast","Discord","Back Attack","Resist Dark"], skill5:["","Spirit Drain","Makajamaon","Mecharmdi","Resist Force"],elements:["","Weak","Null","","","",""], type:"Attack"            },
+            {                name:'Jikokuten',       name_tw:'持國天', name_en:'Jikokuten',        rarity:4,                grade:62, icon:'kisin_jikokuten.png', skills:["Mazanma","Hades Blast","Endure"], skill4:["Zandyne","Megaton Raid","Mashibabooon","Life Surge","Null Fire"], skill5:["","Binding Claw","Mediarahan","White Noise","Mind Break"],elements:["","","","Weak","Null","Resist",""], type:"Attack"            },
+            {                name:'Koumokuten',     name_tw:'廣目天', name_en:'Koumokuten',          rarity:3,                grade:50, icon:'kisin_koumokuten.png', skills:["Zionga","Tetra Break","Hades Blast"], skill4:["Megaton Press","Ziodyne","Sukukaja","Counter","Resist Phys"], skill5:["","Luck Amp I","Mabufu","Bloody Glee","Bufu"],elements:["","","","Null","Weak","Resist",""], type:"Attack"            },
+            {                name:'Zouchouten',   name_tw:'增長天', name_en:'Zouchouten',            rarity:3,                grade:41, icon:'kisin_zoutyouten.png', skills:["Rakukaja","Vajra Blast","Agilao"], skill4:["Charge","Fire Breath","Taunt","Dmg Panel Immunity","Resist Dark"], skill5:["","Hellish Mask","Strength Amp I","Mecharmdi","Mecharmdi"],elements:["","Null","Weak","","","Resist",""], type:"Attack"            },
+            {                name:'Take-Minakata',     name_tw:'建御名方', name_en:'Take-Minakata',          rarity:2,                grade:27, icon:'kisin_takeminakata.png', skills:["Counter","Zionga","Oni-Kagura"], skill4:["Elec Boost","Shock","Meparaladi","Mana Bonus","Resist Dark"], skill5:["","Zan","Good Aim","Lunge","Mabufu"],elements:["","Weak","","Resist","","",""], type:"Attack"            }
         ]
     },
     {
@@ -339,13 +339,13 @@ const ddd_stable = [
             ['Haunt','Holy']
         ],
         devils:[
-            {                name:'Throne',         name_tw:'座天使', name_en:'Throne',      rarity:4,                grade:60, icon:'tensi_sorone.png', skills:["電撃耐性","マハラギオン","ダークゾーン無効"], skill4:["メディラ","マハンマオン","ディアラハン","寸分の見切り","氷結無効"], skill5:["","雄叫び","氷結耐性","デスタッチ","野生の勘"],elements:["","Null","Weak","","","Null","Weak"], type:"攻擊"            },
-            {                name:'Dominion',     name_tw:'主天使', name_en:'Dominion',          rarity:3,                grade:53, icon:'tensi_dominion.png', skills:["メカースディ","呪い無効","マハジオンガ"], skill4:["メギド","ジオダイン","常世の祈り","魔封無効","電撃無効"], skill5:["","メチャームディ","スラッシュ","初段の恵体","ブフ"],elements:["","","","Resist","Weak","Null","Weak"], type:"回復"            },
-            {                name:'Virtue',    name_tw:'力天使', name_en:'Virtue',           rarity:3,                grade:47, icon:'tensi_vatya.png', skills:["メクロズディ","魔封無効","ハマオン"], skill4:["バリア","審判の光","コンセントレイト","スクカオート","氷結無効"], skill5:["","マハジオ","アギ","初段の強運","初段の猛速"],elements:["","","","Weak","Null","Null","Weak"], type:"回復"            },
-            {                name:'Power',          name_tw:'能天使', name_en:'Power',     rarity:3,                grade:40, icon:'tensi_pawa.png', skills:["メディア","メギド","絶命剣"], skill4:["ディアラ","マハジオンガ","リベリオン","暗殺者","衝撃耐性"], skill5:["","メパララディ","ムド","初段の賢魔","自然治癒"],elements:["","","","Resist","Weak","Null","Weak"], type:"攻擊"            },
-            {                name:'Principality',   name_tw:'權天使', name_en:'Principality',            rarity:2,                grade:35, icon:'tensi_purinsiparitei.png', skills:["リカーム","ハマオン","ブフ"], skill4:["メディア","審判の光","カースディ","破魔ブースタ","呪殺耐性"], skill5:["","初段の賢魔","メウィークディ","毒床歩き","マハザン"], elements:["","","","","","Null","Weak"], type:"回復"            },
-            {                name:'Archangel',   name_tw:'Herald', name_en:'Archangel',            rarity:2,                grade:25, icon:'tensi_akuenjyeru.png', skills:["タルカジャ","アギ","ハマ"], skill4:["ヒートウェイブ","アギラオ","リディアコワース","百発百中","物理耐性"], skill5:["","ザン","初段の賢魔","ブフ","百発百中"],elements:["","","","","","Null","Weak"], type:"攻擊"            },
-            {                name:'Angel',         name_tw:'Divine', name_en:'Angel',      rarity:2,                grade:20, icon:'tensi_enjyeru.png', skills:["ハマ","マハンマ","ディアラ"], skill4:["ラクカジャ","審判の光","チャームディ","魔封無効","電撃耐性"], skill5:["","クロズディ","アギ","メチャームディ","マハブフ"],elements:["","","","Weak","","Null","Weak"], type:"回復"            }
+            {                name:'Throne',         name_tw:'座天使', name_en:'Throne',      rarity:4,                grade:60, icon:'tensi_sorone.png', skills:["Resist Elec","Maragion","Void Dark Zones"], skill4:["Mediara","Mahamaon","Diarahan","Evade","Null Ice"], skill5:["","War Cry","Resist Ice","Life Drain","Wild Guess"],elements:["","Null","Weak","","","Null","Weak"], type:"Attack"            },
+            {                name:'Dominion',     name_tw:'主天使', name_en:'Dominion',          rarity:3,                grade:53, icon:'tensi_dominion.png', skills:["Mecursedi","Null Curse","Mazionga"], skill4:["Megidola","Ziodyne","Prayer","Null Mute","Null Elec"], skill5:["","Mecharmdi","Cleave","Vitality Amp I","Bufu"],elements:["","","","Resist","Weak","Null","Weak"], type:"Recovery"            },
+            {                name:'Virtue',    name_tw:'力天使', name_en:'Virtue',           rarity:3,                grade:47, icon:'tensi_vatya.png', skills:["Meclosedi","Null Mute","Hamaon"], skill4:["Barrier","Judgement Light","Concentrate","Auto-Sukukaja","Null Ice"], skill5:["","Mazio","Agi","Luck Amp I","Agility Amp I"],elements:["","","","Weak","Null","Null","Weak"], type:"Recovery"            },
+            {                name:'Power',          name_tw:'能天使', name_en:'Power',     rarity:3,                grade:40, icon:'tensi_pawa.png', skills:["Media","Megidola","Fatal Sword"], skill4:["Diara","Mazionga","Rebellion","Assassin","Resist Force"], skill5:["","Meparaladi","Mudo","Magic Amp I","Fast Recovery"],elements:["","","","Resist","Weak","Null","Weak"], type:"Attack"            },
+            {                name:'Principality',   name_tw:'權天使', name_en:'Principality',            rarity:2,                grade:35, icon:'tensi_purinsiparitei.png', skills:["Recarm","Hamaon","Bufu"], skill4:["Media","Judgement Light","Cursedi","Light Boost","Resist Dark"], skill5:["","Magic Amp I","Meweakdi","Dmg Panel V I","Mazan"], elements:["","","","","","Null","Weak"], type:"Recovery"            },
+            {                name:'Archangel',   name_tw:'Herald', name_en:'Archangel',            rarity:2,                grade:25, icon:'tensi_akuenjyeru.png', skills:["Tarukaja","Agi","Hama"], skill4:["Heat Wave","Agilao","Redia Break","Good Aim","Resist Phys"], skill5:["","Zan","Magic Amp I","Bufu","Good Aim"],elements:["","","","","","Null","Weak"], type:"Attack"            },
+            {                name:'Angel',         name_tw:'Divine', name_en:'Angel',      rarity:2,                grade:20, icon:'tensi_enjyeru.png', skills:["Hama","Mahama","Diara"], skill4:["Rakukaja","Judgement Light","Charmdi","Null Mute","Resist Elec"], skill5:["","Closedi","Agi","Mecharmdi","Mabufu"],elements:["","","","Weak","","Null","Weak"], type:"Recovery"            }
         ]
     },
     {
@@ -367,13 +367,13 @@ const ddd_stable = [
             ['Haunt','Divine']
         ],
         devils:[
-            {                name:'Ganesha',     name_tw:'象頭神', name_en:'Ganesha',          rarity:4,                grade:66, icon:'youma_ganesya.png', skills:["怪力乱神","チャージ","ラクカジャ"], skill4:["捨て身の一撃","メガトンレイド","挑発","物理ブースタ","呪殺無効"], skill5:["","メポズムディ","マハザンダイン","天罰","デゾレト"],elements:["Resist","","","Weak","Null","","Weak"], type:"攻擊"            },
-            {                name:'Efreet',     name_tw:'伊弗利特', name_en:'Efreet',          rarity:3,                grade:52, icon:'youma_ihurito.png', skills:["アギラオ","火炎ブースタ","マハラギ"], skill4:["アギダイン","地獄の業火","メクロズディ","追い打ち","電撃耐性"], skill5:["","なぎ払い","ヒートウェイブ","ザン","アウトブレイク"],elements:["","Drain","Weak","","","",""], type:"攻擊"            },
-            {                name:'Valkyrie',   name_tw:'女武神', name_en:'Valkyrie',            rarity:3,                grade:40, icon:'youma_varukiri.png' , skills:["マハンマ","絶命剣","物理ブースタ"], skill4:["ヒートウェイブ","デスバウンド","テトラコワース","三分の活泉","電撃耐性"], skill5:["","メウィークディ","スラッシュ","クロズディ","ウィークディ"],elements:["Resist","","","Weak","Resist","",""], type:"攻擊"           },
-            {                name:'Dis',       name_tw:'迪絲', name_en:'Dis',        rarity:2,                grade:34, icon:'youma_deisu.png', skills:["マカジャマ","アギラオ","ザン"], skill4:["メディラ","メギド","バリアコワース","魔封追撃","衝撃耐性"], skill5:["","チャームディ","初段の賢魔","初段の恵体","マハムド"],elements:["","","Resist","Resist","","","Weak"], type:"回復"            },
-            {                name:'Apsaras',     name_tw:'飛天女神', name_en:'Apsaras',          rarity:1,                grade:11, icon:'youma_apusarasu.png', skills:["ポズムディ","ブフ",""], skill4:["ディアラ","ブフーラ","メチャームディ","初段の猛速","電撃耐性"], skill5:["","メポズムディ","マハブフ","野生の勘","見切り"],elements:["","Weak","Resist","","","",""], type:"回復"            },
-            {                name:'Koppa Tengu',   name_tw:'木葉天狗', name_en:'Koppa Tengu',            rarity:1,                grade:7, icon:'youma_kopatengu.png', skills:["毒床歩き","ザン",""], skill4:["ウィンドブレス","ザンマ","タルンダ","野生の勘","火炎耐性"], skill5:["","チャームディ","メクロズディ","マハジオ","パララディ"],elements:["","","","Weak","Resist","",""], type:"攻擊"            },
-            {                name:'Agathion',     name_tw:'阿珈席翁', name_en:'Agathion',         rarity:1,                grade:5, icon:'youma_agasion.png', skills:["カースディ","ジオ",""], skill4:["マハジオ","ヒートウェイブ","クロズディ","初段の強運","呪殺耐性"], skill5:["","マハラギ","メクロズディ","ザン","初段の強運"],elements:["","Resist","Weak","Resist","","","Weak"], type:"攻擊"            }
+            {                name:'Ganesha',     name_tw:'象頭神', name_en:'Ganesha',          rarity:4,                grade:66, icon:'youma_ganesya.png', skills:["Berserker God","Charge","Rakukaja"], skill4:["Power Hit","Megaton Raid","Taunt","Phys Boost","Null Dark"], skill5:["","Meposumudi","Mazandyne","Holy Wrath","Desolate"],elements:["Resist","","","Weak","Null","","Weak"], type:"Attack"            },
+            {                name:'Efreet',     name_tw:'伊弗利特', name_en:'Efreet',          rarity:3,                grade:52, icon:'youma_ihurito.png', skills:["Agilao","Fire Boost","Maragi"], skill4:["Agidyne","Hellfire","Meclosedi","Back Attack","Resist Elec"], skill5:["","Mow Down","Heat Wave","Zan","Outbreak"],elements:["","Drain","Weak","","","",""], type:"Attack"            },
+            {                name:'Valkyrie',   name_tw:'女武神', name_en:'Valkyrie',            rarity:3,                grade:40, icon:'youma_varukiri.png' , skills:["Mahama","Fatal Sword","Phys Boost"], skill4:["Heat Wave","Darkbound","Tetra Break","Life Surge","Resist Elec"], skill5:["","Meweakdi","Cleave","Closedi","Weakdi"],elements:["Resist","","","Weak","Resist","",""], type:"Attack"           },
+            {                name:'Dis',       name_tw:'迪絲', name_en:'Dis',        rarity:2,                grade:34, icon:'youma_deisu.png', skills:["Makajam","Agilao","Zan"], skill4:["Mediara","Megidola","Barrier Break","Deadly Mute","Resist Force"], skill5:["","Charmdi","Magic Amp I","Vitality Amp I","Mamudo"],elements:["","","Resist","Resist","","","Weak"], type:"Recovery"            },
+            {                name:'Apsaras',     name_tw:'飛天女神', name_en:'Apsaras',          rarity:1,                grade:11, icon:'youma_apusarasu.png', skills:["Posumudi","Bufu",""], skill4:["Diara","Bufula","Mecharmdi","Agility Amp I","Resist Elec"], skill5:["","Meposumudi","Mabufu","Wild Guess","Dodge"],elements:["","Weak","Resist","","","",""], type:"Recovery"            },
+            {                name:'Koppa Tengu',   name_tw:'木葉天狗', name_en:'Koppa Tengu',            rarity:1,                grade:7, icon:'youma_kopatengu.png', skills:["Dmg Panel V I","Zan",""], skill4:["Wind Breath","Zanma","Tarunda","Wild Guess","Resist Fire"], skill5:["","Charmdi","Meclosedi","Mazio","Paraladi"],elements:["","","","Weak","Resist","",""], type:"Attack"            },
+            {                name:'Agathion',     name_tw:'阿珈席翁', name_en:'Agathion',         rarity:1,                grade:5, icon:'youma_agasion.png', skills:["Cursedi","Zio",""], skill4:["Mazio","Heat Wave","Closedi","Luck Amp I","Resist Dark"], skill5:["","Maragi","Meclosedi","Zan","Luck Amp I"],elements:["","Resist","Weak","Resist","","","Weak"], type:"Attack"            }
         ]
     },
     {
@@ -400,12 +400,12 @@ const ddd_stable = [
             //['Haunt','Kishin']     //180713 remove
         ],
         devils:[
-            {                name:'Ananta',      name_tw:'阿南塔', name_en:'Ananta',         rarity:5,                grade:83, icon:'ryuuou_ananta.png' , skills:["ディアラハン","スクカオート","ラクカオート"], skill4:["天罰","マハブフダイン","マハポイズマオン","タルカオート","氷結吸収"], skill5:["","ギガントマキア","マハザンダイン","モータルジハード","鬼神楽"],elements:["","","Null","Null","Weak","Null",""], type:'支援'           },
-            {                name:'Yurlungur',      name_tw:'虹蛇', name_en:'Yurlungur',         rarity:4,                grade:70, icon:'ryuuou_yurungu.png', skills:["マハシバブー","サマリカーム","マハブフーラ"], skill4:["三段の強運","ブフダイン","ディアラマ","毒無効","火炎耐性"], skill5:["","溶解ブレス","リカームドラ","毒追撃","マハンマ"], elements:["","Weak","Null","Resist","","","Weak"], type:'支援'            },
-            {                name:'Orochi',    name_tw:'八岐大蛇', name_en:'Orochi',           rarity:4,                grade:61, icon:'ryuuou_yamatanooroti.png', skills:["ブフダイン","メガトンプレス","毒床無効"], skill4:["バリア","アギダイン","リカームドラ","タルカオート","破魔無効"], skill5:["","毒床歩き","デカジャ","吸魔","ミナゴロシの愉悦"],elements:["","Null","Null","Weak","","",""], type:"攻擊"            },
-            {                name:'Gui Xian',        name_tw:'玄武', name_en:'Gui Xian',       rarity:3,                grade:45, icon:'ryuuou_genbu.png', skills:["ブフーラ","マハブフーラ","氷結ブースタ"], skill4:["ラクカジャ","ブフダイン","マカラコワース","勝利の息吹","物理耐性"], skill5:["","毒床歩き","初段の剛力","スラッシュ","乱れ狂い"],elements:["","Weak","Null","","","",""], type:'攻擊'            },
-            {                name:'Naga',        name_tw:'那迦', name_en:'Naga',       rarity:2,                grade:28, icon:'ryuuou_naga.png', skills:["絶命剣","ブフーラ","百発百中"], skill4:["リベリオン","デスバウンド","デゾレト","二分の活泉","氷結無効"], skill5:["","突撃","見切り","メポズムディ","ヒートウェイブ"],elements:["","Weak","Resist","Resist","Weak","","Weak"], type:"攻擊"            },
-            {                name:'Nozuchi',        name_tw:'野槌', name_en:'Nozuchi',       rarity:1,                grade:15, icon:'ryuuou_nozuti.png', skills:["一分の活泉","マハジオ",""], skill4:["暴れまくり","ジオンガ","カースディ","百発百中","火炎耐性"], skill5:["","マハザン","メチャームディ","なぎ払い","パララディ"],elements:["Resist","Weak","Resist","Resist","Weak","","Weak"],type:"攻擊"            }
+            {                name:'Ananta',      name_tw:'阿南塔', name_en:'Ananta',         rarity:5,                grade:83, icon:'ryuuou_ananta.png' , skills:["Diarahan","Auto-Sukukaja","Auto-Rakukaja"], skill4:["Holy Wrath","Mabufudyne","Mapoismaon","Auto-Tarukaja","Drain Ice"], skill5:["","Gigantomachia","Mazandyne","Mortal Jihad","Oni-Kagura"],elements:["","","Null","Null","Weak","Null",""], type:'Support'           },
+            {                name:'Yurlungur',      name_tw:'虹蛇', name_en:'Yurlungur',         rarity:4,                grade:70, icon:'ryuuou_yurungu.png', skills:["Mashibaboo","Samarecarm","Mabufula"], skill4:["Luck Amp III","Bufudyne","Diarama","Null Poison","Resist Fire"], skill5:["","Acid Breath","Recarmdra","Deadly Poison","Mahama"], elements:["","Weak","Null","Resist","","","Weak"], type:'Support'            },
+            {                name:'Orochi',    name_tw:'八岐大蛇', name_en:'Orochi',           rarity:4,                grade:61, icon:'ryuuou_yamatanooroti.png', skills:["Bufudyne","Megaton Press","Dmg Panel Immunity"], skill4:["Barrier","Agidyne","Recarmdra","Auto-Tarukaja","Null Light"], skill5:["","Dmg Panel V I","Dekaja","Megido","Savage Glee"],elements:["","Null","Null","Weak","","",""], type:"Attack"            },
+            {                name:'Gui Xian',        name_tw:'玄武', name_en:'Gui Xian',       rarity:3,                grade:45, icon:'ryuuou_genbu.png', skills:["Bufula","Mabufula","Ice Boost"], skill4:["Rakukaja","Bufudyne","Makara Break","Life Aid","Resist Phys"], skill5:["","Dmg Panel V I","Strength Amp I","Cleave","Madness"],elements:["","Weak","Null","","","",""], type:'Attack'            },
+            {                name:'Naga',        name_tw:'那迦', name_en:'Naga',       rarity:2,                grade:28, icon:'ryuuou_naga.png', skills:["Fatal Sword","Bufula","Good Aim"], skill4:["Rebellion","Darkbound","Desolate","Life Gain","Null Ice"], skill5:["","Lunge","Dodge","Meposumudi","Heat Wave"],elements:["","Weak","Resist","Resist","Weak","","Weak"], type:"Attack"            },
+            {                name:'Nozuchi',        name_tw:'野槌', name_en:'Nozuchi',       rarity:1,                grade:15, icon:'ryuuou_nozuti.png', skills:["Life Bonus","Mazio",""], skill4:["Rampage","Zionga","Cursedi","Good Aim","Resist Fire"], skill5:["","Mazan","Mecharmdi","Mow Down","Paraladi"],elements:["Resist","Weak","Resist","Resist","Weak","","Weak"],type:"Attack"            }
         ]
     },
     {
@@ -430,12 +430,12 @@ const ddd_stable = [
             ['Haunt','Tyrant']
         ],
         devils:[
-            {                name:'Cerberus',     name_tw:'地獄犬', name_en:'Cerberus',          rarity:4,                grade:61, icon:'majyuu_keruberosu.png', skills:["アギダイン","地獄の獰爪","雄叫び"], skill4:["二分の活泉","ファイアブレス","マハデゾレトオン","追い打ち","物理耐性"], skill5:["","緊縛追撃","反撃","ヒートウェイブ","初段の猛速"],elements:["","Repel","Weak","","","",""], type:'攻擊'            },
-            {                name:'Ammut',     name_tw:'阿米特', name_en:'Ammut',          rarity:3,                grade:44, icon:'majyuu_aman.png', skills:["リベリオン","デスタッチ","狂乱の剛爪"], skill4:["二段の猛速","暴飲暴食","雄叫び","魅了無効","氷結耐性"], skill5:["","ジオ","暴れまくり","初段の恵体","マハブフ"],elements:["","","Weak","Null","","",""], type:'攻擊'            },
-            {                name:'Orthrus',     name_tw:'雙頭犬', name_en:'Orthrus',          rarity:2,                grade:35, icon:'majyuu_orutorosu.png', skills:["アギラオ","丸かじり","マハラギ"], skill4:["金剛発破","ファイアブレス","リカーム","緊縛耐性","電撃耐性"], skill5:["","メクロズディ","ウィークディ","初段の剛力","ヒートウェイブ"],elements:["","Null","Weak","","","","Resist"], type:'攻擊'            },
-            {                name:'Nekomata',       name_tw:'貓怪', name_en:'Nekomata',      rarity:1,                grade:14, icon:'majyuu_nekomata.png', skills:["チャームディ","マハザン",""], skill4:["スクカジャ","ザンマ","アムリタ","魅了耐性","氷結耐性"], skill5:["","マハブフ","乱れ狂い","暴れまくり","マハンマ"],elements:["","Resist","Weak","Weak","Resist","",""], type:'支援'            },
-            {                name:'Inugami',       name_tw:'犬神', name_en:'Inugami',        rarity:1,                grade:9, icon:'majyuu_inugami.png', skills:["アギ","パララディ",""], skill4:["マハラギ","アギラオ","ラクンダ","緊縛耐性","呪殺耐性"], skill5:["","地獄のマスク","初段の賢魔","メパララディ","ムド"],elements:["","Resist","	Weak","","","",""], type:'支援'            },
-            {                name:'Cu Sith',       name_tw:'犬妖', name_en:'Cu Sith',        rarity:1,                grade:3, icon:'majyuu_kasi.png', skills:["スラッシュ","アギ",""], skill4:["アムリタ","甘噛み","タルカジャ","一分の活泉","火炎耐性"], skill5:["","ポズムディ","地獄のマスク","初段の猛速","ディア"],elements:["","","","","","Null",""], type:'支援'            }
+            {                name:'Cerberus',     name_tw:'地獄犬', name_en:'Cerberus',          rarity:4,                grade:61, icon:'majyuu_keruberosu.png', skills:["Agidyne","Hell Claw","War Cry"], skill4:["Life Gain","Fire Breath","Madesolateon","Back Attack","Resist Phys"], skill5:["","Deadly Bondage","Counter","Heat Wave","Agility Amp I"],elements:["","Repel","Weak","","","",""], type:'Attack'            },
+            {                name:'Ammut',     name_tw:'阿米特', name_en:'Ammut',          rarity:3,                grade:44, icon:'majyuu_aman.png', skills:["Rebellion","Life Drain","Madness Nails"], skill4:["Agility Amp II","Binge Eating","War Cry","Null Charm","Resist Ice"], skill5:["","Zio","Rampage","Vitality Amp I","Mabufu"],elements:["","","Weak","Null","","",""], type:'Attack'            },
+            {                name:'Orthrus',     name_tw:'雙頭犬', name_en:'Orthrus',          rarity:2,                grade:35, icon:'majyuu_orutorosu.png', skills:["Agilao","Eat Whole","Maragi"], skill4:["Vajra Blast","Fire Breath","Recarm","Resist Bind","Resist Elec"], skill5:["","Meclosedi","Weakdi","Strength Amp I","Heat Wave"],elements:["","Null","Weak","","","","Resist"], type:'Attack'            },
+            {                name:'Nekomata',       name_tw:'貓怪', name_en:'Nekomata',      rarity:1,                grade:14, icon:'majyuu_nekomata.png', skills:["Charmdi","Mazan",""], skill4:["Sukukaja","Zanma","Amrita","Resist Charm","Resist Ice"], skill5:["","Mabufu","Madness","Rampage","Mahama"],elements:["","Resist","Weak","Weak","Resist","",""], type:'Support'            },
+            {                name:'Inugami',       name_tw:'犬神', name_en:'Inugami',        rarity:1,                grade:9, icon:'majyuu_inugami.png', skills:["Agi","Paraladi",""], skill4:["Maragi","Agilao","Rakunda","Resist Bind","Resist Dark"], skill5:["","Hellish Mask","Magic Amp I","Meparaladi","Mudo"],elements:["","Resist","	Weak","","","",""], type:'Support'            },
+            {                name:'Cu Sith',       name_tw:'犬妖', name_en:'Cu Sith',        rarity:1,                grade:3, icon:'majyuu_kasi.png', skills:["Cleave","Agi",""], skill4:["Amrita","Charm Bite","Tarukaja","Life Bonus","Resist Fire"], skill5:["","Posumudi","Hellish Mask","Agility Amp I","Dia"],elements:["","","","","","Null",""], type:'Support'            }
         ]
     },
     {
@@ -458,15 +458,15 @@ const ddd_stable = [
             ['Tyrant','Avian']      //180419 add
         ],
         devils:[
-            {                name:'Oberon',        name_tw:'奧伯隆',  name_en:'Oberon',      rarity:4,                grade:67, icon:'yousei_oberon.png', skills:["衝撃ブースタ","ザンダイン","マハマリカリオン"], skill4:["マカラカーン","ツイスター","メチャームディ","スクカオート","氷結耐性"], skill5:["","スラッシュ","初段の恵体","タルカジャ","吸魔"],elements:["","","","Weak","Drain","",""], type:"攻擊"            },
-            {                name:'Titania',    name_tw:'提泰妮婭', name_en:'',           rarity:4,                grade:62, icon:'yousei_teitania.png', skills:["電撃ブースタ","マハジオンガ","マカジャマオン"], skill4:["二分の魔脈","ショックウェーブ","デゾレトオン","追い打ち","物理耐性"], skill5:["","タルンダ","マハムド","絶命剣","放電"],elements:["","","","","","Resist","Resist"], type:"支援"            },
-            {                name:'Setanta',        name_tw:'瑟坦特', name_en:'',       rarity:3,                grade:47, icon:'yousei_setanta.png', skills:["鬼神楽","千発千中","金剛発破"], skill4:["デスバウンド","ザンマ","タルカジャ","狂戦士","電撃耐性"], skill5:["","初段の恵体","ジオ","カースディ","ヒートウェイブ"],elements:["","","","Weak","Null","","Weak"], type:"攻擊"           },
-            {                name:'Silky',        name_tw:'希路奇', name_en:'',       rarity:3,                grade:42, icon:'yousei_siruki.png', skills:["メウィークディ","虚弱無効","ブフダイン"], skill4:["メディラ","マハブフーラ","リディア","奈落のマスク","衝撃無効"], skill5:["","コロシの愉悦","なぎ払い","毒床歩き","野生の勘"],elements:["","Weak","Null","","","",""], type:"支援"            },
-            {                name:'Kelpie',        name_tw:'凱爾皮', name_en:'',       rarity:2,                grade:35, icon:'yousei_kerupi.png', skills:["ディアラ","ジオンガ","暴れまくり"], skill4:["ダークゾーン無効","吸魔","リディア","野生の勘","呪殺耐性"], skill5:["","百発百中","マハジオ","百発百中","ジオ"],elements:["","","Resist","","Weak","",""], type:"回復"            },
-            {                name:'High Pixie',      name_tw:'高等皮克希', name_en:'',         rarity:2,                grade:24, icon:'yousei_hiipikusi.png', skills:["デゾレト","メディア","マハジオ"], skill4:["リディア","放電","ディアラ","乱れ狂い","破魔耐性"], skill5:["","初段の賢魔","ムド","アギ","初段の剛力"],elements:["","","","","Resist","",""], type:"回復"            },
-            {                name:'Pyro Jack',  name_tw:'燈籠傑克', name_en:'',             rarity:1,                grade:13, icon:'yousei_jyakurantan.png', skills:["アギ","マハラギ",""], skill4:["アギラオ","ファイアブレス","バトンタッチ","一分の魔脈","衝撃耐性"], skill5:["","マハンマ","クロズディ","初段の賢魔","自然治癒"],elements:["","Resist","Weak","","","",""], type:"攻擊"            },
-            {                name:'Jack Frost',  name_tw:'冰霜傑克', name_en:'',             rarity:1,                grade:7, icon:'yousei_jyakufurosuto.png', skills:["ブフ","マハブフ",""], skill4:["ハマ","ブフーラ","バトンタッチ","反撃","電撃耐性"], skill5:["","メカースディ","自然治癒","見切り","パララディ"],elements:["","Weak","Resist","","","",""], type:"攻擊"            },
-            {                name:'Pixie',         name_tw:'皮克希', name_en:'',      rarity:1,                grade:2, icon:'yousei_pikusi.png' , skills:["ザン","ディア",""], skill4:["回復ブースタ","マハジオ","メディア","魔封耐性","破魔耐性"], skill5:["","初段の賢魔","メカースディ","メチャームディ","地獄のマスク"],elements:["","","","Resist","","","Weak"], type:"回復"           }
+            {                name:'Oberon',        name_tw:'奧伯隆',  name_en:'Oberon',      rarity:4,                grade:67, icon:'yousei_oberon.png', skills:["Force Boost","Zandyne","Mamarin Karion"], skill4:["Makarakarn","Twister","Mecharmdi","Auto-Sukukaja","Resist Ice"], skill5:["","Cleave","Vitality Amp I","Tarukaja","Megido"],elements:["","","","Weak","Drain","",""], type:"Attack"            },
+            {                name:'Titania',    name_tw:'提泰妮婭', name_en:'',           rarity:4,                grade:62, icon:'yousei_teitania.png', skills:["Elec Boost","Mazionga","Makajamaon"], skill4:["Mana Gain","Mjolnir","Desolateon","Back Attack","Resist Phys"], skill5:["","Tarunda","Mamudo","Fatal Sword","Shock"],elements:["","","","","","Resist","Resist"], type:"Support"            },
+            {                name:'Setanta',        name_tw:'瑟坦特', name_en:'',       rarity:3,                grade:47, icon:'yousei_setanta.png', skills:["Oni-Kagura","Great Aim","Vajra Blast"], skill4:["Darkbound","Zanma","Tarukaja","Berserker","Resist Elec"], skill5:["","Vitality Amp I","Zio","Cursedi","Heat Wave"],elements:["","","","Weak","Null","","Weak"], type:"Attack"           },
+            {                name:'Silky',        name_tw:'希路奇', name_en:'',       rarity:3,                grade:42, icon:'yousei_siruki.png', skills:["Meweakdi","Null Weak","Bufudyne"], skill4:["Mediara","Mabufula","Redia","Infernal Mask","Null Force"], skill5:["","Bloody Glee","Mow Down","Dmg Panel V I","Wild Guess"],elements:["","Weak","Null","","","",""], type:"Support"            },
+            {                name:'Kelpie',        name_tw:'凱爾皮', name_en:'',       rarity:2,                grade:35, icon:'yousei_kerupi.png', skills:["Diara","Zionga","Rampage"], skill4:["Void Dark Zones","Megido","Redia","Wild Guess","Resist Dark"], skill5:["","Good Aim","Mazio","Good Aim","Zio"],elements:["","","Resist","","Weak","",""], type:"Recovery"            },
+            {                name:'High Pixie',      name_tw:'高等皮克希', name_en:'',         rarity:2,                grade:24, icon:'yousei_hiipikusi.png', skills:["Desolate","Media","Mazio"], skill4:["Redia","Shock","Diara","Madness","Resist Light"], skill5:["","Magic Amp I","Mudo","Agi","Strength Amp I"],elements:["","","","","Resist","",""], type:"Recovery"            },
+            {                name:'Pyro Jack',  name_tw:'燈籠傑克', name_en:'',             rarity:1,                grade:13, icon:'yousei_jyakurantan.png', skills:["Agi","Maragi",""], skill4:["Agilao","Fire Breath","Tag","Mana Bonus","Resist Force"], skill5:["","Mahama","Closedi","Magic Amp I","Fast Recovery"],elements:["","Resist","Weak","","","",""], type:"Attack"            },
+            {                name:'Jack Frost',  name_tw:'冰霜傑克', name_en:'',             rarity:1,                grade:7, icon:'yousei_jyakufurosuto.png', skills:["Bufu","Mabufu",""], skill4:["Hama","Bufula","Tag","Counter","Resist Elec"], skill5:["","Mecursedi","Fast Recovery","Dodge","Paraladi"],elements:["","Weak","Resist","","","",""], type:"Attack"            },
+            {                name:'Pixie',         name_tw:'皮克希', name_en:'',      rarity:1,                grade:2, icon:'yousei_pikusi.png' , skills:["Zan","Dia",""], skill4:["Heal Boost","Mazio","Media","Resist Mute","Resist Light"], skill5:["","Magic Amp I","Mecursedi","Mecharmdi","Hellish Mask"],elements:["","","","Resist","","","Weak"], type:"Recovery"           }
         ]
     },
     {
@@ -490,13 +490,13 @@ const ddd_stable = [
             ['Haunt','Herald']
         ],
         devils:[
-            {                name:'Samael',       name_tw:'薩麥爾', name_en:'',        rarity:5,                grade:84, icon:'datensi_samaeru.png', skills:["勝利のチャクラ","メシアライザー","エナジードレイン"], skill4:["デスカウンター","煉獄","テトラカーン","無限のチャクラ","火炎無効"], skill5:["","ファイアブレス","アギラオ","丸かじり","回復ブースタ"],elements:["","","","Weak","","Repel","Repel"], type:'支援'            },
-            {                name:'Dantalian',   name_tw:'但他林', name_en:'',            rarity:4,                grade:70, icon:'datensi_dantarian.png', skills:["マカラカーン","フォッグブレス","ハマダイン"], skill4:["二分の魔脈","暴飲暴食","バインドボイス","マカラカシフト","呪殺反射"], skill5:["","バインドボイス","アイスブレス","挑発","二段の強運"],elements:["","Resist","Resist","Weak","Null","Weak","Resist"], type:'支援'            },
-            {                name:'Ose',          name_tw:'歐賽', name_en:'',     rarity:3,                grade:54, icon:'datensi_ose.png', skills:["冥界破","マハジオンガ","チャージ"], skill4:["猛反撃","メガトンプレス","テトラカーン","二段の剛力","物理無効"], skill5:["","アギ","チャームディ","メディア","乱れ狂い"],elements:["","","","","","","Resist"], type:'攻擊'            },
-            {                name:'Forneus',   name_tw:'佛鈕司', name_en:'',            rarity:3,                grade:41, icon:'datensi_huoruneosu.png', skills:["ブフーラ","マハジオ","フォッグブレス"], skill4:["電撃耐性","マハブフーラ","マハシバブー","氷結ブースタ","破魔無効"], skill5:["","初段の猛速","メクロズディ","ジオ","チャームディ"],elements:["","","Drain","Weak","","","Null"], type:'支援'            },
-            {                name:'Decarabia',     name_tw:'丹卡拉比', name_en:'',          rarity:2,                grade:23, icon:'datensi_dekarabia.png', skills:["マハラギ","マハブフ","ブフ"], skill4:["マリンカリン","アギラオ","メクロズディ","魔封耐性","氷結耐性"], skill5:["","ディア","マハジオ","ポズムディ","パララディ"],elements:["","","","","","	Weak","Resist"], type:'攻擊'            },
-            {                name:'Eligor',     name_tw:'埃力格', name_en:'',          rarity:1,                grade:10, icon:'datensi_erigoru.png', skills:["ムド","なぎ払い",""], skill4:["食いしばり","絶命剣","ラクカジャ","反撃","破魔耐性"], skill5:["","ディア","初段の賢魔","チャームディ","チャームディ"],elements:["Resist","","","Weak","","","Null"], type:'攻擊'            },
-            {                name:'Melchom',       name_tw:'梅爾克', name_en:'',        rarity:1,                grade:4, icon:'datensi_merukomu.png', skills:["ディア","アギ",""], skill4:["ファイアブレス","マハラギ","カースディ","一分の魔脈","物理耐性"], skill5:["","毒床歩き","コロシの愉悦","スラッシュ","ムド"],elements:["","Resist","Weak","","Weak","Weak","Resist"], type:'回復'            }
+            {                name:'Samael',       name_tw:'薩麥爾', name_en:'',        rarity:5,                grade:84, icon:'datensi_samaeru.png', skills:["Mana Aid","Salvation","Spirit Drain"], skill4:["Death Counter","Purgatory","Tetrakarn","Infinite Chakra","Null Fire"], skill5:["","Fire Breath","Agilao","Eat Whole","Heal Boost"],elements:["","","","Weak","","Repel","Repel"], type:'Support'            },
+            {                name:'Dantalian',   name_tw:'但他林', name_en:'',            rarity:4,                grade:70, icon:'datensi_dantarian.png', skills:["Makarakarn","Fog Breath","Hamadyne"], skill4:["Mana Gain","Binge Eating","Bind Voice","Makara Shift","Repel Dark"], skill5:["","Bind Voice","Ice Breath","Taunt","Luck Amp II"],elements:["","Resist","Resist","Weak","Null","Weak","Resist"], type:'Support'            },
+            {                name:'Ose',          name_tw:'歐賽', name_en:'',     rarity:3,                grade:54, icon:'datensi_ose.png', skills:["Hades Blast","Mazionga","Charge"], skill4:["Retaliate","Megaton Press","Tetrakarn","Strength Amp II","Null Phys"], skill5:["","Agi","Charmdi","Media","Madness"],elements:["","","","","","","Resist"], type:'Attack'            },
+            {                name:'Forneus',   name_tw:'佛鈕司', name_en:'',            rarity:3,                grade:41, icon:'datensi_huoruneosu.png', skills:["Bufula","Mazio","Fog Breath"], skill4:["Resist Elec","Mabufula","Mashibaboo","Ice Boost","Null Light"], skill5:["","Agility Amp I","Meclosedi","Zio","Charmdi"],elements:["","","Drain","Weak","","","Null"], type:'Support'            },
+            {                name:'Decarabia',     name_tw:'丹卡拉比', name_en:'',          rarity:2,                grade:23, icon:'datensi_dekarabia.png', skills:["Maragi","Mabufu","Bufu"], skill4:["Marin Karin","Agilao","Meclosedi","Resist Mute","Resist Ice"], skill5:["","Dia","Mazio","Posumudi","Paraladi"],elements:["","","","","","	Weak","Resist"], type:'Attack'            },
+            {                name:'Eligor',     name_tw:'埃力格', name_en:'',          rarity:1,                grade:10, icon:'datensi_erigoru.png', skills:["Mudo","Mow Down",""], skill4:["Endure","Fatal Sword","Rakukaja","Counter","Resist Light"], skill5:["","Dia","Magic Amp I","Charmdi","Charmdi"],elements:["Resist","","","Weak","","","Null"], type:'Attack'            },
+            {                name:'Melchom',       name_tw:'梅爾克', name_en:'',        rarity:1,                grade:4, icon:'datensi_merukomu.png', skills:["Dia","Agi",""], skill4:["Fire Breath","Maragi","Cursedi","Mana Bonus","Resist Phys"], skill5:["","Dmg Panel V I","Bloody Glee","Cleave","Mudo"],elements:["","Resist","Weak","","Weak","Weak","Resist"], type:'Recovery'            }
         ]
     },
     {
@@ -519,13 +519,13 @@ const ddd_stable = [
             ['Haunt','Foul']
         ],
         devils:[
-            {                name:'Ongyo-Ki',     name_tw:'隱形鬼', name_en:'',          rarity:4,                grade:68, icon:'youki_ongyouki.png', skills:["暗夜剣","ラクカオート","マハブフーラ"], skill4:["デスタッチ","虚空爪激","アウトブレイク","デスカウンター","呪殺無効"], skill5:["","反撃","魅了追撃","初段の強運","ウィンドブレス"],elements:["Resist","","Resist","","Resist","Weak",""], type:"攻擊"            },
-            {                name:'Berserker',       name_tw:'狂戰士', name_en:'',        rarity:3,                grade:54, icon:'youki_beruseruku.png', skills:["チャージ","暗夜剣","マハブフ"], skill4:["不屈の闘志","メガトンプレス","リベリオン","猛反撃","氷結無効"], skill5:["","ソウルドレイン","初段の賢魔","クロズディ","野生の勘"],elements:["Null","","","","Weak","",""], type:"攻擊"            },
-            {                name:'Shiki-Ougi',       name_tw:'式王子', name_en:'',        rarity:3,                grade:49, icon:'youki_sikiouji.png', skills:["魔封耐性","ハマ","ムド"], skill4:["デカジャ","メギド","ラクンダ","追い打ち","氷結耐性"], skill5:["","メウィークディ","マハラギ","祟り","ディア"],elements:["Null","Weak","Weak","","","Resist","Resist"], type:"攻擊"            },
-            {                name:'Yomotsu-Ikusa',     name_tw:'黃泉軍', name_en:'',          rarity:3,                grade:41, icon:'youki_yomotuikusa.png', skills:["毒耐性","アイスブレス","マハムドオン"], skill4:["無慈悲な一撃","刹那五月雨撃ち","ジュオン","ミナゴロシの愉悦","破魔耐性"], skill5:["","クロズディ","初段の恵体","メカースディ","メウィークディ"],elements:["","","","","Weak","Weak","Resist"], type:"攻擊"            },
-            {                name:'Oni',            name_tw:'鬼', name_en:'',   rarity:2,                grade:27, icon:'youki_oni.png', skills:["テトラコワース","マハラギ","金剛発破"], skill4:["鬼神楽","五月雨斬り","チャージ","コロシの愉悦","衝撃耐性"],skill5:["","ヒートウェイブ","アギ","突撃","ポズムディ"], elements:["","","","Weak","","",""], type:"攻擊"            },
-            {                name:'Momunofu',         name_tw:'桃生', name_en:'',      rarity:1,                grade:15, icon:'youki_momunohu.png', skills:["なぎ払い","反撃",""], skill4:["ヒートウェイブ","鬼神楽","デクンダ","食いしばり","衝撃耐性"], skill5:["","見切り","アギ","メポズムディ","初段の恵体"],elements:["Resist","","","","Weak","",""], type:"攻擊"            },
-            {                name:'Azumi',          name_tw:'安曇神', name_en:'',     rarity:1,                grade:3, icon:'youki_azumi.png', skills:["パララディ","ブフ",""], skill4:["アイスブレス","マハブフ","ディア","一分の活泉","衝撃耐性"], skill5:["","ジオ","メパララディ","マハジオ","スラッシュ"],elements:["","","Resist","Weak","","",""], type:"回復"            }
+            {                name:'Ongyo-Ki',     name_tw:'隱形鬼', name_en:'',          rarity:4,                grade:68, icon:'youki_ongyouki.png', skills:["Dark Sword","Auto-Rakukaja","Mabufula"], skill4:["Life Drain","Nihil Claw","Outbreak","Death Counter","Null Dark"], skill5:["","Counter","Deadly Charm","Luck Amp I","Wind Breath"],elements:["Resist","","Resist","","Resist","Weak",""], type:"Attack"            },
+            {                name:'Berserker',       name_tw:'狂戰士', name_en:'',        rarity:3,                grade:54, icon:'youki_beruseruku.png', skills:["Charge","Dark Sword","Mabufu"], skill4:["Enduring Soul","Megaton Press","Rebellion","Retaliate","Null Ice"], skill5:["","Deathtouch","Magic Amp I","Closedi","Wild Guess"],elements:["Null","","","","Weak","",""], type:"Attack"            },
+            {                name:'Shiki-Ougi',       name_tw:'式王子', name_en:'',        rarity:3,                grade:49, icon:'youki_sikiouji.png', skills:["Resist Mute","Hama","Mudo"], skill4:["Dekaja","Megidola","Rakunda","Back Attack","Resist Ice"], skill5:["","Meweakdi","Maragi","Curse","Dia"],elements:["Null","Weak","Weak","","","Resist","Resist"], type:"Attack"            },
+            {                name:'Yomotsu-Ikusa',     name_tw:'黃泉軍', name_en:'',          rarity:3,                grade:41, icon:'youki_yomotuikusa.png', skills:["Resist Poison","Ice Breath","Mamudoon"], skill4:["Merciless Blow","Hurricane Slash","Juon","Savage Glee","Resist Light"], skill5:["","Closedi","Vitality Amp I","Mecursedi","Meweakdi"],elements:["","","","","Weak","Weak","Resist"], type:"Attack"            },
+            {                name:'Oni',            name_tw:'鬼', name_en:'',   rarity:2,                grade:27, icon:'youki_oni.png', skills:["Tetra Break","Maragi","Vajra Blast"], skill4:["Oni-Kagura","Tempest Slash","Charge","Bloody Glee","Resist Force"],skill5:["","Heat Wave","Agi","Lunge","Posumudi"], elements:["","","","Weak","","",""], type:"Attack"            },
+            {                name:'Momunofu',         name_tw:'桃生', name_en:'',      rarity:1,                grade:15, icon:'youki_momunohu.png', skills:["Mow Down","Counter",""], skill4:["Heat Wave","Oni-Kagura","Dekunda","Endure","Resist Force"], skill5:["","Dodge","Agi","Meposumudi","Vitality Amp I"],elements:["Resist","","","","Weak","",""], type:"Attack"            },
+            {                name:'Azumi',          name_tw:'安曇神', name_en:'',     rarity:1,                grade:3, icon:'youki_azumi.png', skills:["Paraladi","Bufu",""], skill4:["Ice Breath","Mabufu","Dia","Life Bonus","Resist Force"], skill5:["","Zio","Meparaladi","Mazio","Cleave"],elements:["","","Resist","Weak","","",""], type:"Recovery"            }
         ]
     },
     {
@@ -549,12 +549,12 @@ const ddd_stable = [
             ['Haunt','Night']
         ],
         devils:[
-            {                name:'Rangda',          name_tw:'讓特', name_en:'',    rarity:4,                grade:67, icon:'kijyo_randa.png', skills:["マハジュオン","ムドダイン","マハザンダイン"], skill4:["空間殺法","煉獄","リカームドラ","食いしばり","衝撃無効"], skill5:["","ウィンドブレス","マハブフーラ","デカジャ","吸魔"],elements:["Repel","","","Weak","","",""] , type:"攻擊"           },
-            {                name:'Dakini',      name_tw:'荼吉尼', name_en:'',         rarity:3,                grade:53, icon:'kijyo_dakini.png', skills:["バリアコワース","アギラオ","怪力乱神"], skill4:["ポイズマオン","アギダイン","マハマカジャマ","毒無効","氷結耐性"], skill5:["","毒ガスブレス","ショックウェーブ","初段の賢魔","野生の勘"],elements:["Resist","Drain","Weak","","","",""], type:"支援"            },
-            {                name:'Mermaid',      name_tw:'美人魚', name_en:'',         rarity:3,                grade:42, icon:'kijyo_mameido.png', skills:["アイスブレス","ウィンドブレス","メディア"], skill4:["セクシーダンス","ブフダイン","メチャームディ","無限のチャクラ","氷結無効"], skill5:["","クロズディ","暴れまくり","パララディ","暴れまくり"],elements:["","","Resist","Weak","Resist","",""] , type:"回復"           },
-            {                name:'Yaksini',      name_tw:'夜叉女', name_en:'',         rarity:2,                grade:34, icon:'kijyo_yakusini.png', skills:["呪い耐性","アギラオ","マハザン"], skill4:["刹那五月雨撃ち","ジオンガ","シバブー","初段の剛力","物理耐性"], skill5:["","ハマ","毒床歩き","マハラギ","初段の猛速"],elements:["","","","Weak","Resist","",""], type:"攻擊"            },
-            {                name:'Yomotsu-Shikome',    name_tw:'黃泉醜女', name_en:'',           rarity:2,                grade:23, icon:'kijyo_yomotusikome.png', skills:["タルンダ","毒針","ブフーラ"], skill4:["バインドクロー","デスバウンド","ウィークディ","見切り","衝撃耐性"], skill5:["","突撃","アギ","パララディ","ザン"],elements:["","Weak","","","","Weak","Resist"] , type:"支援"           },
-            {                name:'Leanan Sidhe',    name_tw:'菈南希', name_en:'',           rarity:1,                grade:12, icon:'kijyo_ryanansi.png', skills:["ディア","ブフ",""], skill4:["メディア","ムドオン","リカーム","毒耐性","衝撃耐性"], skill5:["","自然治癒","ハマ","地獄のマスク","なぎ払い"],elements:["","","","","Weak","",""], type:"回復"            }
+            {                name:'Rangda',          name_tw:'讓特', name_en:'',    rarity:4,                grade:67, icon:'kijyo_randa.png', skills:["Majuon","Mudodyne","Mazandyne"], skill4:["Vorpal Blade","Purgatory","Recarmdra","Endure","Null Force"], skill5:["","Wind Breath","Mabufula","Dekaja","Megido"],elements:["Repel","","","Weak","","",""] , type:"Attack"           },
+            {                name:'Dakini',      name_tw:'荼吉尼', name_en:'',         rarity:3,                grade:53, icon:'kijyo_dakini.png', skills:["Barrier Break","Agilao","Berserker God"], skill4:["Poismaon","Agidyne","Mamakajam","Null Poison","Resist Ice"], skill5:["","Poison Breath","Mjolnir","Magic Amp I","Wild Guess"],elements:["Resist","Drain","Weak","","","",""], type:"Support"            },
+            {                name:'Mermaid',      name_tw:'美人魚', name_en:'',         rarity:3,                grade:42, icon:'kijyo_mameido.png', skills:["Ice Breath","Wind Breath","Media"], skill4:["Sexy Dance","Bufudyne","Mecharmdi","Infinite Chakra","Null Ice"], skill5:["","Closedi","Rampage","Paraladi","Rampage"],elements:["","","Resist","Weak","Resist","",""] , type:"Recovery"           },
+            {                name:'Yaksini',      name_tw:'夜叉女', name_en:'',         rarity:2,                grade:34, icon:'kijyo_yakusini.png', skills:["Resist Curse","Agilao","Mazan"], skill4:["Hurricane Slash","Zionga","Shibaboo","Strength Amp I","Resist Phys"], skill5:["","Hama","Dmg Panel V I","Maragi","Agility Amp I"],elements:["","","","Weak","Resist","",""], type:"Attack"            },
+            {                name:'Yomotsu-Shikome',    name_tw:'黃泉醜女', name_en:'',           rarity:2,                grade:23, icon:'kijyo_yomotusikome.png', skills:["Tarunda","Toxic Sting","Bufula"], skill4:["Binding Claw","Darkbound","Weakdi","Dodge","Resist Force"], skill5:["","Lunge","Agi","Paraladi","Zan"],elements:["","Weak","","","","Weak","Resist"] , type:"Support"           },
+            {                name:'Leanan Sidhe',    name_tw:'菈南希', name_en:'',           rarity:1,                grade:12, icon:'kijyo_ryanansi.png', skills:["Dia","Bufu",""], skill4:["Media","Mudoon","Recarm","Resist Poison","Resist Force"], skill5:["","Fast Recovery","Hama","Hellish Mask","Mow Down"],elements:["","","","","Weak","",""], type:"Recovery"            }
         ]
     },
     {
@@ -582,14 +582,14 @@ const ddd_stable = [
             ['Haunt','Wilder']
         ],
         devils:[
-            {                name:'Lilith',        name_tw:'莉莉絲', name_en:'',       rarity:5,                grade:80, icon:'yoma_ririsu.png', skills:["マハジオダイン","エナジードレイン","肉体の解放"], skill4:["狂い咲き","精神漏出","サマリカーム","三段の強運","破魔無効"], skill5:["","毒床渡り","タルンダ","煉獄","暗殺者"],elements:["","Resist","Resist","Drain","Weak","Weak","Null"], type:"支援"            },
-            {                name:'Succubus',    name_tw:'女夢魔', name_en:'',           rarity:4,                grade:63, icon:'yoma_sakyubasu.png', skills:["マハマリンカリン","魅了追撃","ブフダイン"], skill4:["吸魔","マハジオンガ","マハデゾレト","魅了無効","破魔耐性"], skill5:["","吸血","マハブフーラ","野獣の勘","マハムドオン"],elements:["","Resist","Resist","","","Weak",""], type:"支援"            },
-            {                name:'Lilim',        name_tw:'莉莉姆', name_en:'',       rarity:3,                grade:47, icon:'yoma_ririmu.png', skills:["魅了耐性","マハザンマ","マリンカリン"], skill4:["吸魔","ザンダイン","メクロズディ","二段の賢魔","電撃無効"], skill5:["","初段の強運","ブフ","ウィークディ","ジオ"],elements:["","","Weak","","Null","",""], type:"支援"            },
-            {                name:'Kaiwan',        name_tw:'迦溫',   name_en:'',     rarity:3,                grade:42, icon:'yoma_kiun.png', skills:["ムドオン","マハムド","呪殺ブースタ"], skill4:["スクカジャ","マハムドオン","マカラコワース","食いしばり","氷結耐性"], skill5:["","初段の賢魔","初段の強運","コロシの愉悦","マハンマ"],elements:["","","Weak","","","Weak","Null"], type:"攻擊"            },
-            {                name:'Fomorian',   name_tw:'弗莫爾', name_en:'',            rarity:2,                grade:30, icon:'yoma_huomoria.png' , skills:["マハブフ","金剛発破","ハマオン"], skill4:["追い打ち","ブフーラ","リベリオン","二分の活泉","破魔耐性"], skill5:["","ムド","ザン","ブフ","マハラギ"],elements:["","Weak","Resist","","","",""], type:"攻擊"           },
-            {                name:'Incubus',   name_tw:'男夢魔', name_en:'',            rarity:2,                grade:21, icon:'yoma_inkyubasu.png', skills:["マリンカリン","ムドオン","ザン"], skill4:["吸血","マハザン","メパララディ","魅了追撃","氷結耐性"], skill5:["","マハムド","乱れ狂い","地獄のマスク","コロシの愉悦"],elements:["","","","Weak","Resist","",""], type:"支援"            },
-            {                name:'Sandman',     name_tw:'睡魔', name_en:'',          rarity:1,                grade:10, icon:'yoma_zandoman.png', skills:["ザン","スラッシュ",""], skill4:["シバブー","暗夜剣","スクンダ","超自然治癒","氷結耐性"], skill5:["","暴れまくり","ポズムディ","マハジオ","毒床歩き"],elements:["","","","Weak","Resist","",""], type:"攻擊"            },
-            {                name:'Mokoi',         name_tw:'惡靈', name_en:'',      rarity:1,                grade:5, icon:'yoma_mokoi.png', skills:["ジオ","突撃",""], skill4:["暴れまくり","ジオンガ","ウィークディ","初段の剛力","呪殺耐性"], skill5:["","ムド","ヒートウェイブ","毒床歩き","自然治癒"],elements:["","","","Resist","Weak","",""], type:"攻擊"            }
+            {                name:'Lilith',        name_tw:'莉莉絲', name_en:'',       rarity:5,                grade:80, icon:'yoma_ririsu.png', skills:["Maziodyne","Spirit Drain","Allure"], skill4:["Insanity","Judgement","Samarecarm","Luck Amp III","Null Light"], skill5:["","Dmg Panel V II","Tarunda","Purgatory","Assassin"],elements:["","Resist","Resist","Drain","Weak","Weak","Null"], type:"Support"            },
+            {                name:'Succubus',    name_tw:'女夢魔', name_en:'',           rarity:4,                grade:63, icon:'yoma_sakyubasu.png', skills:["Mamarin Karin","Deadly Charm","Bufudyne"], skill4:["Megido","Mazionga","Madesolate","Null Charm","Resist Light"], skill5:["","Mind Break","Mabufula","Wild Instinct","Mamudoon"],elements:["","Resist","Resist","","","Weak",""], type:"Support"            },
+            {                name:'Lilim',        name_tw:'莉莉姆', name_en:'',       rarity:3,                grade:47, icon:'yoma_ririmu.png', skills:["Resist Charm","Mazanma","Marin Karin"], skill4:["Megido","Zandyne","Meclosedi","Magic Amp II","Null Elec"], skill5:["","Luck Amp I","Bufu","Weakdi","Zio"],elements:["","","Weak","","Null","",""], type:"Support"            },
+            {                name:'Kaiwan',        name_tw:'迦溫',   name_en:'',     rarity:3,                grade:42, icon:'yoma_kiun.png', skills:["Mudoon","Mamudo","Dark Boost"], skill4:["Sukukaja","Mamudoon","Makara Break","Endure","Resist Ice"], skill5:["","Magic Amp I","Luck Amp I","Bloody Glee","Mahama"],elements:["","","Weak","","","Weak","Null"], type:"Attack"            },
+            {                name:'Fomorian',   name_tw:'弗莫爾', name_en:'',            rarity:2,                grade:30, icon:'yoma_huomoria.png' , skills:["Mabufu","Vajra Blast","Hamaon"], skill4:["Back Attack","Bufula","Rebellion","Life Gain","Resist Light"], skill5:["","Mudo","Zan","Bufu","Maragi"],elements:["","Weak","Resist","","","",""], type:"Attack"           },
+            {                name:'Incubus',   name_tw:'男夢魔', name_en:'',            rarity:2,                grade:21, icon:'yoma_inkyubasu.png', skills:["Marin Karin","Mudoon","Zan"], skill4:["Mind Break","Mazan","Meparaladi","Deadly Charm","Resist Ice"], skill5:["","Mamudo","Madness","Hellish Mask","Bloody Glee"],elements:["","","","Weak","Resist","",""], type:"Support"            },
+            {                name:'Sandman',     name_tw:'睡魔', name_en:'',          rarity:1,                grade:10, icon:'yoma_zandoman.png', skills:["Zan","Cleave",""], skill4:["Shibaboo","Dark Sword","Sukunda","Epic Recovery","Resist Ice"], skill5:["","Rampage","Posumudi","Mazio","Dmg Panel V I"],elements:["","","","Weak","Resist","",""], type:"Attack"            },
+            {                name:'Mokoi',         name_tw:'惡靈', name_en:'',      rarity:1,                grade:5, icon:'yoma_mokoi.png', skills:["Zio","Lunge",""], skill4:["Rampage","Zionga","Weakdi","Strength Amp I","Resist Dark"], skill5:["","Mudo","Heat Wave","Dmg Panel V I","Fast Recovery"],elements:["","","","Resist","Weak","",""], type:"Attack"            }
         ]
     },
     {
@@ -604,12 +604,12 @@ const ddd_stable = [
             ['Tyrant','Beast']
         ],
         devils:[
-            {                name:'Seth',         name_tw:'賽特', name_en:'',      rarity:5,                grade:84, icon:'jyasin_seto.png', skills:["ザンダイン","ランダマイザ","モータルジハード"], skill4:["ティタノマキア","精神漏出","アウトブレイク","衝撃ハイブースタ","火炎耐性"], skill5:["","マリンカリン","マハマリンカリン","冥界破","ジュ"],elements:["","Weak","","Null","Null","","Drain"], type:'攻擊'            },
-            {                name:'Girimehkala',    name_tw:'獨眼魔象', name_en:'',           rarity:4,                grade:67, icon:'jyasin_girimekara.png', skills:["呪殺耐性","反逆の魔象","メガトンプレス"], skill4:["バインドボイス","暴飲暴食","ラクンダ","ミナゴロシの愉悦","衝撃耐性"], skill5:["","審判の光","アギダイン","クロズディ","ブフーラ"],elements:["Repel","","","Weak","Weak","Weak",""], type:'攻擊'            },
-            {                name:'Pazuzu',        name_tw:'帕祖祖', name_en:'',       rarity:4,                grade:62, icon:'jyasin_pazusu.png', skills:["火炎耐性","メディラマ","煉獄"], skill4:["ホワイトノイズ","マハムドダイン","サマリカーム","デスカウンター","破魔無効"], skill5:["","魔封耐性","メディア","ザンマ","デスバウンド"],elements:["","","Weak","","Null","","Null"], type:'回復'            },
-            {                name:'Arahabaki',    name_tw:'荒霸吐', name_en:'',           rarity:3,                grade:50, icon:'jyasin_arahabaki.png', skills:["メギド","マカラカーン","コンセントレイト"], skill4:["エナジードレイン","アイスブレス","メポズムディ","マカラカシフト","氷結無効"], skill5:["","なぎ払い","乱れ狂い","ムド","メチャームディ"],elements:["Resist","Weak","Weak","Weak","Weak","Resist","Resist"], type:'攻擊'            },
-            {                name:'Baphomet',  name_tw:'巴風特', name_en:'',             rarity:3,                grade:41, icon:'jyasin_bahuometo.png', skills:["マハムド","吸血","マハラギ"], skill4:["二分の魔脈","ムドダイン","マハポイズマ","呪殺ブースタ","破魔耐性"], skill5:["","暴れまくり","マハブフ","野生の勘","ジオ"],elements:["","","","","","Weak","Null"], type:'攻擊'            },
-            {                name:'Abraxas',  name_tw:'亞布拉薩', name_en:'',             rarity:2,                grade:26, icon:'jyasin_aburakusasu.png', skills:["デクンダ","タルカジャ","ブフーラ"], skill4:["ラクカジャ","金剛発破","アムリタ","地獄のマスク","呪殺無効"], skill5:["","マハラギ","初段の賢魔","マハラギ","乱れ狂い"],elements:["Drain","Weak","Weak","Weak","Weak","Weak","Weak"], type:'支援'            }
+            {                name:'Seth',         name_tw:'賽特', name_en:'',      rarity:5,                grade:84, icon:'jyasin_seto.png', skills:["Zandyne","Debilitate","Mortal Jihad"], skill4:["Titanomachia","Judgement","Outbreak","Force Amp","Resist Fire"], skill5:["","Marin Karin","Mamarin Karin","Hades Blast","Ju"],elements:["","Weak","","Null","Null","","Drain"], type:'Attack'            },
+            {                name:'Girimehkala',    name_tw:'獨眼魔象', name_en:'',           rarity:4,                grade:67, icon:'jyasin_girimekara.png', skills:["Resist Dark","Mega Boost","Megaton Press"], skill4:["Bind Voice","Binge Eating","Rakunda","Savage Glee","Resist Force"], skill5:["","Judgement Light","Agidyne","Closedi","Bufula"],elements:["Repel","","","Weak","Weak","Weak",""], type:'Attack'            },
+            {                name:'Pazuzu',        name_tw:'帕祖祖', name_en:'',       rarity:4,                grade:62, icon:'jyasin_pazusu.png', skills:["Resist Fire","Mediarama","Purgatory"], skill4:["White Noise","Allure","Samarecarm","Death Counter","Null Light"], skill5:["","Resist Mute","Media","Zanma","Darkbound"],elements:["","","Weak","","Null","","Null"], type:'Recovery'            },
+            {                name:'Arahabaki',    name_tw:'荒霸吐', name_en:'',           rarity:3,                grade:50, icon:'jyasin_arahabaki.png', skills:["Megidola","Makarakarn","Concentrate"], skill4:["Spirit Drain","Ice Breath","Meposumudi","Makara Shift","Null Ice"], skill5:["","Mow Down","Madness","Mudo","Mecharmdi"],elements:["Resist","Weak","Weak","Weak","Weak","Resist","Resist"], type:'Attack'            },
+            {                name:'Baphomet',  name_tw:'巴風特', name_en:'',             rarity:3,                grade:41, icon:'jyasin_bahuometo.png', skills:["Mamudo","Mind Break","Maragi"], skill4:["Mana Gain","Mudodyne","Mapoisma","Dark Boost","Resist Light"], skill5:["","Rampage","Mabufu","Wild Guess","Zio"],elements:["","","","","","Weak","Null"], type:'Attack'            },
+            {                name:'Abraxas',  name_tw:'亞布拉薩', name_en:'',             rarity:2,                grade:26, icon:'jyasin_aburakusasu.png', skills:["Dekunda","Tarukaja","Bufula"], skill4:["Rakukaja","Vajra Blast","Amrita","Hellish Mask","Null Dark"], skill5:["","Maragi","Magic Amp I","Maragi","Madness"],elements:["Drain","Weak","Weak","Weak","Weak","Weak","Weak"], type:'Support'            }
         ]
     },
     {
@@ -634,13 +634,13 @@ const ddd_stable = [
             ['Haunt','Beast']
         ],
         devils:[
-            {                name:'Fenrir',    name_tw:'芬里爾', name_en:'',           rarity:4,                grade:61, icon:'youjyuu_huenriru.png', skills:["虚空爪激","二段の猛速","タルカオート"], skill4:["丸かじり","冥界破","マカラコワース","スピードスター","衝撃耐性"], skill5:["","呪殺耐性","丸かじり","メウィークディ","ハマ"],elements:["","Weak","Drain","Resist","Weak","",""], type:"支援"            },
-            {                name:'Peallaidh',     name_tw:'皮亞雷', name_en:'',          rarity:3,                grade:46, icon:'youjyuu_piarei.png', skills:["マハデゾレト","狂い咲き","マハムドオン"], skill4:["毒ガスブレス","イービルアイ","コンセントレイト","地獄のマスク","破魔耐性"], skill5:["","ジオ","マハラギ","初段の猛速","毒床歩き"],elements:["","Weak","Resist","","","Weak",""], type:"支援"            },
-            {                name:'Mothman',     name_tw:'天蛾人', name_en:'',          rarity:3,                grade:41, icon:'youjyuu_mosuman.png', skills:["緊縛耐性","マハジオ","マハシバブー"], skill4:["一分の魔脈","ジオダイン","シバブオン","狂い咲き","火炎無効"], skill5:["","ザン","ヒートウェイブ","見切り","メパララディ"],elements:["","","","Resist","Weak","",""], type:"支援"            },
-            {                name:'Nue',         name_tw:'鵺', name_en:'',      rarity:2,                grade:25, icon:'youjyuu_nue.png', skills:["マハジオ","ジオ","丸かじり"], skill4:["バインドクロー","ジオンガ","ラクンダ","初段の剛力","物理耐性"], skill5:["","メカースディ","スラッシュ","ポズムディ","野生の勘"],elements:["","","","Resist","Weak","",""], type:"攻擊"            },
-            {                name:'Raijuu',    name_tw:'雷獸', name_en:'',           rarity:2,                grade:20, icon:'youjyuu_raijyuu.png', skills:["虚弱耐性","ジオンガ","放電"], skill4:["食いしばり","バインドクロー","バリアコワース","初段の猛速","電撃無効"], skill5:["","ハマ","クロズディ","初段の恵体","クロズディ"],elements:["","","","Resist","Weak","",""], type:"支援"            },
-            {                name:'Bicorn',    name_tw:'雙角獸', name_en:'',           rarity:1,                grade:9, icon:'youjyuu_baikon.png', skills:["突撃","アギ",""], skill4:["マハラギ","ヒートウェイブ","チャームディ","地獄のマスク","破魔耐性"], skill5:["","ディア","メパララディ","メディア","メウィークディ"],elements:["","","","","Weak","","Null"], type:"攻擊"            },
-            {                name:'Chagrin',    name_tw:'恰古林', name_en:'',           rarity:1,                grade:4, icon:'youjyuu_tyagurinn.png', skills:["ウィークディ","ジオ",""], skill4:["放電","マハジオ","スクカジャ","初段の猛速","呪殺耐性"], skill5:["","百発百中","暴れまくり","ヒートウェイブ","ポズムディ"],elements:["","Weak","","Resist","","",""], type:"支援"            }
+            {                name:'Fenrir',    name_tw:'芬里爾', name_en:'',           rarity:4,                grade:61, icon:'youjyuu_huenriru.png', skills:["Nihil Claw","Agility Amp II","Auto-Tarukaja"], skill4:["Eat Whole","Hades Blast","Makara Break","Speedster","Resist Force"], skill5:["","Resist Dark","Eat Whole","Meweakdi","Hama"],elements:["","Weak","Drain","Resist","Weak","",""], type:"Support"            },
+            {                name:'Peallaidh',     name_tw:'皮亞雷', name_en:'',          rarity:3,                grade:46, icon:'youjyuu_piarei.png', skills:["Madesolate","Insanity","Mamudoon"], skill4:["Poison Breath","Evil Gaze","Concentrate","Hellish Mask","Resist Light"], skill5:["","Zio","Maragi","Agility Amp I","Dmg Panel V I"],elements:["","Weak","Resist","","","Weak",""], type:"Support"            },
+            {                name:'Mothman',     name_tw:'天蛾人', name_en:'',          rarity:3,                grade:41, icon:'youjyuu_mosuman.png', skills:["Resist Bind","Mazio","Mashibaboo"], skill4:["Mana Bonus","Ziodyne","Shibabooon","Insanity","Null Fire"], skill5:["","Zan","Heat Wave","Dodge","Meparaladi"],elements:["","","","Resist","Weak","",""], type:"Support"            },
+            {                name:'Nue',         name_tw:'鵺', name_en:'',      rarity:2,                grade:25, icon:'youjyuu_nue.png', skills:["Mazio","Zio","Eat Whole"], skill4:["Binding Claw","Zionga","Rakunda","Strength Amp I","Resist Phys"], skill5:["","Mecursedi","Cleave","Posumudi","Wild Guess"],elements:["","","","Resist","Weak","",""], type:"Attack"            },
+            {                name:'Raijuu',    name_tw:'雷獸', name_en:'',           rarity:2,                grade:20, icon:'youjyuu_raijyuu.png', skills:["Resist Weak","Zionga","Shock"], skill4:["Endure","Binding Claw","Barrier Break","Agility Amp I","Null Elec"], skill5:["","Hama","Closedi","Vitality Amp I","Closedi"],elements:["","","","Resist","Weak","",""], type:"Support"            },
+            {                name:'Bicorn',    name_tw:'雙角獸', name_en:'',           rarity:1,                grade:9, icon:'youjyuu_baikon.png', skills:["Lunge","Agi",""], skill4:["Maragi","Heat Wave","Charmdi","Hellish Mask","Resist Light"], skill5:["","Dia","Meparaladi","Media","Meweakdi"],elements:["","","","","Weak","","Null"], type:"Attack"            },
+            {                name:'Chagrin',    name_tw:'恰古林', name_en:'',           rarity:1,                grade:4, icon:'youjyuu_tyagurinn.png', skills:["Weakdi","Zio",""], skill4:["Shock","Mazio","Sukukaja","Agility Amp I","Resist Dark"], skill5:["","Good Aim","Rampage","Heat Wave","Posumudi"],elements:["","Weak","","Resist","","",""], type:"Support"            }
         ]
     },
     {
@@ -658,12 +658,12 @@ const ddd_stable = [
             ['Haunt','Vile']
         ],
         devils:[
-            {                name:'Mad Gasser',     name_tw:'毒氣怪客', name_en:'',          rarity:3,                grade:45, icon:'gedou_madogasa.png', skills:["マハポイズマ","毒追撃","ムドダイン"], skill4:["地獄のマスク","デスタッチ","バリアコワース","乱れ狂い","呪殺無効"], skill5:["","ジオ","ハマ","スクカジャ","メチャームディ"],elements:["","","","","","Weak","Resist"],type:"支援"            },
-            {                name:'Shadow',          name_tw:'黑影', name_en:'',     rarity:2,                grade:35, icon:'gedou_syadou.png', skills:["ラクンダ","マハジオ","ムド"], skill4:["タルカジャ","ムドオン","デゾレト","初段の猛速","氷結耐性"], skill5:["","地獄のマスク","マハムド","ジオ","初段の強運"],elements:["Resist","","","","Weak","Weak","Null"],type:"支援"            },
-            {                name:'Black Ooze',    name_tw:'黑泥怪', name_en:'',           rarity:2,                grade:25, icon:'gedou_burakuuzu.png', skills:["ジュ","ポイズマ","甘噛み"], skill4:["乱れ狂い","デスタッチ","マハジュ","食いしばり","火炎無効"],skill5:["","マハザン","ヒートウェイブ","メウィークディ","メカースディ"], elements:["Resist","","","Weak","","Weak","Null"],type:"支援"            },
-            {                name:'Blob',           name_tw:'果凍怪', name_en:'',    rarity:2,                grade:20, icon:'gedou_burobu.png', skills:["ポイズマ","ザン","マハザン"], skill4:["タルンダ","吸魔","マハポイズマ","乱れ狂い","衝撃耐性"], skill5:["","ウィークディ","ブフ","マハムド","ジオ"],elements:["Resist","","Weak","","","Weak","Null"],type:"支援"            },
-            {                name:'Phantom',       name_tw:'鬼魅', name_en:'',        rarity:1,               grade:10, icon:'gedou_huantomu.png', skills:["ジオ","ムド","マハジオ"], skill4:["マハジオ","ジオンガ","デカジャ","地獄のマスク","電撃耐性"], skill5:["","初段の強運","パララディ","マハムド","マハブフ"],elements:["Resist","","","","Weak","Weak","Null"],type:"攻擊"            },
-            {                name:'Slime',        name_tw:'軟泥怪', name_en:'',       rarity:1,                grade:1, icon:'gedou_suraimu.png', skills:["スラッシュ","一分の活泉",""], skill4:["吸血","吸魔","ポズムディ","反撃","衝撃耐性"], skill5:["","なぎ払い","野生の勘","初段の猛速","毒床歩き"],elements:["Weak","Weak","Weak","Weak","Weak","Weak",""],type:"攻擊"            }
+            {                name:'Mad Gasser',     name_tw:'毒氣怪客', name_en:'',          rarity:3,                grade:45, icon:'gedou_madogasa.png', skills:["Mapoisma","Deadly Poison","Mudodyne"], skill4:["Hellish Mask","Life Drain","Barrier Break","Madness","Null Dark"], skill5:["","Zio","Hama","Sukukaja","Mecharmdi"],elements:["","","","","","Weak","Resist"],type:"Support"            },
+            {                name:'Shadow',          name_tw:'黑影', name_en:'',     rarity:2,                grade:35, icon:'gedou_syadou.png', skills:["Rakunda","Mazio","Mudo"], skill4:["Tarukaja","Mudoon","Desolate","Agility Amp I","Resist Ice"], skill5:["","Hellish Mask","Mamudo","Zio","Luck Amp I"],elements:["Resist","","","","Weak","Weak","Null"],type:"Support"            },
+            {                name:'Black Ooze',    name_tw:'黑泥怪', name_en:'',           rarity:2,                grade:25, icon:'gedou_burakuuzu.png', skills:["Ju","Poisma","Charm Bite"], skill4:["Madness","Life Drain","Maju","Endure","Null Fire"],skill5:["","Mazan","Heat Wave","Meweakdi","Mecursedi"], elements:["Resist","","","Weak","","Weak","Null"],type:"Support"            },
+            {                name:'Blob',           name_tw:'果凍怪', name_en:'',    rarity:2,                grade:20, icon:'gedou_burobu.png', skills:["Poisma","Zan","Mazan"], skill4:["Tarunda","Megido","Mapoisma","Madness","Resist Force"], skill5:["","Weakdi","Bufu","Mamudo","Zio"],elements:["Resist","","Weak","","","Weak","Null"],type:"Support"            },
+            {                name:'Phantom',       name_tw:'鬼魅', name_en:'',        rarity:1,               grade:10, icon:'gedou_huantomu.png', skills:["Zio","Mudo","Mazio"], skill4:["Mazio","Zionga","Dekaja","Hellish Mask","Resist Elec"], skill5:["","Luck Amp I","Paraladi","Mamudo","Mabufu"],elements:["Resist","","","","Weak","Weak","Null"],type:"Attack"            },
+            {                name:'Slime',        name_tw:'軟泥怪', name_en:'',       rarity:1,                grade:1, icon:'gedou_suraimu.png', skills:["Cleave","Life Bonus",""], skill4:["Mind Break","Megido","Posumudi","Counter","Resist Force"], skill5:["","Mow Down","Wild Guess","Agility Amp I","Dmg Panel V I"],elements:["Weak","Weak","Weak","Weak","Weak","Weak",""],type:"Attack"            }
         ]
     },
     {
@@ -681,14 +681,14 @@ const ddd_stable = [
             ['Vile','Fury']
         ],
         devils:[
-            {                name:'Lucifer',     name_tw:'露西法', name_en:'',          rarity:5,                grade:98, icon:'maou_rusifua.png', skills:["メギドラオン","トリスアギオン","明けの明星"], skill4:["三段の恵体","ティタノマキア","リカームドラ","大虐殺者","破魔吸収"], skill5:["","ムドダイン","魅了無効","電撃ブースタ","マリンカリオン"],elements:["Resist","","","","","Weak","Repel"], type:'攻擊'            },
-            {                name:'Mara',         name_tw:'魔羅', name_en:'',      rarity:5,                grade:90, icon:'maou_mara.png', skills:["緊縛無効","ティタノマキア","地獄突き"], skill4:["メガトンレイド","ソウルドレイン","チャージ","物理貫通","氷結無効"], skill5:["","真理の雷","デゾレトオン","マハマカジャオン","地獄の業火"],elements:["","","Weak","Drain","","Resist","Resist"], type:'攻擊'            },
-            {                name:'Surt',         name_tw:'史爾特爾', name_en:'',     rarity:5,                grade:83, icon:'maou_suruto.png', skills:["怪力乱神","テトラカシフト","ラグナロク"], skill4:["威圧の構え","マハラギダイン","リディア","火炎貫通","氷結無効"], skill5:["","毒追撃","衝撃ブースタ","ラクンダ","丸かじり"],elements:["","Drain","Weak","","","",""], type:'攻擊'            },
-            {                name:'Loki',           name_tw:'洛基', name_en:'',    rarity:4,                grade:75, icon:'maou_roki.png', skills:["ザンダイン","アギダイン","トリックスター"], skill4:["ジオダイン","ブフダイン","祟り","ダークゾーン無効","破魔耐性"], skill5:["","コロシの愉悦","丸かじり","マハムドオン","ムドオン"],elements:["","","Null","","Resist","Weak","Resist"], type:'攻擊'           },
-            {                name:'Beelzebub',     name_tw:'別西卜', name_en:'',          rarity:4,                grade:68, icon:'maou_beruzebubu.png', skills:["ムドダイン","マハジオンガ","暴食の大罪"], skill4:["野獣の勘","ショックウェーブ","アウトブレイク","マカラカシフト","破魔反射"], skill5:["","マハデゾレトオン","物理耐性","コロシの愉悦","電撃耐性"],elements:["","","","Resist","Resist","Null","Null"], type:'攻擊'            },
-            {                name:'King Frost',     name_tw:'冰傑克王', name_en:'',          rarity:4,                grade:64, icon:'maou_jyakuhurosuto.png', skills:["氷結ブースタ","メガトンプレス","大冷界"], skill4:["","絶対零度","コンセントレイト","三段の強運","火炎耐性"], skill5:["","ブフダイン","暴飲暴食","地獄のマスク","緊縛耐性"],elements:["","Weak","Null","","","Resist",""], type:'攻擊'            },
-            {                name:'Abaddon',       name_tw:'阿巴頓', name_en:'',        rarity:4,                grade:60, icon:'maou_abadon.png', skills:["猛反撃","マハラギオン","暴飲暴食"], skill4:["地獄の業火","メガトンレイド","マハデゾレト","コロシの愉悦","物理無効"], skill5:["","初段の猛速","地獄のマスク","ジュ","メクロズディ"],elements:["","Repel","","Weak","","",""], type:'攻擊'            },
-            {                name:'Horkos',       name_tw:'奧迦斯', name_en:'',        rarity:3,                grade:46, icon:'maou_okasu.png', skills:["食いしばり","猛反撃","地獄の業火"], skill4:["ラクカオート","捨て身の一撃","テトラコワース","二段の恵体","氷結無効"], skill5:["","マハブフ","ザン","野生の勘","自然治癒"],elements:["Resist","","Weak","","","Weak",""], type:'攻擊'            }
+            {                name:'Lucifer',     name_tw:'露西法', name_en:'',          rarity:5,                grade:98, icon:'maou_rusifua.png', skills:["Pralaya","Ragnarok","Megidolaon"], skill4:["Vitality Amp III","Titanomachia","Recarmdra","Butcher","Drain Light"], skill5:["","Mudodyne","Null Charm","Elec Boost","Marin Karion"],elements:["Resist","","","","","Weak","Repel"], type:'Attack'            },
+            {                name:'Mara',         name_tw:'魔羅', name_en:'',      rarity:5,                grade:90, icon:'maou_mara.png', skills:["Null Bind","Titanomachia","Hell Thrust"], skill4:["Megaton Raid","Deathtouch","Charge","Phys Pierce","Null Ice"], skill5:["","Thunder Reign","Desolateon","Mamakajaon","Hellfire"],elements:["","","Weak","Drain","","Resist","Resist"], type:'Attack'            },
+            {                name:'Surt',         name_tw:'史爾特爾', name_en:'',     rarity:5,                grade:83, icon:'maou_suruto.png', skills:["Berserker God","Tetra Shift","Ragnarok"], skill4:["Intimidating Stance","Maragidyne","Redia","Fire Pierce","Null Ice"], skill5:["","Deadly Poison","Force Boost","Rakunda","Eat Whole"],elements:["","Drain","Weak","","","",""], type:'Attack'            },
+            {                name:'Loki',           name_tw:'洛基', name_en:'',    rarity:4,                grade:75, icon:'maou_roki.png', skills:["Zandyne","Agidyne","Trickster"], skill4:["Ziodyne","Bufudyne","Curse","Void Dark Zones","Resist Light"], skill5:["","Bloody Glee","Eat Whole","Mamudoon","Mudoon"],elements:["","","Null","","Resist","Weak","Resist"], type:'Attack'           },
+            {                name:'Beelzebub',     name_tw:'別西卜', name_en:'',          rarity:4,                grade:68, icon:'maou_beruzebubu.png', skills:["Mudodyne","Mazionga","Gluttony"], skill4:["Wild Instinct","Mjolnir","Outbreak","Makara Shift","Repel Light"], skill5:["","Madesolateon","Resist Phys","Bloody Glee","Resist Elec"],elements:["","","","Resist","Resist","Null","Null"], type:'Attack'            },
+            {                name:'King Frost',     name_tw:'冰傑克王', name_en:'',          rarity:4,                grade:64, icon:'maou_jyakuhurosuto.png', skills:["Ice Boost","Megaton Press","Cold World"], skill4:["","Glacial Blast","Concentrate","Luck Amp III","Resist Fire"], skill5:["","Bufudyne","Binge Eating","Hellish Mask","Resist Bind"],elements:["","Weak","Null","","","Resist",""], type:'Attack'            },
+            {                name:'Abaddon',       name_tw:'阿巴頓', name_en:'',        rarity:4,                grade:60, icon:'maou_abadon.png', skills:["Retaliate","Maragion","Binge Eating"], skill4:["Hellfire","Megaton Raid","Madesolate","Bloody Glee","Null Phys"], skill5:["","Agility Amp I","Hellish Mask","Ju","Meclosedi"],elements:["","Repel","","Weak","","",""], type:'Attack'            },
+            {                name:'Horkos',       name_tw:'奧迦斯', name_en:'',        rarity:3,                grade:46, icon:'maou_okasu.png', skills:["Endure","Retaliate","Hellfire"], skill4:["Auto-Rakukaja","Power Hit","Tetra Break","Vitality Amp II","Null Ice"], skill5:["","Mabufu","Zan","Wild Guess","Fast Recovery"],elements:["Resist","","Weak","","","Weak",""], type:'Attack'            }
         ]
     },
     {
@@ -711,13 +711,13 @@ const ddd_stable = [
             ['Tyrant','Vile']
         ],
         devils:[
-            {                name:'Vetala',        name_tw:'毘陀羅', name_en:'',       rarity:3,                grade:55, icon:'yuuki_vetara.png', skills:["リディアコワース","ブフダイン","丸かじり"], skill4:["暴れまくり","エナジードレイン","溶解ブレス","毒耐性","火炎耐性"], skill5:["","カースディ","初段の猛速","ヒートウェイブ","初段の猛速"],elements:["","Weak","","","","Weak","Null"], type:"攻擊"            },
-            {                name:'Chatterskull',   name_tw:'笑面骷髏', name_en:'',            rarity:3,                grade:44, icon:'yuuki_rahuinsukaru.png', skills:["ディスコード","ムドオン","デスタッチ"], skill4:["デカジャ","冥界破","雄叫び","緊縛無効","衝撃耐性"], skill5:["","なぎ払い","ポズムディ","暴れまくり","マハジオ"],elements:["","Drain","Weak","","","Weak","Null"], type:"支援"            },
-            {                name:'Legion',          name_tw:'惡靈軍團', name_en:'',     rarity:2,                grade:34, icon:'yuuki_region.png', skills:["マハザン","ムド","アギ"], skill4:["デスバウンド","ウィンドブレス","マカラコワース","衝撃ブースタ","火炎耐性"], skill5:["","初段の強運","ヒートウェイブ","マハブフ","メウィークディ"],elements:["","","","Weak","","Weak","Resist"], type:"攻擊"            },
-            {                name:'Pisaca',      name_tw:'畢舍遮', name_en:'',         rarity:2,                grade:26, icon:'yuuki_pisyatya.png', skills:["マハムド","甘噛み","吸血"], skill4:["ジュ","ムドオン","マハシバブー","毒床渡り","氷結耐性"], skill5:["","スラッシュ","地獄のマスク","ハマ","百発百中"],elements:["","Weak","","","Null","Weak","Resist"], type:"支援"            },
-            {                name:'Mou-Ryo',        name_tw:'魍魎', name_en:'',       rarity:2,                grade:20, icon:'yuuki_mouryou.png', skills:["ムド","シバブオン","ファイアブレス"], skill4:["吸魔","イービルアイ","カースディ","初段の賢魔","呪殺反射"], skill5:["","ウィークディ","暴れまくり","メクロズディ","見切り"],elements:["","","","","","Weak","Null"], type:"攻擊"            },
-            {                name:'Obariyon',        name_tw:'背負小鬼', name_en:'',       rarity:1,                grade:7, icon:'yuuki_obariyon.png', skills:["クロズディ","メディア",""], skill4:["突撃","暴れまくり","スクンダ","見切り","火炎耐性"], skill5:["","乱れ狂い","メカースディ","地獄のマスク","マハンマ"],elements:["","","Weak","Resist","","Weak","Null"], type:"回復"            },
-            {                name:'Preta',             name_tw:'餓鬼', name_en:'',  rarity:1,                grade:4, icon:'yuuki_gaki.png', skills:["ブフ","ムド",""], skill4:["マハブフ","吸血","ディスコード","百発百中","衝撃耐性"], skill5:["","ヒートウェイブ","メパララディ","マハムド","初段の剛力"],elements:["","Weak","Resist","","Weak","Weak","Null"], type:"攻擊"            }
+            {                name:'Vetala',        name_tw:'毘陀羅', name_en:'',       rarity:3,                grade:55, icon:'yuuki_vetara.png', skills:["Redia Break","Bufudyne","Eat Whole"], skill4:["Rampage","Spirit Drain","Acid Breath","Resist Poison","Resist Fire"], skill5:["","Cursedi","Agility Amp I","Heat Wave","Agility Amp I"],elements:["","Weak","","","","Weak","Null"], type:"Attack"            },
+            {                name:'Chatterskull',   name_tw:'笑面骷髏', name_en:'',            rarity:3,                grade:44, icon:'yuuki_rahuinsukaru.png', skills:["Discord","Mudoon","Life Drain"], skill4:["Dekaja","Hades Blast","War Cry","Null Bind","Resist Force"], skill5:["","Mow Down","Posumudi","Rampage","Mazio"],elements:["","Drain","Weak","","","Weak","Null"], type:"Support"            },
+            {                name:'Legion',          name_tw:'惡靈軍團', name_en:'',     rarity:2,                grade:34, icon:'yuuki_region.png', skills:["Mazan","Mudo","Agi"], skill4:["Darkbound","Wind Breath","Makara Break","Force Boost","Resist Fire"], skill5:["","Luck Amp I","Heat Wave","Mabufu","Meweakdi"],elements:["","","","Weak","","Weak","Resist"], type:"Attack"            },
+            {                name:'Pisaca',      name_tw:'畢舍遮', name_en:'',         rarity:2,                grade:26, icon:'yuuki_pisyatya.png', skills:["Mamudo","Charm Bite","Mind Break"], skill4:["Ju","Mudoon","Mashibaboo","Dmg Panel V II","Resist Ice"], skill5:["","Cleave","Hellish Mask","Hama","Good Aim"],elements:["","Weak","","","Null","Weak","Resist"], type:"Support"            },
+            {                name:'Mou-Ryo',        name_tw:'魍魎', name_en:'',       rarity:2,                grade:20, icon:'yuuki_mouryou.png', skills:["Mudo","Shibabooon","Fire Breath"], skill4:["Megido","Evil Gaze","Cursedi","Magic Amp I","Repel Dark"], skill5:["","Weakdi","Rampage","Meclosedi","Dodge"],elements:["","","","","","Weak","Null"], type:"Attack"            },
+            {                name:'Obariyon',        name_tw:'背負小鬼', name_en:'',       rarity:1,                grade:7, icon:'yuuki_obariyon.png', skills:["Closedi","Media",""], skill4:["Lunge","Rampage","Sukunda","Dodge","Resist Fire"], skill5:["","Madness","Mecursedi","Hellish Mask","Mahama"],elements:["","","Weak","Resist","","Weak","Null"], type:"Recovery"            },
+            {                name:'Preta',             name_tw:'餓鬼', name_en:'',  rarity:1,                grade:4, icon:'yuuki_gaki.png', skills:["Bufu","Mudo",""], skill4:["Mabufu","Mind Break","Discord","Good Aim","Resist Force"], skill5:["","Heat Wave","Meparaladi","Mamudo","Strength Amp I"],elements:["","Weak","Resist","","Weak","Weak","Null"], type:"Attack"            }
         ]
     },
     {
@@ -726,9 +726,9 @@ const ddd_stable = [
         name_en:'Fiend',
         formulas:[],
         devils:[
-            { name:'Trumpeter', name_tw:'吹號者', name_en:'', rarity:5, grade:94, icon:'majin_toranpeta.png', skills:['コンセントレイト','ソウルドレイン','アポカリプス'], skill4:['マハマカジャオン','ジャッジメント','祟り','ラクカオート','物理耐性'], skill5:['','タルカジャ','マハブフーラ','空間殺法','火炎耐性'], elements:['','','','','','Null','Null'], type:'攻擊'},
-            { name:'Alice', name_tw:'愛麗絲', name_en:'', rarity:5, grade:89, icon:'majin_arisu.png', skills:['マハムドオン','ムドダイン','死んでくれる？'], skill4:['ソウルドレイン','ヘルズアイ','マハジュオン','呪殺ハイブースタ','破魔反射'], skill5:['','絶対零度','マハブフダイン','呪い耐性','刹那五月雨撃ち'], elements:['','','','','','Weak','Repel'], type:'攻擊'},
-            {   name:'White Rider', name_tw:'白騎士', name_en:'', rarity:4, grade:74, icon:'majin_waitonaito.png', skills:['ジオダイン','ホワイトノイズ','ゴッドアロー'], skill4:['ショックウェーブ','ソウルドレイン','リカームドラ','緊縛無効','衝撃無効'], skill5:['','ブフーラ','百発百中','ヒートウェイブ','ブフ'], elements:['','','','Drain','Weak','Resist','Resist'], type:'攻擊'}
+            { name:'Trumpeter', name_tw:'吹號者', name_en:'', rarity:5, grade:94, icon:'majin_toranpeta.png', skills:['Concentrate','Deathtouch',"Divine Bows' Allure"], skill4:['Mamakajaon','Morning Star','Curse','Auto-Rakukaja','Resist Phys'], skill5:['','Tarukaja','Mabufula','Vorpal Blade','Resist Fire'], elements:['','','','','','Null','Null'], type:'Attack'},
+            { name:'Alice', name_tw:'愛麗絲', name_en:'', rarity:5, grade:89, icon:'majin_arisu.png', skills:['Mamudoon','Mudodyne','死んでくれる？'], skill4:['Deathtouch','Die for Me!','Majuon','Dark Amp','Repel Light'], skill5:['','Glacial Blast','Mabufudyne','Resist Curse','Hurricane Slash'], elements:['','','','','','Weak','Repel'], type:'Attack'},
+            {   name:'White Rider', name_tw:'白騎士', name_en:'', rarity:4, grade:74, icon:'majin_waitonaito.png', skills:['Ziodyne','White Noise',"God's Bow"], skill4:['Mjolnir','Deathtouch','Recarmdra','Null Bind','Null Force'], skill5:['','Bufula','Good Aim','Heat Wave','Bufu'], elements:['','','','Drain','Weak','Resist','Resist'], type:'Attack'}
         ]
     },
     {
@@ -737,10 +737,10 @@ const ddd_stable = [
         name_en:'Hero',
         formulas:[],
         devils:[
-            { name:'Yoshitsune', name_tw:'義經', name_en:'', rarity:5, grade:97, icon:'eiyuu_yositune.png', skills:['空間殺法','勝利のチャクラ','八艘飛び'], skill4:['不屈の闘志','ギガントマキア','テトラカーン','物理ハイブースタ','物理吸収'], skill5:['','マハマカジャマ','マハブフダイン','殺風激','ウィンドブレス'], elements:['Resist','','','','','Null','Null'], type:'攻擊'},
-            { name:'Huang Di', name_tw:'皇帝', name_en:'', rarity:5, grade:88, icon:'eiyuu_koutei.png', skills:['冥界破','帝の権威','応龍撃破'], skill4:['','怪力乱神','メシアライザー','魅了無効','破魔反射'], skill5:['','タルカオート','物理無効','虐殺者','奈落のマスク'], elements:['','Resist','Resist','Resist','Resist','',''], type:'攻擊'},
-            { name:'Siegfried', name_tw:'齊格飛', name_en:'', rarity:5, grade:83, icon:'eiyuu_jikuhurito.png', skills:['怪力乱神','リベリオン','武道の素養'], skill4:['勝利の息吹','ティタノマキア','チャージ','不屈の闘志','衝撃無効'], skill5:['','マハジオダイン','トリスアギオン','メギドラ','イービルアイ'], elements:['Drain','','','','','',''], type:'攻擊'},
-            { name:"Jeanne d'Arc", name_tw:'貞德', name_en:'', rarity:4, grade:78, icon:'eiyuu_jannu.png', skills:['回復ブースタ','天罰','オルレアンの祈り'], skill4:['勝利の息吹','ジャッジメント','静寂の祈り','魔封無効','火炎反射'], skill5:['','精神漏出','メディラマ','煉獄','ザンマ'], elements:['','Weak','Resist','Resist','Resist','',''], type:'回復'}
+            { name:'Yoshitsune', name_tw:'義經', name_en:'', rarity:5, grade:97, icon:'eiyuu_yositune.png', skills:['Vorpal Blade','Mana Aid','Hassou Tobi'], skill4:['Enduring Soul','Gigantomachia','Tetrakarn','Phys Amp','Drain Phys'], skill5:['','Mamakajam','Mabufudyne','Deadly Wind','Wind Breath'], elements:['Resist','','','','','Null','Null'], type:'Attack'},
+            { name:'Huang Di', name_tw:'皇帝', name_en:'', rarity:5, grade:88, icon:'eiyuu_koutei.png', skills:['Hades Blast','Superior Power','Yinlong Killer'], skill4:['','Berserker God','Salvation','Null Charm','Repel Light'], skill5:['','Auto-Tarukaja','Null Phys','Serial Killer','Infernal Mask'], elements:['','Resist','Resist','Resist','Resist','',''], type:'Attack'},
+            { name:'Siegfried', name_tw:'齊格飛', name_en:'', rarity:5, grade:83, icon:'eiyuu_jikuhurito.png', skills:['Berserker God','Rebellion','Arms Mastery'], skill4:['Life Aid','Titanomachia','Charge','Enduring Soul','Null Force'], skill5:['','Maziodyne','Ragnarok','Megidolaon','Evil Gaze'], elements:['Drain','','','','','',''], type:'Attack'},
+            { name:"Jeanne d'Arc", name_tw:'貞德', name_en:'', rarity:4, grade:78, icon:'eiyuu_jannu.png', skills:['Heal Boost','Holy Wrath','Orleans Prayer'], skill4:['Life Aid','Morning Star','Silent Prayer','Null Mute','Repel Fire'], skill5:['','Judgement','Mediarama','Purgatory','Zanma'], elements:['','Weak','Resist','Resist','Resist','',''], type:'Recovery'}
         ]
     },
     {
@@ -749,7 +749,7 @@ const ddd_stable = [
         name_en:'Rumor',
         formulas:[],
         devils:[
-            { name:'Kamiotoko', name_tw:'啃咬魔', name_en:'', rarity:2, grade:25, icon:'kaii_kamiotoko.png', skills:['ムドオン','狂い咲き','痺れかみつき'], skill4:['雄叫び','丸かじり','ディスコード','初段の強運','衝撃無効'], skill5:['','暴れまくり','ディア','マハンマ','コロシの愉悦'], elements:['','','','','','Weak','Repel'], type:'支援'}
+            { name:'Kamiotoko', name_tw:'啃咬魔', name_en:'', rarity:2, grade:25, icon:'kaii_kamiotoko.png', skills:['Mudoon','Insanity','Binding Bite'], skill4:['War Cry','Eat Whole','Discord','Luck Amp I','Null Force'], skill5:['','Rampage','Dia','Mahama','Bloody Glee'], elements:['','','','','','Weak','Repel'], type:'Support'}
         ]
     },
     {
@@ -758,8 +758,8 @@ const ddd_stable = [
         name_en:'UMA',
         formulas:[],
         devils:[
-            { name:'Hare of Inaba', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'tinjyuu_inabasirousagi.png', skills:['デカジャ','メディア','ワナフーリ'], skill4:['リカーム','狂乱の剛爪','ディスコード','初段の猛速','火炎無効'], skill5:['','マハムド','マハンマ','メカースディ','メウィークディ'], elements:['','Weak','','','','',''], type:'回復'},
-            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'tinjyuu_typakabura.png', skills:['マハザン','ステルス','ワナフーリ'], skill4:['スクカオート','吸魔','パララディ','地獄のマスク','電撃耐性'], skill5:['','マハムド','メディア','初段の恵体','野生の勘'], elements:['','','','Weak','','',''], type:'攻擊'}
+            { name:'Hare of Inaba', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'tinjyuu_inabasirousagi.png', skills:['Dekaja','Media','Trap Free'], skill4:['Recarm','Madness Nails','Discord','Agility Amp I','Null Fire'], skill5:['','Mamudo','Mahama','Mecursedi','Meweakdi'], elements:['','Weak','','','','',''], type:'Recovery'},
+            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'tinjyuu_typakabura.png', skills:['Mazan','Stealth','Trap Free'], skill4:['Auto-Sukukaja','Megido','Paraladi','Hellish Mask','Resist Elec'], skill5:['','Mamudo','Media','Vitality Amp I','Wild Guess'], elements:['','','','Weak','','',''], type:'Attack'}
         ]
     },
     {
@@ -768,9 +768,9 @@ const ddd_stable = [
         name_en:'Enigma',
         formulas:[],
         devils:[
-            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['スピードスター','デクンダ','魅了の神弓'], skill4:['空間殺法','刹那五月雨撃ち','静寂の祈り','スクカオート','火炎反射'], skill5:['','衝撃耐性','メポズムディ','毒針','タルンダ'], elements:['Resist','Weak','','','','Resist',''], type:'支援'},
-            { name:'Kinmamon', name_tw:'君真物', name_en:'',rarity:3, grade:55, icon:'hisin_kinmamon.png', skills:['メギド','バリア','マレビト'], skill4:['メギドラ','エナジードレイン','アムリタ','見切り','呪殺無効'], skill5:['','初段の恵体','毒床歩き','乱れ狂い','カースディ'], elements:['','Null','Weak','','','Resist','Resist'], type:'支援'},
-            { name:'Kanbari', name_tw:'加牟波理', name_en:'',rarity:2, grade:30, icon:'hisin_kanbari.png', skills:['暴れまくり','ハマオン','コウウン'], skill4:['メガトンプレス','マハンマ','メカースディ','勝利のチャクラ','火炎耐性'], skill5:['','','','',''], elements:['Weak','','','','','Resist','Weak'], type:'攻擊'}
+            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['Speedster','Dekunda','Fire of Sinai'], skill4:['Vorpal Blade','Hurricane Slash','Silent Prayer','Auto-Sukukaja','Repel Fire'], skill5:['','Resist Force','Meposumudi','Toxic Sting','Tarunda'], elements:['Resist','Weak','','','','Resist',''], type:'Support'},
+            { name:'Kinmamon', name_tw:'君真物', name_en:'',rarity:3, grade:55, icon:'hisin_kinmamon.png', skills:['Megidola','Barrier','Mutant'], skill4:['Megidolaon','Spirit Drain','Amrita','Dodge','Null Dark'], skill5:['','Vitality Amp I','Dmg Panel V I','Madness','Cursedi'], elements:['','Null','Weak','','','Resist','Resist'], type:'Support'},
+            { name:'Kanbari', name_tw:'加牟波理', name_en:'',rarity:2, grade:30, icon:'hisin_kanbari.png', skills:['Rampage','Hamaon','Luck'], skill4:['Megaton Press','Mahama','Mecursedi','Mana Aid','Resist Fire'], skill5:['','','','',''], elements:['Weak','','','','','Resist','Weak'], type:'Attack'}
         ]
     },
     {
@@ -779,7 +779,7 @@ const ddd_stable = [
         name_en:'Zealot',
         formulas:[],
         devils:[
-            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['不屈の闘志','リカームドラ','乱・かすみ斬り'], skill4:['勝利の息吹','マハブフダイン','ディアラマ','魅了無効','氷結無効'], skill5:['','二段の猛速','マハラギオン','毒床歩き','メチャームディ'], elements:['Resist','','','','','',''], type:'攻擊'}
+            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['Enduring Soul','Recarmdra','Mist Slash'], skill4:['Life Aid','Mabufudyne','Diarama','Null Charm','Null Ice'], skill5:['','Agility Amp II','Maragion','Dmg Panel V I','Mecharmdi'], elements:['Resist','','','','','',''], type:'Attack'}
         ]
     },
     {
@@ -788,7 +788,7 @@ const ddd_stable = [
         name_en:'Entity',
         formulas:[],
         devils:[
-            { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['メギドラ','奈落のマスク','貫反の霊圧'], skill4:['ディアラハン','ソウルドレイン','メディラマ','二分の魔脈','物理無効'], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'支援'}
+            { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidolaon','Infernal Mask','Bane of Pierce'], skill4:['Diarahan','Deathtouch','Mediarama','Mana Gain','Null Phys'], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
         ]
     }
 ];
@@ -800,43 +800,43 @@ const skill_stable = [
         name_en:"",
         skills:[
             //Physical
-            {"name":"スラッシュ","name_tw":"斬擊","desc":"敵単体に物理属性の打撃型ダメージを威力120で与える。","mp":4,"point":1,"element":"Physical"},
-            {"name":"絶命剣","name_tw":"絕命劍","desc":"敵単体に物理属性の打撃型ダメージを威力140で与える。","mp":5,"point":6,"element":"Physical"},
-            {"name":"怪力乱神","name_tw":"怪力亂神","desc":"敵単体に物理属性の打撃型ダメージを威力160で与える。","mp":6,"point":9,"element":"Physical"},
-            {"name":"メガトンレイド","name_tw":"百萬噸襲擊","desc":"敵単体に物理属性の打撃型ダメージを威力180で与える。","mp":7,"point":"12","element":"Physical"},
-            {"name":"ゴッドハンド","name_tw":"神之手","desc":"敵単体に物理属性の打撃型ダメージを威力200で与える。","mp":8,"point":"15","element":"Physical"},
-            {"name":"なぎ払い","name_tw":"橫斬","desc":"敵全体に物理属性の打撃型ダメージを威力80で与える。","mp":4,"point":2,"element":"Physical"},
-            {"name":"金剛発破","name_tw":"金剛發破","desc":"敵全体に物理属性の打撃型ダメージを威力100で与える。","mp":5,"point":4,"element":"Physical"},
-            {"name":"冥界破","name_tw":"冥界破","desc":"敵全体に物理属性の打撃型ダメージを威力120で与える。","mp":6,"point":6,"element":"Physical"},
-            {"name":"空間殺法","name_tw":"空間殺法","desc":"敵全体に物理属性の打撃型ダメージを威力140で与える。","mp":7,"point":8,"element":"Physical"},
-            {"name":"ギガントマキア","name_tw":"巨人之戰","desc":"敵全体に物理属性の打撃型ダメージを威力160で与える。","mp":8,"point":"10","element":"Physical"},
-            {"name":"突撃","name_tw":"突擊","desc":"敵単体にクリティカル率30%の物理属性の打撃型ダメージを威力115で与える。","mp":4,"point":2,"element":"Physical"},
-            {"name":"鬼神楽","name_tw":"鬼神樂","desc":"敵単体にクリティカル率30%の物理属性の打撃型ダメージを威力130で与える。","mp":5,"point":5,"element":"Physical"},
-            {"name":"モータルジハード","name_tw":"絕命鬥爭","desc":"敵単体にクリティカル率30%の物理属性の打撃型ダメージを威力145で与える。","mp":6,"point":7,"element":"Physical"},
-            {"name":"ヒートウェイブ","name_tw":"灼熱波浪","desc":"敵全体にクリティカル率30%の物理属性の打撃型ダメージを威力70で与える。","mp":5,"point":2,"element":"Physical"},
-            {"name":"メガトンプレス","name_tw":"百萬噸重壓","desc":"敵全体にクリティカル率30%の物理属性の打撃型ダメージを威力90で与える。","mp":6,"point":4,"element":"Physical"},
-            {"name":"ティタノマキア","name_tw":"泰坦之戰","desc":"敵全体にクリティカル率30%の物理属性の打撃型ダメージを威力110で与える。","mp":7,"point":6,"element":"Physical"},
-            {"name":"暴れまくり","name_tw":"橫衝直撞","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力45で与える。","mp":3,"point":3,"element":"Physical"},
-            {"name":"デスバウンド","name_tw":"神威之擊","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力55で与える。","mp":4,"point":5,"element":"Physical"},
-            {"name":"狂乱の剛爪","name_tw":"狂亂硬爪","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力65で与える。","mp":5,"point":7,"element":"Physical"},
-            {"name":"地獄の獰爪","name_tw":"地獄兇爪","desc":"ランダムな敵に3回、クリティカル率30％の物理属性の打撃型ダメージを威力65で与える。","mp":5,"point":7,"element":"Physical"},
-            {"name":"虚空爪激","name_tw":"虛空爪激","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力75で与える。","mp":6,"point":9,"element":"Physical"},
-            {"name":"五月雨斬り","name_tw":"五月雨斬","desc":"ランダムな敵に２～５回、物理属性の打撃型ダメージを威力50で与える。","mp":5,"point":7,"element":"Physical"},
-            {"name":"刹那五月雨撃ち","name_tw":"剎那五月雨擊","desc":"ランダムな敵に２～５回、物理属性の打撃型ダメージを威力65で与える。","mp":7,"point":9,"element":"Physical"},
-            {"name":"毒針","name_tw":"毒針","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で毒状態にする。","mp":5,"point":6,"element":"Physical"},
-            {"name":"バインドクロー","name_tw":"束縛爪擊","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で緊縛状態にする。","mp":5,"point":6,"element":"Physical"},
-            {"name":"暗夜剣","name_tw":"暗夜劍","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で魔封状態にする。","mp":5,"point":6,"element":"Physical"},
-            {"name":"甘噛み","name_tw":"甜蜜輕咬","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で魅了状態にする。","mp":5,"point":6,"element":"Physical"},
-            {"name":"丸かじり","name_tw":"大快朵頤","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、そのダメージの25%分、自身を回復する。","mp":5,"point":6,"element":"Physical"},
-            {"name":"暴飲暴食","name_tw":"暴飲暴食","desc":"敵単体に物理属性の打撃型ダメージを威力140で与え、そのダメージの40%分、自身を回復する。","mp":6,"point":8,"element":"Physical"},
-            {"name":"捨て身の一撃","name_tw":"捨身一擊","desc":"自身のＨＰを10%消費して、敵単体に物理属性の打撃型ダメージを威力170で与える。","mp":7,"point":6,"element":"Physical"},
-            {"name":"八艘飛び","name_tw":"八艘跳躍","desc":"ランダムな敵に８回、物理属性の打撃型ダメージを威力35で与える。","mp":7,"point":null,"element":"Physical"},
-            {"name":"乱・かすみ斬り","name_tw":"亂・霞霧斬擊","desc":"敵に3～5回、物理属性の打撃型ダメージを威力50で与える","mp":6,"point":null,"element":"Physical"},
-            {"name":"ゲイボルグ","name_tw":"千棘魔槍","desc":"ランダムな敵に４～６回、物理属性の打撃型ダメージを威力50で与える。","mp":7,"point":null,"element":"Physical"},
-            {"name":"地獄突き","name_tw":"地域刺擊","desc":"ランダムな敵に４回、物理属性の打撃型ダメージを威力35で与え、基礎確率35％で魅了状態にする。","mp":7,"point":null,"element":"Physical"},
-            {"name":"痺れかみつき","name_tw":"麻痺咬痕","desc":"敵単体に物理属性の打撃型ダメージを威力160で与え、基礎確率35％で緊縛状態にする。","mp":5,"point":null,"element":"Physical"},
-            {"name":"グングニル","name_tw":"永恆之槍","desc":"敵全体にクリティカル率30％の物理属性の打撃型ダメージを威力145で与える。","mp":7,"point":null,"element":"Physical"},
-            {"name":"応龍撃破","name_tw":"應龍擊破","desc":"敵全体にクリティカル率50%の物理属性の打撃型ダメージを威力150で与える。","mp":8,"point":null,"element":"Physical"}
+            {"name":"Cleave","name_tw":"斬擊","desc":"敵単体に物理属性の打撃型ダメージを威力120で与える。","mp":4,"point":1,"element":"Physical"},
+            {"name":"Fatal Sword","name_tw":"絕命劍","desc":"敵単体に物理属性の打撃型ダメージを威力140で与える。","mp":5,"point":6,"element":"Physical"},
+            {"name":"Berserker God","name_tw":"怪力亂神","desc":"敵単体に物理属性の打撃型ダメージを威力160で与える。","mp":6,"point":9,"element":"Physical"},
+            {"name":"Megaton Raid","name_tw":"百萬噸襲擊","desc":"敵単体に物理属性の打撃型ダメージを威力180で与える。","mp":7,"point":"12","element":"Physical"},
+            {"name":"God's Hand","name_tw":"神之手","desc":"敵単体に物理属性の打撃型ダメージを威力200で与える。","mp":8,"point":"15","element":"Physical"},
+            {"name":"Mow Down","name_tw":"橫斬","desc":"敵全体に物理属性の打撃型ダメージを威力80で与える。","mp":4,"point":2,"element":"Physical"},
+            {"name":"Vajra Blast","name_tw":"金剛發破","desc":"敵全体に物理属性の打撃型ダメージを威力100で与える。","mp":5,"point":4,"element":"Physical"},
+            {"name":"Hades Blast","name_tw":"Hades Blast","desc":"敵全体に物理属性の打撃型ダメージを威力120で与える。","mp":6,"point":6,"element":"Physical"},
+            {"name":"Vorpal Blade","name_tw":"Vorpal Blade","desc":"敵全体に物理属性の打撃型ダメージを威力140で与える。","mp":7,"point":8,"element":"Physical"},
+            {"name":"Gigantomachia","name_tw":"巨人之戰","desc":"敵全体に物理属性の打撃型ダメージを威力160で与える。","mp":8,"point":"10","element":"Physical"},
+            {"name":"Lunge","name_tw":"突擊","desc":"敵単体にクリティカル率30%の物理属性の打撃型ダメージを威力115で与える。","mp":4,"point":2,"element":"Physical"},
+            {"name":"Oni-Kagura","name_tw":"鬼神樂","desc":"敵単体にクリティカル率30%の物理属性の打撃型ダメージを威力130で与える。","mp":5,"point":5,"element":"Physical"},
+            {"name":"Mortal Jihad","name_tw":"絕命鬥爭","desc":"敵単体にクリティカル率30%の物理属性の打撃型ダメージを威力145で与える。","mp":6,"point":7,"element":"Physical"},
+            {"name":"Heat Wave","name_tw":"灼熱波浪","desc":"敵全体にクリティカル率30%の物理属性の打撃型ダメージを威力70で与える。","mp":5,"point":2,"element":"Physical"},
+            {"name":"Megaton Press","name_tw":"百萬噸重壓","desc":"敵全体にクリティカル率30%の物理属性の打撃型ダメージを威力90で与える。","mp":6,"point":4,"element":"Physical"},
+            {"name":"Titanomachia","name_tw":"泰坦之戰","desc":"敵全体にクリティカル率30%の物理属性の打撃型ダメージを威力110で与える。","mp":7,"point":6,"element":"Physical"},
+            {"name":"Rampage","name_tw":"橫衝直撞","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力45で与える。","mp":3,"point":3,"element":"Physical"},
+            {"name":"Darkbound","name_tw":"神威之擊","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力55で与える。","mp":4,"point":5,"element":"Physical"},
+            {"name":"Madness Nails","name_tw":"狂亂硬爪","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力65で与える。","mp":5,"point":7,"element":"Physical"},
+            {"name":"Hell Claw","name_tw":"地獄兇爪","desc":"ランダムな敵に3回、クリティカル率30％の物理属性の打撃型ダメージを威力65で与える。","mp":5,"point":7,"element":"Physical"},
+            {"name":"Nihil Claw","name_tw":"虛空爪激","desc":"ランダムな敵に２～３回、物理属性の打撃型ダメージを威力75で与える。","mp":6,"point":9,"element":"Physical"},
+            {"name":"Tempest Slash","name_tw":"五月雨斬","desc":"ランダムな敵に２～５回、物理属性の打撃型ダメージを威力50で与える。","mp":5,"point":7,"element":"Physical"},
+            {"name":"Hurricane Slash","name_tw":"剎那五月雨擊","desc":"ランダムな敵に２～５回、物理属性の打撃型ダメージを威力65で与える。","mp":7,"point":9,"element":"Physical"},
+            {"name":"Toxic Sting","name_tw":"Toxic Sting","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で毒状態にする。","mp":5,"point":6,"element":"Physical"},
+            {"name":"Binding Claw","name_tw":"束縛爪擊","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で緊縛状態にする。","mp":5,"point":6,"element":"Physical"},
+            {"name":"Dark Sword","name_tw":"暗夜劍","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で魔封状態にする。","mp":5,"point":6,"element":"Physical"},
+            {"name":"Charm Bite","name_tw":"甜蜜輕咬","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、基礎確率40%で魅了状態にする。","mp":5,"point":6,"element":"Physical"},
+            {"name":"Eat Whole","name_tw":"大快朵頤","desc":"敵単体に物理属性の打撃型ダメージを威力120で与え、そのダメージの25%分、自身を回復する。","mp":5,"point":6,"element":"Physical"},
+            {"name":"Binge Eating","name_tw":"Binge Eating","desc":"敵単体に物理属性の打撃型ダメージを威力140で与え、そのダメージの40%分、自身を回復する。","mp":6,"point":8,"element":"Physical"},
+            {"name":"Power Hit","name_tw":"捨身一擊","desc":"自身のＨＰを10%消費して、敵単体に物理属性の打撃型ダメージを威力170で与える。","mp":7,"point":6,"element":"Physical"},
+            {"name":"Hassou Tobi","name_tw":"八艘跳躍","desc":"ランダムな敵に８回、物理属性の打撃型ダメージを威力35で与える。","mp":7,"point":null,"element":"Physical"},
+            {"name":"Mist Slash","name_tw":"亂・霞霧斬擊","desc":"敵に3～5回、物理属性の打撃型ダメージを威力50で与える","mp":6,"point":null,"element":"Physical"},
+            {"name":"Gae Bolg","name_tw":"千棘魔槍","desc":"ランダムな敵に４～６回、物理属性の打撃型ダメージを威力50で与える。","mp":7,"point":null,"element":"Physical"},
+            {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"ランダムな敵に４回、物理属性の打撃型ダメージを威力35で与え、基礎確率35％で魅了状態にする。","mp":7,"point":null,"element":"Physical"},
+            {"name":"Binding Bite","name_tw":"麻痺咬痕","desc":"敵単体に物理属性の打撃型ダメージを威力160で与え、基礎確率35％で緊縛状態にする。","mp":5,"point":null,"element":"Physical"},
+            {"name":"Gungnir","name_tw":"永恆之槍","desc":"敵全体にクリティカル率30％の物理属性の打撃型ダメージを威力145で与える。","mp":7,"point":null,"element":"Physical"},
+            {"name":"Yinlong Killer","name_tw":"應龍擊破","desc":"敵全体にクリティカル率50%の物理属性の打撃型ダメージを威力150で与える。","mp":8,"point":null,"element":"Physical"}
         ]
     },
     {
@@ -845,16 +845,16 @@ const skill_stable = [
         name_en:"",
         skills:[
             //火
-            {"name":"アギ","name_tw":"亞基","desc":"敵単体に火炎属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Fire"},
-            {"name":"アギラオ","name_tw":"亞基拉歐","desc":"敵単体に火炎属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Fire"},
-            {"name":"アギダイン","name_tw":"亞基達因","desc":"敵単体に火炎属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Fire"},
-            {"name":"トリスアギオン","name_tw":"多利斯亞基翁","desc":"敵単体に火炎属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Fire"},
-            {"name":"マハラギ","name_tw":"瑪哈拉基","desc":"敵全体に火炎属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Fire"},
-            {"name":"マハラギオン","name_tw":"瑪哈拉基翁","desc":"敵全体に火炎属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Fire"},
-            {"name":"マハラギダイン","name_tw":"瑪哈亞吉達因","desc":"敵全体に火炎属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Fire"},
-            {"name":"ファイアブレス","name_tw":"火焰吐息","desc":"ランダムな敵に２～４回、火炎属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Fire"},
-            {"name":"地獄の業火","name_tw":"地獄業火","desc":"ランダムな敵に２～４回、火炎属性の魔法型ダメージを威力50で与える。","mp":5,"point":"10","element":"Fire"},
-            {"name":"ラグナロク","name_tw":"諸神的黃昏","desc":"敵単体に火炎属性の魔法型ダメージを威力215で与える。","mp":7,"point":null,"element":"Fire"}
+            {"name":"Agi","name_tw":"亞基","desc":"敵単体に火炎属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Fire"},
+            {"name":"Agilao","name_tw":"亞基拉歐","desc":"敵単体に火炎属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Fire"},
+            {"name":"Agidyne","name_tw":"亞基達因","desc":"敵単体に火炎属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Fire"},
+            {"name":"Ragnarok","name_tw":"多利斯亞基翁","desc":"敵単体に火炎属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Fire"},
+            {"name":"Maragi","name_tw":"瑪哈拉基","desc":"敵全体に火炎属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Fire"},
+            {"name":"Maragion","name_tw":"瑪哈拉基翁","desc":"敵全体に火炎属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Fire"},
+            {"name":"Maragidyne","name_tw":"瑪哈亞吉達因","desc":"敵全体に火炎属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Fire"},
+            {"name":"Fire Breath","name_tw":"火焰吐息","desc":"ランダムな敵に２～４回、火炎属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Fire"},
+            {"name":"Hellfire","name_tw":"地獄業火","desc":"ランダムな敵に２～４回、火炎属性の魔法型ダメージを威力50で与える。","mp":5,"point":"10","element":"Fire"},
+            {"name":"Ragnarok","name_tw":"諸神的黃昏","desc":"敵単体に火炎属性の魔法型ダメージを威力215で与える。","mp":7,"point":null,"element":"Fire"}
         ]
     },
     {
@@ -863,16 +863,16 @@ const skill_stable = [
         name_en:"",
         skills:[
             //冰
-            {"name":"ブフ","name_tw":"布芙","desc":"敵単体に氷結属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Ice"},
-            {"name":"ブフーラ","name_tw":"布芙拉","desc":"敵単体に氷結属性の魔法型ダメージを威力140で与える。","mp":"5","point":"6","element":"Ice"},
-            {"name":"ブフダイン","name_tw":"布芙達因","desc":"敵単体に氷結属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Ice"},
-            {"name":"アイスエイジ","name_tw":"大冰河時期","desc":"敵単体に氷結属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Ice"},
-            {"name":"マハブフ","name_tw":"瑪哈布芙","desc":"敵全体に氷結属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Ice"},
-            {"name":"マハブフーラ","name_tw":"瑪哈布芙拉","desc":"敵全体に氷結属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Ice"},
-            {"name":"マハブフダイン","name_tw":"瑪哈布芙達因","desc":"敵全体に氷結属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Ice"},
-            {"name":"アイスブレス","name_tw":"極寒吐息","desc":"ランダムな敵に２〜４回、氷結属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Ice"},
-            {"name":"絶対零度","name_tw":"絕對零度","desc":"ランダムな敵に２～４回、氷結属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Ice"},
-            {"name":"大冷界","name_tw":"大冷界","desc":"敵全体に氷結属性の魔法型ダメージを威力130で与え、3ターンの間、敵全体の防御力を20％減少させる。","mp":7,"point":null,"element":"Ice"}
+            {"name":"Bufu","name_tw":"布芙","desc":"敵単体に氷結属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Ice"},
+            {"name":"Bufula","name_tw":"布芙拉","desc":"敵単体に氷結属性の魔法型ダメージを威力140で与える。","mp":"5","point":"6","element":"Ice"},
+            {"name":"Bufudyne","name_tw":"布芙達因","desc":"敵単体に氷結属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Ice"},
+            {"name":"Ice Age","name_tw":"大冰河時期","desc":"敵単体に氷結属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Ice"},
+            {"name":"Mabufu","name_tw":"瑪哈布芙","desc":"敵全体に氷結属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Ice"},
+            {"name":"Mabufula","name_tw":"瑪哈布芙拉","desc":"敵全体に氷結属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Ice"},
+            {"name":"Mabufudyne","name_tw":"瑪哈布芙達因","desc":"敵全体に氷結属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Ice"},
+            {"name":"Ice Breath","name_tw":"極寒吐息","desc":"ランダムな敵に２〜４回、氷結属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Ice"},
+            {"name":"Glacial Blast","name_tw":"絕對零度","desc":"ランダムな敵に２～４回、氷結属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Ice"},
+            {"name":"Cold World","name_tw":"Cold World","desc":"敵全体に氷結属性の魔法型ダメージを威力130で与え、3ターンの間、敵全体の防御力を20％減少させる。","mp":7,"point":null,"element":"Ice"}
         ]
     },
     {
@@ -881,16 +881,16 @@ const skill_stable = [
         name_en:"",
         skills:[
             //雷
-            {"name":"ジオ","name_tw":"吉歐","desc":"敵単体に電撃属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Elec"},
-            {"name":"ジオンガ","name_tw":"吉歐加","desc":"敵単体に電撃属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Elec"},
-            {"name":"ジオダイン","name_tw":"吉歐達因","desc":"敵単体に電撃属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Elec"},
-            {"name":"真理の雷","name_tw":"真理之雷","desc":"敵単体に電撃属性の魔法型ダメージを威力180で与える。","mp":"7","point":12,"element":"Elec"},
-            {"name":"マハジオ","name_tw":"瑪哈吉歐","desc":"敵全体に電撃属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Elec"},
-            {"name":"マハジオンガ","name_tw":"瑪哈吉歐加","desc":"敵全体に電撃属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Elec"},
-            {"name":"マハジオダイン","name_tw":"瑪哈吉歐達因","desc":"敵全体に電撃属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Elec"},
-            {"name":"放電","name_tw":"放電","desc":"ランダムな敵に２〜４回、電撃属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Elec"},
-            {"name":"ショックウェーブ","name_tw":"衝擊波","desc":"ランダムな敵に２〜４回、電撃属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Elec"},
-            {"name":"ミョルニル","name_tw":"雷神之槌","desc":"ランダムな敵に３～５回、電撃属性の魔法型ダメージを威力60で与える。","mp":7,"point":null,"element":"Elec"}
+            {"name":"Zio","name_tw":"吉歐","desc":"敵単体に電撃属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Elec"},
+            {"name":"Zionga","name_tw":"吉歐加","desc":"敵単体に電撃属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Elec"},
+            {"name":"Ziodyne","name_tw":"吉歐達因","desc":"敵単体に電撃属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Elec"},
+            {"name":"Thunder Reign","name_tw":"真理之雷","desc":"敵単体に電撃属性の魔法型ダメージを威力180で与える。","mp":"7","point":12,"element":"Elec"},
+            {"name":"Mazio","name_tw":"瑪哈吉歐","desc":"敵全体に電撃属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Elec"},
+            {"name":"Mazionga","name_tw":"瑪哈吉歐加","desc":"敵全体に電撃属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Elec"},
+            {"name":"Maziodyne","name_tw":"瑪哈吉歐達因","desc":"敵全体に電撃属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Elec"},
+            {"name":"Shock","name_tw":"Shock","desc":"ランダムな敵に２〜４回、電撃属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Elec"},
+            {"name":"Mjolnir","name_tw":"衝擊波","desc":"ランダムな敵に２〜４回、電撃属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Elec"},
+            {"name":"Mjolnir","name_tw":"雷神之槌","desc":"ランダムな敵に３～５回、電撃属性の魔法型ダメージを威力60で与える。","mp":7,"point":null,"element":"Elec"}
         ]
     },
     {
@@ -899,16 +899,16 @@ const skill_stable = [
         name_en:"",
         skills:[
             //衝
-            {"name":"ザン","name_tw":"颯","desc":"敵単体に衝撃属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Force"},
-            {"name":"ザンマ","name_tw":"颯瑪","desc":"敵単体に衝撃属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Force"},
-            {"name":"ザンダイン","name_tw":"颯達因","desc":"敵単体に衝撃属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Force"},
-            {"name":"殺風激","name_tw":"殺風激","desc":"敵単体に衝撃属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Force"},
-            {"name":"マハザン","name_tw":"瑪哈颯","desc":"敵全体に衝撃属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Force"},
-            {"name":"マハザンマ","name_tw":"瑪哈颯瑪","desc":"敵全体に衝撃属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Force"},
-            {"name":"マハザンダイン","name_tw":"瑪哈颯達因","desc":"敵全体に衝撃属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Force"},
-            {"name":"ウィンドブレス","name_tw":"狂風吐息","desc":"ランダムな敵に２～４回、衝撃属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Force"},
-            {"name":"ツイスター","name_tw":"龍捲風","desc":"ランダムな敵に２～４回、衝撃属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Force"},
-            {"name":"天叢雲剣","name_tw":"","desc":"敵単体に衝撃属性の魔法型ダメージを威力180で与え、3ターンの間、味方全体の攻撃力を20%増加させる。このスキルによるダメージは物理攻撃力に依存する。","mp":6,"point":null,"element":"Force"}
+            {"name":"Zan","name_tw":"颯","desc":"敵単体に衝撃属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Force"},
+            {"name":"Zanma","name_tw":"颯瑪","desc":"敵単体に衝撃属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Force"},
+            {"name":"Zandyne","name_tw":"颯達因","desc":"敵単体に衝撃属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Force"},
+            {"name":"Deadly Wind","name_tw":"Deadly Wind","desc":"敵単体に衝撃属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Force"},
+            {"name":"Mazan","name_tw":"瑪哈颯","desc":"敵全体に衝撃属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Force"},
+            {"name":"Mazanma","name_tw":"瑪哈颯瑪","desc":"敵全体に衝撃属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Force"},
+            {"name":"Mazandyne","name_tw":"瑪哈颯達因","desc":"敵全体に衝撃属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Force"},
+            {"name":"Wind Breath","name_tw":"狂風吐息","desc":"ランダムな敵に２～４回、衝撃属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Force"},
+            {"name":"Twister","name_tw":"龍捲風","desc":"ランダムな敵に２～４回、衝撃属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Force"},
+            {"name":"Kusanagi","name_tw":"","desc":"敵単体に衝撃属性の魔法型ダメージを威力180で与え、3ターンの間、味方全体の攻撃力を20%増加させる。このスキルによるダメージは物理攻撃力に依存する。","mp":6,"point":null,"element":"Force"}
         ]
     },
     {
@@ -917,18 +917,18 @@ const skill_stable = [
         name_en:"",
         skills:[
             //Light
-            {"name":"ハマ","name_tw":"哈瑪","desc":"敵単体に破魔属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Light"},
-            {"name":"ハマオン","name_tw":"哈瑪翁","desc":"敵単体に破魔属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Light"},
-            {"name":"ハマダイン","name_tw":"哈瑪達因","desc":"敵単体に破魔属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Light"},
-            {"name":"裁きの雷火","name_tw":"制裁雷火","desc":"敵単体に破魔属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Light"},
-            {"name":"マハンマ","name_tw":"瑪哈瑪","desc":"敵全体に破魔属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Light"},
-            {"name":"マハンマオン","name_tw":"瑪哈瑪翁","desc":"敵全体に破魔属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Light"},
-            {"name":"マハンマダイン","name_tw":"瑪翰達因","desc":"敵全体に破魔属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Light"},
-            {"name":"審判の光","name_tw":"審判之光","desc":"敵ランダムに２～４回、破魔属性の魔法型ダメージを威力40で与える。","mp":7,"point":7,"element":"Light"},
-            {"name":"天罰","name_tw":"天譴","desc":"ランダムな敵に２～４回、破魔属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Light"},
-            {"name":"ゴッドアロー","name_tw":"神差箭矢","desc":"敵単体に破魔属性の魔法型ダメージを威力200で与え、50％の確率で死亡させる。","mp":7,"point":null,"element":"Light"},
-            {"name":"憎悪の試練","name_tw":"憎惡的試煉","desc":"敵全体に破魔属性の魔法型ダメージを威力130で与え、3ターンの間、敵全体の攻撃力．防御力．回避と命中のいずれかを20%減少させる","mp":7,"point":null,"element":"Light"},
-            {"name":"魂の審判","name_tw":"斷罪刑魂","desc":"ランダムな敵に7回、破魔属性の魔法型ダメージを威力30で与える。","mp":5,"point":null,"element":"Light"}
+            {"name":"Hama","name_tw":"哈瑪","desc":"敵単体に破魔属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Light"},
+            {"name":"Hamaon","name_tw":"哈瑪翁","desc":"敵単体に破魔属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Light"},
+            {"name":"Hamadyne","name_tw":"哈瑪達因","desc":"敵単体に破魔属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Light"},
+            {"name":"Thunderclap","name_tw":"制裁雷火","desc":"敵単体に破魔属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Light"},
+            {"name":"Mahama","name_tw":"瑪哈瑪","desc":"敵全体に破魔属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Light"},
+            {"name":"Mahamaon","name_tw":"瑪哈瑪翁","desc":"敵全体に破魔属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Light"},
+            {"name":"Mahamadyne","name_tw":"瑪翰達因","desc":"敵全体に破魔属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Light"},
+            {"name":"Judgement Light","name_tw":"審判之光","desc":"敵ランダムに２～４回、破魔属性の魔法型ダメージを威力40で与える。","mp":7,"point":7,"element":"Light"},
+            {"name":"Holy Wrath","name_tw":"天譴","desc":"ランダムな敵に２～４回、破魔属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Light"},
+            {"name":"God's Bow","name_tw":"神差箭矢","desc":"敵単体に破魔属性の魔法型ダメージを威力200で与え、50％の確率で死亡させる。","mp":7,"point":null,"element":"Light"},
+            {"name":"Ordeal of Hatred","name_tw":"憎惡的試煉","desc":"敵全体に破魔属性の魔法型ダメージを威力130で与え、3ターンの間、敵全体の攻撃力．防御力．回避と命中のいずれかを20%減少させる","mp":7,"point":null,"element":"Light"},
+            {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"ランダムな敵に7回、破魔属性の魔法型ダメージを威力30で与える。","mp":5,"point":null,"element":"Light"}
         ]
     },
     {
@@ -937,373 +937,373 @@ const skill_stable = [
         name_en:"",
         skills:[
             //Dark
-            {"name":"ムド","name_tw":"姆多","desc":"敵単体に呪殺属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Dark"},
-            {"name":"ムドオン","name_tw":"姆多翁","desc":"敵単体に呪殺属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Dark"},
-            {"name":"ムドダイン","name_tw":"姆多達因","desc":"敵単体に呪殺属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Dark"},
-            {"name":"ヘルズアイ","name_tw":"地獄之眼","desc":"敵単体に呪殺属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Dark"},
-            {"name":"マハムド","name_tw":"瑪哈姆多","desc":"敵全体に呪殺属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Dark"},
-            {"name":"マハムドオン","name_tw":"瑪哈姆多翁","desc":"敵全体に呪殺属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Dark"},
-            {"name":"マハムドダイン","name_tw":"瑪哈姆多達因","desc":"敵全体に呪殺属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Dark"},
-            {"name":"イービルアイ","name_tw":"邪惡之眼","desc":"ランダムな敵に２～４回、呪殺属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Dark"},
-            {"name":"煉獄","name_tw":"煉獄","desc":"ランダムな敵に２～４回、呪殺属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Dark"},
-            {"name":"肉体の解放","name_tw":"肉體的解放","desc":"敵全体に呪殺属性の魔法型ダメージを威力110で与え、基礎確率35%で魅了状態にする。","mp":6,"point":null,"element":"Dark"},
-            {"name":"暴食の大罪","name_tw":"暴食重罪","desc":"敵全体に呪殺属性の魔法型ダメージを威力130で与え、そのダメージの50％分、自身を回復する。","mp":7,"point":null,"element":"Dark"},
+            {"name":"Mudo","name_tw":"姆多","desc":"敵単体に呪殺属性の魔法型ダメージを威力120で与える。","mp":4,"point":1,"element":"Dark"},
+            {"name":"Mudoon","name_tw":"姆多翁","desc":"敵単体に呪殺属性の魔法型ダメージを威力140で与える。","mp":5,"point":6,"element":"Dark"},
+            {"name":"Mudodyne","name_tw":"姆多達因","desc":"敵単体に呪殺属性の魔法型ダメージを威力160で与える。","mp":6,"point":9,"element":"Dark"},
+            {"name":"Die for Me!","name_tw":"Hell Gaze","desc":"敵単体に呪殺属性の魔法型ダメージを威力180で与える。","mp":7,"point":12,"element":"Dark"},
+            {"name":"Mamudo","name_tw":"瑪哈姆多","desc":"敵全体に呪殺属性の魔法型ダメージを威力80で与える。","mp":5,"point":2,"element":"Dark"},
+            {"name":"Mamudoon","name_tw":"瑪哈姆多翁","desc":"敵全体に呪殺属性の魔法型ダメージを威力100で与える。","mp":6,"point":6,"element":"Dark"},
+            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"敵全体に呪殺属性の魔法型ダメージを威力120で与える。","mp":7,"point":9,"element":"Dark"},
+            {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"ランダムな敵に２～４回、呪殺属性の魔法型ダメージを威力40で与える。","mp":4,"point":7,"element":"Dark"},
+            {"name":"Purgatory","name_tw":"Purgatory","desc":"ランダムな敵に２～４回、呪殺属性の魔法型ダメージを威力50で与える。","mp":5,"point":10,"element":"Dark"},
+            {"name":"Allure","name_tw":"肉體的解放","desc":"敵全体に呪殺属性の魔法型ダメージを威力110で与え、基礎確率35%で魅了状態にする。","mp":6,"point":null,"element":"Dark"},
+            {"name":"Gluttony","name_tw":"暴食重罪","desc":"敵全体に呪殺属性の魔法型ダメージを威力130で与え、そのダメージの50％分、自身を回復する。","mp":7,"point":null,"element":"Dark"},
             {"name":"死んでくれる？","name_tw":"可以為我而死嗎？","desc":"敵単体を死亡させる。","mp":7,"point":null,"element":"Dark"}
         ]
     },
     {
-        name:"万能",
+        name:"Almighty",
         name_tw:"萬能",
         name_en:"",
         skills:[
             //萬
-            {"name":"吸血","name_tw":"吸血","desc":"敵単体に万能属性の魔法型ダメージを威力120で与え、そのダメージの25％分、自身を回復する。","mp":5,"point":3,"element":"万能"},
-            {"name":"デスタッチ","name_tw":"死亡之觸","desc":"敵単体に万能属性の魔法型ダメージを威力140で与え、そのダメージの40％分、自身を回復する。","mp":6,"point":6,"element":"万能"},
-            {"name":"吸魔","name_tw":"吸魔","desc":"敵単体に万能属性の魔法型ダメージを威力100で与え、MPを１奪う。","mp":6,"point":3,"element":"万能"},
-            {"name":"エナジードレイン","name_tw":"能量抽取","desc":"敵単体に万能属性の魔法型ダメージを威力120で与え、そのダメージの25%分、自身を回復し、MPを1奪う。","mp":7,"point":6,"element":"万能"},
-            {"name":"ソウルドレイン","name_tw":"靈魂抽取","desc":"敵単体に万能属性の魔法型ダメージを威力140で与え、そのダメージの40％分、自身を回復し、MPを１奪う。","mp":8,"point":7,"element":"万能"},
-            {"name":"メギド","name_tw":"米吉朵","desc":"敵全体に万能属性の魔法型ダメージを威力80で与える。","mp":6,"point":5,"element":"万能"},
-            {"name":"メギドラ","name_tw":"米吉朵拉","desc":"敵全体に万能属性の魔法型ダメージを威力100で与える。","mp":7,"point":8,"element":"万能"},
-            {"name":"メギドラオン","name_tw":"米吉朵拉翁","desc":"敵全体に万能属性の魔法型ダメージを威力120で与える。","mp":8,"point":"12","element":"万能"},
-            {"name":"混沌の海","name_tw":"混沌之海","desc":"敵全体に万能属性の魔法型ダメージを威力100で与え、3ターンの間、敵全体の防御力を20%減少させる。","mp":9,"point":null,"element":"万能"},
-            {"name":"ジャッジメント","name_tw":"審判","desc":"敵全体に万能属性の魔法型ダメージを威力100で与え、3ターンの間、味方全体の攻撃力を20%増加させる。","mp":9,"point":"12","element":"万能"},
-            {"name":"精神漏出","name_tw":"精神漏出","desc":"敵単体に万能属性の魔法型ダメージを威力80で与え、MPを３失わせる。","mp":5,"point":6,"element":"万能"},
-            {"name":"シナイの神火","name_tw":"西奈的神火","desc":"ランダムな敵に５回、万能属性の魔法型ダメージを威力45で与える。","mp":7,"point":null,"element":"万能"},
-            {"name":"プララヤ","name_tw":"大劫","desc":"敵全体に万能属性の魔法型ダメージを威力100で与え、魔法型ダメージ反射状態と物理型ダメージ反射状態を解除する。このスキルによるダメージは物理攻撃力に依存する。","mp":8,"point":null,"element":"万能"},
-            {"name":"アポカリプス","name_tw":"默示錄","desc":"敵全体に万能属性の魔法型ダメージを威力110で与え、基礎確率30％で魔封状態にする。","mp":8,"point":null,"element":"万能"},
-            {"name":"明けの明星","name_tw":"拂曉明星","desc":"敵全体に万能属性の魔法型ダメージを威力135で与える。","mp":8,"point":null,"element":"万能"},
-            {"name":"魅了の神弓","name_tw":"魅惑神弓","desc":"敵単体に万能属性の魔法型ダメージを威力190で与え、基礎確率45％で魅了状態にする。","mp":8,"point":null,"element":"万能"}
+            {"name":"Mind Break","name_tw":"Mind Break","desc":"敵単体に万能属性の魔法型ダメージを威力120で与え、そのダメージの25％分、自身を回復する。","mp":5,"point":3,"element":"Almighty"},
+            {"name":"Life Drain","name_tw":"死亡之觸","desc":"敵単体に万能属性の魔法型ダメージを威力140で与え、そのダメージの40％分、自身を回復する。","mp":6,"point":6,"element":"Almighty"},
+            {"name":"Megido","name_tw":"Megido","desc":"敵単体に万能属性の魔法型ダメージを威力100で与え、MPを１奪う。","mp":6,"point":3,"element":"Almighty"},
+            {"name":"Spirit Drain","name_tw":"能量抽取","desc":"敵単体に万能属性の魔法型ダメージを威力120で与え、そのダメージの25%分、自身を回復し、MPを1奪う。","mp":7,"point":6,"element":"Almighty"},
+            {"name":"Deathtouch","name_tw":"靈魂抽取","desc":"敵単体に万能属性の魔法型ダメージを威力140で与え、そのダメージの40％分、自身を回復し、MPを１奪う。","mp":8,"point":7,"element":"Almighty"},
+            {"name":"Megidola","name_tw":"米吉朵","desc":"敵全体に万能属性の魔法型ダメージを威力80で与える。","mp":6,"point":5,"element":"Almighty"},
+            {"name":"Megidolaon","name_tw":"米吉朵拉","desc":"敵全体に万能属性の魔法型ダメージを威力100で与える。","mp":7,"point":8,"element":"Almighty"},
+            {"name":"Pralaya","name_tw":"米吉朵拉翁","desc":"敵全体に万能属性の魔法型ダメージを威力120で与える。","mp":8,"point":"12","element":"Almighty"},
+            {"name":"Soul Drain","name_tw":"混沌之海","desc":"敵全体に万能属性の魔法型ダメージを威力100で与え、3ターンの間、敵全体の防御力を20%減少させる。","mp":9,"point":null,"element":"Almighty"},
+            {"name":"Morning Star","name_tw":"審判","desc":"敵全体に万能属性の魔法型ダメージを威力100で与え、3ターンの間、味方全体の攻撃力を20%増加させる。","mp":9,"point":"12","element":"Almighty"},
+            {"name":"Judgement","name_tw":"Judgement","desc":"敵単体に万能属性の魔法型ダメージを威力80で与え、MPを３失わせる。","mp":5,"point":6,"element":"Almighty"},
+            {"name":"Sea of Chaos","name_tw":"西奈的神火","desc":"ランダムな敵に５回、万能属性の魔法型ダメージを威力45で与える。","mp":7,"point":null,"element":"Almighty"},
+            {"name":"Apocalypse","name_tw":"大劫","desc":"敵全体に万能属性の魔法型ダメージを威力100で与え、魔法型ダメージ反射状態と物理型ダメージ反射状態を解除する。このスキルによるダメージは物理攻撃力に依存する。","mp":8,"point":null,"element":"Almighty"},
+            {"name":"Divine Bows' Allure","name_tw":"默示錄","desc":"敵全体に万能属性の魔法型ダメージを威力110で与え、基礎確率30％で魔封状態にする。","mp":8,"point":null,"element":"Almighty"},
+            {"name":"Megidolaon","name_tw":"拂曉明星","desc":"敵全体に万能属性の魔法型ダメージを威力135で与える。","mp":8,"point":null,"element":"Almighty"},
+            {"name":"Fire of Sinai","name_tw":"魅惑神弓","desc":"敵単体に万能属性の魔法型ダメージを威力190で与え、基礎確率45％で魅了状態にする。","mp":8,"point":null,"element":"Almighty"}
         ]
     },
     {
-        name:"回復",
-        namw_tw:"回復",
+        name:"Recovery",
+        namw_tw:"Recovery",
         name_en:"Heal",
         skills:[
             //回
-            {"name":"ディア","name_tw":"迪亞","desc":"味方単体を回復力50で回復する。","mp":4,"point":1,"element":"Null"},
-            {"name":"ディアラ","name_tw":"迪亞拉","desc":"味方単体を回復力90で回復する。","mp":5,"point":5,"element":"Null"},
-            {"name":"ディアラマ","name_tw":"迪亞拉瑪","desc":"味方単体を回復力130で回復する。","mp":6,"point":8,"element":"Null"},
-            {"name":"ディアラハン","name_tw":"迪亞拉瑪翰","desc":"味方単体を回復力170で回復する。","mp":7,"point":"11","element":"Null"},
-            {"name":"メディア","name_tw":"梅迪亞","desc":"味方全体を回復力25で回復する。","mp":6,"point":2,"element":"Null"},
-            {"name":"メディラ","name_tw":"梅迪拉","desc":"味方全体を回復力60で回復する。","mp":7,"point":5,"element":"Null"},
-            {"name":"メディラマ","name_tw":"梅迪拉瑪","desc":"味方全体を回復力95で回復する。","mp":8,"point":8,"element":"Null"},
-            {"name":"メディアラハン","name_tw":"梅迪亞拉翰","desc":"味方全体を回復力130で回復する。","mp":9,"point":"11","element":"Null"},
-            {"name":"メシアライザー","name_tw":"救世主喚起者","desc":"味方全体を回復力95で回復し、状態異常を全て回復する。","mp":"10","point":"15","element":"Null"},
-            {"name":"オルレアンの祈り","name_tw":"","desc":"味方単体のHPを回復力130で回復すると同時にMPを3回復する。","mp":null,"point":null,"element":"Null"},
+            {"name":"Dia","name_tw":"迪亞","desc":"味方単体を回復力50で回復する。","mp":4,"point":1,"element":"Null"},
+            {"name":"Diara","name_tw":"迪亞拉","desc":"味方単体を回復力90で回復する。","mp":5,"point":5,"element":"Null"},
+            {"name":"Diarama","name_tw":"迪亞拉瑪","desc":"味方単体を回復力130で回復する。","mp":6,"point":8,"element":"Null"},
+            {"name":"Diarahan","name_tw":"迪亞拉瑪翰","desc":"味方単体を回復力170で回復する。","mp":7,"point":"11","element":"Null"},
+            {"name":"Media","name_tw":"梅迪亞","desc":"味方全体を回復力25で回復する。","mp":6,"point":2,"element":"Null"},
+            {"name":"Mediara","name_tw":"梅迪拉","desc":"味方全体を回復力60で回復する。","mp":7,"point":5,"element":"Null"},
+            {"name":"Mediarama","name_tw":"梅迪拉瑪","desc":"味方全体を回復力95で回復する。","mp":8,"point":8,"element":"Null"},
+            {"name":"Mediarahan","name_tw":"梅迪亞拉翰","desc":"味方全体を回復力130で回復する。","mp":9,"point":"11","element":"Null"},
+            {"name":"Salvation","name_tw":"救世主喚起者","desc":"味方全体を回復力95で回復し、状態異常を全て回復する。","mp":"10","point":"15","element":"Null"},
+            {"name":"Orleans Prayer","name_tw":"","desc":"味方単体のHPを回復力130で回復すると同時にMPを3回復する。","mp":null,"point":null,"element":"Null"},
             //持回
-            {"name":"リディア","name_tw":"利迪亞","desc":"３回行動するまでの間、味方単体をリディア状態にし、行動する前にHPを回復する。","mp":4,"point":8,"element":"Null"},
-            {"name":"リディアコワース","name_tw":"利迪亞破壞","desc":"敵全体のリディア状態を解除する。","mp":3,"point":6,"element":"Null"},
+            {"name":"Redia","name_tw":"利迪亞","desc":"３回行動するまでの間、味方単体をリディア状態にし、行動する前にHPを回復する。","mp":4,"point":8,"element":"Null"},
+            {"name":"Redia Break","name_tw":"利迪亞破壞","desc":"敵全体のリディア状態を解除する。","mp":3,"point":6,"element":"Null"},
             //復活
-            {"name":"リカーム","name_tw":"利卡姆","desc":"死亡している味方単体をHP10％で復活させる。","mp":6,"point":6,"element":"Null"},
-            {"name":"サマリカーム","name_tw":"薩瑪利卡姆","desc":"死亡している味方単体を完全回復で復活させる。","mp":8,"point":8,"element":"Null"},
-            {"name":"リカームドラ","name_tw":"利卡姆托拉","desc":"死亡している味方全体を完全回復で復活させるが、自身は死亡する。","mp":8,"point":"10","element":"Null"},
-            {"name":"母なる創造","name_tw":"","desc":"死亡している味方単体を完全回復で復活させ、リディア状態にする。","mp":8,"point":null,"element":"Null"},
-            {"name":"セアカトルの再臨","name_tw":"","desc":"死亡している味方全体を完全回復で復活(使用した悪魔も死なない)。","mp":null,"point":null,"element":"Null"},
+            {"name":"Recarm","name_tw":"利卡姆","desc":"死亡している味方単体をHP10％で復活させる。","mp":6,"point":6,"element":"Null"},
+            {"name":"Samarecarm","name_tw":"薩瑪利卡姆","desc":"死亡している味方単体を完全回復で復活させる。","mp":8,"point":8,"element":"Null"},
+            {"name":"Recarmdra","name_tw":"利卡姆托拉","desc":"死亡している味方全体を完全回復で復活させるが、自身は死亡する。","mp":8,"point":"10","element":"Null"},
+            {"name":"Mother's Creation","name_tw":"","desc":"死亡している味方単体を完全回復で復活させ、リディア状態にする。","mp":8,"point":null,"element":"Null"},
+            {"name":"Ce Acatls' Return","name_tw":"","desc":"死亡している味方全体を完全回復で復活(使用した悪魔も死なない)。","mp":null,"point":null,"element":"Null"},
             //解毒
-            {"name":"ポズムディ","name_tw":"病毒解除術","desc":"味方単体の毒を回復する。","mp":3,"point":1,"element":"Null"},
-            {"name":"メポズムディ","name_tw":"梅波茲姆迪","desc":"味方全体の毒を回復する。","mp":4,"point":5,"element":"Null"},
+            {"name":"Posumudi","name_tw":"病毒解除術","desc":"味方単体の毒を回復する。","mp":3,"point":1,"element":"Null"},
+            {"name":"Meposumudi","name_tw":"梅波茲姆迪","desc":"味方全体の毒を回復する。","mp":4,"point":5,"element":"Null"},
             //解封
-            {"name":"クロズディ","name_tw":"克洛茲迪","desc":"味方単体の魔封を回復する。","mp":3,"point":1,"element":"Null"},
-            {"name":"メクロズディ","name_tw":"梅克洛茲迪","desc":"味方全体の魔封を回復する。","mp":4,"point":5,"element":"Null"},
+            {"name":"Closedi","name_tw":"克洛茲迪","desc":"味方単体の魔封を回復する。","mp":3,"point":1,"element":"Null"},
+            {"name":"Meclosedi","name_tw":"梅克洛茲迪","desc":"味方全体の魔封を回復する。","mp":4,"point":5,"element":"Null"},
             //解縛
-            {"name":"パララディ","name_tw":"帕拉拉迪","desc":"味方単体の緊縛を回復する。","mp":3,"point":1,"element":"Null"},
-            {"name":"メパララディ","name_tw":"梅帕拉拉迪","desc":"味方全体の緊縛を回復する。","mp":4,"point":5,"element":"Null"},
+            {"name":"Paraladi","name_tw":"帕拉拉迪","desc":"味方単体の緊縛を回復する。","mp":3,"point":1,"element":"Null"},
+            {"name":"Meparaladi","name_tw":"梅帕拉拉迪","desc":"味方全体の緊縛を回復する。","mp":4,"point":5,"element":"Null"},
             //解魅
-            {"name":"チャームディ","name_tw":"查姆蒂","desc":"味方単体の魅了を回復する。","mp":3,"point":1,"element":"Null"},
-            {"name":"メチャームディ","name_tw":"梅查姆蒂","desc":"味方全体の魅了を回復する。","mp":4,"point":5,"element":"Null"},
+            {"name":"Charmdi","name_tw":"查姆蒂","desc":"味方単体の魅了を回復する。","mp":3,"point":1,"element":"Null"},
+            {"name":"Mecharmdi","name_tw":"梅查姆蒂","desc":"味方全体の魅了を回復する。","mp":4,"point":5,"element":"Null"},
             //解呪
-            {"name":"カースディ","name_tw":"卡斯迪","desc":"味方単体の呪いを回復する。","mp":3,"point":1,"element":"Null"},
-            {"name":"メカースディ","name_tw":"梅卡斯迪","desc":"味方全体の呪いを回復する。","mp":4,"point":5,"element":"Null"},
+            {"name":"Cursedi","name_tw":"卡斯迪","desc":"味方単体の呪いを回復する。","mp":3,"point":1,"element":"Null"},
+            {"name":"Mecursedi","name_tw":"梅卡斯迪","desc":"味方全体の呪いを回復する。","mp":4,"point":5,"element":"Null"},
             //解虛
-            {"name":"ウィークディ","name_tw":"溫坤迪","desc":"味方単体の虚弱を回復する。","mp":3,"point":1,"element":"Null"},
-            {"name":"メウィークディ","name_tw":"梅溫庫迪","desc":"味方全体の虚弱を回復する。","mp":4,"point":5,"element":"Null"},
+            {"name":"Weakdi","name_tw":"溫坤迪","desc":"味方単体の虚弱を回復する。","mp":3,"point":1,"element":"Null"},
+            {"name":"Meweakdi","name_tw":"梅溫庫迪","desc":"味方全体の虚弱を回復する。","mp":4,"point":5,"element":"Null"},
             //解異常
-            {"name":"アムリタ","name_tw":"甘露","desc":"味方単体の状態異常を全て回復する。","mp":4,"point":3,"element":"Null"},
-            {"name":"常世の祈り","name_tw":"永恆的祈禱","desc":"味方全体の状態異常を全て回復する。","mp":5,"point":8,"element":"Null"},
-            {"name":"静寂の祈り","name_tw":"寂靜的禱告","desc":"敵味方全体の状態異常を全て回復する。","mp":7,"point":8,"element":"Null"},
+            {"name":"Amrita","name_tw":"甘露","desc":"味方単体の状態異常を全て回復する。","mp":4,"point":3,"element":"Null"},
+            {"name":"Prayer","name_tw":"永恆的祈禱","desc":"味方全体の状態異常を全て回復する。","mp":5,"point":8,"element":"Null"},
+            {"name":"Silent Prayer","name_tw":"寂靜的禱告","desc":"敵味方全体の状態異常を全て回復する。","mp":7,"point":8,"element":"Null"},
             //狀態
-            {"name":"バリア","name_tw":"防壁","desc":"３ターンの間、味方単体をバリア状態にし、状態異常を無効にする。","mp":4,"point":8,"element":"Null"},
-            {"name":"バリアコワース","name_tw":"防壁破壞","desc":"敵全体のバリア状態を解除する。","mp":3,"point":6,"element":"Null"}
+            {"name":"Barrier","name_tw":"防壁","desc":"３ターンの間、味方単体をバリア状態にし、状態異常を無効にする。","mp":4,"point":8,"element":"Null"},
+            {"name":"Barrier Break","name_tw":"防壁破壞","desc":"敵全体のバリア状態を解除する。","mp":3,"point":6,"element":"Null"}
         ]
     },
     {
-        name:"異常",
-        name_tw:"異常",
+        name:"Ailment",
+        name_tw:"Ailment",
         name_en:"",
         skills:[
             //毒
-            {"name":"ポイズマ","name_tw":"波伊佐瑪","desc":"敵単体を基礎確率40%で毒状態にする。","mp":5,"point":2,"element":"Null"},
-            {"name":"ポイズマオン","name_tw":"波伊佐瑪翁","desc":"敵単体を基礎確率50%で毒状態にする。","mp":6,"point":null,"element":"Null"},
-            {"name":"マハポイズマ","name_tw":"瑪哈波伊佐瑪","desc":"敵全体を基礎確率30%で毒状態にする。","mp":6,"point":null,"element":"Null"},
-            {"name":"マハポイズマオン","name_tw":"瑪哈波伊佐瑪翁","desc":"敵全体を基礎確率40%で毒状態にする。","mp":7,"point":null,"element":"Null"},
-            {"name":"毒ガスブレス","name_tw":"猛毒吐息","desc":"ランダムな敵を２〜４回、基礎確率30％で毒状態にする。","mp":6,"point":7,"element":"Null"},
+            {"name":"Poisma","name_tw":"波伊佐瑪","desc":"敵単体を基礎確率40%で毒状態にする。","mp":5,"point":2,"element":"Null"},
+            {"name":"Poismaon","name_tw":"波伊佐瑪翁","desc":"敵単体を基礎確率50%で毒状態にする。","mp":6,"point":null,"element":"Null"},
+            {"name":"Mapoisma","name_tw":"瑪哈波伊佐瑪","desc":"敵全体を基礎確率30%で毒状態にする。","mp":6,"point":null,"element":"Null"},
+            {"name":"Mapoismaon","name_tw":"瑪哈波伊佐瑪翁","desc":"敵全体を基礎確率40%で毒状態にする。","mp":7,"point":null,"element":"Null"},
+            {"name":"Poison Breath","name_tw":"猛毒吐息","desc":"ランダムな敵を２〜４回、基礎確率30％で毒状態にする。","mp":6,"point":7,"element":"Null"},
             //縛
-            {"name":"シバブー","name_tw":"希巴縛","desc":"敵単体を基礎確率40%で緊縛状態にする。","mp":5,"point":2,"element":"Null"},
-            {"name":"シバブオン","name_tw":"希巴縛翁","desc":"敵単体を基礎確率50%で緊縛状態にする。","mp":6,"point":8,"element":"Null"},
-            {"name":"マハシバブー","name_tw":"瑪哈希巴縛","desc":"敵全体を基礎確率30%で緊縛状態にする。","mp":6,"point":5,"element":"Null"},
-            {"name":"マハシバブオン","name_tw":"瑪哈希巴縛翁","desc":"敵全体を基礎確率40%で緊縛状態にする。","mp":7,"point":null,"element":"Null"},
-            {"name":"バインドボイス","name_tw":"束縛咆嘯","desc":"ランダムな敵を２～４回、基礎確率30%で緊縛状態にする。","mp":6,"point":null,"element":"Null"},
+            {"name":"Shibaboo","name_tw":"希巴縛","desc":"敵単体を基礎確率40%で緊縛状態にする。","mp":5,"point":2,"element":"Null"},
+            {"name":"Shibabooon","name_tw":"希巴縛翁","desc":"敵単体を基礎確率50%で緊縛状態にする。","mp":6,"point":8,"element":"Null"},
+            {"name":"Mashibaboo","name_tw":"瑪哈希巴縛","desc":"敵全体を基礎確率30%で緊縛状態にする。","mp":6,"point":5,"element":"Null"},
+            {"name":"Mashibabooon","name_tw":"瑪哈希巴縛翁","desc":"敵全体を基礎確率40%で緊縛状態にする。","mp":7,"point":null,"element":"Null"},
+            {"name":"Bind Voice","name_tw":"束縛咆嘯","desc":"ランダムな敵を２～４回、基礎確率30%で緊縛状態にする。","mp":6,"point":null,"element":"Null"},
             //魅
-            {"name":"マリンカリン","name_tw":"瑪琳卡琳","desc":"敵単体を基礎確率40%で魅了状態にする。","mp":5,"point":2,"element":"Null"},
-            {"name":"マリンカリオン","name_tw":"瑪琳卡琳翁","desc":"敵単体を基礎確率50%で魅了状態にする。","mp":6,"point":null,"element":"Null"},
-            {"name":"マハマリンカリン","name_tw":"瑪哈瑪琳卡琳","desc":"敵全体を基礎確率30%で魅了状態にする。","mp":6,"point":5,"element":"Null"},
-            {"name":"マハマリカリオン","name_tw":"瑪哈瑪琳卡琳翁","desc":"敵全体を基礎確率40%で魅了状態にする。","mp":7,"point":null,"element":"Null"},
-            {"name":"セクシーダンス","name_tw":"色誘之舞","desc":"ランダムな敵を２～４回、基礎確率30%で魅了状態にする。","mp":6,"point":7,"element":"Null"},
+            {"name":"Marin Karin","name_tw":"瑪琳卡琳","desc":"敵単体を基礎確率40%で魅了状態にする。","mp":5,"point":2,"element":"Null"},
+            {"name":"Marin Karion","name_tw":"瑪琳卡琳翁","desc":"敵単体を基礎確率50%で魅了状態にする。","mp":6,"point":null,"element":"Null"},
+            {"name":"Mamarin Karin","name_tw":"瑪哈瑪琳卡琳","desc":"敵全体を基礎確率30%で魅了状態にする。","mp":6,"point":5,"element":"Null"},
+            {"name":"Mamarin Karion","name_tw":"瑪哈瑪琳卡琳翁","desc":"敵全体を基礎確率40%で魅了状態にする。","mp":7,"point":null,"element":"Null"},
+            {"name":"Sexy Dance","name_tw":"色誘之舞","desc":"ランダムな敵を２～４回、基礎確率30%で魅了状態にする。","mp":6,"point":7,"element":"Null"},
             {"name":"蓮華の舞","name_tw":"蓮華之舞","desc":"敵全体を基礎確率60％で魅了状態にする。","mp":6,"point":null,"element":"Null"},
             //封
-            {"name":"マカジャマ","name_tw":"瑪卡加瑪","desc":"敵単体を基礎確率40%で魔封状態にする。","mp":5,"point":2,"element":"Null"},
-            {"name":"マカジャマオン","name_tw":"瑪卡加瑪翁","desc":"敵単体を基礎確率40%で魔封状態にする。","mp":6,"point":8,"element":"Null"},
-            {"name":"マハマカジャマ","name_tw":"瑪哈瑪卡加瑪","desc":"敵全体を基礎確率30%で魔封状態にする。","mp":6,"point":5,"element":"Null"},
-            {"name":"マハマカジャオン","name_tw":"瑪哈瑪卡加瑪翁","desc":"敵全体を基礎確率40%で魔封状態にする。","mp":7,"point":9,"element":"Null"},
-            {"name":"ホワイトノイズ","name_tw":"白茫噪音","desc":"ランダムな敵を２～４回、基礎確率30%で魔封状態にする。","mp":6,"point":7,"element":"Null"},
+            {"name":"Makajam","name_tw":"瑪卡加瑪","desc":"敵単体を基礎確率40%で魔封状態にする。","mp":5,"point":2,"element":"Null"},
+            {"name":"Makajamaon","name_tw":"瑪卡加瑪翁","desc":"敵単体を基礎確率40%で魔封状態にする。","mp":6,"point":8,"element":"Null"},
+            {"name":"Mamakajam","name_tw":"瑪哈瑪卡加瑪","desc":"敵全体を基礎確率30%で魔封状態にする。","mp":6,"point":5,"element":"Null"},
+            {"name":"Mamakajaon","name_tw":"瑪哈瑪卡加瑪翁","desc":"敵全体を基礎確率40%で魔封状態にする。","mp":7,"point":9,"element":"Null"},
+            {"name":"White Noise","name_tw":"白茫噪音","desc":"ランダムな敵を２～４回、基礎確率30%で魔封状態にする。","mp":6,"point":7,"element":"Null"},
             //呪
-            {"name":"ジュ","name_tw":"祖","desc":"敵単体を基礎確率50％で呪い状態にする。","mp":5,"point":2,"element":"Null"},
-            {"name":"ジュオン","name_tw":"祖翁","desc":"敵単体を基礎確率60％で呪い状態にする。","mp":6,"point":8,"element":"Null"},
-            {"name":"マハジュ","name_tw":"瑪哈祖","desc":"敵全体を基礎確率40％で呪い状態にする。","mp":6,"point":5,"element":"Null"},
-            {"name":"マハジュオン","name_tw":"瑪哈祖翁","desc":"敵全体を基礎確率50％で呪い状態にする。","mp":7,"point":9,"element":"Null"},
-            {"name":"祟り","name_tw":"報應","desc":"ランダムな敵を１～４回、基礎確率40％で呪い状態にする。","mp":6,"point":7,"element":"Null"},
+            {"name":"Ju","name_tw":"祖","desc":"敵単体を基礎確率50％で呪い状態にする。","mp":5,"point":2,"element":"Null"},
+            {"name":"Juon","name_tw":"祖翁","desc":"敵単体を基礎確率60％で呪い状態にする。","mp":6,"point":8,"element":"Null"},
+            {"name":"Maju","name_tw":"瑪哈祖","desc":"敵全体を基礎確率40％で呪い状態にする。","mp":6,"point":5,"element":"Null"},
+            {"name":"Majuon","name_tw":"瑪哈祖翁","desc":"敵全体を基礎確率50％で呪い状態にする。","mp":7,"point":9,"element":"Null"},
+            {"name":"Curse","name_tw":"報應","desc":"ランダムな敵を１～４回、基礎確率40％で呪い状態にする。","mp":6,"point":7,"element":"Null"},
             //虛
-            {"name":"デゾレト","name_tw":"特奏累托","desc":"敵単体を基礎確率70％で虚弱状態にする。","mp":5,"point":2,"element":"Null"},
-            {"name":"デゾレトオン","name_tw":"特奏累托翁","desc":"敵単体を基礎確率80％で虚弱状態にする。","mp":6,"point":8,"element":"Null"},
-            {"name":"マハデゾレト","name_tw":"瑪哈特奏累托","desc":"敵全体を基礎確率60％で虚弱状態にする。","mp":6,"point":5,"element":"Null"},
-            {"name":"マハデゾレトオン","name_tw":"瑪哈特奏累托翁","desc":"敵全体を基礎確率70％で虚弱状態にする。","mp":7,"point":9,"element":"Null"},
-            {"name":"アウトブレイク","name_tw":"威力爆發","desc":"ランダムな敵を１～４回、基礎確率60％で虚弱状態にする。","mp":6,"point":7,"element":"Null"}
+            {"name":"Desolate","name_tw":"特奏累托","desc":"敵単体を基礎確率70％で虚弱状態にする。","mp":5,"point":2,"element":"Null"},
+            {"name":"Desolateon","name_tw":"特奏累托翁","desc":"敵単体を基礎確率80％で虚弱状態にする。","mp":6,"point":8,"element":"Null"},
+            {"name":"Madesolate","name_tw":"瑪哈特奏累托","desc":"敵全体を基礎確率60％で虚弱状態にする。","mp":6,"point":5,"element":"Null"},
+            {"name":"Madesolateon","name_tw":"瑪哈特奏累托翁","desc":"敵全体を基礎確率70％で虚弱状態にする。","mp":7,"point":9,"element":"Null"},
+            {"name":"Outbreak","name_tw":"威力爆發","desc":"ランダムな敵を１～４回、基礎確率60％で虚弱状態にする。","mp":6,"point":7,"element":"Null"}
         ]
     },
     {
-        name:"增強",
-        name_tw:"增強",
+        name:"Support",
+        name_tw:"Support",
         name_en:"",
         skills:[
             //蓄力
-            {"name":"チャージ","name_tw":"蓄力","desc":"自身をチャージ状態にし、次に与える打撃型ダメージを125％増加させる。","mp":6,"point":8,"element":"Null"},
-            {"name":"リベリオン","name_tw":"反叛","desc":"自身を会心状態にし、次に行う打撃型攻撃を必ずクリティカルにする。","mp":6,"point":8,"element":"Null"},
-            {"name":"反逆の魔象","name_tw":"反叛魔象","desc":"自身をチャージと会心状態にし、次に与える打撃型ダメージを125％増加させ、攻撃が必ずクリティカルになる。","mp":6,"point":null,"element":"Null"},
-            {"name":"コンセントレイト","name_tw":"專注","desc":"自身をコンセントレイト状態にし、次に与える魔法型ダメージを125％増加させる。","mp":6,"point":8,"element":"Null"},
-            {"name":"ディスコード","name_tw":"異調相斥","desc":"敵全体のチャージ、コンセントレイト、会心状態を解除する。","mp":3,"point":6,"element":"Null"},
-            {"name":"バトンタッチ","name_tw":"下一位","desc":"自身のプレスターンアイコンを消費せずにパスを行う。","mp":3,"point":6,"element":"Null"},
+            {"name":"Charge","name_tw":"蓄力","desc":"自身をチャージ状態にし、次に与える打撃型ダメージを125％増加させる。","mp":6,"point":8,"element":"Null"},
+            {"name":"Rebellion","name_tw":"反叛","desc":"自身を会心状態にし、次に行う打撃型攻撃を必ずクリティカルにする。","mp":6,"point":8,"element":"Null"},
+            {"name":"Mega Boost","name_tw":"反叛魔象","desc":"自身をチャージと会心状態にし、次に与える打撃型ダメージを125％増加させ、攻撃が必ずクリティカルになる。","mp":6,"point":null,"element":"Null"},
+            {"name":"Concentrate","name_tw":"專注","desc":"自身をコンセントレイト状態にし、次に与える魔法型ダメージを125％増加させる。","mp":6,"point":8,"element":"Null"},
+            {"name":"Discord","name_tw":"異調相斥","desc":"敵全体のチャージ、Concentrate、会心状態を解除する。","mp":3,"point":6,"element":"Null"},
+            {"name":"Tag","name_tw":"下一位","desc":"自身のプレスターンアイコンを消費せずにパスを行う。","mp":3,"point":6,"element":"Null"},
             //反射
-            {"name":"テトラカーン","name_tw":"提特拉康","desc":"１ターンの間、味方全体を打撃型ダメージ反射状態にする。","mp":7,"point":8,"element":"Null"},
-            {"name":"マカラカーン","name_tw":"瑪卡拉康","desc":"１ターンの間、味方全体を魔法型ダメージ反射状態にする。","mp":7,"point":8,"element":"Null"},
-            {"name":"五行思想","name_tw":"五行思想","desc":"１ターンの間、味方全体を万能属性も含めた魔法型ダメージ反射状態にする。","mp":null,"point":null,"element":"Null"},
-            {"name":"テトラコワース","name_tw":"提特拉破壞","desc":"敵全体の打撃型ダメージ反射状態を解除する。","mp":3,"point":6,"element":"Null"},
-            {"name":"マカラコワース","name_tw":"瑪卡拉破壞","desc":"敵全体の魔法型ダメージ反射状態を解除する。","mp":3,"point":6,"element":"Null"},
+            {"name":"Tetrakarn","name_tw":"提特拉康","desc":"１ターンの間、味方全体を打撃型ダメージ反射状態にする。","mp":7,"point":8,"element":"Null"},
+            {"name":"Makarakarn","name_tw":"瑪卡拉康","desc":"１ターンの間、味方全体を魔法型ダメージ反射状態にする。","mp":7,"point":8,"element":"Null"},
+            {"name":"Five Elements ","name_tw":"Five Elements ","desc":"１ターンの間、味方全体を万能属性も含めた魔法型ダメージ反射状態にする。","mp":null,"point":null,"element":"Null"},
+            {"name":"Tetra Break","name_tw":"提特拉破壞","desc":"敵全体の打撃型ダメージ反射状態を解除する。","mp":3,"point":6,"element":"Null"},
+            {"name":"Makara Break","name_tw":"瑪卡拉破壞","desc":"敵全体の魔法型ダメージ反射状態を解除する。","mp":3,"point":6,"element":"Null"},
             //防即死
-            {"name":"テトラジャ","name_tw":"","desc":"１ターンの間、味方全体をスキルによる即死無效狀態にする。","mp":null,"point":null,"element":"Null"},
+            {"name":"Tetraja","name_tw":"","desc":"１ターンの間、味方全体をスキルによる即死無效狀態にする。","mp":null,"point":null,"element":"Null"},
             //強弱化
-            {"name":"タルカジャ","name_tw":"塔爾卡加","desc":"３ターンの間、味方全体の攻撃力を20％増加させる。","mp":5,"point":6,"element":"Null"},
-            {"name":"ラクカジャ","name_tw":"拉庫卡加","desc":"３ターンの間、味方全体の防御力を20％増加させる。","mp":5,"point":6,"element":"Null"},
-            {"name":"スクカジャ","name_tw":"斯庫卡加","desc":"３ターンの間、味方全体の回避と命中を20％増加させる。","mp":5,"point":6,"element":"Null"},
-            {"name":"タルンダ","name_tw":"塔倫達","desc":"３ターンの間、敵全体の攻撃力を20％減少させる。","mp":5,"point":6,"element":"Null"},
-            {"name":"ラクンダ","name_tw":"拉昆達","desc":"３ターンの間、敵全体の防御力を20％減少させる。","mp":5,"point":6,"element":"Null"},
-            {"name":"スクンダ","name_tw":"斯坤達","desc":"３ターンの間、敵全体の回避と命中を20％減少させる。","mp":5,"point":6,"element":"Null"},
-            {"name":"デカジャ","name_tw":"迪卡加","desc":"敵全体のステータス強化効果を解除する。","mp":5,"point":4,"element":"Null"},
-            {"name":"デクンダ","name_tw":"迪坤達","desc":"味方全体のステータス弱体化効果を解除する。","mp":5,"point":4,"element":"Null"},
-            {"name":"バロンダンス","name_tw":"巴隆之舞","desc":"味方全体を回復力95で回復し、３ターンの間、味方全体の攻撃力・防御力・回避と命中をそれぞれ20％ずつ増加させる。","mp":7,"point":null,"element":"Null"},
-            {"name":"天孫降臨","name_tw":"天孫降臨","desc":"６ターンの間、味方全体の攻撃力・防御力・回避と命中をそれぞれ20％ずつ増加させる。","mp":8,"point":null,"element":"Null"},
-            {"name":"雄叫び","name_tw":"吶喊","desc":"３ターンの間、敵全体の攻撃力・防御力をそれぞれ20％ずつ減少させる。","mp":6,"point":8,"element":"Null"},
-            {"name":"溶解ブレス","name_tw":"溶解吐息","desc":"３ターンの間、敵全体の防御力・回避と命中をそれぞれ20％ずつ減少させる。","mp":6,"point":8,"element":"Null"},
-            {"name":"フォッグブレス","name_tw":"迷霧吐息","desc":"３ターンの間、敵全体の攻撃力・回避と命中をそれぞれ20％ずつ減少させる。","mp":6,"point":8,"element":"Null"},
-            {"name":"挑発","name_tw":"挑釁","desc":"３ターンの間、敵全体の攻撃力を20％増加させ、防御力を20％減少させる。","mp":3,"point":8,"element":"Null"},
-            {"name":"ランダマイザ","name_tw":"女巫詛咒","desc":"３ターンの間、敵全体の攻撃力・防御力・回避と命中をそれぞれ20％ずつ減少させる。","mp":8,"point":"15","element":"Null"}
+            {"name":"Tarukaja","name_tw":"塔爾卡加","desc":"３ターンの間、味方全体の攻撃力を20％増加させる。","mp":5,"point":6,"element":"Null"},
+            {"name":"Rakukaja","name_tw":"拉庫卡加","desc":"３ターンの間、味方全体の防御力を20％増加させる。","mp":5,"point":6,"element":"Null"},
+            {"name":"Sukukaja","name_tw":"斯庫卡加","desc":"３ターンの間、味方全体の回避と命中を20％増加させる。","mp":5,"point":6,"element":"Null"},
+            {"name":"Tarunda","name_tw":"塔倫達","desc":"３ターンの間、敵全体の攻撃力を20％減少させる。","mp":5,"point":6,"element":"Null"},
+            {"name":"Rakunda","name_tw":"拉昆達","desc":"３ターンの間、敵全体の防御力を20％減少させる。","mp":5,"point":6,"element":"Null"},
+            {"name":"Sukunda","name_tw":"斯坤達","desc":"３ターンの間、敵全体の回避と命中を20％減少させる。","mp":5,"point":6,"element":"Null"},
+            {"name":"Dekaja","name_tw":"迪卡加","desc":"敵全体のステータス強化効果を解除する。","mp":5,"point":4,"element":"Null"},
+            {"name":"Dekunda","name_tw":"迪坤達","desc":"味方全体のステータス弱体化効果を解除する。","mp":5,"point":4,"element":"Null"},
+            {"name":"Barong Dance","name_tw":"巴隆之舞","desc":"味方全体を回復力95で回復し、３ターンの間、味方全体の攻撃力・防御力・回避と命中をそれぞれ20％ずつ増加させる。","mp":7,"point":null,"element":"Null"},
+            {"name":"Tenson Kourin","name_tw":"Tenson Kourin","desc":"６ターンの間、味方全体の攻撃力・防御力・回避と命中をそれぞれ20％ずつ増加させる。","mp":8,"point":null,"element":"Null"},
+            {"name":"War Cry","name_tw":"吶喊","desc":"３ターンの間、敵全体の攻撃力・防御力をそれぞれ20％ずつ減少させる。","mp":6,"point":8,"element":"Null"},
+            {"name":"Acid Breath","name_tw":"溶解吐息","desc":"３ターンの間、敵全体の防御力・回避と命中をそれぞれ20％ずつ減少させる。","mp":6,"point":8,"element":"Null"},
+            {"name":"Fog Breath","name_tw":"迷霧吐息","desc":"３ターンの間、敵全体の攻撃力・回避と命中をそれぞれ20％ずつ減少させる。","mp":6,"point":8,"element":"Null"},
+            {"name":"Taunt","name_tw":"挑釁","desc":"３ターンの間、敵全体の攻撃力を20％増加させ、防御力を20％減少させる。","mp":3,"point":8,"element":"Null"},
+            {"name":"Debilitate","name_tw":"女巫詛咒","desc":"３ターンの間、敵全体の攻撃力・防御力・回避と命中をそれぞれ20％ずつ減少させる。","mp":8,"point":"15","element":"Null"}
         ]
     },
     {
-        name:"属性",
+        name:"Resistance Passive",
         name_tw:"屬性",
         name_en:"",
         skills:[
             //強化
-            {"name":"物理ブースタ","name_tw":"物理強化","desc":"物理属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"物理ハイブースタ","name_tw":"高級物理強化","desc":"物理属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"パシップ"},
-            {"name":"火炎ブースタ","name_tw":"火炎強化","desc":"火炎属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"火炎ハイブースタ","name_tw":"高級火炎強化","desc":"火炎属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"パシップ"},
-            {"name":"氷結ブースタ","name_tw":"冰凍強化","desc":"氷結属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"氷結ハイブースタ","name_tw":"高級冰凍強化","desc":"氷結属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"パシップ"},
-            {"name":"電撃ブースタ","name_tw":"電擊強化","desc":"電撃属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"電撃ハイブースタ","name_tw":"高級電擊強化","desc":"電撃属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"パシップ"},
-            {"name":"衝撃ブースタ","name_tw":"衝擊強化","desc":"衝撃属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"衝撃ハイブースタ","name_tw":"高級衝擊強化","desc":"衝撃属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"パシップ"},
-            {"name":"破魔ブースタ","name_tw":"破魔強化","desc":"破魔属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"破魔ハイブースタ","name_tw":"高級破魔強化","desc":"破魔属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"パシップ"},
-            {"name":"呪殺ブースタ","name_tw":"咒殺強化","desc":"呪殺属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"呪殺ハイブースタ","name_tw":"高級咒殺強化","desc":"呪殺属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"パシップ"},
-            {"name":"回復ブースタ","name_tw":"回復強化","desc":"回復スキルの回復量が15％増加する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"回復ハイブースタ","name_tw":"高級回復強化","desc":"回復スキルの回復量が25％増加する。","mp":null,"point":"21","element":"パシップ"},
+            {"name":"Phys Boost","name_tw":"物理強化","desc":"物理属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Phys Amp","name_tw":"高級物理強化","desc":"物理属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Fire Boost","name_tw":"火炎強化","desc":"火炎属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"火炎ハイブースタ","name_tw":"高級火炎強化","desc":"火炎属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"Passive"},
+            {"name":"Ice Boost","name_tw":"冰凍強化","desc":"氷結属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"氷結ハイブースタ","name_tw":"高級冰凍強化","desc":"氷結属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"Passive"},
+            {"name":"Elec Boost","name_tw":"電擊強化","desc":"電撃属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Elec Amp","name_tw":"高級電擊強化","desc":"電撃属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Force Boost","name_tw":"衝擊強化","desc":"衝撃属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Force Amp","name_tw":"高級衝擊強化","desc":"衝撃属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Light Boost","name_tw":"破魔強化","desc":"破魔属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Light Amp","name_tw":"高級破魔強化","desc":"破魔属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"Passive"},
+            {"name":"Dark Boost","name_tw":"咒殺強化","desc":"呪殺属性で与えるダメージが15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Dark Amp","name_tw":"高級咒殺強化","desc":"呪殺属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Heal Boost","name_tw":"回復強化","desc":"回復スキルの回復量が15％増加する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Heal Amp","name_tw":"高級回復強化","desc":"回復スキルの回復量が25％増加する。","mp":null,"point":"21","element":"Passive"},
             //貫通
-            {"name":"物理貫通","name_tw":"物理貫通","desc":"物理貫通を得る。","mp":null,"point":"32","element":"パシップ"},
-            {"name":"帝の権威","name_tw":"帝王權威","desc":"物理命中率が20%増加し、物理貫通を得る。","mp":null,"point":null,"element":"パシップ"},
-            {"name":"火炎貫通","name_tw":"火炎貫通","desc":"火炎貫通を得る。","mp":null,"point":"32","element":"パシップ"},
-            {"name":"電撃貫通","name_tw":"電擊貫通","desc":"電撃貫通を得る。","mp":null,"point":"32","element":"パシップ"},
-            {"name":"衝撃貫通","name_tw":"衝擊貫通","desc":"衝撃貫通を得る。","mp":null,"point":"32","element":"パシップ"},
+            {"name":"Phys Pierce","name_tw":"Phys Pierce","desc":"物理貫通を得る。","mp":null,"point":"32","element":"Passive"},
+            {"name":"Superior Power","name_tw":"帝王權威","desc":"物理命中率が20%増加し、物理貫通を得る。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Fire Pierce","name_tw":"Fire Pierce","desc":"火炎貫通を得る。","mp":null,"point":"32","element":"Passive"},
+            {"name":"Elec Pierce","name_tw":"電擊貫通","desc":"電撃貫通を得る。","mp":null,"point":"32","element":"Passive"},
+            {"name":"Force Pierce","name_tw":"衝擊貫通","desc":"衝撃貫通を得る。","mp":null,"point":"32","element":"Passive"},
             //耐性
-            {"name":"物理耐性","name_tw":"物理耐性","desc":"物理耐性を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"火炎耐性","name_tw":"火炎耐性","desc":"火炎耐性を得る。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"氷結耐性","name_tw":"冰凍耐性","desc":"氷結耐性を得る。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"電撃耐性","name_tw":"電擊耐性","desc":"電撃耐性を得る。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"衝撃耐性","name_tw":"衝擊耐性","desc":"衝撃耐性を得る。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"破魔耐性","name_tw":"破魔耐性","desc":"破魔耐性を得る。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"呪殺耐性","name_tw":"咒殺耐性","desc":"呪殺耐性を得る。","mp":null,"point":8,"element":"パシップ"},
+            {"name":"Resist Phys","name_tw":"Resist Phys","desc":"物理耐性を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Resist Fire","name_tw":"Resist Fire","desc":"火炎耐性を得る。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Ice","name_tw":"冰凍耐性","desc":"氷結耐性を得る。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Elec","name_tw":"電擊耐性","desc":"電撃耐性を得る。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Force","name_tw":"衝擊耐性","desc":"衝撃耐性を得る。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Light","name_tw":"Resist Light","desc":"破魔耐性を得る。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Dark","name_tw":"咒殺耐性","desc":"呪殺耐性を得る。","mp":null,"point":8,"element":"Passive"},
 
-            {"name":"物理無効","name_tw":"物理無效","desc":"物理無効を得る。","mp":null,"point":"18","element":"パシップ"},
-            {"name":"火炎無効","name_tw":"火炎無效","desc":"火炎無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"氷結無効","name_tw":"冰凍無效","desc":"氷結無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"電撃無効","name_tw":"電擊無效","desc":"電撃無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"衝撃無効","name_tw":"衝擊無效","desc":"衝撃無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"破魔無効","name_tw":"破魔無效","desc":"破魔無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"呪殺無効","name_tw":"咒殺無效","desc":"呪殺無効を得る。","mp":null,"point":"12","element":"パシップ"},
+            {"name":"Null Phys","name_tw":"物理無效","desc":"物理無効を得る。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Null Fire","name_tw":"火炎無效","desc":"火炎無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Ice","name_tw":"冰凍無效","desc":"氷結無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Elec","name_tw":"電擊無效","desc":"電撃無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Force","name_tw":"衝擊無效","desc":"衝撃無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Light","name_tw":"破魔無效","desc":"破魔無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Dark","name_tw":"咒殺無效","desc":"呪殺無効を得る。","mp":null,"point":"12","element":"Passive"},
 
-            {"name":"物理反射","name_tw":"物理反射","desc":"物理反射を得る。","mp":null,"point":null,"element":"パシップ"},
-            {"name":"火炎反射","name_tw":"火炎反射","desc":"火炎反射を得る。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"氷結反射","name_tw":"冰凍反射","desc":"氷結反射を得る。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"電撃反射","name_tw":"電擊反射","desc":"電撃反射を得る。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"衝撃反射","name_tw":"衝擊反射","desc":"衝撃反射を得る。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"破魔反射","name_tw":"破魔反射","desc":"破魔反射を得る。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"呪殺反射","name_tw":"咒殺反射","desc":"呪殺反射を得る。","mp":null,"point":"16","element":"パシップ"},
+            {"name":"物理反射","name_tw":"物理反射","desc":"物理反射を得る。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Repel Fire","name_tw":"Repel Fire","desc":"火炎反射を得る。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Ice","name_tw":"冰凍反射","desc":"氷結反射を得る。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Elec","name_tw":"電擊反射","desc":"電撃反射を得る。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Force","name_tw":"衝擊反射","desc":"衝撃反射を得る。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Light","name_tw":"Repel Light","desc":"破魔反射を得る。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Dark","name_tw":"咒殺反射","desc":"呪殺反射を得る。","mp":null,"point":"16","element":"Passive"},
 
-            {"name":"物理吸収","name_tw":"物理吸收","desc":"物理吸収を得る。","mp":null,"point":"30","element":"パシップ"},
-            {"name":"火炎吸収","name_tw":"火炎吸收","desc":"火炎吸収を得る。","mp":null,"point":"20","element":"パシップ"},
-            {"name":"氷結吸収","name_tw":"冰凍吸收","desc":"氷結吸収を得る。","mp":null,"point":"20","element":"パシップ"},
-            {"name":"電撃吸収","name_tw":"電擊吸收","desc":"電撃吸収を得る。","mp":null,"point":"20","element":"パシップ"},
-            {"name":"破魔吸収","name_tw":"破魔吸收","desc":"破魔吸収を得る。","mp":null,"point":"20","element":"パシップ"},
+            {"name":"Drain Phys","name_tw":"物理吸收","desc":"物理吸収を得る。","mp":null,"point":"30","element":"Passive"},
+            {"name":"Drain Fire","name_tw":"火炎吸收","desc":"火炎吸収を得る。","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Ice","name_tw":"冰凍吸收","desc":"氷結吸収を得る。","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Elec","name_tw":"電擊吸收","desc":"電撃吸収を得る。","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Light","name_tw":"破魔吸收","desc":"破魔吸収を得る。","mp":null,"point":"20","element":"Passive"},
 
-            {"name":"毒耐性","name_tw":"毒耐性","desc":"毒になる確率が50％減少する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"緊縛耐性","name_tw":"束縛耐性","desc":"緊縛になる確率が50％減少する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"魅了耐性","name_tw":"魅惑耐性","desc":"魅了になる確率が50％減少する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"魔封耐性","name_tw":"魔封耐性","desc":"魔封になる確率が50％減少する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"呪い耐性","name_tw":"詛咒耐性","desc":"呪いになる確率が50％減少する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"虚弱耐性","name_tw":"虛弱耐性","desc":"虚弱になる確率が50％減少する。","mp":null,"point":4,"element":"パシップ"},
+            {"name":"Resist Poison","name_tw":"Resist Poison","desc":"毒になる確率が50％減少する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Bind","name_tw":"束縛耐性","desc":"緊縛になる確率が50％減少する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Charm","name_tw":"魅惑耐性","desc":"魅了になる確率が50％減少する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Mute","name_tw":"Resist Mute","desc":"魔封になる確率が50％減少する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Curse","name_tw":"詛咒耐性","desc":"呪いになる確率が50％減少する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Weak","name_tw":"虛弱耐性","desc":"虚弱になる確率が50％減少する。","mp":null,"point":4,"element":"Passive"},
 
-            {"name":"毒無効","name_tw":"毒無效","desc":"毒無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"緊縛無効","name_tw":"束縛無效","desc":"緊縛無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"魅了無効","name_tw":"魅惑無效","desc":"魅了無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"魔封無効","name_tw":"魔封無效","desc":"魔封無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"呪い無効","name_tw":"詛咒無效","desc":"呪い無効を得る。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"虚弱無効","name_tw":"虛弱無效","desc":"虚弱無効を得る。","mp":null,"point":"12","element":"パシップ"}
+            {"name":"Null Poison","name_tw":"毒無效","desc":"毒無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Bind","name_tw":"束縛無效","desc":"緊縛無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Charm","name_tw":"魅惑無效","desc":"魅了無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Mute","name_tw":"魔封無效","desc":"魔封無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Curse","name_tw":"詛咒無效","desc":"呪い無効を得る。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Weak","name_tw":"虛弱無效","desc":"虚弱無効を得る。","mp":null,"point":"12","element":"Passive"}
         ]
     },
     {
-        name:"能力",
-        name_tw:"能力",
+        name:"Stat Passive",
+        name_tw:"Stat Passive",
         name_en:"",
         skills:[
             //速度
-            {"name":"スピードスター","name_tw":"急速之星","desc":"悪魔のバトルスピードへの影響が50％増加する。","mp":null,"point":"10","element":"パシップ"},
+            {"name":"Speedster","name_tw":"急速之星","desc":"悪魔のバトルスピードへの影響が50％増加する。","mp":null,"point":"10","element":"Passive"},
             //命中
-            {"name":"百発百中","name_tw":"百發百中","desc":"物理命中率が10％増加する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"千発千中","name_tw":"千發千中","desc":"物理命中率が20％増加する。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"龍の反応","name_tw":"","desc":"物理命中率が15％増加し、物理回避率が15％増加する。","mp":null,"point":null,"element":"パシップ"},
+            {"name":"Good Aim","name_tw":"百發百中","desc":"物理命中率が10％増加する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Great Aim","name_tw":"千發千中","desc":"物理命中率が20％増加する。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Dragon Sense","name_tw":"","desc":"物理命中率が15％増加し、物理回避率が15％増加する。","mp":null,"point":null,"element":"Passive"},
             //迴避
-            {"name":"見切り","name_tw":"識破","desc":"物理回避率が10％増加する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"寸分の見切り","name_tw":"分寸識破","desc":"物理回避率が20％増加する。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"ヴァーハナ","name_tw":"神馭騎獸","desc":"物理回避率15%増加。状態異常になる確率を30%減少。","mp":null,"point":null,"element":"パシップ"},
-            {"name":"ステルス","name_tw":"隱密","desc":"物理回避率が20％増加する。さらに、この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":null,"element":"パシップ"},
+            {"name":"Dodge","name_tw":"識破","desc":"物理回避率が10％増加する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Evade","name_tw":"分寸識破","desc":"物理回避率が20％増加する。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Vahana","name_tw":"神馭騎獸","desc":"物理回避率15%増加。状態異常になる確率を30%減少。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Stealth","name_tw":"隱密","desc":"物理回避率が20％増加する。さらに、この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":null,"element":"Passive"},
             //異命
-            {"name":"乱れ狂い","name_tw":"凌亂綻放","desc":"状態異常にする確率が10％増加する。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"狂い咲き","name_tw":"狂亂綻放","desc":"状態異常にする確率が20％増加する。","mp":null,"point":"24","element":"パシップ"},
+            {"name":"Madness","name_tw":"凌亂綻放","desc":"状態異常にする確率が10％増加する。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Insanity","name_tw":"狂亂綻放","desc":"状態異常にする確率が20％増加する。","mp":null,"point":"24","element":"Passive"},
             //狀防
-            {"name":"地獄のマスク","name_tw":"地域口罩","desc":"状態異常になる確率が35％減少する。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"奈落のマスク","name_tw":"奈落口罩","desc":"状態異常になる確率が60％減少する。","mp":null,"point":"16","element":"パシップ"},
-            {"name":"マレビト","name_tw":"稀人","desc":"全ての状態異常にかからなくなる。","mp":null,"point":null,"element":"パシップ"},
+            {"name":"Hellish Mask","name_tw":"地域口罩","desc":"状態異常になる確率が35％減少する。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"状態異常になる確率が60％減少する。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Mutant","name_tw":"稀人","desc":"全ての状態異常にかからなくなる。","mp":null,"point":null,"element":"Passive"},
             //狀回
-            {"name":"自然治癒","name_tw":"自然痊癒","desc":"状態異常の自然回復率が20％増加する。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"超自然治癒","name_tw":"超自然痊癒","desc":"状態異常の自然回復率が30％増加する。","mp":null,"point":"16","element":"パシップ"},
+            {"name":"Fast Recovery","name_tw":"自然痊癒","desc":"状態異常の自然回復率が20％増加する。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"状態異常の自然回復率が30％増加する。","mp":null,"point":"16","element":"Passive"},
             //會增
-            {"name":"コロシの愉悦","name_tw":"殺戮的愉悅","desc":"クリティカル率が15％増加する。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"ミナゴロシの愉悦","name_tw":"趕盡殺絕的愉悅","desc":"クリティカル率が25％増加する。","mp":null,"point":"14","element":"パシップ"},
+            {"name":"Bloody Glee","name_tw":"殺戮的愉悅","desc":"クリティカル率が15％増加する。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Savage Glee","name_tw":"趕盡殺絕的愉悅","desc":"クリティカル率が25％増加する。","mp":null,"point":"14","element":"Passive"},
             //會減
-            {"name":"野生の勘","name_tw":"野生直覺","desc":"自身が受ける攻撃のクリティカル率を15％減少させる。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"野獣の勘","name_tw":"野獸直覺","desc":"自身が受ける攻撃のクリティカル率を25％減少させる。","mp":null,"point":"14","element":"パシップ"},
+            {"name":"Wild Guess","name_tw":"野生直覺","desc":"自身が受ける攻撃のクリティカル率を15％減少させる。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Wild Instinct","name_tw":"野獸直覺","desc":"自身が受ける攻撃のクリティカル率を25％減少させる。","mp":null,"point":"14","element":"Passive"},
             //
-            {"name":"一分の活泉","name_tw":"一分之活泉","desc":"最大HPが10％増加する。","mp":null,"point":3,"element":"パシップ"},
-            {"name":"二分の活泉","name_tw":"二分之活泉","desc":"最大HPが20％増加する。","mp":null,"point":7,"element":"パシップ"},
-            {"name":"三分の活泉","name_tw":"三分之活泉","desc":"最大HPが30％増加する。","mp":null,"point":"15","element":"パシップ"},
-            {"name":"一分の魔脈","name_tw":"一分之魔脈","desc":"最大MPが１増加する。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"二分の魔脈","name_tw":"二分之魔脈","desc":"最大MPが２増加する。","mp":null,"point":"15","element":"パシップ"},
-            {"name":"初段の剛力","name_tw":"初段之剛力","desc":"力が５増加する。","mp":null,"point":3,"element":"パシップ"},
-            {"name":"初段の賢魔","name_tw":"初段之賢魔","desc":"魔が５増加する。","mp":null,"point":3,"element":"パシップ"},
-            {"name":"初段の恵体","name_tw":"初段之惠體","desc":"体が５増加する。","mp":null,"point":3,"element":"パシップ"},
-            {"name":"初段の猛速","name_tw":"初段之猛速","desc":"速が５増加する。","mp":null,"point":3,"element":"パシップ"},
-            {"name":"初段の強運","name_tw":"初段之強運","desc":"運が５増加する。","mp":null,"point":3,"element":"パシップ"},
-            {"name":"二段の剛力","name_tw":"二段之剛力","desc":"力が10増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"二段の賢魔","name_tw":"二段之賢魔","desc":"魔が10増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"二段の恵体","name_tw":"二段之惠體","desc":"体が10増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"二段の猛速","name_tw":"二段之猛速","desc":"速が10増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"二段の強運","name_tw":"二段之強運","desc":"運が10増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"三段の剛力","name_tw":"三段之剛力","desc":"力が15増加する。","mp":null,"point":"32","element":"パシップ"},
-            {"name":"三段の賢魔","name_tw":"三段之賢魔","desc":"魔が15増加する。","mp":null,"point":"32","element":"パシップ"},
-            {"name":"三段の恵体","name_tw":"三段之惠體","desc":"体が15増加する。","mp":null,"point":"32","element":"パシップ"},
-            {"name":"三段の猛速","name_tw":"三段之猛速","desc":"速が15増加する。","mp":null,"point":"32","element":"パシップ"},
-            {"name":"三段の強運","name_tw":"三段之強運","desc":"運が15増加する。","mp":null,"point":"32","element":"パシップ"}
+            {"name":"Life Bonus","name_tw":"一分之活泉","desc":"最大HPが10％増加する。","mp":null,"point":3,"element":"Passive"},
+            {"name":"Life Gain","name_tw":"二分之活泉","desc":"最大HPが20％増加する。","mp":null,"point":7,"element":"Passive"},
+            {"name":"Life Surge","name_tw":"三分之活泉","desc":"最大HPが30％増加する。","mp":null,"point":"15","element":"Passive"},
+            {"name":"Mana Bonus","name_tw":"一分之魔脈","desc":"最大MPが１増加する。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"最大MPが２増加する。","mp":null,"point":"15","element":"Passive"},
+            {"name":"Strength Amp I","name_tw":"初段之剛力","desc":"力が５増加する。","mp":null,"point":3,"element":"Passive"},
+            {"name":"Magic Amp I","name_tw":"初段之賢魔","desc":"魔が５増加する。","mp":null,"point":3,"element":"Passive"},
+            {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"体が５増加する。","mp":null,"point":3,"element":"Passive"},
+            {"name":"Agility Amp I","name_tw":"初段之猛速","desc":"速が５増加する。","mp":null,"point":3,"element":"Passive"},
+            {"name":"Luck Amp I","name_tw":"初段之強運","desc":"運が５増加する。","mp":null,"point":3,"element":"Passive"},
+            {"name":"Strength Amp II","name_tw":"二段之剛力","desc":"力が10増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Magic Amp II","name_tw":"二段之賢魔","desc":"魔が10増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"体が10増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"速が10増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Luck Amp II","name_tw":"二段之強運","desc":"運が10増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"力が15増加する。","mp":null,"point":"32","element":"Passive"},
+            {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"魔が15増加する。","mp":null,"point":"32","element":"Passive"},
+            {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"体が15増加する。","mp":null,"point":"32","element":"Passive"},
+            {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"速が15増加する。","mp":null,"point":"32","element":"Passive"},
+            {"name":"Luck Amp III","name_tw":"三段之強運","desc":"運が15増加する。","mp":null,"point":"32","element":"Passive"}
         ]
     },
     {
-        name:"追擊",
-        name_tw:"追擊",
+        name:"Damage Passive",
+        name_tw:"Damage Passive",
         name_en:"",
         skills:[
-            {"name":"暗殺者","name_tw":"暗殺者","desc":"単体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"虐殺者","name_tw":"虐殺者","desc":"全体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"大虐殺者","name_tw":"大虐殺者","desc":"全体攻撃スキルで与えるダメージが20％増加する。","mp":null,"point":"24","element":"パシップ"},
-            {"name":"毒追撃","name_tw":"毒追擊","desc":"敵が毒状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"緊縛追撃","name_tw":"束縛追擊","desc":"敵が緊縛状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"魅了追撃","name_tw":"魅惑追擊","desc":"敵が魅了状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"魔封追撃","name_tw":"魔封追擊","desc":"敵が魔封状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"パシップ"},
-            {"name":"狂戦士","name_tw":"狂戰士","desc":"敵に与えるダメージが10％増加し、自身が受けるダメージも20％増加する。","mp":null,"point":"18","element":"パシップ"},
-            {"name":"追い打ち","name_tw":"追擊","desc":"敵の弱点をついたとき、ダメージが10％増加する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"無慈悲な一撃","name_tw":"無情的一擊","desc":"敵の弱点をついたとき、ダメージが20％増加する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"武道の素養","name_tw":"武道的素養","desc":"物理属性で与えるダメージが15％増加し、物理命中率も15％増加する。","mp":null,"point":null,"element":"パシップ"}
+            {"name":"Assassin","name_tw":"Assassin","desc":"単体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"全体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Butcher","name_tw":"Butcher","desc":"全体攻撃スキルで与えるダメージが20％増加する。","mp":null,"point":"24","element":"Passive"},
+            {"name":"Deadly Poison","name_tw":"毒追擊","desc":"敵が毒状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"敵が緊縛状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"敵が魅了状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"敵が魔封状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
+            {"name":"Berserker","name_tw":"狂戰士","desc":"敵に与えるダメージが10％増加し、自身が受けるダメージも20％増加する。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Back Attack","name_tw":"Damage Passive","desc":"敵の弱点をついたとき、ダメージが10％増加する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"敵の弱点をついたとき、ダメージが20％増加する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"物理属性で与えるダメージが15％増加し、物理命中率も15％増加する。","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
-        name:"オート",
+        name:"Combat Passive",
         name_tw:"自動",
         name_en:"",
         skills:[
             //反擊
-            {"name":"反撃","name_tw":"反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力50で与える。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"猛反撃","name_tw":"兇猛反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力100で与える。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"デスカウンター","name_tw":"死亡反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力150で与える。","mp":null,"point":"18","element":"パシップ"},
+            {"name":"Counter","name_tw":"反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力50で与える。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Retaliate","name_tw":"兇猛反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力100で与える。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Death Counter","name_tw":"死亡反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力150で与える。","mp":null,"point":"18","element":"Passive"},
             //防死
-            {"name":"食いしばり","name_tw":"強忍","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"不屈の闘志","name_tw":"不屈的鬥志","desc":"この悪魔が死亡するとき、一度だけHPが200回復する。","mp":null,"point":"18","element":"パシップ"},
-            {"name":"アヴァターラ","name_tw":"降世化身","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。ウェーブをまたぐとき、HPが10％回復する。","mp":null,"point":null,"element":"パシップ"},
+            {"name":"Endure","name_tw":"強忍","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"この悪魔が死亡するとき、一度だけHPが200回復する。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Avatar","name_tw":"降世化身","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。ウェーブをまたぐとき、HPが10％回復する。","mp":null,"point":null,"element":"Passive"},
             //自回
-            {"name":"勝利の息吹","name_tw":"勝利的氣息","desc":"ウェーブをまたぐとき、HPが30％回復する。","mp":null,"point":6,"element":"パシップ"},
-            {"name":"勝利のチャクラ","name_tw":"勝利的查克拉","desc":"ウェーブをまたぐとき、MPが10回復する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"無限のチャクラ","name_tw":"無限的查克拉","desc":"MPの自然回復量が１増加する。","mp":null,"point":"18","element":"パシップ"},
+            {"name":"Life Aid","name_tw":"勝利的氣息","desc":"ウェーブをまたぐとき、HPが30％回復する。","mp":null,"point":6,"element":"Passive"},
+            {"name":"Mana Aid","name_tw":"勝利的查克拉","desc":"ウェーブをまたぐとき、MPが10回復する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Infinite Chakra","name_tw":"無限的查克拉","desc":"MPの自然回復量が１増加する。","mp":null,"point":"18","element":"Passive"},
             //反射
-            {"name":"テトラカシフト","name_tw":"提特拉康脈動","desc":"後攻でバトルを開始したとき、テトラカーンが発動する。","mp":null,"point":"18","element":"パシップ"},
-            {"name":"マカラカシフト","name_tw":"瑪卡拉康脈動","desc":"後攻でバトルを開始したとき、マカラカーンが発動する。","mp":null,"point":"18","element":"パシップ"},
-            {"name":"貫反の霊圧","name_tw":"貫反靈壓","desc":"","mp":null,"point":null,"element":"パシップ"},
-            //增強
-            {"name":"タルカオート","name_tw":"自動塔爾卡","desc":"１ターン目開始時、タルカジャが発動する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"ラクカオート","name_tw":"自動拉庫卡","desc":"１ターン目開始時、ラクカジャが発動する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"スクカオート","name_tw":"自動斯庫卡","desc":"１ターン目開始時、スクカジャが発動する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"タルンダオート","name_tw":"自動塔倫達","desc":"１ターン目開始時、タルンダが発動する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"ラクンダオート","name_tw":"自動拉昆達","desc":"１ターン目開始時、ラクンダが発動する。","mp":null,"point":"12","element":"パシップ"},
-            {"name":"スクンダオート","name_tw":"自動斯坤達","desc":"１ターン目開始時、スクンダが発動する。","mp":null,"point":"12","element":"パシップ"},
+            {"name":"Tetra Shift","name_tw":"提特拉康脈動","desc":"後攻でバトルを開始したとき、テトラカーンが発動する。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"後攻でバトルを開始したとき、マカラカーンが発動する。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Bane of Pierce","name_tw":"貫反靈壓","desc":"","mp":null,"point":null,"element":"Passive"},
+            //Support
+            {"name":"Auto-Tarukaja","name_tw":"自動塔爾卡","desc":"１ターン目開始時、タルカジャが発動する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Rakukaja","name_tw":"自動拉庫卡","desc":"１ターン目開始時、ラクカジャが発動する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Sukukaja","name_tw":"自動斯庫卡","desc":"１ターン目開始時、スクカジャが発動する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"１ターン目開始時、タルンダが発動する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"１ターン目開始時、ラクンダが発動する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"１ターン目開始時、スクンダが発動する。","mp":null,"point":"12","element":"Passive"},
             //壓制
-            {"name":"威圧の構え","name_tw":"威攝姿態","desc":"後攻でバトルを開始したとき、敵のプレスターンアイコンを１つ減少させる。","mp":null,"point":"21","element":"パシップ"},
-            {"name":"制圧の構え：Drain","name_tw":"威攝姿態:Drain","desc":"このスキルを持っている悪魔が生きている間、味方の属性吸収が発動した際、敵のプレスターンアイコンを1つ減少させる。","mp":null,"point":null,"element":"パシップ"},
-            {"name":"富の信仰","name_tw":"","desc":"最大HPが10%増加する。敵のスキル効果によってこちらのプレスターンアイコンが減少するたび、味方全体のMPを1回復する。","mp":null,"point":null,"element":"パシップ"},
+            {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"後攻でバトルを開始したとき、敵のプレスターンアイコンを１つ減少させる。","mp":null,"point":"21","element":"Passive"},
+            {"name":"制圧の構え：Drain","name_tw":"威攝姿態:Drain","desc":"このスキルを持っている悪魔が生きている間、味方の属性吸収が発動した際、敵のプレスターンアイコンを1つ減少させる。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Faith in Wealth","name_tw":"","desc":"最大HPが10%増加する。敵のスキル効果によってこちらのプレスターンアイコンが減少するたび、味方全体のMPを1回復する。","mp":null,"point":null,"element":"Passive"},
             //節省
-            {"name":"トリックスター","name_tw":"狡計之星","desc":"敵の弱点をついたとき、20％の確率でプレスターンアイコンを消費しない。","mp":null,"point":null,"element":"パシップ"},
-            {"name":"月の加護","name_tw":"月之庇佑","desc":"MPを消費するとき、消費するMPが１減少する。","mp":null,"point":null,"element":"パシップ"}
+            {"name":"Trickster","name_tw":"狡計之星","desc":"敵の弱点をついたとき、20％の確率でプレスターンアイコンを消費しない。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"MPを消費するとき、消費するMPが１減少する。","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
-        name:"特殊",
-        name_tw:"特殊",
+        name:"Special Passive",
+        name_tw:"Special Passive",
         name_en:"",
         skills:[
-            {"name":"コウウン","name_tw":"幸運","desc":"D×2とパーティ悪魔がバトルで獲得する経験値を20％、バトルで獲得するマッカを20％増加させる。","mp":null,"point":null,"element":"パシップ"},
-            {"name":"毒床歩き","name_tw":"漫步雷池","desc":"アウラゲート内のダメージ床のダメージが25％減少する。","mp":null,"point":2,"element":"パシップ"},
-            {"name":"毒床渡り","name_tw":"闊步雷池","desc":"アウラゲート内のダメージ床のダメージが50％減少する。","mp":null,"point":4,"element":"パシップ"},
-            {"name":"ワナフーリ","name_tw":"陷阱弱化","desc":"アウラゲート内でダメージ床のダメージが30％減少し、ダークゾーンの効果を無効にする。","mp":null,"point":null,"element":"パシップ"},
-            {"name":"毒床無効","name_tw":"雷池無懼","desc":"アウラゲート内のダメージ床のダメージを無効にする。","mp":null,"point":8,"element":"パシップ"},
-            {"name":"ダークゾーン無効","name_tw":"黑暗區域無效","desc":"アウラゲート内のダークゾーンの効果を無効にする。","mp":null,"point":8,"element":"パシップ"}
+            {"name":"Luck","name_tw":"幸運","desc":"D×2とパーティ悪魔がバトルで獲得する経験値を20％、バトルで獲得するマッカを20％増加させる。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dmg Panel V I","name_tw":"漫步雷池","desc":"アウラゲート内のダメージ床のダメージが25％減少する。","mp":null,"point":2,"element":"Passive"},
+            {"name":"Dmg Panel V II","name_tw":"闊步雷池","desc":"アウラゲート内のダメージ床のダメージが50％減少する。","mp":null,"point":4,"element":"Passive"},
+            {"name":"Trap Free","name_tw":"陷阱弱化","desc":"アウラゲート内でダメージ床のダメージが30％減少し、ダークゾーンの効果を無効にする。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"アウラゲート内のダメージ床のダメージを無効にする。","mp":null,"point":8,"element":"Passive"},
+            {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"アウラゲート内のダークゾーンの効果を無効にする。","mp":null,"point":8,"element":"Passive"}
         ]
     }
 ];
@@ -1630,7 +1630,7 @@ Skill.prototype.showDesc = function(){
 }
 Skill.prototype.showHint = function(){
 
-    var hint = '屬性: '+this.element+' MP: '+this.mp+' 繼承: '+this.point+'\n'+this.showDesc();
+    var hint = 'Element: '+this.element+' | MP: '+this.mp+' | Transfer Cost: '+this.point+'\n'+this.showDesc();
     return hint;
 }
 Skill.prototype.addDevil = function(new_devil){

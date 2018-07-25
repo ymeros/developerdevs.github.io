@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dx2 真女神轉生 Liberation 二身合體 / Dx2 真女神転生 リベレーション 二身合体 / Dx2 Megamitensei Normal Fusion">
-    <meta name="keywords" content="女神転生, メガテン, リベレーション, 合体, 女神轉生, 合體, Megamitensei, Megaten, Dx2, Liberation, Fusion, Simulator">
+    <meta name="description" content="Dx2 Shin Megami Tensei Liberation Fusion Calculator & Database">
+    <meta name="keywords" content="Shin Megami Tensei, Megaten, Dx2, Liberation, Fusion, Calculator">
     <link rel="icon" href="images/theme/favicon.ico">
-    <title>Dx2 二身合体</title>
+    <title>Dx2 Database</title>
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="css/bootstrap-vue.min.css"/>
     <style>
@@ -20,7 +20,7 @@
     *:focus{
         outline:none;
     }
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
      @media (max-width: 575.98px) {
 
     }
@@ -115,10 +115,10 @@
                                                 <h5><b-badge variant="secondary"> Total MAG </b-badge> {{ builder_target.showTotalMagPure() }} ~ {{ builder_target.showTotalMag() }} </h5>
                                             </div>
                                             <div class="col-12 col-md-auto">
-                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(4,0)">素★4</b-button>
-                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(3,0)">素★3</b-button>
-                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(2,0)">素★2</b-button>
-                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(1,0)">素★1</b-button>
+                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(4,0)">Best ★4 Rarity Fusion</b-button>
+                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(3,0)">Best ★3 Rarity Fusion</b-button>
+                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(2,0)">Best ★2 Rarity Fusion</b-button>
+                                                <b-button class="m-1" size="sm" variant="success" @click="builder_auto_costdown(1,0)">Best ★1 Rarity Fusion</b-button>
                                                 <!--
                                                 <b-button class="m-1" size="sm" variant="warning" @click="builder_auto_costdown(4,1)">雜★4</b-button>
                                                 <b-button class="m-1" size="sm" variant="warning" @click="builder_auto_costdown(3,1)">雜★3</b-button>
@@ -158,14 +158,14 @@
                                             <div class="col-auto p-1"
                                             v-for="option in fusion_rarity_options"
                                             v-if="option.active">
-                                                <b-button :pressed.sync="option.state" 
+                                                <b-button :pressed.sync="option.state"
                                                     @click="fusion_rarity_option_click(option)"
                                                     variant="outline-secondary">
                                                     {{ option.text }}
                                                 </b-button>
                                             </div>
                                         </div>
-                                    </b-list-group-item>    
+                                    </b-list-group-item>
                                     <b-list-group-item class="p-2" v-if="filtered_fusion_options.length">
 
                                         <div class="row no-gutters">
@@ -188,16 +188,16 @@
                                                     </b-card>
                                                 </b-collapse>
                                             </div>
-                                            
+
                                         </div>
-                                        
+
                                     </b-list-group-item>
                                 </b-list-group>
-                            
+
                             </b-card>
 
                         </b-tab>
-                        
+
 
                     </b-tabs>
                 </b-card>
@@ -220,13 +220,13 @@
             <!-- index_main : 2 // customize-->
 
             <b-tab no-body class="p-2">
-                
+
             </b-tab>
 
             <!-- index_main : 3 // search-->
 
             <b-tab no-body class="p-2">
-                
+
                 <b-card no-body class="mt-2" v-if="filtered_devils.length>0">
                     <devil-list :devils="filtered_devils" usage="fission"></devil-list>
                 </b-card>
@@ -240,8 +240,10 @@
             <!-- index_main : 4 // setting-->
 
             <b-tab no-body class="p-2">
-            
+
                 <div class="row no-gutters" style="background:url('images/theme/steven.png') no-repeat right center; background-size:auto 300px">
+
+                    <!-- Language Option
                     <div class="col-12 py-2">
                         <div class="font-weight-bold py-2">{{ $t('message.language') }}</div>
                         <div>
@@ -254,6 +256,8 @@
                                 </b-form-radio-group>
                         </div>
                     </div>
+                    -->
+
                     <div class="col-12 py-2">
                         <div class="font-weight-bold py-2">{{ $t('message.downgrade_fusion') }}</div>
                         <div>
@@ -296,10 +300,10 @@
 
                 <div class="">
                     <div class="small text-right">Version: {{ updated_at }}</div>
-                </div>  
-                    
+                </div>
+
             </b-tab>
-        
+
         </b-tabs>
 
         <!-- footer -->
@@ -307,8 +311,8 @@
         <div class="row no-gutters justify-content-start align-items-center">
             <div class="col-auto p-2">
                 <div class="font-weight-bold">
-                    <b-badge :variant="gate_status_jp?'success':'secondary'">JP {{ gate_timer_jp }}</b-badge>
-                    <b-badge :variant="gate_status_ch?'success':'secondary'">CH {{ gate_timer_ch }}</b-badge>
+                    <b-badge :variant="gate_status_jp?'success':'secondary'">EN {{ gate_timer_jp }}</b-badge>
+                    <!--<b-badge :variant="gate_status_ch?'success':'secondary'">CH {{ gate_timer_ch }}</b-badge>-->
                 </div>
             </div>
             <div class="col-auto p-2">
@@ -340,35 +344,35 @@
                         <table class="table table-bordered table-sm my-0">
                             <tbody>
                                 <tr>
-                                    <td class="text-center align-middle">基本</td>
+                                    <td class="text-center align-middle">Innate</td>
                                     <td>
                                         <div v-for="(skill, index) in devil.skills">
                                             <span class="small" v-b-popover.hover.top="skill.showHint()">{{skill.showName()}}</span>
                                         </div>
                                     </td>
                                 </tr>
-                        
+
                                 <tr v-if="devil.skill4">
-                                    <td class="text-center align-middle">覺醒</td>
+                                    <td class="text-center align-middle">Awaken</td>
                                     <td>
                                         <div v-for="(skill, index) in devil.skill4">
-                                            <b-badge v-if="index==0" class="bg-secondary text-white">素体</b-badge>
-                                            <b-badge v-if="index==1" class="bg-danger text-white">荒神</b-badge>
-                                            <b-badge v-if="index==2" class="text-white" style="background:peru">加護</b-badge>
-                                            <b-badge v-if="index==3" class="text-white" style="background:orchid">異能</b-badge>
-                                            <b-badge v-if="index==4" class="bg-info text-white">防魔</b-badge>
+                                            <b-badge v-if="index==0" class="bg-secondary text-white">Common</b-badge>
+                                            <b-badge v-if="index==1" class="bg-danger text-white">Aragami</b-badge>
+                                            <b-badge v-if="index==2" class="text-white" style="background:peru">Protector</b-badge>
+                                            <b-badge v-if="index==3" class="text-white" style="background:orchid">Psychic</b-badge>
+                                            <b-badge v-if="index==4" class="bg-info text-white">Elementalist</b-badge>
                                             <span class="small" v-b-popover.hover.top="skill.showHint()">{{skill.showName()}}</span>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr v-if="devil.skill5">
-                                    <td class="text-center align-middle">特典</td>
+                                    <td class="text-center align-middle">Gacha</td>
                                     <td>
                                         <div v-for="(skill, index) in devil.skill5">
-                                            <b-badge v-if="index==1" class="bg-danger text-white">荒神</b-badge>
-                                            <b-badge v-if="index==2" class="text-white" style="background:peru">加護</b-badge>
-                                            <b-badge v-if="index==3" class="text-white" style="background:orchid">異能</b-badge>
-                                            <b-badge v-if="index==4" class="bg-info text-white">防魔</b-badge>
+                                            <b-badge v-if="index==1" class="bg-danger text-white">Aragami</b-badge>
+                                            <b-badge v-if="index==2" class="text-white" style="background:peru">Protector</b-badge>
+                                            <b-badge v-if="index==3" class="text-white" style="background:orchid">Psychic</b-badge>
+                                            <b-badge v-if="index==4" class="bg-info text-white">Elementalist</b-badge>
                                             <span class="small" v-if="index!=0" v-b-popover.hover.top="skill.showHint()">{{skill.showName()}}</span>
                                         </div>
                                     </td>
@@ -381,13 +385,13 @@
                         <table class="table table-bordered table-sm my-0">
                             <thead>
                                 <tr class="text-center">
-                                    <th style="background:rgb(185, 185, 185)">物</th>
-                                    <th style="background:rgb(219, 120, 120)">火</th>
-                                    <th style="background:rgb(150, 220, 230)">冰</th>
-                                    <th style="background:rgb(233, 230, 64)">雷</th>
-                                    <th style="background:rgb(133, 240, 156)">衝</th>
-                                    <th style="background:rgb(240, 236, 196)">破</th>
-                                    <th style="background:rgb(218, 142, 221)">咒</th>
+                                    <th style="background:rgb(185, 185, 185)">Phys</th>
+                                    <th style="background:rgb(219, 120, 120)">Fire</th>
+                                    <th style="background:rgb(150, 220, 230)">Ice</th>
+                                    <th style="background:rgb(233, 230, 64)">Elec</th>
+                                    <th style="background:rgb(133, 240, 156)">Force</th>
+                                    <th style="background:rgb(240, 236, 196)">Light</th>
+                                    <th style="background:rgb(218, 142, 221)">Dark</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -401,7 +405,7 @@
                     </div>
 
                 </div>
-                
+
             </div>
 
         </b-modal>
@@ -413,14 +417,14 @@
     <script id="skill-t" type="text/x-template">
 
         <b-card no-body class="border-secondary">
-            
-            <b-card-body class="p-2">                
+
+            <b-card-body class="p-2">
                 <div class="font-weight-bold">
                     {{ skill.showName() }}
                 </div>
                 <div class="small">
-                    {{ $t('message.element') }}: {{ skill.type.showName() }} 
-                    {{ skill.mp ? "MP: "+skill.mp : "" }} 
+                    {{ $t('message.element') }}: {{ skill.type.showName() }}
+                    {{ skill.mp ? "MP: "+skill.mp : "" }}
                     {{ skill.point ? $t('message.inherit') +": "+skill.point : "" }}
                 </div>
             </b-card-body>
@@ -462,9 +466,9 @@
     <script id="devil-t" type="text/x-template">
 
         <b-card no-body class="border-secondary">
-            
+
             <b-card-body class="p-2" @click="click()"
-                :style="{backgroundImage:'url(\'images/devil/'+devil.icon+'\')',cursor:(usage=='fission'||usage=='builder')?'pointer':''}" 
+                :style="{backgroundImage:'url(\'images/devil/'+devil.icon+'\')',cursor:(usage=='fission'||usage=='builder')?'pointer':''}"
                 style="background-position:right;background-repeat:no-repeat;background-size:contain">
                 <div class="font-weight-bold">
                     {{usage=='fusion'||usage=='fission'||usage=='info'||usage=='skill'?devil.race.showName():''}} {{ devil.showName() }}
@@ -487,14 +491,14 @@
 
         </b-card>
 
-        
+
     </script>
 
     <script id="devil-list-t" type="text/x-template">
 
         <div class="row no-gutters">
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-2" v-for="devil in devils">
-                
+
                 <devil :devil="devil" :usage="usage" @click="click()" :skill="skill">
                     <b-button variant="sencondary" size="sm" @click="fusion(devil)" class="font-weight-bold small">{{ $t('message.normal_fusion') }}</b-button>
                     <b-button variant="warning" size="sm" @click="start_bom(devil)" class="font-weight-bold small">{{ $t('message.reverse_fusion') }}</b-button>
@@ -506,15 +510,15 @@
     </script>
 
     <script id="devil-bom-t" type="text/x-template">
-    
-        <b-card v-if="bom" no-body 
+
+        <b-card v-if="bom" no-body
             :class="{'border-primary':bom.upgrade, 'border-danger':bom.downgrade,'border-dark':!(bom.upgrade||bom.downgrade)}"
             @click="click()">
             <div class="row no-gutters">
-                <div v-for="devil in [bom.child1.devil,bom.child2.devil]" 
+                <div v-for="devil in [bom.child1.devil,bom.child2.devil]"
                     class="col-6 p-2"
                     :class="{'text-primary':bom.upgrade,'text-danger':bom.downgrade}"
-                    :style="{backgroundImage:'url(\'images/devil/'+devil.icon+'\')',cursor:usage=='builder'?'pointer':''}" 
+                    :style="{backgroundImage:'url(\'images/devil/'+devil.icon+'\')',cursor:usage=='builder'?'pointer':''}"
                     style="background-position:right;background-repeat:no-repeat;background-size:contain">
                         <div class="font-weight-bold">{{ devil.showName() }}</div>
                         <div class="small">{{ devil.showGrade() }} {{ devil.showRarity() }}</div>
@@ -524,11 +528,11 @@
                 <b-button variant="info" size="sm" @click.stop="info(bom.child1.devil)" class="font-weight-bold small py-0">⚝</b-button>
                 <b-button variant="info" size="sm" @click.stop="info(bom.child2.devil)" class="font-weight-bold small py-0">⚝</b-button>
                 <span v-if="bom.mag_pure!=bom.mag">
-                    <b-badge variant="success"> 素体 </b-badge> 
+                    <b-badge variant="success"> 素体 </b-badge>
                     <span class="small"> {{ bom.showMagPure() }}  </span>
                 </span>
                 <span v-if="bom.mag>0">
-                    <b-badge variant="secondary"> MAG </b-badge> 
+                    <b-badge variant="secondary"> MAG </b-badge>
                     <span class="small">{{ bom.showMag() }} </span>
                 </span>
             </b-card-footer>
@@ -537,7 +541,7 @@
     </script>
 
     <script id="devil-bom-list-t" type="text/x-template">
-    
+
         <div class="row no-gutters">
             <div class="col-12 col-md-6 col-lg-4 col-xl-3 p-2" v-for="bom in boms">
                 <devil-bom :bom="bom" :usage="usage" @click="click()"></devi-bom>
@@ -554,7 +558,7 @@
                     <hr v-if="bom.parent?bom.parent.child2==bom:false">
                 </div>
                 <div class="col-auto item">
-                    <devil :devil="bom.devil" @click="list_bom(bom)" usage="builder" 
+                    <devil :devil="bom.devil" @click="list_bom(bom)" usage="builder"
                         style="min-width:130px" :class="{'bg-warning':isCurrent(), 'text-primary':isParentCurrent()}"
                         v-b-popover.hover.top="bom.devil.race.showName()+' '+bom.devil.showName()+'\n'+$t('message.fusion_mag_others')+': '+bom.showMag()+'\n'+$t('message.fusion_mag_pure')+': '+bom.showMagPure()">
                     </devil>
@@ -575,7 +579,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
             <div class="row no-gutters justify-content-md-center" v-if="!collapsed">
                 <div class="col-12 col-md-auto pl-3 pl-md-0 border-left border-left-md-none" v-if="bom.child1">
