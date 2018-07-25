@@ -1331,7 +1331,7 @@ const messages = {
         deny: 'Deny',
         search:'Search',
         element:'Element',
-        inherit:'Inherit',
+        inherit:'Skill Points',
         description:'Description',
         cost:'Cost',
         cost_others:'Cost(Others)',
@@ -1630,7 +1630,7 @@ Skill.prototype.showDesc = function(){
 }
 Skill.prototype.showHint = function(){
 
-    var hint = 'Element: '+this.element+' | MP: '+this.mp+' | Transfer Cost: '+this.point+'\n'+this.showDesc();
+    var hint = 'Element: '+this.element+' | MP: '+this.mp+' | Skill Points: '+this.point+'\n'+this.showDesc();
     return hint;
 }
 Skill.prototype.addDevil = function(new_devil){

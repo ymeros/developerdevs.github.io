@@ -424,8 +424,8 @@
                 </div>
                 <div class="small">
                     {{ $t('message.element') }}: {{ skill.type.showName() }}
-                    {{ skill.mp ? "MP: "+skill.mp : "" }}
-                    {{ skill.point ? $t('message.inherit') +": "+skill.point : "" }}
+                    {{ skill.mp ? " | MP: "+skill.mp : "" }}
+                    {{ skill.point ? " | " + $t('message.inherit') +": "+skill.point : "" }}
                 </div>
             </b-card-body>
 
