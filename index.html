@@ -344,7 +344,7 @@
                         <table class="table table-bordered table-sm my-0">
                             <tbody>
                                 <tr>
-                                    <td class="text-center align-middle">Innate</td>
+                                    <td class="text-center align-middle">Innate Skills</td>
                                     <td>
                                         <div v-for="(skill, index) in devil.skills">
                                             <span class="small" v-b-popover.hover.top="skill.showHint()">{{skill.showName()}}</span>
@@ -353,7 +353,7 @@
                                 </tr>
 
                                 <tr v-if="devil.skill4">
-                                    <td class="text-center align-middle">Awaken</td>
+                                    <td class="text-center align-middle">Awaken Skills</td>
                                     <td>
                                         <div v-for="(skill, index) in devil.skill4">
                                             <b-badge v-if="index==0" class="bg-secondary text-white">Common</b-badge>
@@ -366,7 +366,7 @@
                                     </td>
                                 </tr>
                                 <tr v-if="devil.skill5">
-                                    <td class="text-center align-middle">Gacha</td>
+                                    <td class="text-center align-middle">Gacha Skills</td>
                                     <td>
                                         <div v-for="(skill, index) in devil.skill5">
                                             <b-badge v-if="index==1" class="bg-danger text-white">Aragami</b-badge>
@@ -476,7 +476,7 @@
                 <div class="small">
                     {{ devil.showGrade() }} {{ devil.showRarity() }}
                     <span class="ml-2" v-if="usage=='info'">AI: {{ devil.type }}</span>
-                    <b-button v-if="usage=='fusion'||usage=='skill'" variant="info" size="sm" @click.stop="info()" class="font-weight-bold small py-0">⚝</b-button>
+                    <b-button v-if="usage=='fusion'||usage=='skill'" variant="info" size="sm" @click.stop="info()" class="font-weight-bold small py-0">Info</b-button>
                     <span v-if="usage=='skill'">
                         <b-badge class="ml-2" variant="success" v-if="isSkillAvailable(0)">持有</b-badge>
                         <b-badge class="ml-2" variant="warning" v-if="isSkillAvailable(1)">繼承</b-badge>
@@ -486,7 +486,7 @@
 
             <b-card-footer class="p-1" v-if="usage=='fission'">
                 <slot></slot>
-                <b-button variant="info" size="sm" @click.stop="info()" class="font-weight-bold small">⚝</b-button>
+                <b-button variant="info" size="sm" @click.stop="info()" class="font-weight-bold small">Info</b-button>
             </b-card-footer>
 
         </b-card>
@@ -525,10 +525,10 @@
                 </div>
             </div>
             <b-card-footer class="p-1 text-right">
-                <b-button variant="info" size="sm" @click.stop="info(bom.child1.devil)" class="font-weight-bold small py-0">⚝</b-button>
-                <b-button variant="info" size="sm" @click.stop="info(bom.child2.devil)" class="font-weight-bold small py-0">⚝</b-button>
+                <b-button variant="info" size="sm" @click.stop="info(bom.child1.devil)" class="font-weight-bold small py-0">Info</b-button>
+                <b-button variant="info" size="sm" @click.stop="info(bom.child2.devil)" class="font-weight-bold small py-0">Info</b-button>
                 <span v-if="bom.mag_pure!=bom.mag">
-                    <b-badge variant="success"> 素体 </b-badge>
+                    <b-badge variant="success"> COMMON </b-badge>
                     <span class="small"> {{ bom.showMagPure() }}  </span>
                 </span>
                 <span v-if="bom.mag>0">
@@ -566,7 +566,7 @@
                 <div class="col-auto col-md align-self-center pl-1">
                     <div class="row no-gutters">
                         <div class="col-auto pr-1" v-if="isCurrent()">
-                            <b-button variant="info" size="sm" @click.stop="info()" class="font-weight-bold">⚝</b-button>
+                            <b-button variant="info" size="sm" @click.stop="info()" class="font-weight-bold">Info</b-button>
                         </div>
                         <div class="col-auto" v-if="isCurrent()&&hasChild()">
                             <b-button size="sm" @click="reset_bom(bom)" class="">✕</b-button>
