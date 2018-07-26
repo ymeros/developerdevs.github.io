@@ -768,7 +768,7 @@ const ddd_stable = [
         name_en:'Enigma',
         formulas:[],
         devils:[
-            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['Speedster','Dekunda','Divine Bows' Allure'], skill4:['Vorpal Blade','Hurricane Slash','Silent Prayer','Auto-Sukukaja','Repel Fire'], skill5:['','Resist Force','Meposumudi','Toxic Sting','Tarunda'], elements:['Resist','Weak','','','','Resist',''], type:'Support'},
+            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['Speedster','Dekunda',"Divine Bows' Allure"], skill4:['Vorpal Blade','Hurricane Slash','Silent Prayer','Auto-Sukukaja','Repel Fire'], skill5:['','Resist Force','Meposumudi','Toxic Sting','Tarunda'], elements:['Resist','Weak','','','','Resist',''], type:'Support'},
             { name:'Kinmamon', name_tw:'君真物', name_en:'',rarity:3, grade:55, icon:'hisin_kinmamon.png', skills:['Megido','Barrier','Mutant'], skill4:['Megidola','Energy Drain','Amrita','Dodge','Null Dark'], skill5:['','Vitality Amp I','Dmg Panel V I','Madness','Cursedi'], elements:['','Null','Weak','','','Resist','Resist'], type:'Support'},
             { name:'Kanbari', name_tw:'加牟波理', name_en:'',rarity:2, grade:30, icon:'hisin_kanbari.png', skills:['Rampage','Hamaon','Luck'], skill4:['Megaton Press','Mahama','Mecursedi','Mana Aid','Resist Fire'], skill5:['','','','',''], elements:['Weak','','','','','Resist','Weak'], type:'Attack'}
         ]
