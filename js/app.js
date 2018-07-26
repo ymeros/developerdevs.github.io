@@ -2395,13 +2395,13 @@ var app = new Vue({
         },
         filtered_devils: function(){
 
-            var keyword = this.keyword.replace(/[!@#$%^&*()-=_+\[\]{}|\\]/g,'');
+            var keyword = this.keyword.replace(/[!@#$%^&*()-=_+\[\]{}|\\]/g,'').toLowerCase();
 
             var result = [];
 
             if(keyword){
                 result = this.devils.filter(function(d){
-                    return d.name.match(keyword)||d.name_tw.match(keyword);
+                    return d.name.toLowerCase().match(keyword)||d.name_tw.match(keyword);
                 });
             }
 
@@ -2409,13 +2409,13 @@ var app = new Vue({
         },
         filtered_skills: function(){
 
-            var keyword = this.keyword.replace(/[!@#$%^&*()-=_+\[\]{}|\\]/g,'');
+            var keyword = this.keyword.replace(/[!@#$%^&*()-=_+\[\]{}|\\]/g,'').toLowerCase();
 
             var result = [];
 
             if(keyword){
                 result = this.skills.filter(function(s){
-                    return s.name.match(keyword)||s.name_tw.match(keyword);
+                    return s.name.toLowerCase().match(keyword)||s.name_tw.match(keyword);
                 });
             }
 
