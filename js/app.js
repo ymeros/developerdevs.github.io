@@ -2825,7 +2825,7 @@ var app = new Vue({
             diff = new Date(next.getTime() - this.now.getTime());
             */
             //  (diff.getUTCHours()+':'+diff.getUTCMinutes()+':'+diff.getUTCSeconds()).replace(/\b(?=(\d{1})(?!\d))/g,'0') + 
-            this.gate_timer_jp = "Localized in English by Dissi - original found @ https://oceanxdds.github.io/dx2_fusion/;
+            this.gate_timer_jp = "Localized in English by Dissi - original found @ https://oceanxdds.github.io/dx2_fusion/";
 
             //orb
             var day = this.now.getDay();
