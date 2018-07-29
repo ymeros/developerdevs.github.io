@@ -1335,11 +1335,11 @@ const messages = {
         inherit:'Skill Points',
         description:'Description',
         cost:'Cost',
-        cost_others:'Cost(Others)',
-        cost_pure:'Cost(Pure)',
+        cost_others:'Cost (Coloured)',
+        cost_pure:'Cost (Clear)',
         fusion_mag:'Fusion',
-        fusion_mag_others:'Fusion(Others)',
-        fusion_mag_pure:'Fusion(Pure)'
+        fusion_mag_others:'Fusion (Coloured)',
+        fusion_mag_pure:'Fusion (Clear)'
       }
     },
     ja: {
