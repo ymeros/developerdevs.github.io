@@ -6,7 +6,7 @@ Github: https://github.com/oceanxdds/dx2_fusion
 Publish: https://oceanxdds.github.io/dx2_fusion/
 //////////////////////////////////////////////////*/
 
-// Digital Devil Data (Stable Version)
+// Localized to English by Dissi
 
 const ddd_stable = [
     {
@@ -2758,7 +2758,7 @@ var app = new Vue({
             this.now = new Date( utc + 9 * 3600000 );
         },
         tick:function(){
-
+/*
             var sec = this.now.getSeconds()+1;
 
             if(sec==60)
@@ -2823,7 +2823,9 @@ var app = new Vue({
                 }
             }
             diff = new Date(next.getTime() - this.now.getTime());
-            this.gate_timer_jp =  (diff.getUTCHours()+':'+diff.getUTCMinutes()+':'+diff.getUTCSeconds()).replace(/\b(?=(\d{1})(?!\d))/g,'0');
+            */
+            //  (diff.getUTCHours()+':'+diff.getUTCMinutes()+':'+diff.getUTCSeconds()).replace(/\b(?=(\d{1})(?!\d))/g,'0') + 
+            this.gate_timer_jp = "Localized in English by Dissi - original found @ https://oceanxdds.github.io/dx2_fusion/;
 
             //orb
             var day = this.now.getDay();
