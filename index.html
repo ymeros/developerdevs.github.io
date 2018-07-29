@@ -291,11 +291,11 @@
                         </div>
                     </div>
                 </div>
-
+<!--
                 <div class="">
                     <div class="small text-right">Version: {{ updated_at }}</div>
                 </div>
-
+-->
             </b-tab>
 
         </b-tabs>
@@ -306,15 +306,20 @@
             <div class="col-auto p-2">
                 <img v-if="orb.state" v-for="orb in orbs" :src="orb.icon" style="width:30px">
             </div>
+            <!--
             <div class="col-auto p-2">
                 <div class="font-weight-bold">
                     <b-badge :variant="gate_status_jp?'success':'secondary'">EN {{ gate_timer_jp }}</b-badge>
-                    <!--<b-badge :variant="gate_status_ch?'success':'secondary'">CH {{ gate_timer_ch }}</b-badge>-->
+                    <b-badge :variant="gate_status_ch?'success':'secondary'">CH {{ gate_timer_ch }}</b-badge>
                 </div>
+            </div>
+            -->
+            <div class="">
+              <div class="small text-right">Last Updated: {{ updated_at }}</div>
             </div>
 
             <div class="col-auto p-2">
-              <div class="small">Localized in English by Dissi - original found @ <a href="https://oceanxdds.github.io/dx2_fusion/">https://oceanxdds.github.io/dx2_fusion/</a><br>
+              <div class="small">Forked by Dissi - original found @ <a href="https://oceanxdds.github.io/dx2_fusion/">https://oceanxdds.github.io/dx2_fusion/</a><br>
               <a href="https://www.buymeacoffee.com/d574xrsQC">Buy me a coffee!</a></div>
             </div>
             <div class="col-auto p-2" v-if="resource_options.length>1">
