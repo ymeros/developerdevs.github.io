@@ -1117,7 +1117,7 @@ const skill_stable = [
         skills:[
             //強化
             {"name":"Phys Boost","name_tw":"物理強化","desc":"+15% to Phys damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Phys Amp","name_tw":"高級物理強化","desc":"物理属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Phys Amp","name_tw":"高級物理強化","desc":"+25% to Phys damage.","mp":null,"point":"21","element":"Passive"},
             {"name":"Fire Boost","name_tw":"火炎強化","desc":"+15% to Fire damage.","mp":null,"point":6,"element":"Passive"},
             {"name":"Fire Amp","name_tw":"高級火炎強化","desc":"火炎属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"Passive"},
             {"name":"Ice Boost","name_tw":"冰凍強化","desc":"+15% to Ice damage.","mp":null,"point":6,"element":"Passive"},
