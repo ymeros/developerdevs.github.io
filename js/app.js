@@ -6,7 +6,7 @@ Github: https://github.com/oceanxdds/dx2_fusion
 Publish: https://oceanxdds.github.io/dx2_fusion/
 //////////////////////////////////////////////////*/
 
-// Localized to English by Dissi
+// Localized to English by Dissi & Devs
 
 const ddd_stable = [
     {
