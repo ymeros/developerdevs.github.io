@@ -854,7 +854,7 @@ const skill_stable = [
             {"name":"Maragidyne","name_tw":"瑪哈亞吉達因","desc":"Inflicts Fire (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Fire"},
             {"name":"Fire Breath","name_tw":"火焰吐息","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Fire"},
             {"name":"Hellfire","name_tw":"地獄業火","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":"10","element":"Fire"},
-            {"name":"","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 215 power on a Single Enemy.","mp":7,"point":null,"element":"Fire"}
+            {"name":"Ragnarok","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 215 power on a Single Enemy. Adds 20% damage to this skill based on your Phys ATK status.","mp":7,"point":null,"element":"Fire"}
         ]
     },
     {
@@ -1277,7 +1277,7 @@ const skill_stable = [
             //反射
             {"name":"Tetra Shift","name_tw":"提特拉康脈動","desc":"Casts Tetrakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
             {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"Casts Makarakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
-            {"name":"Bane of Pierce","name_tw":"貫反靈壓","desc":"","mp":null,"point":null,"element":"Passive"},
+            {"name":"Repel Pierce","name_tw":"貫反靈壓","desc":"While the demon with this skill is alive, Pierce will have no effect on any party member that can repel the attribute they are attacked with.","mp":null,"point":null,"element":"Passive"},
             //Support
             {"name":"Auto-Tarukaja","name_tw":"自動塔爾卡","desc":"Casts Tarukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
             {"name":"Auto-Rakukaja","name_tw":"自動拉庫卡","desc":"Casts Rakukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
@@ -1300,8 +1300,8 @@ const skill_stable = [
         name_en:"",
         skills:[
             {"name":"Luck","name_tw":"幸運","desc":"Increases Exp gained by Dx2 and all party members by 20% and Macca obtained during battle by 20%.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Dmg Panel V I","name_tw":"-25% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":2,"element":"Passive"},
-            {"name":"Dmg Panel V II","name_tw":"-50% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Dmg Panel V I","name_tw":"幸運","desc":"-25% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":2,"element":"Passive"},
+            {"name":"Dmg Panel V II","name_tw":"幸運","desc":"-50% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":4,"element":"Passive"},
             {"name":"Trap Free","name_tw":"陷阱弱化","desc":"-30% to damage received from Damage Panels in the Aura Gate, and nullifies Dark Zone effects.","mp":null,"point":null,"element":"Passive"},
             {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"Nullifies Damage Panels in the Aura Gate.","mp":null,"point":8,"element":"Passive"},
             {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"Nullifies Dark Zone effects in the Aura Gate.","mp":null,"point":8,"element":"Passive"}
