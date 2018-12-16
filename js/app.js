@@ -1263,35 +1263,35 @@ const skill_stable = [
         name_en:"",
         skills:[
             //反擊
-            {"name":"Counter","name_tw":"反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力50で与える。","mp":null,"point":6,"element":"Passive"},
-            {"name":"Retaliate","name_tw":"兇猛反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力100で与える。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Death Counter","name_tw":"死亡反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力150で与える。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Counter","name_tw":"反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 50 power.","mp":null,"point":6,"element":"Passive"},
+            {"name":"Retaliate","name_tw":"兇猛反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 100 power.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Death Counter","name_tw":"死亡反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 150 power.","mp":null,"point":"18","element":"Passive"},
             //防死
-            {"name":"Endure","name_tw":"強忍","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":6,"element":"Passive"},
-            {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"この悪魔が死亡するとき、一度だけHPが200回復する。","mp":null,"point":"18","element":"Passive"},
-            {"name":"Avatar","name_tw":"降世化身","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。ウェーブをまたぐとき、HPが10％回復する。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Endure","name_tw":"強忍","desc":"HP stops at 1 HP upon receiving the first killing blow.","mp":null,"point":6,"element":"Passive"},
+            {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"Heals 200 HP upon receiving the first killing blow.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Avatar","name_tw":"降世化身","desc":"Heals 200 HP upon receiving the first killing blow. Heals 40% HP when clearing a wave.","mp":null,"point":null,"element":"Passive"},
             //自回
-            {"name":"Life Aid","name_tw":"勝利的氣息","desc":"ウェーブをまたぐとき、HPが30％回復する。","mp":null,"point":6,"element":"Passive"},
-            {"name":"Mana Aid","name_tw":"勝利的查克拉","desc":"ウェーブをまたぐとき、MPが10回復する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Infinite Chakra","name_tw":"無限的查克拉","desc":"MPの自然回復量が１増加する。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Life Aid","name_tw":"勝利的氣息","desc":"Heals 30% HP when clearing a wave.","mp":null,"point":6,"element":"Passive"},
+            {"name":"Mana Aid","name_tw":"勝利的查克拉","desc":"Heals 10 MP when clearing a wave.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Infinite Chakra","name_tw":"無限的查克拉","desc":"Increases naturally recovered MP by 1 MP.","mp":null,"point":"18","element":"Passive"},
             //反射
-            {"name":"Tetra Shift","name_tw":"提特拉康脈動","desc":"後攻でバトルを開始したとき、テトラカーンが発動する。","mp":null,"point":"18","element":"Passive"},
-            {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"後攻でバトルを開始したとき、マカラカーンが発動する。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Tetra Shift","name_tw":"提特拉康脈動","desc":"Casts Tetrakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"Casts Makarakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
             {"name":"Bane of Pierce","name_tw":"貫反靈壓","desc":"","mp":null,"point":null,"element":"Passive"},
             //Support
-            {"name":"Auto-Tarukaja","name_tw":"自動塔爾卡","desc":"１ターン目開始時、タルカジャが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Rakukaja","name_tw":"自動拉庫卡","desc":"１ターン目開始時、ラクカジャが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Sukukaja","name_tw":"自動斯庫卡","desc":"１ターン目開始時、スクカジャが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"１ターン目開始時、タルンダが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"１ターン目開始時、ラクンダが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"１ターン目開始時、スクンダが発動する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Tarukaja","name_tw":"自動塔爾卡","desc":"Casts Tarukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Rakukaja","name_tw":"自動拉庫卡","desc":"Casts Rakukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Sukukaja","name_tw":"自動斯庫卡","desc":"Casts Sukukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"Casts Tarunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"Casts Rakunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"Casts Sukunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
             //壓制
-            {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"後攻でバトルを開始したとき、敵のプレスターンアイコンを１つ減少させる。","mp":null,"point":"21","element":"Passive"},
-            {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"このスキルを持っている悪魔が生きている間、味方の属性吸収が発動した際、敵のプレスターンアイコンを1つ減少させる。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Faith in Wealth","name_tw":"","desc":"最大HPが10%増加する。敵のスキル効果によってこちらのプレスターンアイコンが減少するたび、味方全体のMPを1回復する。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"Reduces 1 enemy Press Turn at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects.","mp":null,"point":"21","element":"Passive"},
+            {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"While the demon with this skill is alive, the enemy loses an extra Press Turn Icon every time you drain their attack.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Faith in Wealth","name_tw":"","desc":"Increases max HP by 10%. Recover 1 MP every time your Press Turn Icon decreases due to enemy skills.","mp":null,"point":null,"element":"Passive"},
             //節省
-            {"name":"Trickster","name_tw":"狡計之星","desc":"敵の弱点をついたとき、20％の確率でプレスターンアイコンを消費しない。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"MPを消費するとき、消費するMPが１減少する。","mp":null,"point":null,"element":"Passive"}
+            {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
