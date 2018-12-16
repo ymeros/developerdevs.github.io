@@ -1190,7 +1190,7 @@ const skill_stable = [
         name_en:"",
         skills:[
             //速度
-            {"name":"Speedster","name_tw":"急速之星","desc":"悪魔のバトルスピードへの影響が50％増加する。","mp":null,"point":"10","element":"Passive"},
+            {"name":"Speedster","name_tw":"急速之星","desc":"+50% to Battle Speed of this demon.","mp":null,"point":"10","element":"Passive"},
             //命中
             {"name":"Good Aim","name_tw":"百發百中","desc":"物理命中率が10％増加する。","mp":null,"point":4,"element":"Passive"},
             {"name":"Great Aim","name_tw":"千發千中","desc":"物理命中率が20％増加する。","mp":null,"point":"16","element":"Passive"},
