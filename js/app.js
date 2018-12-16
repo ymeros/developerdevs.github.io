@@ -1244,17 +1244,17 @@ const skill_stable = [
         name_tw:"Damage Passive",
         name_en:"",
         skills:[
-            {"name":"Assassin","name_tw":"Assassin","desc":"単体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"全体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Butcher","name_tw":"Butcher","desc":"全体攻撃スキルで与えるダメージが20％増加する。","mp":null,"point":"24","element":"Passive"},
-            {"name":"Deadly Poison","name_tw":"毒追擊","desc":"敵が毒状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"敵が緊縛状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"敵が魅了状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"敵が魔封状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Berserker","name_tw":"狂戰士","desc":"敵に与えるダメージが10％増加し、自身が受けるダメージも20％増加する。","mp":null,"point":"18","element":"Passive"},
-            {"name":"Back Attack","name_tw":"Damage Passive","desc":"敵の弱点をついたとき、ダメージが10％増加する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"敵の弱点をついたとき、ダメージが20％増加する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"物理属性で与えるダメージが15％増加し、物理命中率も15％増加する。","mp":null,"point":null,"element":"Passive"}
+            {"name":"Assassin","name_tw":"Assassin","desc":"+10% to single-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% to multiple-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Butcher","name_tw":"Butcher","desc":"+10% to multiple-target attack skill damage.","mp":null,"point":"24","element":"Passive"},
+            {"name":"Deadly Poison","name_tw":"毒追擊","desc":"+30% damage to Poisoned enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"+30% damage to Charmed enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"+30% damage to Muted enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
