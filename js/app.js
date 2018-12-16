@@ -890,7 +890,7 @@ const skill_stable = [
             {"name":"Maziodyne","name_tw":"瑪哈吉歐達因","desc":"Inflicts Elec (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Elec"},
             {"name":"Shock","name_tw":"Shock","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Elec"},
             {"name":"Bolt Storm","name_tw":"衝擊波","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Elec"},
-            {"name":"Mjolnir","name_tw":"雷神之槌","desc":"Inflicts Elec (Magic) damage 3 to 5 times with 60 power on Random Enemy/ies.","mp":7,"point":null,"element":"Elec"}
+            {"name":"Mjolnir","name_tw":"雷神之槌","desc":"Inflicts Elec (Magic) damage 4 to 5 times with 60 power on Random Enemy/ies.","mp":7,"point":null,"element":"Elec"}
         ]
     },
     {
@@ -927,7 +927,7 @@ const skill_stable = [
             {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Magic Light damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
             {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Magic Light damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
             {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Magic Light damage with 200 power on a Single Enemy, with 50% kill rate.","mp":7,"point":null,"element":"Light"},
-            {"name":"Ordeal of Hatred","name_tw":"憎惡的試煉","desc":"Inflicts Magic Light damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.%減少させる","mp":7,"point":null,"element":"Light"},
+            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Magic Light damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.%減少させる","mp":7,"point":null,"element":"Light"},
             {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Magic Light damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"}
         ]
     },
@@ -943,7 +943,7 @@ const skill_stable = [
             {"name":"Hell Gaze","name_tw":"Hell Gaze","desc":"Inflicts Magic Dark damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Dark"},
             {"name":"Mamudo","name_tw":"瑪哈姆多","desc":"Inflicts Magic Dark damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Dark"},
             {"name":"Mamudoon","name_tw":"瑪哈姆多翁","desc":"Inflicts Magic Dark damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Dark"},
-            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Magic Dark damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Dark"},
+            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":9,"element":"Dark"},
             {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"Inflicts Magic Dark damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Dark"},
             {"name":"Purgatory","name_tw":"Purgatory","desc":"Inflicts Magic Dark damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Dark"},
             {"name":"Allure","name_tw":"肉體的解放","desc":"Inflicts Magic Dark damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":6,"point":null,"element":"Dark"},
@@ -969,7 +969,7 @@ const skill_stable = [
             {"name":"Judgement","name_tw":"審判","desc":"Inflicts Magic Almighty damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":"12","element":"Almighty"},
             {"name":"Mind Break","name_tw":"Mind Break","desc":"Inflicts Magic Almighty damage with 80 power on a Single Enemy and reduces MP by 3 MP.","mp":5,"point":6,"element":"Almighty"},
             {"name":"Fire of Sinai","name_tw":"西奈的神火","desc":"Inflicts Magic Almighty damage 5 times with 45 power on Random Enemy/ies.","mp":7,"point":null,"element":"Almighty"},
-            {"name":"Pralaya","name_tw":"大劫","desc":"敵全体に万能属性の魔法型ダメージを威力100で与え、魔法型ダメージ反射状態と物理型ダメージ反射状態を解除する。このスキルによるダメージは物理攻撃力に依存する。","mp":8,"point":null,"element":"Almighty"},
+            {"name":"Pralaya","name_tw":"大劫","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies while removing Repel Phys and Repel Mag. The damage inflicted by this skill is dependent on Phys ATK.","mp":8,"point":null,"element":"Almighty"},
             {"name":"Apocalypse","name_tw":"默示錄","desc":"Inflicts Magic Almighty damage with 110 power on All Enemies with 30% chance to inflict Mute.","mp":8,"point":null,"element":"Almighty"},
             {"name":"Morning Star","name_tw":"拂曉明星","desc":"Inflicts Magic Almighty damage with 150 power on All Enemies. (3 uses)","mp":8,"point":null,"element":"Almighty"},
             {"name":"Divine Bows' Allure","name_tw":"魅惑神弓","desc":"Inflicts Magic Almighty damage with 190 power on a Single Enemy with 45% chance to inflict Charm.","mp":8,"point":null,"element":"Almighty"}
