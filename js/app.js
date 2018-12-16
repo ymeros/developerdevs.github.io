@@ -1299,12 +1299,12 @@ const skill_stable = [
         name_tw:"Special Passive",
         name_en:"",
         skills:[
-            {"name":"Luck","name_tw":"幸運","desc":"D×2とパーティ悪魔がバトルで獲得する経験値を20％、バトルで獲得するマッカを20％増加させる。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Dmg Panel V I","name_tw":"漫步雷池","desc":"アウラゲート内のダメージ床のダメージが25％減少する。","mp":null,"point":2,"element":"Passive"},
-            {"name":"Dmg Panel V II","name_tw":"闊步雷池","desc":"アウラゲート内のダメージ床のダメージが50％減少する。","mp":null,"point":4,"element":"Passive"},
-            {"name":"Trap Free","name_tw":"陷阱弱化","desc":"アウラゲート内でダメージ床のダメージが30％減少し、ダークゾーンの効果を無効にする。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"アウラゲート内のダメージ床のダメージを無効にする。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"アウラゲート内のダークゾーンの効果を無効にする。","mp":null,"point":8,"element":"Passive"}
+            {"name":"Luck","name_tw":"幸運","desc":"Increases Exp gained by Dx2 and all party members by 20% and Macca obtained during battle by 20%.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dmg Panel V I","name_tw":"-25% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":2,"element":"Passive"},
+            {"name":"Dmg Panel V II","name_tw":"-50% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Trap Free","name_tw":"陷阱弱化","desc":"-30% to damage received from Damage Panels in the Aura Gate, and nullifies Dark Zone effects.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"Nullifies Damage Panels in the Aura Gate.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"Nullifies Dark Zone effects in the Aura Gate.","mp":null,"point":8,"element":"Passive"}
         ]
     }
 ];
