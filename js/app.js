@@ -1319,6 +1319,7 @@ const messages = {
       message: {
         fusion: 'Fusion',
         skill:'Skill',
+        notes: 'Notes',
         reverse:'Reverse',
         normal:'Normal',
         reverse_fusion: 'Reverse Fusion',
