@@ -927,7 +927,7 @@ const skill_stable = [
             {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Magic Light damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
             {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Magic Light damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
             {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Magic Light damage with 200 power on a Single Enemy, with 50% kill rate.","mp":7,"point":null,"element":"Light"},
-            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Magic Light damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.%減少させる","mp":7,"point":null,"element":"Light"},
+            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Magic Light damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"},
             {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Magic Light damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"}
         ]
     },
