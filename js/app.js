@@ -1194,19 +1194,19 @@ const skill_stable = [
             //命中
             {"name":"Good Aim","name_tw":"百發百中","desc":"+10% to Phys hit rate.","mp":null,"point":4,"element":"Passive"},
             {"name":"Great Aim","name_tw":"千發千中","desc":"+20% to Phys hit rate.","mp":null,"point":"16","element":"Passive"},
-            {"name":"Dragon Sense","name_tw":"","desc":"物理命中率が15％増加し、物理回避率が15％増加する。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dragon Sense","name_tw":"","desc":"+15% to Phys hit rate and +15% Phys evasion rate.","mp":null,"point":null,"element":"Passive"},
             //迴避
             {"name":"Dodge","name_tw":"識破","desc":"+10% Phys evasion rate.","mp":null,"point":4,"element":"Passive"},
             {"name":"Evade","name_tw":"分寸識破","desc":"+20% Phys evasion rate.","mp":null,"point":"16","element":"Passive"},
-            {"name":"Vahana","name_tw":"神馭騎獸","desc":"物理回避率15%増加。状態異常になる確率を30%減少。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Stealth","name_tw":"隱密","desc":"物理回避率が20％増加する。さらに、この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Vahana","name_tw":"神馭騎獸","desc":"+15% to Phys evasion rate. -30% chance of receiving status ailments.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Stealth","name_tw":"隱密","desc":"HP will stop at 1 upon receiving the first killing blow, and increases Phys evasion rate by +20%.","mp":null,"point":null,"element":"Passive"},
             //異命
             {"name":"Madness","name_tw":"凌亂綻放","desc":"+10% chance to inflict status ailments.","mp":null,"point":8,"element":"Passive"},
             {"name":"Insanity","name_tw":"狂亂綻放","desc":"+20% chance to inflict status ailments.","mp":null,"point":"24","element":"Passive"},
             //狀防
             {"name":"Hellish Mask","name_tw":"地域口罩","desc":"-35% chance of receiving status ailments.","mp":null,"point":8,"element":"Passive"},
             {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"-60% chance of receiving status ailments.","mp":null,"point":"16","element":"Passive"},
-            {"name":"Mutant","name_tw":"稀人","desc":"全ての状態異常にかからなくなる。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Mutant","name_tw":"稀人","desc":"Becomes immune to all status ailments.","mp":null,"point":null,"element":"Passive"},
             //狀回
             {"name":"Fast Recovery","name_tw":"自然痊癒","desc":"+20% to status ailment auto cure rate.","mp":null,"point":8,"element":"Passive"},
             {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"+30% to status ailment auto cure rate.","mp":null,"point":"16","element":"Passive"},
