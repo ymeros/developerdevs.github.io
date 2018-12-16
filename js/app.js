@@ -1134,7 +1134,7 @@ const skill_stable = [
             {"name":"Heal Amp","name_tw":"高級回復強化","desc":"+25% to Healing skill effectiveness.","mp":null,"point":"21","element":"Passive"},
             //貫通
             {"name":"Phys Pierce","name_tw":"Phys Pierce","desc":"Phys attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            {"name":"Superior Power","name_tw":"帝王權威","desc":"物理命中率が20%増加し、物理貫通を得る。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Superior Power","name_tw":"帝王權威","desc":"+20% to Phys hit rate and adds Phys Pierce.","mp":null,"point":null,"element":"Passive"},
             {"name":"Fire Pierce","name_tw":"Fire Pierce","desc":"Fire attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Elec Pierce","name_tw":"電擊貫通","desc":"Elec attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Force Pierce","name_tw":"衝擊貫通","desc":"Force attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
