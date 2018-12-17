@@ -1317,8 +1317,8 @@ const skill_stable = [
             {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
             {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, -15% damage received from multiple-target attack skill damage for All Party Members.","mp":null,"point":null,"element":"Passive"}
-            {"name":"You're Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, -15% damage received from multiple-target attack skill damage for All Party Members.","mp":null,"point":null,"element":"Passive"},
+            {"name":"You're Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
