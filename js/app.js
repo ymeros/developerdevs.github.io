@@ -1288,6 +1288,7 @@ const skill_stable = [
             {"name":"Tetra Shift","name_tw":"提特拉康脈動","desc":"Casts Tetrakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
             {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"Casts Makarakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
             {"name":"Repel Pierce","name_tw":"貫反靈壓","desc":"While the demon with this skill is alive, Pierce will have no effect on any party member that can repel the attribute they are attacked with.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Drain Pierce","name_tw":"貫反靈壓","desc":"While the demon with this skill is alive, Pierce will have no effect on any party member that can drain the attribute they are attacked with.","mp":null,"point":null,"element":"Passive"},
             //Support
             {"name":"Auto-Tarukaja","name_tw":"自動塔爾卡","desc":"Casts Tarukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
             {"name":"Auto-Rakukaja","name_tw":"自動拉庫卡","desc":"Casts Rakukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
@@ -1301,7 +1302,9 @@ const skill_stable = [
             {"name":"Faith in Wealth","name_tw":"","desc":"Increases max HP by 10%. Recover 1 MP every time your Press Turn Icon decreases due to enemy skills.","mp":null,"point":null,"element":"Passive"},
             //節省
             {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"}
+            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, -15% damage received from multiple-target attack skill damage for All Party Members.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
