@@ -976,7 +976,8 @@ const skill_stable = [
             {"name":"Morning Star","name_tw":"拂曉明星","desc":"Inflicts Magic Almighty damage with 150 power on All Enemies. (3 uses)","mp":8,"point":null,"element":"Almighty"},
             {"name":"Divine Bows' Allure","name_tw":"魅惑神弓","desc":"Inflicts Magic Almighty damage with 190 power on a Single Enemy with 45% chance to inflict Charm.","mp":8,"point":null,"element":"Almighty"},
             {"name":"God's Malice","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 120 power on a single enemy with 30% chance to inflict Poison, Bind, Mute and Charm.","mp":7,"point":null,"element":"Almighty"},
-            {"name":"Mesopotamian Star","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies. Reduces enemy's ATK by 20% and increases own party's ATK by 20%. (3 turns)","mp":8,"point":null,"element":"Almighty"}
+            {"name":"Mesopotamian Star","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies. Reduces enemy's ATK by 20% and increases own party's ATK by 20%. (3 turns)","mp":8,"point":null,"element":"Almighty"},
+            {"name":"Brahma Sutra","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage 3 times with 40 power on All Enemies.","mp":7,"point":null,"element":"Almighty"}
         ]
     },
     {
