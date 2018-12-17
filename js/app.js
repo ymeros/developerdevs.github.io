@@ -1112,7 +1112,9 @@ const skill_stable = [
             {"name":"Acid Breath","name_tw":"溶解吐息","desc":"Reduces DEF and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
             {"name":"Fog Breath","name_tw":"迷霧吐息","desc":"Reduces ATK and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
             {"name":"Taunt","name_tw":"挑釁","desc":"Increases ATK and reduces of DEF of All Enemies by 20% for 3 turns.","mp":3,"point":8,"element":"Null"},
-            {"name":"Debilitate","name_tw":"女巫詛咒","desc":"Reduces ATK, DEF, and EV/AC of All Enemies by 20% for 3 turns.","mp":8,"point":"15","element":"Null"}
+            {"name":"Debilitate","name_tw":"女巫詛咒","desc":"Reduces ATK, DEF, and EV/AC of All Enemies by 20% for 3 turns.","mp":8,"point":"15","element":"Null"},
+            {"name":"Red Zone","name_tw":"女巫詛咒","desc":"All Party Members enter a state of Might. The next Phys attack will have a Critical effect. (3 uses)","mp":7,"point":null,"element":"Null"},
+            {"name":"Dark Pandemic","name_tw":"女巫詛咒","desc":"Remove buffs from All Enemies, then reduces ATK or DEF or EV/AC of All Enemies by 20% for 3 turns.","mp":5,"point":null,"element":"Null"}
         ]
     },
     {
