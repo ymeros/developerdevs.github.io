@@ -837,7 +837,8 @@ const skill_stable = [
             {"name":"Binge Eating","name_tw":"Binge Eating","desc":"Inflicts Phys (Physical) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":8,"element":"Physical"},
             {"name":"Power Hit","name_tw":"捨身一擊","desc":"Use 10% of own HP to inflict Phys (Physical) damage with 170 power on a Single Enemy.","mp":7,"point":6,"element":"Physical"},
             {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50 power on Random Enemy/(ies) 4 times with a 35% chance to inflict Charm.","mp":7,"point":null,"element":"Physical"},
-            {"name":"Ouas","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 160 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":null,"element":"Physical"}
+            {"name":"Ouas","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 160 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":null,"element":"Physical"},
+            {"name":"Bleeder","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy and reduces MP by 2.","mp":6,"point":null,"element":"Physical"}
         ]
     },
     {
@@ -962,6 +963,7 @@ const skill_stable = [
             {"name":"Life Drain","name_tw":"Life Drain","desc":"Inflicts Almighty (Magic) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":3,"element":"Almighty"},
             {"name":"Deathtouch","name_tw":"死亡之觸","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":6,"element":"Almighty"},
             {"name":"Spirit Drain","name_tw":"Spirit Drain","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 1MP.","mp":6,"point":3,"element":"Almighty"},
+            {"name":"Mind Blast","name_tw":"Mind Blast","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 4MP.","mp":7,"point":null,"element":"Almighty"},
             {"name":"Energy Drain","name_tw":"能量抽取","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy, while healing caster 25% of damage dealt and drains 1MP.","mp":7,"point":6,"element":"Almighty"},
             {"name":"Soul Drain","name_tw":"靈魂抽取","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt and drains 1MP.","mp":8,"point":7,"element":"Almighty"},
             {"name":"Megido","name_tw":"米吉朵","desc":"Inflicts Almighty (Magic) damage with 80 power on All Enemies.","mp":6,"point":5,"element":"Almighty"},
