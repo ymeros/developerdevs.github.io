@@ -1229,6 +1229,7 @@ const skill_stable = [
             {"name":"Life Surge","name_tw":"三分之活泉","desc":"+30% to Max HP.","mp":null,"point":"15","element":"Passive"},
             {"name":"Mana Bonus","name_tw":"一分之魔脈","desc":"+1 to max MP.","mp":null,"point":8,"element":"Passive"},
             {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"+2 to max MP.","mp":null,"point":"15","element":"Passive"},
+            {"name":"Mana Surge","name_tw":"二分之魔脈","desc":"+3 to max MP.","mp":null,"point":"21","element":"Passive"},
             {"name":"Strength Amp I","name_tw":"初段之剛力","desc":"+5 to Strength.","mp":null,"point":3,"element":"Passive"},
             {"name":"Magic Amp I","name_tw":"初段之賢魔","desc":"+5 to Magic.","mp":null,"point":3,"element":"Passive"},
             {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"+5 to Vitality.","mp":null,"point":3,"element":"Passive"},
