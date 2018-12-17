@@ -982,6 +982,7 @@ const skill_stable = [
             {"name":"Divine Bows' Allure","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 190 power on a Single Enemy with 45% chance to inflict Charm.","mp":8,"point":null,"element":"Almighty"},
             {"name":"God's Malice","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 120 power on a single enemy with 30% chance to inflict Poison, Bind, Mute and Charm.","mp":7,"point":null,"element":"Almighty"},
             {"name":"Mesopotamian Star","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies. Reduces enemy's ATK by 20% and increases own party's ATK by 20%. (3 turns)","mp":8,"point":null,"element":"Almighty"},
+            {"name":"Babylon Goblet","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power and drains 1 MP on All Enemies.","mp":8,"point":null,"element":"Almighty"},
             {"name":"Brahma Sutra","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage 3 times with 40 power on All Enemies.","mp":7,"point":null,"element":"Almighty"}
         ]
     },
@@ -1268,6 +1269,7 @@ const skill_stable = [
             {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"+30% damage to Charmed enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"+30% damage to Muted enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Death Lust","name_tw":"魅惑追擊","desc":"+25% damage to Charmed enemies. Has a 30% to Charm all enemies at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
             {"name":"Curse of Distress","name_tw":"魅惑追擊","desc":"+10% damage to Cursed enemies. -10% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
             {"name":"Curse of Anguish","name_tw":"魔封追擊","desc":"+15% damage to Cursed enemies. -15% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
             {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":"18","element":"Passive"},
