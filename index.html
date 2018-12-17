@@ -62,12 +62,11 @@
         <b-navbar toggleable="md" type="dark" variant="info">
 
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
-            <b-navbar-brand href="#" @click="route('home')" class="d-none d-md-block">Dx2</b-navbar-brand>
+            <b-navbar-brand href="#" @click="route('home')" class="d-none d-md-block">Mavericks Calculator</b-navbar-brand>
             <b-navbar-brand href="#" @click="searchBar=!searchBar" class="d-block d-md-none">{{ $t('message.search') }}</b-navbar-brand>
 
             <b-collapse is-nav id="nav_collapse">
                 <b-navbar-nav>
-                    <b-nav-item href="#" @click="route('notes')" :active="isRoute('notes')">Demon Notes</b-nav-item>
                     <b-nav-item href="#" @click="route('fusion.devil')" :active="isRoute('fusion.devil')">{{ $t('message.devil') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('fusion.fission')" :active="isRoute('fusion.fission')">{{ $t('message.reverse_fusion') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('fusion.fusion')" :active="isRoute('fusion.fusion')">{{ $t('message.normal_fusion') }}</b-nav-item>
