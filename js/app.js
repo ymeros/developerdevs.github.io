@@ -903,7 +903,7 @@ const skill_stable = [
             {"name":"Zan","name_tw":"颯","desc":"Inflicts Force (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Force"},
             {"name":"Zanma","name_tw":"颯瑪","desc":"Inflicts Force (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Force"},
             {"name":"Zandyne","name_tw":"颯達因","desc":"Inflicts Force (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Force"},
-            {"name":"Deadly Wind","name_tw":"Deadly Wind","desc":"Inflicts Force (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Force"},
+            {"name":"Killing Wind","name_tw":"Deadly Wind","desc":"Inflicts Force (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Force"},
             {"name":"Mazan","name_tw":"瑪哈颯","desc":"Inflicts Force (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Force"},
             {"name":"Mazanma","name_tw":"瑪哈颯瑪","desc":"Inflicts Force (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Force"},
             {"name":"Mazandyne","name_tw":"瑪哈颯達因","desc":"Inflicts Force (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Force"},
