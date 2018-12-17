@@ -1079,7 +1079,8 @@ const skill_stable = [
             {"name":"Dezoreton","name_tw":"特奏累托翁","desc":"80% chance to inflict Weak on a Single Enemy.","mp":6,"point":8,"element":"Null"},
             {"name":"Madezoreto","name_tw":"瑪哈特奏累托","desc":"60% chance to inflict Weak on All Enemies.","mp":6,"point":5,"element":"Null"},
             {"name":"Madezoreton","name_tw":"瑪哈特奏累托翁","desc":"70% chance to inflict Weak on All Enemies.","mp":7,"point":9,"element":"Null"},
-            {"name":"Outbreak","name_tw":"威力爆發","desc":"60% chance to inflict Weak 1 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"}
+            {"name":"Outbreak","name_tw":"威力爆發","desc":"60% chance to inflict Weak 1 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
+            {"name":"Plague of Babylon","name_tw":"威力爆發","desc":"80% chance to inflict Weak on all enemies after removing Barriers from all enemies.","mp":6,"point":null,"element":"Null"}
         ]
     },
     {
@@ -1276,7 +1277,8 @@ const skill_stable = [
             {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
             {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
             {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"}
+            {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 10% (up to 50%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
@@ -1318,7 +1320,11 @@ const skill_stable = [
             {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
             {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, -15% damage received from multiple-target attack skill damage for All Party Members.","mp":null,"point":null,"element":"Passive"},
-            {"name":"You're Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"}
+            {"name":"You're Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Meslamtaea","name_tw":"月之庇佑","desc":"Increases AC by 20%, and enters a state of Rebellion when the enemy is Poisoned.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Fruit of the Dead","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, any enemy demon that is revived will only have 1 HP.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Fog of Death","name_tw":"月之庇佑","desc":"When an enemy is Weakened, reduces all enemy EV/AC by 20% (3 turns) and 100% chance to inflict Poison.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Call to Helheim","name_tw":"月之庇佑","desc":"When the demon with this skill downs an enemy, reduces all enemy ATK and DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
