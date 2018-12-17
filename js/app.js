@@ -1275,7 +1275,8 @@ const skill_stable = [
             {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":"18","element":"Passive"},
             {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
             {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"}
+            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
@@ -1287,6 +1288,7 @@ const skill_stable = [
             {"name":"Counter","name_tw":"反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 50 power.","mp":null,"point":6,"element":"Passive"},
             {"name":"Retaliate","name_tw":"兇猛反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 100 power.","mp":null,"point":"12","element":"Passive"},
             {"name":"Death Counter","name_tw":"死亡反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 150 power.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Euphoric Frenzy","name_tw":"魅惑追擊","desc":"When receiving a Phys Attack, 50% chance to Charm the assailant","mp":null,"point":null,"element":"Passive"},
             //防死
             {"name":"Endure","name_tw":"強忍","desc":"HP stops at 1 HP upon receiving the first killing blow.","mp":null,"point":6,"element":"Passive"},
             {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"Heals 200 HP upon receiving the first killing blow.","mp":null,"point":"18","element":"Passive"},
@@ -1316,6 +1318,7 @@ const skill_stable = [
             {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
             {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, -15% damage received from multiple-target attack skill damage for All Party Members.","mp":null,"point":null,"element":"Passive"}
+            {"name":"You're Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
         ]
     },
     {
