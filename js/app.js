@@ -1110,6 +1110,8 @@ const skill_stable = [
             {"name":"Barong Dance","name_tw":"巴隆之舞","desc":"Heals All Party Members with 95 power and increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns. (3 uses)","mp":7,"point":null,"element":"Null"},
             {"name":"Tenson Kourin","name_tw":"Tenson Kourin","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 6 turns. (3 uses)","mp":8,"point":null,"element":"Null"},
             {"name":"Luster Candy","name_tw":"","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns.","mp":7,"point":15,"element":"Null"},
+            {"name":"Offensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy DEF and increases own parties ATK by 20%. (3 turns)","mp":7,"point":null,"element":"Null"},
+            {"name":"War Dance","name_tw":"塔爾卡加","desc":"Increases own parties ATK and DEF by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
             {"name":"War Cry","name_tw":"吶喊","desc":"Reduces ATK and DEF of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
             {"name":"Acid Breath","name_tw":"溶解吐息","desc":"Reduces DEF and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
             {"name":"Fog Breath","name_tw":"迷霧吐息","desc":"Reduces ATK and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
