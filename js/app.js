@@ -918,18 +918,18 @@ const skill_stable = [
         name_en:"",
         skills:[
             //Light
-            {"name":"Hama","name_tw":"哈瑪","desc":"Inflicts Magic Light damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Light"},
-            {"name":"Hamaon","name_tw":"哈瑪翁","desc":"Inflicts Magic Light damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Light"},
-            {"name":"Hamadyne","name_tw":"哈瑪達因","desc":"Inflicts Magic Light damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Light"},
-            {"name":"Thunderclap","name_tw":"制裁雷火","desc":"Inflicts Magic Light damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Light"},
-            {"name":"Mahama","name_tw":"瑪哈瑪","desc":"Inflicts Magic Light damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Light"},
-            {"name":"Mahamaon","name_tw":"瑪哈瑪翁","desc":"Inflicts Magic Light damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Light"},
-            {"name":"Mahamadyne","name_tw":"瑪翰達因","desc":"Inflicts Magic Light damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Light"},
-            {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Magic Light damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
-            {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Magic Light damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
-            {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Magic Light damage with 200 power on a Single Enemy, with 50% kill rate.","mp":7,"point":null,"element":"Light"},
-            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Magic Light damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"},
-            {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Magic Light damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"}
+            {"name":"Hama","name_tw":"哈瑪","desc":"Inflicts Light (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Light"},
+            {"name":"Hamaon","name_tw":"哈瑪翁","desc":"Inflicts Light (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Light"},
+            {"name":"Hamadyne","name_tw":"哈瑪達因","desc":"Inflicts Light (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Light"},
+            {"name":"Thunderclap","name_tw":"制裁雷火","desc":"Inflicts Light (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Light"},
+            {"name":"Mahama","name_tw":"瑪哈瑪","desc":"Inflicts Light (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Light"},
+            {"name":"Mahamaon","name_tw":"瑪哈瑪翁","desc":"Inflicts Light (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Light"},
+            {"name":"Mahamadyne","name_tw":"瑪翰達因","desc":"Inflicts Light (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Light"},
+            {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Light (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
+            {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Light (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
+            {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Light (Magic) damage with 200 power on a Single Enemy, with 50% kill rate.","mp":7,"point":null,"element":"Light"},
+            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Light (Magic) damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"},
+            {"name":"Soul Judgment","name_tw":"斷罪刑魂","desc":"Inflicts Light (Magic) damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"}
         ]
     },
     {
@@ -938,17 +938,18 @@ const skill_stable = [
         name_en:"",
         skills:[
             //Dark
-            {"name":"Mudo","name_tw":"姆多","desc":"Inflicts Magic Dark damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Dark"},
-            {"name":"Mudoon","name_tw":"姆多翁","desc":"Inflicts Magic Dark damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Dark"},
-            {"name":"Mudodyne","name_tw":"姆多達因","desc":"Inflicts Magic Dark damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Dark"},
-            {"name":"Hell Gaze","name_tw":"Hell Gaze","desc":"Inflicts Magic Dark damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Dark"},
-            {"name":"Mamudo","name_tw":"瑪哈姆多","desc":"Inflicts Magic Dark damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Dark"},
-            {"name":"Mamudoon","name_tw":"瑪哈姆多翁","desc":"Inflicts Magic Dark damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Dark"},
+            {"name":"Mudo","name_tw":"姆多","desc":"Inflicts Dark (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Dark"},
+            {"name":"Mudoon","name_tw":"姆多翁","desc":"Inflicts Dark (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Dark"},
+            {"name":"Mudodyne","name_tw":"姆多達因","desc":"Inflicts Dark (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Dark"},
+            {"name":"Hell Gaze","name_tw":"Hell Gaze","desc":"Inflicts Dark (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Dark"},
+            {"name":"Mamudo","name_tw":"瑪哈姆多","desc":"Inflicts Dark (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Dark"},
+            {"name":"Mamudoon","name_tw":"瑪哈姆多翁","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Dark"},
             {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":9,"element":"Dark"},
-            {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"Inflicts Magic Dark damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Dark"},
-            {"name":"Purgatory","name_tw":"Purgatory","desc":"Inflicts Magic Dark damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Dark"},
-            {"name":"Allure","name_tw":"肉體的解放","desc":"Inflicts Magic Dark damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":6,"point":null,"element":"Dark"},
-            {"name":"Gluttony","name_tw":"暴食重罪","desc":"Inflicts Magic Dark damage with 130 power on All Enemies, while healing caster 50% of damage dealt.","mp":7,"point":null,"element":"Dark"},
+            {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Dark"},
+            {"name":"Purgatory","name_tw":"Purgatory","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Dark"},
+            {"name":"Allure","name_tw":"肉體的解放","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":6,"point":null,"element":"Dark"},
+            {"name":"Gluttony","name_tw":"暴食重罪","desc":"Inflicts Dark (Magic) damage with 130 power on All Enemies, while healing caster 50% of damage dealt.","mp":7,"point":null,"element":"Dark"},
+            {"name":"Go to Hell!","name_tw":"可以為我而死嗎？","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies with a 80% chance to inflict Curse. The damage is done with Dark Pierce.","mp":7,"point":null,"element":"Dark"},
             {"name":"Die for Me!","name_tw":"可以為我而死嗎？","desc":"Kills a Single Enemy. 1 Use.","mp":7,"point":null,"element":"Dark"}
         ]
     },
@@ -974,7 +975,7 @@ const skill_stable = [
             {"name":"Apocalypse","name_tw":"默示錄","desc":"Inflicts Magic Almighty damage with 110 power on All Enemies with 30% chance to inflict Mute.","mp":8,"point":null,"element":"Almighty"},
             {"name":"Morning Star","name_tw":"拂曉明星","desc":"Inflicts Magic Almighty damage with 150 power on All Enemies. (3 uses)","mp":8,"point":null,"element":"Almighty"},
             {"name":"Divine Bows' Allure","name_tw":"魅惑神弓","desc":"Inflicts Magic Almighty damage with 190 power on a Single Enemy with 45% chance to inflict Charm.","mp":8,"point":null,"element":"Almighty"},
-            {"name":"God's Malice","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 120 power on a single enemy with 30% chance to inflict Poison, Bind, Mute and Charm.","mp":,"point":null,"element":"Almighty"},
+            {"name":"God's Malice","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 120 power on a single enemy with 30% chance to inflict Poison, Bind, Mute and Charm.","mp":7,"point":null,"element":"Almighty"},
             {"name":"Mesopotamian Star","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies. Reduces enemy's ATK by 20% and increases own party's ATK by 20%. (3 turns)","mp":8,"point":null,"element":"Almighty"}
         ]
     },
