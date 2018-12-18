@@ -749,19 +749,6 @@ const ddd_stable = [
         ]
     },
     {
-        name:'Reaper',
-        name_tw:'Reaper',
-        name_en:'Reaper',
-        formulas:[],
-        devils:[
-            { name:'Mot', name_tw:'吹號者', name_en:'', rarity:5, grade:91, icon:'Mot.jpg', skills:['Megidolaon','Mamudodyne',"Harmonious Death"], skill4:['Mana Gain','Deathtouch','Judgement','Life Surge','Null Phys'], skill5:['','Magic Amp III','Auto-Rakukaja','Enduring Soul','Resist Elec'], elements:['Resist','Resist','','Weak','Repel','','Repel'], type:'Attack'},
-            { name:'Nergal', name_tw:'吹號者', name_en:'', rarity:5, grade:82, icon:'Nergal.png', skills:['Berserker God','Meslamtaea',"Plague of Babylon"], skill4:['Strength Amp III','Hades Blast','Toxic Sting','Auto-Tarukaja','Null Light'], skill5:['','Savage Glee','Auto-Sukukaja','Strength Amp III','Resist Ice'], elements:['','Resist','Weak','','','Resist','Repel'], type:'Support'},
-            { name:'Persephone', name_tw:'愛麗絲', name_en:'', rarity:4, grade:72, icon:'Persephone.png', skills:['Bufudyne','Mamudoon','Fruit of the Dead'], skill4:['Vengeance','Energy Drain','Prayer','Null Bind','Drain Dark'], skill5:['','Acid Breath','Life Gain','War Cry','Resist Elec'], elements:['','','Null','Weak','','','Null'], type:'Support'},
-            { name:'Chernobog', name_tw:'白騎士', name_en:'', rarity:4, grade:64, icon:'Chernobog.png', skills:['Deadly Poison','Hades Blast',"Fog of Death"], skill4:['Sea of Chaos','Dark Sword','Outbreak','Savage Glee','Null Fire'], skill5:['','Deadly Mute','Dmg Panel V II','Tempest Slash','Resist Light'], elements:['','','','','','Weak','Null'], type:'Attack'},
-            { name:'Hel', name_tw:'白騎士', name_en:'', rarity:4, grade:60, icon:'Hel.png', skills:['Mabufula','Mamudo',"Call to Helheim"], skill4:['Ice Breath','Bufudyne','Rattle','Ice Boost','Repel Ice'], skill5:['','Merciless Blow','Enduring Soul','Bufudyne','Resist Fire'], elements:['','Weak','Null','','','','Null'], type:'Attack'}
-        ]
-    },
-    {
         name:'Fiend',
         name_tw:'Fiend',
         name_en:'Fiend',
@@ -785,6 +772,19 @@ const ddd_stable = [
             { name:'Rama', name_tw:'皇帝', name_en:'', rarity:5, grade:86, icon:'Rama.png', skills:['Mabufudyne','Drain Pierce','Brahmastra'], skill4:['Hades Blast','Energy Drain','Luster Candy','Ice Pierce','Drain Ice'], skill5:['','Mana Aid','Concentrate','Ice Age','Null Mute'], elements:['','Null','Resist','','','',''], type:'Attack'},
             { name:'Siegfried', name_tw:'齊格飛', name_en:'', rarity:5, grade:83, icon:'eiyuu_jikuhurito.png', skills:['Berserker God','Rebellion','Arms Mastery'], skill4:['Life Aid','Titanomachia','Charge','Enduring Soul','Null Force'], skill5:['','Great Aim','Auto-Sakunda','Myriad Arrows','Resist Dark'], elements:['Drain','','','','','',''], type:'Attack'},
             { name:"Jeanne d'Arc", name_tw:'貞德', name_en:'', rarity:4, grade:78, icon:'eiyuu_jannu.png', skills:['Recovery Boost','Holy Wrath','Orleans Prayer'], skill4:['Life Aid','Judgement','Silent Prayer','Null Mute','Repel Fire'], skill5:['','Mind Break','Mediarama','Purgatory','Zanma'], elements:['','Weak','Resist','Resist','Resist','',''], type:'Recovery'}
+        ]
+    },
+    {
+        name:'Reaper',
+        name_tw:'Reaper',
+        name_en:'Reaper',
+        formulas:[],
+        devils:[
+            { name:'Mot', name_tw:'吹號者', name_en:'', rarity:5, grade:91, icon:'Mot.jpg', skills:['Megidolaon','Mamudodyne',"Harmonious Death"], skill4:['Mana Gain','Deathtouch','Judgement','Life Surge','Null Phys'], skill5:['','Magic Amp III','Auto-Rakukaja','Enduring Soul','Resist Elec'], elements:['Resist','Resist','','Weak','Repel','','Repel'], type:'Attack'},
+            { name:'Nergal', name_tw:'吹號者', name_en:'', rarity:5, grade:82, icon:'Nergal.jpg', skills:['Berserker God','Meslamtaea',"Plague of Babylon"], skill4:['Strength Amp III','Hades Blast','Toxic Sting','Auto-Tarukaja','Null Light'], skill5:['','Savage Glee','Auto-Sukukaja','Strength Amp III','Resist Ice'], elements:['','Resist','Weak','','','Resist','Repel'], type:'Support'},
+            { name:'Persephone', name_tw:'愛麗絲', name_en:'', rarity:4, grade:72, icon:'Persephone.png', skills:['Bufudyne','Mamudoon','Fruit of the Dead'], skill4:['Vengeance','Energy Drain','Prayer','Null Bind','Drain Dark'], skill5:['','Acid Breath','Life Gain','War Cry','Resist Elec'], elements:['','','Null','Weak','','','Null'], type:'Support'},
+            { name:'Chernobog', name_tw:'白騎士', name_en:'', rarity:4, grade:64, icon:'Chernobog.png', skills:['Deadly Poison','Hades Blast',"Fog of Death"], skill4:['Sea of Chaos','Dark Sword','Outbreak','Savage Glee','Null Fire'], skill5:['','Deadly Mute','Dmg Panel V II','Tempest Slash','Resist Light'], elements:['','','','','','Weak','Null'], type:'Attack'},
+            { name:'Hel', name_tw:'白騎士', name_en:'', rarity:4, grade:60, icon:'Hel.png', skills:['Mabufula','Mamudo',"Call to Helheim"], skill4:['Ice Breath','Bufudyne','Rattle','Ice Boost','Repel Ice'], skill5:['','Merciless Blow','Enduring Soul','Bufudyne','Resist Fire'], elements:['','Weak','Null','','','','Null'], type:'Attack'}
         ]
     },
     {
