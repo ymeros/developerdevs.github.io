@@ -741,10 +741,11 @@ const ddd_stable = [
         name_en:'Hero',
         formulas:[],
         devils:[
-            { name:'Yoshitsune', name_tw:'義經', name_en:'', rarity:5, grade:97, icon:'eiyuu_yositune.png', skills:['Vorpal Blade','Mana Aid','Hassou Tobi'], skill4:['Enduring Soul','Gigantomachia','Tetrakarn','Phys Amp','Drain Phys'], skill5:['',"God's Hand",'Auto-Sukukaja','Savage Glee','Resist Ice'], elements:['Resist','','','','','Null','Null'], type:'Attack'},
-            { name:'Huang Di', name_tw:'皇帝', name_en:'', rarity:5, grade:88, icon:'eiyuu_koutei.png', skills:['Hades Blast','Superior Power','Yinlong Killer'], skill4:['','Berserker God','Salvation','Null Charm','Repel Light'], skill5:['','Auto-Tarukaja','Null Phys','Serial Killer','Infernal Mask'], elements:['','Resist','Resist','Resist','Resist','',''], type:'Attack'},
-            { name:'Siegfried', name_tw:'齊格飛', name_en:'', rarity:5, grade:83, icon:'eiyuu_jikuhurito.png', skills:['Berserker God','Rebellion','Arms Mastery'], skill4:['Life Aid','Titanomachia','Charge','Enduring Soul','Null Force'], skill5:['','Maziodyne','Trisagion','Megidola','Evil Gaze'], elements:['Drain','','','','','',''], type:'Attack'},
-            { name:"Jeanne d'Arc", name_tw:'貞德', name_en:'', rarity:4, grade:78, icon:'eiyuu_jannu.png', skills:['Heal Boost','Holy Wrath','Orleans Prayer'], skill4:['Life Aid','Judgement','Silent Prayer','Null Mute','Repel Fire'], skill5:['','Mind Break','Mediarama','Purgatory','Zanma'], elements:['','Weak','Resist','Resist','Resist','',''], type:'Recovery'}
+            { name:'Yoshitsune', name_tw:'義經', name_en:'', rarity:5, grade:97, icon:'eiyuu_yositune.png', skills:['Vorpal Blade','Mana Aid','Hassou Tobi'], skill4:['Enduring Soul','Gigantomachia','Charge','Phys Amp','Drain Phys'], skill5:['',"God's Hand",'Auto-Sukukaja','Savage Glee','Resist Ice'], elements:['Resist','','','','','Null','Null'], type:'Attack'},
+            { name:'Huang Di', name_tw:'皇帝', name_en:'', rarity:5, grade:88, icon:'eiyuu_koutei.png', skills:['Hades Blast','Superior Power','Yinlong Killer'], skill4:['Life Aid','Berserker God','Salvation','Null Charm','Repel Light'], skill5:['','Auto-Tarukaja','Null Phys','Serial Killer','Infernal Mask'], elements:['','Resist','Resist','Resist','Resist','',''], type:'Attack'},
+            { name:'Rama', name_tw:'皇帝', name_en:'', rarity:5, grade:86, icon:'eiyuu_koutei.png', skills:['Mabufudyne','Drain Pierce','Brahmastra'], skill4:['Hades Blast','Energy Drain','Luster Candy','Ice Pierce','Drain Ice'], skill5:['','Mana Aid','Concentrate','Ice Age','Null Mute'], elements:['','Null','Resist','','','',''], type:'Attack'},
+            { name:'Siegfried', name_tw:'齊格飛', name_en:'', rarity:5, grade:83, icon:'eiyuu_jikuhurito.png', skills:['Berserker God','Rebellion','Arms Mastery'], skill4:['Life Aid','Titanomachia','Charge','Enduring Soul','Null Force'], skill5:['','Great Aim','Auto-Sakunda','Myriad Arrows','Resist Dark'], elements:['Drain','','','','','',''], type:'Attack'},
+            { name:"Jeanne d'Arc", name_tw:'貞德', name_en:'', rarity:4, grade:78, icon:'eiyuu_jannu.png', skills:['Recovery Boost','Holy Wrath','Orleans Prayer'], skill4:['Life Aid','Judgement','Silent Prayer','Null Mute','Repel Fire'], skill5:['','Mind Break','Mediarama','Purgatory','Zanma'], elements:['','Weak','Resist','Resist','Resist','',''], type:'Recovery'}
         ]
     },
     {
@@ -987,7 +988,7 @@ const skill_stable = [
             {"name":"God's Malice","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 120 power on a single enemy with 30% chance to inflict Poison, Bind, Mute and Charm.","mp":7,"point":null,"element":"Almighty"},
             {"name":"Mesopotamian Star","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies. Reduces enemy's ATK by 20% and increases own party's ATK by 20%. (3 turns)","mp":8,"point":null,"element":"Almighty"},
             {"name":"Babylon Goblet","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power and drains 1 MP on All Enemies.","mp":8,"point":null,"element":"Almighty"},
-            {"name":"Brahma Sutra","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage 3 times with 40 power on All Enemies.","mp":7,"point":null,"element":"Almighty"}
+            {"name":"Brahmastra","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage 3 times with 40 power on All Enemies.","mp":7,"point":null,"element":"Almighty"}
         ]
     },
     {
