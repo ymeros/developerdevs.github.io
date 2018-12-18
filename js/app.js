@@ -736,7 +736,7 @@ const ddd_stable = [
             ['Tyrant','Brute'],
             ['Vile','Night'],
             ['Tyrant','Night'],
-            ['Brute','Vile']
+            ['Vile','Brute']
         ],
         devils:[
             { name:'Black Frost', name_tw:'啃咬魔', name_en:'', rarity:5, grade:81, icon:'Black-Frost.png', skills:['Mabufudyne','Curse of Anguish','Go to Hell!'], skill4:['Maragion','Hell Gaze','Concentrate','Ice Amp','Null Fire'], skill5:['','Merciless Blow','Insanity','Ice Age','Resist Light'], elements:['','Resist','Null','','','Weak','Null'], type:'Attack'},
@@ -746,6 +746,19 @@ const ddd_stable = [
             { name:'Grendel', name_tw:'啃咬魔', name_en:'', rarity:3, grade:51, icon:'Grendel.png', skills:['Deathbound','Mortal Jihad','Curse of Distress'], skill4:['Life Gain','Herculean Strike','Charge','Great Aim','Resist Force'], skill5:['','Binding Claw','Endure','Retaliate','Wild Guess'], elements:['','Weak','','','','Weak','Drain'], type:'Attack'},
             { name:'Ippon-Datara', name_tw:'啃咬魔', name_en:'', rarity:2, grade:26, icon:'Ippon.png', skills:['Mudoon','Oni-Kagura','Curse of Distress'], skill4:['Mahaju','Mow Down','Tarukaja','Back Attack','Resist Light'], skill5:['','','','',''], elements:['','Resist','','','','Weak',''], type:'Attack'},
             { name:'Gremlin', name_tw:'啃咬魔', name_en:'', rarity:1, grade:11, icon:'Gremlin.png', skills:['Zio','Bufu',''], skill4:['Lunge','Mudo','Makajam','Mana Bonus','Resist Fire'], skill5:['','','','',''], elements:['','Weak','Resist','Resist','Weak','',''], type:'Attack'}
+        ]
+    },
+    {
+        name:'Reaper',
+        name_tw:'Reaper',
+        name_en:'Reaper',
+        formulas:[],
+        devils:[
+            { name:'Mot', name_tw:'吹號者', name_en:'', rarity:5, grade:91, icon:'Mot.png', skills:['Megidolaon','Mamudodyne',"Harmonious Death"], skill4:['Mana Gain','Deathtouch','Judgement','Life Surge','Null Phys'], skill5:['','Magic Amp III','Auto-Rakukaja','Enduring Soul','Resist Elec'], elements:['Resist','Resist','','Weak','Repel','','Repel'], type:'Attack'},
+            { name:'Nergal', name_tw:'吹號者', name_en:'', rarity:5, grade:82, icon:'Nergal.png', skills:['Berserker God','Meslamtaea',"Plague of Babylon"], skill4:['Strength Amp III','Hades Blast','Toxic Sting','Auto-Tarukaja','Null Light'], skill5:['','Savage Glee','Auto-Sukukaja','Strength Amp III','Resist Ice'], elements:['','Resist','Weak','','','Resist','Repel'], type:'Support'},
+            { name:'Persephone', name_tw:'愛麗絲', name_en:'', rarity:4, grade:72, icon:'Persephone.png', skills:['Bufudyne','Mamudoon','Fruit of the Dead'], skill4:['Vengeance','Energy Drain','Prayer','Null Bind','Drain Dark'], skill5:['','Acid Breath','Life Gain','War Cry','Resist Elec'], elements:['','','Null','Weak','','','Null'], type:'Support'},
+            { name:'Chernobog', name_tw:'白騎士', name_en:'', rarity:4, grade:64, icon:'Chernobog.png', skills:['Deadly Poison','Hades Blast',"Fog of Death"], skill4:['Sea of Chaos','Dark Sword','Outbreak','Savage Glee','Null Fire'], skill5:['','Deadly Mute','Dmg Panel V II','Tempest Slash','Resist Light'], elements:['','','','','','Weak','Null'], type:'Attack'},
+            { name:'Hel', name_tw:'白騎士', name_en:'', rarity:4, grade:60, icon:'Hel.png', skills:['Mabufula','Mamudo',"Call to Helheim"], skill4:['Ice Breath','Bufudyne','Rattle','Ice Boost','Repel Ice'], skill5:['','Merciless Blow','Enduring Soul','Bufudyne','Resist Fire'], elements:['','Weak','Null','','','','Null'], type:'Attack'}
         ]
     },
     {
