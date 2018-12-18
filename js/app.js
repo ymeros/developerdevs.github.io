@@ -728,9 +728,11 @@ const ddd_stable = [
         name_en:'Fiend',
         formulas:[],
         devils:[
-            { name:'Trumpeter', name_tw:'吹號者', name_en:'', rarity:5, grade:94, icon:'majin_toranpeta.png', skills:['Concentrate','Soul Drain',"Apocalypse"], skill4:['Mamakajaon','Judgement','Curse','Auto-Rakukaja','Resist Phys'], skill5:['','Tarukaja','Mabufula','Vorpal Blade','Resist Fire'], elements:['','','','','','Null','Null'], type:'Attack'},
-            { name:'Alice', name_tw:'愛麗絲', name_en:'', rarity:5, grade:89, icon:'majin_arisu.png', skills:['Mamudoon','Mudodyne','Die for Me!'], skill4:['Soul Drain','Hell Gaze','Majuon','Dark Amp','Repel Light'], skill5:['','Glacial Blast','Mabufudyne','Resist Curse','Hurricane Slash'], elements:['','','','','','Weak','Repel'], type:'Attack'},
-            {   name:'White Rider', name_tw:'白騎士', name_en:'', rarity:4, grade:74, icon:'majin_waitonaito.png', skills:['Ziodyne','White Noise',"God's Bow"], skill4:['Bolt Storm','Soul Drain','Recarmdra','Null Bind','Null Force'], skill5:['','Bufula','Good Aim','Heat Wave','Bufu'], elements:['','','','Drain','Weak','Resist','Resist'], type:'Attack'}
+            { name:'Mother Harlot', name_tw:'吹號者', name_en:'', rarity:5, grade:95, icon:'Mother-Harlot.png', skills:['Mana Gain','Death Lust',"Babylon Goblet"], skill4:['Magic Amp III','Deathtouch','Debilitate','Deadly Charm','Drain Phys'], skill5:['','Tetra Shift','Infernal Mask','Insanity','Makara Shift'], elements:['Null','','','Drain','Weak','Resist','Resist'], type:'Support'},
+            { name:'Trumpeter', name_tw:'吹號者', name_en:'', rarity:5, grade:94, icon:'majin_toranpeta.png', skills:['Concentrate','Soul Drain',"Apocalypse"], skill4:['Mahamakajamaon','Judgement','Demon Birth Cry','Auto-Rakukaja','Resist Phys'], skill5:['','Evade','Auto-Tarunda','Trisagion','Resist Fire'], elements:['','','','','','Null','Null'], type:'Attack'},
+            { name:'Alice', name_tw:'愛麗絲', name_en:'', rarity:5, grade:89, icon:'majin_arisu.png', skills:['Mamudoon','Mudodyne','Die for Me!'], skill4:['Soul Drain','Hell Gaze','Necro Dogma','Dark Amp','Repel Light'], skill5:['','Glacial Blast','Epic Recovery','Wild Instinct','Thunder Reign'], elements:['','','','','','Weak','Repel'], type:'Attack'},
+            { name:'Hell Biker', name_tw:'白騎士', name_en:'', rarity:4, grade:77, icon:'Hell-Biker.png', skills:['Maragion','Speedster',"Red Zone"], skill4:['Power Hit','Mamudoon','Recarmdra','Auto-Sukukaja','Repel Light'], skill5:['','Agidyne','War Cry','Deadly Bondage','Resist Dark'], elements:['','Repel','','','Resist','Weak',''], type:'Attack'},
+            { name:'White Rider', name_tw:'白騎士', name_en:'', rarity:4, grade:74, icon:'majin_waitonaito.png', skills:['Ziodyne','White Noise',"God's Bow"], skill4:['Bolt Storm','Soul Drain','Recarmdra','Null Bind','Null Force'], skill5:['','Bufula','Good Aim','Mecharmdi','Maragion'], elements:['','','','Drain','Weak','Resist','Resist'], type:'Attack'}
         ]
     },
     {
