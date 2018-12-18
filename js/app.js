@@ -75,7 +75,7 @@ const ddd_stable = [
             ['Fairy','Beast'],
             ['Femme','Holy'],
             ['Night','Brute'],
-            ['Vile','Night'],
+            //['Vile','Night'],         //Jaki
             ['Wilder','Yoma'],
             ['Wilder','Snake'],
             ['Tyrant','Yoma']
@@ -182,7 +182,7 @@ const ddd_stable = [
             ['Lady','Avatar'],
             ['Lady','Fury'],
             ['Yoma','Deity'],
-            ['Yoma','Lady'],
+            //['Yoma','Lady'],      //Jaki
             ['Fallen','Yoma'],
             ['Vile','Lady'],
             ['Vile','Kishin'],
@@ -279,8 +279,8 @@ const ddd_stable = [
             ['Femme','Fury'],
             ['Femme','Kishin'],
             //['Vile','Night'],      //180419 remove
-            ['Tyrant','Femme'],
-            ['Tyrant','Night']
+            ['Tyrant','Femme']
+            //['Tyrant','Night']    //Jaki
         ],
         devils:[
             {   name:'Asherah',    name_tw:'亞舍拉', name_en:'Asherah', rarity:5,        grade:83, icon:'tibosin_asyerato.png', skills:["Mediarama","Mother's Creation","Maragion"], skill4:["Sea of Chaos","Trisagion","Silent Prayer","Recovery Amp","Repel Ice"], skill5:["","Vitality Amp III","Null Bind","Luck Amp II","Resist Dark"],elements:["","Null","Weak","","Null","","Weak"], type:"Recovery"            },
@@ -332,7 +332,7 @@ const ddd_stable = [
             ['Fairy','Avatar'],
             ['Fallen','Avatar'],
             ['Fallen','Fairy'],
-            ['Femme','Brute'],
+            //['Femme','Brute'],        //Jaki
             ['Night','Fairy'],
             ['Night','Femme'],
             ['Foul','Herald'],
@@ -365,8 +365,8 @@ const ddd_stable = [
             ['Wilder','Genma'],
             ['Foul','Night'],
             ['Foul','Fury'],
-            ['Tyrant','Genma'],
-            ['Haunt','Divine']
+            ['Tyrant','Genma']
+            //['Haunt','Divine']        //Jaki
         ],
         devils:[
             {                name:'Ganesha',     name_tw:'象頭神', name_en:'Ganesha',          rarity:4,                grade:66, icon:'youma_ganesya.png', skills:["Berserker God","Faith in Wealth","Rakukaja"], skill4:["Power Hit","Megaton Raid","Taunt","Phys Boost","Null Dark"], skill5:["","Meposumudi","Mazandyne","Holy Wrath","Desolate"],elements:["Resist","","","Weak","Null","","Weak"], type:"Attack"            },
@@ -512,7 +512,7 @@ const ddd_stable = [
             ['Fairy','Kishin'],
             ['Femme','Avian'],      //180419 add
             ['Femme','Yoma'],
-            ['Vile','Fairy'],
+            //['Vile','Fairy'],     //Jaki
             ['Vile','Fallen'],
             ['Vile','Femme'],
             ['Wilder','Holy'],
@@ -543,7 +543,7 @@ const ddd_stable = [
             ['Beast','Lady'],
             ['Fallen','Megami'],
             ['Brute','Megami'],
-            ['Brute','Holy'],
+            //['Brute','Holy'],     //Jaki
             ['Brute','Yoma'],
             ['Night','Avian'],      //180419 add
             ['Night','Kishin'],
@@ -601,7 +601,7 @@ const ddd_stable = [
         formulas:[
             ['Divine','Fury'],
             ['Wilder','Beast'],
-            ['Foul','Lady'],
+            //['Foul','Lady'],      //Jaki
             ['Tyrant','Divine'],
             ['Tyrant','Beast']
         ],
@@ -701,7 +701,7 @@ const ddd_stable = [
             ['Beast','Megami'],
             ['Fairy','Megami'],
             ['Vile','Herald'],
-            ['Vile','Brute'],
+            //['Vile','Brute'],         //Jaki
             ['Wilder','Herald'],
             ['Wilder','Fury'],
             ['Wilder','Lady'],
@@ -709,7 +709,7 @@ const ddd_stable = [
             ['Foul','Vile'],
             ['Tyrant','Megami'],
             ['Tyrant','Kishin'],
-            ['Tyrant','Brute'],
+            //['Tyrant','Brute'],       //Jaki
             ['Tyrant','Vile']
         ],
         devils:[
@@ -720,6 +720,32 @@ const ddd_stable = [
             {                name:'Mou-Ryo',        name_tw:'魍魎', name_en:'',       rarity:2,                grade:20, icon:'yuuki_mouryou.png', skills:["Mudo","Shibabooon","Fire Breath"], skill4:["Spirit Drain","Evil Gaze","Cursedi","Magic Amp I","Repel Dark"], skill5:["","Weakdi","Rampage","Meclosedi","Dodge"],elements:["","","","","","Weak","Null"], type:"Attack"            },
             {                name:'Obariyon',        name_tw:'背負小鬼', name_en:'',       rarity:1,                grade:7, icon:'yuuki_obariyon.png', skills:["Closedi","Media",""], skill4:["Lunge","Rampage","Sukunda","Dodge","Resist Fire"], skill5:["","Madness","Mecursedi","Hellish Mask","Mahama"],elements:["","","Weak","Resist","","Weak","Null"], type:"Recovery"            },
             {                name:'Preta',             name_tw:'餓鬼', name_en:'',  rarity:1,                grade:4, icon:'yuuki_gaki.png', skills:["Bufu","Mudo",""], skill4:["Mabufu","Life Drain","Discord","Good Aim","Resist Force"], skill5:["","Heat Wave","Meparaladi","Mamudo","Strength Amp I"],elements:["","Weak","Resist","","Weak","Weak","Null"], type:"Attack"            }
+        ]
+    },
+    {
+        name:'Jaki',
+        name_tw:'Jaki',
+        name_en:'Jaki',
+        formulas:[
+            ['Brute','Holy'],
+            ['Lady','Yoma'],
+            ['Lady','Foul'],
+            ['Haunt','Divine'],
+            ['Vile','Fairy'],
+            ['Femme','Brute'],
+            ['Tyrant','Brute'],
+            ['Vile','Night'],
+            ['Tyrant','Night'],
+            ['Brute','Vile']
+        ],
+        devils:[
+            { name:'Black Frost', name_tw:'啃咬魔', name_en:'', rarity:5, grade:81, icon:'Black-Frost.png', skills:['Mabufudyne','Curse of Anguish','Go to Hell!'], skill4:['Maragion','Hell Gaze','Concentrate','Ice Amp','Null Fire'], skill5:['','Merciless Blow','Insanity','Ice Age','Resist Light'], elements:['','Resist','Null','','','Weak','Null'], type:'Attack'},
+            { name:'Hecatoncheires', name_tw:'啃咬魔', name_en:'', rarity:4, grade:74, icon:'Hecatoncheires.png', skills:['Megaton Press','Bloody Glee','Guards of Tartarus'], skill4:['Auto-Rakukaja','Binge Eating','Charge','Life Surge','Drain Phys'], skill5:['','Phys Boost','Deadly Curse','Acid Breath','Resist Light'], elements:['Null','','','','Weak','Weak',''], type:'Attack'},
+            { name:'Kudlak', name_tw:'啃咬魔', name_en:'', rarity:4, grade:67, icon:'Kudlak.png', skills:['Energy Drain','Curse of Anguish','Dark Pandemic'], skill4:['Mana Gain','Mudodyne','Madezoreton','Endure','Drain Dark'], skill5:['','Deadly Curse','Mahapoismaon','Back Attack','Resist Light'], elements:['Resist','','','Weak','','Weak',''], type:'Support'},
+            { name:'Rakshasa', name_tw:'啃咬魔', name_en:'', rarity:4, grade:61, icon:'Rakshasa.png', skills:['Fatal Sword','Charge','Rasetsu'], skill4:['Endure','Dark Sword','Taunt','Retaliate','Null Force'], skill5:['','Tempest Slash','Agility Amp II','Deadly Curse','Speedster'], elements:['Resist','','','','Weak','',''], type:'Attack'},
+            { name:'Grendel', name_tw:'啃咬魔', name_en:'', rarity:3, grade:51, icon:'Grendel.png', skills:['Deathbound','Mortal Jihad','Curse of Distress'], skill4:['Life Gain','Herculean Strike','Charge','Great Aim','Resist Force'], skill5:['','Binding Claw','Endure','Retaliate','Wild Guess'], elements:['','Weak','','','','Weak','Drain'], type:'Attack'},
+            { name:'Ippon-Datara', name_tw:'啃咬魔', name_en:'', rarity:2, grade:26, icon:'Ippon.png', skills:['Mudoon','Oni-Kagura','Curse of Distress'], skill4:['Mahaju','Mow Down','Tarukaja','Back Attack','Resist Light'], skill5:['','','','',''], elements:['','Resist','','','','Weak',''], type:'Attack'},
+            { name:'Gremlin', name_tw:'啃咬魔', name_en:'', rarity:1, grade:11, icon:'Gremlin.png', skills:['Zio','Bufu',''], skill4:['Lunge','Mudo','Makajam','Mana Bonus','Resist Fire'], skill5:['','','','',''], elements:['','Weak','Resist','Resist','Weak','',''], type:'Attack'}
         ]
     },
     {
