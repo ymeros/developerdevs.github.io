@@ -23,9 +23,9 @@ const ddd_stable = [
             ['Fallen','Holy']
         ],
         devils:[
-            {   name:'Metatron',       name_tw:'梅塔特隆', name_en:'Metatron',   rarity:5,   grade:99,  icon:'daitensi_metatoron.png',  skills:['Holy Wrath','Infinite Chakra','Fire of Sinai'], skill4:['Enduring Soul','Mahamadyne','Salvation','Mana Gain','Repel Elec'], skill5:['','Spirit Drain','Mapoisma','Maziodyne','Maragidyne'], elements:['','Resist','Resist','Resist','Resist','Null',''], type:"Attack"     },
-            {   name:'Michael',        name_tw:'米迦勒', name_en:'Michael',      rarity:5,    grade:90, icon:'daitensi_mikaeru.png', skills:["Life Aid","Soul Judgement","Megidolaon"], skill4:["Endure","Thunderclap","Mediarahan","Hellish Mask","Repel Dark"], skill5:['','Titanomachia','Resist Fire','Ziodyne','Hurricane Slash'], elements:["","","Null","Null","","Repel","Weak"], type:"Attack"     },
-            {   name:'Mastema',        name_tw:'莫塞瑪特', name_en:'Mastema',     rarity:5,    grade:83, icon:'daitensi_mansemato.png', skills:["Judgement Light","Bind Voice","Trial of Hate"], skill4:["Mana Gain","Ice Age","Makajamaon","Light Amp","Repel Ice"], skill5:['','Killing Wind','Madness','Hamadyne','Resist Elec'], elements:["","Weak","Null","","Repel","Repel",""], type:"Attack"     },
+            {   name:'Metatron',       name_tw:'梅塔特隆', name_en:'Metatron',   rarity:5,   grade:99,  icon:'daitensi_metatoron.png',  skills:['Holy Wrath','Infinite Chakra','Fire of Sinai'], skill4:['Enduring Soul','Mahamadyne','Offensive Cry','Mana Gain','Repel Elec'], skill5:['','Spirit Drain','Maragidyne','Maziodyne','Resist Phys'], elements:['','Resist','Resist','Resist','Resist','Null',''], type:"Attack"     },
+            {   name:'Michael',        name_tw:'米迦勒', name_en:'Michael',      rarity:5,    grade:90, icon:'daitensi_mikaeru.png', skills:["Life Aid","Soul Judgement","Megidolaon"], skill4:["Endure","Thunderclap","Mediarahan","Infernal Mask","Repel Dark"], skill5:['','Titanomachia','Magic Amp III','Ziodyne','Null Bind'], elements:["","","Null","Null","","Repel","Weak"], type:"Attack"     },
+            {   name:'Mastema',        name_tw:'莫塞瑪特', name_en:'Mastema',     rarity:5,    grade:83, icon:'daitensi_mansemato.png', skills:["Judgement Light","Binding Cry","Trial of Hate"], skill4:["Mana Gain","Ice Age","Makajamaon","Light Amp","Repel Ice"], skill5:['','Killing Wind','Madness','Hamadyne','Resist Elec'], elements:["","Weak","Null","","Repel","Repel",""], type:"Attack"     },
             {   name:'Azrael',      name_tw:'阿斯萊爾',    name_en:'Azrael', rarity:4,    grade:67, icon:'daitensi_azuraeru.png', skills:["Tetrakarn","Evil Gaze","Agidyne"], skill4:["Makarakarn","Mudodyne","Curse","Makara Shift","Null Dark"], skill5:["","Charm Bite","Dekunda","Wild Instinct","Judgement Light"], elements:["Resist","Resist","Weak","","","Repel","Resist"], type:"Support"            },
             {   name:'Sandalphon',   name_tw:'聖達芬',     name_en:'Sandalphon', rarity:4,           grade:61, icon:'daitensi_sandaruhuon.png', skills:["Hamadyne","Zandyne","Auto-Sukukaja"], skill4:["Amrita","Mahamaon","Samarecarm","Wild Instinct","Resist Force"],skill5:["","Meposumudi","Counter","Rakunda","Megaton Press"], elements:["Resist","","","Resist","","Repel","Null"], type:"Attack"         },
             {   name:'Lailah',          name_tw:'萊拉',    name_en:'Lailah', rarity:3,           grade:43, icon:'daitensi_raira.png', skills:["Mediara","Light Boost","Mahamaon"], skill4:["Makajamaon","Hamadyne","Recarm","Life Aid","Resist Elec"],skill5:["","Zan","Mazan","Heat Wave","Bufu"], elements:["","","","Weak","Resist","Null","Weak"], type:"Attack"          }
@@ -1372,10 +1372,10 @@ const messages = {
         inherit:'Skill Points',
         description:'Description',
         cost:'Cost',
-        cost_others:'Cost (Coloured)',
+        cost_others:'Cost (Colored)',
         cost_pure:'Cost (Clear)',
         fusion_mag:'Fusion',
-        fusion_mag_others:'Fusion (Coloured)',
+        fusion_mag_others:'Fusion (Colored)',
         fusion_mag_pure:'Fusion (Clear)'
       }
     },
