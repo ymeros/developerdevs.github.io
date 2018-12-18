@@ -754,8 +754,7 @@ const ddd_stable = [
         name_en:'Rumor',
         formulas:[],
         devils:[
-            { name:'Reiko Kashima', name_tw:'啃咬魔', name_en:'', rarity:3, grade:42, icon:'Reiko.png', skills:['Mudo','Lunge','Youre Next'], skill4:['Null Curse','','','',''], skill5:['','','','',''], elements:['','Weak','','','','Weak','Drain'], type:'Attack'},
-            { name:'Kamiotoko', name_tw:'啃咬魔', name_en:'', rarity:2, grade:25, icon:'kaii_kamiotoko.png', skills:['Mudoon','Insanity','Paralyzing Bite'], skill4:['War Cry','','','',''], skill5:['','','','',''], elements:['','','','','','Weak','Repel'], type:'Support'}
+            { name:'Kamiotoko', name_tw:'啃咬魔', name_en:'', rarity:2, grade:25, icon:'kaii_kamiotoko.png', skills:['Mudoon','Insanity','Paralyzing Bite'], skill4:['War Cry','Eat Whole','Discord','Luck Amp I','Null Force'], skill5:['','Rampage','Dia','Mahama','Bloody Glee'], elements:['','','','','','Weak','Repel'], type:'Support'}
         ]
     },
     {
@@ -764,8 +763,8 @@ const ddd_stable = [
         name_en:'UMA',
         formulas:[],
         devils:[
-            { name:'Hare of Inaba', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'tinjyuu_inabasirousagi.png', skills:['Dekaja','Media','Trap Free'], skill4:['Recarm','','','',''], skill5:['','','','',''], elements:['','Weak','','','','',''], type:'Recovery'},
-            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'tinjyuu_typakabura.png', skills:['Mazan','Stealth','Trap Free'], skill4:['Auto-Sukukaja','','','',''], skill5:['','','','',''], elements:['','','','Weak','','',''], type:'Attack'}
+            { name:'Hare of Inaba', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'tinjyuu_inabasirousagi.png', skills:['Dekaja','Media','Trap Free'], skill4:['Recarm','Madness Nails','Discord','Agility Amp I','Null Fire'], skill5:['','Mamudo','Mahama','Mecursedi','Meweakdi'], elements:['','Weak','','','','',''], type:'Recovery'},
+            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'tinjyuu_typakabura.png', skills:['Mazan','Stealth','Trap Free'], skill4:['Auto-Sukukaja','Spirit Drain','Paraladi','Hellish Mask','Resist Elec'], skill5:['','Mamudo','Media','Vitality Amp I','Wild Guess'], elements:['','','','Weak','','',''], type:'Attack'}
         ]
     },
     {
@@ -774,9 +773,9 @@ const ddd_stable = [
         name_en:'Enigma',
         formulas:[],
         devils:[
-            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['Speedster','Dekunda',"Divine Bows' Allure"], skill4:['Vorpal Blade','','','',''], skill5:['','','','',''], elements:['Resist','Weak','','','','Resist',''], type:'Support'},
-            { name:'Kinmamon', name_tw:'君真物', name_en:'',rarity:3, grade:55, icon:'hisin_kinmamon.png', skills:['Megido','Barrier','Mutant'], skill4:['Megidola','','','',''], skill5:['','','','',''], elements:['','Null','Weak','','','Resist','Resist'], type:'Support'},
-            { name:'Kanbari', name_tw:'加牟波理', name_en:'',rarity:2, grade:30, icon:'hisin_kanbari.png', skills:['Rampage','Hamaon','Luck'], skill4:['Megaton Press','','','',''], skill5:['','','','',''], elements:['Weak','','','','','Resist','Weak'], type:'Attack'}
+            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['Speedster','Dekunda',"Divine Bows' Allure"], skill4:['Vorpal Blade','Hurricane Slash','Silent Prayer','Auto-Sukukaja','Repel Fire'], skill5:['','Resist Force','Meposumudi','Toxic Sting','Tarunda'], elements:['Resist','Weak','','','','Resist',''], type:'Support'},
+            { name:'Kinmamon', name_tw:'君真物', name_en:'',rarity:3, grade:55, icon:'hisin_kinmamon.png', skills:['Megido','Barrier','Mutant'], skill4:['Megidola','Energy Drain','Amrita','Dodge','Null Dark'], skill5:['','Vitality Amp I','Dmg Panel V I','Madness','Cursedi'], elements:['','Null','Weak','','','Resist','Resist'], type:'Support'},
+            { name:'Kanbari', name_tw:'加牟波理', name_en:'',rarity:2, grade:30, icon:'hisin_kanbari.png', skills:['Rampage','Hamaon','Luck'], skill4:['Megaton Press','Mahama','Mecursedi','Mana Aid','Resist Fire'], skill5:['','','','',''], elements:['Weak','','','','','Resist','Weak'], type:'Attack'}
         ]
     },
     {
@@ -785,8 +784,7 @@ const ddd_stable = [
         name_en:'Zealot',
         formulas:[],
         devils:[
-            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['Enduring Soul','Recarmdra','Mist Slash'], skill4:['Life Aid','','','',''], skill5:['','','','',''], elements:['Resist','','','','','',''], type:'Attack'},
-            { name:'Dionysus', name_tw:'阿提斯', name_en:'',rarity:4, grade:64, icon:'Dionysus.png', skills:['Back Attack','Infernal Mask','Euphoric Frenzy'], skill4:['Luck Amp II','','','',''], skill5:['','','','',''], elements:['','Null','Weak','Null','','',''], type:'Support'}
+            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['Enduring Soul','Recarmdra','Mist Slash'], skill4:['Life Aid','Mabufudyne','Diarama','Null Charm','Null Ice'], skill5:['','Agility Amp II','Maragion','Dmg Panel V I','Mecharmdi'], elements:['Resist','','','','','',''], type:'Attack'}
         ]
     },
     {
@@ -795,7 +793,7 @@ const ddd_stable = [
         name_en:'Entity',
         formulas:[],
         devils:[
-            { name:'Alliat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Bane of Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
+            { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Bane of Pierce'], skill4:['Diarahan','Soul Drain','Mediarama','Mana Gain','Null Phys'], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
         ]
     }
 ];
@@ -1330,7 +1328,7 @@ const skill_stable = [
             {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
             {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, -15% damage received from multiple-target attack skill damage for All Party Members.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Youre Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
+            {"name":"You're Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
             {"name":"Meslamtaea","name_tw":"月之庇佑","desc":"Increases AC by 20%, and enters a state of Rebellion when the enemy is Poisoned.","mp":null,"point":null,"element":"Passive"},
             {"name":"Fruit of the Dead","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, any enemy demon that is revived will only have 1 HP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Fog of Death","name_tw":"月之庇佑","desc":"When an enemy is Weakened, reduces all enemy EV/AC by 20% (3 turns) and 100% chance to inflict Poison.","mp":null,"point":null,"element":"Passive"},
