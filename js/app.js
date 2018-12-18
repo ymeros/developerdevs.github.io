@@ -1112,6 +1112,7 @@ const skill_stable = [
             {"name":"Sukunda","name_tw":"斯坤達","desc":"Reduces EV/AC of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
             {"name":"Dekaja","name_tw":"迪卡加","desc":"Remove buffs from All Enemies.","mp":5,"point":4,"element":"Null"},
             {"name":"Dekunda","name_tw":"迪坤達","desc":"Remove debuffs from All Party Members.","mp":5,"point":4,"element":"Null"},
+
             {"name":"Barong Dance","name_tw":"巴隆之舞","desc":"Heals All Party Members with 95 power and increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns. (3 uses)","mp":7,"point":null,"element":"Null"},
             {"name":"Tenson Kourin","name_tw":"Tenson Kourin","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 6 turns. (3 uses)","mp":8,"point":null,"element":"Null"},
             {"name":"Luster Candy","name_tw":"","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns.","mp":7,"point":15,"element":"Null"},
@@ -1156,6 +1157,8 @@ const skill_stable = [
             {"name":"Fire Pierce","name_tw":"Fire Pierce","desc":"Fire attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Elec Pierce","name_tw":"電擊貫通","desc":"Elec attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Force Pierce","name_tw":"衝擊貫通","desc":"Force attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+            {"name":"Ice Pierce","name_tw":"衝擊貫通","desc":"Ice attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+            {"name":"Dark Pierce","name_tw":"衝擊貫通","desc":"Dark attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             //耐性
             {"name":"Resist Phys","name_tw":"Resist Phys","desc":"Resist Phys damage","mp":null,"point":"12","element":"Passive"},
             {"name":"Resist Fire","name_tw":"Resist Fire","desc":"Resist Fire damage","mp":null,"point":8,"element":"Passive"},
@@ -2244,7 +2247,7 @@ var app = new Vue({
 
         //modal
 
-        updated_at:'07-29-2018',
+        updated_at:'12-17-2018',
 
         //important for update computed's getter from setter
         computed_counter:{
