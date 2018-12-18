@@ -461,8 +461,6 @@ const ddd_stable = [
         ],
         devils:[
             {                name:'Oberon',        name_tw:'奧伯隆',  name_en:'Oberon',      rarity:4,                grade:67, icon:'yousei_oberon.png', skills:["Force Boost","Zandyne","Mamarin Karion"], skill4:["Makarakarn","Twister","Mecharmdi","Auto-Sukukaja","Resist Ice"], skill5:["","Cleave","Vitality Amp I","Tarukaja","Spirit Drain"],elements:["","","","Weak","Drain","",""], type:"Attack"            },
-            {                name:'Halloween Jack',        name_tw:'奧伯隆',  name_en:'Halloween Jack',      rarity:4,                grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
-            {                name:'Helper Frost',        name_tw:'奧伯隆',  name_en:'Helper Frost',      rarity:4,                grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
             {                name:'Titania',    name_tw:'提泰妮婭', name_en:'',           rarity:4,                grade:62, icon:'yousei_teitania.png', skills:["Elec Boost","Mazionga","Makajamaon"], skill4:["Mana Gain","Bolt Storm","Desolateon","Back Attack","Resist Phys"], skill5:["","Tarunda","Mamudo","Fatal Sword","Shock"],elements:["","","","","","Resist","Resist"], type:"Support"            },
             {                name:'Setanta',        name_tw:'瑟坦特', name_en:'',       rarity:3,                grade:47, icon:'yousei_setanta.png', skills:["Oni-Kagura","Great Aim","Vajra Blast"], skill4:["Darkbound","Zanma","Tarukaja","Berserker","Resist Elec"], skill5:["","Vitality Amp I","Zio","Cursedi","Heat Wave"],elements:["","","","Weak","Null","","Weak"], type:"Attack"           },
             {                name:'Silky',        name_tw:'希路奇', name_en:'',       rarity:3,                grade:42, icon:'yousei_siruki.png', skills:["Meweakdi","Null Weak","Bufudyne"], skill4:["Mediara","Mabufula","Lydia","Infernal Mask","Null Force"], skill5:["","Bloody Glee","Mow Down","Dmg Panel V I","Wild Guess"],elements:["","Weak","Null","","","",""], type:"Support"            },
@@ -860,8 +858,7 @@ const skill_stable = [
             {"name":"Maragidyne","name_tw":"瑪哈亞吉達因","desc":"Inflicts Fire (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Fire"},
             {"name":"Fire Breath","name_tw":"火焰吐息","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Fire"},
             {"name":"Hellfire","name_tw":"地獄業火","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":"10","element":"Fire"},
-            {"name":"Ragnarok","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 215 power on a Single Enemy. Adds 20% damage to this skill based on your Phys ATK status.","mp":7,"point":null,"element":"Fire"},
-            {"name":"MahaLantine","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Fire"}
+            {"name":"Ragnarok","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 215 power on a Single Enemy. Adds 20% damage to this skill based on your Phys ATK status.","mp":7,"point":null,"element":"Fire"}
         ]
     },
     {
@@ -879,8 +876,7 @@ const skill_stable = [
             {"name":"Mabufudyne","name_tw":"瑪哈布芙達因","desc":"Inflicts Ice (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Ice"},
             {"name":"Ice Breath","name_tw":"極寒吐息","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Ice"},
             {"name":"Glacial Blast","name_tw":"絕對零度","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Ice"},
-            {"name":"Cold World","name_tw":"Cold World","desc":"Inflicts Ice (Magic) damage with 130 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":7,"point":null,"element":"Ice"},
-            {"name":"MahaFrosty","name_tw":"諸神的黃昏","desc":"Inflicts Ice (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Ice"}
+            {"name":"Cold World","name_tw":"Cold World","desc":"Inflicts Ice (Magic) damage with 130 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":7,"point":null,"element":"Ice"}
         ]
     },
     {
