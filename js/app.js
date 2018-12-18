@@ -461,8 +461,6 @@ const ddd_stable = [
         ],
         devils:[
             {                name:'Oberon',        name_tw:'奧伯隆',  name_en:'Oberon',      rarity:4,                grade:67, icon:'yousei_oberon.png', skills:["Force Boost","Zandyne","Mamarin Karion"], skill4:["Makarakarn","Twister","Mecharmdi","Auto-Sukukaja","Resist Ice"], skill5:["","Cleave","Vitality Amp I","Tarukaja","Spirit Drain"],elements:["","","","Weak","Drain","",""], type:"Attack"            },
-            {                name:'Halloween Jack',        name_tw:'奧伯隆',  name_en:'Halloween Jack',      rarity:4,                grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
-            {                name:'Helper Frost',        name_tw:'奧伯隆',  name_en:'Helper Frost',      rarity:4,                grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
             {                name:'Titania',    name_tw:'提泰妮婭', name_en:'',           rarity:4,                grade:62, icon:'yousei_teitania.png', skills:["Elec Boost","Mazionga","Makajamaon"], skill4:["Mana Gain","Bolt Storm","Desolateon","Back Attack","Resist Phys"], skill5:["","Tarunda","Mamudo","Fatal Sword","Shock"],elements:["","","","","","Resist","Resist"], type:"Support"            },
             {                name:'Setanta',        name_tw:'瑟坦特', name_en:'',       rarity:3,                grade:47, icon:'yousei_setanta.png', skills:["Oni-Kagura","Great Aim","Vajra Blast"], skill4:["Darkbound","Zanma","Tarukaja","Berserker","Resist Elec"], skill5:["","Vitality Amp I","Zio","Cursedi","Heat Wave"],elements:["","","","Weak","Null","","Weak"], type:"Attack"           },
             {                name:'Silky',        name_tw:'希路奇', name_en:'',       rarity:3,                grade:42, icon:'yousei_siruki.png', skills:["Meweakdi","Null Weak","Bufudyne"], skill4:["Mediara","Mabufula","Lydia","Infernal Mask","Null Force"], skill5:["","Bloody Glee","Mow Down","Dmg Panel V I","Wild Guess"],elements:["","Weak","Null","","","",""], type:"Support"            },
@@ -798,6 +796,16 @@ const ddd_stable = [
         formulas:[],
         devils:[
             { name:'Alliat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Bane of Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
+        ]
+    },
+    {
+        name:'Event',
+        name_tw:'Event',
+        name_en:'Event',
+        formulas:[],
+        devils:[
+            {                name:'Halloween Jack',        name_tw:'奧伯隆',  name_en:'Halloween Jack',      rarity:4,                grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
+            {                name:'Helper Frost',        name_tw:'奧伯隆',  name_en:'Helper Frost',      rarity:4,                grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            }
         ]
     }
 ];
