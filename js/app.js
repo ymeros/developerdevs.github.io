@@ -49,6 +49,7 @@ const ddd_stable = [
             ['Femme','Herald'],
             ['Femme','Avatar'],
             ['Femme','Lady'],
+            ['Jaki', 'Haunt'],
             ['Femme','Fairy']
         ],
         devils:[
@@ -78,6 +79,7 @@ const ddd_stable = [
             //['Vile','Night'],         //Jaki
             ['Wilder','Yoma'],
             ['Wilder','Snake'],
+            ['Jaki', 'Holy'],
             ['Tyrant','Yoma']
         ],
         devils:[
@@ -104,6 +106,7 @@ const ddd_stable = [
             ['Brute','Kishin'],
             ['Night','Fallen'],
             ['Vile','Avatar'],
+            ['Jaki', 'Fury'],
             ['Vile','Beast']
         ],
         devils:[
@@ -160,6 +163,7 @@ const ddd_stable = [
             ['Night','Avatar'],
             ['Night','Genma'],
             ['Wilder','Megami'],
+            ['Jaki', 'Avian'],
             ['Haunt','Fairy']
         ],
         devils:[
@@ -192,6 +196,7 @@ const ddd_stable = [
             ['Foul','Fallen'],
             ['Tyrant','Avatar'],
             ['Tyrant','Lady'],
+            ['Jaki', 'Deity'],
             ['Haunt','Deity']
         ],
         devils:[
@@ -248,6 +253,8 @@ const ddd_stable = [
             ['Brute','Lady'],
             ['Brute','Snake'],
             ['Wilder','Kishin'],
+            ['Jaki', 'Kishin'],
+            ['Jaki', 'Snake'],
             ['Haunt','Kishin']
         ],
         devils:[
@@ -279,6 +286,8 @@ const ddd_stable = [
             ['Femme','Fury'],
             ['Femme','Kishin'],
             //['Vile','Night'],      //180419 remove
+            ['Jaki', 'Herald'],
+            ['Jaki', 'Fairy'],
             ['Tyrant','Femme']
             //['Tyrant','Night']    //Jaki
         ],
@@ -310,6 +319,8 @@ const ddd_stable = [
             //['Night','Brute'],        //180419 remove
             ['Vile','Snake'],
             ['Foul','Deity'],
+            ['Jaki', 'Lady'],
+            ['Jaki', 'Foul'],
             ['Tyrant','Snake']
         ],
         devils:[
@@ -365,6 +376,7 @@ const ddd_stable = [
             ['Wilder','Genma'],
             ['Foul','Night'],
             ['Foul','Fury'],
+            ['Jaki', 'Night'],
             ['Tyrant','Genma']
             //['Haunt','Divine']        //Jaki
         ],
@@ -398,6 +410,7 @@ const ddd_stable = [
             ['Foul','Genma'],
             ['Foul','Yoma'],
             ['Tyrant','Fury'],
+            ['Jaki', 'Dragon'],
             ['Tyrant','Foul']
             //['Haunt','Kishin']     //180713 remove
         ],
@@ -429,6 +442,7 @@ const ddd_stable = [
             ['Tyrant','Holy'],
             ['Haunt','Avian'],      //180419 add
             ['Haunt','Fury'],
+            ['Jaki', 'Wilder'],
             ['Haunt','Tyrant']
         ],
         devils:[
@@ -457,6 +471,7 @@ const ddd_stable = [
             ['Wilder','Divine'],
             ['Wilder','Brute'],
             ['Foul','Kishin'],
+            ['Jaki', 'Divine'],
             ['Tyrant','Avian']      //180419 add
         ],
         devils:[
@@ -548,6 +563,7 @@ const ddd_stable = [
             ['Night','Avian'],      //180419 add
             ['Night','Kishin'],
             ['Haunt','Genma'],
+            ['Jaki', 'Megami'],
             ['Haunt','Night']
         ],
         devils:[
@@ -603,6 +619,9 @@ const ddd_stable = [
             ['Wilder','Beast'],
             //['Foul','Lady'],      //Jaki
             ['Tyrant','Divine'],
+            ['Jaki', 'Avatar'],
+            ['Jaki', 'Fallen'],
+            ['Jaki', 'Tyrant'],
             ['Tyrant','Beast']
         ],
         devils:[
@@ -633,6 +652,7 @@ const ddd_stable = [
             ['Tyrant','Herald'],
             ['Haunt','Lady'],
             ['Haunt','Yoma'],
+            ['Jaki', 'Beast'],
             ['Haunt','Beast']
         ],
         devils:[
@@ -680,6 +700,7 @@ const ddd_stable = [
             ['Kishin','Lady'],
             ['Snake','Fury'],
             ['Fallen','Fury'],
+            ['Jaki', 'Genma'],
             ['Vile','Fury']
         ],
         devils:[
@@ -709,6 +730,10 @@ const ddd_stable = [
             ['Foul','Vile'],
             ['Tyrant','Megami'],
             ['Tyrant','Kishin'],
+            ['Jaki', 'Yoma'],
+            ['Jaki', 'Brute'],
+            ['Jaki', 'Femme'],
+            ['Jaki', 'Vile'],
             //['Tyrant','Brute'],       //Jaki
             ['Tyrant','Vile']
         ],
