@@ -861,7 +861,7 @@ const ddd_stable = [
         name_en:'Entity',
         formulas:[],
         devils:[
-            { name:'Alliat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
+            { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
         ]
     },
     {
@@ -1096,7 +1096,7 @@ const skill_stable = [
             {"name":"Samarecarm","name_tw":"薩瑪利卡姆","desc":"Revive a Single Party Member with full HP. (1 use)","mp":8,"point":8,"element":"Null"},
             {"name":"Recarmdra","name_tw":"利卡姆托拉","desc":"Revive All Party Members with full HP, caster dies. (1 use)","mp":8,"point":"10","element":"Null"},
             {"name":"Mother's Creation","name_tw":"","desc":"Revive a Single Party Member with full HP and endows Lydia. (1 use)","mp":8,"point":null,"element":"Null"},
-            {"name":"Ce Acatls' Return","name_tw":"","desc":"Revive All Party Members with full HP. (1 use)","mp":null,"point":null,"element":"Null"},
+            {"name":"Ce Acatls' Return","name_tw":"","desc":"Revive All Party Members with full HP. (1 use)","mp":7,"point":null,"element":"Null"},
             //解毒
             {"name":"Posumudi","name_tw":"病毒解除術","desc":"Cures a Single Party Member of Poison. Reduces the chance of being Poisoned during this wave by 30%.","mp":3,"point":1,"element":"Null"},
             {"name":"Meposumudi","name_tw":"梅波茲姆迪","desc":"Cures All Party Members of Poison. Reduces the chance of being Poisoned during this wave by 30%.","mp":4,"point":5,"element":"Null"},
