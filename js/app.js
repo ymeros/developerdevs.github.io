@@ -806,6 +806,8 @@ const ddd_stable = [
         formulas:[],
         devils:[
             { name:'Mot', name_tw:'吹號者', name_en:'', rarity:5, grade:91, icon:'Mot.jpg', skills:['Megidolaon','Mamudodyne',"Harmonious Death"], skill4:['Mana Gain','Deathtouch','Judgement','Life Surge','Null Phys'], skill5:['','Magic Amp III','Auto-Rakukaja','Enduring Soul','Resist Elec'], elements:['Resist','Resist','','Weak','Repel','','Repel'], type:'Attack'},
+            { name:'Ixtab', name_tw:'吹號者', name_en:'', rarity:5, grade:84, icon:'Ixtab.jpg', skills:['Mamudoon','Bufudyne',"Yaxche"], skill4:['','Hell Gaze','Mahashibaboon','Berserker','Null Light'], skill5:['','Assassin','Insanity','Auto-Rakunda','Mabufudyne'], elements:['','','','','','Weak','Repel'], type:'Support'},
+            { name:'Orcus', name_tw:'吹號者', name_en:'', rarity:5, grade:80, icon:'Orcus.jpg', skills:['War Cry','Law of Hell',"Hell's Gate"], skill4:['','Mamudoon','Nocturne','Tetraka Shift','Null Phys'], skill5:['','Auto-Tarunda','Null Bind','Hell Gaze','Vitality Amp III'], elements:['Resist','Weak','Resist','Weak','Resist','','Null'], type:'Support'},
             { name:'Nergal', name_tw:'吹號者', name_en:'', rarity:5, grade:82, icon:'Nergal.jpg', skills:['Berserker God','Meslamtaea',"Plague of Babylon"], skill4:['Strength Amp III','Hades Blast','Toxic Sting','Auto-Tarukaja','Null Light'], skill5:['','Savage Glee','Auto-Sukukaja','Strength Amp III','Resist Ice'], elements:['','Resist','Weak','','','Resist','Repel'], type:'Support'},
             { name:'Persephone', name_tw:'愛麗絲', name_en:'', rarity:4, grade:72, icon:'Persephone.jpg', skills:['Bufudyne','Mamudoon','Fruit of the Dead'], skill4:['Vengeance','Energy Drain','Prayer','Null Bind','Drain Dark'], skill5:['','Acid Breath','Life Gain','War Cry','Resist Elec'], elements:['','','Null','Weak','','','Null'], type:'Support'},
             { name:'Chernobog', name_tw:'白騎士', name_en:'', rarity:4, grade:64, icon:'Chernobog.png', skills:['Deadly Poison','Hades Blast',"Fog of Death"], skill4:['Sea of Chaos','Dark Sword','Outbreak','Savage Glee','Null Fire'], skill5:['','Deadly Mute','Dmg Panel V II','Tempest Slash','Resist Light'], elements:['','','','','','Weak','Null'], type:'Attack'},
@@ -1364,6 +1366,7 @@ const skill_stable = [
             {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
             {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
             {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Hell's Gate","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 3% less multiple-target attack damage. (Max reduction: 30%)","mp":null,"point":null,"element":"Passive"},
             {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 10% (up to 50%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
         ]
     },
@@ -1377,6 +1380,7 @@ const skill_stable = [
             {"name":"Retaliate","name_tw":"兇猛反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 100 power.","mp":null,"point":"12","element":"Passive"},
             {"name":"Death Counter","name_tw":"死亡反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 150 power.","mp":null,"point":"18","element":"Passive"},
             {"name":"Euphoric Frenzy","name_tw":"魅惑追擊","desc":"When receiving a Phys Attack, 50% chance to Charm the assailant","mp":null,"point":null,"element":"Passive"},
+            {"name":"Yaxche","name_tw":"魅惑追擊","desc":"When downed during the enemy turn, inflicts Almighty (Power:100) damage to the attacker, with 100% chance to inflict Mortal. Nullifies all death prevention skills. Won't activate when your party is wiped out.","mp":null,"point":null,"element":"Passive"},
             //防死
             {"name":"Endure","name_tw":"強忍","desc":"HP stops at 1 HP upon receiving the first killing blow.","mp":null,"point":6,"element":"Passive"},
             {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"Heals 200 HP upon receiving the first killing blow.","mp":null,"point":"18","element":"Passive"},
@@ -1402,6 +1406,7 @@ const skill_stable = [
             {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"While the demon with this skill is alive, the enemy loses an extra Press Turn Icon every time you drain their attack.","mp":null,"point":null,"element":"Passive"},
             {"name":"Faith in Wealth","name_tw":"","desc":"Increases max HP by 10%. Recover 1 MP every time your Press Turn Icon decreases due to enemy skills.","mp":null,"point":null,"element":"Passive"},
             //節省
+            {"name":"Law of Hell","name_tw":"狡計之星","desc":"As long as the demon with this skill is alive, no bonus turn will be granted when a party member's weak point is attacked.","mp":null,"point":null,"element":"Passive"},
             {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
             {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
