@@ -1138,7 +1138,7 @@ const skill_stable = [
             {"name":"Shibaboo","name_tw":"希巴縛","desc":"40% chance to inflict Bind on a Single Enemy.","mp":5,"point":2,"element":"Null"},
             {"name":"Shibabooon","name_tw":"希巴縛翁","desc":"50% chance to inflict Bind on a Single Enemy.","mp":6,"point":8,"element":"Null"},
             {"name":"Mahashibaboo","name_tw":"瑪哈希巴縛","desc":"30% chance to inflict Bind on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahashibabooon","name_tw":"瑪哈希巴縛翁","desc":"40% chance to inflict Bind on All Enemies.","mp":7,"point":null,"element":"Null"},
+            {"name":"Mahashibaboon","name_tw":"瑪哈希巴縛翁","desc":"40% chance to inflict Bind on All Enemies.","mp":7,"point":null,"element":"Null"},
             {"name":"Binding Cry","name_tw":"束縛咆嘯","desc":"30% chance to inflict Bind 2 to 4 times on Random Enemy/ies.","mp":6,"point":null,"element":"Null"},
             //魅
             {"name":"Marin Karin","name_tw":"瑪琳卡琳","desc":"40% chance to inflict Charm on a Single Enemy.","mp":5,"point":2,"element":"Null"},
