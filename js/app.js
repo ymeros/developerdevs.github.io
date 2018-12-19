@@ -709,7 +709,7 @@ const ddd_stable = [
             {                name:'Surt',         name_tw:'史爾特爾', name_en:'',     rarity:5,                grade:83, icon:'maou_suruto.png', skills:["Berserker God","Tetra Shift","Ragnarok"], skill4:["Intimidating Stance","Maragidyne","Rattle","Fire Pierce","Null Ice"], skill5:["","Hellfire","Magic Amp III","Fire Boost","Eat Whole"],elements:["","Drain","Weak","","","",""], type:'Attack'            },
             {                name:'Loki',           name_tw:'洛基', name_en:'',    rarity:4,                grade:75, icon:'maou_roki.png', skills:["Zandyne","Agidyne","Trickster"], skill4:["Ziodyne","Bufudyne","Vengeance","Void Dark Zones","Resist Light"], skill5:["","Bloody Glee","Eat Whole","Mamudoon","Mudoon"],elements:["","","Null","","Resist","Weak","Resist"], type:'Attack'           },
             {                name:'Beelzebub',     name_tw:'別西卜', name_en:'',          rarity:4,                grade:68, icon:'maou_beruzebubu.png', skills:["Mudodyne","Mazionga","Gluttony"], skill4:["Wild Instinct","Bolt Storm","Outbreak","Makara Shift","Repel Light"], skill5:["","Madezoreton","Resist Phys","Bloody Glee","Resist Elec"],elements:["","","","Resist","Resist","Null","Null"], type:'Attack'            },
-            {                name:'King Frost',     name_tw:'冰傑克王', name_en:'',          rarity:4,                grade:64, icon:'maou_jyakuhurosuto.png', skills:["Ice Boost","Megaton Press","Cold World"], skill4:["","Glacial Blast","Concentrate","Luck Amp III","Resist Fire"], skill5:["","Bufudyne","Binge Eating","Hellish Mask","Resist Bind"],elements:["","Weak","Null","","","Resist",""], type:'Attack'            },
+            {                name:'King Frost',     name_tw:'冰傑克王', name_en:'',          rarity:4,                grade:64, icon:'maou_jyakuhurosuto.png', skills:["Ice Boost","Megaton Press","Cold World"], skill4:["Wild Instinct","Glacial Blast","Concentrate","Luck Amp III","Resist Fire"], skill5:["","Bufudyne","Binge Eating","Hellish Mask","Resist Bind"],elements:["","Weak","Null","","","Resist",""], type:'Attack'            },
             {                name:'Abaddon',       name_tw:'阿巴頓', name_en:'',        rarity:4,                grade:60, icon:'maou_abadon.png', skills:["Retaliate","Maragion","Binge Eating"], skill4:["Hellfire","Megaton Raid","Madezoreto","Bloody Glee","Null Phys"], skill5:["","Agility Amp I","Hellish Mask","Ju","Meclosedi"],elements:["","Repel","","Weak","","",""], type:'Attack'            },
             {                name:'Horkos',       name_tw:'奧迦斯', name_en:'',        rarity:3,                grade:46, icon:'maou_okasu.png', skills:["Endure","Retaliate","Hellfire"], skill4:["Auto-Rakukaja","Power Hit","Tetra Break","Vitality Amp II","Null Ice"], skill5:["","Mabufu","Zan","Wild Guess","Fast Recovery"],elements:["Resist","","Weak","","","Weak",""], type:'Attack'            }
         ]
@@ -851,7 +851,7 @@ const ddd_stable = [
         name_en:'Zealot',
         formulas:[],
         devils:[
-            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['Enduring Soul','Recarmdra','Mist Slash'], skill4:['Life Aid','','','',''], skill5:['','','','',''], elements:['Resist','','','','','',''], type:'Attack'},
+            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['Enduring Soul','Recarmdra','Mist Slashes'], skill4:['Life Aid','','','',''], skill5:['','','','',''], elements:['Resist','','','','','',''], type:'Attack'},
             { name:'Dionysus', name_tw:'阿提斯', name_en:'',rarity:4, grade:64, icon:'Dionysus.png', skills:['Back Attack','Infernal Mask','Euphoric Frenzy'], skill4:['Luck Amp II','','','',''], skill5:['','','','',''], elements:['','Null','Weak','Null','','',''], type:'Support'}
         ]
     },
@@ -861,7 +861,7 @@ const ddd_stable = [
         name_en:'Entity',
         formulas:[],
         devils:[
-            { name:'Alliat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Bane of Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
+            { name:'Alliat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
         ]
     },
     {
@@ -1013,7 +1013,7 @@ const skill_stable = [
             {"name":"Mahamadyne","name_tw":"瑪翰達因","desc":"Inflicts Light (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Light"},
             {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Light (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
             {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Light (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
-            {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Light (Magic) damage with 200 power on a Single Enemy, with 50% kill rate.","mp":7,"point":null,"element":"Light"},
+            {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Light (Magic) damage with 200 power on a Single Enemy, with 50% kill rate. (2 Uses)","mp":7,"point":null,"element":"Light"},
             {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Light (Magic) damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"},
             {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Light (Magic) damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"}
         ]
@@ -1274,7 +1274,9 @@ const skill_stable = [
             {"name":"Drain Fire","name_tw":"火炎吸收","desc":"Drain Fire damage","mp":null,"point":"20","element":"Passive"},
             {"name":"Drain Ice","name_tw":"冰凍吸收","desc":"Drain Ice damage","mp":null,"point":"20","element":"Passive"},
             {"name":"Drain Elec","name_tw":"電擊吸收","desc":"Drain Elec damage","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Force","name_tw":"破魔吸收","desc":"Drain Force damage","mp":null,"point":"20","element":"Passive"},
             {"name":"Drain Light","name_tw":"破魔吸收","desc":"Drain Light damage","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Dark","name_tw":"破魔吸收","desc":"Drain Dark damage","mp":null,"point":"20","element":"Passive"},
 
             {"name":"Resist Poison","name_tw":"Resist Poison","desc":"Poison resistance +50%","mp":null,"point":4,"element":"Passive"},
             {"name":"Resist Bind","name_tw":"束縛耐性","desc":"Bind resistance +50%","mp":null,"point":4,"element":"Passive"},
@@ -1354,10 +1356,11 @@ const skill_stable = [
         skills:[
             {"name":"Assassin","name_tw":"Assassin","desc":"+10% to single-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
             {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% to multiple-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Butcher","name_tw":"Butcher","desc":"+10% to multiple-target attack skill damage.","mp":null,"point":"24","element":"Passive"},
+            {"name":"Butcher","name_tw":"Butcher","desc":"+20% to multiple-target attack skill damage.","mp":null,"point":"24","element":"Passive"},
             {"name":"Deadly Poison","name_tw":"毒追擊","desc":"+30% damage to Poisoned enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"+30% damage to Charmed enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Curse","name_tw":"魅惑追擊","desc":"+30% damage to Cursed enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"+30% damage to Muted enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Death Lust","name_tw":"魅惑追擊","desc":"+25% damage to Charmed enemies. Has a 30% to Charm all enemies at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
             {"name":"Curse of Distress","name_tw":"魅惑追擊","desc":"+10% damage to Cursed enemies. -10% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
