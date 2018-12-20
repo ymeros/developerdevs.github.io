@@ -3054,6 +3054,7 @@ Vue.component('devil',{
             app.show_devil_info(this.devil);
         },
         isSkillAvailable:function(inherit){
+            return true;
             if (flag == 0) {
                 if (this.skill == this.devil.skills[0]) {
                     return true;
