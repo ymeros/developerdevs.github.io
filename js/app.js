@@ -3054,7 +3054,7 @@ Vue.component('devil',{
             app.show_devil_info(this.devil);
         },
         isSkillAvailable:function(inherit){
-            if (flag == 0) {
+            if (inherit == 0) {
                 if (this.skill == this.devil.skills[0]) {
                     return true;
                 } else {
@@ -3062,7 +3062,7 @@ Vue.component('devil',{
                 }
             }
 
-            if (flag == 1) {
+            if (inherit == 1) {
                 if (this.skill == this.devil.skills[1] || this.skill == this.devil.skills[2]) {
                     return true;
                 } else {
@@ -3070,7 +3070,7 @@ Vue.component('devil',{
                 }
             } 
 
-            if (flag == 2) {
+            if (inherit == 2) {
                 if (this.devil.skill4.indexOf(this.skill)>=0) {
                     return true;
                 } else {
@@ -3078,7 +3078,7 @@ Vue.component('devil',{
                 }
             }
 
-            if (flag == 3) {
+            if (inherit == 3) {
                 if (this.devil.skill5.indexOf(this.skill)>=0) {
                     return true;
                 } else {
