@@ -3054,7 +3054,39 @@ Vue.component('devil',{
             app.show_devil_info(this.devil);
         },
         isSkillAvailable:function(inherit){
+            if (flag == 0) {
+                if (this.skill == this.devil.skills[0]) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
 
+            if (flag == 1) {
+                if (this.skill == this.devil.skills[1] || this.skill == this.devil.skills[2]) {
+                    return true;
+                } else {
+                    return false;
+                }
+            } 
+
+            if (flag == 2) {
+                if (this.devil.skill4.indexOf(this.skill)>=0) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            if (flag == 3) {
+                if (this.devil.skill5.indexOf(this.skill)>=0) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+
+            /*
             if(inherit){
                 return this.skill==this.devil.skills[0] ||
                     this.devil.skill5.indexOf(this.skill)>=0;
@@ -3064,7 +3096,9 @@ Vue.component('devil',{
                     this.skill==this.devil.skills[2] ||
                     this.devil.skill4.indexOf(this.skill)>=0;
             }
-        },
+            */
+        }
+        /*
         whatType:function(flag){
             if (flag == 0) {
                 if (this.skill == this.devil.skills[0]) {
@@ -3100,6 +3134,7 @@ Vue.component('devil',{
 
             return false;
         }
+        */
     }
 });
 
