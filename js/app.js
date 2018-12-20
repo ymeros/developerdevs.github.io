@@ -3103,6 +3103,13 @@ Vue.component('devil',{
                 }
             }
             */
+        },
+        isGacha:function(){
+            if (this.devil.skill5.indexOf(this.skill)>=0) {
+                return true;
+            } else {
+                return false;
+            }
         }
     }
 });
