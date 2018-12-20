@@ -3063,9 +3063,14 @@ Vue.component('devil',{
                     this.skill==this.devil.skills[2] ||
                     this.devil.skill4.indexOf(this.skill)>=0;
             }
-        }
-        /*
-        whatType:function(flag){
+        },
+        isAwakened:function(){
+            if (this.devil.skill4.indexOf(this.skill)>=0) {
+                return true;
+            } else {
+                return false;
+            }
+            /*
             if (flag == 0) {
                 if (this.skill == this.devil.skills[0]) {
                     return true;
@@ -3097,10 +3102,8 @@ Vue.component('devil',{
                     return false;
                 }
             }
-
-            return false;
+            */
         }
-        */
     }
 });
 
