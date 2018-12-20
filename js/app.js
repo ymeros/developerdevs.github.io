@@ -3070,6 +3070,13 @@ Vue.component('devil',{
             } else {
                 return false;
             }
+        },
+        isGachaSkill:function(){
+            if (this.devil.skill5.indexOf(this.skill)>=0) {
+                return true;
+            } else {
+                return false;
+            }
         }
     }
 });
