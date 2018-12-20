@@ -3070,39 +3070,6 @@ Vue.component('devil',{
             } else {
                 return false;
             }
-            /*
-            if (flag == 0) {
-                if (this.skill == this.devil.skills[0]) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-
-            if (flag == 1) {
-                if (this.skill == this.devil.skills[1] || this.skill == this.devil.skills[2]) {
-                    return true;
-                } else {
-                    return false;
-                }
-            } 
-
-            if (flag == 2) {
-                if (this.devil.skill4.indexOf(this.skill)>=0) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-
-            if (flag == 3) {
-                if (this.devil.skill5.indexOf(this.skill)>=0) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-            */
         },
         isGacha:function(){
             if (this.devil.skill5.indexOf(this.skill)>=0) {
