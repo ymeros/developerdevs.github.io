@@ -1303,6 +1303,7 @@ const skill_stable = [
             //命中
             {"name":"Good Aim","name_tw":"百發百中","desc":"+10% to Phys hit rate.","mp":null,"point":4,"element":"Passive"},
             {"name":"Great Aim","name_tw":"千發千中","desc":"+20% to Phys hit rate.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Rasetsu","name_tw":"千發千中","desc":"+10% to Phys hit rate and casts Rebellion on self at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
             {"name":"Dragon Sense","name_tw":"","desc":"+15% to Phys hit rate and +15% Phys evasion rate.","mp":null,"point":null,"element":"Passive"},
             //迴避
             {"name":"Dodge","name_tw":"識破","desc":"+10% Phys evasion rate.","mp":null,"point":4,"element":"Passive"},
