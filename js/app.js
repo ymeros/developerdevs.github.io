@@ -882,45 +882,51 @@ const skill_stable = [
         name_tw:"Physical",
         name_en:"",
         skills:[
-            //Physical
             {"name":"Cleave","name_tw":"斬擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Physical"},
             {"name":"Fatal Sword","name_tw":"絕命劍","desc":"Inflicts Phys (Physical) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Physical"},
             {"name":"Berserker God","name_tw":"怪力亂神","desc":"Inflicts Phys (Physical) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Physical"},
             {"name":"Megaton Raid","name_tw":"百萬噸襲擊","desc":"Inflicts Phys (Physical) damage with 180 power on a Single Enemy.","mp":7,"point":"12","element":"Physical"},
             {"name":"God's Hand","name_tw":"神之手","desc":"Inflicts Phys (Physical) damage with 200 power on a Single Enemy.","mp":8,"point":"15","element":"Physical"},
+
             {"name":"Mow Down","name_tw":"橫斬","desc":"Inflicts Phys (Physical) damage with 80 power on All Enemies.","mp":4,"point":2,"element":"Physical"},
             {"name":"Herculean Strike","name_tw":"金剛發破","desc":"Inflicts Phys (Physical) damage with 100 power on All Enemies.","mp":5,"point":4,"element":"Physical"},
             {"name":"Hades Blast","name_tw":"Hades Blast","desc":"Inflicts Phys (Physical) damage with 120 power on All Enemies.","mp":6,"point":6,"element":"Physical"},
             {"name":"Vorpal Blade","name_tw":"Vorpal Blade","desc":"Inflicts Phys (Physical) damage with 140 power on All Enemies.","mp":7,"point":8,"element":"Physical"},
             {"name":"Gigantomachia","name_tw":"巨人之戰","desc":"Inflicts Phys (Physical) damage with 160 power on All Enemies.","mp":8,"point":"10","element":"Physical"},
+
             {"name":"Lunge","name_tw":"突擊","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 115 power on a Single Enemy.","mp":4,"point":2,"element":"Physical"},
             {"name":"Oni-Kagura","name_tw":"鬼神樂","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 130 power on a Single Enemy.","mp":5,"point":5,"element":"Physical"},
             {"name":"Mortal Jihad","name_tw":"絕命鬥爭","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on a Single Enemy.","mp":6,"point":7,"element":"Physical"},
+
             {"name":"Heat Wave","name_tw":"灼熱波浪","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 70 power on All Enemies.","mp":5,"point":2,"element":"Physical"},
             {"name":"Megaton Press","name_tw":"百萬噸重壓","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 90 power on All Enemies.","mp":6,"point":4,"element":"Physical"},
             {"name":"Titanomachia","name_tw":"泰坦之戰","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 110 power on All Enemies.","mp":7,"point":6,"element":"Physical"},
             {"name":"Gungnir","name_tw":"永恆之槍","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on All Enemies. (3 uses)","mp":7,"point":null,"element":"Physical"},
             {"name":"Yinlong Killer","name_tw":"應龍擊破","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 150 power on All Enemies.","mp":8,"point":null,"element":"Physical"},
+
             {"name":"Rampage","name_tw":"橫衝直撞","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 45 power on Random Enemy/(ies).","mp":3,"point":3,"element":"Physical"},
             {"name":"Deathbound","name_tw":"神威之擊","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 55 power on Random Enemy/(ies).","mp":4,"point":5,"element":"Physical"},
             {"name":"Madness Nails","name_tw":"狂亂硬爪","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 65 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
+
             {"name":"Hell Claw","name_tw":"地獄兇爪","desc":"Inflicts Phys (Physical) damage 3 times with 30% crit rate and 65 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
             {"name":"Nihil Claw","name_tw":"虛空爪激","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 75 power on Random Enemy/(ies).","mp":6,"point":9,"element":"Physical"},
             {"name":"Tempest Slash","name_tw":"五月雨斬","desc":"Inflicts Phys (Physical) damage 2 to 5 times with 50 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
             {"name":"Myriad Arrows","name_tw":"剎那五月雨擊","desc":"Inflicts Phys (Physical) damage 2 to 5 times with 65 power on Random Enemy/(ies).","mp":7,"point":9,"element":"Physical"},
-            {"name":"Hassou Tobi","name_tw":"八艘跳躍","desc":"Inflicts Phys (Physical) damage 8 times with 35 power on Random Enemy/(ies). Adds Physical Pierce.","mp":7,"point":null,"element":"Physical"},
             {"name":"Mist Slashes","name_tw":"亂・霞霧斬擊","desc":"Inflicts Phys (Physical) damage 3 to 5 times with 50 power on Random Enemy/(ies).","mp":6,"point":null,"element":"Physical"},
+            {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50 power on Random Enemy/(ies) 4 times with a 35% chance to inflict Charm.","mp":7,"point":null,"element":"Physical"},
             {"name":"Gae Bolg","name_tw":"千棘魔槍","desc":"Inflicts Phys (Physical) damage 4 to 6 times with 50 power on Random Enemy/(ies).","mp":7,"point":null,"element":"Physical"},
+            {"name":"Hassou Tobi","name_tw":"八艘跳躍","desc":"Inflicts Phys (Physical) damage 8 times with 35 power on Random Enemy/(ies). Adds Physical Pierce.","mp":7,"point":null,"element":"Physical"},
+
             {"name":"Toxic Sting","name_tw":"Toxic Sting","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Poison.","mp":5,"point":6,"element":"Physical"},
             {"name":"Binding Claw","name_tw":"束縛爪擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Bind.","mp":5,"point":6,"element":"Physical"},
             {"name":"Paralyzing Bite","name_tw":"麻痺咬痕","desc":"Inflicts Phys (Physical) damage with 160 power on a Single Enemy with 35% chance to inflict Poison.","mp":5,"point":null,"element":"Physical"},
             {"name":"Dark Sword","name_tw":"暗夜劍","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Mute.","mp":5,"point":6,"element":"Physical"},
             {"name":"Sweet Bite","name_tw":"甜蜜輕咬","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflicts Charm.","mp":5,"point":6,"element":"Physical"},
+
             {"name":"Eat Whole","name_tw":"大快朵頤","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":6,"element":"Physical"},
             {"name":"Binge Eating","name_tw":"Binge Eating","desc":"Inflicts Phys (Physical) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":8,"element":"Physical"},
-            {"name":"Power Hit","name_tw":"捨身一擊","desc":"Use 10% of own HP to inflict Phys (Physical) damage with 170 power on a Single Enemy.","mp":7,"point":6,"element":"Physical"},
-            {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50 power on Random Enemy/(ies) 4 times with a 35% chance to inflict Charm.","mp":7,"point":null,"element":"Physical"},
             {"name":"Ouas","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 160 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":null,"element":"Physical"},
+            {"name":"Power Hit","name_tw":"捨身一擊","desc":"Use 10% of own HP to inflict Phys (Physical) damage with 170 power on a Single Enemy.","mp":7,"point":6,"element":"Physical"},
             {"name":"Bleeder","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy and reduces MP by 2.","mp":6,"point":null,"element":"Physical"}
         ]
     },
@@ -934,11 +940,14 @@ const skill_stable = [
             {"name":"Agilao","name_tw":"亞基拉歐","desc":"Inflicts Fire (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Fire"},
             {"name":"Agidyne","name_tw":"亞基達因","desc":"Inflicts Fire (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Fire"},
             {"name":"Trisagion","name_tw":"多利斯亞基翁","desc":"Inflicts Fire (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Fire"},
+            
             {"name":"Maragi","name_tw":"瑪哈拉基","desc":"Inflicts Fire (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Fire"},
             {"name":"Maragion","name_tw":"瑪哈拉基翁","desc":"Inflicts Fire (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Fire"},
             {"name":"Maragidyne","name_tw":"瑪哈亞吉達因","desc":"Inflicts Fire (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Fire"},
+            
             {"name":"Fire Breath","name_tw":"火焰吐息","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Fire"},
             {"name":"Hellfire","name_tw":"地獄業火","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":"10","element":"Fire"},
+            
             {"name":"Ragnarok","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 215 power on a Single Enemy. Adds 20% damage to this skill based on your Phys ATK status.","mp":7,"point":null,"element":"Fire"},
             {"name":"MahaLantine","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Fire"}
         ]
@@ -953,11 +962,14 @@ const skill_stable = [
             {"name":"Bufula","name_tw":"布芙拉","desc":"Inflicts Ice (Magic) damage with 140 power on a Single Enemy.","mp":"5","point":"6","element":"Ice"},
             {"name":"Bufudyne","name_tw":"布芙達因","desc":"Inflicts Ice (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Ice"},
             {"name":"Ice Age","name_tw":"大冰河時期","desc":"Inflicts Ice (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Ice"},
+            
             {"name":"Mabufu","name_tw":"瑪哈布芙","desc":"Inflicts Ice (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Ice"},
             {"name":"Mabufula","name_tw":"瑪哈布芙拉","desc":"Inflicts Ice (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Ice"},
             {"name":"Mabufudyne","name_tw":"瑪哈布芙達因","desc":"Inflicts Ice (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Ice"},
+            
             {"name":"Ice Breath","name_tw":"極寒吐息","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Ice"},
             {"name":"Glacial Blast","name_tw":"絕對零度","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Ice"},
+            
             {"name":"Cold World","name_tw":"Cold World","desc":"Inflicts Ice (Magic) damage with 130 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":7,"point":null,"element":"Ice"},
             {"name":"MahaFrosty","name_tw":"諸神的黃昏","desc":"Inflicts Ice (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Ice"}
         ]
@@ -972,9 +984,11 @@ const skill_stable = [
             {"name":"Zionga","name_tw":"吉歐加","desc":"Inflicts Elec (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Elec"},
             {"name":"Ziodyne","name_tw":"吉歐達因","desc":"Inflicts Elec (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Elec"},
             {"name":"Thunder Reign","name_tw":"真理之雷","desc":"Inflicts Elec (Magic) damage with 180 power on a Single Enemy.","mp":"7","point":12,"element":"Elec"},
+            
             {"name":"Mazio","name_tw":"瑪哈吉歐","desc":"Inflicts Elec (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Elec"},
             {"name":"Mazionga","name_tw":"瑪哈吉歐加","desc":"Inflicts Elec (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Elec"},
             {"name":"Maziodyne","name_tw":"瑪哈吉歐達因","desc":"Inflicts Elec (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Elec"},
+            
             {"name":"Shock","name_tw":"Shock","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Elec"},
             {"name":"Bolt Storm","name_tw":"衝擊波","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Elec"},
             {"name":"Mjolnir","name_tw":"雷神之槌","desc":"Inflicts Elec (Magic) damage 4 to 5 times with 60 power on Random Enemy/ies.","mp":7,"point":null,"element":"Elec"}
@@ -990,11 +1004,14 @@ const skill_stable = [
             {"name":"Zanma","name_tw":"颯瑪","desc":"Inflicts Force (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Force"},
             {"name":"Zandyne","name_tw":"颯達因","desc":"Inflicts Force (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Force"},
             {"name":"Killing Wind","name_tw":"Deadly Wind","desc":"Inflicts Force (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Force"},
+            
             {"name":"Mazan","name_tw":"瑪哈颯","desc":"Inflicts Force (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Force"},
             {"name":"Mazanma","name_tw":"瑪哈颯瑪","desc":"Inflicts Force (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Force"},
             {"name":"Mazandyne","name_tw":"瑪哈颯達因","desc":"Inflicts Force (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Force"},
+            
             {"name":"Wind Breath","name_tw":"狂風吐息","desc":"Inflicts Force (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Force"},
             {"name":"Twister","name_tw":"龍捲風","desc":"Inflicts Force (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Force"},
+            
             {"name":"Kusanagi","name_tw":"","desc":"Inflicts Force (Magic) damage with 205 power on a Single Enemy and increases own party's ATK 20% for 3 turns. The damage inflicted by this skill is dependent on Phys ATK.","mp":6,"point":null,"element":"Force"}
         ]
     },
@@ -1008,14 +1025,17 @@ const skill_stable = [
             {"name":"Hamaon","name_tw":"哈瑪翁","desc":"Inflicts Light (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Light"},
             {"name":"Hamadyne","name_tw":"哈瑪達因","desc":"Inflicts Light (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Light"},
             {"name":"Thunderclap","name_tw":"制裁雷火","desc":"Inflicts Light (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Light"},
+            
             {"name":"Mahama","name_tw":"瑪哈瑪","desc":"Inflicts Light (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Light"},
             {"name":"Mahamaon","name_tw":"瑪哈瑪翁","desc":"Inflicts Light (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Light"},
             {"name":"Mahamadyne","name_tw":"瑪翰達因","desc":"Inflicts Light (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Light"},
+            
             {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Light (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
             {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Light (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
+            {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Light (Magic) damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"},
+            
             {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Light (Magic) damage with 200 power on a Single Enemy, with 50% kill rate. (2 Uses)","mp":7,"point":null,"element":"Light"},
-            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Light (Magic) damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"},
-            {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Light (Magic) damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"}
+            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Light (Magic) damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"}
         ]
     },
     {
@@ -1028,13 +1048,15 @@ const skill_stable = [
             {"name":"Mudoon","name_tw":"姆多翁","desc":"Inflicts Dark (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Dark"},
             {"name":"Mudodyne","name_tw":"姆多達因","desc":"Inflicts Dark (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Dark"},
             {"name":"Hell Gaze","name_tw":"Hell Gaze","desc":"Inflicts Dark (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Dark"},
+            
             {"name":"Mamudo","name_tw":"瑪哈姆多","desc":"Inflicts Dark (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Dark"},
             {"name":"Mamudoon","name_tw":"瑪哈姆多翁","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Dark"},
             {"name":"Mamudodyne","name_tw":"瑪哈姆多翁","desc":"Inflicts Dark (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Dark"},
-            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":9,"element":"Dark"},
+            
             {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Dark"},
             {"name":"Purgatory","name_tw":"Purgatory","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Dark"},
-            {"name":"Allure","name_tw":"肉體的解放","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":6,"point":null,"element":"Dark"},
+            
+            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":9,"element":"Dark"},
             {"name":"Gluttony","name_tw":"暴食重罪","desc":"Inflicts Dark (Magic) damage with 130 power on All Enemies, while healing caster 50% of damage dealt.","mp":7,"point":null,"element":"Dark"},
             {"name":"Go to Hell!","name_tw":"可以為我而死嗎？","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies with a 80% chance to inflict Curse. The damage is done with Dark Pierce.","mp":7,"point":null,"element":"Dark"},
             {"name":"Die for Me!","name_tw":"可以為我而死嗎？","desc":"Kills a Single Enemy. 1 Use.","mp":7,"point":null,"element":"Dark"}
@@ -1052,14 +1074,17 @@ const skill_stable = [
             {"name":"Mind Blast","name_tw":"Mind Blast","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 4MP.","mp":7,"point":null,"element":"Almighty"},
             {"name":"Energy Drain","name_tw":"能量抽取","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy, while healing caster 25% of damage dealt and drains 1MP.","mp":7,"point":6,"element":"Almighty"},
             {"name":"Soul Drain","name_tw":"靈魂抽取","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt and drains 1MP.","mp":8,"point":7,"element":"Almighty"},
+            
             {"name":"Megido","name_tw":"米吉朵","desc":"Inflicts Almighty (Magic) damage with 80 power on All Enemies.","mp":6,"point":5,"element":"Almighty"},
             {"name":"Megidola","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies.","mp":7,"point":8,"element":"Almighty"},
             {"name":"Megidolaon","name_tw":"米吉朵拉翁","desc":"Inflicts Almighty (Magic) damage with 120 power on All Enemies.","mp":8,"point":"12","element":"Almighty"},
+            
             {"name":"Sea of Chaos","name_tw":"混沌之海","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
             {"name":"Demon Birth Cry","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's ATK 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
             {"name":"Rattle","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's EV/AC 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
             {"name":"Necro Dogma","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases allies DEF 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
             {"name":"Judgement","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":"12","element":"Almighty"},
+            
             {"name":"Mind Break","name_tw":"Mind Break","desc":"Inflicts Almighty (Magic) damage with 80 power on a Single Enemy and reduces MP by 3 MP.","mp":5,"point":6,"element":"Almighty"},
             {"name":"Fire of Sinai","name_tw":"西奈的神火","desc":"Inflicts Almighty (Magic) damage 5 times with 45 power on Random Enemy/ies.","mp":7,"point":null,"element":"Almighty"},
             {"name":"Pralaya","name_tw":"大劫","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies while removing Repel Phys and Repel Mag. The damage inflicted by this skill is dependent on Phys ATK.","mp":8,"point":null,"element":"Almighty"},
