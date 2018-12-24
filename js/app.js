@@ -1067,7 +1067,6 @@ const skill_stable = [
         name_tw:"萬能",
         name_en:"",
         skills:[
-            //萬
             {"name":"Life Drain","name_tw":"Life Drain","desc":"Inflicts Almighty (Magic) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":3,"element":"Almighty"},
             {"name":"Deathtouch","name_tw":"死亡之觸","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":6,"element":"Almighty"},
             {"name":"Spirit Drain","name_tw":"Spirit Drain","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 1MP.","mp":6,"point":3,"element":"Almighty"},
@@ -1383,6 +1382,7 @@ const skill_stable = [
             {"name":"Assassin","name_tw":"Assassin","desc":"+10% to single-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
             {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% to multiple-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
             {"name":"Butcher","name_tw":"Butcher","desc":"+20% to multiple-target attack skill damage.","mp":null,"point":"24","element":"Passive"},
+            
             {"name":"Deadly Poison","name_tw":"毒追擊","desc":"+30% damage to Poisoned enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"+30% damage to Charmed enemies.","mp":null,"point":13,"element":"Passive"},
@@ -1391,6 +1391,7 @@ const skill_stable = [
             {"name":"Death Lust","name_tw":"魅惑追擊","desc":"+25% damage to Charmed enemies. Has a 30% to Charm all enemies at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
             {"name":"Curse of Distress","name_tw":"魅惑追擊","desc":"+10% damage to Cursed enemies. -10% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
             {"name":"Curse of Anguish","name_tw":"魔封追擊","desc":"+15% damage to Cursed enemies. -15% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
+            
             {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":"18","element":"Passive"},
             {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
             {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
