@@ -2366,7 +2366,7 @@ var app = new Vue({
 
         //modal
 
-        updated_at:'12-17-2018',
+        updated_at:'12-26-2018',
 
         //important for update computed's getter from setter
         computed_counter:{
