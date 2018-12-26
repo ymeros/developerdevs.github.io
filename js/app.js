@@ -3002,6 +3002,14 @@ var app = new Vue({
             this.info_target = devil;
             this.$root.$emit('bv::show::modal','modal_devil_info');
         },
+        show_guide_devil:function(new_devil){
+            var devils = this.devils.filter(function(devil){
+                return devil.name == new_devil.name;
+            });
+            
+            this.info_target = devils;
+            this.$root.$emit('bv::show::modal','modal_devil_info');
+        },
         auto_costdown: function(bom, rarity, type){
 
             if(bom && bom.devil.rarity>rarity){
