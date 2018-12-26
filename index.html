@@ -1658,6 +1658,11 @@
                         <b-badge class="ml-2" variant="warning" v-if="isSkillAvailable(0)">Non-Transferable</b-badge>
                         <b-badge class="ml-2" v-if="isAwakened()">Awaken</b-badge>
                         <b-badge class="ml-2" v-if="isGachaSkill()">Gacha</b-badge>
+                        <b-badge v-if="isCommon()" class="bg-secondary text-white">Com</b-badge>
+                        <b-badge v-if="isAragami()" class="bg-danger text-white">Ara</b-badge>
+                        <b-badge v-if="isProtector()" class="text-white" style="background:peru">Pro</b-badge>
+                        <b-badge v-if="isPsychic()" class="text-white" style="background:orchid">Psy</b-badge>
+                        <b-badge v-if="isElementalist()" class="bg-info text-white">Ele</b-badge>
                     </span>
                 </div>
             </b-card-body>

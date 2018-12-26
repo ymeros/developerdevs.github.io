@@ -3120,6 +3120,49 @@ Vue.component('devil',{
             } else {
                 return false;
             }
+        },
+        isCommon:function(){
+            if (this.devil.skill4.indexOf(this.skill)==0) {
+                return true;
+            } else {
+                return false;
+            }
+        },
+        isAragami:function(){
+            if (this.devil.skill4.indexOf(this.skill)==1) {
+                return true;
+            } else if (this.devil.skill5.indexOf(this.skill)==1) {
+                return true;
+            } else {
+                return false;
+            }
+        },
+        isProtector:function(){
+            if (this.devil.skill4.indexOf(this.skill)==2) {
+                return true;
+            } else if (this.devil.skill5.indexOf(this.skill)==2) {
+                return true;
+            } else {
+                return false;
+            }
+        },
+        isPsychic:function(){
+            if (this.devil.skill4.indexOf(this.skill)==3) {
+                return true;
+            } else if (this.devil.skill5.indexOf(this.skill)==3) {
+                return true;
+            } else {
+                return false;
+            }
+        },
+        isElementalist:function(){
+            if (this.devil.skill4.indexOf(this.skill)==4) {
+                return true;
+            } else if (this.devil.skill5.indexOf(this.skill)==4) {
+                return true;
+            } else {
+                return false;
+            }
         }
     }
 });
