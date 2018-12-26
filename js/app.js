@@ -3004,6 +3004,7 @@ var app = new Vue({
         },
         show_guide_devil:function(new_devil){
             var devils = this.devils.filter(function(devil){
+                console.log(devil);
                 return devil.name == new_devil.name;
             });
             
