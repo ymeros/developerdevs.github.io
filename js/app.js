@@ -3004,11 +3004,10 @@ var app = new Vue({
         },
         show_guide_devil:function(new_devil){
             var devils = this.devils.filter(function(devil){
-                console.log(devil);
-                return devil.name == new_devil.name;
+                return devil.name == new_devil;
             });
             
-            this.info_target = devils;
+            this.info_target = devils[0];
             this.$root.$emit('bv::show::modal','modal_devil_info');
         },
         auto_costdown: function(bom, rarity, type){
