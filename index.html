@@ -52,11 +52,34 @@
     }
     
     /* Custom css for tables found in the "Demon Guide"*/
+    /* Cells */
     #DemonGuideTable td {
       border: 2px solid #dddddd;
       text-align: center;
       padding: 8px;
     }
+    /* Archetype Categories */
+    #DemonGuide-Common {
+      background-color:#6C757D; 
+      color:white;
+    }
+    #DemonGuide-Aragami {
+      background-color:#DC3545; 
+      color:white;
+    }
+    #DemonGuide-Protector {
+      background-color:#CD853F; 
+      color:white;
+    }
+    #DemonGuide-Psychic {
+      background-color:#DA70D6; 
+      color:white;
+    }
+    #DemonGuide-Elementalist {
+      background-color:#17A2B8; 
+      color:white;
+    }
+    
     </style>
     <script src="js/vue.min.js"></script>
     <script src="js/bootstrap-vue.min.js"></script>
@@ -385,27 +408,27 @@
                             <td> <b> Gacha demons </b> </td>
                           </tr>
                           <tr>
-                              <td><b>Common</b></td>
+                              <td id="DemonGuide-Common"><b>Common</b></td>
                               <td>Seth, Metatron, Susano-o, Izanami </td>
                               <td> N/A</td>
                           </tr>
                           <tr>
-                              <td style="color:red;"> <b> Aragami<b></td>
+                              <td id="DemonGuide-Aragami"> <b> Aragami<b></td>
                               <td>Shiva, Vishnu, Zaou Gongen, Izanami</td>
                               <td>Nergal</td>
                           </tr>
                           <tr>
-                            <td style="color:orange;"><b>Protector</b></td>
+                            <td id="DemonGuide-Protector"><b>Protector</b></td>
                               <td>Amaterasu, Michael, Huang Long, Ishtar, Black Frost, Garuda, Izanami </td>
                               <td>Yoshitsune, Rama, Mother Harlot, Mot, Nergal, Orcus</td>
                           </tr>
                           <tr>
-                            <td style="color:purple;"> <b>Psychic </b></td>
+                            <td id="DemonGuide-Psychic"> <b>Psychic </b></td>
                             <td> Lucifer, Mara, Huang Long, Samael, Ananta, Surt, Thor, Asherah, Mastema, Cu Chulainn, Garuda, Lakshmi, Izanami, </td>
                             <td> Yoshitsune, Huang Di, Rama, Siegfried, Mother Harlot, Trumpeter, Alice, Mot, Ixtab </td>
                           </tr>
                           <tr>
-                            <td style="color:teal;"> <b> Elementalist </b></td>
+                            <td id="DemonGuide-Elementalist"> <b> Elementalist </b></td>
                             <td> Lilith, Quetzalcoatl, Ishtar, Amaterasu, Mastema, Asherah, Seth, Shiva, Barong, Susano-o </td>
                              <td> Yoshitsune, Huang Di, Siegfried, Mother Harlot, Alice, Mot, Ixtab </td>
                           </tr>
@@ -437,7 +460,7 @@
                     <div id="DemonGuideTable">
                     <p><table>
                       <tbody>
-                        <tr><td><b>Common</b></td>
+                        <tr><td id="DemonGuide-Common"><b>Common</b></td>
                             <td><b>Enduring Soul</b> increases his survivability, ensuring he lives means ensuring he can kill. 
                                 You can easily stack this with Endure to make him really hard to kill.
                                 
@@ -446,22 +469,22 @@
                             </td>
                             <td><b>Best</b></td>
                         </tr>
-                        <tr><td style="color:red;"> <b> Aragami</b></td>
+                        <tr><td id="DemonGuide-Aragami"> <b> Aragami</b></td>
                             <td><b>Mahamadyne</b> gives him an aoe to use (though is restricted to light). This is amazing for content such as Sloth 10 and Aura Gate. </td>
                             <td>Usable</td>
                         </tr>
-                        <tr><td style="color:orange;"><b>Protector</b></td>
+                        <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
                             <td><b>Offensive Cry</b> is a great offensive buff (granting Tarukaja and Rakunda), he can set up the damage buff leaving your other sweepers 
                                 to then follow up, hitting as hard as possible.
                                 
                                 <br> Sadly this is only usable for manual play, due to him being Attack AI he'd never use it on auto </td>
                             <td>Usable</td>
                         </tr>
-                        <tr><td style="color:purple;"> <b>Psychic </b></td>
+                        <tr><td id="DemonGuide-Psychic"> <b>Psychic </b></td>
                             <td> <b>Mana Gain</b>/Bonus is sadly a bad skill in general, there isn't really any reason to save up to 12 mp.
                             <td>Bad</td>
                         </tr>
-                        <tr><td style="color:teal;"> <b> Elementalist </b></td>
+                        <tr><td id="DemonGuide-Elementalist"> <b> Elementalist </b></td>
                             <td>Given he has resist elec in general, <b>Repel Elec</b> for one upgrades it, but it doesn't really do much.
                                 The only case where this would help is when facing Thor with Elec Pierce. 
                                 <br> Pair Metatron with Alilat and you can block elec sweeping. Its a pretty rare case and so it doesn't 
@@ -494,25 +517,25 @@
                     <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
-                          <tr><td><b>Common</b></td>
+                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
                               <td><b>Vitality Amp III</b> would increase his tankiness, but that is not his main role, he's best as dps.</td>
                               <td>Bad</td>
                           </tr>
-                          <tr><td style="color:red;"><b>Aragami</b></td>
+                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
                               <td><b>Mind Blast</b> gives him a upgraded Mind Break for support. You could use it to drain dangerous sweepers of their mp, but
                               why do that when you can sweep them instead with MS/Megidolaon.</td>
                               <td>Usable</td>
                           </tr>
-                          <tr><td style="color:orange;"><b>Protector</b></td>
+                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
                               <td>You wouldn't really expect him to survive last/be a tank and so <b>Recarmdra</b> doesn't have much use. People would generally aim
                               for him first, so its unlikely he'd survive to the point where he can use this </td>
                               <td>Bad</td>
                           </tr>
-                          <tr><td style="color:purple;"><b>Psychic</b></td>
+                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
                               <td>Nothing else really beats <b>Butcher</b>. It is the only way to increase his sweeping damage due to Morning Star/Megidolaon being almighty. 
                               <td><b>Best</b></td>
                           </tr>
-                          <tr><td style="color:teal;"><b>Elementalist</b></td>
+                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
                               <td><b>Drain Light</b> would only be better if you manage to have gotten a Butcher skill genome. It covers his weakness allowing him to be healed
                               instead (You'd want to cover his weakness anyways and so Resist Light would work regardless).
                                 <p> Personally if i ever got Butcher, i'd transfer it to another demon and have him as Purple. </p>
@@ -533,37 +556,32 @@
                 </b-card>
                 
                 <!-- BOOKMARK: CONTINUE HERE
-                      <div id="DemonGuideTable">
-                        <p><table>
-                          <tbody>
-                            <tr>
-                                <td><b>Common</b></td>
-                                <td><b>SKILL</b></td>
-                                <td>Bad</td>
-                            </tr>
-                            <tr>
-                                <td style="color:red;"> <b>Aragami</b></td>
-                                <td><b>SKILL</b></td>
-                                <td>Bad</td>
-                            </tr>
-                            <tr>
-                              <td style="color:orange;"><b>Protector</b></td>
-                                <td><b>SKILL</b></td>
-                                <td>Bad</td>
-                            </tr>
-                            <tr>
-                              <td style="color:purple;"> <b>Psychic</b></td>
-                                <td><b>SKILL</b></td>
-                                <td>Bad</td>
-                            </tr>
-                            <tr>
-                              <td style="color:teal;"> <b>Elementalist</b></td>
-                                <td><b>SKILL</b></td>
-                                <td>Bad</td>
-                            </tr>
-                          </tbody>
-                        </table></p>
-                      </div>
+                    <div id="DemonGuideTable">
+                      <p><table>
+                        <tbody>
+                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                          </tr>
+                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                          </tr>
+                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                          </tr>
+                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                              <td><b></b>
+                              <td><b></b></td>
+                          </tr>
+                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                          </tr>
+                        </tbody>
+                      </table></p>
+                    </div>
                 -->
                 
                 <b-card>
