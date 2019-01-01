@@ -872,7 +872,7 @@ const ddd_stable = [
         devils:[
             {                name:'Halloween Jack',        name_tw:'奧伯隆',  name_en:'Halloween Jack',      rarity:4,                grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
             {                name:'Helper Frost',        name_tw:'奧伯隆',  name_en:'Helper Frost',      rarity:4,                grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Weak","Drain","","","",""], type:"Attack"            },
-            {                name:'Mishaguji',        name_tw:'奧伯隆',  name_en:'Mishaguji',      rarity:4,                grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:["Tetraja","","","",""],elements:["","","","Null","Weak","Weak","Null"], type:"Attack"            }
+            {                name:'Mishaguji',        name_tw:'奧伯隆',  name_en:'Mishaguji',      rarity:4,                grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:["","Tetraja","","",""],elements:["","","","Null","Weak","Weak","Null"], type:"Attack"            }
         ]
     }
 ];
