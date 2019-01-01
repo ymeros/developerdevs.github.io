@@ -1,0 +1,17 @@
+========== FOCUS ==========
+  - Demon Guide: Update to use new tables
+  - Add Faction Rankings
+
+========== OPTIONAL ==========
+  - /u/FrostKyuby: 
+      - https://old.reddit.com/r/Dx2SMTLiberation/comments/a88k4d/mavericks_calculator_update/ecz848p/?context=3
+      - Check resizing of the site when doing large fusions. 
+        E.g. Check Metatron with 1* fusions.
+      - Have downloadable option for fusion paths
+      - State number of demon(s) needed/quantity of each
+  
+  - /u/bytezilla:
+      - https://old.reddit.com/r/Dx2SMTLiberation/comments/a88k4d/mavericks_calculator_update/ec8z800/
+      - Recursive normal fusion. E.g. Anubis can fuse into Cu, from Cu check what he can fuse into.
+  
+========== BUGS ==========
