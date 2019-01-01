@@ -500,7 +500,7 @@
                 </b-card>
 
                 <b-card>
-                    <p><strong><a id="Metatron" href="javascript:void(0)" @click="show_guide_devil('Metatron')">[Metatron]</a>
+                    <p><strong><a id="Metatron" href="javascript:void(0)" @click="show_guide_devil('Metatron')">Metatron</a>
                         </strong></p>
                     <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
                         guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
@@ -581,7 +581,7 @@
                 </b-card>
 
                 <b-card>
-                    <p><strong><a id="Lucifer" href="javascript:void(0)" @click="show_guide_devil('Lucifer')">[Lucifer]</a></strong></p>
+                    <p><strong><a id="Lucifer" href="javascript:void(0)" @click="show_guide_devil('Lucifer')">Lucifer</a></strong></p>
                     <p>Strongest almighty sweeper, ideally you'd want purple archetype (Butcher) to ensure he's as
                         powerful as he can get. The reason for this is that he comes with the unique skill: Morning
                         Star (MS). Given the fact it can be levelled as well it can reach really high numbers.
@@ -674,7 +674,7 @@
                 -->
 
                 <b-card>
-                    <p><strong><a id="Vishnu" href="javascript:void(0)" @click="show_guide_devil('Vishnu')">[Vishnu]</a></strong></p>
+                    <p><strong><a id="Vishnu" href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Vishnu</a></strong></p>
                     <p>A Strong slow caster with the unique passive Avatar. This acts as an improved Enduring Soul + Life Aid
                        combined into one (500 HP, 50% per wave. It's also levellable). He naturally also nulls light/dark and with his low agi 
                        and survival, he can be used in slower pvp teams + pve content such as Sloth 10, Aether farming.
@@ -785,56 +785,49 @@
                 
                 <b-card>
                     <p><strong><a id="MotherHarlot" href="javascript:void(0)" @click="show_guide_devil('Mother Harlot')">Mother Harlot</a></strong></p>
-                    <p>The third gacha exclusive demon in the game with 2 unique skills. She has Mana Gain (meh),
-                        Death
-                        Lust (+25% dmg to charmed enemies, 30% chance to charm all at the start of your turn) and
-                        Babylon Goblet (Almighty damage to all, 100 dmg and drains 1mp from each target). She
-                        punishes
-                        teams without Ward brands and for pve content has a chance to charm off the bat every wave.
-                        Babylon Goblet is amazing at sucking the mp out of the enemy team, using her in a Jack Bros
-                        setup you can rob them of all their mana and when its their turn they'd be unable to
-                        counter
-                        attack.</p>
-                        <div id="DemonGuideTable">
-                            <p><table>
-                              <tbody>
-                                <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                                    <td><b></b></td>
-                                    <td></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                                    <td><b>Deathtouch</b><br><b>Tetra Shift</b></td>
-                                    <td></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                                    <td><b>Debilitate</b> makes her also able to support your party (Though
-                                        you
-                                        still should be spamming Babylon Goblet when you can) through the best debuff in the
-                                        game.
-                                    <br>
-                                <b>Infernal Mask</b> means you don't really have to run Ward, given she naturally also has
-                                pretty</td>
-                                    <td></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                                    <td>Stacking <b>Deadly Charm</b> with her passive, will allow you
-                                        do a lot more damage to charmed enemies
-                                    <br>
-                                <b>Insanity</b> will increase her chances of charming enemies overall</td>
-                                    <td><b></b></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                                    <td><b>Drain Phys</b> is useful when you have Rama with you (since she has
-                                        Drain
-                                        Elec as well), she can stop heavy piercing phys hitters and Thor from from sweeping
-                                        you.
-                                    <br> Naturally she has Null Phys so she can stop a lot of phys users. <b>
-                                        Makara Shift</b> is nice in playing defensively when you start second in pvp. </td>
-                                    <td></td>
-                                </tr>
-                              </tbody>
-                            </table></p>
-                          </div>
+                    <p>Comes with 2 unique skills: Death Lust (increased dmg to charmed enemies, chance to charm foes at the start of your turn), 
+                       Babylon Goblet (BG) (almighty aoe skill which drains 1mp from each target hit) and Mana Gain. She
+                       punishes teams without Ward brands and in pve content has a chance to charm enemies every wave.
+                       Babylon Goblet is amazing at draining mp out of the enemy team (using her in a Jack Bros
+                       setup you can rob them of all their mana, preventing them from counterattacking)
+                    </p>
+                    <div id="DemonGuideTable">
+                        <p><table>
+                          <tbody>
+                            <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                <td><b>Magic Amp III</b> Increases her base magic, this can be decent if you're into min maxing and don't 
+                                really care about the other archetypes</td>
+                                <td>Not Obtainable</td>
+                            </tr>
+                            <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                <td><b>Deathtouch</b> gives her a single target skill. Be wary though as if you don't use Divine brands, she'd use this over BG.
+                                <br><b>Tetra Shift</b> helps when starting second, it prevents phys attacks though isn't as good as it used to be due to the prevalent use of pierce</td>
+                                <td>Usable</td>
+                            </tr>
+                            <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                <td><b>Debilitate</b> allows her to lend support your party (Though you still should be spamming Babylon Goblet when you can) through the best debuff 
+                                       in the game. Since double debuffs exist, Debiliate doesn't shine as much as its essentially the same with an extra debuff tacked on.
+                                <br>
+                                  <b>Infernal Mask</b> is amazing for her due to her natural high luck, greatly increasing ailment infliction/resistance. It also means you don't have 
+                                  to run ward (I would not replace this skill because of its usefulness and rarity)</td>
+                                <td>Usable</td>
+                            </tr>
+                            <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                <td>Stacking <b>Deadly Charm</b> with her passive, would amp up damage done to charmed enemies (Have another demon spam charm to get the best out of it).
+                                <br>
+                                  <b>Insanity</b> will increase her chances of charming enemies overall (this will affect her initial charm passive i'm pretty sure)</td>
+                                <td><b>Best (Offensive)</b></td>
+                            </tr>
+                            <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                <td><b>Drain Phys</b> is useful when you have Rama with you (since she has Drain Elec as well), stopping piercing phys hitters and Thor from from sweeping you.
+                                  <br> Naturally she has Null Phys anyways so prevents phys aoe in general. 
+                                    <b>Makara Shift</b> is nice defensively for when you start second in pvp. 
+                                </td>
+                                <td><b>Best (Defensive)</b></td>
+                            </tr>
+                          </tbody>
+                        </table></p>
+                      </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
                         <li>Resist Force. She has a weakness that should be covered.</li>
