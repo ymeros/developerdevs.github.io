@@ -1,8 +1,13 @@
 ========== FOCUS ==========
   - Demon Guide: Update to use new tables
-  - Add Faction Rankings
+  - New: Add Faction Rankings
+  - Mutli-fusions: Show components required to fuse them
 
 ========== OPTIONAL ==========
+  - Us:
+    - Add Tier List
+    - Updated beginner's guide
+
   - /u/FrostKyuby: 
       - https://old.reddit.com/r/Dx2SMTLiberation/comments/a88k4d/mavericks_calculator_update/ecz848p/?context=3
       - Check resizing of the site when doing large fusions. 
