@@ -32,12 +32,12 @@
   - Skill transfers are allowed, restricted to demons gained via talk (no genomes)
   - Evolving allowed, however you can only use mats via demons gained via talk (no mirrors)
   - No fusion allowed
-  - No levelling quests allowed
+  - No leveling quests allowed
   - No friend units allowed
   
 - Progress:
   - Azuraki =
-  - Dev = 
+  - Dev = Chapter 2-13 Complete
 
 - Demon Team:
   - Azuraki
@@ -45,5 +45,5 @@
     - Sub = 
     
   - Dev = 
-    - Main = 
-    - Sub = 
+    - Main = Apsaras, Sandman, Jack Frost, Obariyon
+    - Sub = Obariyon
