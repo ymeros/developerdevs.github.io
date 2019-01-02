@@ -36,12 +36,16 @@
   - No friend units allowed
   
 - Progress:
-  - Azuraki =
+  - Azuraki = 2-10 Complete
   - Dev = Chapter 2-13 Complete
 
 - Demon Team:
   - Azuraki
     - Main = 
+      - [15] Cu Sith (Agilao)
+      - [15] Preta 
+      - [13] Jack Frost
+      - [14] Pixie
     - Sub = 
     
   - Dev = 
