@@ -1133,37 +1133,50 @@
                 <!-- [Alice] -->
                 <b-card>
                     <p><strong><a id="Alice" href="javascript:void(0)" @click="show_guide_devil('Alice')">Alice</a></strong></p>
-                    <p>Dark oriented unit with Mamudoon, Mudodyne and her unique Die for Me! (Kills a single enemy,
-                        one use only). Yup, she can kill anyone she points her finger at (provided they aren't
-                        immune to dark/boss as they are immune). She's really good for shutting down dangerous
-                        opponents and can hit hard provided no dark immunity as that's all her base kit relies on.
+                    <p>Dark oriented unit with Mamudoon, Mudodyne and her unique Die for Me! (DfM) (Kills a single enemy,
+                        one use only). Yup, she can kill anyone she points her finger at and so she's really good for shutting down dangerous
+                        opponents and can hit hard provided they don't have dark immunity as that's all her base kit relies on.
                     </p>
+                        DfM can be countered by:
+                        <ul>
+                          <li>Having a Null/Drain/Repel (ndr) Dark unit, the skill needs to land to activate</li>
+                          <li>Using Tetraja (Patrimpas/Mishaguji), this prevents Mortal (instant kill skills), though DfM will do damage in this case</li>
+                          <li>Using Makarakarn/5 Elements, walling off all of her damage sources. Though you can run Makara Break/Silent Prayer to also remove reflect shields</li>
+                          <li>DfM does not go through endure/enduring soul/avatar. So if a demon is hit by it and has that skill, they'll still survive.</li>
+                        </ul>
                     <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td>TODO: <b>Soul Drain</b></td>
+                              <td><b>Soul Drain</b> gives her a single target almighty skill, giving her more coverage. Since she's too reliant on dark this is good 
+                                  for when you face dark immune opponents.</td>
                               <td>Unobtainable</td>
                           </tr>
                           <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td>TODO: <b>Hell Gaze</b><br><b>Glacial Blast</b></td>
+                              <td>She doesn't really need more dark skills so <b>Hell Gaze</b> wouldn't help much in that department. Sure it's an upgrade to Mudodyne, but 
+                                  it leaves less flexibility in your final skill slots (Mudodyne works well enough anyways).
+                                  <br>
+                                    <b>Glacial Blast</b> enables her to use ice. Being multi-hit it would be good for bosses but can be stopped by ndr and so it's better generally
+                                    to get single target to ensure you can land a hit or aoe if you know no enemies are immune.
+                              </td>
                               <td>Bad</td>
                           </tr>
                           <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td>Needs update: <b>Necro Dogma</b>, given its cost
-                                  (9mp) and effect (Almighty damage 100 to all enemies + Rakukaja), isn't that
-                                  good as its a weak Megidolaon. <br><b>Epic Recovery</b> is sadly meh, but it is a rare skill.</td>
+                              <td><b>Necro Dogma</b> gives her an almighty skill to play with, also landing more of a support role (Necro Dogma has a Rakukaja effect) and giving her more coverage.
+                                  <br>It is quite a costly skill however, so if you want to make the most out of it, it's recommended running Divine brands with it.
+                              <br><b>Epic Recovery</b> is a rare skill, but currently is pretty bad. For defending yourself against ailments, its better to rely on preventing it rather than rng to cure it.</td>
                               <td>Usable</td>
                           </tr>
                           <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Dark Amp</b> makes all her dark skills hit harder<br>
-                                  <b>Wild Instinct</b> is pretty bad, I'd recommend removing it (However its one of a kind, so a rare skill since she's the only one with it).</td>
+                              <td><b>Dark Amp</b> stacks up her dark damage, making it hit way harder
+                                  <br>
+                                    <b>Wild Instinct</b> is pretty bad as well. Reducing crit damage taken is not that great (she also has quite high luck so won't be hit by crits that much in the first place)
+                              </td>
                               <td><b>Best (Offensive)</b></td>
                           </tr>
                           <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Repel Light</b> covers her light weakness.<br><b>Thunder Reign</b> gives her an
-                                  alternate source of attack. It is quite powerful so it'll capitalize on her
-                                  high magic stat and gives her more coverage (which she really needs).</td>
+                              <td><b>Repel Light</b> covers her light weakness, granting her immunity as well. She can pair well with Alilat to prevent Light and Dark pierce.
+                                <br><b>Thunder Reign</b> gives her a powerful single target elec skill, so it'll capitalize on her high magic stat and more coverage (which she really needs).</td>
                               <td><b>Best (Defensive)</b></td>
                           </tr>
                         </tbody>
@@ -1171,53 +1184,50 @@
                     </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Light (If not Teal) she should have her weakness covered.</li>
-                        <li>Dark Boost to take support her kit</li>
-                        <li>Megido as she only uses Dark skills, Almighty can be used when you face dark
-                            immune/resistant opponents.</li>
+                        <li>Resist Light (If not Teal). she should have her weakness covered.</li>
+                        <li>Dark Boost. Increase her dark damage further, if you run it with Purple, then she's stuck with dark skills only (provided you covered weakness)</li>
+                        <li>Megido (If not Clear/Yellow). As she only uses Dark skills, Almighty can be used when you face dark
+                            immune/resistant opponents. Any other element would work too, but almighty would be best.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine/Ward helps you charge up for Die For Me! as quickly as
-                        possible, though Spell would work as Mamudoon and Mudodyne both cost 6 mp only.</p>
+                    <p><strong>Brands:</strong> Divine/Ward helps you charge up for Die For Me! as quickly as possible, though Spell 
+                        would work as Mamudoon and Mudodyne both cost 6 mp only.</p>
                 </b-card>
                 <!-- [Huang Di] -->
                 <b-card>
                     <p><strong><a id="HuangDi" href="javascript:void(0)" @click="show_guide_devil('Huang Di')">Huang Di</a></strong></p>
-                    <p>Another powerful hero with no weaknesses, high strength, high agility, luck and this time
-                        sporting 2 unique skills + Hades Blast. Superior Power (Passive) which boosts his accuracy
-                        + granting him Phys pierce (!!!) and Yinlong Killer, a sweeping phys skill which adds 50%
-                        crit with 150 power. With that skillset he's quite devastating in any content and this is
-                        probably why (him + Hell Biker + Zaou Gongen), you see a lot of anti-phys defense teams in
-                        pvp.
+                    <p>The most powerful hero in game with no weaknesses, high strength, high agility, luck, sporting 2 unique skills + Hades Blast. Superior Power 
+                      (which boosts his accuracy and granting him Phys pierce (!!!) and Yinlong Killer, a sweeping phys skill which adds 50% with high power. 
+                       With that skillset he's quite devastating in any content and this is probably why (him + Hell Biker/Zaou Gongen setup), you see a lot of anti-phys 
+                       defense teams in pvp.
                     </p>
                     <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td>TODO: <b>Life Aid</b></td>
+                              <td><b>Life Aid</b> doesn't help that much with him. Due to innate resistances he can take a fair amount of damage, though i suppose this archetype 
+                                  would be better than Yellow's Salvation.</td>
                               <td>Bad</td>
                           </tr>
                           <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Berserker God</b> is good at taking out single targets but his main use is in
-                                  sweeping anyhows.<br><b>Auto-Taruka</b> is what makes this really nice since it saves
-                                  you using another demon with it. If you have Ananta, this archetype isn't that
-                                  good.</td>
+                              <td><b>Berserker God</b> is really good for taking out single targets. If you don't run divine, regardless you can turn one attempt to snipe an enemy.
+                                  <br><b>Auto-Taruka</b> Saves you using another demon with it. If you have Ananta, then this skill can be replaced if you wish to</td>
                               <td><b>Best (Offensive)</b></td>
                           </tr>
                           <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Salvation</b> is not that good on him as he is not a
-                                  caster.<br><b>Null Phys</b> is what makes this pulled archetype good (and is the only source of a
+                              <td><b>Salvation</b> is not that good on him as he is not a caster (and it's too costly). It's unlikely he'd ever use it in auto.
+                                  <br><b>Null Phys</b> is what makes this pulled archetype good (and is the only source of a
                                   Null resistance that is transferable). If his attack is repelled he won't die to the
-                                  reflected damage so you can sweep teams using Alilat + repel phys.</td>
+                                  reflected damage and so you can sweep teams irregardless of Alilat + repel phys.</td>
                               <td>Bad</td>
                           </tr>
                           <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Null Charm</b> is amazing in pvp.<br><b>Serial Killer</b> will boost his aoe
-                                  damage even further.</td>
+                              <td><b>Null Charm</b> is amazing for pvp. If he's charmed then chances are he'll take down your own team due to his sheer power.
+                                  <br><b>Serial Killer</b> will boost his aoe damage even further but can easily be replaced with Phys boost if you wish (10% vs 15%), or you could run both.</td>
                               <td><b>Best (Defensive)</b></td>
                           </tr>
                           <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Repel Light</b> means you can't be one
-                                  shotted by God's Bow.<br><b>Infernal mask</b> ensures he's unlikely to be hit by ailments.</td>
+                              <td><b>Repel Light</b> prevents deaths via God's Bow, light sweeping (e.g. Mastema) and light piercing when paired with Alilat.
+                                <br><b>Infernal mask</b> ensures he's unlikely to be hit by ailments (I wouldn't recommend removing this due to its rarity and how useful it can be).</td>
                               <td>Usable</td>
                           </tr>
                         </tbody>
@@ -1227,12 +1237,14 @@
                     <ul>
                         <li>Phys Boost. Damage up, sweeping all day and all night</li>
                         <li>Endure/Enduring Soul for more survival so he can bring the pain.</li>
+                        <li>Bloody/Savage Glee. If you want even higher chances for criticals</li>
+                        <li>Null Phys (If not Yellow). Prevents reflected damage from killing him</li>
+                        <li>Butcher. Pair with Phys Boost (or Amp if you're lucky) to increase his damage even further.</li>
                     </ul>
-                    <p><strong>Brands:</strong> War to maximise his damage or Divine if you want to pull off turn 1
-                        Hades Blast and have 2 turn Yinlong Killer spamming. People sometimes go with Life too to
-                        ensure he's bulky. You wouldn't really need Ward as Purple or pulled Teal though it can act
-                        as a safety harness. In that case Aim would be nice against evasion teams or Shield for
-                        magic defense.</p>
+                    <p><strong>Brands:</strong> War to maximise his damage or Divine if you want to pull off turn 1 Hades Blast + have 2 turn Yinlong Killer spamming. 
+                        Life can ensure he's bulky. You wouldn't really need Ward as Purple or pulled Teal but it can act as a safety harness. 
+                        In that case Aim could be nice against evasion teams or Shield for magic defense.
+                    </p>
                 </b-card>
                 <!-- [Huang Long] -->
                 <b-card>
