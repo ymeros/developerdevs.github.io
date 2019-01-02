@@ -25,13 +25,15 @@
 - Goal: Finish Chapter 6
 
 - Restrictions:
-  - Only use main character dx2
   - Start with a 1* Demon
   - If you need to awaken your demons, farm the relevant aethers using the one team
   - You can only use brands earned from doing story quests
   - You can add party members based on the ones earned via demon talk
+  - Skill transfers are allowed, restricted to demons gained via talk (no genomes)
+  - Evolving allowed, however you can only use mats via demons gained via talk (no mirrors)
   - No fusion allowed
   - No levelling quests allowed
+  - No friend units allowed
   
 - Progress:
   - Azuraki =
