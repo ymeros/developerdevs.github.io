@@ -1446,117 +1446,121 @@
                 <!-- [Lakshmi] -->
                 <b-card>
                     <p><strong><a id="Lakshmi" href="javascript:void(0)" @click="show_guide_devil('Lakshmi')">Lakshmi</a></strong></p>
-                    <p>The demon with the highest magic stat in the game. She also comes with a unique skill Lotus
-                        dance (60% chance to charm all enemies), given her high luck stat she's almost guaranteed
-                        to inflict charm on the enemy team.</p>
-                        <div id="DemonGuideTable">
-                                <p><table>
-                                  <tbody>
-                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                                        <td>TO DO: <b>Mana Gain</b></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                                        <td>TO DO: <b>Killing Wind</b></td>
-                                        <td></td>
-                                    </tr>
-                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                                        <td><b>Defensive Cry</b> (Tarunda + Rakukaja), gives her more of a support utility.</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                                        <td><b>Insanity</b> is another valid choice in increasing her really high ailment chance
-                                            (perhaps you could even charm a rock O-O).</td>
-                                        <td></td>
-                                    </tr>
-                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                                        <td><b>Null Force</b> will cover her weakness.</td>
-                                        <td></td>
-                                    </tr>
-                                  </tbody>
-                                </table></p>
-                              </div>
+                    <p>Demon with the highest magic stat in the game. She also comes with a unique skill Lotus dance (60% chance to charm all enemies), 
+                       given her high luck stat she's almost guaranteed to inflict charm on the enemy team and so can be built as magic dps or ailment slinger.</p>
+                    <div id="DemonGuideTable">
+                      <p><table>
+                        <tbody>
+                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                              <td><b>Mana Gain</b> gives her more mp. Not useful at all sadly.</td>
+                              <td>Bad</td>
+                          </tr>
+                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                              <td><b>Killing Wind</b> gives her a single target force skill, its okay but more coverage is always better. On the plus side you can single out enemies with it.</td>
+                              <td>Usable</td>
+                          </tr>
+                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                              <td><b>Defensive Cry</b> (Tarunda + Rakukaja), gives her more of a support utility. It's an amazing defensive buff for keeping your team alive.</td>
+                              <td>Usable</td>
+                          </tr>
+                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                              <td><b>Insanity</b> is another good choice in increasing her already really high ailment chance if you want to maximise it (perhaps you could even charm a certain rock).
+                                <br> Personally i feel her charm chance is already high enough (you could always run ailment %/sick brands anyways), but this archetype is usable regardless.
+                              </td>
+                              <td>Usable</td>
+                          </tr>
+                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                              <td><b>Null Force</b> will cover her weakness, giving you freedom in customizing the two skill slots.</td>
+                              <td><b>Best</b></td>
+                          </tr>
+                        </tbody>
+                      </table></p>
+                    </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Force. if her weakness isn't covered.</li>
-                        <li>Megido/la/laon. To take advantage of her really high magic stat.</li>
+                        <li>Resist Force. if not Teal.</li>
+                        <li>Megido. To take advantage of her really high magic stat. Megidola/Megidolaon would be if you use Divine brands</li>
                         <li>Madness/Insanity. If you really want guaranteed ailment infliction then you can
-                            transfer these too (though i think it may be a bit overkill anyhows haha). It would
-                            help against high luck demons like Zhong Kui and Alilat if its crucial that they are to
-                            be charmed.</li>
+                            transfer these too (though i think it may be a bit overkill). It would help against high luck demons like Zhong Kui, Dionysus, Alilat if its crucial 
+                            that they are to be inflicted.
+                        </li>
+                        <li>Single target Ice. The main counter to ailments is Kinmamon and some people choose not to cover his weakness, if you could deal enough damage you could lock down 
+                            their ailment clearer.
+                        </li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine type to ensure turn one charms + if you do go with an aoe
-                        almighty skill, the ability to spam it. Support type for Yellow if you want her to be more
-                        defensive. Sick brands too are also good, 60% + 20% from sick + 20% insanity = guaranteed
-                        charm? though you'd have to factor in opponents luck and resistances anyhows.</p>
+                    <p><strong>Brands:</strong> Divine to ensure turn one charms + if you do go with an aoe
+                        almighty skill, the ability to spam it. Life for Yellow if you want her to be more
+                        defensive. Sick brands are also good for a more slow but higher odds approach.</p>
                 </b-card>
                 <!-- [Ixtab] -->
                 <b-card>
                     <p><strong><a id="Ixtab" href="javascript:void(0)" @click="show_guide_devil('Ixtab')">Ixtab</a></strong></p>
-                    <p>The opposite of a tanky demon as instead of surviving as long as possible she'd prefer to die
-                        due to her unique passive Yaxche. This activates only on the enemy turn and has the effect of
-                        when she dies: her killer is hit by an almighty attack (100 power) and is killed with a 100%
-                        success rate. This bypasses Endure/Avatar/Enduring Soul, Tetraja and Seiran's Null Mortal, but
-                        doesn't activate if her team is wiped out/she's the last one to die. On offense you can easily
-                        exploit the game's AI to target her by intentionally leaving her at level 1, or having the
-                        least defense/hp/mdef so they're tempted to kill her straight away.</p>
+                    <p>The opposite of a tanky demon as instead of surviving as long as possible she'd prefer to die for me due to her unique passive Yaxche. 
+                        This activates only on the enemy turn as when she dies: her killer is hit by an almighty attack and is killed with a 100%
+                        success rate (same effect as White Rider/Alice). This bypasses Endure/Avatar/Enduring Soul, but doesn't activate if her team is wiped out/she's the last to die. 
+                        On offense you can easily exploit the game's AI to target her by intentionally leaving her at level 1, or having the least 
+                        defense/hp/mdef so they're tempted to kill her straight away.</p>
                     <ul>
                         <li>There are counters to her ability if you ever see her on defense teams:
                             <ul>
                                 <li>Kill all other demons and leave her last. </li>
-                                <li> Use Huang Long's special ability: 5 elements as this repels almighty attacks,
+                                <li>Use Huang Long's special ability: 5 elements as this repels almighty attacks,
                                     blocking her ability.</li>
                                 <li>Use ailments on her/her team. Poison can kill her without worry of her passive,
                                     charm can force her allies to kill her.</li>
                                 <li>Bring Reiko as you'd probably expect them to use Recarm a lot. This will ensure
                                     Ixtab's ability only activates once as she should be easily killable </li>
+                                <li>Tetraja via Patrimpas or Mishaguji can block her ability as well. 
+                                    I do feel Huang Long would be better in this regard, but if you don't have him they're good alternatives.</li>
                             </ul>
                         </li>
                     </ul>
                     <div id="DemonGuideTable">
-                            <p><table>
-                              <tbody>
-                                <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                                    <td>TO DO:<b></b><br><b></b></td>
-                                    <td></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                                    <td>TO DO: <b>Hell Gaze</b><br><b>Assassin</b></td>
-                                    <td></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                                    <td><b>Mahashibaboon</b> allows her to bind multiple enemies. <br><b>Insanity</b> complements
-                                        the fact that levelling up her passive also increases her ailment infliction rate. Give her
-                                        other ailments and she can pile them on the enemy team.</td>
-                                    <td></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                                    <td><b>Berserker</b>, usually bad (+10% damage dealt, +20% damage
-                                        taken) is good in her case as you'd want her to Die For Me. 
-                                        <br><b>Auto-Rakunda</b> also adds onto
-                                        this making the enemy team worry more about their defenses at the start of the match. You
-                                        can technically build her for magic if you want as berserker would make her hit harder. She
-                                        has low strength so don't bother with phys skills/stats.</td>
-                                    <td></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                                    <td>TO DO: <b>Null Light</b><br><b>Mabufudyne</b></td>
-                                    <td></td>
-                                </tr>
-                              </tbody>
-                            </table></p>
-                          </div>
+                      <p><table>
+                        <tbody>
+                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                              <td><b>Null Weak</b>prevents a already not that good ailment from hitting her. If you build her up to resist ailments this would help in terms that rely on inflicting Weak.</td>
+                              <td>Unobtainable</td>
+                          </tr>
+                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                              <td><b>Hell Gaze</b>gives her a powerful single target dark skill. Paired with her gacha skill, you can run her as glass cannon. 
+                                  <br><b>Assassin</b> would boost up the damage of Hell Gaze and her innate Bufudyne as well.
+                              </td>
+                              <td>Usable</td>
+                          </tr>
+                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                              <td><b>Mahashibaboon</b> sets her up as an ailment user (she naturally has pretty good luck for infliction). 
+                                  <br><b>Insanity</b> complements this and there's also the fact that levelling up her passive also increases her ailment 
+                                  infliction rate. Give her other ailments and she can pile them on the enemy team.
+                              </td>
+                              <td><b>Best (Ailment)</b></td>
+                          </tr>
+                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                              <td><b>Berserker</b>, usually bad (increase damage dealt, increased damage taken), but in her case has the opposite effect. 
+                                  <br><b>Auto-Rakunda</b> helps in swinging the offensive balance to your side (pair with Auto-Taruka for the best effect) on match start. 
+                                  You can build for magic as berserker would make her hit harder. She has low strength so don't bother with phys.
+                                  </td>
+                              <td><b>Best (Offensive)</b></td>
+                          </tr>
+                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                              <td><b>Null Light</b> covers her weakness which is desired, you wouldn't want the enemy team to get extra press turns off her death (in case they kill her revivers).
+                                <br><b>Mabufudyne</b> gives her an aoe ice skill, its not really needed so up to you whether you keep it or not.
+                              </td>
+                              <td>Usable</td>
+                          </tr>
+                        </tbody>
+                      </table></p>
+                    </div>
                     <p><strong>Recommended Skills: </strong></p>
                     <ul>
-                        <li>Madness. When Yellow its a good complement to go with her.</li>
+                        <li>Resist Light. Not for the purpose of reducing damage, but instead not giving the enemy extra press turns.</li>
+                        <li>Madness. Good when combined with Yellow's Insanity its a good to go with her.</li>
                         <li>Recarmdra, Samarecarm. Bring back allies if she's being targeted last</li>
                         <li>Any other ailment skills like Charm, Mute, Weak, etc.</li>
-                        <li>Barrier break to remove barriers for ailment inflicting (though another demon can
-                            technically fulfil this role)</li>
+                        <li>Barrier break to remove barriers for ailment inflicting (though another demon can fulfil this role)</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine/Ward, Speed/Ward, Spell/Ward, Lead/Lead, etc. Don't give her
-                        Life/def/mdef, instead focus on stats like Ailment Infliction, Ailment Resistance, Speed (If
-                        you want to act first), Matk % if you want to use her to attack.</p>
+                    <p><strong>Brands:</strong> Divine, Speed, Spell, Lead combinations all work. Don't give her HP/def/mdef and instead focus on stats like Ailment Infliction, 
+                        Ailment Resistance, Speed (If you want to act first), Matk % if you want to use her as dps.</p>
                 </b-card>
                 <!-- [Samael] -->
                 <b-card>
