@@ -20,3 +20,28 @@
       - Recursive normal fusion. E.g. Anubis can fuse into Cu, from Cu check what he can fuse into.
   
 ========== BUGS ==========
+
+========== Dev's challenge ==========
+- Goal: Finish Chapter 6
+
+- Restrictions:
+  - Only use main character dx2
+  - Start with a 1* Demon
+  - If you need to awaken your demons, farm the relevant aethers using the one team
+  - You can only use brands earned from doing story quests
+  - You can add party members based on the ones earned via demon talk
+  - No fusion allowed
+  - No levelling quests allowed
+  
+- Progress:
+  - Azuraki =
+  - Dev = 
+
+- Demon Team:
+  - Azuraki
+    - Main = 
+    - Sub = 
+    
+  - Dev = 
+    - Main = 
+    - Sub = 
