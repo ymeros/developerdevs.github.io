@@ -11,6 +11,7 @@ Publish: https://oceanxdds.github.io/dx2_fusion/
 //////////////////////
 
 var fragmentCheckboxes = document.getElementsByClassName("fragment");
+var agCheckboxes = document.getElementsByClassName("talkAG");
 var ch1TalkCheckboxes = document.getElementsByClassName("talkCh1");
 var ch2TalkCheckboxes = document.getElementsByClassName("talkCh2");
 var ch3TalkCheckboxes = document.getElementsByClassName("talkCh3");
@@ -21,6 +22,7 @@ var ch7TalkCheckboxes = document.getElementsByClassName("talkCh7");
 var ch7aTalkCheckboxes = document.getElementsByClassName("talkCh7a");
 
 var allFragmentCheckbox = document.getElementById("allFragments");
+var allAGCheckbox = document.getElementById("allAG");
 var allCh1TalkCheckbox = document.getElementById("allTalkCh1");
 var allCh2TalkCheckbox = document.getElementById("allTalkCh2");
 var allCh3TalkCheckbox = document.getElementById("allTalkCh3");
@@ -32,6 +34,7 @@ var allCh7aTalkCheckbox = document.getElementById("allTalkCh7a");
 
 function updateAllFreebies(checkbox) {
     updateAllFreebiesHelper("allFragments", checkbox.checked);
+    updateAllFreebiesHelper("allAG", checkbox.checked);
     updateAllFreebiesHelper("allTalkCh1", checkbox.checked);
     updateAllFreebiesHelper("allTalkCh2", checkbox.checked);
     updateAllFreebiesHelper("allTalkCh3", checkbox.checked);
@@ -50,6 +53,7 @@ function updateAllFreebiesHelper(idName, checkStatus) {
 
 function updateAllFrebiesCheckboxStatus() {
     var categoryArray = ["allFragments",
+        "allAG",
         "allTalkCh1",
         "allTalkCh2",
         "allTalkCh3",
@@ -86,6 +90,10 @@ function updateCatagoryCheckboxStatus(idName) {
         case "allFragments":
             desiredGroup = fragmentCheckboxes;
             desiredCatagory = document.getElementById("allFragments");
+            break;
+        case "allAG":
+            desiredGroup = agCheckboxes;
+            desiredCatagory = document.getElementById("allAG");
             break;
         case "allTalkCh1":
             desiredGroup = ch1TalkCheckboxes;
@@ -153,6 +161,10 @@ function updateFreebie(checkbox) {
             properParentCheckbox = document.getElementById("allFragments");
             childBoxes = fragmentCheckboxes;
             break;
+        case "talkAG":
+            properParentCheckbox = document.getElementById("allAG");
+            childBoxes = agCheckboxes;
+            break;
         case "talkCh1":
             properParentCheckbox = document.getElementById("allTalkCh1");
             childBoxes = ch1TalkCheckboxes;
@@ -217,7 +229,12 @@ function updateFreebieRegion(checkbox) {
                 fragmentCheckboxes[i].checked = checkbox.checked;
             }
             break;
-        case "allTalkCh1":
+        case "allAG":
+            for (var i = 0; i < agCheckboxes.length; i++) {
+                agCheckboxes[i].checked = checkbox.checked;
+            }
+            break;
+       case "allTalkCh1":
             for (var i = 0; i < ch1TalkCheckboxes.length; i++) {
                 ch1TalkCheckboxes[i].checked = checkbox.checked;
             }
