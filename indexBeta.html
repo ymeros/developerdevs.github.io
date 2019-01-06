@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 
 <head>
@@ -10,6 +10,7 @@
     <title>Dx2 Database</title>
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="css/bootstrap-vue.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/beta.css">
     <style>
         [v-cloak] {
       display: none;
@@ -53,13 +54,10 @@
     
     /* Custom css for tables found in the "Demon Guide"*/
     /* Cells */
-    #DemonGuide-Table td {
+    #DemonGuideTable td {
       border: 2px solid #dddddd;
       text-align: center;
       padding: 8px;
-    }
-    #DemonGuide-Table-Label {
-      background-color:#EAECF0;
     }
     /* Archetype Categories */
     #DemonGuide-Common {
@@ -101,13 +99,14 @@
 
             <b-collapse is-nav id="nav_collapse">
                 <b-navbar-nav>
-                    <b-nav-item href="#" @click="route('fusion.devil')" :active="isRoute('fusion.devil')">Demons</b-nav-item>
+                    <b-nav-item href="#" @click="route('fusion.devil')" :active="isRoute('fusion.devil')">{{
+                        $t('message.devil') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('fusion.fission')" :active="isRoute('fusion.fission')">{{
                         $t('message.reverse_fusion') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('fusion.fusion')" :active="isRoute('fusion.fusion')">{{
                         $t('message.normal_fusion') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('skill')" :active="isRoute('skill')">{{ $t('message.skill') }}</b-nav-item>
-                    <b-nav-item href="#" @click="route('guide')" :active="isRoute('guide')">Advanced Guide: Demons</b-nav-item>
+                    <b-nav-item href="#" @click="route('guide')" :active="isRoute('guide')">Demon Guide</b-nav-item>
                 </b-navbar-nav>
                 <b-navbar-nav class="ml-auto">
                     <b-nav-form action="#" class="d-none d-md-block">
@@ -149,6 +148,79 @@
                         <b-tab :title="$t('message.reverse')" no-body>
                             <b-card no-body v-if="builder_target">
                                 <b-list-group flush>
+                                    <b-list-group-item class="p-2">
+                                        <input type="checkbox" onclick="updateAllFreebies(this); updateAllFrebiesCheckboxStatus();" id="allFreebies"><label for="option">All Farmable Demons</label>
+                                        <div id="freebies" class="row align-items-center">
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allFragments"><label for="option">Fragment</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Apis">Apis</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Dakini">Dakini</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Horus">Horus</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Kushinada">Kushinada</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Makami">Makami</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Mitra">Mitra</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Mothman">Mothman</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Power">Power</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh1"><label for="allTalkCh1">Ch1 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh1" value="Slime">Slime</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh2"><label for="allTalkCh2">Ch2 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh2" value="Preta">Preta</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh2" value="Melchom">Melchom</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh3"><label for="allTalkCh3">Ch3 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh3" value="Nekomata">Nekomata</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh3" value="Sandman">Sandman</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh4"><label for="allTalkCh4">Ch4 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh4" value="Leanan Sidhe">Leanan Sidhe</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh4" value="Momunofu">Momunofu</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh5"><label for="allTalkCh5">Ch5 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh5" value="Pisaca">Pisaca</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh5" value="Yomotsu-Shikome">Yomotsu-Shikome</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh6"><label for="allTalkCh6">Ch6 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh6" value="Decarabia">Decarabia</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh6" value="Black Ooze">Black Ooze</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh7"><label for="allTalkCh7">Ch7 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7" value="Principality">Principality</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7" value="Archangel">Archangel</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh7a"><label for="allTalkCh7a">Ch7a Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7a" value="Pisaca">Pisaca</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7a" value="Mou-Ryo">Mou-Ryo</label></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </b-list-group-item>
                                     <b-list-group-item class="p-2">
                                         <div class="row align-items-center">
                                             <div class="col-auto">
@@ -339,7 +411,7 @@
             <!-- index_main : 5 guide -->
 
             <b-tab no-body class="p-2">
-                <h4 style="text-align: center;">Azuraki's Notes on 5* Demons</h4>
+                <h4 style="text-align: center;">Azuraki's Notes</h4>
                 <ul>
                   <li>This is a guide for all 5* demons in the game when you want to fuse them/archetype change. </li>
                   <li>Its focus is in analyzing and discussing what are good/bad archetypes
@@ -402,91 +474,52 @@
                         </li>
                       </ul>
                     </li></p>
-                    
-                    <!-- [Best Archetypes] -->
-                      <div id="DemonGuide-Table">
-                      <table><tbody>
-                        <tr>
-                          <td id="DemonGuide-Table-Label" rowspan="2"><b>Archetype</b></td>
-                          <td id="DemonGuide-Table-Label" colspan="2"><b>Best Archetype</b></td>
-                          <td id="DemonGuide-Table-Label" colspan="2"><b>Usable Archetypes</b></td>
-                        </tr>
-                        <tr>
-                          <td id="DemonGuide-Table-Label">Fusable</td>
-                          <td id="DemonGuide-Table-Label">Gacha</td>
-                          <td id="DemonGuide-Table-Label">Fusable</td>
-                          <td id="DemonGuide-Table-Label">Gacha</td>
-                        </tr>
-                        <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                          <!-- Best: CMN -->
-                          <td>Metatron, Surt, Susano-o</td>
-                          <td>Unobtainable </td>
-                          <!-- Usable: CMN -->
-                          <td>Vishnu, Shiva, Izanami, Seth, Asherah,
-                            <br>Amaterasu, Black Frost, Garuda, Lilith
-                          </td>
-                          <td>Unobtainable </td>
-                        </tr>
-                        <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                          <!-- Best: ARA --> 
-                          <td>Vishnu, Zaou Gongen</td>
-                          <td>Huang Di, Siegfried</td>
-                          <!-- Usable: ARA --> 
-                          <td>Metaron, Lucifer, Shiva, Michael, Izanami, 
-                            <br>Lakshmi, Seth, Thor, Mastema, Ishtar,
-                            <br>Quetzalcoatl, Garuda
-                          </td>
-                          <td>Yoshitsune, Mother Harlot, Trumpeter, Ixtab, Nergal</td>
-                        </tr>
-                        <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                          <!-- Best: PRT -->
-                          <td>Zaou Gongen, Amaterasu, Ishtar, Black Frost, Garuda</td>
-                          <td>Ixtab, Norgal, Orcus</td>
-                          <!-- Usable: PRT -->
-                          <td>Metaron, Vishnu, Michael, Izanami, Huang Long,
-                            <br>Lakshmi, Seth, Barong, Quetzalcoatl, Lilith
-                          </td>
-                          <td>Yoshitsune, Mother Harlot, Trumpeter, Mot, Alice,
-                            <br>Rama, Siegfried
-                          </td>
-                        </tr>
-                        <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                          <!-- Best: PSY -->
-                          <td>Lucifer, Mara, Huang Long, Samael, Ananta, 
-                            <br>Surt, Thor, Mastema, Cu Chulainn, Garuda
-                          </td>
-                          <td>Trumpeter, Yoshitsune, Mother Harlot, Mot, Alice, 
-                            <br>Huang Di, Rama, Ixtab, Siegfried
-                          </td>                      
-                          <!-- Usable: PSY -->
-                          <td>Shiva, Michael, Izanami, Lakshmi, Asherah,
-                            <br>Amaterasu, Black Frost, Quetzalcoatl, Lilith
-                          </td>
-                          <td> - </td>
-                        </tr>
-                        <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                          <!-- Best: ELE -->
-                          <td>Shiva, Michael, Lakshmi, Seth, Barong, 
-                            <br>Asherah, Quetzalcoatl, Lilith
-                          </td>
-                          <td>Yoshitsune, Alice</td>
-                          <!-- Usable: ELE -->
-                          <td>Lucifer, Huang Long, Mastema
-                            <br>Amaterasu, Ishtar, Susano-o
-                          </td>
-                          <td>Mot, Huang Di, Rama, Ixtab, Siegfried, 
-                           <br>Orcus
-                          </td>
-                        </tr>
-                      </tbody></table>
+
+                    <div id="DemonGuideTable">
+                      <li><strong> Good archetypes for demons: </strong>
+                        <table><tbody>
+                            <tr>
+                                <td> <b> Archetype </b> </td>
+                                <td> <b> Fusable demons </b> </td>
+                                <td> <b> Gacha demons </b> </td>
+                            </tr>
+                            <tr>
+                                <td id="DemonGuide-Common"><b>Common</b></td>
+                                <td>Seth, Metatron, Susano-o, Izanami </td>
+                                <td> N/A</td>
+                            </tr>
+                            <tr>
+                                <td id="DemonGuide-Aragami"> <b> Aragami<b></td>
+                                <td>Shiva, Vishnu, Zaou Gongen, Izanami</td>
+                                <td>Nergal</td>
+                            </tr>
+                            <tr>
+                                <td id="DemonGuide-Protector"><b>Protector</b></td>
+                                <td>Amaterasu, Michael, Huang Long, Ishtar, Black Frost, Garuda, Izanami </td>
+                                <td>Yoshitsune, Rama, Mother Harlot, Mot, Nergal, Orcus</td>
+                            </tr>
+                            <tr>
+                                <td id="DemonGuide-Psychic"> <b>Psychic </b></td>
+                                <td> Lucifer, Mara, Huang Long, Samael, Ananta, Surt, Thor, Asherah, Mastema,
+                                    Cu Chulainn, Garuda, Lakshmi, Izanami, </td>
+                                <td> Yoshitsune, Huang Di, Rama, Siegfried, Mother Harlot, Trumpeter, Alice,
+                                    Mot, Ixtab </td>
+                            </tr>
+                            <tr>
+                                <td id="DemonGuide-Elementalist"> <b> Elementalist </b></td>
+                                <td> Lilith, Quetzalcoatl, Ishtar, Amaterasu, Mastema, Asherah, Seth, Shiva,
+                                    Barong, Susano-o </td>
+                                <td> Yoshitsune, Huang Di, Siegfried, Mother Harlot, Alice, Mot, Ixtab </td>
+                            </tr>
+                        </tbody></table>
+                      </li>
                     </div>
-                      
-                    <br>
                     
                     <li>Even if you have a demon with an unoptimal archetype, you can always shift their archetype by
-                        purchasing either the Archetype Selector or Shifter in the Karma shop (This does not apply to common demons).</li>
+                        purchasing either the Archetype Selector or Shifter in the Karma shop. </li>
                     <li>Click on a demon's name to view their info.</li>
-                    <li>People will have their preferences so take this as a guide,
+                    <li>The order which I listed the archetypes is not indicative that x archetype is better than y
+                        archetype. People would have their preferences anyways so take this as a guide,
                         rather than a "You have to go with this one!!! kind of thing"
                         and then pick whichever one you like.</li>
                 </ul>
@@ -536,7 +569,7 @@
                 </b-card>
                
                 <!-- Table Format:
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -579,7 +612,7 @@
                         his base kit works wonders).
                     </p>
 
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                         <p><table>
                           <tbody>
                               <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -646,7 +679,7 @@
                         Star (MS). Given the fact it can be levelled as well it can reach really high numbers.
                     </p>
 
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                         <p><table>
                           <tbody>
                             <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -703,7 +736,7 @@
                        and survival, he can be used in slower pvp teams + pve content such as Sloth 10, Aether farming.
                     </p>
 
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -754,7 +787,7 @@
                         full MP recovery each wave so he can sweep and repeat with Vorpal Blade/Hassou Tobi.
                     </p>
                         
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                         <p><table>
                           <tbody>
                             <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -814,7 +847,7 @@
                        Babylon Goblet is amazing at draining mp out of the enemy team (using her in a Jack Bros
                        setup you can rob them of all their mana, preventing them from counterattacking)
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                         <p><table>
                           <tbody>
                             <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -875,7 +908,7 @@
                         demon that acts before him to remove Ward.
                     </p>
 
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -927,7 +960,7 @@
                         strength stat (Levellable with -2 mp cost, effectively reducing its cost down to 6)). He comes with Vorpal Blade and Serial Killer, a weaker
                         version of Butcher but goes well with his two aoe skills.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -982,7 +1015,7 @@
                        turns to reach 50%. This is unlikely to be reached in pvp but in pve content such as Kiwami this can prove quite useful depending on who 
                        you go up against.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1000,7 +1033,7 @@
                                   <br>
                                   Given he's attack AI he can't act as a buff/debuffer to take advantage of skills like Fog/Acid Breath and War Cry so this is
                                   one way to make him a buffer at least.
-                                  <br><b>Auto-Rakuka</b> is always nice to boost up your starting defence without having to spend a turn casting Rakukaja. 
+                                  <br><b>Auto-Rakuga</b> is always nice to boost up your starting defence without having to spend a turn casting Rakukaja. 
                               </td>
                               <td>Usable</td>
                           </tr>
@@ -1036,7 +1069,7 @@
                     <p>Magic oriented demon (even though he has both equal magic and strength). Has the unique skill Soul Judgement (multiple hits, light) which makes him a 
                        really good demon for Sloth 10, Megidolaon for general sweeping and Life Aid for healing in between waves making him an effective pve demon.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1084,7 +1117,7 @@
                         other pierce users in the game, Purple is his best archetype. He also comes with Null Bind
                         (meh) and Titanomachia for sweeping.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1129,7 +1162,7 @@
                         herself comes with Bolt Storm and Merciless blow meaning if you face a elec weak demon they'd get
                         fried to a crisp.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1185,7 +1218,7 @@
                           <li>Using Makarakarn/5 Elements, walling off all of her damage sources. Though you can run Makara Break/Silent Prayer to also remove reflect shields</li>
                           <li>DfM does not go through endure/enduring soul/avatar. So if a demon is hit by it and has that skill, they'll still survive.</li>
                         </ul>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1241,7 +1274,7 @@
                        With that skillset he's quite devastating in any content and this is probably why (him + Hell Biker/Zaou Gongen setup), you see a lot of anti-phys 
                        defense teams in pvp.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1294,7 +1327,7 @@
                        is an improved version of Makarakarn, reflecting all spells including Almighty meaning only pierce skills/phys attacks can be used. Regardless of the archetype, i would 
                        recommend getting him as 5 Elements will make any content way easier. 5 Elements can be countered via Makara Break or Silent Prayer to remove it.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1350,7 +1383,7 @@
                         effect on demons with Drain resistances, provided he's alive) and Brahmastra (Almighty hit all 3 times). He's the drain version of Alilat's effect 
                         and with Brahmastra, is effective against demons that have avatar/endure/enduring soul.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1401,7 +1434,7 @@
                     <p>One of the key pieces in the Rebellion + Pierce combo (Pair him with Hell Biker and let them go ham). This is
                         due to his unique skill Kongo Zaou which enables demons with Rebellion (Might effect) to also have pierce attached to their phys attacks/skills.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1446,7 +1479,7 @@
                        She is easy/cheap to fuse, has no weaknesses and really high luck + Infernal Mask meaning she can inflict ailments quite well and be 
                        unlikely to be inflicted herself. Due to this you have a lot of freedom in picking how you want to build her, whether a debuffer, ailment caster, 
                        or even a healer role from what i've seen.</p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1489,7 +1522,7 @@
                     <p><strong><a id="Lakshmi" href="javascript:void(0)" @click="show_guide_devil('Lakshmi')">Lakshmi</a></strong></p>
                     <p>Demon with the highest magic stat in the game. She also comes with a unique skill Lotus dance (60% chance to charm all enemies), 
                        given her high luck stat she's almost guaranteed to inflict charm on the enemy team and so can be built as magic dps or ailment slinger.</p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1556,15 +1589,15 @@
                             </ul>
                         </li>
                     </ul>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Null Weak</b> prevents a already not that good ailment from hitting her. If you build her up to resist ailments this would help in terms that rely on inflicting Weak.</td>
+                              <td><b>Null Weak</b>prevents a already not that good ailment from hitting her. If you build her up to resist ailments this would help in terms that rely on inflicting Weak.</td>
                               <td>Unobtainable</td>
                           </tr>
                           <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Hell Gaze</b> gives her a powerful single target dark skill. Paired with her gacha skill, you can run her as glass cannon. 
+                              <td><b>Hell Gaze</b>gives her a powerful single target dark skill. Paired with her gacha skill, you can run her as glass cannon. 
                                   <br><b>Assassin</b> would boost up the damage of Hell Gaze and her innate Bufudyne as well.
                               </td>
                               <td>Usable</td>
@@ -1609,7 +1642,7 @@
                     <p>Another 5* unit with access to Infinite Chakra. Naturally he also has pretty high stats (excluding strength), repels light and dark but has a elec weakness.
                       He comes with Salvation (same heal amount as Mediarama + prayer effect attached to it, 3 uses), Mana Aid meaning he'd be a really effective pve demon and God's Malice 
                       a unique skill which can cause a myriad of ailments to a single target.</p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1651,10 +1684,10 @@
                 <!-- [Seth] -->
                 <b-card>
                     <p><strong><a id="Seth" href="javascript:void(0)" @click="show_guide_devil('Seth')">Seth</a></strong></p>
-                    <p>Second highest ATK in the game (losing out to an angry red man), coming with Debilitate (All debuffs in one), Zandyne and his unique skill Ouas 
+                    <p>Second strongest demon in the game (losing out to an angry red man), coming with Debilitate (All debuffs in one), Zandyne and his unique skill Ouas 
                       (really high single target phys damage, excellent crit rate, with an added 40% healing based on damage done). He's built to be a single target sniping unit.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1702,7 +1735,7 @@
                       (He has good Agi/Luck at least). Mazionga, Bolt Storm won't do much damage with his low magic and so his unique skill Barong Dance (Aoe healing, same power as Mediarama + 
                       buff all effect) is what he has going for him, it sadly though it's restricted to 3 uses.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1745,7 +1778,7 @@
                        (+15% phys damage/phys hit rate, levellable) making him effective at hitting his target without any problems or repercussions from reflected
                         attacks. Given he naturally has Rebellion, he's also good when paired with Zaou Gongen,
                         granting him phys pierce whenever he uses it.</p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1765,7 +1798,7 @@
                                   up both charge and rebellion.<br>
                                   <b>Auto-Sukunda</b> is good but again his accuracy is already pretty high. 
                                   If you want to replace it, Yatagarasu is another source with that auto skill.</td>
-                              <td>Usable</td>
+                              <td></td>
                           </tr>
                           <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
                               <td><b>Enduring Soul</b> adds to his survivability, stack this with Endure to give him an extra two hits until death. 
@@ -1793,11 +1826,11 @@
                 <!-- [Ananta] -->
                 <b-card>
                     <p><strong><a id="Ananta" href="javascript:void(0)" @click="show_guide_devil('Ananta')">Ananta</a></strong></p>
-                    <p>Ananta's main use is seen in pvp due to his auto buffs: Auto Sukuka, Rakuka, (and Taruka when purple). He has Amazing stats: high health, vitality, agility 
+                    <p>His main use seen in pvp due to his auto buffs. Auto Sukuka, Rakuka, (+Taruka when purple). Amazing stats: high health, vitality, agility 
                        meaning he'd be good at tanking. Also is immune to ice, elec and light which is pretty cool (weak to force). He is the only 5 star in the game 
                        without a unique skill, given his use this is fine anyways.
                     </p>
-                    <div id="DemonGuide-Table">
+                    <div id="DemonGuideTable">
                       <p><table>
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
@@ -1844,679 +1877,644 @@
                     <p>The only source of Fire Pierce, but not that good of a demon as a fire weakness isn't that
                         prevalent. He's mainly seen either with a purple archetype for Fire Pierce or Clear for
                         Intimidating Stance. He comes with a unique skill Ragnarok which is another single target
-                        sniping skill (getting 20% damage based on Phys Attack). It will take a lot of investment, but you can get Ragnarok
-                        to rain down the norse apocalypse on enemies (It's one of the most powerful skills in the game, 215 base power). With brands 
-                        prioritized towards Matk %, Phys% secondaries, a maxed out Ragnarok (5 Kasanes required), you can reach pretty high numbers with him.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Intimidating Stance</b> is for pvp mainly, removes a press turn if your opponent goes
-                                  first. He is generally paired with Zhong Kui (In levelling quests if you run 2x intimidating stance, you'd always act first).</td>
-                              <td><b>Best (Defensive)</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td>His magic is too poor to run other spells, <b>Maragidyne</b> included. You'd want pierce anyways</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td>Goodbye Lydia Surt, hello <b>Rattle</b> Surt. This is still terrible on him as it has low base power, is too expensive and sukunda wouldn't 
-                                  even help him much given you want to spam ragnarok,</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Fire Pierce</b> enables you to choose any target you like to hurl Ragnarok at.</td>
-                              <td><b>Best (Offensive)</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Null Ice</b> can cover his weakness yup, but like the case for Mara, Pierce (or intimidating stance) is too good to pass up.</td>
-                              <td>Bad</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                        sniping skill (getting 20% damage based on Phys Attack).</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td><b>Intimidating Stance</b> is for pvp mainly, removes a press turn if your opponent goes
+                                            first. Would be paired with Zhong Kui.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Maragidyne</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Rattle</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td><b>Fire Pierce</b> enables you to choose any target you like to send Ragnarok at.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td>TO DO: <b>Null Ice</b></td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Ice. To cover weakness</li>
-                        <li>Endure. Can work for pvp survival</li>
-                        <li>Fire Boost. If you want Ragnarok to be stronger</li>
+                        <li>Resist Ice to cover weakness</li>
+                        <li>Endure for pvp survival</li>
+                        <li>Fire Boost if you want Ragnarok to be stronger</li>
+                        <li>Maragi if using Fire Pierce and want an aoe skill.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine and MATK% if you want to spam Ragnarok with Purple or War/Life and PATK% for Berserker God damage with Clear.</p>
+                    <p><strong>Brands:</strong> Divine Type if you want to spam Ragnarok with Fire Pierce or Phys
+                        Type for Berserker God damage.</p>
                 </b-card>
                 <!-- [Thor] -->
                 <b-card>
                     <p><strong><a id="Thor" href="javascript:void(0)" @click="show_guide_devil('Thor')">Thor</a></strong></p>
-                    <p>Quite tanky, has high strength and if purple is our Elec Pierce unit making him able to be built towards phys or magic. 
-                       He comes with a unique skill Mjolnir hitting 4-5 times with elec damage. Pair him up with Eileen to take advantage of
-                       her bonuses. He also has quite nice resistances, resisting phys and light, nulls fire and drains elec. Though on auto he'd attempt to 
-                       charge a lot so he's better for manual play.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td>He gets <b>Maziodyne</b> added to his kit, even so Purple is the way to go for our hammer bro.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td>If you really don't care about elec pierce, he can be a effective phys unit. <b>Gigantomachia</b> is the strongest phys sweeping skill in the game 
-                              and so -1 mp for it can be really good. His stat spread helps a lot with its damage as well.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Rebellion</b> isn't that great on him since he already comes with charge.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Elec Pierce</b> enables him to rain down lighting to anyone and everyone who doesn't
-                                  bring along Alilat/Rama. Mjolnir hits really hard and against bosses can strike them down swiftly.
-                              </td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td>He already nulls fire and so <b>Repel Fire</b> is for the sole purpose of countering Surt (run him with Alilat). Not many people use 
-                              Surt anyways and so this archetype doesn't serve much use.</td>
-                              <td>Bad</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <p>Quite tanky, has high strength and if purple is our Elec Pierce unit. He comes with a unique
+                        skill Mjolnir hitting 4-5 times with elec damage. Pair him up with Eileen to take advantage of
+                        her bonuses. He also has quite nice resistances, resisting phys and light, nulls fire and
+                        drains elec. Though on auto he'd attempt to use charge a lot so he's better for manual play.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Maziodyne</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Gigantomachia</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Rebellion</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td><b>Elec Pierce</b> enables him to rain down lighting to anyone and everyone who doesn't
+                                            bring along Alilat/Rama.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td>TO DO: <b>Repel Fire</b></td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Force. To cover his weakness.</li>
-                        <li>Elec Boost. To boost mjolnir damage</li>
-                        <li>Phys Boost. If you're running Red</li>
+                        <li>Resist Force to cover his weakness.</li>
+                        <li>Elec Boost to increase his mjolnir damage further</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine (focus on MATK% for purple, PATK% for red) so that he can spam Mjolnir/Gigantomachia.</p>
+                    <p><strong>Brands:</strong> Divine type (focus on magic attack) so that he can spam Mjolnir.</p>
                 </b-card>
                 <!-- [Asherah] -->
                 <b-card>
                     <p><strong><a id="Asherah" href="javascript:void(0)" @click="show_guide_devil('Asherah')">Asherah</a></strong></p>
-                    <p>One of the tankiest healers in the game with high magic, hp and vitality stats. She however comes with two weaknesses and so you'd 
-                       need to invest a fair amount to cover it. She has Mediarama for party healing, maragion and a unique skill Mother's Creation which 
-                       is essentially Samarecarm + Lydia combined into one.</p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Sea of Chaos</b> could be useful on her since you're building her Matk% up for greater healing. It'd act as a good offensive skill as it'll 
-                              damage and reduce enemy defenses.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td>She already has Maragion and so <b>Trisagion</b> wouldn't add to coverage, you can selectively choose your targets now at least.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Silent Prayer</b> allows her to cure ailments/remove shields, barriers, etc. This skill would be most effective on units who are speedy and act first.
-                                  Asherah is slow and so if your entire team is ailment stricken and you're relying on her to cure it, they would've wasted turns before she could cure them.
-                              </td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Recovery Amp</b> boosts her healing even further. But then the other slots should be
-                                  used for covering weaknesses meaning no extra skills to add. You'd get this if you want her to be focused purely on healing.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Repel Ice</b> covers one weakness, giving you the ability to customize the last remaining slot.</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <p>One of the tankiest healers in the game with high magic, hp and vitality stats. She however
+                        comes with two weaknesses and so you'd need to invest to cover it. She has Mediarama for party
+                        healing, maragion and a unique skill Mother's Creation which is essentially Samarecarm + Lydia
+                        in one.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Sea of Chaos</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Trisagion</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Silent Prayer</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td><b>Recovery Amp</b> boosts her healing even further. But then the other slots should be
+                                            used for covering weaknesses meaning no extra skills to add.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td><b>Repel Ice</b> covers one weakness, giving you the ability to customize a slot.</td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
                         <li>Resist Dark</li>
-                        <li>Resist Ice. If not teal.</li>
-                        <li>Samarecarm. If Teal to give her another revive skill.</li>
+                        <li>Resist Ice if not teal.</li>
+                        <li>Samarecarm to give her another resurrection chance.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine is mandatory to ensure you can two turn heal.</p>
+                    <p><strong>Brands:</strong> Divine Type to ensure you can heal in time.</p>
                 </b-card>
                 <!-- [Mastema] -->
                 <b-card>
                     <p><strong><a id="Mastema" href="javascript:void(0)" @click="show_guide_devil('Mastema')">Mastema</a></strong></p>
-                    <p>High magic and is oriented towards light, making him very useful in Sloth 10 farming. He comes Judgement Light, binding cry and the 
-                       unique skill Trial Of Hate: an aoe light attack that applies random debuff only when the attack successfully hits all targets. 
-                       As he repels force and light he naturally goes well with Alilat, get a Teal Mastema and you can additionally repel ice, preventing ice pierce. 
-                       Mastema also has naturally high luck and so has lesser chances of receiving crits and can be a ailment caster if you wish to use him that way.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Mana Gain</b> doesn't help much. It's not recommended going with this archetype.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td>He gains <b>Ice Age</b> which can help with his coverage, 180 power with the same cost as Bufudyne.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td>Though i did say he can be used as an ailment caster, a single target <b>Makajamaon</b> won't be able to do much. 
-                                  If you want to run ailments, go with aoe ones instead.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Light Amp</b> further strengthens his kit, amplifying the intensity of his Trial of Hate and Judgement Light.</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Repel Ice</b> gives him another element that he can reflect, though the only ice pierce
-                                  unit in the game is Purple Rama, so its quite a niche use.</td>
-                              <td>Usable</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <p>Very useful in Sloth 10 farming as the main farming method is to wipe them out with light aoe.
+                        He comes with a unique skill Trial Of Hate which is an aoe light attack and applies a random
+                        Tarunda, Rakunda, Sukunda only when the attack isn't nulled/drained/repelled. He naturally goes
+                        well with Alilat as he repels force and light, get a Teal Mastema and you can also repel ice.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Mana Gain</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Ice Age</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Makajamaon</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td><b>Light Amp</b> further strengthens his light damage allowing for more damage.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td><b>Repel Ice</b> gives him another element that he can reflect, though the only ice pierce
+                                            unit in the game is Purple Rama, so its quite a niche use.</td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Fire. To cover his weakness</li>
-                        <li>Megido. If you plan to use him outside of Sloth 10 and want more coverage</li>
-                        <li>Single Target Element (besides light) can help with coverage too.</li>
-                        <li>Light Boost. If you want to only use him in Sloth 10 or in fights where the enemy isn't immune to light.</li>
+                        <li>Resist Fire to cover his weakness</li>
+                        <li>Megido if you plan to use him outside of Sloth 10</li>
+                        <li>Light Boost if you want to only use him in Sloth 10 or in fights where the enemy isn't
+                            immune to light.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine, means more journeys into the Trial of Hate. You can also turn one cast it if you max it out.</p>
+                    <p><strong>Brands:</strong> Divine Type, more mana means more Trial of Hate Spamming.</p>
                 </b-card>
                 <!-- [Amaterasu] -->
                 <b-card>
                     <p><strong><a id="Amaterasu" href="javascript:void(0)" @click="show_guide_devil('Amaterasu')">Amaterasu</a></strong></p>
-                    <p>One of the best buffers due to her unique skill Tenson Kourin (TK), it has the same effect as Luster Candy but casts Dekunda beforehand so you'd always have 3
-                       buffs on you whenever you cast it. Naturally she repels fire and resists light (weak to elec), comes with Maragion, Tarunda also has really 
-                       high magic for healing and magic damage. You could build her as a buffer + healer (Yellow) or buffer + whatever you like (Teal).
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Auto-Sukuka</b> can work okay on her, but Tenson-Kourin would be your goto source for buffing/clearing debuffs anyways.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Trisagion</b> gives her a single target fire skill, she already has Maragion so if you do want to use her as a caster 
-                                  it'd be better getting another spell for coverage.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Mediarahan</b> is a very good healing skill and is only usable with the reduced MP cost (8). This makes her a really good support/healing unit, 
-                              though on auto the AI can be quite funky in making decisions with her.</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Magic Amp III</b> increases her base magic for min maxing. She has better archetypes to use, but you can run this if you want a dps oriented Amaterasu.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Null Elec</b> covers her weakness, allowing you to mold her into another role, since you'd have two slots to customize.</td>
-                              <td>Usable</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <p>One of the best buffers in the game due to her unique skill Tenson Kourin being buffed, Tenson
+                        Kourin has the same effect as Luster Candy but casts Dekunda beforehand so you'd always have 3
+                        buffs on you. She also has really high magic for healing and magic damage.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Auto-Sukuka</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Trisagion</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td><b>Mediarahan</b> is a very good healing skill, with a reduced MP cost. Makes her a really good support/healing unit.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td>TO DO: <b>Magic Amp III</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td><b>Null Elec</b> covers her weakness, allowing you to build her in a more damaging support role, since you'd have two slots to customize.</td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Elec. If not Teal to cover weakness</li>
+                        <li>Resist Elec to cover weakness</li>
                         <li>Samarecarm for more support</li>
-                        <li>Megido/Megidola/Megidolaon. Can be a damaging spell to take advantage of her magic</li>
-                        <li>Any other magic element</li>
+                        <li>Megido/la/laon for a damaging spell to take advantage of her magic</li>
+                        <li>Any other magic elements</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine for two turn Tenson Kourin casts and Mediarahan when Yellow.</p>
+                    <p><strong>Brands:</strong> Divine Type to enable Tenson Kourin casts and Mediarahan if yellow.</p>
                 </b-card>
                 <!-- [Ishtar] -->
                 <b-card>
                     <p><strong><a id="Ishtar" href="javascript:void(0)" @click="show_guide_devil('Ishtar')">Ishtar</a></strong></p>
-                    <p>Second strongest caster in the game with Mahamaon, Diarahan and her unique skill Mesopotamian Star: almighty aoe 
-                        casting Tarukaja and Tarunda when it lands. She's mainly used for a sweeping Jack Bros team in pvp with Yellow
-                        Archetype but can also be used in Sloth 10 due to having Mahamaon. She comes with two weaknesses however so there isn't 
-                        that much customization available, in her case its not really needed as Mesopotamian Star should be more then enough.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Samarecarm</b> gives her a revival skill. This is really easy to transfer (through Isis) and even so she's better 
-                                  suited as dps rather than support/healer.
-                              </td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Thunderclap</b> gives her a Hecatoncheires slaying skill (plus for Sloth 10 too). If you don't want to use her in a Jack 
-                              Bros team this is an okay route to take since Mesopotamian Star handles coverage.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Concentrate</b> allows her to work with Templar Dragon + Jack Bros strategies to nuke. When she does nuke the tarunda effect would help 
-                              mitigate counter attack damage (in the case you don't finish them off).</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Tetraka Shift</b> used to be great in pvp but due to the rise of phys pierce its not prevalent anymore.
-                                <br>There's also the fact she's not really meant to be a defensive demon, being squishy she can fall easily and with healing ai she'd
-                                    prioritize diarahan over dealing damage.
-                              </td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Null Force</b> covers a weakness and gives you the freedom to customize another skill slot. If you're planning to 
-                              transfer concentrate, yellow would still be better because of the -1mp cost it entails</td>
-                              <td>Usable</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <p>Second strongest caster in the game with a unique skill Mesopotamian Star, hitting all enemies
+                        casting Tarukaja and Taruna. She's mainly used for a sweeping Jack Bros team with the Yellow
+                        Archetype but can also be used in Sloth 10 due to having Mahamaon. Concentrate, get the Jacks
+                        to
+                        tag then Mesopotamian to hopefully one shot the enemy or weaken them enough to finish them off
+                        the next turn/on the same turn. She comes with two weaknesses so there isn't that much
+                        customization available.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Samarecarm</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Thunderclap</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td><b>Concentrate</b> allows her to work with Templar Dragon + Jack Bros strategies to nuke.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td>TO DO: <b>Tetraka Shift</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td><b>Null Force</b> covers a weakness and gives you the freedom to customize another skill slot. If you got
+                                            Concentrate from the skill gacha this would technically be a viable archetype.</td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Dark. To cover her weakness</li>
-                        <li>Resist Force. If not teal</li>
+                        <li>Resist Dark to cover her weakness</li>
+                        <li>Resist Force if not teal</li>
                         <li>Whatever you like if Teal, her base kit is technically good enough. You can go Endure for
-                            survival or another element as well if you wish.</li>
+                            survival or another element as well if you wished.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine for Jack Bros setup with her Yellow version. Spell can work for Teal.</p>
+                    <p><strong>Brands:</strong> Divine Type to ensure Mesopotamian Star casts. I do believe Magic Type
+                        can work if you maxed our her skill for the reduced mp costs.</p>
                 </b-card>
                 <!-- [Susano-o] -->
                 <b-card>
                     <p><strong><a id="Susano-o" href="javascript:void(0)" @click="show_guide_devil('Susano-o')">Susano-o</a></strong></p>
-                    <p>Single target sniper with really high strength but all round mediocre stats as his kit contains Assassin (+10% bonus damage for single target skills), Mortal Jihad and Kusanagi. 
-                       Kusanagi being his unique skill is fully boosted by Phys ATK and when it lands (single target force) casts Tarukaja. This means most of the time you'd have a damage buff active.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Strength Amp III</b> will further boost his damage for min-maxing. Boosting strength will increase
-                                  Kusanagi damage as well as Mortal Jihad for enemies immune to force. 
-                                  <br>Given his other archetypes aren't that great, this is the best route to take with 
-                                      him for maximising damage.
-                              </td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Bleeder</b> gives him more of a support skill. Even so its generally better to use Kusanagi and Mortal Jihad when required. The extra crit and accuracy 
-                              on Mortal Jihad can mean the death of enemies, as well as the Tarukaja effect on Kusanagi.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Charge</b> would ramp up his Mortal Jihad damage, but his main appeal is in Kusanagi, this isn't really needed for him</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td>In pvp everyone covers their force weakness due to him and Cu Chulainn existing. <b>Merciless Blow</b> would be beneficial for small cases in pve where the enemy is 
-                              weak to force but for the most part force is generally covered.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Drain Elec</b>, when paired with Rama, allows him to stop Cu Chulainn and Thor in their tracks as
-                                  their pierce will have no effect on him. Both Thor and Cu isn't seen much on defense teams and regardless you'd have to cover his fire weakness.</td>
-                              <td>Usable</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <p>Single target sniper with really high strength due to Assassin (+10%
+                        bonus damage for single target skills), Mortal Jihad and Kusanagi. Kusanagi being his unique
+                        skill fully boosted by Phys ATK and also casting Tarukaja when not hitting null/repel/drain
+                        meaning you'd almost all of the time would have the damage buff active.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td><b>Strength Amp III</b> will further boost his damage. Boosting strength will increase
+                                            Kusanagi damage and Mortal Jihad if the enemy is immune to force.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Bleeder</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Charge</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td>TO DO: <b>Merciless Blow</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td><b>Drain Elec</b>, when paired with Rama, allows him to stop Cu Chulainn and Thor in their tracks as
+                                            their pierce will have no effect on him.</td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Fire. To cover weakness</li>
-                        <li>Force boost. Increasing Kusanagi damage further</li>
+                        <li>Resist Fire to cover weakness</li>
+                        <li>Force boost to increase Kusanagi damage further</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine to ensure you can first turn Kusanagi/Mortal Jihad in pvp
-                        and spam it more in general. Though War will increase his damage way more for pve, Life if you want survability.
-                    </p>
+                    <p><strong>Brands:</strong> Divine Type to ensure you can first turn Kusanagi/Mortal Jihad in pvp
+                        and spam it more in general. Though Phys Type will increase his damage way more.</p>
                 </b-card>
                 <!-- [Nergal] -->
                 <b-card>
-                  <p><strong><a id="Nergal" href="javascript:void(0)" @click="show_guide_devil('Nergal')">Nergal</a></strong></p>
-                  <p>Phys oriented demon who can be paired with Chernobog to produce devastating results. He has amazing strength, agility and 
-                     luck so he can dish out hits, crits all day. Naturally he has Berserker God and two unique skills: Meslamtea (+20% accuracy, casts rebellion 
-                     whenever an enemy is poisoned), Pague of Babylon (Casts Barrier Break then Weak all with 80% infliction rate). With these two unique skills he 
-                     can also be paired with Zaou Gongen to give his attacks a pierce effect. You'd use him to remove barriers first then inflict weak on enemies, once
-                     they're weakened they can easily be poisoned which results in him getting Rebellion. An aoe skill is desired of course in order to sweep.
-                   </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Strength Amp III</b> would boost his strength for min maxing, nothing that spectacular</td>
-                              <td>Unobtainable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Hades Blast</b> gives him the desired aoe with a cheap 5mp cost too. 
-                                <br><b>Savage Glee</b> grants him more criticals, though this isn't needed if you're going for poison.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Toxic Sting</b> naturally complements his passive. Assuming the enemy has no barriers and have been weakened, 
-                                you can Toxic Sting, inflicting poison then have Rebellion casted on yourself. Rinse and repeat.
-                                  <br><b>Auto-Sukuka</b> helps in landing hits and increases evasion too so that's always a plus but can be replaced if you have Ananta.</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Auto-Taruka</b> is okay on him, but since there are other demons with access to it, its better leaving it to them.
-                                <br><b>Strength Amp III</b> would be good for min-maxing though he'd be better off having his weakness covered + aoe (or phys boost).
-                              </td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td>He naturally resists light so <b>Null Light</b>, though upgraded won't do much.
-                                <br><b>Resist Ice</b> covers his weakness, so this saves you from fusing an expensive Odin.</td>
-                              <td>Bad</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <p><strong><a id="Nergal" href="javascript:void(0)" @click="show_guide_devil('Nergal')">Nergal</a></strong></p>
+                    <p>Phys oriented demon who can be paired with Chernobog to produce devastating results. He has
+                        amazing strength, agility and luck so he can dish out hits, crits all day. Naturally he has
+                        Berserker God and two unique skills: Meslamtea (+20% accuracy and casts rebellion whenever an
+                        enemy is poisoned), Pague of Babylon (Casts Barrier Break then Weak all with 80% infliction
+                        rate). With these two unique skills he can also be paired with Zaou Gongen to give his attacks
+                        a pierce effect. You'd use him to remove barriers first then inflict weak on enemies, once
+                        they're weakened they can easily be poisoned which results in him getting Rebellion. You'd want
+                        an aoe skill on him of course in order to sweep.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b></b><br><b></b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td><b>Hades Blast</b> is really good for damage. <br><b>Savage Glee</b> makes him a lot more likely to crit.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td><b>Toxic Sting</b> naturally complements his passive. Assuming
+                                            the enemy has no barriers, you can Toxic Sting them, poison them then have Rebellion casted
+                                            on yourself and rinse and repeat.<br><b>Auto-Sukuka</b> helps in landing hits and increases evasion
+                                            too so that's always a plus.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td>TO DO: <b>Auto-Taruka</b><br><b>Strength Amp III</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td>TO DO: <b>Null Light</b><br><b>Resist Ice</b></td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended Skills: </strong></p>
                     <ul>
-                        <li>Resist Ice. Cover his weakness, or not if you want to maximise his damage potential</li>
-                        <li>Phys Boost. To increase his damage even further</li>
-                        <li>Deadly Poison. Goes well with his passive.</li>
-                        <li>Aoe skill. If not Red, can help with sweeping</li>
+                        <li>Resist Ice, cover his weakness. Or not if you want to maximise his damage potential</li>
+                        <li>Phys Boost, to increase his damage even further</li>
+                        <li>Deadly Poison, goes well with his passive.</li>
                     </ul>
-                    <p><strong>Brands:</strong> War works fine since he doesn't have any costly skills. Divine if you want a more costly aoe.</p>
+                    <p><strong>Brands:</strong> War/Ward works fine since he doesn't have any costly skills.
+                        Divine/Ward if you want a more costly aoe.</p>
                 </b-card>
                 <!-- [Black Frost] -->
                 <b-card>
                     <p><strong><a id="BlackFrost" href="javascript:void(0)" @click="show_guide_devil('Black Frost')">Black Frost</a></strong></p>
-                    <p>Dark sweeper the unique skill Go To Hell! (GTH), dark aoe with 80% curse effect (that also 
-                       pierces). He comes with a unique Jaki trait passive Curse Of Anguish which reduces damage taken  and increases damage towards cursed enemies. 
-                       He also has Mabufudyne for ice sweeping too (but his main focus should be dark in all honesty).
-                    </p>
-                    <div id="DemonGuide-Table">
-                            <p><table>
-                              <tbody>
-                                <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                                    <td><b>Maragion</b> increases his coverage for the case where there is Alilat/Rama + a Repel/Drain dark unit</td>
-                                    <td>Usable</td>
-                                </tr>
-                                <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                                    <td><b>Hell Gaze</b> isn't that great on him due to being another dark skill (this time lacking pierce). GTH would 
-                                    generally be better due to the attached curse effect on it too.</td>
-                                    <td>Bad</td>
-                                </tr>
-                                <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                                    <td><b>Concentrate</b> allows him to charge up to do damage making him another possible demon to run on Jack Bros teams.</td>
-                                    <td><b>Best</b></td>
-                                </tr>
-                                <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                                    <td><b>Ice Amp</b> would boost his Mabufudyne damage greatly, this can be useful for when you can't use GTH though that should be a rarity.</td>
-                                    <td>Usable</td>
-                                </tr>
-                                <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                                    <td>He naturally resists fire and so <b>Null Fire</b> won't do much for him.</td>
-                                    <td>Bad</td>
-                                </tr>
-                              </tbody>
-                            </table></p>
-                          </div>
+                    <p>Dark sweeper with his unique skill Go To Hell!, hitting all enemies with 80% curse effect (This
+                        also dark pierces). He comes with a unique Jaki trait passive Curse Of Anguish which reduces
+                        damage taken from Cursed enemies and increases damage towards cursed enemies. He also has
+                        Mabufudyne for ice sweeping too (but his main focus should be dark in all honesty).</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Maragion</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Hell Gaze</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td><b>Concentrate</b> allows him to charge up and do heaps of damage.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td>TO DO: <b>Ice Amp</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td>TO DO: <b>Null Fire</b></td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
                         <li>Resist Light to cover weakness</li>
-                        <li>Dark Boost to strengthen GTH.</li>
+                        <li>Dark Boost to strengthen Go To Hell!.</li>
                         <li>Deadly curse could also work, but it's reliant on the enemy being cursed in the first place
-                            so you'd need to set it up with another demon or just use GTH, on subsequent casts it would be stronger.</li>
+                            so you'd need to set it up with another demon.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine so he can spam his skills since it costs 7mp for Mabufudyne/GTH.</p>
+                    <p><strong>Brands:</strong> Divine Type so he can spam his unique skill.</p>
                 </b-card>
                 <!-- [Cu Chulainn] -->
                 <b-card>
                     <p><strong><a id="CuChulainn" href="javascript:void(0)" @click="show_guide_devil('Cu Chulainn')">Cu Chulainn</a></strong></p>
                     <p>Recommended sweeper and first 5* demon to fuse in the game. With Force Pierce (Purple only) and
-                        Mazandyne he can sweep any pve content like crazy. He also has no weaknesses so you get to mix and match a variety of skills. 
-                        His main weakness however is his low agi and luck, meaning he can be critted quite easily and won't dodge much physical hits.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Rebellion</b> isn't that good for him as he should be built as a spellcaster as Purple.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Killing Wind</b> gives him a single target force skill, without pierce though this wouldn't do that much.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td>Since he falls quite easily <b>Recarmdra</b> is a joke on him, its meant for more tanky units.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Force Pierce</b> allows him to ignore resists with his Mazandyne. Pierce is always amazing.</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Repel Dark</b> won't do much for him. He doesn't have any weakness and so he doesn't need the dark repel.</td>
-                              <td>Bad</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                        Mazandyne he can sweep any pve content like crazy (he's my main attacker in pvp too). He also
+                        has no weaknesses so you get to mix and match a variety of skills.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Rebellion</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Killing Wind</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Recarmdra</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td><b>Force Pierce</b> allows him to ignore resists with his Mazandyne.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td>TO DO: <b>Repel Dark</b></td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Force Boost. To increase his damage further</li>
-                        <li>Force Amp. If you got lucky and got it in the skill genome</li>
-                        <li>Endure. For pvp if you want survival</li>
-                        <li>Mazan. To finish off enemies/enables first turn aoe cast in pvp</li>
-                        <li>Zanma L. If you want a single target skill on him (Though this'll lock him into just casting
-                            it for pve though, he'd never save up for Mazandyne)</li>
+                        <li>Force Boost to increase his damage further</li>
+                        <li>Force Amp if you got lucky and got it in the skill genome</li>
+                        <li>Endure for pvp if you want survival</li>
+                        <li>Mazan to finish off enemies/enables first turn aoe cast in pvp</li>
+                        <li>Zanma L if you want a single target skill on him (Though this'll lock him into just casting
+                            it though, he'd never save up for Mazandyne)</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine or Spell is valid. Divine allows him to two turn Mazandyne and spam magic more in general.</p>
+                    <p><strong>Brands:</strong> Divine Type or Magic Type is valid. Divine Type allows him to two turn
+                        Mazandyne and spam magic more in general.</p>
                 </b-card>
                 <!-- [Quetzalcoatl] -->
                 <b-card>
                     <p><strong><a id="Quetzalcoatl" href="javascript:void(0)" @click="show_guide_devil('Quetzalcoatl')">Quetzalcoatl</a></strong></p>
-                    <p>Demon that can be built to be tanky due to his resistances (He resists all except for
+                    <p>Demon that can be built to be tanky due to his resistances whilst using Teal (He resists all but
                         ice and elec and is weak to dark, Teal gives him Repel Phys). His base kit consists of
                         Maragidyne, Mazandyne and Ce Actis' Return (unique skill). It acts in the same manner as
-                        Recarmdra except its user doesn't die. This is coded to behave like Samarecarm so Quetz
+                        Recarmdra except the user doesn't die. However its coded to behave like Samarecarm so Quetz
                         will try to cast it as soon as he sees at least one ally dead (so you can take advantage of the
-                        AI in that regard). Mainly used for pvp and when paired with Alilat (when Teal) he can
+                        AI in that regard). Mainly used for pvp and when paired with Alilat (and being Teal) he can
                         stop phys sweepers from taking down your team and bring them back to life when they fall too.</p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td>Poison isn't that dangerous of an ailment and so <b>Null Poison</b> won't help at all</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td>Given he's a Attack AI demon <b>Mahamadyne</b> would give him more coverage (he'd then have 3 elements). 
-                                  This would be good for Aura Gate farming, but Teal is always preferable for pvp.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Concentrate</b> would be a strange choice on him. Sure you can use him as a caster, but he doesn't have any unique 
-                                  skills to take advantage of concentrate (don't think i've ever seen anyone run him with this).</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Auto-Tarunda</b> can be viable for him if you intend to run him as a dodge build. This is heavily rng though as 
-                                  enemies can stack accuracy % and land aoes on your team.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Repel Phys</b> allows him to deal with pesky Phys units, when paired with Alilat. It also makes him really hard to kill in pve content.</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Null Poison</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Mahamadyne</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Concentrate</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td>TO DO: <b>Auto-Tarunda</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td><b>Repel Phys</b> allows him to deal with pesky Phys units, when paired with Alilat.</td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Dark. Cover that weakness</li>
+                        <li>Resist Dark, cover that weakness</li>
                         <li>Samarecarm. Gives you another resurrection shot.</li>
-                        <li>Endure. Gives him more survival as if your team is swept, he can survive and bring everyone else back.</li>
+                        <li>Endure. Gives him more survival.</li>
                         <li>Mind Break. He'd annoy people by draining their mp though i'm not sure whether he'd even
-                            try to save up for Ce Actis' for this case.</li>
+                            try to save up for Ce Actis' then.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Life, He needs to be tanky and ideally the last demon to fall, so that he'd bring back everyone else. 
-                      Divine can work too to ensure two turn Ce Actis' casts.
-                    </p>
+                    <p><strong>Brands:</strong> Support Type. He needs to be tanky and ideally the last demon to fall,
+                        so that he'd bring back everyone else.</p>
                 </b-card>
                 <!-- [Orcus] -->
                 <b-card>
                     <p><strong><a id="Orcus" href="javascript:void(0)" @click="show_guide_devil('Orcus')">Orcus</a></strong></p>
-                    <p>Demon designed and built for tankiness with two unique abilities centering around weaknesses: Law of Hell prevents the enemy team 
-                       from getting extra press turn icons when a weakness is hit, whilst Hell's Gate grants damage reduction depending on the number of weak 
-                       attributes your team has (3% per weakness, max 30%). Naturally he comes with War Cry for debuffing and 2 weaknesses himself, meaning by 
-                       default you get a 6% damage reduction bonus (though this applies only to aoe/multi-target skills). Pairing him with Hecatoncheires would grant 
-                       you an extra 15% damage reduction and if you don't cover Hecaton's weakness then in total they share 27% damage reduction. 
-                       So if you do cap out on damage reduction (by bringing demons such as Slime, Abraxas, Arahabaki, etc) this brings it up to a total of 45% essentially halving all 
-                       damage done. With this strat however, single target skills will still do standard damage to you.</p>
+                    <p>Demon designed and built for tankiness (Third highest hp/vitality in game) with two unique
+                        abilities centering around weaknesses: Law of Hell prevents the enemy team from getting extra
+                        press turn icons when a weakness is hit, whilst Hell's Gate grants damage reduction depending
+                        on the number of weak attributes your team has (3% per weakness, max 30%). Naturally he comes
+                        with War Cry for debuffing and 2 weaknesses himself, meaning by default you get a 6% damage
+                        reduction bonus (though this applies only to aoe/multi-target skills). Pairing him with
+                        Hecatoncheires would grant you an extra 15% damage reduction and if you don't cover Hecaton's
+                        weakness then in total they share 27% damage reduction. So if you do cap out on damage
+                        reduction (by bringing demons such as Slime, Abraxas, Arahabaki, etc) you'd get a total of 45%
+                        damage reduction, halving all damage done by the enemy. With this strat however, single target
+                        skills will still do standard damage to you.</p>
                     <p>There are counters to Orcus teams:</p>
                     <ul>
                         <li>Use Loki to be able to have a chance at skipping press turn usage</li>
                         <li>Use Chalk Eater as your dx2, you'll still get buffs when you hit their weakness so you
                             don't have to bring a buffer unit. There's also the chance of getting extra press turns</li>
                     </ul>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Tetrakarn</b> isn't that great in today's climate because of phys pierce, there are better archetypes suited to him compared to this.</td>
-                              <td>Unobtainable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Mamudoon</b> is not too good for him since he's not good for Magic DPS (He's Support AI anyways).
-                                <br><b>Auto-Tarunda</b> is a good skill however, so if you pulled him as Red, i'd recommend switching to another 
-                                  archetype, keeping Auto-Tarunda.
-                              </td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Nocturne</b> is another supporting skill to use to enhance your team's defense and evasion. Coupled with the Tarunda effect from War Cry, 
-                                  once both buffs are up you'll be taking quite miniscule aoe damage.
-                                  <br><b>Null Bind</b> is okay and not that great, you can replace it.</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Tetraka Shift</b> can stop first turn phys, giving you one turn of breathing room, though in higher pvp people generally bring 
-                                  pierce phys demons anyhows.
-                                  <br><b>Hell Gaze</b> is pretty bad using the same reasoning as Mamudoon.</td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Null Phys</b> makes him immune to phys attacks which is really good in pve, in pvp it can have its uses as well for blocking damage 
-                                  from phys demons such as: Siegfried, Seth, Zhong Kui, Shiva (provided he doesn't Pralaya), Yoshitsune. When facing a
-                                  Hell Biker team, you may be able to survive long enough for all 3 uses of Red Zone wear
-                                  off, making him immune to their team, as they are oriented towards aoe phys.
-                                  <br><b>Vitality Amp III</b> can be replaced unless you don't have any other skills you want to run.
-                              </td>
-                              <td>Usable</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                    <div id="DemonGuideTable">
+                            <p><table>
+                              <tbody>
+                                <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                    <td>TO DO: <b></b></td>
+                                    <td></td>
+                                </tr>
+                                <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                    <td><b>Mamudoon</b> is not too good for him since he's not good for Magic DPS. <br><b>Auto-Tarunda</b> is a really good skill though, so
+                                        if you pulled him as Red, i'd recommend switching to another archetype, keeping
+                                        Auto-Tarunda.</td>
+                                    <td></td>
+                                </tr>
+                                <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                    <td><b>Nocturne</b> is another supporting skill to use to enhance your
+                                        team's defense and evasion. Coupled with the Tarunda effect from War Cry, once both buffs
+                                        are up you'll be taking quite miniscule aoe damage.<br><b>Null Bind</b> is only okay, you can replace it.</td>
+                                    <td></td>
+                                </tr>
+                                <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                    <td><b>Tetraka Shift</b> can stop first turn phys, giving you
+                                        one turn of breathing room, though in higher pvp people generally bring pierce phys demons
+                                        anyhows.<br><b>Hell Gaze</b> is pretty bad using the same reasoning as Mamudoon.</td>
+                                    <td></td>
+                                </tr>
+                                <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                    <td><b>Null Phys</b> makes him immune to phys attacks which is really good
+                                        in pve, in pvp it can have its uses as well for blocking damage from phys demons such as:
+                                        Siegfried, Seth, Zhong Kui, Shiva (provided he doesn't Pralaya), Yoshitsune. When facing a
+                                        Hell Biker team, you may be able to survive long enough for all 3 uses of Red Zone wear
+                                        off, making him immune to their team, as they are oriented towards aoe phys.<br><b>Vitality Amp III</b> can be replaced.</td>
+                                    <td></td>
+                                </tr>
+                              </tbody>
+                            </table></p>
+                          </div>
                     <p><strong>Recommended Skills: </strong></p>
                     <ul>
+                        <li>Endure/Enduring Soul can ensure he stays alive</li>
                         <li>Samarecarm/Recarmdra to bring back allies since your goal is to keep him alive as long as
                             possible</li>
                         <li>Dekaja to be a counter against Ananta buffing via Tenson Kourin/Luster Candy</li>
                     </ul>
-                    <p><strong>Brands:</strong> Life ensures he survives as long as possible, though Divine
-                        can work too so that he can spam out War Cry as much as possible and two turn Samarecarm/Recarmdra skills.
-                    </p>
+                    <p><strong>Brands:</strong> Life/Ward ensures he survives as long as possible, though Divine/Ward
+                        can work too so that he can spam out War Cry as much as possible and two turn
+                        Samarecarm/Recarmdra skills.</p>
                 </b-card>
                 <!-- [Garuda] -->
                 <b-card>
                     <p><strong><a id="Garuda" href="javascript:void(0)" @click="show_guide_devil('Garuda')">Garuda</a></strong></p>
                     <p>Speediest demon in the game and really squishy. He has high luck and magic meaning he's built
-                        for evasion and turn one kill pvp teams. Repelling Fire and Nulling Force means he'd be really
-                        useful in Vanity 10 where the final boss there is Quetzalcoatl with Mazandyne and Maragidyne.
+                        for evasion and turn one kill pvp teams. Repelling Fire and Nulling light means he'd be really
+                        useful in Vanity 10 where the final boss there is Quetzacoatl with Mazandyne and Maragidyne.
                         Naturally he also comes with Auto-Rakunda and Vanaha (+15% evasion, +30% ailment resistance)
                         further solidifying those points before. Given the ailment resistance boost he'd have low
                         chances of being affected by ailments. Garuda in pvp can be used to help face against Hell
                         Biker defense teams, with the highest agility in game + the bonus to evasion, he should be able
                         to easily dodge phys attacks. Take Yellow for Fog Breath and somehow get sukukaja onto your
-                        team to ensure you won't get hit.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Magic Amp III</b> increases his damage, this is good but Purple's Berserker increases it way more</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Maragidyne</b> gives him a fire aoe to use alongside Zandyne.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Fog Breath</b> is good for increasing evasion against the more phys inclined teams. This reduces the chances 
-                                  of you being hit and damage dealt by dangerous phys demons such as Huang Di, Mara, Siegfried, etc and at the same time increases 
-                                  hit chances of your own demons.
-                              </td>
-                              <td><b>Best (Defensive)</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Berserker</b> gives +10% damage, +20% taken. He's going to die anyways so might as well
-                                  boost his damage? You'd be aiming for sweeps.</td>
-                              <td><b>Best (Offensive)</b></td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Null Light</b> would make him immune to 3 elements, naturally he resists light and dies quite easily anyways.</td>
-                              <td>Bad</td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                        team to ensure you won't get hit.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Magic Amp III</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Maragidyne</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td><b>Fog Breath</b> is good for increasing evasion against the more phys
+                                            inclined teams. This reduces the chances of you being hit by dangerous phys demons such as
+                                            Huang Di, Mara, Siegfried, etc. Wouldn't be so good against magic teams however.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td><b>Berserker</b> gives +10% damage, +20% taken. He's going to die anyways so might as well
+                                            boost his damage? You'd be aiming for sweeps.</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td>TO DO: <b>Null Light</b></td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Ice. Optional, on the one hand covering his weakness would prevent opponents
+                        <li>Resist Ice, optional though. On the one hand covering his weakness would prevent opponents
                             from getting extra turns, on the other he'll die anyways so at least they'd only get one
                             extra turn.</li>
-                        <li>Megido for sweeping</li>
-                        <li>Magic aoe for sweeping, i think Megido would work best for coverage</li>
+                        <li>Megido for sweeping Magic aoe for sweeping.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine since we want to be sweeping as quickly as possible. This will allow you to turn 1 Megido in pvp. 
-                        Go for Spell Type if you wanna use him for Vanity 10 (you can then go with Mamudo). 
-                        Building evasion is another way to go as aforementioned.
-                    </p>
+                    <p><strong>Brands:</strong> Divine Type since we want to be sweeping as quickly as possible. This
+                        will allow you to turn 1 Megido in pvp. Go for Magic Type if you wanna use him for Vanity 10
+                        (you can then go with Mamudo). Building evasion is another way to go as aforementioned.</p>
                 </b-card>
                 <!-- [Lilith] -->
                 <b-card>
                     <p><strong><a id="Lilith" href="javascript:void(0)" @click="show_guide_devil('Lilith')">Lilith</a></strong></p>
                     <p>Along with Barong she's another 5* which is not so good. She has two weaknesses meaning you'd
-                       need to cover them (and she'd be costly to invest into). She comes with a unique skill Allure
-                       that does dark damage to all and has a 35% chance to charm, this would be pretty good if only
-                       there weren't so many enemies immune to dark. Her pretty high luck means the charm would
-                       probably stick if enemies are hit, but with such a low base chance it doesn't help that much.
-                    </p>
-                    <div id="DemonGuide-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td id="DemonGuide-Common"><b>Common</b></td>
-                              <td><b>Insanity</b> can be used to boost her charm chance. Compared to Luck Amp III, its a 5% difference.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
-                              <td><b>Mind Break</b> is a easily transferable skill that can only be gotten from gacha though. 
-                              <br>
-                                Not really worth it as an awakened skill due to being the weakest single target skill in the game (Its for support rather than damage).
-                              </td>
-                              <td>Bad</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
-                              <td><b>Samarecarm</b> gives her a cheaper revive, she can utilize it as a support ai demon at least.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                              <td><b>Luck Amp III</b> increases her luck, adding increased crit chance, ailment resistance, infliction, accuracy, 
-                                  dodge and reducing chances of crits taken in turn.</td>
-                              <td>Usable</td>
-                          </tr>
-                          <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                              <td><b>Null Light</b> covers one of her weaknesses leaving you free reign over the final slot (provided you also cover force weakness).</td>
-                              <td><b>Best</b></td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                        need to cover them (and she'd be costly to invest into). She comes with a unique skill Allure
+                        that does dark damage to all and has a 35% chance to charm, this would be pretty good if only
+                        there weren't so many enemies immune to dark. Her pretty high luck means the charm would
+                        probably stick if enemies are hit.</p>
+                        <div id="DemonGuideTable">
+                                <p><table>
+                                  <tbody>
+                                    <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                                        <td>TO DO: <b>Insanity</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                                        <td>TO DO: <b>Mind Break</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                                        <td>TO DO: <b>Samarecarm</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                                        <td>TO DO: <b>Luck Amp III</b></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                                        <td><b>Null Light</b> covers one of her weaknesses</td>
+                                        <td></td>
+                                    </tr>
+                                  </tbody>
+                                </table></p>
+                              </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Force. To cover her weakness</li>
-                        <li>Resist Light. If not Teal.</li>
+                        <li>Resist Force, same reason as above.</li>
                         <li>Megido for more coverage</li>
                         <li>Dark boost for more allure damage</li>
                     </ul>
-                    <p><strong>Brands:</strong> Spell/Life. Allure isn't that costly at all which is nice (6 mp cost), you can opt for Divine if you like.</p>
+                    <p><strong>Brands:</strong> Magic type. Allure isn't that costly at all which is nice (6 mp cost),
+                        you can opt for Divine type if you like.</p>
                 </b-card>
                 <guide></guide>
             </b-tab>
@@ -2837,7 +2835,7 @@
         </div>
     </script>
 
-    <script src="js/app.js?t=180719"></script>
+    <script src="js/appBeta.js?t=180719"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -2849,7 +2847,8 @@
 
         gtag('config', 'UA-71606599-2');
     </script>
-    <a href="indexBeta.html">Try the beta!</a>
+        <a href="index.html">Go back to Stable Release!</a>
+    Formula Problems? Contact <a href="mailto:myh10232223@yahoo.com">putty174</a>
 </body>
 
 </html>
