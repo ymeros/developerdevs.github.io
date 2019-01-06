@@ -32,6 +32,8 @@ var allCh6TalkCheckbox = document.getElementById("allTalkCh6");
 var allCh7TalkCheckbox = document.getElementById("allTalkCh7");
 var allCh7aTalkCheckbox = document.getElementById("allTalkCh7a");
 
+var checkedTotal = 0;
+
 function updateAllFreebies(checkbox) {
     updateAllFreebiesHelper("allFragments", checkbox.checked);
     updateAllFreebiesHelper("allAG", checkbox.checked);
