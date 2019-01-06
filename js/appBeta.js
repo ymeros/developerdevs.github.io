@@ -1837,6 +1837,7 @@ const messages = {
 
 function isFreebieDevil(devilName) {
     var freebieDevils = Array.from(fragmentCheckboxes)
+        .concat(Array.from(agCheckboxes))
         .concat(Array.from(ch1TalkCheckboxes))
         .concat(Array.from(ch2TalkCheckboxes))
         .concat(Array.from(ch3TalkCheckboxes))
