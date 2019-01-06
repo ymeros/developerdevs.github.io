@@ -1475,13 +1475,13 @@ const messages = {
     en: {
       message: {
         fusion: 'Fusion',
-        skill:'Skill',
+        skill:'Skills',
         notes: 'Demon Notes',
         reverse:'Reverse',
         normal:'Normal',
         reverse_fusion: 'Reverse Fusion',
         normal_fusion: 'Normal Fusion',
-        devil: 'Demon',
+        devil: 'Demons',
         setting:'Settings',
         language: 'Language',
         downgrade_fusion: 'Downgrade Fusion',
