@@ -58,6 +58,9 @@
       text-align: center;
       padding: 8px;
     }
+    #DemonGuide-Table-Label {
+      background-color:#EAECF0;
+    }
     /* Archetype Categories */
     #DemonGuide-Common {
       background-color:#6C757D; 
@@ -401,90 +404,83 @@
                     </li></p>
                     
                     <!-- [Best Archetypes] -->
-                   
-                    <div id="DemonGuide-Table">
+                      <div id="DemonGuide-Table">
                       <table><tbody>
-                        <tr><td colspan = "6"><b>Best Archetypes</b></td></tr>
                         <tr>
-                          <td id="DemonGuide-Table-Label"><b>Type</b></td>
-                          <td id="DemonGuide-Common"><b>Common</b></td>
-                          <td id="DemonGuide-Aragami"><b>Aragami<b></td>
-                          <td id="DemonGuide-Protector"><b>Protector</b></td>
-                          <td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                          <td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                          <td id="DemonGuide-Table-Label" rowspan="2"><b>Archetype</b></td>
+                          <td id="DemonGuide-Table-Label" colspan="2"><b>Best Archetype</b></td>
+                          <td id="DemonGuide-Table-Label" colspan="2"><b>Usable Archetypes</b></td>
                         </tr>
                         <tr>
-                          <td><b>Fusable</b></td>
-                          <!-- CMN --> <td>Metatron, Surt, Susano-o</td>
-                          <!-- ARA --> <td>Vishnu, Zaou Gongen</td>
-                          <!-- PRT --> <td>Zaou Gongen, Amaterasu, Ishtar, Black Frost, Garuda</td>
-                          <!-- PSY --> <td>Lucifer, Mara, Huang Long, Samael, Ananta, 
-                                        <br>Surt, Thor, Mastema, Cu Chulainn, Garuda
-                                       </td>                          
-                          <!-- ELE --> <td>Shiva, Michael, Lakshmi, Seth, Barong, 
-                                        <br>Asherah, Quetzalcoatl, Lilith
-                                       </td>
+                          <td id="DemonGuide-Table-Label">Fusable</td>
+                          <td id="DemonGuide-Table-Label">Gacha</td>
+                          <td id="DemonGuide-Table-Label">Fusable</td>
+                          <td id="DemonGuide-Table-Label">Gacha</td>
                         </tr>
-                        <tr>
-                          <td><b>Gacha</b></td>
-                          <!-- CMN --> <td>Unobtainable </td>
-                          <!-- ARA --> <td>Huang Di, Siegfried</td>
-                          <!-- PRT --> <td>Ixtab, Norgal, Orcus</td>
-                          <!-- PSY --> <td>Trumpeter, Yoshitsune, Mother Harlot, Mot, Alice, 
-                                        <br>Huang Di, Rama, Ixtab, Siegfried
-                                       </td>
-                          <!-- ELE --> <td>Yoshitsune, Alice</td>
+                        <tr><td id="DemonGuide-Common"><b>Common</b></td>
+                          <!-- Best: CMN -->
+                          <td>Metatron, Surt, Susano-o</td>
+                          <td>Unobtainable </td>
+                          <!-- Usable: CMN -->
+                          <td>Vishnu, Shiva, Izanami, Seth, Asherah,
+                            <br>Amaterasu, Black Frost, Garuda, Lilith
+                          </td>
+                          <td>Unobtainable </td>
+                        </tr>
+                        <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
+                          <!-- Best: ARA --> 
+                          <td>Vishnu, Zaou Gongen</td>
+                          <td>Huang Di, Siegfried</td>
+                          <!-- Usable: ARA --> 
+                          <td>Metaron, Lucifer, Shiva, Michael, Izanami, 
+                            <br>Lakshmi, Seth, Thor, Mastema, Ishtar,
+                            <br>Quetzalcoatl, Garuda
+                          </td>
+                          <td>Yoshitsune, Mother Harlot, Trumpeter, Ixtab, Nergal</td>
+                        </tr>
+                        <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
+                          <!-- Best: PRT -->
+                          <td>Zaou Gongen, Amaterasu, Ishtar, Black Frost, Garuda</td>
+                          <td>Ixtab, Norgal, Orcus</td>
+                          <!-- Usable: PRT -->
+                          <td>Metaron, Vishnu, Michael, Izanami, Huang Long,
+                            <br>Lakshmi, Seth, Barong, Quetzalcoatl, Lilith
+                          </td>
+                          <td>Yoshitsune, Mother Harlot, Trumpeter, Mot, Alice,
+                            <br>Rama, Siegfried
+                          </td>
+                        </tr>
+                        <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
+                          <!-- Best: PSY -->
+                          <td>Lucifer, Mara, Huang Long, Samael, Ananta, 
+                            <br>Surt, Thor, Mastema, Cu Chulainn, Garuda
+                          </td>
+                          <td>Trumpeter, Yoshitsune, Mother Harlot, Mot, Alice, 
+                            <br>Huang Di, Rama, Ixtab, Siegfried
+                          </td>                      
+                          <!-- Usable: PSY -->
+                          <td>Shiva, Michael, Izanami, Lakshmi, Asherah,
+                            <br>Amaterasu, Black Frost, Quetzalcoatl, Lilith
+                          </td>
+                          <td> - </td>
+                        </tr>
+                        <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
+                          <!-- Best: ELE -->
+                          <td>Shiva, Michael, Lakshmi, Seth, Barong, 
+                            <br>Asherah, Quetzalcoatl, Lilith
+                          </td>
+                          <td>Yoshitsune, Alice</td>
+                          <!-- Usable: ELE -->
+                          <td>Lucifer, Huang Long, Mastema
+                            <br>Amaterasu, Ishtar, Susano-o
+                          </td>
+                          <td>Mot, Huang Di, Rama, Ixtab, Siegfried, 
+                           <br>Orcus
+                          </td>
                         </tr>
                       </tbody></table>
                     </div>
-                    
-                    <br>
-                    
-                    <div id="DemonGuide-Table">
-                      <table><tbody>
-                        <tr><td colspan = "6"><b>Usable Archetypes</b></td></tr>
-                        <tr>
-                          <td id="DemonGuide-Table-Label"><b>Type</b></td>
-                          <td id="DemonGuide-Common"><b>Common</b></td>
-                          <td id="DemonGuide-Aragami"><b>Aragami<b></td>
-                          <td id="DemonGuide-Protector"><b>Protector</b></td>
-                          <td id="DemonGuide-Psychic"><b>Psychic</b></td>
-                          <td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
-                        </tr>
-                        <tr>
-                          <td><b>Fusable</b></td>
-                          <!-- CMN --> <td>Vishnu, Shiva, Izanami, Seth, Asherah,
-                                       <br>Amaterasu, Black Frost, Garuda, Lilith
-                                       </td>
-                          <!-- ARA --> <td>Metaron, Lucifer, Shiva, Michael, Izanami, 
-                                       <br>Lakshmi, Seth, Thor, Mastema, Ishtar,
-                                       <br>Quetzalcoatl, Garuda
-                                       </td>
-                          <!-- PRT --> <td>Metaron, Vishnu, Michael, Izanami, Huang Long,
-                                       <br>Lakshmi, Seth, Barong, Quetzalcoatl, Lilith
-                                       </td>
-                          <!-- PSY --> <td>Shiva, Michael, Izanami, Lakshmi, Asherah,
-                                        <br>Amaterasu, Black Frost, Quetzalcoatl, Lilith
-                                       </td>
-                          <!-- ELE --> <td>Lucifer, Huang Long, Mastema
-                                        <br>Amaterasu, Ishtar, Susano-o
-                                       </td>
-                        </tr>
-                        <tr>
-                          <td><b>Gacha</b></td>
-                          <!-- CMN --> <td>Unobtainable</td>
-                          <!-- ARA --> <td>Yoshitsune, Mother Harlot, Trumpeter, Ixtab, Nergal</td>
-                          <!-- PRT --> <td>Yoshitsune, Mother Harlot, Trumpeter, Mot, Alice,
-                                       <br>Rama, Siegfried
-                                       </td>
-                          <!-- PSY --> <td> - </td>
-                          <!-- ELE --> <td>Mot, Huang Di, Rama, Ixtab, Siegfried, 
-                                       <br>Orcus
-                                       </td>
-                        </tr>
-                      </tbody></table>
-                    </div>
-                    
+                      
                     <br>
                     
                     <li>Even if you have a demon with an unoptimal archetype, you can always shift their archetype by
