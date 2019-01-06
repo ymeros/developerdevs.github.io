@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 
 <head>
@@ -10,6 +10,7 @@
     <title>Dx2 Database</title>
     <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet" href="css/bootstrap-vue.min.css" />
+    <link type="text/css" rel="stylesheet" href="css/beta.css">
     <style>
         [v-cloak] {
       display: none;
@@ -147,6 +148,79 @@
                         <b-tab :title="$t('message.reverse')" no-body>
                             <b-card no-body v-if="builder_target">
                                 <b-list-group flush>
+                                    <b-list-group-item class="p-2">
+                                        <input type="checkbox" onclick="updateAllFreebies(this); updateAllFrebiesCheckboxStatus();" id="allFreebies"><label for="option">All Farmable Demons</label>
+                                        <div id="freebies" class="row align-items-center">
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allFragments"><label for="option">Fragment</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Apis">Apis</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Dakini">Dakini</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Horus">Horus</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Kushinada">Kushinada</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Makami">Makami</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Mitra">Mitra</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Mothman">Mothman</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="fragment" value="Power">Power</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh1"><label for="allTalkCh1">Ch1 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh1" value="Slime">Slime</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh2"><label for="allTalkCh2">Ch2 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh2" value="Preta">Preta</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh2" value="Melchom">Melchom</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh3"><label for="allTalkCh3">Ch3 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh3" value="Nekomata">Nekomata</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh3" value="Sandman">Sandman</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh4"><label for="allTalkCh4">Ch4 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh4" value="Leanan Sidhe">Leanan Sidhe</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh4" value="Momunofu">Momunofu</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh5"><label for="allTalkCh5">Ch5 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh5" value="Pisaca">Pisaca</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh5" value="Yomotsu-Shikome">Yomotsu-Shikome</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh6"><label for="allTalkCh6">Ch6 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh6" value="Decarabia">Decarabia</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh6" value="Black Ooze">Black Ooze</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh7"><label for="allTalkCh7">Ch7 Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7" value="Principality">Principality</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7" value="Archangel">Archangel</label></li>
+                                                </ul>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allTalkCh7a"><label for="allTalkCh7a">Ch7a Talks</label>
+                                                <ul>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7a" value="Pisaca">Pisaca</label></li>
+                                                    <li><label><input type="checkbox" onclick="updateFreebie(this); updateAllFrebiesCheckboxStatus();" class="talkCh7a" value="Mou-Ryo">Mou-Ryo</label></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </b-list-group-item>
                                     <b-list-group-item class="p-2">
                                         <div class="row align-items-center">
                                             <div class="col-auto">
@@ -2761,7 +2835,7 @@
         </div>
     </script>
 
-    <script src="js/app.js?t=180719"></script>
+    <script src="js/appBeta.js?t=180719"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -2773,7 +2847,7 @@
 
         gtag('config', 'UA-71606599-2');
     </script>
-    <a href="indexBeta.html">Try the beta!</a>
+        <a href="index.html">Go back to Stable Release!</a>
 </body>
 
 </html>
