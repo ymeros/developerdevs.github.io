@@ -32,6 +32,8 @@ var allCh6TalkCheckbox = document.getElementById("allTalkCh6");
 var allCh7TalkCheckbox = document.getElementById("allTalkCh7");
 var allCh7aTalkCheckbox = document.getElementById("allTalkCh7a");
 
+var runDiscountProcess = false;
+
 function updateAllFreebies(checkbox) {
     updateAllFreebiesHelper("allFragments", checkbox.checked);
     updateAllFreebiesHelper("allAG", checkbox.checked);
@@ -64,9 +66,11 @@ function updateAllFrebiesCheckboxStatus() {
         "allTalkCh7a"];
 
     var checkedCounter = 0;
+    runDiscountProcess = false;
     for (var index = 0; index < categoryArray.length; index++) {
         var result = updateCatagoryCheckboxStatus(categoryArray[index]);
         if (result.checked) {
+            runDiscountProcess = true;
             checkedCounter++;
         }
     }
@@ -1834,7 +1838,12 @@ const messages = {
 //////////////////////
 
 function isFreebieDevil(devilName) {
+    if (!runDiscountProcess) {
+        return false;
+    }
+
     var freebieDevils = Array.from(fragmentCheckboxes)
+        .concat(Array.from(agCheckboxes))
         .concat(Array.from(ch1TalkCheckboxes))
         .concat(Array.from(ch2TalkCheckboxes))
         .concat(Array.from(ch3TalkCheckboxes))
