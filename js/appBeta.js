@@ -281,6 +281,10 @@ function updateFreebieRegion(checkbox) {
     }
 }
 
+function updatePrices(discountField) {
+    app.update_current_bom(app.current_bom);
+}
+
 // Localized to English by Dissi & Devs
 
 const ddd_stable = [
@@ -1865,6 +1869,18 @@ function getFreebieCost(devilName, mag) {
     return isFreebieDevil(devilName) ? 0 : mag;
 }
 
+function getRaceDiscountPrice(bom, baseMag) {
+    var raceDiscount = 0;
+    if (bom) {
+        var searchString = bom.devil.race.name.toLowerCase() + "Discount";
+        var race = document.getElementById(searchString);
+        if (race) {
+            raceDiscount = race.value;
+        }
+    }
+    return baseMag * ((100 - raceDiscount) / 100);
+}
+
 //////////////////////
 // Devil Class
 //////////////////////
@@ -2237,15 +2253,15 @@ DevilBom.prototype.init = function(){
     }
 };
 
-DevilBom.prototype.showMag = function(){
-
-    return (this.mag/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+DevilBom.prototype.showMag = function () {
+    var mag = getRaceDiscountPrice(this, this.mag);
+    return (mag/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
 
-DevilBom.prototype.showMagPure = function(){
-
-    return (this.mag_pure/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+DevilBom.prototype.showMagPure = function () {
+    var mag = getRaceDiscountPrice(this, this.mag_pure);
+    return (mag/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
 DevilBom.prototype.caculate_mag = function(layer){
@@ -2260,14 +2276,15 @@ DevilBom.prototype.caculate_mag = function(layer){
     }
     else{               mag += mag1 + mag2;                                   }
 
-    return mag;
+    return getRaceDiscountPrice(this, mag);
 };
 
 DevilBom.prototype.caculate_mag_pure = function(){
-
-    return this.mag_pure
+    var mag = this.mag_pure
         + (this.child1?this.child1.caculate_mag_pure():0)
-        + (this.child2?this.child2.caculate_mag_pure():0);
+        + (this.child2 ? this.child2.caculate_mag_pure() : 0);
+
+    return getRaceDiscountPrice(this, mag);
 };
 
 DevilBom.prototype.showTotalMag = function(){
@@ -2310,7 +2327,8 @@ DevilBom.prototype.getCost = function(rarity){
     var cost1 = isFreebieDevil(d1.name) ? 0 : cost1_x + cost2_p;
     var cost2 = isFreebieDevil(d2.name) ? 0 : cost1_p + cost2_x;
 
-    return (cost1 > cost2 ? cost2 : cost1) + this.mag;
+    var mag = (cost1 > cost2 ? cost2 : cost1) + this.mag;
+    return getRaceDiscountPrice(this, mag);
 
 };
 
@@ -2325,9 +2343,11 @@ DevilBom.prototype.getCostPure = function(rarity){
     if(cost1==null||cost2==null)
         return null;
 
-    return (d1.rarity > rarity ? cost1 : 0)
+    var mag = (d1.rarity > rarity ? cost1 : 0)
         + (d2.rarity > rarity ? cost2 : 0)
         + this.mag_pure;
+
+    return getRaceDiscountPrice(this, mag);
 };
 
 DevilBom.bom = function(devil, d1, d2){

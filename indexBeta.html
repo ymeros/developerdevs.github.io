@@ -149,6 +149,115 @@
                             <b-card no-body v-if="builder_target">
                                 <b-list-group flush>
                                     <b-list-group-item class="p-2">
+                                        <div id="freebies" class="row align-items-center">
+                                            <div class="col-10 col-md-auto">
+                                                Avatar: <input type="number" onchange="updatePrices(this)" id="avatarDiscount" min="0" max="50" step="10" placeholder="30" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Avian: <input type="number" onchange="updatePrices(this)" id="avianDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Beast: <input type="number" onchange="updatePrices(this)" id="beastDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Brute: <input type="number" onchange="updatePrices(this)" id="bruteDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Deity: <input type="number" onchange="updatePrices(this)" id="deityDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Divine: <input type="number" onchange="updatePrices(this)" id="divineDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Dragon: <input type="number" onchange="updatePrices(this)" id="dragonDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Enigma: <input type="number" onchange="updatePrices(this)" id="enigmaDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Entity: <input type="number" onchange="updatePrices(this)" id="entityDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Event: <input type="number" onchange="updatePrices(this)" id="eventDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Fairy: <input type="number" onchange="updatePrices(this)" id="fairyDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Fallen: <input type="number" onchange="updatePrices(this)" id="fallenDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Femme: <input type="number" onchange="updatePrices(this)" id="femmeDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Fiend: <input type="number" onchange="updatePrices(this)" id="fiendDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Foul: <input type="number" onchange="updatePrices(this)" id="foulDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Fury: <input type="number" onchange="updatePrices(this)" id="furyDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Genma: <input type="number" onchange="updatePrices(this)" id="genmaDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Haunt: <input type="number" onchange="updatePrices(this)" id="hauntDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Herald: <input type="number" onchange="updatePrices(this)" id="heraldDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Hero: <input type="number" onchange="updatePrices(this)" id="heroDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Holy: <input type="number" onchange="updatePrices(this)" id="holyDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Jaki: <input type="number" onchange="updatePrices(this)" id="jakiDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Kishin: <input type="number" onchange="updatePrices(this)" id="kishinDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Lady: <input type="number" onchange="updatePrices(this)" id="ladyDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Megami: <input type="number" onchange="updatePrices(this)" id="megamiDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Night: <input type="number" onchange="updatePrices(this)" id="nightDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Reaper: <input type="number" onchange="updatePrices(this)" id="reaperDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Rumor: <input type="number" onchange="updatePrices(this)" id="rumorDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Snake: <input type="number" onchange="updatePrices(this)" id="snameDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Tyrant: <input type="number" onchange="updatePrices(this)" id="tyrantDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                UMA: <input type="number" onchange="updatePrices(this)" id="umaDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Vile: <input type="number" onchange="updatePrices(this)" id="vileDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Wilder: <input type="number" onchange="updatePrices(this)" id="wilderDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Yoma: <input type="number" onchange="updatePrices(this)" id="yomaDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                            <div class="col-10 col-md-auto">
+                                                Zealot: <input type="number" onchange="updatePrices(this)" id="zealotDiscount" min="0" max="50" step="10" />%
+                                            </div>
+                                        </div>
+                                    </b-list-group-item>
+                                    <b-list-group-item class="p-2">
                                         <input type="checkbox" onclick="updateAllFreebies(this); updateAllFrebiesCheckboxStatus();" id="allFreebies"><label for="option">All Farmable Demons</label>
                                         <div id="freebies" class="row align-items-center">
                                             <div class="col-12 col-md-auto">
