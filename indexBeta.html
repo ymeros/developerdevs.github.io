@@ -149,7 +149,8 @@
                             <b-card no-body v-if="builder_target">
                                 <b-list-group flush>
                                     <b-list-group-item class="p-2">
-                                        <div id="freebies" class="row align-items-center">
+                                        <button class="discountCollapseButton" onclick="toggleCollapse(this)">Hide Discounts</button>
+                                        <div id="discounts" class="row align-items-center">
                                             <div class="col-10 col-md-auto">
                                                 Avatar: <input type="number" onchange="updatePrices(this)" id="avatarDiscount" min="0" max="50" step="10" placeholder="30" />%
                                             </div>
@@ -258,8 +259,9 @@
                                         </div>
                                     </b-list-group-item>
                                     <b-list-group-item class="p-2">
-                                        <input type="checkbox" onclick="updateAllFreebies(this); updateAllFrebiesCheckboxStatus();" id="allFreebies"><label for="option">All Farmable Demons</label>
+                                        <button class="freebiesCollapseButton" onclick="toggleCollapse(this)">Hide Freebies</button>
                                         <div id="freebies" class="row align-items-center">
+                                            <input type="checkbox" onclick="updateAllFreebies(this); updateAllFrebiesCheckboxStatus();" id="allFreebies"><label for="option">All Farmable Demons</label>
                                             <div class="col-12 col-md-auto">
                                                 <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allFragments"><label for="allFragments">Fragment</label>
                                                 <ul>
