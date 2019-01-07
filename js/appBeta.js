@@ -10,6 +10,20 @@ Publish: https://oceanxdds.github.io/dx2_fusion/
 // HTML Functions
 //////////////////////
 
+function toggleCollapse(button) {
+    var content = button.nextElementSibling;
+    var displayText = "";
+    if (content.style.display == "") {
+        content.style.display = "none";
+        displayText = "Show ";
+    }
+    else {
+        content.style.display = "";
+        displayText = "Hide ";
+    }
+    button.innerHTML = displayText + (button.className == "discountCollapseButton" ? "Discounts" : "Freebies");
+}
+
 var fragmentCheckboxes = document.getElementsByClassName("fragment");
 var agCheckboxes = document.getElementsByClassName("talkAG");
 var ch1TalkCheckboxes = document.getElementsByClassName("talkCh1");
