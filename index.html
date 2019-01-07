@@ -61,8 +61,12 @@
       background-color:#EAECF0;
     }
     #DemonGuide-ToC img{
-      width:50px;
-      height:100px;
+      width:40px;
+      height:80px;
+    }
+    #DemonGuide-HomeButton {
+      width:40px;
+      height:40px;
     }
     /* Archetype Categories */
     #DemonGuide-Common {
@@ -409,6 +413,7 @@
                     <!-- [Archetypes Table] -->
                       <div id="DemonGuide-Table">
                       <table><tbody>
+                        <tr><td id="DemonGuide-Table-Label" colspan="5"><b>5 Star Demon Summary</b></td>
                         <tr>
                           <td id="DemonGuide-Table-Label" rowspan="2"><b>Archetype</b></td>
                           <td id="DemonGuide-Table-Label" colspan="2"><b>Best Archetype</b></td>
@@ -546,10 +551,11 @@
                 -->
                 
                 <b-card>
-                <p><strong>Table of Contents</strong></p>
+                <p id="DemonGuide-Top"><strong>Table of Contents</strong></p>
                 <!-- Just grouped by 10 to make it easier to navigate -->
                   <div id="DemonGuide-Table">
                     <table id="DemonGuide-ToC"><tbody>
+                      <tr><td id="DemonGuide-Table-Label" colspan="10"><b>5 Star Demons</b></td></tr>
                       <tr>
                         <td><a href="#Alice"><img src="images/devil/majin_arisu.png"><br>Alice</a></td>
                         <td><a href="#Alilat"><img src="images/devil/irei_arirato.png"><br>Alilat</a></td>
@@ -595,8 +601,22 @@
                         <td><a href="#Vishnu"><img src="images/devil/majin_visyunu.png"><br>Vishnu</a></td>
                         <td><a href="#Yoshitsune"><img src="images/devil/eiyuu_yositune.png"><br>Yoshitsune</a></td>
                         <td><a href="#ZaouGongen"><img src="images/devil/Zaou-Gongen.png"><br>Zaou-Gongen</a></td>
+                      </tr>                      
+                    </tbody></table>
+                    
+                    <br>
+                    
+                    <table id="DemonGuide-ToC"><tbody>
+                      <tr><td id="DemonGuide-Table-Label" colspan="10"><b>4 Star Demons (WIP)</b></td></tr>
+                      <tr>
+                        <td id="DemonGuide-Table-Label"><b>Gacha</b></td>
+                        <td><a href="#Chernobog"><img src="images/devil/Chernobog.png"><br>Chernobog</a></td>
+                        <td><a href="#Hel"><img src="images/devil/Hel.jpg"><br>Hel</a></td>
+                        <td><a href="#HellBiker"><img src="images/devil/Hell-Biker.png"><br>Hell Biker</a></td>
+                        <td><a href="#JeanneDArc"><img src="images/devil/eiyuu_jannu.png"><br>Jeanne D'Arc</a></td>
+                        <td><a href="#Persephone"><img src="images/devil/Persephone.jpg"><br>Persephone</a></td>
+                        <td><a href="#WhiteRider"><img src="images/devil/majin_waitonaito.png"><br>White Rider</a></td>
                       </tr>
-                      
                     </tbody></table>
                   </div>
                 </b-card>
@@ -632,8 +652,7 @@
                 
                 <!-- [Metatron] -->
                 <b-card>
-                    <p><strong><a id="Metatron" href="javascript:void(0)" @click="show_guide_devil('Metatron')">Metatron</a>
-                        </strong></p>
+                    <p><strong><a id="Metatron" href="javascript:void(0)" @click="show_guide_devil('Metatron')">Metatron</a></strong></p>
                     <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
                         guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
                         and so quite amazing for boss killing. He comes naturally to boot with Infinite Chakra for
@@ -703,6 +722,7 @@
                         </li>
                     </ul>
                     <p><strong>Brands:</strong> Spell/Divine, whichever you want.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Lucifer] -->
                 <b-card>
@@ -760,6 +780,7 @@
                         <li>Serial Killer to amp up his almighty damage.</li>
                     </ul>
                     <p><strong>Brands:</strong> Use Divine to ensure he can two turn Morning Star.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Vishnu] -->
                 <b-card>
@@ -810,6 +831,7 @@
                         </li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for Aragami, Life/Spell works for Protector </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Yoshitsune] -->
                 <b-card>
@@ -870,6 +892,7 @@
                         <li>Butcher. As multi-hit skills count as aoe, this can increase Hassou-Tobi/Vorpal Blade damage. Phys Amp, Boost, Butcher maximises his damage</li>
                     </ul>
                     <p><strong>Brands: </strong>War or Divine. Divine would be better for charge/pvp setups, for pve it isn't really needed</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Mother Harlot] -->
                 <b-card>
@@ -929,6 +952,7 @@
                         if you maxed it out), though the less opponents alive, the less effective it'll be in returning
                         mana to her. Ward if you're worried of her being inflicted by ailments. Shield would be good otherwise.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Trumpeter] -->
                 <b-card>
@@ -985,6 +1009,7 @@
                         two turn use it. Maxing it out would help with mp cost but this brand setup would still be good for
                         when you want to Concentrate then Apocalypse as soon as possible.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Shiva] -->
                 <b-card>
@@ -1036,6 +1061,7 @@
                         <li>Butcher. Stacks with Serial Killer for Pralaya/Vorpal Blade damage boosting</li>
                     </ul>
                     <p><strong>Brands:</strong> War if you don't mind waiting for mp to regen otherwise Divine.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Mot] -->
                 <b-card>
@@ -1095,6 +1121,7 @@
                         two turn them. Life if you don't really care about that and just want his
                         hp to go as high as possible. Stack MAtk % if you want damage, Life% if you want survival.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Michael] -->
                 <b-card>
@@ -1139,6 +1166,7 @@
                         <li>Serial Killer/Butcher. To increase both Soul Judgement and Megidolaon's damage </li>
                     </ul>
                     <p><strong>Brands:</strong> Divine if you want two turn Megidolaon, Spell for Soul Judgement spam.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Mara] -->
                 <b-card>
@@ -1184,6 +1212,7 @@
                     <p><strong>Brands:</strong> Divine/Ward. Both Hell Thrust and Titanomachia costs 7 mp, so you
                         can't two turn them with War. Though if you don't mind waiting, then War would strengthen his damage further.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Izanami] -->
                 <b-card>
@@ -1200,12 +1229,14 @@
                         <tbody>
                           <tr><td id="DemonGuide-Common"><b>Common</b></td>
                               <td><b>Life Surge</b> increases her tankiness, though this'll be the hardest
-                                  to get unless you're in luck with hell buns or have tons of mag to fuse clear 5* demons.</td>
+                                  to get unless you're in luck with hell buns or have tons of mag to fuse clear 5* demons.
+                              </td>
                               <td>Usable</td>
                           </tr>
                           <tr><td id="DemonGuide-Aragami"><b>Aragami</b></td>
                               <td><b>Hell Gaze</b> goes well with her unique passive and is quite powerful too, 180 power with -1 mp cost 
-                                  will hit hard.</td>
+                                  will hit hard.
+                              </td>
                               <td>Usable</td>
                           </tr>
                           <tr><td id="DemonGuide-Protector"><b>Protector</b></td>
@@ -1214,12 +1245,14 @@
                           </tr>
                           <tr><td id="DemonGuide-Psychic"><b>Psychic</b></td>
                               <td><b>Elec Amp</b> boosts her elec damage even further. You would either stack this with Elec Boost + cover her weakness 
-                              or cover her weakness and go with another skill</td>
+                              or cover her weakness and go with another skill
+                              </td>
                               <td>Usable</td>
                           </tr>
                           <tr><td id="DemonGuide-Elementalist"><b>Elementalist</b></td>
                               <td><b>Repel Ice</b> would go well with Alilat to prevent Purple Rama from piercing your team. She naturally has Null Ice however so this 
-                              is not that great.</td>
+                              is not that great.
+                              </td>
                               <td>Bad</td>
                           </tr>
                         </tbody>
@@ -1229,13 +1262,14 @@
                     <ul>
                         <li>Resist Fire. To cover her weakness</li>
                         <li>Elec Boost. Goes well with Elec Amp, though if you take resist as well you'd be
-                            conjuring Bolt Storms all day and night.
+                            conjuring Bolt Storms all day and night.</li>
                         <li>Dark skill. To take advantage of her passive</li>
                         <li>Dark boost. Pair with Red or a dark skill if you don't want to cover her weakness.</li>
                     </ul>
                     <p><strong>Brands:</strong> Spell is fine since Bolt Storm doesn't cost much. For Aragami, Hell Gaze
                         will cost 6mp, go with Divine if you want to use it off the bat in pvp. Life is also good since she's quite bulky.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Alice] -->
                 <b-card>
@@ -1296,8 +1330,10 @@
                         <li>Megido (If not Clear/Yellow). As she only uses Dark skills, Almighty can be used when you face dark
                             immune/resistant opponents. Any other element would work too, but almighty would be best.</li>
                     </ul>
-                    <p><strong>Brands:</strong> Divine/Ward helps you charge up for Die For Me! as quickly as possible, though Spell 
-                        would work as Mamudoon and Mudodyne both cost 6 mp only.</p>
+                    <p><strong>Brands:</strong> Divine/Ward helps you charge up for DfM as quickly as possible, though Spell 
+                        would work as Mamudoon and Mudodyne both cost 6 mp only.
+                    </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Huang Di] -->
                 <b-card>
@@ -1352,6 +1388,7 @@
                         Life can ensure he's bulky. You wouldn't really need Ward as Purple or pulled Teal but it can act as a safety harness. 
                         In that case Aim could be nice against evasion teams or Shield for magic defense.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Huang Long] -->
                 <b-card>
@@ -1408,6 +1445,7 @@
                         <li>Dodge/Evade. You should build him for evasion, this just further enhances it. 5E to ignore magic and evasion to avoid physical.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine, you'd want to always have 5E up.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Rama] -->
                 <b-card>
@@ -1459,7 +1497,9 @@
                             Mabufudyne's damage.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine. You want to spam spells so this is the only option really, Spell/Life is okay but then you won't
-                        be able to 2 turn skills in exchange for more damage/hp.</p>
+                        be able to 2 turn skills in exchange for more damage/hp.
+                    </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Zaou Gongen] -->
                 <b-card>
@@ -1503,6 +1543,7 @@
                         <li>Phys Aoe skill if not red.</li>
                     </ul>
                     <p><strong>Brands:</strong> War/Divine. Divine would allow you to two turn God's Hand and enables transfering more expensive phys aoe skills (If Yellow)</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Alilat] -->
                 <b-card>
@@ -1548,7 +1589,9 @@
                         <li>War Cry/Fog Breath/Acid Breath, she can act as a tanky debuffer.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for ailments or Life for general survival. Aim for HP%, or ailment % if you're using Ailment
-                        skills. PDEF % is also valid against phys pierce when you're fighting against Hell Biker teams.</p>
+                        skills. PDEF % is also valid against phys pierce when you're fighting against Hell Biker teams.
+                    </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Lakshmi] -->
                 <b-card>
@@ -1597,7 +1640,9 @@
                     </ul>
                     <p><strong>Brands:</strong> Divine to ensure turn one charms + if you do go with an aoe
                         almighty skill, the ability to spam it. Life for Yellow if you want her to be more
-                        defensive. Sick brands are also good for a more slow but higher odds approach.</p>
+                        defensive. Sick brands are also good for a more slow but higher odds approach.
+                    </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Ixtab] -->
                 <b-card>
@@ -1667,7 +1712,9 @@
                         <li>Barrier break to remove barriers for ailment inflicting (though another demon can fulfil this role)</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine, Speed, Spell, Lead combinations all work. Don't give her HP/def/mdef and instead focus on stats like Ailment Infliction, 
-                        Ailment Resistance, Speed (If you want to act first), Matk % if you want to use her as dps.</p>
+                        Ailment Resistance, Speed (If you want to act first), Matk % if you want to use her as dps.
+                    </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Samael] -->
                 <b-card>
@@ -1713,6 +1760,7 @@
                         <li>High MP cost skills that you want to use on a support.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine to get 5mp regen or Spell maximising damage, Life making him beefy</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Seth] -->
                 <b-card>
@@ -1760,6 +1808,7 @@
                         <li>Good/Great Aim. If you feel he has accuracy issues, this can help patch it up.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine allows casting Debilitate and Nocturne easily and spamming Ouas more often for pvp. In pve, war and life work just as well.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Barong] -->
                 <b-card>
@@ -1798,11 +1847,12 @@
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
                         <li>Resist Force. Cover his second weakness</li>
-                        <li>Resist Dark. If Yellow.
+                        <li>Resist Dark. If Yellow.</li>
                         <li>Ailment aoe skill. Takes advantage of his luck stat which is pretty high</li>
-                        <li>Samarecarm. Added revive to his lackluster support kit.
+                        <li>Samarecarm. Added revive to his lackluster support kit.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine so he can two turn cast Barong Dance. Life can ensure he's more bulky</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Siegfried] -->
                 <b-card>
@@ -1855,6 +1905,7 @@
                         <li>Endure if using Enduring soul to stack it up.</li>
                     </ul>
                     <p><strong>Brands:</strong> War/Life or Divine, he works fine with either. Divine will allow you to turn one Berserker God for pvp.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Ananta] -->
                 <b-card>
@@ -1903,6 +1954,7 @@
                         <li>Barrier break. If you don't feel like running a double debuff/have it already covered. Though after barriers are gone, he'd just spam attack and heal.</li>
                     </ul>
                     <p><strong>Brands:</strong> Life or Divine. You wan't him to be as tanky as possible and survive. Divine to spam double debuffs, Life for more hp in general.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Surt] -->
                 <b-card>
@@ -1949,6 +2001,7 @@
                         <li>Fire Boost. If you want Ragnarok to be stronger</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine and MATK% if you want to spam Ragnarok with Purple or War/Life and PATK% for Berserker God damage with Clear.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Thor] -->
                 <b-card>
@@ -1995,6 +2048,7 @@
                         <li>Phys Boost. If you're running Red</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine (focus on MATK% for purple, PATK% for red) so that he can spam Mjolnir/Gigantomachia.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Asherah] -->
                 <b-card>
@@ -2039,6 +2093,7 @@
                         <li>Samarecarm. If Teal to give her another revive skill.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine is mandatory to ensure you can two turn heal.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Mastema] -->
                 <b-card>
@@ -2084,6 +2139,7 @@
                         <li>Light Boost. If you want to only use him in Sloth 10 or in fights where the enemy isn't immune to light.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine, means more journeys into the Trial of Hate. You can also turn one cast it if you max it out.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Amaterasu] -->
                 <b-card>
@@ -2128,6 +2184,7 @@
                         <li>Any other magic element</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for two turn Tenson Kourin casts and Mediarahan when Yellow.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Ishtar] -->
                 <b-card>
@@ -2179,6 +2236,7 @@
                             survival or another element as well if you wish.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for Jack Bros setup with her Yellow version. Spell can work for Teal.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Susano-o] -->
                 <b-card>
@@ -2227,6 +2285,7 @@
                     <p><strong>Brands:</strong> Divine to ensure you can first turn Kusanagi/Mortal Jihad in pvp
                         and spam it more in general. Though War will increase his damage way more for pve, Life if you want survability.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Nergal] -->
                 <b-card>
@@ -2277,6 +2336,7 @@
                         <li>Aoe skill. If not Red, can help with sweeping</li>
                     </ul>
                     <p><strong>Brands:</strong> War works fine since he doesn't have any costly skills. Divine if you want a more costly aoe.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Black Frost] -->
                 <b-card>
@@ -2320,6 +2380,7 @@
                             so you'd need to set it up with another demon or just use GTH, on subsequent casts it would be stronger.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine so he can spam his skills since it costs 7mp for Mabufudyne/GTH.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Cu Chulainn] -->
                 <b-card>
@@ -2364,6 +2425,7 @@
                             it for pve though, he'd never save up for Mazandyne)</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine or Spell is valid. Divine allows him to two turn Mazandyne and spam magic more in general.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Quetzalcoatl] -->
                 <b-card>
@@ -2415,6 +2477,7 @@
                     <p><strong>Brands:</strong> Life, He needs to be tanky and ideally the last demon to fall, so that he'd bring back everyone else. 
                       Divine can work too to ensure two turn Ce Actis' casts.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Orcus] -->
                 <b-card>
@@ -2479,6 +2542,7 @@
                     <p><strong>Brands:</strong> Life ensures he survives as long as possible, though Divine
                         can work too so that he can spam out War Cry as much as possible and two turn Samarecarm/Recarmdra skills.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Garuda] -->
                 <b-card>
@@ -2535,6 +2599,7 @@
                         Go for Spell Type if you wanna use him for Vanity 10 (you can then go with Mamudo). 
                         Building evasion is another way to go as aforementioned.
                     </p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Lilith] -->
                 <b-card>
@@ -2583,6 +2648,7 @@
                         <li>Dark boost for more allure damage</li>
                     </ul>
                     <p><strong>Brands:</strong> Spell/Life. Allure isn't that costly at all which is nice (6 mp cost), you can opt for Divine if you like.</p>
+                    <a href="#DemonGuide-Top"><img id="DemonGuide-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <guide></guide>
             </b-tab>
