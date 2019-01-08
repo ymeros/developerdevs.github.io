@@ -80,6 +80,9 @@
       height:40px;
     }
     /* Archetype Categories */
+    .DG-Optimal td {
+      border-color: green;
+    }
     #DG-CMN {
       background-color:#6C757D; 
       color:white;
@@ -101,50 +104,7 @@
       color:white;
     }
     
-    .DG-Collapsible {
-      background-color: #36393F;
-      color: white;
-      cursor: pointer;
-      padding: 15px;
-      width: 100%;
-      border: none;
-      text-align: left;
-      outline: none;
-      font-size: 15px;
-    }
-
-    .DG-ActiveTab, .DG-Collapsible:hover {
-      background-color: #555;
-    }
-
-    .DG-Tab {
-      padding: 0 18px;
-      display: none;
-      overflow: hidden;
-    }
-    
     </style>
-    
-    <!-- Demon Guide: Custom script for opening/closing tabs -->
-    <script>
-    <!-- Source: https://www.w3schools.com/howto/howto_js_collapsible.asp -->
-      var coll = document.getElementsByClassName("DG-Collapsible");
-      var i;
-
-      for (i = 0; i < coll.length; i++) {
-        coll[i].addEventListener("click", function() {
-          this.classList.toggle("DG-ActiveTab");
-          var content = this.nextElementSibling;
-          if (content.style.display === "block") {
-            content.style.display = "none";
-          } else {
-            content.style.display = "block";
-          }
-        });
-      }
-      
-    </script>
-    
     <script src="js/vue.min.js"></script>
     <script src="js/bootstrap-vue.min.js"></script>
     <script src="js/vue-i18n.min.js"></script>
@@ -485,24 +445,10 @@
                 -->
                 <p id="DG-Top"><strong>Table of Contents</strong></p>
                 <ul>
-                  <li>Summary can be found here for each demon. Click on their portrait to view the specific writeup.</li>
-                  <li><b>Archetype Ratings:</b>
-                    <ul>
-                      <li>_ = Worst. Other archetypes are better than this one.</li>
-                      <li>U = Usable. There can more optimal ones, but this can fit depending on the playstyle you want.</li>
-                      <li>B = Best. It suits the demon.</li>
-                    </ul>
-                  </li>
-                  <!-- Uncomment when done
-                  [TODO]
-                  <li><b>Gacha Skill Ratings:</b>
-                    <ul>
-                      <li>Replace = Not that great, can be replaced with better options</li>
-                      <li>Your Choice = Usable on this demon, but can be transfered if you wish</li>
-                      <li>Keep = Recommended to hold onto this gacha skill for this demon</li>
-                    </ul>
-                  </li>
-                   -->
+                  <li>Summary can be found here for each demon. Click on their portrait to view the specific writeup</li>
+                  <li>_ = Worst</li>
+                  <li>U = Usable</li>
+                  <li>B = Best</li>
                 </ul>
                   <div id="DG-Table">
                     <table id="DG-ToC"><tbody>
@@ -694,76 +640,77 @@
                 
                 <!-- [Metatron] -->
                 <b-card>
-                  <p><strong><a id="Metatron" href="javascript:void(0)" @click="show_guide_devil('Metatron')">Metatron</a></strong></p>
+                    <p><strong><a id="Metatron" href="javascript:void(0)" @click="show_guide_devil('Metatron')">Metatron</a></strong></p>
                     <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
-                      guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
-                      and so quite amazing for boss killing. He comes naturally to boot with Infinite Chakra for
-                      extra mana so you
-                      would be able to spam tons of spells with him without needing divine brands. He's the hardest
-                      to fuse as the only
-                      combination to make him is Vishnu + Barong and for this reason i wouldn't fuse him away
-                      (regardless of his archetype,
-                      his base kit works wonders).
+                        guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
+                        and so quite amazing for boss killing. He comes naturally to boot with Infinite Chakra for
+                        extra mana so you
+                        would be able to spam tons of spells with him without needing divine brands. He's the hardest
+                        to fuse as the only
+                        combination to make him is Vishnu + Barong and for this reason i wouldn't fuse him away
+                        (regardless of his archetype,
+                        his base kit works wonders).
                     </p>
 
                     <div id="DG-Table">
                       <p><table>
-                      <tbody>
-                        <tr><td id="DG-CMN"><b>Common</b></td>
-                          <td><b>Enduring Soul</b> increases his survivability, ensuring he lives means
-                            ensuring he can kill.
-                            You can easily stack this with Endure to make him really hard to kill.
+                        <tbody>
+                            <tr><td id="DG-CMN"><b>Common</b></td>
+                              <td><b>Enduring Soul</b> increases his survivability, ensuring he lives means
+                                  ensuring he can kill.
+                                  You can easily stack this with Endure to make him really hard to kill.
 
-                            <br>This archetype is the hardest to obtain as you can't rely on gacha
-                            pulls to get components
-                            and must fuse from scratch (Unless you get lucky with Hell Buns).
-                          </td>
-                          <td><b>Best</b></td>
-                        </tr>
-                        <tr><td id="DG-ARA"> <b> Aragami</b></td>
-                          <td><b>Mahamadyne</b> gives him an aoe to use (though is restricted to light).
-                            This is amazing for content such as Sloth 10 and Aura Gate. </td>
-                          <td>Usable</td>
-                        </tr>
-                        <tr><td id="DG-PRO"><b>Protector</b></td>
-                          <td><b>Offensive Cry</b> is a great offensive buff (granting Tarukaja and
-                            Rakunda), he can set up the damage buff leaving your other sweepers
-                            to then follow up, hitting as hard as possible.
+                                  <br>This archetype is the hardest to obtain as you can't rely on gacha
+                                  pulls to get components
+                                  and must fuse from scratch (Unless you get lucky with Hell Buns).
+                              </td>
+                              <td><b>Best</b></td>
+                            </tr>
+                            <tr><td id="DG-ARA"> <b> Aragami</b></td>
+                              <td><b>Mahamadyne</b> gives him an aoe to use (though is restricted to light).
+                                  This is amazing for content such as Sloth 10 and Aura Gate. </td>
+                              <td>Usable</td>
+                            </tr>
+                            <tr><td id="DG-PRO"><b>Protector</b></td>
+                              <td><b>Offensive Cry</b> is a great offensive buff (granting Tarukaja and
+                                  Rakunda), he can set up the damage buff leaving your other sweepers
+                                  to then follow up, hitting as hard as possible.
 
-                            <br> Sadly this is only usable for manual play, due to him being Attack AI
-                            he'd never use it on auto </td>
-                          <td>Usable</td>
-                        </tr>
-                        <tr><td id="DG-PSY"> <b>Psychic </b></td>
-                          <td> <b>Mana Gain</b>/Bonus is sadly a bad skill in general, there isn't really
-                            any reason to save up to 12 mp.
-                          </td>
-                          <td>Worst</td>
-                        </tr>
-                        <tr><td id="DG-ELE"> <b> Elementalist </b></td>
-                          <td>Given he has resist elec in general, <b>Repel Elec</b> for one upgrades it,
-                            but it doesn't really do much.
-                            The only case where this would help is when facing Thor with Elec Pierce.
-                            <br> Pair Metatron with Alilat and you can block elec sweeping. Its a
-                            pretty rare case and so it doesn't
-                            really warrant switching to Teal just for that purpose. </td>
-                          <td>Worst</td>
-                        </tr>
-                      </tbody>
+                                  <br> Sadly this is only usable for manual play, due to him being Attack AI
+                                  he'd never use it on auto </td>
+                              <td>Usable</td>
+                            </tr>
+                            <tr><td id="DG-PSY"> <b>Psychic </b></td>
+                              <td> <b>Mana Gain</b>/Bonus is sadly a bad skill in general, there isn't really
+                                  any reason to save up to 12 mp.
+                              </td>
+                              <td>Worst</td>
+                            </tr>
+                            <tr><td id="DG-ELE"> <b> Elementalist </b></td>
+                              <td>Given he has resist elec in general, <b>Repel Elec</b> for one upgrades it,
+                                  but it doesn't really do much.
+                                  The only case where this would help is when facing Thor with Elec Pierce.
+                                  <br> Pair Metatron with Alilat and you can block elec sweeping. Its a
+                                  pretty rare case and so it doesn't
+                                  really warrant switching to Teal just for that purpose. </td>
+                              <td>Worst</td>
+                            </tr>
+                        </tbody>
                       </table></p>
                     </div>
-                    
+
                     <p><strong>Recommended skills:</strong></p>
                     <ul>
-                      <li>Endure, easily stacks with Enduring Soul further adding to his survival.</li>
-                      <li>Megido/Megidola/Megidolaon. For aoe sweeping, you can then use FoS to clean up/for single
-                        targets. Go Megido if you do pvp and want a turn one aoe, Megidolaon for turn 2 start/pve
-                        in general. </li>
-                      <li>Serial Killer/Butcher. Not only does it affect Aoe skills, it also affects Multi-Hit,
-                        so you can power up Fire of Sinai's damage considerably.
-                      </li>
+                        <li>Endure, easily stacks with Enduring Soul further adding to his survival.</li>
+                        <li>Megido/Megidola/Megidolaon. For aoe sweeping, you can then use FoS to clean up/for single
+                            targets. Go Megido if you do pvp and want a turn one aoe, Megidolaon for turn 2 start/pve
+                            in general. </li>
+                        <li>Serial Killer/Butcher. Not only does it affect Aoe skills, it also affects Multi-Hit,
+                            so you can power up Fire of Sinai's damage considerably.
+                        </li>
                     </ul>
                     <p><strong>Brands:</strong> Spell/Divine, whichever you want.</p>
+                    <a href="#DG-Top"><img id="DG-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <!-- [Lucifer] -->
                 <b-card>
@@ -2691,84 +2638,6 @@
                     <p><strong>Brands:</strong> Spell/Life. Allure isn't that costly at all which is nice (6 mp cost), you can opt for Divine if you like.</p>
                     <a href="#DG-Top"><img id="DG-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
-                
-                <!-- [TEST] -->
-                <b-card>
-                <button class="DG-Collapsible">TEST</button>
-                <div class="DG-Tab">
-                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Metatron')">Metatron</a></strong></p>
-                    <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
-                      guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
-                      and so quite amazing for boss killing. He comes naturally to boot with Infinite Chakra for
-                      extra mana so you
-                      would be able to spam tons of spells with him without needing divine brands. He's the hardest
-                      to fuse as the only
-                      combination to make him is Vishnu + Barong and for this reason i wouldn't fuse him away
-                      (regardless of his archetype,
-                      his base kit works wonders).
-                    </p>
-
-                    <div id="DG-Table">
-                      <p><table>
-                      <tbody>
-                        <tr><td id="DG-CMN"><b>Common</b></td>
-                          <td><b>Enduring Soul</b> increases his survivability, ensuring he lives means
-                            ensuring he can kill.
-                            You can easily stack this with Endure to make him really hard to kill.
-
-                            <br>This archetype is the hardest to obtain as you can't rely on gacha
-                            pulls to get components
-                            and must fuse from scratch (Unless you get lucky with Hell Buns).
-                          </td>
-                          <td><b>Best</b></td>
-                        </tr>
-                        <tr><td id="DG-ARA"> <b> Aragami</b></td>
-                          <td><b>Mahamadyne</b> gives him an aoe to use (though is restricted to light).
-                            This is amazing for content such as Sloth 10 and Aura Gate. </td>
-                          <td>Usable</td>
-                        </tr>
-                        <tr><td id="DG-PRO"><b>Protector</b></td>
-                          <td><b>Offensive Cry</b> is a great offensive buff (granting Tarukaja and
-                            Rakunda), he can set up the damage buff leaving your other sweepers
-                            to then follow up, hitting as hard as possible.
-
-                            <br> Sadly this is only usable for manual play, due to him being Attack AI
-                            he'd never use it on auto </td>
-                          <td>Usable</td>
-                        </tr>
-                        <tr><td id="DG-PSY"> <b>Psychic </b></td>
-                          <td> <b>Mana Gain</b>/Bonus is sadly a bad skill in general, there isn't really
-                            any reason to save up to 12 mp.
-                          </td>
-                          <td>Worst</td>
-                        </tr>
-                        <tr><td id="DG-ELE"> <b> Elementalist </b></td>
-                          <td>Given he has resist elec in general, <b>Repel Elec</b> for one upgrades it,
-                            but it doesn't really do much.
-                            The only case where this would help is when facing Thor with Elec Pierce.
-                            <br> Pair Metatron with Alilat and you can block elec sweeping. Its a
-                            pretty rare case and so it doesn't
-                            really warrant switching to Teal just for that purpose. </td>
-                          <td>Worst</td>
-                        </tr>
-                      </tbody>
-                      </table></p>
-                    </div>
-                    
-                    <p><strong>Recommended skills:</strong></p>
-                    <ul>
-                      <li>Endure, easily stacks with Enduring Soul further adding to his survival.</li>
-                      <li>Megido/Megidola/Megidolaon. For aoe sweeping, you can then use FoS to clean up/for single
-                        targets. Go Megido if you do pvp and want a turn one aoe, Megidolaon for turn 2 start/pve
-                        in general. </li>
-                      <li>Serial Killer/Butcher. Not only does it affect Aoe skills, it also affects Multi-Hit,
-                        so you can power up Fire of Sinai's damage considerably.
-                      </li>
-                    </ul>
-                    <p><strong>Brands:</strong> Spell/Divine, whichever you want.</p>
-                  </div>
-                </b-card>
-                
                 <guide></guide>
             </b-tab>
 
