@@ -2280,7 +2280,7 @@ DevilBom.prototype.showMagPure = function () {
 
 DevilBom.prototype.caculate_mag = function(layer){
 
-    var mag = this.mag;
+    var mag = getRaceDiscountPrice(this, this.mag);
     var mag1 = (this.child1?this.child1.caculate_mag(layer+1):0);
     var mag2 = (this.child2?this.child2.caculate_mag(layer+1):0);
 
@@ -2290,15 +2290,13 @@ DevilBom.prototype.caculate_mag = function(layer){
     }
     else{               mag += mag1 + mag2;                                   }
 
-    return getRaceDiscountPrice(this, mag);
+    return mag;
 };
 
-DevilBom.prototype.caculate_mag_pure = function(){
-    var mag = this.mag_pure
+DevilBom.prototype.caculate_mag_pure = function () {
+    return getRaceDiscountPrice(this, this.mag_pure)
         + (this.child1?this.child1.caculate_mag_pure():0)
         + (this.child2 ? this.child2.caculate_mag_pure() : 0);
-
-    return getRaceDiscountPrice(this, mag);
 };
 
 DevilBom.prototype.showTotalMag = function(){
