@@ -53,6 +53,8 @@
     }
        
     </style>
+
+    <script src="js/demon-guide.js"></script>
     <script src="js/vue.min.js"></script>
     <script src="js/bootstrap-vue.min.js"></script>
     <script src="js/vue-i18n.min.js"></script>
@@ -412,7 +414,7 @@
                 </ul>
                   <div class="DG-Table">
                     <table class="DG-ToC"><tbody>
-                      <tr><td class="DG-Table-Label" colspan="10"><b>5 Star Demons</b></td></tr>
+                      <tr><td class="DG-Table-Label" colspan="10">5 Star Demons</td></tr>
                       <tr>
                         <td><a href="#Alice"><img src="images/devil/majin_arisu.png"><br>Alice
                           <table><tr><td></td><td class="DG-ARA"></td><td class="DG-PRO">U</td><td class="DG-PSY">B</td><td class="DG-ELE">B</td></tr></table>
@@ -540,9 +542,9 @@
                     <br>
                     
                     <table class="DG-ToC"><tbody>
-                      <tr><td class="DG-Table-Label" colspan="7"><b>Notable Demons (WIP)</b></td></tr>
+                      <tr><td class="DG-Table-Label" colspan="7">Notable Demons (WIP)</td></tr>
                       <tr>
-                        <td class="DG-Table-Label"><b>Gacha</b></td>
+                        <td class="DG-Table-Label">Gacha</td>
                         <td><a href="#Chernobog"><img src="images/devil/Chernobog.png"><br>Chernobog</a></td>
                         <td><a href="#Hel"><img src="images/devil/Hel.jpg"><br>Hel</a></td>
                         <td><a href="#HellBiker"><img src="images/devil/Hell-Biker.png"><br>Hell Biker</a></td>
@@ -551,7 +553,7 @@
                         <td><a href="#WhiteRider"><img src="images/devil/majin_waitonaito.png"><br>White Rider</a></td>
                       </tr>
                       <tr>
-                        <td class="DG-Table-Label" rowspan = "2"><b>4 Star</b></td>
+                        <td class="DG-Table-Label" rowspan = "2">4 Star</td>
                         <td><a href="#Fenrir"><img src="images/devil/youjyuu_huenriru.png"><br>Fenrir</a></td>
                         <td><a href="#Gucumatz"><img src="images/devil/ryuusin_gukumatu.png"><br>Gucumatz</a></td>
                         <td><a href="#Hecatoncheires"><img src="images/devil/Hecatoncheires.png"><br>Hecatoncheires</a></td>
@@ -597,189 +599,196 @@
                       </table></p>
                     </div>
                 -->       
-                
+                                
+                <b-card>                
                 <!-- [Metatron] -->
-                <b-card>
-                    <p><strong><a id="Metatron" href="javascript:void(0)" @click="show_guide_devil('Metatron')">Metatron</a></strong></p>
-                    <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
-                        guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
-                        and so quite amazing for boss killing. He comes naturally to boot with Infinite Chakra for
-                        extra mana so you
-                        would be able to spam tons of spells with him without needing divine brands. He's the hardest
-                        to fuse as the only
-                        combination to make him is Vishnu + Barong and for this reason i wouldn't fuse him away
-                        (regardless of his archetype,
-                        his base kit works wonders).
-                    </p>
+                <button id="Metatron" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Metatron</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Metatron')">Stats</a></strong></p>
+                  <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
+                      guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
+                      and so quite amazing for boss killing. He comes naturally to boot with Infinite Chakra for
+                      extra mana so you
+                      would be able to spam tons of spells with him without needing divine brands. He's the hardest
+                      to fuse as the only
+                      combination to make him is Vishnu + Barong and for this reason i wouldn't fuse him away
+                      (regardless of his archetype,
+                      his base kit works wonders).
+                  </p>
 
-                    <div class="DG-Table">
-                      <p><table>
-                        <tbody>
-                            <tr><td class="DG-CMN"><b>Common</b></td>
-                              <td><b>Enduring Soul</b> increases his survivability, ensuring he lives means
-                                  ensuring he can kill.
-                                  You can easily stack this with Endure to make him really hard to kill.
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b>Enduring Soul</b> increases his survivability, ensuring he lives means
+                                ensuring he can kill.
+                                You can easily stack this with Endure to make him really hard to kill.
 
-                                  <br>This archetype is the hardest to obtain as you can't rely on gacha
-                                  pulls to get components
-                                  and must fuse from scratch (Unless you get lucky with Hell Buns).
-                              </td>
-                              <td><b>Best</b></td>
-                            </tr>
-                            <tr><td class="DG-ARA"> <b> Aragami</b></td>
-                              <td><b>Mahamadyne</b> gives him an aoe to use (though is restricted to light).
-                                  This is amazing for content such as Sloth 10 and Aura Gate. </td>
-                              <td>Usable</td>
-                            </tr>
-                            <tr><td class="DG-PRO"><b>Protector</b></td>
-                              <td><b>Offensive Cry</b> is a great offensive buff (granting Tarukaja and
-                                  Rakunda), he can set up the damage buff leaving your other sweepers
-                                  to then follow up, hitting as hard as possible.
+                                <br>This archetype is the hardest to obtain as you can't rely on gacha
+                                pulls to get components
+                                and must fuse from scratch (Unless you get lucky with Hell Buns).
+                            </td>
+                            <td><b>Best</b></td>
+                          </tr>
+                          <tr><td class="DG-ARA"> <b> Aragami</b></td>
+                            <td><b>Mahamadyne</b> gives him an aoe to use (though is restricted to light).
+                                This is amazing for content such as Sloth 10 and Aura Gate. </td>
+                            <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td><b>Offensive Cry</b> is a great offensive buff (granting Tarukaja and
+                                Rakunda), he can set up the damage buff leaving your other sweepers
+                                to then follow up, hitting as hard as possible.
 
-                                  <br> Sadly this is only usable for manual play, due to him being Attack AI
-                                  he'd never use it on auto </td>
-                              <td>Usable</td>
-                            </tr>
-                            <tr><td class="DG-PSY"> <b>Psychic </b></td>
-                              <td> <b>Mana Gain</b>/Bonus is sadly a bad skill in general, there isn't really
-                                  any reason to save up to 12 mp.
-                              </td>
-                              <td>Worst</td>
-                            </tr>
-                            <tr><td class="DG-ELE"> <b> Elementalist </b></td>
-                              <td>Given he has resist elec in general, <b>Repel Elec</b> for one upgrades it,
-                                  but it doesn't really do much.
-                                  The only case where this would help is when facing Thor with Elec Pierce.
-                                  <br> Pair Metatron with Alilat and you can block elec sweeping. Its a
-                                  pretty rare case and so it doesn't
-                                  really warrant switching to Teal just for that purpose. </td>
-                              <td>Worst</td>
-                            </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
+                                <br> Sadly this is only usable for manual play, due to him being Attack AI
+                                he'd never use it on auto </td>
+                            <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-PSY"> <b>Psychic </b></td>
+                            <td> <b>Mana Gain</b>/Bonus is sadly a bad skill in general, there isn't really
+                                any reason to save up to 12 mp.
+                            </td>
+                            <td>Worst</td>
+                          </tr>
+                          <tr><td class="DG-ELE"> <b> Elementalist </b></td>
+                            <td>Given he has resist elec in general, <b>Repel Elec</b> for one upgrades it,
+                                but it doesn't really do much.
+                                The only case where this would help is when facing Thor with Elec Pierce.
+                                <br> Pair Metatron with Alilat and you can block elec sweeping. Its a
+                                pretty rare case and so it doesn't
+                                really warrant switching to Teal just for that purpose. </td>
+                            <td>Worst</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
 
-                    <p><strong>Recommended skills:</strong></p>
-                    <ul>
-                        <li>Endure, easily stacks with Enduring Soul further adding to his survival.</li>
-                        <li>Megido/Megidola/Megidolaon. For aoe sweeping, you can then use FoS to clean up/for single
-                            targets. Go Megido if you do pvp and want a turn one aoe, Megidolaon for turn 2 start/pve
-                            in general. </li>
-                        <li>Serial Killer/Butcher. Not only does it affect Aoe skills, it also affects Multi-Hit,
-                            so you can power up Fire of Sinai's damage considerably.
-                        </li>
-                    </ul>
-                    <p><strong>Brands:</strong> Spell/Divine, whichever you want.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
-                </b-card>
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li>Endure, easily stacks with Enduring Soul further adding to his survival.</li>
+                      <li>Megido/Megidola/Megidolaon. For aoe sweeping, you can then use FoS to clean up/for single
+                          targets. Go Megido if you do pvp and want a turn one aoe, Megidolaon for turn 2 start/pve
+                          in general. </li>
+                      <li>Serial Killer/Butcher. Not only does it affect Aoe skills, it also affects Multi-Hit,
+                          so you can power up Fire of Sinai's damage considerably.
+                      </li>
+                  </ul>
+                  <p><strong>Brands:</strong> Spell/Divine, whichever you want.</p>
+                  <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
+                </div>
+
                 <!-- [Lucifer] -->
-                <b-card>
-                    <p><strong><a id="Lucifer" href="javascript:void(0)" @click="show_guide_devil('Lucifer')">Lucifer</a></strong></p>
-                    <p>Strongest almighty sweeper, ideally you'd want purple archetype (Butcher) to ensure he's as
-                        powerful as he can get. The reason for this is that he comes with the unique skill: Morning
-                        Star (MS). Given the fact it can be levelled as well it can reach really high numbers.
-                    </p>
+                <button id="Lucifer" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Lucifer</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Lucifer')">Stats</a></strong></p>
+                  <p>Strongest almighty sweeper, ideally you'd want purple archetype (Butcher) to ensure he's as
+                      powerful as he can get. The reason for this is that he comes with the unique skill: Morning
+                      Star (MS). Given the fact it can be levelled as well it can reach really high numbers.
+                  </p>
 
-                    <div class="DG-Table">
-                        <p><table>
-                          <tbody>
-                            <tr><td class="DG-CMN"><b>Common</b></td>
-                              <td><b>Vitality Amp III</b> would increase his tankiness, but that is not his
-                                  main role, he's best as dps.</td>
-                              <td>Worst</td>
-                            </tr>
-                            <tr><td class="DG-ARA"><b>Aragami</b></td>
-                              <td><b>Mind Blast</b> gives him a upgraded Mind Break for support. You could
-                                  use it to drain dangerous sweepers of their mp, but
-                                  why do that when you can sweep them instead with MS/Megidolaon.</td>
-                              <td>Worst</td>
-                            </tr>
-                            <tr><td class="DG-PRO"><b>Protector</b></td>
-                              <td>You wouldn't really expect him to survive last/be a tank and so <b>Recarmdra</b>
-                                  doesn't have much use. People would generally aim
-                                  for him first, so its unlikely he'd survive to the point where he can use
-                                  this </td>
-                              <td>Worst</td>
-                            </tr>
-                            <tr><td class="DG-PSY"><b>Psychic</b></td>
-                              <td>Nothing else really beats <b>Butcher</b>. It is the only way to increase
-                                  his sweeping damage due to Morning Star/Megidolaon being almighty.
-                              </td>
-                              <td><b>Best</b></td>
-                            </tr>
-                            <tr><td class="DG-ELE"><b>Elementalist</b></td>
-                              <td><b>Drain Light</b> would only be better if you manage to have gotten a
-                                  Butcher skill genome. It covers his weakness allowing him to be healed
-                                  instead (You'd want to cover his weakness anyways and so Resist Light would
-                                  work regardless).
-                                  <br> Personally if i ever got Butcher, i'd transfer it to another demon and
-                                      have him as Purple (since the skill itself is really rare).
-                              </td>
-                              <td>Usable</td>
-                            </tr>
-                          </tbody>
-                        </table></p>
-                    </div>
-
-                    <p><strong>Recommended skills: </strong></p>
-                    <ul>
-                        <li>Resist Light. If not Teal to cover his weakness</li>
-                        <li>Endure. Pvp mainly for extra survival.</li>
-                        <li>Serial Killer to amp up his almighty damage.</li>
-                    </ul>
-                    <p><strong>Brands:</strong> Use Divine to ensure he can two turn Morning Star.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
-                </b-card>
-                <!-- [Vishnu] -->
-                <b-card>
-                    <p><strong><a id="Vishnu" href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Vishnu</a></strong></p>
-                    <p>A Strong slow caster with the unique passive Avatar. This acts as an improved Enduring Soul + Life Aid
-                       combined into one (500 HP, 50% per wave. It's also levellable). He naturally also nulls light/dark and with his low agi 
-                       and survival, he can be used in slower pvp teams + pve content such as Sloth 10, Aether farming.
-                    </p>
-
-                    <div class="DG-Table">
+                  <div class="DG-Table">
                       <p><table>
                         <tbody>
                           <tr><td class="DG-CMN"><b>Common</b></td>
-                              <td><b>Mudodyne</b> is a good skill on him. It gives him more coverage so that he now has Ice, Light and Dark</td>
-                              <td>Usable</td>
+                            <td><b>Vitality Amp III</b> would increase his tankiness, but that is not his
+                                main role, he's best as dps.</td>
+                            <td>Worst</td>
                           </tr>
                           <tr><td class="DG-ARA"><b>Aragami</b></td>
-                              <td><b>Megidolaon</b> is the strongest obtainable almighty sweeping skill in the game.
-                                  -1 MP goes a long way for this. Given his high magic, he'd also hit very hard with it. 
-                              </td>
-                              <td><b>Best</b></td>
+                            <td><b>Mind Blast</b> gives him a upgraded Mind Break for support. You could
+                                use it to drain dangerous sweepers of their mp, but
+                                why do that when you can sweep them instead with MS/Megidolaon.</td>
+                            <td>Worst</td>
                           </tr>
                           <tr><td class="DG-PRO"><b>Protector</b></td>
-                              <td>Landing him a more defensive role, <b>War Dance</b> grants your team a 5mp cost Rakukaja + Tarukaja.
-                                  <br> Avatar would ensure he stays alive and War Dance would make your team take less damage and deal more.
-                              </td>
-                              <td>Usable</td>
+                            <td>You wouldn't really expect him to survive last/be a tank and so <b>Recarmdra</b>
+                                doesn't have much use. People would generally aim
+                                for him first, so its unlikely he'd survive to the point where he can use
+                                this </td>
+                            <td>Worst</td>
                           </tr>
                           <tr><td class="DG-PSY"><b>Psychic</b></td>
-                              <td><b>Null Mute</b> doesn't help him much, it will prevent his skills from being locked from mute. But when he's
-                              inflicted, you could always keep passing until its gone or just cure it (Mute isn't as dangerous as Charm/Bind)</td>
-                              <td>Worst</td>
+                            <td>Nothing else really beats <b>Butcher</b>. It is the only way to increase
+                                his sweeping damage due to Morning Star/Megidolaon being almighty.
+                            </td>
+                            <td><b>Best</b></td>
                           </tr>
                           <tr><td class="DG-ELE"><b>Elementalist</b></td>
-                              <td>As he naturally nulls dark, <b>Repel Dark</b> doesn't add much. It's an upgrade sure, but the only main 
-                              use it has is if you pair him with Alilat (it'll prevent him from being swept by Black Frost's: Go To Hell!).
-                              </td>
-                              <td>Worst</td>
+                            <td><b>Drain Light</b> would only be better if you manage to have gotten a
+                                Butcher skill genome. It covers his weakness allowing him to be healed
+                                instead (You'd want to cover his weakness anyways and so Resist Light would
+                                work regardless).
+                                <br> Personally if i ever got Butcher, i'd transfer it to another demon and
+                                    have him as Purple (since the skill itself is really rare).
+                            </td>
+                            <td>Usable</td>
                           </tr>
                         </tbody>
                       </table></p>
-                    </div>
-                    <p><strong>Recommended skills: </strong></p>
-                    <ul>
-                        <li>Resist Fire. Covering weakness is always nice</li>
-                        <li>Endure/Enduring Soul. If you get these two together, he'd essentially survive 3 extra hits. 
-                            Though that means enemies would focus fire fire on him.
-                        </li>
-                    </ul>
-                    <p><strong>Brands:</strong> Divine for Aragami, Life/Spell works for Protector </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                  </div>
+
+                  <p><strong>Recommended skills: </strong></p>
+                  <ul>
+                      <li>Resist Light. If not Teal to cover his weakness</li>
+                      <li>Endure. Pvp mainly for extra survival.</li>
+                      <li>Serial Killer to amp up his almighty damage.</li>
+                  </ul>
+                  <p><strong>Brands:</strong> Use Divine to ensure he can two turn Morning Star.</p>
+                  <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
+                  </div>
+                  
+                <!-- [Vishnu] -->
+                <button id="Vishnu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Vishnu</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a id="Vishnu" href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Stats</a></strong></p>
+                  <p>A Strong slow caster with the unique passive Avatar. This acts as an improved Enduring Soul + Life Aid
+                     combined into one (500 HP, 50% per wave. It's also levellable). He naturally also nulls light/dark and with his low agi 
+                     and survival, he can be used in slower pvp teams + pve content such as Sloth 10, Aether farming.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                        <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b>Mudodyne</b> is a good skill on him. It gives him more coverage so that he now has Ice, Light and Dark</td>
+                            <td>Usable</td>
+                        </tr>
+                        <tr><td class="DG-ARA"><b>Aragami</b></td>
+                            <td><b>Megidolaon</b> is the strongest obtainable almighty sweeping skill in the game.
+                                -1 MP goes a long way for this. Given his high magic, he'd also hit very hard with it. 
+                            </td>
+                            <td><b>Best</b></td>
+                        </tr>
+                        <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td>Landing him a more defensive role, <b>War Dance</b> grants your team a 5mp cost Rakukaja + Tarukaja.
+                                <br> Avatar would ensure he stays alive and War Dance would make your team take less damage and deal more.
+                            </td>
+                            <td>Usable</td>
+                        </tr>
+                        <tr><td class="DG-PSY"><b>Psychic</b></td>
+                            <td><b>Null Mute</b> doesn't help him much, it will prevent his skills from being locked from mute. But when he's
+                            inflicted, you could always keep passing until its gone or just cure it (Mute isn't as dangerous as Charm/Bind)</td>
+                            <td>Worst</td>
+                        </tr>
+                        <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                            <td>As he naturally nulls dark, <b>Repel Dark</b> doesn't add much. It's an upgrade sure, but the only main 
+                            use it has is if you pair him with Alilat (it'll prevent him from being swept by Black Frost's: Go To Hell!).
+                            </td>
+                            <td>Worst</td>
+                        </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+                  <p><strong>Recommended skills: </strong></p>
+                  <ul>
+                      <li>Resist Fire. Covering weakness is always nice</li>
+                      <li>Endure/Enduring Soul. If you get these two together, he'd essentially survive 3 extra hits. 
+                          Though that means enemies would focus fire fire on him.
+                      </li>
+                  </ul>
+                  <p><strong>Brands:</strong> Divine for Aragami, Life/Spell works for Protector </p>
+                  <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
+                  </div>
                 </b-card>
                 <!-- [Yoshitsune] -->
                 <b-card>
@@ -840,7 +849,7 @@
                         <li>Butcher. As multi-hit skills count as aoe, this can increase Hassou-Tobi/Vorpal Blade damage. Phys Amp, Boost, Butcher maximises his damage</li>
                     </ul>
                     <p><strong>Brands: </strong>War or Divine. Divine would be better for charge/pvp setups, for pve it isn't really needed</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Mother Harlot] -->
                 <b-card>
@@ -900,7 +909,7 @@
                         if you maxed it out), though the less opponents alive, the less effective it'll be in returning
                         mana to her. Ward if you're worried of her being inflicted by ailments. Shield would be good otherwise.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Trumpeter] -->
                 <b-card>
@@ -957,7 +966,7 @@
                         two turn use it. Maxing it out would help with mp cost but this brand setup would still be good for
                         when you want to Concentrate then Apocalypse as soon as possible.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Shiva] -->
                 <b-card>
@@ -1009,7 +1018,7 @@
                         <li>Butcher. Stacks with Serial Killer for Pralaya/Vorpal Blade damage boosting</li>
                     </ul>
                     <p><strong>Brands:</strong> War if you don't mind waiting for mp to regen otherwise Divine.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Mot] -->
                 <b-card>
@@ -1069,7 +1078,7 @@
                         two turn them. Life if you don't really care about that and just want his
                         hp to go as high as possible. Stack MAtk % if you want damage, Life% if you want survival.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Michael] -->
                 <b-card>
@@ -1114,7 +1123,7 @@
                         <li>Serial Killer/Butcher. To increase both Soul Judgement and Megidolaon's damage </li>
                     </ul>
                     <p><strong>Brands:</strong> Divine if you want two turn Megidolaon, Spell for Soul Judgement spam.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Mara] -->
                 <b-card>
@@ -1160,7 +1169,7 @@
                     <p><strong>Brands:</strong> Divine/Ward. Both Hell Thrust and Titanomachia costs 7 mp, so you
                         can't two turn them with War. Though if you don't mind waiting, then War would strengthen his damage further.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Izanami] -->
                 <b-card>
@@ -1217,7 +1226,7 @@
                     <p><strong>Brands:</strong> Spell is fine since Bolt Storm doesn't cost much. For Aragami, Hell Gaze
                         will cost 6mp, go with Divine if you want to use it off the bat in pvp. Life is also good since she's quite bulky.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Alice] -->
                 <b-card>
@@ -1281,7 +1290,7 @@
                     <p><strong>Brands:</strong> Divine/Ward helps you charge up for DfM as quickly as possible, though Spell 
                         would work as Mamudoon and Mudodyne both cost 6 mp only.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Huang Di] -->
                 <b-card>
@@ -1336,7 +1345,7 @@
                         Life can ensure he's bulky. You wouldn't really need Ward as Purple or pulled Teal but it can act as a safety harness. 
                         In that case Aim could be nice against evasion teams or Shield for magic defense.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Huang Long] -->
                 <b-card>
@@ -1393,7 +1402,7 @@
                         <li>Dodge/Evade. You should build him for evasion, this just further enhances it. 5E to ignore magic and evasion to avoid physical.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine, you'd want to always have 5E up.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Rama] -->
                 <b-card>
@@ -1447,7 +1456,7 @@
                     <p><strong>Brands:</strong> Divine. You want to spam spells so this is the only option really, Spell/Life is okay but then you won't
                         be able to 2 turn skills in exchange for more damage/hp.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Zaou Gongen] -->
                 <b-card>
@@ -1491,7 +1500,7 @@
                         <li>Phys Aoe skill if not red.</li>
                     </ul>
                     <p><strong>Brands:</strong> War/Divine. Divine would allow you to two turn God's Hand and enables transfering more expensive phys aoe skills (If Yellow)</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Alilat] -->
                 <b-card>
@@ -1539,7 +1548,7 @@
                     <p><strong>Brands:</strong> Divine for ailments or Life for general survival. Aim for HP%, or ailment % if you're using Ailment
                         skills. PDEF % is also valid against phys pierce when you're fighting against Hell Biker teams.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Lakshmi] -->
                 <b-card>
@@ -1590,7 +1599,7 @@
                         almighty skill, the ability to spam it. Life for Yellow if you want her to be more
                         defensive. Sick brands are also good for a more slow but higher odds approach.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Ixtab] -->
                 <b-card>
@@ -1662,7 +1671,7 @@
                     <p><strong>Brands:</strong> Divine, Speed, Spell, Lead combinations all work. Don't give her HP/def/mdef and instead focus on stats like Ailment Infliction, 
                         Ailment Resistance, Speed (If you want to act first), Matk % if you want to use her as dps.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Samael] -->
                 <b-card>
@@ -1708,7 +1717,7 @@
                         <li>High MP cost skills that you want to use on a support.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine to get 5mp regen or Spell maximising damage, Life making him beefy</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Seth] -->
                 <b-card>
@@ -1756,7 +1765,7 @@
                         <li>Good/Great Aim. If you feel he has accuracy issues, this can help patch it up.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine allows casting Debilitate and Nocturne easily and spamming Ouas more often for pvp. In pve, war and life work just as well.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Barong] -->
                 <b-card>
@@ -1800,7 +1809,7 @@
                         <li>Samarecarm. Added revive to his lackluster support kit.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine so he can two turn cast Barong Dance. Life can ensure he's more bulky</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Siegfried] -->
                 <b-card>
@@ -1853,7 +1862,7 @@
                         <li>Endure if using Enduring soul to stack it up.</li>
                     </ul>
                     <p><strong>Brands:</strong> War/Life or Divine, he works fine with either. Divine will allow you to turn one Berserker God for pvp.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Ananta] -->
                 <b-card>
@@ -1902,7 +1911,7 @@
                         <li>Barrier break. If you don't feel like running a double debuff/have it already covered. Though after barriers are gone, he'd just spam attack and heal.</li>
                     </ul>
                     <p><strong>Brands:</strong> Life or Divine. You wan't him to be as tanky as possible and survive. Divine to spam double debuffs, Life for more hp in general.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Surt] -->
                 <b-card>
@@ -1949,7 +1958,7 @@
                         <li>Fire Boost. If you want Ragnarok to be stronger</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine and MATK% if you want to spam Ragnarok with Purple or War/Life and PATK% for Berserker God damage with Clear.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Thor] -->
                 <b-card>
@@ -1996,7 +2005,7 @@
                         <li>Phys Boost. If you're running Red</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine (focus on MATK% for purple, PATK% for red) so that he can spam Mjolnir/Gigantomachia.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Asherah] -->
                 <b-card>
@@ -2041,7 +2050,7 @@
                         <li>Samarecarm. If Teal to give her another revive skill.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine is mandatory to ensure you can two turn heal.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Mastema] -->
                 <b-card>
@@ -2087,7 +2096,7 @@
                         <li>Light Boost. If you want to only use him in Sloth 10 or in fights where the enemy isn't immune to light.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine, means more journeys into the Trial of Hate. You can also turn one cast it if you max it out.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Amaterasu] -->
                 <b-card>
@@ -2132,7 +2141,7 @@
                         <li>Any other magic element</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for two turn Tenson Kourin casts and Mediarahan when Yellow.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Ishtar] -->
                 <b-card>
@@ -2184,7 +2193,7 @@
                             survival or another element as well if you wish.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for Jack Bros setup with her Yellow version. Spell can work for Teal.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Susano-o] -->
                 <b-card>
@@ -2233,7 +2242,7 @@
                     <p><strong>Brands:</strong> Divine to ensure you can first turn Kusanagi/Mortal Jihad in pvp
                         and spam it more in general. Though War will increase his damage way more for pve, Life if you want survability.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Nergal] -->
                 <b-card>
@@ -2284,7 +2293,7 @@
                         <li>Aoe skill. If not Red, can help with sweeping</li>
                     </ul>
                     <p><strong>Brands:</strong> War works fine since he doesn't have any costly skills. Divine if you want a more costly aoe.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Black Frost] -->
                 <b-card>
@@ -2328,7 +2337,7 @@
                             so you'd need to set it up with another demon or just use GTH, on subsequent casts it would be stronger.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine so he can spam his skills since it costs 7mp for Mabufudyne/GTH.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Cu Chulainn] -->
                 <b-card>
@@ -2373,7 +2382,7 @@
                             it for pve though, he'd never save up for Mazandyne)</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine or Spell is valid. Divine allows him to two turn Mazandyne and spam magic more in general.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Quetzalcoatl] -->
                 <b-card>
@@ -2425,7 +2434,7 @@
                     <p><strong>Brands:</strong> Life, He needs to be tanky and ideally the last demon to fall, so that he'd bring back everyone else. 
                       Divine can work too to ensure two turn Ce Actis' casts.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Orcus] -->
                 <b-card>
@@ -2490,7 +2499,7 @@
                     <p><strong>Brands:</strong> Life ensures he survives as long as possible, though Divine
                         can work too so that he can spam out War Cry as much as possible and two turn Samarecarm/Recarmdra skills.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Garuda] -->
                 <b-card>
@@ -2547,7 +2556,7 @@
                         Go for Spell Type if you wanna use him for Vanity 10 (you can then go with Mamudo). 
                         Building evasion is another way to go as aforementioned.
                     </p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <!-- [Lilith] -->
                 <b-card>
@@ -2596,7 +2605,7 @@
                         <li>Dark boost for more allure damage</li>
                     </ul>
                     <p><strong>Brands:</strong> Spell/Life. Allure isn't that costly at all which is nice (6 mp cost), you can opt for Divine if you like.</p>
-                    <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a>
+                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                 </b-card>
                 <guide></guide>
             </b-tab>

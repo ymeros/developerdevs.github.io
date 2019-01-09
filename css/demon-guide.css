@@ -1,4 +1,3 @@
-/* Custom css for the Demon Guide*/
 /* General Table styling */
 .DG-Table td {
   border: 2px solid #dddddd;
@@ -8,6 +7,7 @@
 }
 .DG-Table-Label {
   background-color:#EAECF0;
+  font-weight: bold;
 }
 .DG-ToC img{
   width:40px;
@@ -26,6 +26,7 @@
   width:40px;
   height:40px;
 }
+
 /* Archetype Categories */
 .DG-CMN {
   background-color:#6C757D; 
@@ -46,4 +47,27 @@
 .DG-ELE {
   background-color:#17A2B8; 
   color:white;
+}
+
+/* Collapsible Buttons */
+.DG-CollapsibleButton  {
+  background-color: #DDDDDD;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.DG-Demon {
+  background-color: #F7F7F7;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  border-style: groove;
 }
