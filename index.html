@@ -78,8 +78,8 @@
                     <b-nav-item href="#" @click="route('fusion.fusion')" :active="isRoute('fusion.fusion')">{{
                         $t('message.normal_fusion') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('skill')" :active="isRoute('skill')">{{ $t('message.skill') }}</b-nav-item>
-                    <b-nav-item href="#" @click="route('guide')" :active="isRoute('guide')">Advanced Guide: Demons</b-nav-item>
-                    <b-nav-item href="#" @click="route('brand')" :active="isRoute('brand')">Advanced Guide: Brands</b-nav-item>
+                    <b-nav-item href="#" @click="route('guide')" :active="isRoute('guide')">Guide: Demons</b-nav-item>
+                    <b-nav-item href="#" @click="route('brand')" :active="isRoute('brand')">Guide: Brands</b-nav-item>
                 </b-navbar-nav>
                 <b-navbar-nav class="ml-auto">
                     <b-nav-form action="#" class="d-none d-md-block">
@@ -2629,10 +2629,275 @@
             <!-- index_main : 6 brands -->
 
             <b-tab no-body class="p-2">
-
-                    <b-card>
-                        Coming Soon
-                    </b-card>
+                <b-card>
+                    <h4 style="text-align: center;">Dev's Notes on Brands</h4>
+                    <ul>
+                        <li>This guide is geared towards players who want to optimize their demon brand setups.</li>
+                        <li>Beginners shouldn't focus too much on things discussed in this guide. (Not every brand needs to be optimized to be usable)</li>
+                        <li>We will be discussing 6* brands only. Most of this can be applied to 4 and 5*
+                            brands as well.</li>
+                    </ul>
+                    <p><strong>Terminology</strong></p>
+                    <ul>
+                        <li><strong>Main Stats</strong> are the first stat listed on the brand.</li>
+                        <li><strong>Secondary Stats</strong> are the second stat listed on the brand.</li>
+                        <li><strong>Tertiary Stats</strong> are the third, fourth and fifth stats listed on the brand.</li>
+                        <li>For lack of a better word, I will define <strong>Type</strong>&nbsp;as the categorical body
+                            part that the brand represents: Head, Right Arm, Left Arm, Body or Legs.</li>
+                        <li>Likewise, the term <strong>Set</strong> will be the category that decides what set bonus
+                            the brand will give. (Divine, War, Spell, Ward, Aim, etc.)</li>
+                    </ul>
+                    <p>First things first, let's analyze a brand:</p>
+                    <img id="Brand1" src="images/theme/brand1.png" style="width:85px;height:300px;display: block;margin-left: auto;margin-right: auto;">
+                    <ul>
+                        <li>Looking at the brand, we can see the following:
+                            <ul>
+                                <li>The main stat is HP, and adds 114 HP to your demon.</li>
+                                <li>The secondary stat is Mag DEF, and adds 42 Mag DEF to your demon.</li>
+                                <li>The tertiary stats are Accuracy, Phys ATK and Critical, and add 7% accuracy/hit
+                                    rate, 12% physical attack and 2% critical chance to your demon.</li>
+                                <li>The brand set is War, and will add 20% Phys ATK when paired with two other War
+                                    brands (For a total of 3 War brands in the set)</li>
+                                <li>The brand type is Head. Head brands will always have flat HP as their main stat, so
+                                    we have to look at tertiary stats for bonuses to a Physical Attacker's offensive
+                                    capability.</li>
+                            </ul>
+                        </li>
+                        <li>The main and secondary stats of this brand add FLAT stats, while the tertiary stats add PERCENTAGE
+                            bonuses to your stats.</li>
+                        <li>Upon first glance, this brand would be well suited for a Physical Attacker.
+                            <ul>
+                                <li>12% Physical Attack will land many Physical Attackers around ~80-100 extra Physical
+                                    ATK points.</li>
+                                <li>7% Accuracy helps the Physical Attacker land more physical attacks, which can be
+                                    very important as missing loses press turns.</li>
+                                <li>2% Critical is a nice bonus to the Physical Attacker's critical rate, but really
+                                    the first two tertiary stats are the ones
+                                    to pay attention to.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <br>
+                    <p><strong>Types</strong></p>
+                    <ul>
+                        <li>Here I will explain the main and secondary stats for each brand type.</li>
+                        <li><strong>Note that tertiary stats will work the same across all brand types, so they will
+                                get their own section</strong></li>
+                        <li><strong>Head</strong>
+                            <ul>
+                                <li>The main stat of a head brand is always flat HP.</li>
+                                <li>The secondary stat will be a flat bonus of either HP, Phys ATK, Mag ATK, Phys DEF,
+                                    or Mag DEF</li>
+                                <li>For 6* brands, you will always get a flat 114 HP and 42 points of a secondary stat.</li>
+                                <li>The goal for head brands is to get a secondary stat that works well for your demon
+                                    and start with 1 or 2 decent tertiary stats at level 1. (This will be explained
+                                    further down)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Right Arm</strong><br />
+                            <ul>
+                                <li>The main stat of a right arm can be any of the following:
+                                    <ul>
+                                        <li>Flat HP, Phys ATK, Phys DEF, Mag ATK, or Mag DEF</li>
+                                        <li>Percentage HP, Phys ATK, Phys DEF, Mag ATK, or Mag DEF</li>
+                                        <li>Percentage Critical, Accuracy or Evasion</li>
+                                    </ul>
+                                </li>
+                                <li>The secondary stat will be a flat bonus of either HP, Phys ATK, Mag ATK, Phys DEF,
+                                    or Mag DEF</li>
+                                <li>The goal for right arm brands is to ALWAYS get a PERCENTAGE main stat that fits
+                                    your Demon, and then start with 1 or 2 decent tertiary stats at level 1. (This will
+                                    be explained further down).&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li><strong>Left Arm</strong>
+                            <ul>
+                                <li>The main stat of a left arm can be any of the following:
+                                    <ul>
+                                        <li>Flat HP, Phys ATK, Phys DEF, Mag ATK, or Mag DEF</li>
+                                        <li>Percentage HP, Phys ATK, Phys DEF, Mag ATK, or Mag DEF</li>
+                                        <li>Percentage Ailment Inflict or Ailment Resist</li>
+                                    </ul>
+                                </li>
+                                <li>The secondary stat will be a flat bonus of either HP, Phys ATK, Mag ATK, Phys DEF,
+                                    or Mag DEF</li>
+                                <li>The goal for left arm brands is to ALWAYS get a PERCENTAGE main stat that fits your
+                                    Demon, and then start with 1 or 2 decent tertiary stats at level 1. (This will be
+                                    explained further down).&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li><strong>Body</strong>
+                            <ul>
+                                <li>The main stat of a body brand is always either flat Phys DEF or flat Mag DEF.</li>
+                                <li>The secondary stat will be a flat bonus of either HP, Phys ATK, Mag ATK, Phys DEF,
+                                    or Mag DEF</li>
+                                <li>For 6* brands, you will always get a flat 89 Phys/Mag DEF and 42 points of a
+                                    secondary stat.</li>
+                                <li>The goal for body brands is to get a secondary stat that works well for your demon
+                                    and start with 1 or 2 decent tertiary stats at level 1. (This will be explained
+                                    further down)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Legs</strong>
+                            <ul>
+                                <li>The main stat of a left arm can be any of the following:
+                                    <ul>
+                                        <li>Flat HP, Phys ATK, Phys DEF, Mag ATK, or Mag DEF</li>
+                                        <li>Percentage HP, Phys ATK, Phys DEF, Mag ATK, or Mag DEF</li>
+                                        <li>Percentage Speed or Healing Amount</li>
+                                    </ul>
+                                </li>
+                                <li>The secondary stat will be a flat bonus of either HP, Phys ATK, Mag ATK, Phys DEF,
+                                    or Mag DEF</li>
+                                <li>The goal for leg brands is to ALWAYS get a PERCENTAGE main stat that fits your
+                                    Demon, and then start with 1 or 2 decent tertiary stats at level 1. (This will be
+                                    explained further down).&nbsp;</li>
+                            </ul>
+                        </li>
+                        <li><strong>Side Note for Right Arm, Left Arm and Leg Brands:</strong>
+                            <ul>
+                                <li>The truly blessed can find special brands with both the same main and secondary
+                                    stat (So the main is percentage and the secondary is flat) but this is pretty rare
+                                    and hard to get.</li>
+                                <li>The "Perfect Brand" would be a 6* brand that has matching main and secondary stats
+                                    ALONG with three
+                                    decent tertiary stats, with one tertiary stat having at least 10%.
+                                    <ul>
+                                        <li>Don't chase the perfect brand</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p><strong>Sets</strong></p>
+                    <ul>
+                        <li>Try to get 2 set bonuses. (One 3-part set bonus and One 2-part set bonus)</li>
+                        <li>The set bonuses should match the type of demon you are building.</li>
+                        <li><strong>Physical Attackers</strong>
+                            <ul>
+                                <li>War or Divine as the 3-part set bonus.</li>
+                                <li>Ward (Recommended) or Aim as the 2-part set bonus.</li>
+                                <li>Exceptions do exist. (I've seen Life, Shield, Guard, Dodge, etc. being used just
+                                    fine)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Magical Attackers</strong>
+                            <ul>
+                                <li>Spell or Divine as the 3-part set bonus.</li>
+                                <li>Ward (Recommended) as the 2-part set bonus.</li>
+                                <li>Exceptions do exist. (I've seen Life, Shield, Guard, Dodge, etc. being used just
+                                    fine)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Support</strong><br />
+                            <ul>
+                                <li>Life, Sick (If Status Ailment) or Divine as the 3-part set bonus.</li>
+                                <li>Ward (Recommended) or Dodge (If high AGI) as the 2-part set bonus.</li>
+                                <li>Exceptions do exist depending on the demon.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Tanks</strong>
+                            <ul>
+                                <li>Life as the 3-part set bonus.</li>
+                                <li>Ward (Recommended) or Shield (If high luck) as the 2-part set bonus.</li>
+                                <li>Ideally you'd want a build that can stall enemies in PVP, but I've seen exceptions
+                                    to this as well.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p><strong>Tertiaries &amp; Leveling Up Brands</strong></p>
+                    <ul>
+                        <li>These two things go together since leveling up tertiaries are the things that drive many
+                            players crazy.</li>
+                        <li>Tertiaries could be any stat, they could be one of the 5 flat stats (HP, ATK, DEF) or any
+                            of the percentage stats.
+                            <ul>
+                                <li>Brands at level 1 could start with 0, 1, 2 or 3 tertiaries.</li>
+                                <li>Aim for brands starting with 1 or 2 decent tertiaries. (1 for usable brands, 2 for
+                                    possibly OP brands)</li>
+                                <li>6* Brands starting with 3 tertiaries are unicorns (rare). Don't feel the need to
+                                    chase them, especially since brands with 2 tertiaries have a chance to be just as
+                                    good.</li>
+                                <li>In many cases you would want percentage tertiaries, but not always. (Explained in a
+                                    later section when I build an example demon)</li>
+                            </ul>
+                        </li>
+                        <li><strong>The Leveling Up Process</strong>
+                            <ul>
+                                <li>Each level from 1 to 9 will boost the main stat by a set amount. (Percentage main
+                                    stats will go up by 1%)</li>
+                                <li>At level 3, if the brand does not have at least 1 tertiary stat, then a tertiary
+                                    stat will be generated.
+                                    <ul>
+                                        <li>Otherwise, one of the brands existing tertiary stats will be boosted.</li>
+                                    </ul>
+                                </li>
+                                <li>At level 6, if the brand does not have at least 2 tertiary stats, then a tertiary
+                                    stat will be generated.
+                                    <ul>
+                                        <li>Otherwise, one of the brands existing tertiary stats will be boosted.</li>
+                                        <li>The tertiary stat that is boosted can be the same as the one boosted at
+                                            level 3. (This is how you can get tertiary stats to very high percentages
+                                            (Above 10%), they need to be boosted at least twice.)</li>
+                                    </ul>
+                                </li>
+                                <li>At level 9, if the brand does not have all three 3 tertiary stats, then a tertiary
+                                    stat will be generated.
+                                    <ul>
+                                        <li>Otherwise, one of the brands existing tertiary stats will be boosted.</li>
+                                        <li>Same as at level 6, the stat boosted can be the same as the one boosted at
+                                            levels 3 and 6.</li>
+                                        <li>This means, that if your brand starts with 3 tertiaries at level 1, it is
+                                            possible for the same tertiary to be boosted at levels 3, 6, and 9. This
+                                            would push a percentage stat really high (Probably 12%+)</li>
+                                    </ul>
+                                </li>
+                                <li>Each level from 10 to 15 will boost the main stat by a set amount and the secondary
+                                    stat by a set amount.&nbsp;
+                                    <ul>
+                                        <li>These levels are the only way to bump up your brand's secondary stat.</li>
+                                    </ul>
+                                </li>
+                                <li>At level 15, the brand will boost one of the brands existing tertiary stats.
+                                    <ul>
+                                        <li>This means that if you want to optimize your 6* brands tertiary stats, they
+                                            must be leveled to 15.</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>As we can see, the reason why you would want at least 1 or 2 decent tertiary stats at level
+                            1 is because of the tertiary boosts at levels 3, 6, 9 and 15.&nbsp;<br />
+                            <ul>
+                                <li>A brand with a tertiary stat, for example, of Phys ATK +3% at level one could end
+                                    up with that tertiary being Phys ATK +12% at level 15 due to these boosts.</li>
+                            </ul>
+                        </li>
+                        <li><strong>The Example Brand Shown Above</strong>
+                            <ul>
+                                <li>Started out with two tertiaries: 4% Accuracy, 4% Phys ATK.
+                                    <ul>
+                                        <li>I kept this brand because the two tertiaries matched up well for Physical
+                                            Attackers</li>
+                                    </ul>
+                                </li>
+                                <li>At level 3, the Phys ATK tertiary was boosted from 4 to 8%.</li>
+                                <li>At level 6, the Accuracy tertiary was boosted from 4 to 7%.</li>
+                                <li>At level 9, the 2% Critical tertiary was generated.</li>
+                                <li>At level 15, the Phys ATK tertiary was boosted again, from 8% to 12%.</li>
+                                <li>As you can see, boosting a tertiary twice can yield very high stats.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p><strong>Building An Example Demon</strong></p>
+                    <ul>
+                        <li>Here I will build multiple "Top Tier" Demons and show you what to look for in terms of brands</li>
+                        <li>Coming Soon</li>
+                    </ul>
+                </b-card>
                 <brand></brand>
             </b-tab>
 
