@@ -1,0 +1,49 @@
+/* Custom css for the Demon Guide*/
+/* General Table styling */
+.DG-Table td {
+  border: 2px solid #dddddd;
+  border-spacing:0;
+  text-align: center;
+  padding: 8px;
+}
+.DG-Table-Label {
+  background-color:#EAECF0;
+}
+.DG-ToC img{
+  width:40px;
+  height:80px;
+}
+.DG-ToC table {
+  margin-left:auto; 
+  margin-right:auto;
+}
+.DG-ToC table td {
+  padding:2px;
+  min-width:17px;
+  font-size:15px;
+}
+.DG-HomeButton {
+  width:40px;
+  height:40px;
+}
+/* Archetype Categories */
+.DG-CMN {
+  background-color:#6C757D; 
+  color:white;
+}
+.DG-ARA {
+  background-color:#DC3545;
+  color:white;
+}
+.DG-PRO {
+  background-color:#CD853F; 
+  color:white;
+}
+.DG-PSY {
+  background-color:#DA70D6; 
+  color:white;
+}
+.DG-ELE {
+  background-color:#17A2B8; 
+  color:white;
+}
