@@ -2339,9 +2339,7 @@ DevilBom.prototype.getCost = function(rarity){
     var cost1 = isFreebieDevil(d1.name) ? 0 : cost1_x + cost2_p;
     var cost2 = isFreebieDevil(d2.name) ? 0 : cost1_p + cost2_x;
 
-    var mag = (cost1 > cost2 ? cost2 : cost1) + this.mag;
-    return getRaceDiscountPrice(this, mag);
-
+    return (cost1 > cost2 ? cost2 : cost1) + getRaceDiscountPrice(this, this.mag);
 };
 
 DevilBom.prototype.getCostPure = function(rarity){
@@ -2355,11 +2353,9 @@ DevilBom.prototype.getCostPure = function(rarity){
     if(cost1==null||cost2==null)
         return null;
 
-    var mag = (d1.rarity > rarity ? cost1 : 0)
+    return (d1.rarity > rarity ? cost1 : 0)
         + (d2.rarity > rarity ? cost2 : 0)
-        + this.mag_pure;
-
-    return getRaceDiscountPrice(this, mag);
+        + getRaceDiscountPrice(this, this.mag_pure);
 };
 
 DevilBom.bom = function(devil, d1, d2){
