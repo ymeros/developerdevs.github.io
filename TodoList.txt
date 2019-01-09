@@ -1,11 +1,15 @@
-========== FOCUS ==========
+========== STUFF TO DO ==========
   - New: Add Faction Rankings
   - Mutli-fusions: Show components required to fuse them
+  - General: Get new pictures, uniform for each demon (grey background, head shot)
+  - Demon Guide: Add in notable demons
+  - Demon Guide: Work on gacha skills for each demon
+  - Demon Guide: Replace writeups' Common,Aragami,Protector,Psychic,Elementalist labels with corresponding images
 
 ========== OPTIONAL ==========
   - Us:
     - Add Tier List
-    - Updated beginner's guide
+    - Add Beginner's guide
 
   - /u/FrostKyuby: 
       - https://old.reddit.com/r/Dx2SMTLiberation/comments/a88k4d/mavericks_calculator_update/ecz848p/?context=3
@@ -18,7 +22,8 @@
       - https://old.reddit.com/r/Dx2SMTLiberation/comments/a88k4d/mavericks_calculator_update/ec8z800/
       - Recursive normal fusion. E.g. Anubis can fuse into Cu, from Cu check what he can fuse into.
   
-========== BUGS ==========
-
 ========== Complete ============
-- Demon Guide: Update to use new tables
+- Demon Guide: Added tables
+- Demon Guide: Added collapsible tabs
+- Demon Guide: Added Table of Contents
+- Demon Guide: Added images to Table Of Contents
