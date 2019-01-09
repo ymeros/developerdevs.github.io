@@ -396,7 +396,8 @@
                 -->
                 <p id="DG-Top"><strong>Table of Contents</strong></p>
                 <ul>
-                  <li>Summary can be found here for each demon. Click on their portrait to view the specific writeup</li>
+                  <li>Summary can be found here for each demon. Click on their portrait as a shortcut to the demon.</li>
+                  <li>In the list of demon names, click on the name to view the writeup itself.</li>
                   <li><strong>Archetype Rating:</strong>
                       <ul>
                         <li>_ = Worst. The other archetypes are mostly better than this one</li>
@@ -604,7 +605,7 @@
                 <!-- [Metatron] -->
                 <button id="Metatron" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Metatron</button>
                 <div class="DG-Demon"><br>
-                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Metatron')">Stats</a></strong></p>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Metatron')">Demon Information</a></strong></p>
                   <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
                       guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
                       and so quite amazing for boss killing. He comes naturally to boot with Infinite Chakra for
@@ -680,7 +681,7 @@
                 <!-- [Lucifer] -->
                 <button id="Lucifer" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Lucifer</button>
                 <div class="DG-Demon"><br>
-                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Lucifer')">Stats</a></strong></p>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Lucifer')">Demon Information</a></strong></p>
                   <p>Strongest almighty sweeper, ideally you'd want purple archetype (Butcher) to ensure he's as
                       powerful as he can get. The reason for this is that he comes with the unique skill: Morning
                       Star (MS). Given the fact it can be levelled as well it can reach really high numbers.
@@ -740,7 +741,7 @@
                 <!-- [Vishnu] -->
                 <button id="Vishnu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Vishnu</button>
                 <div class="DG-Demon"><br>
-                  <p><strong><a id="Vishnu" href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Stats</a></strong></p>
+                  <p><strong><a id="Vishnu" href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Demon Information</a></strong></p>
                   <p>A Strong slow caster with the unique passive Avatar. This acts as an improved Enduring Soul + Life Aid
                      combined into one (500 HP, 50% per wave. It's also levellable). He naturally also nulls light/dark and with his low agi 
                      and survival, he can be used in slower pvp teams + pve content such as Sloth 10, Aether farming.
@@ -789,10 +790,11 @@
                   <p><strong>Brands:</strong> Divine for Aragami, Life/Spell works for Protector </p>
                   <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
                   </div>
-                </b-card>
+
                 <!-- [Yoshitsune] -->
-                <b-card>
-                    <p><strong><a id="Yoshitsune" href="javascript:void(0)" @click="show_guide_devil('Yoshitsune')">Yoshitsune</a></strong></p>
+                <button id="Yoshitsune" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Yoshitsune</button>
+                <div class="DG-Demon"><br>
+                    <p><strong><a id="Yoshitsune" href="javascript:void(0)" @click="show_guide_devil('Yoshitsune')">Demon Information</a></strong></p>
                     <p>Immune to light and dark, resistant to phys attacks, has high strength, good agility
                         and high luck to boot for criticals. He comes with the unique skill Hassou Tobi (8x random piercing hits), very useful 
                         for bosses and brand farming. Innate skills include Vorpal Blade and Mana Aid, making him amazing in Pve, Mana Aid gives him
@@ -850,66 +852,69 @@
                     </ul>
                     <p><strong>Brands: </strong>War or Divine. Divine would be better for charge/pvp setups, for pve it isn't really needed</p>
                     <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
-                </b-card>
+                </div>
+                
                 <!-- [Mother Harlot] -->
-                <b-card>
-                    <p><strong><a id="MotherHarlot" href="javascript:void(0)" @click="show_guide_devil('Mother Harlot')">Mother Harlot</a></strong></p>
-                    <p>Comes with 2 unique skills: Death Lust (increased dmg to charmed enemies, chance to charm foes at the start of your turn), 
-                       Babylon Goblet (BG) (almighty aoe skill which drains 1mp from each target hit) and Mana Gain. She
-                       punishes teams without Ward brands and in pve content has a chance to charm enemies every wave.
-                       Babylon Goblet is amazing at draining mp out of the enemy team (using her in a Jack Bros
-                       setup you can rob them of all their mana, preventing them from counterattacking)
-                    </p>
-                    <div class="DG-Table">
-                        <p><table>
-                          <tbody>
-                            <tr><td class="DG-CMN"><b>Common</b></td>
-                                <td><b>Magic Amp III</b> Increases her base magic, this can be decent if you're into min maxing and don't 
-                                really care about the other archetypes</td>
-                                <td>Unobtainable</td>
-                            </tr>
-                            <tr><td class="DG-ARA"><b>Aragami</b></td>
-                                <td><b>Deathtouch</b> gives her a single target skill. Be wary though as if you don't use Divine brands, she'd use this over BG.
-                                <br><b>Tetraka Shift</b> helps when starting second, it prevents phys attacks though isn't as good as it used to be due to the prevalent use of pierce</td>
-                                <td>Usable</td>
-                            </tr>
-                            <tr><td class="DG-PRO"><b>Protector</b></td>
-                                <td><b>Debilitate</b> allows her to lend support your party (Though you still should be spamming Babylon Goblet when you can) through the best debuff 
-                                       in the game. Since double debuffs exist, Debiliate doesn't shine as much as its essentially the same with an extra debuff tacked on.
-                                <br>
-                                  <b>Infernal Mask</b> is amazing for her due to her natural high luck, greatly increasing ailment infliction/resistance. It also means you don't have 
-                                  to run ward (I would not replace this skill because of its usefulness and rarity)</td>
-                                <td>Usable</td>
-                            </tr>
-                            <tr><td class="DG-PSY"><b>Psychic</b></td>
-                                <td>Stacking <b>Deadly Charm</b> with her passive, would amp up damage done to charmed enemies (Have another demon spam charm to get the best out of it).
-                                <br>
-                                  <b>Insanity</b> will increase her chances of charming enemies overall (this will affect her initial charm passive i'm pretty sure)</td>
-                                <td><b>Best (Offensive)</b></td>
-                            </tr>
-                            <tr><td class="DG-ELE"><b>Elementalist</b></td>
-                                <td><b>Drain Phys</b> is most useful <b>when</b> you have Rama with you (since she has Drain Elec as well), stopping piercing phys hitters and Thor from from sweeping you.
-                                  <br> Naturally she has Null Phys anyways and so prevents phys aoe in general. 
-                                    <b>Makara Shift</b> is nice defensively for when you start second in pvp. 
-                                </td>
-                                <td><b>Best (Defensive)</b></td>
-                            </tr>
-                          </tbody>
-                        </table></p>
-                      </div>
-                    <p><strong>Recommended skills: </strong></p>
-                    <ul>
-                        <li>Resist Force. She has a weakness that should be covered.</li>
-                        <li>Serial Killer/Butcher. Increases her BG damage since it's almighty based </li>
-                        <li>Endure. Gives her survivability.</li>
-                    </ul>
-                    <p><strong>Brands:</strong> Divine to spam Babylon Goblet. Some of the top players use Life to
-                        ensure she stays alive as long as possible. Spell if you want Babylon Goblet to do more
-                        damage, you'd always start off draining 4mp (effectively reducing its cost to 4 from 8, or 3 from 7
-                        if you maxed it out), though the less opponents alive, the less effective it'll be in returning
-                        mana to her. Ward if you're worried of her being inflicted by ailments. Shield would be good otherwise.
-                    </p>
-                    <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
+                <button id="MotherHarlot" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Mother Harlot</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a id="MotherHarlot" href="javascript:void(0)" @click="show_guide_devil('Mother Harlot')">Demon Information</a></strong></p>
+                  <p>Comes with 2 unique skills: Death Lust (increased dmg to charmed enemies, chance to charm foes at the start of your turn), 
+                     Babylon Goblet (BG) (almighty aoe skill which drains 1mp from each target hit) and Mana Gain. She
+                     punishes teams without Ward brands and in pve content has a chance to charm enemies every wave.
+                     Babylon Goblet is amazing at draining mp out of the enemy team (using her in a Jack Bros
+                     setup you can rob them of all their mana, preventing them from counterattacking)
+                  </p>
+                  <div class="DG-Table">
+                      <p><table>
+                        <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                              <td><b>Magic Amp III</b> Increases her base magic, this can be decent if you're into min maxing and don't 
+                              really care about the other archetypes</td>
+                              <td>Unobtainable</td>
+                          </tr>
+                          <tr><td class="DG-ARA"><b>Aragami</b></td>
+                              <td><b>Deathtouch</b> gives her a single target skill. Be wary though as if you don't use Divine brands, she'd use this over BG.
+                              <br><b>Tetraka Shift</b> helps when starting second, it prevents phys attacks though isn't as good as it used to be due to the prevalent use of pierce</td>
+                              <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                              <td><b>Debilitate</b> allows her to lend support your party (Though you still should be spamming Babylon Goblet when you can) through the best debuff 
+                                     in the game. Since double debuffs exist, Debiliate doesn't shine as much as its essentially the same with an extra debuff tacked on.
+                              <br>
+                                <b>Infernal Mask</b> is amazing for her due to her natural high luck, greatly increasing ailment infliction/resistance. It also means you don't have 
+                                to run ward (I would not replace this skill because of its usefulness and rarity)</td>
+                              <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-PSY"><b>Psychic</b></td>
+                              <td>Stacking <b>Deadly Charm</b> with her passive, would amp up damage done to charmed enemies (Have another demon spam charm to get the best out of it).
+                              <br>
+                                <b>Insanity</b> will increase her chances of charming enemies overall (this will affect her initial charm passive i'm pretty sure)</td>
+                              <td><b>Best (Offensive)</b></td>
+                          </tr>
+                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                              <td><b>Drain Phys</b> is most useful <b>when</b> you have Rama with you (since she has Drain Elec as well), stopping piercing phys hitters and Thor from from sweeping you.
+                                <br> Naturally she has Null Phys anyways and so prevents phys aoe in general. 
+                                  <b>Makara Shift</b> is nice defensively for when you start second in pvp. 
+                              </td>
+                              <td><b>Best (Defensive)</b></td>
+                          </tr>
+                        </tbody>
+                      </table></p>
+                    </div>
+                  <p><strong>Recommended skills: </strong></p>
+                  <ul>
+                      <li>Resist Force. She has a weakness that should be covered.</li>
+                      <li>Serial Killer/Butcher. Increases her BG damage since it's almighty based </li>
+                      <li>Endure. Gives her survivability.</li>
+                  </ul>
+                  <p><strong>Brands:</strong> Divine to spam Babylon Goblet. Some of the top players use Life to
+                      ensure she stays alive as long as possible. Spell if you want Babylon Goblet to do more
+                      damage, you'd always start off draining 4mp (effectively reducing its cost to 4 from 8, or 3 from 7
+                      if you maxed it out), though the less opponents alive, the less effective it'll be in returning
+                      mana to her. Ward if you're worried of her being inflicted by ailments. Shield would be good otherwise.
+                  </p>
+                  <!-- <a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a> -->
+                </div>
                 </b-card>
                 <!-- [Trumpeter] -->
                 <b-card>
