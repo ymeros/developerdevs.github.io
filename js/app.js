@@ -2679,6 +2679,7 @@ var app = new Vue({
                 case 'search':          index_main = 3;                     break;
                 case 'setting':         index_main = 4;                     break;
                 case 'guide':           index_main = 5;                     break;
+                case 'brand':           index_main = 6;                     break;
                 case 'last':            index_main = this.index_main_last;
                                         index_fusion = this.index_fusion_last;  break;
                 default:                index_main = 0; index_fusion = 0;   break;
@@ -2707,6 +2708,7 @@ var app = new Vue({
                 case 'search':          index_main = 3;                     break;
                 case 'setting':         index_main = 4;                     break;
                 case 'guide':           index_main = 5;                     break;
+                case 'brand':           index_main = 6;                     break;
                 default:                index_main = 0; index_fusion = 0;   break;
             }
 
@@ -3066,6 +3068,12 @@ Vue.component('skill',{
 Vue.component('guide',{
     props:['guide'],
     template:'#guide-t'
+});
+
+/* Devs */
+Vue.component('brand',{
+    props:['brand'],
+    template:'#brand-t'
 });
 
 Vue.component('skill-list',{

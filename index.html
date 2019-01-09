@@ -129,6 +129,7 @@
                         $t('message.normal_fusion') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('skill')" :active="isRoute('skill')">{{ $t('message.skill') }}</b-nav-item>
                     <b-nav-item href="#" @click="route('guide')" :active="isRoute('guide')">Advanced Guide: Demons</b-nav-item>
+                    <b-nav-item href="#" @click="route('brand')" :active="isRoute('brand')">Advanced Guide: Brands</b-nav-item>
                 </b-navbar-nav>
                 <b-navbar-nav class="ml-auto">
                     <b-nav-form action="#" class="d-none d-md-block">
@@ -2650,6 +2651,17 @@
                     <a href="#DG-Top"><img id="DG-HomeButton" src="images/theme/HomeButton.png"></a>
                 </b-card>
                 <guide></guide>
+            </b-tab>
+
+
+            <!-- index_main : 6 brands -->
+
+            <b-tab no-body class="p-2">
+
+                    <b-card>
+                        Coming Soon
+                    </b-card>
+                <brand></brand>
             </b-tab>
 
         </b-tabs>
