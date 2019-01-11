@@ -342,22 +342,14 @@
                 </ul>
               </b-card>
               <b-card>
-              <!-- Just grouped by 10 to make it easier to navigate -->
-              <!-- 
-                Format:
-                - Add to <td> if usable archetype: class="DG-CMN", class="DG-ARA", class="DG-PRO", class="DG-PSY", class="DG-ELE"
-                - Add B onto any for optimal archetype
-                - Add U for usable archetype
-                - Add W for bad archetype
-                - Remove id if not obtainable
-                <table><tr><td class="DG-CMN"></td><td class="DG-ARA"></td><td class="DG-PRO"></td><td class="DG-PSY"></td><td class="DG-ELE"></td></tr></table>
-              -->
+              <!-- Grouped by 10 to make it easier to navigate -->
               <p id="DG-Top"><strong>Table of Contents</strong></p>
               <ul>
                 <li>Summary can be found here for each demon. Click on their portrait as a shortcut to the demon.</li>
                 <li>In the list of demon names, click on the name to view the writeup itself.</li>
               </ul>
                 <div class="DG-Table">
+                  <!-- 5★ demons -->
                   <table class="DG-ToC"><tbody>
                     <tr><td class="DG-Table-Label" colspan="10">5★ Demons</td></tr>
                     <tr>
@@ -409,7 +401,7 @@
                   </tbody></table>
                   
                   <br>
-                  
+                  <!-- Notable Demons -->
                   <table class="DG-ToC"><tbody>
                     <tr><td class="DG-Table-Label" colspan="7">Notable Demons (WIP)</td></tr>
                     <tr>
@@ -451,37 +443,8 @@
                 </div>
               </b-card>
                 
-                <!-- Table Format:
-                    <div class="DG-Table">
-                      <p><table>
-                        <tbody>
-                          <tr><td class="DG-CMN"><b>Common</b></td>
-                              <td><b></b></td>
-                              <td></td>
-                          </tr>
-                          <tr><td class="DG-ARA"><b>Aragami</b></td>
-                              <td><b></b></td>
-                              <td></td>
-                          </tr>
-                          <tr><td class="DG-PRO"><b>Protector</b></td>
-                              <td><b></b></td>
-                              <td></td>
-                          </tr>
-                          <tr><td class="DG-PSY"><b>Psychic</b></td>
-                              <td><b></b></td>
-                              <td></td>
-                          </tr>
-                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
-                              <td><b></b></td>
-                              <td></td>
-                          </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
-                -->       
-                                
-                <b-card>
-                <p id="DG-Top"><strong>5★ Demons</strong></p>
+              <b-card>
+                <p><strong>5★ Demons</strong></p>
                   <!-- [Metatron] -->
                   <button id="Metatron" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Metatron</button>
                   <div class="DG-Demon"><br>
@@ -2558,7 +2521,314 @@
                   <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
-                </b-card>
+              </b-card>
+              
+              <!-- Table Format:
+                  <button id="ID" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">NAME</button>
+                  <div class="DG-Demon"><br>
+                    <p><strong><a href="javascript:void(0)" @click="show_guide_devil('NAME')">Demon Information</a></strong></p>
+                    <p></p>
+
+                    <div class="DG-Table">
+                      <p><table>
+                        <tbody>
+                            <tr><td class="DG-CMN"><b>Common</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                            </tr>
+                            <tr><td class="DG-ARA"><b>Aragami</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                            </tr>
+                            <tr><td class="DG-PRO"><b>Protector</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                            </tr>
+                            <tr><td class="DG-PSY"><b>Psychic</b></td>
+                              <td><b></b></td>
+                              <td></td>
+                            </tr>
+                            <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                              <td></td>
+                              <td></td>
+                            </tr>
+                        </tbody>
+                      </table></p>
+                    </div>
+
+                    <p><strong>Recommended skills:</strong></p>
+                    <ul>
+                        <li></li>
+                    </ul>
+                    <p><strong>Brands:</strong>.</p>
+                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  </div>
+              -->
+                           
+              <b-card>
+                <p><strong>Gacha Demons</strong></p>
+                <!-- [Chernobog] -->
+                <button id="Chernobog" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Chernobog</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Chernobog')">Demon Information</a></strong></p>
+                  <p>Strong phys unit pairing well with Nergal. He is poison oriented with Deadly Poison, Hades Blast for aoe and his unique passive Fog Of Death. 
+                     Whever a enemy is weakened, he casts Sukunda and inflicts poison on them. To synergize, Nergal happens to have an ability which removes barrier then inflicts 
+                     weak + a passive which casts rebellion whenever an enemy is poisoned making them a powerful combo. Even without Nergal he can work fine by himself, you need to 
+                     inflict weak on enemies or just inflict poison for a free Sukunda. Mad Gasser (comes with Mahapoisma, poison all) can pair well with him as you can always 
+                     transfer Madezoreto (weak all) to him too.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b>Sea Of Chaos</b> gives him a expensive Rakunda.
+                                <br> He doesn't have good magic so it's main use will be for support. Weaken them for Sukunda + Sea Of Chaos for Rakunda.</td>
+                            <td>Unobtainable</td>
+                          </tr>
+                          <tr><td class="DG-ARA"><b>Aragami</b></td>
+                              <td><b>Dark Sword</b> Gives him a single target attack that can inflict mute, saving you the need from transferring one.
+                                  <br>This goes well with <b>Deadly Mute</b> which stacks with Deadly Poison. Easy to setup with weak and gives you a total of a 60% damage boost
+                                  against poison/muted enemies.
+                              </td>
+                            <td><b>Best (Ailment Phys)</b></td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td><b>Outbreak</b> inflicts weak multiple times to enemies. Generally aoe weak (Madezoreto) is better to use and since he is Attack AI he won't use this on auto.
+                                <br><b>Damage Panel V II</b> can be replaced as you can just bring demons with Damage Panel Immunity instead for AG
+                            </td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PSY"><b>Psychic</b></td>
+                            <td><b>Savage Glee</b> increases his crit rate to high amounts, quite amazing if you don't want to use him in a HB/ZG team
+                                <br>For bosses <b>Tempest Slash</b> would prove useful, but not so much in pvp.
+                            </td>
+                            <td><b>Best (Pure Phys)</b></td>
+                          </tr>
+                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                            <td>He's weak to light and so <b>Null Fire</b> does nothing for him.
+                              <br><b>Resist Light</b> should be kept however if you're worried about enemies exploiting his weakness
+                            </td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li>Single target phys attack. For example Oni-Kagura would be nice for its crit chance boost</li>
+                      <li>Resist Light. For covering weakness</li>
+                      <li>Phys Boost. Damage Increase</li>
+                  </ul>
+                  <p><strong>Brands:</strong> War works due to him not having costly skills, Divine for more skill spamming</p>
+                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Hel] -->
+                <button id="Hel" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Hel</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Hel')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA"><b>Aragami</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY"><b>Psychic</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong>.</p>
+                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Hell Biker] -->
+                <button id="HellBiker" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Hell Biker</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Hell Biker')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA"><b>Aragami</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY"><b>Psychic</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong>.</p>
+                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Jeanne D'Arc] -->
+                <button id="JeanneDArc" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jeanne D'Arc</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jeanne d\'Arc')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA"><b>Aragami</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY"><b>Psychic</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong>.</p>
+                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <button id="Persephone" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Persephone</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Persephone')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA"><b>Aragami</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY"><b>Psychic</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong>.</p>
+                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <button id="WhiteRider" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">White Rider</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('White Rider')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN"><b>Common</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA"><b>Aragami</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO"><b>Protector</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY"><b>Psychic</b></td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE"><b>Elementalist</b></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong>.</p>
+                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+              </b-card>
+
               <guide></guide>
             </b-tab>
 
