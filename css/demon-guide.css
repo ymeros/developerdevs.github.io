@@ -21,22 +21,27 @@
 .DG-CMN {
   background-color:#6C757D; 
   color:white;
+  font-weight: bold;
 }
 .DG-ARA {
   background-color:#DC3545;
   color:white;
+  font-weight: bold;
 }
 .DG-PRO {
   background-color:#CD853F; 
   color:white;
+  font-weight: bold;
 }
 .DG-PSY {
   background-color:#DA70D6; 
   color:white;
+  font-weight: bold;
 }
 .DG-ELE {
   background-color:#17A2B8; 
   color:white;
+  font-weight: bold;
 }
 
 /* Collapsible Buttons */
