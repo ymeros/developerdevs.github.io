@@ -312,7 +312,7 @@
 
             <b-tab no-body class="p-2">
               <b-card>
-                <h4 style="text-align: center;">Azuraki's Notes on 5★ Demons</h4>
+                <h4 style="text-align: center;">Azuraki's Notes on Demons</h4>
                 <p><strong>Introduction</strong></p>
                 <ul>
                   <li>This is a guide for all 5★ demons in the game when you want to fuse them/archetype change. </li>
@@ -321,36 +321,46 @@
                   <li>There may be people who have better opinions than mine as I don't have that many 5★ demons.</li>
                   <li>For Gacha demons, i'll go over their gacha skills as the only way to obtain them is via pulling</li>
                   <li>Standard 5★s are analyzed on the basis of the archetype skill only, for when you want to fuse them/switch archetype</li>
-                  <li>Refer to the <b>"Guide: Brands"</b> by Dev, for brand setup information (this guide will just list general setups for each demon).</li>
-                  
-                  <br>
-                  
-                  <li><strong>Archetype Rating:</strong>
-                    <ul>
-                      <li>Worst = The other archetypes are mostly better than this one</li>
-                      <li>Usable = Could have its uses depending on the sort of build you want to run</li>
-                      <li>Best = Considered the best, most suited to the demon/build people generally go for</li>
-                    </ul>
-                  </li>
-                  <li><strong>Gacha Skill Rating: (WIP)</strong>
-                      <ul>
-                        <li>Bad = Could easily be replaced, not worth transfering to another demon</li>
-                        <li>Acceptable = Usable on the demon, but can be transferred away/replaced if you want it on another demon</li>
-                        <li>Keep = Recommended to hold onto the skill, it works well on the demon</li>
-                      </ul>
-                  </li>
                 </ul>
+                
+                <p><strong>4★ (and below) demons</strong></p>
+                <ul>
+                  <li> Notable demons are now included in the guide. All gacha 4★ demons are covered, whilst with fusable i've selected a few to go through </li>
+                  <li> I will only discuss the best/usable archetypes for these. Bad archetypes should essentially be considered to be sold for Karma/fused away </li>
+                </ul>
+                
+                <p><strong>Brands</strong></p>
+                <ul>
+                  <li>Refer to the <b>"Guide: Brands"</b> by Dev, for brand setup information (this guide will just list general setups for each demon).</li>
+                  <li>If i don't list a secondary brand, go with Ward.</li>
+                </ul>
+                
+                <p><strong>Archetype Rating:</strong></p>
+                  <ul>
+                    <li>Worst = The other archetypes are mostly better than this one</li>
+                    <li>Usable = Could have its uses depending on the sort of build you want to run</li>
+                    <li>Best = Considered the best, most suited to the demon/build people generally go for</li>
+                  </ul>
+                <!--
+                <li><strong>Gacha Skill Rating: (WIP)</strong>
+                    <ul>
+                      <li>Bad = Could easily be replaced, not worth transfering to another demon</li>
+                      <li>Acceptable = Usable on the demon, but can be transferred away/replaced if you want it on another demon</li>
+                      <li>Keep = Recommended to hold onto the skill, it works well on the demon</li>
+                    </ul>
+                </li>
+                -->
               </b-card>
               <b-card>
               <!-- Grouped by 10 to make it easier to navigate -->
-              <p id="DG-Top"><strong>Table of Contents</strong></p>
+              <p><strong>Table of Contents</strong></p>
               <ul>
                 <li>Summary can be found here for each demon. Click on their portrait as a shortcut to the demon.</li>
                 <li>In the list of demon names, click on the name to view the writeup itself.</li>
               </ul>
                 <div class="DG-Table">
                   <!-- 5★ demons -->
-                  <table class="DG-ToC"><tbody>
+                  <table class="DG-ToC" id="DG-5StarDemons"><tbody>
                     <tr><td class="DG-Table-Label" colspan="10">5★ Demons</td></tr>
                     <tr>
                       <td><a href="#Alice" onclick="openCollapsibleViaToC('Alice')"><img src="images/devil/majin_arisu.png"><br>Alice</a></td>
@@ -402,87 +412,87 @@
                   
                   <br>
                   <!-- Notable Demons -->
-                  <table class="DG-ToC"><tbody>
+                  <table class="DG-ToC" id="DG-NotableDemons"><tbody>
                     <tr><td class="DG-Table-Label" colspan="7">Notable Demons </td></tr>
                     <tr>
                       <td class="DG-Table-Label">Gacha</td>
                       <td><a href="#Chernobog" onclick="openCollapsibleViaToC('Chernobog')"><img src="images/devil/Chernobog.png"><br>Chernobog</a></td>
                       <td><a href="#Hel" onclick="openCollapsibleViaToC('Hel')"><img src="images/devil/Hel.jpg"><br>Hel</a></td>
                       <td><a href="#Hell Biker" onclick="openCollapsibleViaToC('Hell Biker')"><img src="images/devil/Hell-Biker.png"><br>Hell Biker</a></td>
-                      <td><a href="#JeanneDArc" onclick="openCollapsibleViaToC('JeanneDArc')"><img src="images/devil/eiyuu_jannu.png"><br>Jeanne D'Arc</a></td>
+                      <td><a href="#Jeanne D Arc" onclick="openCollapsibleViaToC('Jeanne D Arc')"><img src="images/devil/eiyuu_jannu.png"><br>Jeanne D'Arc</a></td>
                       <td><a href="#Persephone" onclick="openCollapsibleViaToC('Persephone')"><img src="images/devil/Persephone.jpg"><br>Persephone</a></td>
                       <td><a href="#White Rider" onclick="openCollapsibleViaToC('White Rider')"><img src="images/devil/majin_waitonaito.png"><br>White Rider</a></td>
                     </tr>
                     <tr>
-                      <td class="DG-Table-Label" rowspan = "2">4★ (WIP)</td>
-                      <td><a href="#Fenrir"><img src="images/devil/youjyuu_huenriru.png"><br>Fenrir</a></td>
-                      <td><a href="#Gucumatz"><img src="images/devil/ryuusin_gukumatu.png"><br>Gucumatz</a></td>
-                      <td><a href="#Hecatoncheires"><img src="images/devil/Hecatoncheires.png"><br>Hecatoncheires</a></td>
-                      <td><a href="#King Frost"><img src="images/devil/maou_jyakuhurosuto.png"><br>King Frost</a></td>
-                      <td><a href="#Loki"><img src="images/devil/maou_roki.png"><br>Loki</a></td>
-                      <td><a href="#PallasAthena"><img src="images/devil/megami_parasuatena.png"><br>Pallas Athena</a></td>
+                      <td class="DG-Table-Label" rowspan = "2">4★</td>
+                      <td><a href="#Fenrir" onclick="openCollapsibleViaToC('Fenrir')"><img src="images/devil/youjyuu_huenriru.png"><br>Fenrir</a></td>
+                      <td><a href="#Gucumatz" onclick="openCollapsibleViaToC('Gucumatz')"><img src="images/devil/ryuusin_gukumatu.png"><br>Gucumatz</a></td>
+                      <td><a href="#Hecatoncheires" onclick="openCollapsibleViaToC('Hecatoncheires')"><img src="images/devil/Hecatoncheires.png"><br>Hecatoncheires</a></td>
+                      <td><a href="#King Frost" onclick="openCollapsibleViaToC('King Frost')"><img src="images/devil/maou_jyakuhurosuto.png"><br>King Frost</a></td>
+                      <td><a href="#Loki" onclick="openCollapsibleViaToC('Loki')"><img src="images/devil/maou_roki.png"><br>Loki</a></td>
+                      <td><a href="#Pallas Athena" onclick="openCollapsibleViaToC('Pallas Athena')"><img src="images/devil/megami_parasuatena.png"><br>Pallas Athena</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#Rakshasa"><img src="images/devil/Rakshasa.png"><br>Rakshasa</a></td>
-                      <td><a href="#Rangda"><img src="images/devil/kijyo_randa.png"><br>Rangda</a></td>
-                      <td><a href="#Sandalphon"><img src="images/devil/daitensi_sandaruhuon.png"><br>Sandalphon</a></td>
-                      <td><a href="#Sleipnir"><img src="images/devil/seijyuu_sureipuniru.png"><br>Sleipnir</a></td>
-                      <td><a href="#Yatagarasu"><img src="images/devil/reityou_yatagarasu.png"><br>Yatagarasu</a></td>
-                      <td><a href="#ZhongKui"><img src="images/devil/kisin_syouki.png"><br>Zhong Kui</a></td>
+                      <td><a href="#Rakshasa" onclick="openCollapsibleViaToC('Rakshasa')"><img src="images/devil/Rakshasa.png"><br>Rakshasa</a></td>
+                      <td><a href="#Rangda" onclick="openCollapsibleViaToC('Rangda')"><img src="images/devil/kijyo_randa.png"><br>Rangda</a></td>
+                      <td><a href="#Sandalphon" onclick="openCollapsibleViaToC('Sandalphon')"><img src="images/devil/daitensi_sandaruhuon.png"><br>Sandalphon</a></td>
+                      <td><a href="#Sleipnir" onclick="openCollapsibleViaToC('Sleipnir')"><img src="images/devil/seijyuu_sureipuniru.png"><br>Sleipnir</a></td>
+                      <td><a href="#Yatagarasu" onclick="openCollapsibleViaToC('Yatagarasu')"><img src="images/devil/reityou_yatagarasu.png"><br>Yatagarasu</a></td>
+                      <td><a href="#Zhong Kui" onclick="openCollapsibleViaToC('Zhong Kui')"><img src="images/devil/kisin_syouki.png"><br>Zhong Kui</a></td>
                     </tr>
                     <tr>
                       <td class="DG-Table-Label" rowspan = "2">Other (WIP)</td>
                       <td><a href="#Baihu"><img src="images/devil/seijyuu_byako.png"><br>Baihu</a></td>
-                      <td><a href="#HareOfInaba"><img src="images/devil/tinjyuu_inabasirousagi.png"><br>Hare Of Inaba</a></td>
+                      <td><a href="#Hare Of Inaba"><img src="images/devil/tinjyuu_inabasirousagi.png"><br>Hare Of Inaba</a></td>
                       <td><a href="#Mitra"><img src="images/devil/majin_mitora.png"><br>Mitra</a></td>
                       <td><a href="#Zouchouten"><img src="images/devil/kisin_zoutyouten.png"><br>Zouchouten</a></td>
-                      <td><a href="#JackFrost"><img src="images/devil/yousei_jyakufurosuto.png"><br>Jack Frost</a></td>
-                      <td><a href="#PyroJack"><img src="images/devil/yousei_jyakurantan.png"><br>Pyro Jack</a></td>
+                      <td><a href="#Jack Frost"><img src="images/devil/yousei_jyakufurosuto.png"><br>Jack Frost</a></td>
+                      <td><a href="#Pyro Jack"><img src="images/devil/yousei_jyakurantan.png"><br>Pyro Jack</a></td>
                     </tr>
                   </tbody></table>
                 </div>
               </b-card>
               
               <!-- Table Format:
-                  <button id="ID" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">NAME</button>
-                  <div class="DG-Demon"><br>
-                    <p><strong><a href="javascript:void(0)" @click="show_guide_devil('NAME')">Demon Information</a></strong></p>
-                    <p></p>
+                <button id="ID" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">NAME</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('NAME')">Demon Information</a></strong></p>
+                  <p></p>
 
-                    <div class="DG-Table">
-                      <p><table>
-                        <tbody>
-                            <tr><td class="DG-CMN">Common</td>
-                              <td><b></b></td>
-                              <td></td>
-                            </tr>
-                            <tr><td class="DG-ARA">Aragami</td>
-                              <td><b></b></td>
-                              <td></td>
-                            </tr>
-                            <tr><td class="DG-PRO">Protector</td>
-                              <td><b></b></td>
-                              <td></td>
-                            </tr>
-                            <tr><td class="DG-PSY">Psychic</td>
-                              <td><b></b></td>
-                              <td></td>
-                            </tr>
-                            <tr><td class="DG-ELE">Elementalist</td>
-                              <td></td>
-                              <td></td>
-                            </tr>
-                        </tbody>
-                      </table></p>
-                    </div>
-
-                    <p><strong>Recommended skills:</strong></p>
-                    <ul>
-                        <li></li>
-                    </ul>
-                    <p><strong>Brands:</strong>.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
                   </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong></p>
+                  <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
               -->
               
               <!-- 5★ Demons -->
@@ -561,7 +571,7 @@
                         </li>
                     </ul>
                     <p><strong>Brands:</strong> Spell/Divine, whichever you want.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
 
                   <!-- [Lucifer] -->
@@ -621,7 +631,7 @@
                         <li>Serial Killer to amp up his almighty damage.</li>
                     </ul>
                     <p><strong>Brands:</strong> Use Divine to ensure he can two turn Morning Star.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                     </div>
                     
                   <!-- [Vishnu] -->
@@ -674,7 +684,7 @@
                         </li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for Aragami, Life/Spell works for Protector </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                     </div>
 
                   <!-- [Yoshitsune] -->
@@ -737,7 +747,7 @@
                           <li>Butcher. As multi-hit skills count as aoe, this can increase Hassou-Tobi/Vorpal Blade damage. Phys Amp, Boost, Butcher maximises his damage</li>
                       </ul>
                       <p><strong>Brands: </strong>War or Divine. Divine would be better for charge/pvp setups, for pve it isn't really needed</p>
-                      <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                      <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Mother Harlot] -->
@@ -799,7 +809,7 @@
                         if you maxed it out), though the less opponents alive, the less effective it'll be in returning
                         mana to her. Ward if you're worried of her being inflicted by ailments. Shield would be good otherwise.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
 
                   <!-- [Trumpeter] -->
@@ -858,7 +868,7 @@
                         two turn use it. Maxing it out would help with mp cost but this brand setup would still be good for
                         when you want to Concentrate then Apocalypse as soon as possible.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
 
                   <!-- [Shiva] -->
@@ -912,7 +922,7 @@
                         <li>Butcher. Stacks with Serial Killer for Pralaya/Vorpal Blade damage boosting</li>
                     </ul>
                     <p><strong>Brands:</strong> War if you don't mind waiting for mp to regen otherwise Divine.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Mot] -->
@@ -974,7 +984,7 @@
                         two turn them. Life if you don't really care about that and just want his
                         hp to go as high as possible. Stack MAtk % if you want damage, Life% if you want survival.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
 
                   <!-- [Michael] -->
@@ -1021,7 +1031,7 @@
                         <li>Serial Killer/Butcher. To increase both Soul Judgement and Megidolaon's damage </li>
                     </ul>
                     <p><strong>Brands:</strong> Divine if you want two turn Megidolaon, Spell for Soul Judgement spam.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Mara] -->
@@ -1069,7 +1079,7 @@
                     <p><strong>Brands:</strong> Divine/Ward. Both Hell Thrust and Titanomachia costs 7 mp, so you
                         can't two turn them with War. Though if you don't mind waiting, then War would strengthen his damage further.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Izanami] -->
@@ -1128,7 +1138,7 @@
                     <p><strong>Brands:</strong> Spell is fine since Bolt Storm doesn't cost much. For Aragami, Hell Gaze
                         will cost 6mp, go with Divine if you want to use it off the bat in pvp. Life is also good since she's quite bulky.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Alice] -->
@@ -1194,7 +1204,7 @@
                     <p><strong>Brands:</strong> Divine/Ward helps you charge up for DfM as quickly as possible, though Spell 
                         would work as Mamudoon and Mudodyne both cost 6 mp only.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
 
                   <!-- [Huang Di] -->
@@ -1251,7 +1261,7 @@
                         Life can ensure he's bulky. You wouldn't really need Ward as Purple or pulled Teal but it can act as a safety harness. 
                         In that case Aim could be nice against evasion teams or Shield for magic defense.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Huang Long] -->
@@ -1310,7 +1320,7 @@
                         <li>Dodge/Evade. You should build him for evasion, this just further enhances it. 5E to ignore magic and evasion to avoid physical.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine, you'd want to always have 5E up.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Rama] -->
@@ -1366,7 +1376,7 @@
                     <p><strong>Brands:</strong> Divine. You want to spam spells so this is the only option really, Spell/Life is okay but then you won't
                         be able to 2 turn skills in exchange for more damage/hp.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Zaou Gongen] -->
@@ -1412,7 +1422,7 @@
                         <li>Phys Aoe skill if not red.</li>
                     </ul>
                     <p><strong>Brands:</strong> War/Divine. Divine would allow you to two turn God's Hand and enables transfering more expensive phys aoe skills (If Yellow)</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Alilat] -->
@@ -1462,7 +1472,7 @@
                     <p><strong>Brands:</strong> Divine for ailments or Life for general survival. Aim for HP%, or ailment % if you're using Ailment
                         skills. PDEF % is also valid against phys pierce when you're fighting against Hell Biker teams.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Lakshmi] -->
@@ -1515,7 +1525,7 @@
                         almighty skill, the ability to spam it. Life for Yellow if you want her to be more
                         defensive. Sick brands are also good for a more slow but higher odds approach.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Ixtab] -->
@@ -1589,7 +1599,7 @@
                     <p><strong>Brands:</strong> Divine, Speed, Spell, Lead combinations all work. Don't give her HP/def/mdef and instead focus on stats like Ailment Infliction, 
                         Ailment Resistance, Speed (If you want to act first), Matk % if you want to use her as dps.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Samael] -->
@@ -1637,7 +1647,7 @@
                         <li>High MP cost skills that you want to use on a support.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine to get 5mp regen or Spell maximising damage, Life making him beefy</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
 
                   <!-- [Seth] -->
@@ -1687,7 +1697,7 @@
                         <li>Good/Great Aim. If you feel he has accuracy issues, this can help patch it up.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine allows casting Debilitate and Nocturne easily and spamming Ouas more often for pvp. In pve, war and life work just as well.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Barong] -->
@@ -1733,7 +1743,7 @@
                         <li>Samarecarm. Added revive to his lackluster support kit.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine so he can two turn cast Barong Dance. Life can ensure he's more bulky</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Siegfried] -->
@@ -1788,7 +1798,7 @@
                         <li>Endure if using Enduring soul to stack it up.</li>
                     </ul>
                     <p><strong>Brands:</strong> War/Life or Divine, he works fine with either. Divine will allow you to turn one Berserker God for pvp.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Ananta] -->
@@ -1839,7 +1849,7 @@
                         <li>Barrier break. If you don't feel like running a double debuff/have it already covered. Though after barriers are gone, he'd just spam attack and heal.</li>
                     </ul>
                     <p><strong>Brands:</strong> Life or Divine. You wan't him to be as tanky as possible and survive. Divine to spam double debuffs, Life for more hp in general.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Surt] -->
@@ -1888,7 +1898,7 @@
                         <li>Fire Boost. If you want Ragnarok to be stronger</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine and MATK% if you want to spam Ragnarok with Purple or War/Life and PATK% for Berserker God damage with Clear.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Thor] -->
@@ -1937,7 +1947,7 @@
                         <li>Phys Boost. If you're running Red</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine (focus on MATK% for purple, PATK% for red) so that he can spam Mjolnir/Gigantomachia.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Asherah] -->
@@ -1984,7 +1994,7 @@
                         <li>Samarecarm. If Teal to give her another revive skill.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine is mandatory to ensure you can two turn heal.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Mastema] -->
@@ -2032,7 +2042,7 @@
                         <li>Light Boost. If you want to only use him in Sloth 10 or in fights where the enemy isn't immune to light.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine, means more journeys into the Trial of Hate. You can also turn one cast it if you max it out.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Amaterasu] -->
@@ -2079,7 +2089,7 @@
                         <li>Any other magic element</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for two turn Tenson Kourin casts and Mediarahan when Yellow.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Ishtar] -->
@@ -2133,7 +2143,7 @@
                             survival or another element as well if you wish.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine for Jack Bros setup with her Yellow version. Spell can work for Teal.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Susano-o] -->
@@ -2184,7 +2194,7 @@
                     <p><strong>Brands:</strong> Divine to ensure you can first turn Kusanagi/Mortal Jihad in pvp
                         and spam it more in general. Though War will increase his damage way more for pve, Life if you want survability.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Nergal] -->
@@ -2237,7 +2247,7 @@
                           <li>Aoe skill. If not Red, can help with sweeping</li>
                       </ul>
                       <p><strong>Brands:</strong> War works fine since he doesn't have any costly skills. Divine if you want a more costly aoe.</p>
-                      <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                      <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Black Frost] -->
@@ -2283,7 +2293,7 @@
                             so you'd need to set it up with another demon or just use GTH, on subsequent casts it would be stronger.</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine so he can spam his skills since it costs 7mp for Mabufudyne/GTH.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Cu Chulainn] -->
@@ -2330,7 +2340,7 @@
                             it for pve though, he'd never save up for Mazandyne)</li>
                     </ul>
                     <p><strong>Brands:</strong> Divine or Spell is valid. Divine allows him to two turn Mazandyne and spam magic more in general.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Quetzalcoatl] -->
@@ -2384,7 +2394,7 @@
                     <p><strong>Brands:</strong> Life, He needs to be tanky and ideally the last demon to fall, so that he'd bring back everyone else. 
                       Divine can work too to ensure two turn Ce Actis' casts.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Orcus] -->
@@ -2451,7 +2461,7 @@
                     <p><strong>Brands:</strong> Life ensures he survives as long as possible, though Divine
                         can work too so that he can spam out War Cry as much as possible and two turn Samarecarm/Recarmdra skills.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Garuda] -->
@@ -2510,7 +2520,7 @@
                         Go for Spell Type if you wanna use him for Vanity 10 (you can then go with Mamudo). 
                         Building evasion is another way to go as aforementioned.
                     </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                   
                   <!-- [Lilith] -->
@@ -2561,12 +2571,12 @@
                       <li>Dark boost for more allure damage</li>
                   </ul>
                   <p><strong>Brands:</strong> Spell/Life. Allure isn't that costly at all which is nice (6 mp cost), you can opt for Divine if you like.</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
               </b-card>
               
-              <!-- 4★ Gacha Demons -->
+              <!-- 4★ Demons -->
               <b-card>
                 <p><strong>4★ Gacha Demons</strong></p>
                 <!-- [Chernobog] -->
@@ -2624,7 +2634,7 @@
                       <li>Phys Boost. Damage Increase</li>
                   </ul>
                   <p><strong>Brands:</strong> War works due to him not having costly skills, Divine for more skill spamming</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [Hel] -->
@@ -2681,8 +2691,8 @@
                       <li>Any other element (Single target/aoe). Gives her more coverage</li>
                       <li>Ice/Dark boost. Enhances her standard kit further</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Spell works fine with her mp costs. You'd want Divine if you want to use Yellow/more spamming in general.</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><strong>Brands:</strong> Spell works fine with her mp costs. You'd want Divine if you want to use Yellow/more spamming in general.</p>
+                    <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [Hell Biker] -->
@@ -2739,14 +2749,15 @@
                     <li>Enduring/Enduring Soul. Giving him more survival to cast Red Zone</li>
                     <li>Agility Amp I/II/III. Most of the time Yatagarasu is a good pairing as he comes with Auto-Sukunda (also being a pretty good phys attacker). The problem with this is that Yatagarasu 
                         will act before HB meaning he won't get that effect. One way to get around this is transferring any of these to ensure HB has more agility, going first (or use Lead Brands).</li>
-                    <li>Phys skill. If you want Hell Biker to be attacking with skills himself, be sure to save enough mp for Red Zone casts though when your team needs it</li>    
+                    <li>Phys skill. If you want Hell Biker to be attacking with skills himself, be sure to save enough mp for Red Zone casts though when your team needs it</li>
+                    <li>Mana Aid. Expensive to transfer but if you get Mana Aid for him he can immediately crank out Red Zone every wave (assuming you only need 1 per wave)</li>                    
                   </ul>
-                  <p><strong>Brands:</strong>. Divine for quick Red Zone casting. You need to max out the skill in order to turn one use it in pvp.</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><strong>Brands:</strong> Divine for quick Red Zone casting. You need to max out the skill in order to turn one use it in pvp.</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [Jeanne D'Arc] -->
-                <button id="JeanneDArc" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jeanne D'Arc</button>
+                <button id="Jeanne D Arc" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jeanne D'Arc</button>
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jeanne d\'Arc')">Demon Information</a></strong></p>
                   <p>Good healer (when compared with Pazuzu and Feng Huang), coming with Recovery Boost for higher heals, Holy Wrath and her unique Orlean Prayer 
@@ -2798,8 +2809,8 @@
                       <li>Buffs/Debuffs. For  more support utility</li>
                       <li>Mediarama. If you want to use her as a healer</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Divine as healers need it for 2 turn aoe heals (it is also needed for Red)</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><strong>Brands:</strong> Divine as healers need it for 2 turn aoe heals (it is also needed for Red)</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [Persephone] -->
@@ -2854,10 +2865,10 @@
                     <li>Hellish Mask. Goes well with Yellow to reduce likelihoods of her being inflicted by ailments</li>
                     <li>Ice/Dark Boost. If you want her to be dps, it will increase her kit's damage.</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Spell if you want damage, Divine for spamming spells more and Life for surivability. 
+                  <p><strong>Brands:</strong> Spell if you want damage, Divine for spamming spells more and Life for surivability. 
                     <br> If you go with Yellow + Hellish Mask then you won't really need ward brands. Lead would ensure she acts first if you have a speedier unit, Shield/Guard for more defense.
                   </p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [White Rider] -->
@@ -2894,7 +2905,7 @@
                               <br> In AG50, if he acts first you can use an Amrita shower to remove bind. You can attempt one shotting Asherah/Alice too, making the fight way easier.
                               <br><b>Mecharmdi</b> is useless on him, i'd recommend just replacing it.
                             </td>
-                            <td>Usable (Situational)</td>
+                            <td>Usable<br>(Situational)</td>
                           </tr>
                           <tr><td class="DG-ELE">Elementalist</td>
                             <td><b>Null Force</b> covers his weakness given you reign of control over what skills you want in the last two slots.
@@ -2912,22 +2923,19 @@
                       <li>Resist Force. Force skills are really prevalent, you should really cover any force weaknesses you have</li>
                       <li>Endure. Helps with his survivability</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Divine for spamming skills, Spell means they'd come out slower but be more powerful.</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><strong>Brands:</strong> Divine for spamming skills, Spell means they'd come out slower but be more powerful.</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
               
-              </b-card>
+                <p><br><b>4★ Fusable Demons</b></p>
               
-              <b-card>
-                <p><strong>4★ Notable Demons</strong></p>
-                
                 <!-- [Fenrir] -->
                 <button id="Fenrir" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Fenrir</button>
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Fenrir')">Demon Information</a></strong></p>
-                  <p>Recommended mainly for Aura Gate 45-50 farming and only when Purple. Given the fastest team present on those floors is ~20,000 speed you'd 
-                     need to beat that in order to get first strikes, ensuring your team doesn't fall. If you want an improved version to use, Purple Huang Long (or any other HL with Speedster) 
-                     would suit this bill in terms of survivability and speed (and comes with an upgraded Makarakarn). SP won't be an issue due to the abundance of Fenrir Souls found at 45-50 so don't feed him Yasaka Magatamas.
+                  <p>Recommended mainly for Aura Gate 45-50 farming and only when Purple. You need to reach around ~21,000 speed for those floors in order to get first strikes, ensuring your team doesn't 
+                     fall as the recommended team on the wiki is very squishy. If you want an improved version to use, Purple Huang Long (or any other HL with Speedster) would suit this bill in terms of 
+                     survivability and speed (and comes with an upgraded Makarakarn). SP won't be an issue due to the abundance of Fenrir Souls found at 45-50 so don't feed him Yasaka Magatamas.
                      <br> At minimum he should be level 45 to be most effective for farming.
                   </p>
 
@@ -2964,10 +2972,10 @@
                       <li>Rakunda/Tarunda. Go first if you want to end battles quicker, second for more survival</li>
                       <li>Barrier Break (PVP only). Turn one ailment teams would have to rely on BB and Divine Brands. He's a good candidate due to having Auto-Taruka and speedster for acting first.</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Divine and Ward. Both are compulsory as he needs to get out Makarakarn as much as possible and the debuff. Ward is for Lilim/Shiisa encounters, preventing charm/bind
+                  <p><strong>Brands:</strong> Divine and Ward. Both are compulsory as he needs to get out Makarakarn as much as possible and the debuff. Ward is for Lilim/Shiisa encounters, preventing charm/bind
                     <br> Aim for Life% and Evade % for survival.
                   </p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [Gucumatz] -->
@@ -3017,8 +3025,8 @@
                       <li>Samarecarm. Revive is always good on a support unit</li>
                       <li>Mind Break. If Fog Breath has been stuck on the opponent and they don't clear it, he can then spend the rest of his turns draining their mana.</li>
                     </ul>
-                    <p><strong>Brands:</strong>. Life to make him tanky</p>
-                    <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                    <p><strong>Brands:</strong> Life to make him tanky</p>
+                    <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
                 
                 <!-- [Hecatoncheires] -->
@@ -3065,8 +3073,8 @@
                       <li>Resist Light. Prevents enemies getting extra press turns. </li>
                       <li>Samarecarm/Recarmdra. Some people prefer not to cover light weakness and get this instead. Even though he's Attack AI, he has been seeing using these skills.</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Life and Shield is the best combination for survival</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><strong>Brands:</strong> Life and Shield is the best combination for survival</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [King Frost] -->
@@ -3111,8 +3119,8 @@
                     <li>Resist Fire. Covering weakness is always good.</li>
                     <li>Any other element/almighty. For coverage.</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Divine if you're going for Yellow (and want two turn CW) otherwise Life/Spell would work fine, though it'll take him a while to charge up CW.</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><strong>Brands:</strong> Divine if you're going for Yellow (and want two turn CW) otherwise Life/Spell would work fine, though it'll take him a while to charge up CW.</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
                 <!-- [Loki] -->
@@ -3159,8 +3167,615 @@
                     </li>
                     <li> Resist Light. If not Teal it can prevent him from being wiped out by light. By not covering it however you can run with 5 elemental attacks</li>
                   </ul>
-                  <p><strong>Brands:</strong>. Divine can ensure more spell spamming, though since at most his skills cost 6mp, you can two turn them regardless with Spell/Life.</p>
-                  <p><a href="#DG-Top"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  <p><strong>Brands:</strong> Divine can ensure more spell spamming, though since at most his skills cost 6mp, you can two turn them regardless with Spell/Life.</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Pallas Athena] -->
+                <button id="Pallas Athena" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Pallas Athena</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Pallas Athena')">Demon Information</a></strong></p>
+                  <p>Mainly considered for two uses: Resist Force transfer or as a budget Yoshitsune (only when purple). She naturally comes with Resist Force (for transferral), 
+                     Myriad Arrows (For bosses) and Holy Wrath. She has high strength, agility and luck, making her a excellent phys unit for farming. Her hp, mag and vit is on the low end 
+                     however, so she'll do low Holy Wrath damage and will take more damage compared to other units.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b>Mortal Jihad</b> can be used if you want to bring her to pvp. Though there are better phys units to use due to her low bulk.</td>
+                            <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b>Mana Aid</b> is excellent for farming. Restoring mp per wave ensures she can spam skills on the get go. 
+                                <br> If you get her powerful enough she can sweep, rinse and repeat.
+                            </td>
+                            <td><b>Best</b></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li>Phys Boost. To increase damage</li>
+                      <li>Resist Dark. If you're worried about her weakness being hit </li>
+                      <li>Aoe phys skill. Myriad Arrows for single targeting bosses, aoe for multiple enemies</li>
+                  </ul>
+                  <p><strong>Brands:</strong> Divine ensures she can utilize multiple activations of her phys skills, War would ensure she hits harder.</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+
+                <!-- [Rakshasa] -->
+                <button id="Rakshasa" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Rakshasa</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Rakshasa')">Demon Information</a></strong></p>
+                  <p>Powerful glass cannon phys unit (Low hp/vit/mag + two weaknesses). He has Fatal Sword, Charge and his unique Rasetsu, increasing his base accuracy and granting him Rebellion at 
+                     the start of battle. Combined with Zaou Gongen, you can immediately pierce when you start combat, give him an aoe to let him wreck havok. Due to Rasetsu only activating once however, 
+                     if he dies then the effect is lost. It is also not reactivated every wave, meaning it's best for turn one clears such as pvp, pvp training mode or AG farming.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td>Due to his glass cannon nature <b>Endure</b> would ensure he survives at least once.</td>
+                            <td><b>Best</b></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li>Phys Boost. Increasing his damage</li>
+                      <li>Aoe move. If you're using him for pvp, aim for one that is usable turn one (E.g. For pvp: Herculean Strike, 5mp or Hades Blast 6mp (with Divine))</li>
+                      <li>Mana Aid. Expensive to transfer but if you get Mana Aid up with him and Hell Biker it'll make them both really effective for brand farming</li>
+                  </ul>
+                  <p><strong>Brands:</strong> War to maximise damage or Divine if you want a more powerful aoe in exchange for less single target damage.
+                    <br> For a secondary brand, Ward isn't really needed as he's gonna die anyways so Aim would be good for more accuracy or Lead if you run him in a Biker team (using Red Zone before 
+                    using up his Rasetsu would mean it's wasted).
+                  </p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Rangda] -->
+                <button id="Rangda" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Rangda</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Rangda')">Demon Information</a></strong></p>
+                  <p> Magic unit with a kit that has Mahajuon for cursing foes, Mudodyne and Mazandyne for spells to cast. Her appeal mainly is in her natural repel phys resistance and 
+                      her archetype as Yellow with Recarmdra, pair her with Alilat to prevent phys piercing from the likes of HB/ZG teams, Mara and Huang Di. You can build her either as a spell 
+                      caster (Though she is kinda squishy to begin with so for pve be sure to have Makarakarn/5 Elements up to prevent her from taking magic damage) or as a defensive support demon for pvp.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b>Recarmdra</b> is a elusive skill to find and is most effective on tanky units who are intended to survive last. 
+                                <br>In her case you'd have to invest in order to get her survivability up as much as possible.
+                            </td>
+                            <td><b>Best</b></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td><b>Null Force</b> makes her immune to Susano-o and Seth naturally as they both run Phys/Force. For this archetype you can build her as a caster.
+                                <br> This makes her mainly useful in pve however as if people see her with this on defence they can just bring another unit.</td>
+                            <td>Usable</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li>Endure. If Yellow, when she casts recarmdra it can prevent her death. Or it can prevent her death in order to cast recarmdra.</li>
+                      <li>Resist Elec. Covers her weakness, since she can be easily shredded by magic its best to not give the enemy any openings</li>
+                  </ul>
+                  <p><strong>Brands:</strong>Life if you're building her Yellow, Spell/Divine if you're building her Teal. 
+                     <br> For a secondary brand, Shield could work to improve her MDEF, but Ward is always nice for ailment protection
+                  </p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Sandalphon] -->
+                <button id="Sandalphon" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Sandalphon</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Sandalphon')">Demon Information</a></strong></p>
+                  <p>One of the first recommended 4★ demons to build in the game (he's also a component for Alilat). Having no weaknesses and really good resistances, a balanced stat spread, two single 
+                     target skills and Auto-Sukuka to boot he's a pretty good well rounded demon. Red is recommended if you want to use him for farming brands or on your AG farming team, whilst Yellow is 
+                     good for general usage.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b>Mahamaon</b> with a -1mp cost allows him to shine in AG 45-50 and Sloth 10 farming. Given both places have a lot of light weak enemies he can easily 
+                                sweep and generate press turn icons for your team.
+                            </td>
+                            <td><b>Best<br>(Farming)</b></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b>Samarecarm</b> allows him to provide more support with a cheaper mp cost attached to it.</td>
+                            <td><b>Best<br>(General Use)</b></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li>Light Boost. If using him for AG/S10 farming, boosting his Mahamaon damage can ensure faster clears</li>
+                      <li>ST Fire/Ice/Dark/Elec. Giving him coverage is always nice since he already covers two elements</li>
+                  </ul>
+                  <p><strong>Brands:</strong>Divine if you want more skill spamming, Spell/Life would work for more damage/survival</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Sleipnir] -->
+                <button id="Sleipnir" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Sleipnir</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Sleipnir')">Demon Information</a></strong></p>
+                  <p>Speedy caster that's generally recommended for AG 45-50 and Sloth 10 (If Red). He has Light Boost to increase the damage of Mahamaon and Speedster, giving your 
+                     team a needed boost in battle speed for farming content. He is pretty squishy however and so you should expect him to fall quite easily. This is why you can also find a 
+                     fair amount of Sleipnir souls in AG 45-50, however this means you don't have to waste Yasaka Magatamas on him as souls should be enough to get your the skill points you need.
+                     <br> At minimum he should be level 45 to be most effective for farming.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b>Samarecarm</b> gives him support utility to revive your dead team members. Useful for AG farming in the cases where an ally gets killed by a foe, talk or someone failing 
+                              the Gatekeeper challenge.
+                            </td>
+                            <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b>Hamadyne</b> gives him a single target skill to use in farming. Note: If you do decide to bring him to Sloth 10, be sure to cover his fire weakness so that Lucifer won't 
+                              fry him to a crisp.
+                            </td>
+                            <td><b>Best<br>(Sloth 10)</b></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b>Diarahan</b> helps in the healing department, mending the wounds of your team (mainly for AG 45-50, for S10 you don't really need healing and should aim for quick clears)</td>
+                            <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b>Agility Amp III</b> though sounds good on paper for more speed, isn't really required as you could always get more speed via levelling him up, getting speed tertiaries or combining 
+                              him with another speedy demon.
+                              <br>In AG 45-50 he's mainly with Fenrir and so those two with double Speedster should provide your team more than enough speed to reach the ~21,000 mark.
+                            </td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                    <li>Resist Fire. Mainly for Sloth 10, if you just want to use him for AG 45-50, Makarakarn from Fenrir should be more than enough.</li>
+                    <li>Mazan/Mazio. For AG 45-50, increasing his coverage allows you to sweep a wider variety of foes.</li>
+                    <li>Bufu/Bufula. For Lilim in AG 45-50 if your team keeps falling to her. Makarakarn from Fenrir + Ward on all demons should ensure your survival</li>
+                    <li>Hama. For Sloth 10, if you run Divine then once he reaches 0mp from using his other skills he'll start to spam this (so you don't have to worry about phys attacks missing)</li>
+                  </ul>
+                  <p><strong>Brands:</strong> Divine is a must on Sloth 10. Spell works fine for AG 45-50 and Ward as a secondary brand is essential to both.</p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Yatagarasu] -->
+                <button id="Yatagarasu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Yatagarasu</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Yatagarasu')">Demon Information</a></strong></p>
+                  <p>Lighting fast bird with high strength, very high agility and decent luck. Yatagarasu has Hades Blast, Auto-Sukunda and Speedster making him a effective demon 
+                    for HB/ZG comps. Speedster would ensure your team gets high battle speeds, whilst Auto-Sukunda assists with hit rates (since the team is fully reliant on phys). 
+                    <br>He's really squishy and so will fall very easily to magic, having one of the lowest HP/Vit/Magic stats in the game, quickly wipe them out before they can wipe 
+                    you out. Due to this Yatagarasu souls also litter AG 45-50 floors and so you shouldn't waste Yasaka Magatamas on him.
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b>Phys Boost</b> increases his phys damage, this saves you tons of mag and so you don't have to fuse Wu Kong and also save mag as oppposed to making him colored</td>
+                            <td><b>Best<br>(Offensive)</b></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td>If you don't have a HB/ZG team and want to use him as a phys unit, <b>Oni-Kagura</b> is excellent for single targeting. 
+                              <br>Given guaranteed crit from Red Zone, the added crit from this isn't required for HB/ZG teams.
+                            </td>
+                            <td>Usable</td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td>With his already high agility he should have natural high evasion, with <b>Evade</b> stacked on top it can reach even higher. 
+                              <br>In going with this archetype you can build him as a support unit if you wish. In being Support AI, he will give priority to support skills over phys.
+                            </td>
+                            <td><b>Best<br>(Defensive)</b></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                    <li>Single Target Phys. For HB/ZG teams for when you run across Repel Phys + Alilat.</li>
+                    <li>Debuff/Buff. For Support build</li>
+                    <li>Barrier Break. Support build, if you want to use him in an ailment team</li>
+                  </ul>
+                  <p><strong>Brands:</strong>Divine if you want more skill spamming, though he doesn't really have expensive skills to begin with. War for phys build.
+                    <br>Dodge can be a good secondary brand for him to further increase his evasion, Speed for extra, well speed. Otherwise the standard Ward to shield from ailments.
+                  </p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Zhong Kui] -->
+                <button id="Zhong Kui" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Zhong Kui</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Zhong Kui')">Demon Information</a></strong></p>
+                  <p>The angry red man with the highest strength stat in the game (also with second highest luck) meaning he will strike with heavy critical hits. He has Hellish Mask boosting his ailment resistance, 
+                     Oni-Kagura to strike with a boosted crit chance and Auto-Taruka giving your team an immediate boost in attack at the start of combat.
+                     In retrospect he has low HP, Mag, Vit and Agi meaning he can have trouble hitting (luck is factored into hit rate but with low Agi it's balanced out). 
+                     Best seen with Purple Archetype for pvp he's suited towards slow teams (to intentionally aim to start second). Combine him with Surt or Baihu for double intimidation 
+                     (Fun fact: If you run double intimidation in levelling quests, you will always start first regardless of battle speed).
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b>Intimidating Stance</b> works best if your team starts second. When you have two users with this passive you can reduce the enemy's starting press turns from 4 to 2. 
+                              <br>This can easily stop Jack Bros, HB/ZG and turn one clear teams. It can however be countered by Ganesha who grants +1mp to all party members per press turn lost.
+                            </td>
+                            <td><b>Best</b></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                    <li>Resist Force. Force is too prevalent to be ignored. He'd easily be one shotted by Cu Chulainn/Susano-o</li>
+                    <li>Endure. Gives him a second fighting chance, always nice.</li>
+                    <li>Phys Boost. Make him hit harder, releasing all of that pent up anger</li>
+                    <li>Bloody/Savage Glee. Further increase odds of him critting, he'll still struggle to get crits off high luck demons and so this'll reduce the gap</li>
+                  </ul>
+                  <p><strong>Brands:</strong>He doesn't need ward brands due to his high innate ailment resistance + Hellish Mask. 
+                     <br> Go with Life + Shield if you want more survivability on him. War with aim is the more glass cannony route, increasing damage and hit rate.
+                  </p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+              </b-card>
+              
+              <!-- Other Demons -->
+              <b-card>     
+                <p><br><b>Other Demons</b></p>
+                
+                <!-- [Baihu] -->
+                <button id="Baihu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Baihu</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Baihu')">Baihu</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Hare Of Inaba] -->
+                <button id="Hare Of Inaba" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Hare Of Inaba</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Hare Of Inaba')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+                
+                <!-- [Mitra] -->
+                <button id="Mitra" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Mitra</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Mitra')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+              
+                <!-- [Zouchouten] -->
+                <button id="Zouchouten" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Zouchouten</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Zouchouten')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+              
+                <!-- [Jack Frost] -->
+                <button id="Jack Frost" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jack Frost</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jack Frost')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                </div>
+
+                <!-- [Pyro Jack] -->
+                <button id="Pyro Jack" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Pyro Jack</button>
+                <div class="DG-Demon"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Pyro Jack')">Demon Information</a></strong></p>
+                  <p></p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td><b></b></td>
+                            <td></td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                      <li></li>
+                  </ul>
+                  <p><strong>Brands:</strong></p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
               </b-card>
