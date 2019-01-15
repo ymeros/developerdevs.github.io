@@ -350,6 +350,16 @@
                     </ul>
                 </li>
                 -->
+                
+                <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates</button>
+                <div class="DG-Demon"><br>
+                  <strong>[16/1]</strong>
+                  <ul>
+                    <li>Added Latest Updates collapsible</li>
+                    <li>Added Masakado writeup (and placeholder image)</li>
+                  </ul>
+                </div>
+                  
               </b-card>
               <b-card>
               <!-- Grouped by 10 to make it easier to navigate -->
@@ -384,9 +394,10 @@
                       <td><a href="#Lucifer" onclick="openCollapsibleViaToC('Lucifer')"><img src="images/devil/maou_rusifua.png"><br>Lucifer</a></td>
                       <td><a href="#Mara" onclick="openCollapsibleViaToC('Mara')"><img src="images/devil/maou_mara.png"><br>Mara</a></li>
                       <td><a href="#Mastema" onclick="openCollapsibleViaToC('Mastema')"><img src="images/devil/daitensi_mansemato.png"><br>Mastema</a></td>
-                      <td><a href="#Metatron" onclick="openCollapsibleViaToC('Metatron')"><img src="images/devil/daitensi_metatoron.png"><br>Metatron</a></td>
+                      <td><a href="#Masakado" onclick="openCollapsibleViaToC('Masakado')"><img src="images/devil/Masakado.png"><br>Masakado</a></td>
                     </tr>
                     <tr>
+                      <td><a href="#Metatron" onclick="openCollapsibleViaToC('Metatron')"><img src="images/devil/daitensi_metatoron.png"><br>Metatron</a></td>
                       <td><a href="#Michael" onclick="openCollapsibleViaToC('Michael')"><img src="images/devil/daitensi_mikaeru.png"><br>Michael</a></td>
                       <td><a href="#Mot" onclick="openCollapsibleViaToC('Mot')"><img src="images/devil/Mot.jpg"><br>Mot</a></li>
                       <td><a href="#Mother Harlot" onclick="openCollapsibleViaToC('Mother Harlot')"><img src="images/devil/Mother-Harlot.png"><br>Mother Harlot</a></td>
@@ -396,9 +407,9 @@
                       <td><a href="#Rama" onclick="openCollapsibleViaToC('Rama')"><img src="images/devil/Rama.png"><br>Rama</a></td>
                       <td><a href="#Samael" onclick="openCollapsibleViaToC('Samael')"><img src="images/devil/datensi_samaeru.png"><br>Samael</a></td>
                       <td><a href="#Seth" onclick="openCollapsibleViaToC('Seth')"><img src="images/devil/jyasin_seto.png"><br>Seth</a></td>
-                      <td><a href="#Shiva" onclick="openCollapsibleViaToC('Shiva')"><img src="images/devil/hakaisin_siva.png"><br>Shiva</a></td>
                     </tr>
                     <tr>
+                      <td><a href="#Shiva" onclick="openCollapsibleViaToC('Shiva')"><img src="images/devil/hakaisin_siva.png"><br>Shiva</a></td>
                       <td><a href="#Siegfried" onclick="openCollapsibleViaToC('Siegfried')"><img src="images/devil/eiyuu_jikuhurito.png"><br>Siegfried</a></td>
                       <td><a href="#Surt" onclick="openCollapsibleViaToC('Surt')"><img src="images/devil/maou_suruto.png"><br>Surt</a></td>
                       <td><a href="#Susano-o" onclick="openCollapsibleViaToC('Susano-o')"><img src="images/devil/hakaisin_susanoo.png"><br>Susano-o</a></td>
@@ -574,6 +585,68 @@
                     <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
 
+                  <!-- [Metatron] -->
+                  <button id="Masakado" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Masakado</button>
+                  <div class="DG-Demon"><br>
+                    <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Masakado')">Demon Information (TODO) </a></strong></p>
+                    <p>One of the most OP demons in the game, hats off to you if you've obtained him. He has no weaknesses: Null Phys, Resist Light, Drain Dark (He can't be killed by Alice), 
+                       the highest strength in the game and really high luck (meaning he can easily crit, have high innate ailment resistance and infliction) and a really powerful 
+                       base kit. Vorpal Blade for phys aoe, Warlord's Wrath: Givine phys pierce, 100% phys counter and Intimidating Stance all in one passive and Occult Flash: Single 
+                       target phys damage with 50% crit, 200 power and 100% kill rate. Yup even if you have Tetraja on your demon, odds are they'll die anyways from the heavy damage and crit. It 
+                       even has three uses as well. Since he's a intimidating stance user, it's best to pair him up with another stance user. I'd recommend Zhong Kui due to his Auto-Taruka having a huge 
+                       benefit for the both of them.
+                    </p>
+
+                    <div class="DG-Table">
+                      <p><table>
+                        <tbody>
+                            <tr><td class="DG-CMN">Common</td>
+                              <td><strong>Unknown</strong>
+                              <td>Unobtainable</td>
+                            </tr>
+                            <tr><td class="DG-ARA">Aragami</td>
+                              <td><strong>Myriad Arrows</strong> gives him a multi-hit skill to use, this would be useful for boss fights.
+                                <br><strong>Auto-Rakunda</strong> would boost turn one damage/counter Auto-Rakuka. Pair him with Zhong Kui for 2x Intimidation and full damage buffing.
+                              </td>
+                              <td>Usable</td>
+                            </tr>
+                            <tr><td class="DG-PRO">Protector</td>
+                              <td><strong>Binge Eating</strong> allows him to dish out damage whilst at the same time heal himself. Great for longer fights where you need more sustain.
+                                <br><strong>Auto-Sukunda</strong> would help in turn one accuracy for him and his team.
+                              </td>
+                              <td>Usable</td>
+                            </tr>
+                            <tr><td class="DG-PSY">Psychic</td>
+                              <td><strong>Phys Amp</strong> skyrockets his already damage due to his strength stat, combine this with Phys Boost for maximum power.
+                                <br>If you do pair him with Zhong Kui, <strong>Auto-Taruka</strong> should be replaced given Zhong Kui already comes with it.
+                              </td>
+                              <td><strong>Best</strong></td>
+                            </tr>
+                            <tr><td class="DG-ELE">Elementalist</td>
+                              <td><strong>Drain Phys</strong> when paired with Rama would prevent pierce phys sweeping (and getting one shotted by another Masakado). 
+                                <br>Given he already counters phys hits with a 100% chance, phys units hitting him isn't so scary. 
+                                <br> Even so this will allow him to heal off repelled damage, so you can intentionally Vorpal Blade into Alilat + Repel Phys unit to heal yourself back up.
+                                <br><strong>Auto-Rakuka</strong> would add to your team's survability. Paired with double intimidation, you should have no issues surviving being outsped.
+                              </td>
+                              <td><strong>Best<br>(Defensive)</strong></td>
+                            </tr>
+                        </tbody>
+                      </table></p>
+                    </div>
+
+                    <p><strong>Recommended skills:</strong></p>
+                    <ul>
+                        <li>Endure/Enduring Soul. If he's alive and kicking, he'd remain a dangerous foe.</li>
+                        <li>Phys Boost/Amp(If not Purple). Increasing his already high damage is always good.</li>
+                        <li>Good/Great Aim. Worried about his accuracy? this can help boost it.</li>
+                        <li>Null Charm/Hellish/Infernal Mask. A charmed Masakado can be deadly to your team.</li>
+                    </ul>
+                    <p><strong>Brands: </strong>Divine to two turn Vorpal Blade, Occult Flash. Life can ensure he stays alive and War if you want pure damage/use him for pve only.
+                      <br>For secondary, Ward should be gotten unless you run ailment resistance. If that's the case Aim can be good for accuracy, Shield/Guard for defenses.
+                    </p>
+                    <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
+                  </div>
+                  
                   <!-- [Lucifer] -->
                   <button id="Lucifer" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Lucifer</button>
                   <div class="DG-Demon"><br>
