@@ -1201,7 +1201,7 @@ const skill_stable = [
         skills:[
             //蓄力
             {"name":"Charge","name_tw":"蓄力","desc":"Self enters a state of Charge. Increases the next Phys attack damage by 125%.","mp":6,"point":8,"element":"Null"},
-            {"name":"Rebellion","name_tw":"反叛","desc":"Self enters a state of Might. The next Phys attack will have a Critical effect.","mp":6,"point":8,"element":"Null"},
+            {"name":"Rebellion","name_tw":"反叛","desc":"Self enters a state of Might. The next Phys attack will have a Critical effect.","mp":4,"point":8,"element":"Null"},
             {"name":"Mega Boost","name_tw":"反叛魔象","desc":"Self enters a state of Charge and Might. Increases the next Phys attack damage by 125% and will have a Critical effect.","mp":6,"point":null,"element":"Null"},
             {"name":"Concentrate","name_tw":"專注","desc":"Self enters a state of Concentrate. Increases the next Mag attack damage by 125%.","mp":6,"point":8,"element":"Null"},
             {"name":"Discord","name_tw":"異調相斥","desc":"Removes Charge, Concentrate and Might from All Enemies.","mp":3,"point":6,"element":"Null"},
