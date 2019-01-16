@@ -824,6 +824,16 @@ const ddd_stable = [
         ]
     },
     {
+        name:'Undead',
+        name_tw:'Undead',
+        name_en:'Undead',
+        formulas:[],
+        devils:[
+            { name:'Man Eater', name_tw:'啃咬魔', name_en:'', rarity:4, grade:60, icon:'ManEater.png', skills:['Sexy Dance','Eat Whole','Sass'], skill4:['','Bleeder','Binding Claw','Insanity','Repel Elec'], skill5:['','Berserker','Deadly Bondage','Retaliate','Resist Light'], elements:['','','','Resist','','Weak','Repel'], type:'Support'},
+            { name:'Bodyconian', name_tw:'啃咬魔', name_en:'', rarity:3, grade:40, icon:'Bodyconian.png', skills:['Madness','Sexy Dance','Nightlife'], skill4:['','Sweet Bite','Taunt','Evade','Resist Light'], skill5:['','Good Aim','Lydia','Wild Guess','Fast Recovery'], elements:['','Weak','','','','Weak','Resist'], type:'Support'}
+        ]
+    },
+    {
         name:'Rumor',
         name_tw:'Rumor',
         name_en:'Rumor',
