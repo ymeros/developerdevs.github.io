@@ -815,6 +815,15 @@ const ddd_stable = [
         ]
     },
     {
+        name:'General',
+        name_tw:'General',
+        name_en:'General',
+        formulas:[],
+        devils:[
+            { name:'Masakado', name_tw:'啃咬魔', name_en:'', rarity:5, grade:98, icon:'Masakado.png', skills:['Vorpal Blade',"Warlord's Wrath",'Occult Flash'], skill4:['','Myriad Arrows','Binge Eating','Phys Amp','Drain Phys'], skill5:['','Auto-Rakunda','Auto-Sukunda','Auto-Taruka','Auto-Rakuka'], elements:['Null','','','','','Resist','Drain'], type:'Attack'}
+        ]
+    },
+    {
         name:'Rumor',
         name_tw:'Rumor',
         name_en:'Rumor',
