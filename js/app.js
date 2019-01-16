@@ -898,6 +898,7 @@ const skill_stable = [
             {"name":"Lunge","name_tw":"突擊","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 115 power on a Single Enemy.","mp":4,"point":2,"element":"Physical"},
             {"name":"Oni-Kagura","name_tw":"鬼神樂","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 130 power on a Single Enemy.","mp":5,"point":5,"element":"Physical"},
             {"name":"Mortal Jihad","name_tw":"絕命鬥爭","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on a Single Enemy.","mp":6,"point":7,"element":"Physical"},
+            {"name":"Occult Flash","name_tw":"絕命鬥爭","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 200 power on a Single Enemy, with 100% chance to inflict Mortal. (Limit 3)","mp":8,"point":null,"element":"Physical"},
 
             {"name":"Heat Wave","name_tw":"灼熱波浪","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 70 power on All Enemies.","mp":5,"point":2,"element":"Physical"},
             {"name":"Megaton Press","name_tw":"百萬噸重壓","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 90 power on All Enemies.","mp":6,"point":4,"element":"Physical"},
@@ -1083,7 +1084,8 @@ const skill_stable = [
             {"name":"Demon Birth Cry","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's ATK 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
             {"name":"Rattle","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's EV/AC 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
             {"name":"Necro Dogma","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases allies DEF 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
-            {"name":"Judgement","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":"12","element":"Almighty"},
+            {"name":"Judgement","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
+            {"name":"Foresight","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's EV/AC 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
             
             {"name":"Mind Break","name_tw":"Mind Break","desc":"Inflicts Almighty (Magic) damage with 80 power on a Single Enemy and reduces MP by 3 MP.","mp":5,"point":6,"element":"Almighty"},
             {"name":"Fire of Sinai","name_tw":"西奈的神火","desc":"Inflicts Almighty (Magic) damage 5 times with 45 power on Random Enemy/ies.","mp":7,"point":null,"element":"Almighty"},
@@ -1231,6 +1233,7 @@ const skill_stable = [
             {"name":"Defensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy ATK and increases own parties DEF by 20%. (3 turns)","mp":7,"point":null,"element":"Null"},
             {"name":"War Dance","name_tw":"塔爾卡加","desc":"Increases own parties ATK and DEF by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
             {"name":"Nocturne","name_tw":"塔爾卡加","desc":"Increases own parties DEF and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
+            {"name":"Blood Rush","name_tw":"塔爾卡加","desc":"Increases own parties ATK and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
             {"name":"War Cry","name_tw":"吶喊","desc":"Reduces ATK and DEF of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
             {"name":"Acid Breath","name_tw":"溶解吐息","desc":"Reduces DEF and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
             {"name":"Fog Breath","name_tw":"迷霧吐息","desc":"Reduces ATK and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
@@ -1265,6 +1268,7 @@ const skill_stable = [
             //貫通
             {"name":"Phys Pierce","name_tw":"Phys Pierce","desc":"Phys attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Superior Power","name_tw":"帝王權威","desc":"+20% to Phys hit rate and adds Phys Pierce.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Warlord's Wrath","name_tw":"帝王權威","desc":"Adds Phys Pierce. Reduces 1 enemy Press Turn Icon at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects. When receiving a Phys Attack, 100% chance to counter dealing Phys damage. Power: 100","mp":null,"point":null,"element":"Passive"},
             {"name":"Fire Pierce","name_tw":"Fire Pierce","desc":"Fire attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Elec Pierce","name_tw":"電擊貫通","desc":"Elec attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Force Pierce","name_tw":"衝擊貫通","desc":"Force attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
@@ -1448,6 +1452,7 @@ const skill_stable = [
             {"name":"Meslamtaea","name_tw":"月之庇佑","desc":"Increases AC by 20%, and enters a state of Rebellion when the enemy is Poisoned.","mp":null,"point":null,"element":"Passive"},
             {"name":"Fruit of the Dead","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, any enemy demon that is revived will only have 1 HP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Fog of Death","name_tw":"月之庇佑","desc":"When an enemy is Weakened, reduces all enemy EV/AC by 20% (3 turns) and 100% chance to inflict Poison.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Sass","name_tw":"月之庇佑","desc":"When an enemy is Charmed, reduces all enemy's DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},           
             {"name":"Call to Helheim","name_tw":"月之庇佑","desc":"When the demon with this skill downs an enemy, reduces all enemy ATK and DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"}
         ]
     },
@@ -1457,6 +1462,7 @@ const skill_stable = [
         name_en:"",
         skills:[
             {"name":"Luck","name_tw":"幸運","desc":"Increases Exp gained by Dx2 and all party members by 20% and Macca obtained during battle by 20%.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Nightlife","name_tw":"幸運","desc":"Increases Macca obtained in battle by 5%.","mp":null,"point":null,"element":"Passive"},     
             {"name":"Dmg Panel V I","name_tw":"幸運","desc":"-25% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":2,"element":"Passive"},
             {"name":"Dmg Panel V II","name_tw":"幸運","desc":"-50% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":4,"element":"Passive"},
             {"name":"Trap Free","name_tw":"陷阱弱化","desc":"-30% to damage received from Damage Panels in the Aura Gate, and nullifies Dark Zone effects.","mp":null,"point":null,"element":"Passive"},
