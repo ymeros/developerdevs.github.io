@@ -9,12 +9,19 @@
   background-color:#EAECF0;
   font-weight: bold;
 }
-.DG-ToC img{
-  height:80px;
-}
 .DG-HomeButton {
   width:40px;
   height:40px;
+}
+.DG-ToC {
+  table-layout: fixed;
+}
+.DG-ToC img{
+  height:80px;
+}
+/*Ignore table labels, only apply to cells themselves*/
+.DG-ToC td:not(.DG-Table-Label) {
+  width: 120px;
 }
 
 /* Archetype Categories */
