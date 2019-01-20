@@ -325,7 +325,7 @@
                 
                 <p><strong>4★ (and below) demons</strong></p>
                 <ul>
-                  <li>Notable demons are now included in the guide. All gacha 4★ and lower demons are covered, whilst with fusable i've selected a few to go through </li>
+                  <li>Notable demons are now included in the guide. All gacha 4★ and lower demons are covered, whilst with fusables i've selected a few to go through </li>
                   <li>I will only discuss the best/usable archetypes for these. Bad archetypes should essentially be considered to be sold for Karma/fused away </li>
                 </ul>
                 
@@ -353,6 +353,10 @@
                 
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates</button>
                 <div class="DG-Demon"><br>
+                  <strong>[20/1]</strong>
+                  <ul>
+                    <li>Added writeups for: Beelzebub, Ganesha, Kinmamon</li>
+                  </ul>
                   <strong>[19/1]</strong>
                   <ul>
                     <li>Redid 5★ Demons in Table of Contents, now separated by Gacha/Fusable </li>
@@ -469,7 +473,7 @@
                       <td><a href="#Zhong Kui" onclick="openCollapsibleViaToC('Zhong Kui')"><img src="images/devil/kisin_syouki.png"><br>Zhong Kui</a></td>
                     </tr>
                     <tr>
-                      <td class="DG-Table-Label" rowspan = "2">Other (WIP)</td>
+                      <td class="DG-Table-Label" rowspan = "2">Other</td>
                       <td><a href="#Baihu" onclick="openCollapsibleViaToC('Baihu')"><img src="images/devil/seijyuu_byako.png"><br>Baihu</a></td>
                       <td><a href="#Hare of Inaba" onclick="openCollapsibleViaToC('Hare of Inaba')"><img src="images/devil/tinjyuu_inabasirousagi.png"><br>Hare of Inaba</a></td>
                       <td><a href="#Kinmamon" onclick="openCollapsibleViaToC('Kinmamon')"><img src="images/devil/hisin_kinmamon.png"><br>Kinmamon</a></td>
@@ -524,7 +528,7 @@
                 </div>
               -->
               
-              <!-- 5★ Demons -->
+              <!-- [5★ Demons] -->
               <b-card>
                 <div><p><strong>5★ Gacha Demons</strong></p>     
                   <!-- [Alice] -->
@@ -2668,7 +2672,7 @@
                 </div>
               </b-card>
               
-              <!-- Notable Demons -->
+              <!-- [Notable Demons] -->
               <b-card>
                 <div><p><strong>3/4★ Gacha Demons</strong></p>
                 <!-- [Chernobog] -->
@@ -3125,39 +3129,35 @@
                 <button id="Beelzebub" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Beelzebub</button>
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Man Eater')">Demon Information</a></strong></p>
-                  <p>
+                  <p> Balanced unit with mid range stats (excluding luck) and excellent resistances (Null light/dark, resist force/elec). Beelzebub is a elec/dark oriented unit 
+                      with Mudodyne, Mazionga and his unique dark skill Gluttony (aoe dark damage, heals himself based on 50% of damage done). If you face off against foes that 
+                      don't ndr dark, he can self sustain and soak up a lot of hits in the process, easily suited for usage in V10 and Light Aether farming.
                   </p>
 
                   <div class="DG-Table">
                     <p><table>
                       <tbody>
                           <tr><td class="DG-CMN">Common</td>
-                            <td><strong></strong></td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Bad</td>
                           </tr>
                           <tr><td class="DG-ARA">Aragami</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
-                            </td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Bad</td>
                           </tr>
                           <tr><td class="DG-PRO">Protector</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
+                            <td>Beelzebub gains a almighty skill, <strong>Sea of Chaos</strong> for coverage. Against dark/elec immune enemies this can prove useful not in its damage but 
+                                the defense reduction added to it, helping support your main units in the damage department.
                             </td>
-                            <td></td>
+                            <td><strong>Best</strong></td>
                           </tr>
                           <tr><td class="DG-PSY">Psychic</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
-                            </td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Bad</td>
                           </tr>
                           <tr><td class="DG-ELE">Elementalist</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
-                            </td>
-                            <td><strong></strong></td>
+                            <td>-</td>
+                            <td>Bad</td>
                           </tr>
                       </tbody>
                     </table></p>
@@ -3165,9 +3165,10 @@
 
                   <p><strong>Recommended skills:</strong></p>
                   <ul>
-                    <li></li>
+                    <li>Dark/Elec Boost. Increase the damage of his main elements.</li>
+                    <li>Elemental spells. More coverage wouldn't hurt.</li>
                   </ul>
-                  <p><strong>Brands: </strong></p>
+                  <p><strong>Brands: </strong>Divine, his skills are really costly and it'll allow you to two turn Gluttony/Sea of Chaos.</p>
                   <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
@@ -3224,39 +3225,36 @@
                 <button id="Ganesha" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Ganesha</button>
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Ganesha')">Demon Information</a></strong></p>
-                  <p>
+                  <p> Bulky slow demon with resist phys, null force but two weaknesses. Though this is detrimental, the reason why he's recommended isn't for pve but instead pvp against intimidating stance teams.
+                      He comes with Berserker God, Rakukaja and his unique passive: Faith in Wealth (Increases his max hp and recovers 1mp to your team whenever you lose a press turn icon). When facing off against IS teams,
+                      you then start off an extra two mp (7mp or 8 if using Divine), quickly sweep the enemy team and hopefully do enough damage to win. Since IS teams mainly revolve around Phys/Fire, you technically don't have to worry about 
+                      covering his glaring weaknesses, it's always nice to do so anyways.
                   </p>
 
                   <div class="DG-Table">
                     <p><table>
                       <tbody>
                           <tr><td class="DG-CMN">Common</td>
-                            <td><strong></strong></td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Bad</td>
                           </tr>
                           <tr><td class="DG-ARA">Aragami</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
-                            </td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Bad</td>
                           </tr>
                           <tr><td class="DG-PRO">Protector</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
-                            </td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Bad</td>
                           </tr>
                           <tr><td class="DG-PSY">Psychic</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
+                            <td>If you want to use him on the phys route <strong>Phys Boost</strong> would increase his damage. Mind you this means you have two weaknesses to deal with.
+                              Given his naturally slow speed however, his accuracy won't be that great so you'd need to invest heavily to get his aim up.
                             </td>
-                            <td></td>
+                            <td>Usable</td>
                           </tr>
                           <tr><td class="DG-ELE">Elementalist</td>
-                            <td><strong></strong>
-                              <br><strong></strong>
-                            </td>
-                            <td><strong></strong></td>
+                            <td><strong>Null Dark</strong> covers his weakness. Now you'd only have to worry about Elec and have a slot for adding whichever you like.</td>
+                            <td><strong>Best</strong></td>
                           </tr>
                       </tbody>
                     </table></p>
@@ -3264,9 +3262,11 @@
 
                   <p><strong>Recommended skills:</strong></p>
                   <ul>
-                    <li></li>
+                    <li>Resist Elec. Optional, covers his weakness.</li>
+                    <li>Samarecarm. Gives a revival source in case things get hairy.</li>
+                    <li>Buff/Debuff. Allows him to provide more support to your team.</li>
                   </ul>
-                  <p><strong>Brands: </strong></p>
+                  <p><strong>Brands: </strong>Life increasing his bulk. Secondary can be anything you like, i haven't really seen ailment demons on IS teams so Ward wouldn't really be neccessary.</p>
                   <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
@@ -3820,7 +3820,7 @@
                 </div>
               </b-card>
               
-              <!-- Other Demons -->
+              <!-- [Other Demons] -->
               <b-card>     
                 <p><strong>Other Demons</strong></p>
                 <!-- [Baihu] -->
@@ -3980,30 +3980,33 @@
                 <button id="Kinmamon" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Kinmamon</button>
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Kinmamon')">Demon Information</a></strong></p>
-                  <p></p>
+                  <p>The best demon for ailment clearing in game. His kit comes with Megido, Barrier and Mutant (passive which grants him immunity to all ailments),
+                     nulls fire, resistance to light/dark and is weak to ice. Naturally he also has high agility and luck which is great as an ailment clearer should always act first before 
+                     the rest of your team. Kinmamon is quite easy to build as he's a 3★ unit, simply feed him all the Isis you find in Aura Gate to get him the skill points he needs.
+                  </p>
 
                   <div class="DG-Table">
                     <p><table>
                       <tbody>
                           <tr><td class="DG-CMN">Common</td>
-                            <td><strong></strong></td>
-                            <td></td>
+                            <td><strong>Megidola</strong> is what you'll be stuck with. It's an upgrade to Megido, so if you do want to aoe use this instead of it.</td>
+                            <td>Usable</td>
                           </tr>
                           <tr><td class="DG-ARA">Aragami</td>
-                            <td><strong></strong></td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Unobtainable</td>
                           </tr>
                           <tr><td class="DG-PRO">Protector</td>
-                            <td><strong></strong></td>
-                            <td></td>
+                            <td>-</td>
+                            <td>Unobtainable</td>
                           </tr>
                           <tr><td class="DG-PSY">Psychic</td>
-                            <td><strong></strong></td>
-                            <td></td>
+                            <td>With his already high innate agility, <strong>Dodge</strong> can help increase his evasion against heavy phys hitters.</td>
+                            <td>Unobtainable</td>
                           </tr>
                           <tr><td class="DG-ELE">Elementalist</td>
-                            <td></td>
-                            <td></td>
+                            <td><strong>Null Dark</strong> gives him immunity to Alice and prevents Dark sweeping on your team</td>
+                            <td>Unobtainable</td>
                           </tr>
                       </tbody>
                     </table></p>
@@ -4011,9 +4014,13 @@
 
                   <p><strong>Recommended skills:</strong></p>
                   <ul>
-                      <li></li>
+                    <li>Mecharmdi/Meparaladi. Clears the main two dangerous ailments that can mess up your team.</li>
+                    <li>Prayer/Silent Prayer. Allows you to cure any afflicted ailments on your team. Silent Prayer is more expensive but has more uses, so be sure to watch your mp.</li>
+                    <li>Resist Ice. Covers his weakness, some people tend not to cover it if they feel that he survive without his weakness being hit.</li>
+                    <li>War Cry/Fog Breath/Acid Breath. Gives him usage for when he's not needed for curing ailments.</li>
+                    <li>Samarecarm. Lends a more supportive role, extra revive source in case things go hairy.</li>
                   </ul>
-                  <p><strong>Brands:</strong></p>
+                  <p><strong>Brands:</strong> Life and Shield/Guard work best to give him bulk. Lead could be used if you pair him with faster demons.</p>
                   <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                 </div>
                 
