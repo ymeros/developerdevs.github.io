@@ -10,6 +10,10 @@ Publish: https://oceanxdds.github.io/dx2_fusion/
 // HTML Functions
 //////////////////////
 
+var devilNameList = [];
+
+var availableDevils = [];
+
 function toggleCollapse(button) {
     var content = button.nextElementSibling;
     var displayText = "";
@@ -22,6 +26,29 @@ function toggleCollapse(button) {
         displayText = "Hide ";
     }
     button.innerHTML = displayText + (button.className == "discountCollapseButton" ? "Discounts" : "Freebies");
+}
+
+function addAvailableDemon(button) {
+    var enteredDevil = document.getElementById("availableDevil");
+    if (devilNameList.indexOf(enteredDevil.value) === -1) {
+        return;
+    }
+    availableDevils.push(enteredDevil.value);
+    availableDevils = availableDevils.filter(function (value, index, self) {
+        return self.indexOf(value) === index;
+    });
+
+    var displayText = "Availabile Devils: ";
+    for (var index = 0; index < availableDevils.length; index++) {
+        displayText += availableDevils[index] + "\t";
+    }
+    document.getElementById("availableDevils").innerHTML = displayText;
+}
+
+function clearAvailableDemons(button) {
+    var devilDisplayList = document.getElementById("availableDemons");
+    availableDevils = [];
+    devilDisplayList.innerText = "";
 }
 
 var fragmentCheckboxes = document.getElementsByClassName("fragment");
@@ -1870,9 +1897,13 @@ function isFreebieDevil(devilName) {
         .concat(Array.from(ch6TalkCheckboxes))
         .concat(Array.from(ch7TalkCheckboxes))
         .concat(Array.from(ch7aTalkCheckboxes))
+        .concat(availableDevils);
 
     for (var listIndex = 0; listIndex < freebieDevils.length; listIndex++) {
         if (freebieDevils[listIndex].value == devilName && freebieDevils[listIndex].checked) {
+            return true;
+        }
+        else if (freebieDevils[listIndex] == devilName) {
             return true;
         }
     }
@@ -2427,8 +2458,8 @@ function Resource(ddd, sss){
     //convert devil's skill from text to object
     ddd.forEach(function(r1){
 
-        r1.devils.forEach(function(devil, index){
-
+        r1.devils.forEach(function (devil, index) {
+            devilNameList.push(devil.name);
             devil.race = r1;
             devil.max = devil.grade;
             devil.min = (index==r1.devils.length-1 ? 0 : r1.devils[index+1].grade);
@@ -2499,7 +2530,14 @@ function Resource(ddd, sss){
             })
         }
     });
-
+    devilNameList.sort(function (a, b) {
+        return a.localeCompare(b);
+    });
+    var devilNameListOptions = '';
+    for (var index = 0; index < devilNameList.length; index++) {
+        devilNameListOptions += '<option value="' + devilNameList[index] + '" />';
+    }
+    document.getElementById("devilNameList").innerHTML = devilNameListOptions;
     devil_array.sort(function(d1,d2){
         if(d1.grade==d2.grad2)  return 0;
         return d1.grade > d2.grade ? 1 : -1;

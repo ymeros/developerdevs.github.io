@@ -260,7 +260,16 @@
                                     <b-list-group-item class="p-2">
                                         <button class="freebiesCollapseButton" onclick="toggleCollapse(this)">Hide Freebies</button>
                                         <div id="freebies" class="row align-items-center">
-                                            <input type="checkbox" onclick="updateAllFreebies(this); updateAllFrebiesCheckboxStatus();" id="allFreebies"><label for="option">All Farmable Demons</label>
+                                            <div class="col-12">
+                                                <datalist id="devilNameList"></datalist>
+                                                Add Available Devil: <input id="availableDevil" type="text" list="devilNameList" /><button onclick="addAvailableDemon(this)">Add</button><button onclick="clearAvailableDemons(this)">Clear</button>
+                                            </div>
+                                            <div class="col-12">
+                                                <div pre id="availableDevils"></div>
+                                            </div>
+                                            <div class="col-12 col-md-auto">
+                                                <input type="checkbox" onclick="updateAllFreebies(this); updateAllFrebiesCheckboxStatus();" id="allFreebies"><label for="option">All Farmable Demons</label>
+                                            </div>
                                             <div class="col-12 col-md-auto">
                                                 <input type="checkbox" onclick="updateFreebieRegion(this); updateAllFrebiesCheckboxStatus();" id="allFragments"><label for="allFragments">Fragment</label>
                                                 <ul>
