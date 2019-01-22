@@ -46,9 +46,8 @@ function addAvailableDemon(button) {
 }
 
 function clearAvailableDemons(button) {
-    var devilDisplayList = document.getElementById("availableDemons");
     availableDevils = [];
-    devilDisplayList.innerText = "";
+    document.getElementById("availableDevils").innerHTML = "";
 }
 
 var fragmentCheckboxes = document.getElementsByClassName("fragment");
