@@ -353,6 +353,11 @@
                 
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates</button>
                 <div class="DG-Demon"><br>
+                  <strong>[24/1]</strong>
+                  <ul>
+                    <li>Added Mini Guides section</li>
+                    <li>Mini Guides: Added Archetype Shifter/Selector</li>
+                  </ul>
                   <strong>[20/1]</strong>
                   <ul>
                     <li>3/4★ Gacha Demons: Man Eater, Bodyconian writeup</li>
@@ -373,6 +378,45 @@
                 </div>
                   
               </b-card>
+              
+              <b-card>
+                <p><strong>Mini Guides</strong></p>
+                <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Archetype Shifter/Selector</button>
+                <div class="DG-Demon"><br>
+                  <p> 
+                    Introduced as another option for spending Karma, Archetype Shifting/Selecting allows you to change the archetype of a demon from one 
+                    color to another (excluding Common archetypes), the result is always a different archetype. <br> Shifters/Selectors can be found in the exchange 
+                    store either via the PvP screen (Exchange) or Pandemonium (Sell Demons -> Exchange) and can also be obtained via events/mission rewards.
+                  <br> When a demon's archetype changes, only their awakened skill is updated (skill 4), skills in slot 5/6 are untouched unless it is their new awakened skill. For example:</p>
+                  <ul>
+                    <li><strong><a href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Yellow Vishnu</a></strong> with Level 2 Megidolaon in slot 5 (nothing in 6) and we
+                        want to change him to Red.</li>
+                    <li><strong>Case 1:</strong> He is Awakened, the result would have <strong>Level 2 Megidolaon</strong> (slot 5 and 6 empty).</li>
+                    <li><strong>Case 2:</strong> He was not Awakened, then the result would have <strong>Level 1 Megidolaon</strong> (slot 5 and 6 empty)</li>
+                  </ul>
+                  <p>So if you want to change archetype and already have a levelled version of the skill on the demon, be sure to Awaken the demon before hand</p>
+                  
+                  <p><strong>Types:</strong></p>
+                  <ul>
+                    <li><strong>Archetype Shift</strong> chooses a random archetype to change into (E.g. If your demon is Red, then it'll become either Teal/Yellow/Purple).</li>
+                    <li><strong>Archetype Select</strong> gives you the option to choose the resultant archetype.</li>
+                  </ul>
+                  
+                  <p><strong>General Usage (Shifters):</strong></p>
+                  <p>If you want to shift a demon, it's recommended to be prepared for when you don't get the desired archetype. 
+                    <br> To give an example: A <strong><a href="javascript:void(0)" @click="show_guide_devil('Ananta')">Red Ananta</a></strong> that we want to try shifting to Purple. 
+                  </p>
+                  <img src="images/theme/ShifterSelectorExample.png">
+                  <p><br>Above are the possible fusion results that Ananta can create, if the resultant archetype is:</p>
+                  <ul>
+                    <li><strong>Purple:</strong> Keep Ananta for usage</li>
+                    <li><strong>Yellow:</strong> Fuse into either Huang Long (Usable), Zaou-Gongen or Garuda</li>
+                    <li><strong>Teal:</strong> Fuse into either Quetzalcoatl, Lilith, Asherah, Huang Long, Barong, Susano-o or Shiva</li>
+                  </ul>
+                  <p>This way you maximise the usage of the shifter so it doesn't go to waste, the case can happen where you shift from one color to the other and then back to the original.</p>
+                </div>
+              </b-card>
+              
               <b-card>
               <!-- Grouped by 10 to make it easier to navigate -->
               <p><strong>Table of Contents</strong></p>
