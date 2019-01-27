@@ -335,12 +335,17 @@
                   <li>If i don't list a secondary brand, go with Ward.</li>
                 </ul>
                 
-                <p><strong>Archetype Rating:</strong></p>
-                  <ul>
-                    <li>Worst = The other archetypes are mostly better than this one</li>
-                    <li>Usable = Could have its uses depending on the sort of build you want to run</li>
-                    <li>Best = Considered the best, most suited to the demon/build people generally go for</li>
-                  </ul>
+                <p><strong>Archetype Rating</strong></p>
+                <ul>
+                  <li><strong>Worst =</strong> The other archetypes are mostly better than this one</li>
+                  <li><strong>Usable =</strong> Could have its uses depending on the sort of build you want to run</li>
+                  <li><strong>Best =</strong> Considered the most optimal, most suited to the demon/build people generally go for</li>
+                </ul>
+                
+                <p><strong>Terminology</strong></p>
+                <ul>
+                  <li><strong>ndr =</strong> Null, Drain, Repel. Immunity to a specific element</li>
+                </ul>
                 <!--
                 <li><strong>Gacha Skill Rating: (WIP)</strong>
                     <ul>
@@ -353,6 +358,11 @@
                 
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates</button>
                 <div class="DG-Demon"><br>
+                  <strong>[27/1]</strong>
+                  <ul>
+                    <li>Introduction: Added Terminology section</li>
+                    <li>Mini Guides: Added Support Demons section</li>
+                  </ul>
                   <strong>[24/1]</strong>
                   <ul>
                     <li>Added Mini Guides section</li>
@@ -381,10 +391,10 @@
               
               <b-card>
                 <p><strong>Mini Guides</strong></p>
+                <!-- [Shifter/Selector] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Archetype Shifter/Selector</button>
                 <div class="DG-Demon"><br>
-                  <p> 
-                    Introduced as another option for spending Karma, Archetype Shifting/Selecting allows you to change the archetype of a demon from one 
+                  <p>Introduced as another option for spending Karma, Archetype Shifting/Selecting allows you to change the archetype of a demon from one 
                     color to another (excluding Common archetypes), the result is always a different archetype. <br> Shifters/Selectors can be found in the exchange 
                     store either via the PvP screen (Exchange) or Pandemonium (Sell Demons -> Exchange) and can also be obtained via events/mission rewards.
                   <br> When a demon's archetype changes, only their awakened skill is updated (skill 4), skills in slot 5/6 are untouched unless it is their new awakened skill. For example:</p>
@@ -414,6 +424,65 @@
                     <li><strong>Teal:</strong> Fuse into either Quetzalcoatl, Lilith, Asherah, Huang Long, Barong, Susano-o or Shiva</li>
                   </ul>
                   <p>This way you maximise the usage of the shifter so it doesn't go to waste, the case can happen where you shift from one color to the other and then back to the original.</p>
+                </div>
+                
+                <!-- [Support Demons] -->
+                <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Support Demons</button>
+                <div class="DG-Demon"><br>
+                  <p>In game you are able to choose a demon to set as support, enabling others to use your demon in Story, Brand and Aether farming. Support demons are controlled by the AI and will 
+                     always act last regardless of their speed in comparison to your own (I believe they also have no effect on battle speed). In the case of running levelling quests (two parties), the support demon 
+                     will appear twice, once for your first team and once for your second (if your first team falls), in both situations the demon starts off at full health/mana and if effective enough could carry your team.
+                     <br> A support demons usage refresh once everyday during the daily reset. It also refreshes for every hour you re-login, so to maximise your demon's usage, re-login every hour and clear those who have been 
+                     inactive on your list.
+                  </p>
+                  <p><strong>Setting your support demon:</strong></p>
+                  <ul>
+                    <li>Open up the Menu at the bottom right and select "Party", going to the party screen</li>
+                    <li>Select "Support Demon" on the bottom left hand corner to change your demon</li>
+                    <li>Whatever demon you see there is the current support demon in use</li>
+                  </ul>
+                  <p><strong>Support demon recommendations:</strong></p>
+                  <p>When it comes to choosing which sort of support demon to assist others, the general recommendation is to set one that is offensive. Depending on the type of demon you choose, 
+                    there are also some caveats in the way you build them that can determine how effective they'll be. Support/Healer demons aren't that desired as the main party should have that avenue covered, more 
+                    damage is always good regardless of the situation.
+                  </p>                  
+                  <div class="DG-Table"><table>
+                    <tr><td class="DG-Table-Label"></td>
+                      <td class="DG-Table-Label">All Types</td>
+                      <td class="DG-Table-Label">Phys Demons</td>
+                      <td class="DG-Table-Label">Mag Demons</td>
+                    </tr>
+                    <tr class="DG-DotPoints"><td class="DG-Table-Label">Required</td>
+                      <td><ul>
+                        <li><strong>Ward brands/High ailment resist/Null Charm:</strong> If a support demon is really powerful and is charmed, they can easily take out your team, leading to losses</li>
+                        <li><strong>Decent survivability:</strong> A demon like Garuda would hit hard, but has one of the lowest hp/vit stats in the game, they'd die too quickly to remain in use.</li>
+                        <li><strong>Covered weaknesses:</strong> You don't want enemies to gain press turns off hitting your demons weakness, so the same would be said to your support demon too.</li>
+                      </ul></td>
+                      <td><ul>
+                        <li><strong>Good hit rate:</strong> If they keep missing (low base agi or no accuracy% bonuses) then they'll cost press turns, even leading to losses (Making people delete you in frustration)</li>
+                      </ul></td>
+                      <td><ul>
+                        <li><strong>Elemental coverage:</strong> The more elements your demon has the more likely they'll hit weaknesses. A demon such as Mastema would be great for hitting light weak foes, 
+                        but against ndr light he can't do much. </li>
+                      </ul></td>
+                    </tr>
+                    <tr class="DG-DotPoints"><td class="DG-Table-Label">Optional</td>
+                      <td><ul>
+                        <li><strong>Multi-Hit skills:</strong> For bosses mainly, it would down them faster as all hits would be directed towards the boss</li>
+                        <li><strong>Pierce:</strong> allows you to ignore pesky ndr, you don't have to worry about losing press turns any longer</li>
+                        <li><strong>Mana Aid:</strong> helps greatly with mana regain, the demon can go all out every wave hitting their hardest</li>
+                      </ul></td>
+                      <td><ul>
+                        <li><strong>Able to handle ndr phys:</strong> Against phys immune demons, phys demons without pierce would be dead weight. On auto they'd pass their turn at least, but on manual play would likely waste turns</li>
+                        <li><strong>Good crit rate:</strong> Crits would mean a half turn icon usage, giving your team more actions per turn</li>
+                      </ul></td>
+                      <td><ul>
+                        <li><strong>Divine brands:</strong> Maximises mp recovery as once the demon is out of mp, they will resort to phys attacks. Given they're not built for phys they can miss and cost your team press turns.</li>
+                        <li><strong>Almighty Skills:</strong> Solves the issue of coverage when the demon faces foes that ndr their element of choice. You don't gain half turn icons, but you don't use turn icons either.</li>
+                      </ul></td>
+                    </tr>
+                  </table></div>
+                  <br>
                 </div>
               </b-card>
               
@@ -582,16 +651,16 @@
                   <div class="DG-Demon"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Alice')">Demon Information</a></strong></p>
                     <p>Dark oriented unit with Mamudoon, Mudodyne and her unique Die for Me! (DfM) (Kills a single enemy,
-                        one use only). Yup, she can kill anyone she points her finger at and so she's really good for shutting down dangerous
-                        opponents and can hit hard provided they don't have dark immunity as that's all her base kit relies on.
+                      one use only). Yup, she can kill anyone she points her finger at and so she's really good for shutting down dangerous
+                      opponents and can hit hard provided they don't have dark immunity as that's all her base kit relies on.
                     </p>
-                        DfM can be countered by:
-                        <ul>
-                          <li>Having a Null/Drain/Repel (ndr) Dark unit, the skill needs to land to activate</li>
-                          <li>Using Tetraja (Patrimpas/Mishaguji), this prevents Mortal (instant kill skills), though DfM will do damage in this case</li>
-                          <li>Using Makarakarn/5 Elements, walling off all of her damage sources. Though you can run Makara Break/Silent Prayer to also remove reflect shields</li>
-                          <li>DfM does not go through endure/enduring soul/avatar. So if a demon is hit by it and has that skill, they'll still survive.</li>
-                        </ul>
+                      DfM can be countered by:
+                      <ul>
+                        <li>Having a ndr Dark unit, the skill needs to land to activate</li>
+                        <li>Using Tetraja (Patrimpas/Mishaguji), this prevents Mortal (instant kill skills), though DfM will do damage in this case</li>
+                        <li>Using Makarakarn/5 Elements, walling off all of her damage sources. Though you can run Makara Break/Silent Prayer to also remove reflect shields</li>
+                        <li>DfM does not go through endure/enduring soul/avatar. So if a demon is hit by it and has that skill, they'll still survive.</li>
+                      </ul>
                     <div class="DG-Table">
                       <p><table>
                         <tbody>
@@ -1064,7 +1133,7 @@
                         <li>Barrier break to remove barriers for ailment inflicting (though another demon can fulfil this role)</li>
                     </ul>
                     <p><strong>Brands: </strong>Divine, Speed, Spell, Lead combinations all work. Don't give her HP/def/mdef and instead focus on stats like Ailment Infliction, 
-                        Ailment Resistance, Speed (If you want to act first), Matk % if you want to use her as dps.
+                        Ailment Resistance, Speed (If you want to act first), Matk % if you want to use her for damage.
                     </p>
                     <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/theme/HomeButton.png"></a></p>
                   </div>
@@ -1209,7 +1278,7 @@
                               <td>Unobtainable</td>
                           </tr>
                           <tr><td class="DG-ARA">Aragami</td>
-                              <td><strong>Mamudoon</strong> is not too good for him since he's not good for Magic DPS (He's Support AI anyways).
+                              <td><strong>Mamudoon</strong> is not too good for him since he's not a spellcaster (He's Support AI anyways).
                                 <br><strong>Auto-Tarunda</strong> is a good skill however, so if you pulled him as Red, i'd recommend switching to another 
                                   archetype, keeping Auto-Tarunda.
                               </td>
@@ -1406,7 +1475,7 @@
                           <tbody>
                             <tr><td class="DG-CMN">Common</td>
                               <td><strong>Vitality Amp III</strong> would increase his tankiness, but that is not his
-                                  main role, he's best as dps.</td>
+                                  main role, he's best for damage.</td>
                               <td>Worst</td>
                             </tr>
                             <tr><td class="DG-ARA">Aragami</td>
@@ -1873,7 +1942,7 @@
                   <div class="DG-Demon"><br>
                     <p><strong><a id="Lakshmi" href="javascript:void(0)" @click="show_guide_devil('Lakshmi')">Demon Information</a></strong></p>
                     <p>Demon with the highest magic stat in the game. She also comes with a unique skill Lotus dance (60% chance to charm all enemies), 
-                       given her high luck stat she's almost guaranteed to inflict charm on the enemy team and so can be built as magic dps or ailment slinger.</p>
+                       given her high luck stat she's almost guaranteed to inflict charm on the enemy team and so can be built as magic damage or ailment slinger.</p>
                     <div class="DG-Table">
                       <p><table>
                         <tbody>
@@ -2335,7 +2404,7 @@
                               <td><strong>Best</strong></td>
                           </tr>
                           <tr><td class="DG-PSY">Psychic</td>
-                              <td><strong>Magic Amp III</strong> increases her base magic for min maxing. She has better archetypes to use, but you can run this if you want a dps oriented Amaterasu.</td>
+                              <td><strong>Magic Amp III</strong> increases her base magic for min maxing. She has better archetypes to use, but you can run this if you want a spell oriented Amaterasu.</td>
                               <td>Usable</td>
                           </tr>
                           <tr><td class="DG-ELE">Elementalist</td>
@@ -2370,7 +2439,7 @@
                         <tbody>
                           <tr><td class="DG-CMN">Common</td>
                               <td><strong>Samarecarm</strong> gives her a revival skill. This is really easy to transfer (through Isis) and even so she's better 
-                                  suited as dps rather than support/healer.
+                                  suited for damage rather than support/healer.
                               </td>
                               <td>Worst</td>
                           </tr>
@@ -2785,7 +2854,7 @@
                 <button id="Hel" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Hel</button>
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Hel')">Demon Information</a></strong></p>
-                  <p>Strong caster designed for aoe dps especially given she has Mabufula, Mamudo and Call to Helhiem her unique passive. Whenever she kills an enemy, 
+                  <p>Strong caster designed for aoe spellcasting especially given she has Mabufula, Mamudo and Call to Helhiem her unique passive. Whenever she kills an enemy, 
                      War Cry is casted on their team (Rakunda, Tarunda) and so this makes her really good for Wanted missions (where most of them are weak to dark/ice), V10 and in 
                      general pve content. Pair her up with Kangaroo Boxer with his passive that increases damage as the more enemies you kill the more damage you'd do, subsequently
                      also debuffing.
@@ -2808,7 +2877,7 @@
                           </tr>
                           <tr><td class="DG-PRO">Protector</td>
                             <td><strong>Rattle</strong> gives her more coverage and support utility. Just wipe out any foe using this and they are debuffed fully with Taru/Raku/Sukunda effects.
-                                <br><strong>Enduring Soul</strong> would give her another life, always good for dps units.
+                                <br><strong>Enduring Soul</strong> would give her another life, always good for damage units.
                             </td>
                             <td><strong>Best<br>(Aoe)</strong></td>
                           </tr>
@@ -2962,7 +3031,7 @@
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Persephone')">Demon Information</a></strong></p>
                   <p> Persephone comes with Bufudyne, Mamudoon and a unique passive Fruit of the Dead. A direct counter to revive teams as units come back with only 1 hp, allowing for easy re-wipes. 
-                      High Agility, Luck and good Hp, Vitality and Magic means she can be built as a ailment clearer or spell dps. Ideally you'd want her to remain alive as long as possible for 
+                      High Agility, Luck and good Hp, Vitality and Magic means she can be built as a ailment clearer or spell caster. Ideally you'd want her to remain alive as long as possible for 
                       her passive to remain in effect.
                   </p>
 
@@ -3007,7 +3076,7 @@
                   <ul>
                     <li>Resist Elec. To cover her weakness</li>
                     <li>Hellish Mask. Goes well with Yellow to reduce likelihoods of her being inflicted by ailments</li>
-                    <li>Ice/Dark Boost. If you want her to be dps, it will increase her kit's damage.</li>
+                    <li>Ice/Dark Boost. If you want her to be a spellcaster, it will increase her kit's damage.</li>
                   </ul>
                   <p><strong>Brands: </strong>Spell if you want damage, Divine for spamming spells more and Life for surivability. 
                     <br> If you go with Yellow + Hellish Mask then you won't really need ward brands. Lead would ensure she acts first if you have a speedier unit, Shield/Guard for more defense.

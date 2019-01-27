@@ -24,6 +24,11 @@
   width: 120px;
 }
 
+/* Prevent centering of text for dot-points */
+.DG-DotPoints td{
+  text-align: left;
+}
+
 /* Archetype Categories */
 .DG-CMN {
   background-color:#6C757D; 
