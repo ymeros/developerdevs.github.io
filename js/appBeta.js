@@ -38,7 +38,7 @@ function addAvailableDemon(button) {
         return self.indexOf(value) === index;
     });
 
-    var displayText = "Availabile Devils: ";
+    var displayText = "Available Devils: ";
     for (var index = 0; index < availableDevils.length; index++) {
         displayText += availableDevils[index] + "\t";
     }
