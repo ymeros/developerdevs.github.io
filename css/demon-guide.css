@@ -24,6 +24,13 @@
   width: 120px;
 }
 
+.DG-Hidden-Table td{
+  border: none;
+  border-spacing:0;
+  text-align: center;
+  padding: 8px;
+}  
+
 /* Prevent centering of text for dot-points */
 .DG-DotPoints td{
   text-align: left;
