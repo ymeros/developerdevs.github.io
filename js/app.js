@@ -834,6 +834,18 @@ const ddd_stable = [
         ]
     },
     {
+        name:'Mitama',
+        name_tw:'Mitama',
+        name_en:'Mitama',
+        formulas:[],
+        devils:[
+            { name:'Saki Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:36, icon:'SakiMitama.png', skills:['Vitality Amp I','Makarakarn','Life Bonus'], skill4:['Luck Amp I','Shock','Rakukaja','Madness','Null Elec'], skill5:['','','','',''], elements:['','','','Resist','','Resist','Resist'], type:'Support'},
+            { name:'Kusi Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:31, icon:'KusiMitama.png', skills:['Agility Amp I','Charge','Concentrate'], skill4:['Vitality Amp I','Wind Breath','Sukukaja','Dodge','Null Force'], skill5:['','','','',''], elements:['','','','','Resist','Resist','Resist'], type:'Support'},
+            { name:'Nigi Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:26, icon:'NigiMitama.png', skills:['Magic Amp I','Media','Recarm'], skill4:['Luck Amp I','Ice Breath','Diara','Fast Recovery','Null Ice'], skill5:['','','','',''], elements:['','','Resist','','','Resist','Resist'], type:'Support'},
+            { name:'Ara Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:21, icon:'AraMitama.png', skills:['Strength Amp I','Charge','Lunge'], skill4:['Agility Amp I','Fire Breath','Tarukaja','Good Aim','Null Fire'], skill5:['','','','',''], elements:['','Resist','','','','Resist','Resist'], type:'Support'}
+        ]
+    },
+    {
         name:'Rumor',
         name_tw:'Rumor',
         name_en:'Rumor',
