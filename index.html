@@ -321,7 +321,7 @@
                   <li>There may be people who have better opinions than mine as I don't have that many 5★ demons.</li>
                   <li>For Gacha demons, i'll go over their gacha skills as the only way to obtain them is via pulling</li>
                   <li>Standard 5★s are analyzed on the basis of the archetype skill only, for when you want to fuse them/switch archetype</li>
-                  <li>Stats of demons can be found on the Wiki's <strong><a href="https://dx2wiki.com/index.php/Demon_List" target="_blank">Demon Compendium</a></strong> page. 
+                  <li>Stats of demons and Skill levels can be found on the Wiki's <strong><a href="https://dx2wiki.com/index.php/Demon_List" target="_blank">Demon Compendium</a></strong> page. 
                       If you can't find a specific demon, search up it's name in searchbar.
                   </li>
                   <li>There is also a <strong><a href="https://docs.google.com/spreadsheets/d/1HIRnmiMTBQe-5IlMauIYfB4AnnNrXf5mKkXEI148CHc/edit#gid=0" target="_blank">Tier List</a></strong> made by one of our mods. Their 
@@ -364,6 +364,11 @@
                 
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates</button>
                 <div class="DG-Demon"><br>
+                  <strong>[3/2]</strong>
+                  <ul>
+                    <li>Introduction: Added mention of skill levels being found on wiki</li>
+                    <li>Mini Guides: Added FAQ section</li>
+                  </ul>
                   <strong>[31/1]</strong>
                   <ul>
                     <li>Demon Updates: Loki (Fixed Yellow Archetype)</li>
@@ -408,6 +413,38 @@
               
               <b-card>
                 <p><strong>Mini Guides</strong></p>
+                <!-- [FAQ/Information] -->
+                <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">FAQ</button>
+                <div class="DG-Demon"><br>
+                  <p>This Mini Guide serves as both to answer frequently asked questions and give some useful information for newer players</p>
+                  
+                  <p><strong>Skills:</strong></p>
+                  <ul>
+                    <li><strong>Makara Break:</strong> Removes both Makarakarn and 5 Elements</li>
+                    <li><strong>Silent Prayer:</strong> Removes Tetrakarn, Makarakarn, 5 Elements, Lydia, Charge, Concentrate, Ailments, Might(Rebellion) effects for all demons</li>
+                    <li><strong>Lydia:</strong> Is not affected by Healing Amount% or Mag% boosts from brands. It heals 15% per demon's turn, activating 3 times.</li>
+                    <li><strong>Ce Acatls' Return:</strong> Has the same AI behaviour as Samarecarm, <strong><a href="javascript:void(0)" @click="show_guide_devil('Quetzalcoatl')">Quetzalcoatl</a></strong> will use this even when there is only one demon defeated</li>
+                  </ul>
+                  
+                  <p><strong>General:</strong></p>
+                  <ul>
+                    <li>Healing skills are affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
+                  </ul>
+                  
+                  <p><strong>Counter Passives:</strong></p>
+                  <ul>
+                    <li>Regardless of whether the demon hit has n/d/r phys or the attack missed, if they're targeted by a phys attack counter will activate</li>
+                    <li>Activated on hits, if a demon with counter is hit twice, the passive is procced twice</li>
+                    <li>If a demon has multiple counter passives, only one will activate per hit. 
+                      <br> E.g. <strong><a href="javascript:void(0)" @click="show_guide_devil('Ose')">Common Ose</a></strong> with counter, either counter/retaliate will activate or neither of them(never both)</li>
+                    <li>Don't crit, miss or generate press turns</li>
+                    <li>Not affected by Charge/Rebellion</li>
+                    <li>Are affected by the opponents resistances, target will take no damage if they null/repel phys and will be healed if they drain phys. If they repel phys it has no effect on the countering demon</li>
+                    <li>Pierce affects counters, given the previous point counters will ignore the opponent's resistances (unless they're paired with Alilat/Rama)</li>
+                    <li><strong><a href="https://old.reddit.com/r/Dx2SMTLiberation/comments/9ok8t3/useless_psa_how_counters_work/" target="_blank">Source</a></strong> (Thanks to eli1323 on Reddit)</li>
+                  </ul>
+                </div>
+                
                 <!-- [Shifter/Selector] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Archetype Shifter/Selector</button>
                 <div class="DG-Demon"><br>
@@ -2723,7 +2760,7 @@
                     <p><strong><a id="Quetzalcoatl" href="javascript:void(0)" @click="show_guide_devil('Quetzalcoatl')">Demon Information</a></strong></p>
                     <p>Demon that can be built to be tanky due to his resistances (He resists all except for
                         ice and elec and is weak to dark, Teal gives him Repel Phys). His base kit consists of
-                        Maragidyne, Mazandyne and Ce Actis' Return (unique skill). It acts in the same manner as
+                        Maragidyne, Mazandyne and Ce Actls' Return (unique skill). It acts in the same manner as
                         Recarmdra except its user doesn't die. This is coded to behave like Samarecarm so Quetz
                         will try to cast it as soon as he sees at least one ally dead (so you can take advantage of the
                         AI in that regard). Mainly used for pvp and when paired with Alilat (when Teal) he can
@@ -2763,10 +2800,10 @@
                         <li>Samarecarm. Gives you another resurrection shot.</li>
                         <li>Endure. Gives him more survival as if your team is swept, he can survive and bring everyone else back.</li>
                         <li>Mind Break. He'd annoy people by draining their mp though i'm not sure whether he'd even
-                            try to save up for Ce Actis' for this case.</li>
+                            try to save up for Ce Actls' for this case.</li>
                     </ul>
                     <p><strong>Brands: </strong>Life, He needs to be tanky and ideally the last demon to fall, so that he'd bring back everyone else. 
-                      Divine can work too to ensure two turn Ce Actis' casts.
+                      Divine can work too to ensure two turn Ce Actls' casts.
                     </p>
                     <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/guides/HomeButton.png"></a></p>
                   </div>
