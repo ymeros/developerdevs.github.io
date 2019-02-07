@@ -1416,8 +1416,8 @@ const skill_stable = [
         name_en:"",
         skills:[
             {"name":"Assassin","name_tw":"Assassin","desc":"+10% to single-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% to multiple-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Butcher","name_tw":"Butcher","desc":"+20% to multiple-target attack skill damage.","mp":null,"point":"24","element":"Passive"},
+            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% damage to skills that target all or random enemies.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Butcher","name_tw":"Butcher","desc":"+20% damage to skills that target all or random enemies.","mp":null,"point":"24","element":"Passive"},
             
             {"name":"Deadly Poison","name_tw":"毒追擊","desc":"+30% damage to Poisoned enemies.","mp":null,"point":13,"element":"Passive"},
             {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
@@ -1434,8 +1434,8 @@ const skill_stable = [
             {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
             {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
             {"name":"Arcane Ritual","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members receive the following effect: 20% increase in status ailment auto cure rate.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Hell's Gate","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 3% less multiple-target attack damage. (Max reduction: 30%)","mp":null,"point":null,"element":"Passive"},
-            {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 10% (up to 50%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
+            {"name":"Hell's Gate","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 5% less multiple-target attack damage that target all or random allies. (Max reduction: 50%)","mp":null,"point":null,"element":"Passive"},
+            {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 20% (up to 60%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
@@ -1478,7 +1478,7 @@ const skill_stable = [
             {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
             {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
             {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, -15% damage received from multiple-target attack skill damage for All Party Members.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"	While the demon with this skill is alive, all party members will receive the following effect: Reduces damage received by 15% from skills that target all or random allies.","mp":null,"point":null,"element":"Passive"},
             {"name":"Youre Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
             {"name":"Meslamtaea","name_tw":"月之庇佑","desc":"Increases AC by 20%, and enters a state of Rebellion when the enemy is Poisoned.","mp":null,"point":null,"element":"Passive"},
             {"name":"Fruit of the Dead","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, any enemy demon that is revived will only have 1 HP.","mp":null,"point":null,"element":"Passive"},
