@@ -830,7 +830,7 @@ const ddd_stable = [
         formulas:[],
         devils:[
             { name:'Man Eater', name_tw:'啃咬魔', name_en:'', rarity:4, grade:60, icon:'ManEater.png', skills:['Sexy Dance','Eat Whole','Sass'], skill4:['','Bleeder','Binding Claw','Insanity','Repel Elec'], skill5:['','Berserker','Deadly Bondage','Retaliate','Resist Light'], elements:['','','','Resist','','Weak','Repel'], type:'Support'},
-            { name:'Bodyconian', name_tw:'啃咬魔', name_en:'', rarity:3, grade:40, icon:'Bodyconian.png', skills:['Madness','Sexy Dance','Nightlife'], skill4:['','Sweet Bite','Taunt','Evade','Resist Light'], skill5:['','Good Aim','Lydia','Wild Guess','Fast Recovery'], elements:['','Weak','','','','Weak','Resist'], type:'Support'}
+            { name:'Bodyconian', name_tw:'啃咬魔', name_en:'', rarity:3, grade:40, icon:'Bodyconian.png', skills:['Madness','Sexy Dance','Nightlife'], skill4:['Luck Amp II','Sweet Bite','Taunt','Evade','Resist Light'], skill5:['','Good Aim','Lydia','Wild Guess','Fast Recovery'], elements:['','Weak','','','','Weak','Resist'], type:'Support'}
         ]
     },
     {
@@ -851,8 +851,8 @@ const ddd_stable = [
         name_en:'Rumor',
         formulas:[],
         devils:[
-            { name:'Reiko Kashima', name_tw:'啃咬魔', name_en:'', rarity:3, grade:42, icon:'Reiko.png', skills:['Mudo','Lunge','Youre Next'], skill4:['Null Curse','','','',''], skill5:['','','','',''], elements:['','Weak','','','','Weak','Drain'], type:'Attack'},
-            { name:'Kamiotoko', name_tw:'啃咬魔', name_en:'', rarity:2, grade:25, icon:'kaii_kamiotoko.png', skills:['Mudoon','Insanity','Paralyzing Bite'], skill4:['War Cry','','','',''], skill5:['','','','',''], elements:['','','','','','Weak','Repel'], type:'Support'}
+            { name:'Reiko Kashima', name_tw:'啃咬魔', name_en:'', rarity:3, grade:42, icon:'Reiko.png', skills:['Mudo','Lunge','Youre Next'], skill4:['Null Curse','','','',''], skill5:['','','','',''], elements:['','Weak','','','','Weak','Drain'], type:'Attack \u00A0\u00A0 Multi-Fusion: Herald Lailah + Enigma Kanbari + Kishin Take-Minakata'},
+            { name:'Kamiotoko', name_tw:'啃咬魔', name_en:'', rarity:2, grade:25, icon:'kaii_kamiotoko.png', skills:['Mudoon','Insanity','Paralyzing Bite'], skill4:['War Cry','','','',''], skill5:['','','','',''], elements:['','','','','','Weak','Repel'], type:'Support \u00A0\u00A0 Multi-Fusion: Foul Phantom + Haunt Obariyon + Haunt Mou-Ryo'}
         ]
     },
     {
@@ -861,8 +861,8 @@ const ddd_stable = [
         name_en:'UMA',
         formulas:[],
         devils:[
-            { name:'Hare of Inaba', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'tinjyuu_inabasirousagi.png', skills:['Dekaja','Media','Trap Free'], skill4:['Recarm','','','',''], skill5:['','','','',''], elements:['','Weak','','','','',''], type:'Recovery'},
-            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'tinjyuu_typakabura.png', skills:['Mazan','Stealth','Trap Free'], skill4:['Auto-Sukuka','','','',''], skill5:['','','','',''], elements:['','','','Weak','','',''], type:'Attack'}
+            { name:'Hare of Inaba', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'tinjyuu_inabasirousagi.png', skills:['Dekaja','Media','Trap Free'], skill4:['Recarm','','','',''], skill5:['','','','',''], elements:['','Weak','','','','',''], type:'Recovery \u00A0\u00A0 Multi-Fusion: Beast Nekomata + Night Fomorian + Avatar Makami'},
+            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'tinjyuu_typakabura.png', skills:['Mazan','Stealth','Trap Free'], skill4:['Auto-Sukuka','','','',''], skill5:['','','','',''], elements:['','','','Weak','','',''], type:'Attack \u00A0\u00A0 Multi-Fusion: Foul Slime + Fallen Melchom + Wilder Chagrin'}
         ]
     },
     {
@@ -871,9 +871,9 @@ const ddd_stable = [
         name_en:'Enigma',
         formulas:[],
         devils:[
-            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['Speedster','Dekunda',"Divine Bows' Allure"], skill4:['Vorpal Blade','','','',''], skill5:['','','','',''], elements:['Resist','Weak','','','','Resist',''], type:'Support'},
-            { name:'Kinmamon', name_tw:'君真物', name_en:'',rarity:3, grade:55, icon:'hisin_kinmamon.png', skills:['Megido','Barrier','Mutant'], skill4:['Megidola','','','',''], skill5:['','','','',''], elements:['','Null','Weak','','','Resist','Resist'], type:'Support'},
-            { name:'Kanbari', name_tw:'加牟波理', name_en:'',rarity:2, grade:30, icon:'hisin_kanbari.png', skills:['Rampage','Hamaon','Luck'], skill4:['Megaton Press','','','',''], skill5:['','','','',''], elements:['Weak','','','','','Resist','Weak'], type:'Attack'}
+            { name:'Kama', name_tw:'伽摩', name_en:'',rarity:4, grade:75, icon:'hisin_kama.png', skills:['Speedster','Dekunda',"Divine Bows' Allure"], skill4:['Vorpal Blade','','','',''], skill5:['','','','',''], elements:['Resist','Weak','','','','Resist',''], type:'Support \u00A0\u00A0 Multi-Fusion: Femme Yaksini + Deity Mitra + Femme Dakini + Femme Rangda'},
+            { name:'Kinmamon', name_tw:'君真物', name_en:'',rarity:3, grade:55, icon:'hisin_kinmamon.png', skills:['Megido','Barrier','Mutant'], skill4:['Megidola','','','',''], skill5:['','','','',''], elements:['','Null','Weak','','','Resist','Resist'], type:'Support \u00A0\u00A0 Multi-Fusion: Holy Heqet + Haunt Legion + Wilder Mothman + Vile Arahabaki'},
+            { name:'Kanbari', name_tw:'加牟波理', name_en:'',rarity:2, grade:30, icon:'hisin_kanbari.png', skills:['Rampage','Hamaon','Luck'], skill4:['Megaton Press','','','',''], skill5:['','','','',''], elements:['Weak','','','','','Resist','Weak'], type:'Attack \u00A0\u00A0 Multi-Fusion: Yoma Koppa Tengu + Genma Kurama Tengu + Beast Inugami + Femme Shikome'}
         ]
     },
     {
@@ -882,8 +882,8 @@ const ddd_stable = [
         name_en:'Zealot',
         formulas:[],
         devils:[
-            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['Enduring Soul','Recarmdra','Mist Slashes'], skill4:['Life Aid','','','',''], skill5:['','','','',''], elements:['Resist','','','','','',''], type:'Attack'},
-            { name:'Dionysus', name_tw:'阿提斯', name_en:'',rarity:4, grade:64, icon:'Dionysus.png', skills:['Back Attack','Infernal Mask','Euphoric Frenzy'], skill4:['Luck Amp II','','','',''], skill5:['','','','',''], elements:['','Null','Weak','Null','','',''], type:'Support'}
+            { name:'Attis', name_tw:'阿提斯', name_en:'',rarity:4, grade:65, icon:'kyousin_ateisu.png', skills:['Enduring Soul','Recarmdra','Mist Slashes'], skill4:['Life Aid','','','',''], skill5:['','','','',''], elements:['Resist','','','','','',''], type:'Attack \u00A0\u00A0 Multi-Fusion: Megami Arianrhod + Vile Baphomet + Lady Isis + Brute Berserker'},
+            { name:'Dionysus', name_tw:'阿提斯', name_en:'',rarity:4, grade:64, icon:'Dionysus.png', skills:['Back Attack','Infernal Mask','Euphoric Frenzy'], skill4:['Luck Amp II','','','',''], skill5:['','','','',''], elements:['','Null','Weak','Null','','',''], type:'Support \u00A0\u00A0 Multi-Fusion: Megami Pallas Athena + Fury Ares + Avatar Chimera'}
         ]
     },
     {
@@ -892,7 +892,7 @@ const ddd_stable = [
         name_en:'Entity',
         formulas:[],
         devils:[
-            { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support'}
+            { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support \u00A0\u00A0 Multi-Fusion: Lady Pele + Herald Sandalphon + Lady Kushinada + Herald Azrael'}
         ]
     },
     {
