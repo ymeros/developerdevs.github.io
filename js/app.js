@@ -1089,7 +1089,7 @@ const skill_stable = [
             {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Dark"},
             {"name":"Purgatory","name_tw":"Purgatory","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Dark"},
             
-            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":9,"element":"Dark"},
+            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":null,"element":"Dark"},
             {"name":"Gluttony","name_tw":"暴食重罪","desc":"Inflicts Dark (Magic) damage with 130 power on All Enemies, while healing caster 50% of damage dealt.","mp":7,"point":null,"element":"Dark"},
             {"name":"Go to Hell!","name_tw":"可以為我而死嗎？","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies with a 80% chance to inflict Curse. The damage is done with Dark Pierce.","mp":7,"point":null,"element":"Dark"},
             {"name":"Die for Me!","name_tw":"可以為我而死嗎？","desc":"Kills a Single Enemy. 1 Use.","mp":7,"point":null,"element":"Dark"}
@@ -1103,7 +1103,7 @@ const skill_stable = [
             {"name":"Life Drain","name_tw":"Life Drain","desc":"Inflicts Almighty (Magic) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":3,"element":"Almighty"},
             {"name":"Deathtouch","name_tw":"死亡之觸","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":6,"element":"Almighty"},
             {"name":"Spirit Drain","name_tw":"Spirit Drain","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 1MP.","mp":6,"point":3,"element":"Almighty"},
-            {"name":"Mind Blast","name_tw":"Mind Blast","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 4MP.","mp":7,"point":null,"element":"Almighty"},
+            {"name":"Mind Blast","name_tw":"Mind Blast","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 4MP.","mp":7,"point":8,"element":"Almighty"},
             {"name":"Energy Drain","name_tw":"能量抽取","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy, while healing caster 25% of damage dealt and drains 1MP.","mp":7,"point":6,"element":"Almighty"},
             {"name":"Soul Drain","name_tw":"靈魂抽取","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt and drains 1MP.","mp":8,"point":7,"element":"Almighty"},
             
@@ -1111,12 +1111,12 @@ const skill_stable = [
             {"name":"Megidola","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies.","mp":7,"point":8,"element":"Almighty"},
             {"name":"Megidolaon","name_tw":"米吉朵拉翁","desc":"Inflicts Almighty (Magic) damage with 120 power on All Enemies.","mp":8,"point":"12","element":"Almighty"},
             
-            {"name":"Sea of Chaos","name_tw":"混沌之海","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
-            {"name":"Demon Birth Cry","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's ATK 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
-            {"name":"Rattle","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's EV/AC 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
-            {"name":"Necro Dogma","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases allies DEF 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
-            {"name":"Judgement","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
-            {"name":"Foresight","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's EV/AC 20% for 3 turns.","mp":9,"point":null,"element":"Almighty"},
+            {"name":"Sea of Chaos","name_tw":"混沌之海","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+            {"name":"Demon Birth Cry","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's ATK 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+            {"name":"Rattle","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's EV/AC 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+            {"name":"Necro Dogma","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases allies DEF 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+            {"name":"Judgement","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+            {"name":"Foresight","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's EV/AC 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
             
             {"name":"Mind Break","name_tw":"Mind Break","desc":"Inflicts Almighty (Magic) damage with 80 power on a Single Enemy and reduces MP by 3 MP.","mp":5,"point":6,"element":"Almighty"},
             {"name":"Fire of Sinai","name_tw":"西奈的神火","desc":"Inflicts Almighty (Magic) damage 5 times with 45 power on Random Enemy/ies.","mp":7,"point":null,"element":"Almighty"},
@@ -1189,21 +1189,21 @@ const skill_stable = [
         skills:[
             //毒
             {"name":"Poisma","name_tw":"波伊佐瑪","desc":"40% chance to inflict Poison on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Poismaon","name_tw":"波伊佐瑪翁","desc":"50% chance to inflict Poison on a Single Enemy.","mp":6,"point":null,"element":"Null"},
-            {"name":"Mahapoisma","name_tw":"瑪哈波伊佐瑪","desc":"30% chance to inflict Poison on All Enemies.","mp":6,"point":null,"element":"Null"},
-            {"name":"Mahapoismaon","name_tw":"瑪哈波伊佐瑪翁","desc":"40% chance to inflict Poison on All Enemies.","mp":7,"point":null,"element":"Null"},
+            {"name":"Poismaon","name_tw":"波伊佐瑪翁","desc":"50% chance to inflict Poison on a Single Enemy.","mp":6,"point":8,"element":"Null"},
+            {"name":"Mahapoisma","name_tw":"瑪哈波伊佐瑪","desc":"30% chance to inflict Poison on All Enemies.","mp":6,"point":5,"element":"Null"},
+            {"name":"Mahapoismaon","name_tw":"瑪哈波伊佐瑪翁","desc":"40% chance to inflict Poison on All Enemies.","mp":7,"point":9,"element":"Null"},
             {"name":"Poison Breath","name_tw":"猛毒吐息","desc":"30% chance to inflict Poison 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
             //縛
             {"name":"Shibaboo","name_tw":"希巴縛","desc":"40% chance to inflict Bind on a Single Enemy.","mp":5,"point":2,"element":"Null"},
             {"name":"Shibaboon","name_tw":"希巴縛翁","desc":"50% chance to inflict Bind on a Single Enemy.","mp":6,"point":8,"element":"Null"},
             {"name":"Mahashibaboo","name_tw":"瑪哈希巴縛","desc":"30% chance to inflict Bind on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahashibaboon","name_tw":"瑪哈希巴縛翁","desc":"40% chance to inflict Bind on All Enemies.","mp":7,"point":null,"element":"Null"},
-            {"name":"Binding Cry","name_tw":"束縛咆嘯","desc":"30% chance to inflict Bind 2 to 4 times on Random Enemy/ies.","mp":6,"point":null,"element":"Null"},
+            {"name":"Mahashibaboon","name_tw":"瑪哈希巴縛翁","desc":"40% chance to inflict Bind on All Enemies.","mp":7,"point":9,"element":"Null"},
+            {"name":"Binding Cry","name_tw":"束縛咆嘯","desc":"30% chance to inflict Bind 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
             //魅
             {"name":"Marin Karin","name_tw":"瑪琳卡琳","desc":"40% chance to inflict Charm on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Marin Karion","name_tw":"瑪琳卡琳翁","desc":"50% chance to inflict Charm on a Single Enemy.","mp":6,"point":null,"element":"Null"},
+            {"name":"Marin Karion","name_tw":"瑪琳卡琳翁","desc":"50% chance to inflict Charm on a Single Enemy.","mp":6,"point":8,"element":"Null"},
             {"name":"Mahamarin Karin","name_tw":"瑪哈瑪琳卡琳","desc":"30% chance to inflict Charm on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahamarin Karion","name_tw":"瑪哈瑪琳卡琳翁","desc":"40% chance to inflict Charm on All Enemies.","mp":7,"point":null,"element":"Null"},
+            {"name":"Mahamarin Karion","name_tw":"瑪哈瑪琳卡琳翁","desc":"40% chance to inflict Charm on All Enemies.","mp":7,"point":9,"element":"Null"},
             {"name":"Sexy Dance","name_tw":"色誘之舞","desc":"30% chance to inflict Charm 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
             {"name":"Lotus Dance","name_tw":"蓮華之舞","desc":"60% chance to inflict Charm on All Enemies.","mp":6,"point":null,"element":"Null"},
             //封
@@ -1242,11 +1242,11 @@ const skill_stable = [
             //反射
             {"name":"Tetrakarn","name_tw":"提特拉康","desc":"All Party Members repels Physical damage for 1 turn.","mp":7,"point":8,"element":"Null"},
             {"name":"Makarakarn","name_tw":"瑪卡拉康","desc":"All Party Members repels Magic damage for 1 turn.","mp":7,"point":8,"element":"Null"},
-            {"name":"Five Elements ","name_tw":"Five Elements ","desc":"All Party Members repels Magic (including Almighty) damage for 1 turn.","mp":null,"point":null,"element":"Null"},
+            {"name":"Five Elements ","name_tw":"Five Elements ","desc":"All Party Members repels Magic (including Almighty) damage for 1 turn.","mp":6,"point":null,"element":"Null"},
             {"name":"Tetra Break","name_tw":"提特拉破壞","desc":"Removes Repel Phys from All Enemies.","mp":3,"point":6,"element":"Null"},
             {"name":"Makara Break","name_tw":"瑪卡拉破壞","desc":"Removes Repel Mag from All Enemies.","mp":3,"point":6,"element":"Null"},
             //防即死
-            {"name":"Tetraja","name_tw":"","desc":"All Party Members will evade Instant Kill for 1 turn","mp":null,"point":null,"element":"Null"},
+            {"name":"Tetraja","name_tw":"","desc":"All Party Members will evade Instant Kill for 1 turn","mp":4,"point":null,"element":"Null"},
             //強弱化
             {"name":"Tarukaja","name_tw":"塔爾卡加","desc":"Increases ATK of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
             {"name":"Rakukaja","name_tw":"拉庫卡加","desc":"Increases DEF of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
@@ -1260,8 +1260,9 @@ const skill_stable = [
             {"name":"Barong Dance","name_tw":"巴隆之舞","desc":"Heals All Party Members with 95 power and increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns. (3 uses)","mp":7,"point":null,"element":"Null"},
             {"name":"Tenson Kourin","name_tw":"Tenson Kourin","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 6 turns. (3 uses)","mp":8,"point":null,"element":"Null"},
             {"name":"Luster Candy","name_tw":"","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns.","mp":7,"point":15,"element":"Null"},
-            {"name":"Offensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy DEF and increases own parties ATK by 20%. (3 turns)","mp":7,"point":null,"element":"Null"},
-            {"name":"Defensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy ATK and increases own parties DEF by 20%. (3 turns)","mp":7,"point":null,"element":"Null"},
+            {"name":"Agile Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy EV/AC and increases own parties EV/AC by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
+            {"name":"Offensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy DEF and increases own parties ATK by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
+            {"name":"Defensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy ATK and increases own parties DEF by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
             {"name":"War Dance","name_tw":"塔爾卡加","desc":"Increases own parties ATK and DEF by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
             {"name":"Nocturne","name_tw":"塔爾卡加","desc":"Increases own parties DEF and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
             {"name":"Blood Rush","name_tw":"塔爾卡加","desc":"Increases own parties ATK and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
@@ -1362,7 +1363,7 @@ const skill_stable = [
             {"name":"Speedster","name_tw":"急速之星","desc":"+50% to Battle Speed of this demon.","mp":null,"point":"10","element":"Passive"},
             //命中
             {"name":"Good Aim","name_tw":"百發百中","desc":"+10% to Phys hit rate.","mp":null,"point":4,"element":"Passive"},
-            {"name":"Great Aim","name_tw":"千發千中","desc":"+20% to Phys hit rate.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Great Aim","name_tw":"千發千中","desc":"+20% to Phys hit rate.","mp":null,"point":16,"element":"Passive"},
             {"name":"Rasetsu","name_tw":"千發千中","desc":"+10% to Phys hit rate and casts Rebellion on self at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
             {"name":"Dragon Sense","name_tw":"","desc":"+15% to Phys hit rate and +15% Phys evasion rate.","mp":null,"point":null,"element":"Passive"},
             //迴避
@@ -1372,27 +1373,27 @@ const skill_stable = [
             {"name":"Stealth","name_tw":"隱密","desc":"HP will stop at 1 upon receiving the first killing blow, and increases Phys evasion rate by +20%.","mp":null,"point":null,"element":"Passive"},
             //異命
             {"name":"Madness","name_tw":"凌亂綻放","desc":"+10% chance to inflict status ailments.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Insanity","name_tw":"狂亂綻放","desc":"+20% chance to inflict status ailments.","mp":null,"point":"24","element":"Passive"},
+            {"name":"Insanity","name_tw":"狂亂綻放","desc":"+20% chance to inflict status ailments.","mp":null,"point":24,"element":"Passive"},
             //狀防
             {"name":"Hellish Mask","name_tw":"地域口罩","desc":"-35% chance of receiving status ailments.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"-60% chance of receiving status ailments.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"-60% chance of receiving status ailments.","mp":null,"point":16,"element":"Passive"},
             {"name":"Mutant","name_tw":"稀人","desc":"Becomes immune to all status ailments.","mp":null,"point":null,"element":"Passive"},
             //狀回
             {"name":"Fast Recovery","name_tw":"自然痊癒","desc":"+20% to status ailment auto cure rate.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"+30% to status ailment auto cure rate.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"+30% to status ailment auto cure rate.","mp":null,"point":16,"element":"Passive"},
             //會增
             {"name":"Bloody Glee","name_tw":"殺戮的愉悅","desc":"+15% to Critical hit rate.","mp":null,"point":8,"element":"Passive"},
             {"name":"Savage Glee","name_tw":"趕盡殺絕的愉悅","desc":"+25% to Critical hit rate.","mp":null,"point":"14","element":"Passive"},
             //會減
             {"name":"Wild Guess","name_tw":"野生直覺","desc":"-15% to Critical hit rate of damage received.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Wild Instinct","name_tw":"野獸直覺","desc":"-25% to Critical hit rate of damage received.","mp":null,"point":"14","element":"Passive"},
+            {"name":"Wild Instinct","name_tw":"野獸直覺","desc":"-25% to Critical hit rate of damage received.","mp":null,"point":14,"element":"Passive"},
             //
             {"name":"Life Bonus","name_tw":"一分之活泉","desc":"+10% to Max HP.","mp":null,"point":3,"element":"Passive"},
             {"name":"Life Gain","name_tw":"二分之活泉","desc":"+20% to Max HP.","mp":null,"point":7,"element":"Passive"},
-            {"name":"Life Surge","name_tw":"三分之活泉","desc":"+30% to Max HP.","mp":null,"point":"15","element":"Passive"},
+            {"name":"Life Surge","name_tw":"三分之活泉","desc":"+30% to Max HP.","mp":null,"point":15,"element":"Passive"},
             {"name":"Mana Bonus","name_tw":"一分之魔脈","desc":"+1 to max MP.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"+2 to max MP.","mp":null,"point":"15","element":"Passive"},
-            {"name":"Mana Surge","name_tw":"二分之魔脈","desc":"+3 to max MP.","mp":null,"point":"21","element":"Passive"},
+            {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"+2 to max MP.","mp":null,"point":15,"element":"Passive"},
+            {"name":"Mana Surge","name_tw":"二分之魔脈","desc":"+3 to max MP.","mp":null,"point":21,"element":"Passive"},
             {"name":"Strength Amp I","name_tw":"初段之剛力","desc":"+5 to Strength.","mp":null,"point":3,"element":"Passive"},
             {"name":"Magic Amp I","name_tw":"初段之賢魔","desc":"+5 to Magic.","mp":null,"point":3,"element":"Passive"},
             {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"+5 to Vitality.","mp":null,"point":3,"element":"Passive"},
@@ -1403,11 +1404,11 @@ const skill_stable = [
             {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"+10 to Vitality.","mp":null,"point":13,"element":"Passive"},
             {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"+10 to Agility.","mp":null,"point":13,"element":"Passive"},
             {"name":"Luck Amp II","name_tw":"二段之強運","desc":"+10 to Luck.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"+15 to Strength.","mp":null,"point":"32","element":"Passive"},
-            {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"+15 to Magic.","mp":null,"point":"32","element":"Passive"},
-            {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"+15 to Vitality.","mp":null,"point":"32","element":"Passive"},
-            {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"+15 to Agility.","mp":null,"point":"32","element":"Passive"},
-            {"name":"Luck Amp III","name_tw":"三段之強運","desc":"+15 to Luck.","mp":null,"point":"32","element":"Passive"}
+            {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"+15 to Strength.","mp":null,"point":32,"element":"Passive"},
+            {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"+15 to Magic.","mp":null,"point":32,"element":"Passive"},
+            {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"+15 to Vitality.","mp":null,"point":32,"element":"Passive"},
+            {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"+15 to Agility.","mp":null,"point":32,"element":"Passive"},
+            {"name":"Luck Amp III","name_tw":"三段之強運","desc":"+15 to Luck.","mp":null,"point":32,"element":"Passive"}
         ]
     },
     {
@@ -1428,9 +1429,9 @@ const skill_stable = [
             {"name":"Curse of Distress","name_tw":"魅惑追擊","desc":"+10% damage to Cursed enemies. -10% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
             {"name":"Curse of Anguish","name_tw":"魔封追擊","desc":"+15% damage to Cursed enemies. -15% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
             
-            {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":"18","element":"Passive"},
-            {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":18,"element":"Passive"},
+            {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":6,"element":"Passive"},
+            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":12,"element":"Passive"},
             {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
             {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
             {"name":"Arcane Ritual","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members receive the following effect: 20% increase in status ailment auto cure rate.","mp":null,"point":null,"element":"Passive"},
