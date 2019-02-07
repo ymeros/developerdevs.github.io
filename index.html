@@ -321,12 +321,6 @@
                   <li>There may be people who have better opinions than mine as I don't have that many 5★ demons.</li>
                   <li>For Gacha demons, i'll go over their gacha skills as the only way to obtain them is via pulling</li>
                   <li>Standard 5★s are analyzed on the basis of the archetype skill only, for when you want to fuse them/switch archetype</li>
-                  <li>Stats of demons and Skill levels can be found on the Wiki's <strong><a href="https://dx2wiki.com/index.php/Demon_List" target="_blank">Demon Compendium</a></strong> page. 
-                      If you can't find a specific demon, search up it's name in searchbar.
-                  </li>
-                  <li>There is also a <strong><a href="https://docs.google.com/spreadsheets/d/1HIRnmiMTBQe-5IlMauIYfB4AnnNrXf5mKkXEI148CHc/edit#gid=0" target="_blank">Tier List</a></strong> made by one of our mods. Their 
-                    thoughts would vary from mine, but most of it is the same.
-                  </li>
                 </ul>
                 
                 <p><strong>4★ (and below) demons</strong></p>
@@ -362,11 +356,54 @@
                 </li>
                 -->
                 
+                <!-- [Useful Resources] -->
+                <p><strong>Useful Resources</strong></p>
+                <!--
+                    Entry Format:
+                    <tr><td class="DG-Table-Label"><a href="LINK" target="_blank">TITLE</a></td>
+                      <td>INFO.</td>
+                    </tr>
+                -->
+                <div class="DG-Table">
+                <table>
+                  <!-- Labels -->
+                  <tr>
+                    <td class="DG-Table-Label">Link</td>
+                    <td class="DG-Table-Label">Explanation</td>
+                  </tr>
+                  <!-- Entries -->
+                  <tr><td class="DG-Table-Label"><a href="https://dx2wiki.com/index.php/Demon_List" target="_blank">Wiki: Demon Compendium</a></td>
+                    <td>Contain's demon's maxed out stats, aether requirements and skill levels. If you can't find a specific demon, search up it's name in searchbar.</td>
+                  </tr>
+                  <tr><td class="DG-Table-Label"><a href="https://dx2wiki.com/index.php/Formulas" target="_blank">Wiki: Formulas</a></td>
+                    <td>How values are calculated in game. This is a rough idea as we still do not know the specifics when it comes to some areas of the game.</td>
+                  </tr>
+                  <tr><td class="DG-Table-Label"><a href="https://docs.google.com/spreadsheets/d/1HIRnmiMTBQe-5IlMauIYfB4AnnNrXf5mKkXEI148CHc/edit#gid=0" target="_blank">Tier List</a></td>
+                    <td>Made by one of our mods. Their thoughts would vary from mine, but most of it is the same.</td>
+                  </tr>
+                  <tr><td class="DG-Table-Label"><a href="https://aqiu384.github.io/megaten-fusion-tool/dx2/demons" target="_blank">Fusion Calculator (Alternative)</a></td>
+                    <td>Gives a compact view of all demons and skills, displays the fusion chart for easy reference.</td>
+                  </tr>
+                  <tr><td class="DG-Table-Label"><a href="https://alenael.github.io/" target="_blank">Team Builder</a></td>
+                    <td>Helps you plan out some builds you want to run, skill setups, brands, etc.</td>
+                  </tr>
+                  <tr><td class="DG-Table-Label"><a href="https://horselord.github.io/dx2-battlespeed-calculator/" target="_blank">Battle Speed Calculator</a></td>
+                    <td>Quick way to calculate the total battle speed of your team, factoring in Speedster and Leader Bonuses.</td>
+                  </tr>
+                  <tr><td class="DG-Table-Label"><a href="https://b0lt.github.io/dx2plan/" target="_blank">PVP Turn Planner</a></td>
+                    <td>Simulates a pvp battle. Assign the demons you want to run, view mana rotation and press turn usage.</td>
+                  </tr>
+                </table></div>
+                
+                <br>
+                
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates</button>
                 <div class="DG-Demon"><br>
                   <strong>[7/2]</strong>
                   <ul>
                     <li>Calculator: Multi-Fusion demons now list their components in the info tab</li>
+                    <li>Mini Guides: Updated FAQ</li>
+                    <li>Introduction: Added Useful Resources link, moved Tier List and Demon Compendium into there</li>
                   </ul>
                   <strong>[3/2]</strong>
                   <ul>
@@ -412,12 +449,12 @@
                     <li>Added Masakado writeup</li>
                   </ul>
                 </div>
-                  
+                
               </b-card>
               
               <b-card>
                 <p><strong>Mini Guides</strong></p>
-                <!-- [FAQ/Information] -->
+                <!-- [FAQ] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">FAQ</button>
                 <div class="DG-Demon"><br>
                   <p>This Mini Guide serves as both to answer frequently asked questions and give some useful information for newer players</p>
@@ -428,17 +465,22 @@
                     <li><strong>Silent Prayer:</strong> Removes Tetrakarn, Makarakarn, 5 Elements, Lydia, Charge, Concentrate, Ailments, Might(Rebellion) effects for all demons</li>
                     <li><strong>Lydia:</strong> Is not affected by Healing Amount% or Mag% boosts from brands. It heals 15% per demon's turn, activating 3 times.</li>
                     <li><strong>Ce Acatls' Return:</strong> Has the same AI behaviour as Samarecarm, <strong><a href="javascript:void(0)" @click="show_guide_devil('Quetzalcoatl')">Quetzalcoatl</a></strong> will use this even when there is only one demon defeated</li>
-                    <li><strong>Healing:</strong> Affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
                     <li><strong>Endure/Enduring Soul:</strong> Will activate in the order which you transferred them to the demon (If you have multiple). 
                       <br>E.g. <strong><a href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Vishnu</a></strong> with Enduring Soul in slot 5 and Endure in slot 6 
                       will activate Avatar first, followed by Enduring Soul, then Endure last</li>
+                    <li><strong>Healing:</strong> Affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
                   </ul>
                   
-                  <!-- <p><strong>General:</strong></p>
+                  <p><strong>Stats:</strong></p>
                   <ul>
-
-                  </ul>-->
-
+                    <li><strong>St (Strength)</strong>: Increases Phys Damage and Phys Defense</li>
+                    <li><strong>Ma (Magic)</strong>: Increases Magic Damage, Healing Amount and Magic Defense</li>
+                    <li><strong>Ag (Agility)</strong>: Increases Accuracy, Evasion, Battle Speed and affects Turn Order. Demon's with the highest agility will start first, followed by second highest, third then last</li>
+                    <li><strong>Vi (Vitality)</strong>: Increases HP, Phys Defense, Magic Defense</li>
+                    <li><strong>Lu (Luck)</strong>: Increases Accuracy, Evasion, Ailment Infliction, Ailment Resistance, Critical chance and Reduces chance to receive criticals</li>
+                    <li>1 Ag = 100 Battle Speed</li>
+                  </ul>
+              
                   <p><strong>AI:</strong></p>
                   <ul>
                     <li><strong>Attack:</strong> Focused on using damage skills, they won't use Support skills at all. An exception is that they will use revive skills like Recarm/Samarecarm/Recarmdra/Ce Actl's Return</li>
@@ -452,6 +494,8 @@
                   <ul>
                     <li><strong>Starting first:</strong> Each demon begins with 2mp. Great for when you want to run an ailment oriented team. Remove barriers via Barrier Break/Plague of Babylon/Silent Prayer then inflict the enemy team with all the ailments that you can</li> 
                     <li><strong>Starting second:</strong> Each demon begins with 5mp. You can take advantage of demons with high mp costs like Quetzalcoatl by having Tetra-Shift they're forced to attack into it (if you start out second)</li>
+                    <li><strong>Defense Team:</strong> The Dx2 you assign will only have their stat increase passives apply to your team. Seiran will grant +12 Ag (+1200 Battle Speed), Eileen with 10% Max HP and +7 Lu, etc. 
+                      <br>Stat bonuses will not show up on the battle speed screen and so be sure to remember Seiran always gives 1200 Battle Speed, Kangaroo Boxer 700, and MC 300.</li>
                   </ul>
                   
                   <p><strong>Counter Passives:</strong></p>
@@ -760,7 +804,7 @@
                 </div>
               </b-card>
               
-              <!-- Table Format:
+              <!-- Demon Entry Format:
                 <button id="ID" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">NAME</button>
                 <div class="DG-Demon"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('NAME')">Demon Information</a></strong></p>
