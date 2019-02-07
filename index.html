@@ -428,29 +428,45 @@
                     <li><strong>Silent Prayer:</strong> Removes Tetrakarn, Makarakarn, 5 Elements, Lydia, Charge, Concentrate, Ailments, Might(Rebellion) effects for all demons</li>
                     <li><strong>Lydia:</strong> Is not affected by Healing Amount% or Mag% boosts from brands. It heals 15% per demon's turn, activating 3 times.</li>
                     <li><strong>Ce Acatls' Return:</strong> Has the same AI behaviour as Samarecarm, <strong><a href="javascript:void(0)" @click="show_guide_devil('Quetzalcoatl')">Quetzalcoatl</a></strong> will use this even when there is only one demon defeated</li>
+                    <li><strong>Healing:</strong> Affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
+                    <li><strong>Endure/Enduring Soul:</strong> Will activate in the order which you transferred them to the demon (If you have multiple). 
+                      <br>E.g. <strong><a href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Vishnu</a></strong> with Enduring Soul in slot 5 and Endure in slot 6 
+                      will activate Avatar first, followed by Enduring Soul, then Endure last</li>
                   </ul>
                   
-                  <p><strong>General:</strong></p>
+                  <!-- <p><strong>General:</strong></p>
                   <ul>
-                    <li>Healing skills are affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
-                    <li>Endure and Enduring Soul will activate in the order which you transferred to the demon. 
-                      <br>E.g. </strong> Has the same AI behaviour as Samarecarm, <strong><a href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Vishnu</a></strong> with Enduring Soul in slot 5 and Endure in slot 6 
-                      will activate Avatar first, followed by Enduring Soul, then Endure last</li>
-                    <li>The AI is programmed so that it cannot use the same skill multiple times in a row. If using a Divine branded demon with a 4mp skill they would break out of the 0->4->0 cycle if their skill is used multiple times in a row</li>
-                    <li>In pvp if you start first: each demon begins with 2mp, if you start second: each demon begins with 5mp</li>
+
+                  </ul>-->
+
+                  <p><strong>AI:</strong></p>
+                  <ul>
+                    <li><strong>Attack:</strong> Focused on using damage skills, they won't use Support skills at all. An exception is that they will use revive skills like Recarm/Samarecarm/Recarmdra/Ce Actl's Return</li>
+                    <li><strong>Support:</strong> Focused on using support skills (Buffs/Debuffs), they can use healing (mainly when multiple demons are injured, if one is badly injured they won't use it) and attack skills</li>
+                    <li><strong>Heal:</strong> Focused on healing/revival skills. If a demon is even scratched, they'll likely heal up that injured demon. I haven't seen Heal AI demons use Support skills at all however</li>
+                    <li>All AI types prioritize hitting weaknesses and being able to finish off an enemy over their base behaviour. In pvp if they see a level one demon, they'd likely just target them with a basic phys attack unless they can aoe phys</li>
+                    <li>Programmed so that they cannot use the same skill multiple times in a row. A Divine branded demon with a 4mp skill would break out of the 0->4->0 cycle if their skill is used multiple times in a row</li>
+                  </ul>
+                  
+                  <p><strong>PVP:</strong></p>
+                  <ul>
+                    <li><strong>Starting first:</strong> Each demon begins with 2mp. Great for when you want to run an ailment oriented team. Remove barriers via Barrier Break/Plague of Babylon/Silent Prayer then inflict the enemy team with all the ailments that you can</li> 
+                    <li><strong>Starting second:</strong> Each demon begins with 5mp. You can take advantage of demons with high mp costs like Quetzalcoatl by having Tetra-Shift they're forced to attack into it (if you start out second)</li>
                   </ul>
                   
                   <p><strong>Counter Passives:</strong></p>
                   <ul>
                     <li>Regardless of whether the demon hit has n/d/r phys or the attack missed, if they're targeted by a phys attack counter will activate</li>
-                    <li>Activated on hits, if a demon with counter is hit twice, the passive is procced twice</li>
+                    <li>Is activated on hits, if a demon with counter is hit twice, the passive is procced twice</li>
                     <li>If a demon has multiple counter passives, only one will activate per hit. 
                       <br> E.g. <strong><a href="javascript:void(0)" @click="show_guide_devil('Ose')">Common Ose</a></strong> with counter, either counter/retaliate will activate or neither of them(never both)</li>
-                    <li>Don't crit, miss or generate press turns</li>
+                    <li>Doesn't crit, miss or generate press turns</li>
                     <li>Not affected by Charge/Rebellion</li>
-                    <li>Are affected by the opponents resistances, target will take no damage if they null/repel phys and will be healed if they drain phys. If they repel phys it has no effect on the countering demon</li>
-                    <li>Pierce affects counters, given the previous point counters will ignore the opponent's resistances (unless they're paired with Alilat/Rama)</li>
+                    <li>Affected by the opponents resistances, target will take no damage if they null/repel phys and will be healed if they drain it. If they repel it, it is treated as a null</li>
                     <li><strong><a href="https://old.reddit.com/r/Dx2SMTLiberation/comments/9ok8t3/useless_psa_how_counters_work/" target="_blank">Source</a></strong> (Thanks to eli1323 on Reddit)</li>
+                    <li>Pierce affects counters, given the previous point counters will ignore the opponent's resistances (unless they're paired with Alilat/Rama)</li>
+                    <li>Affected by Phys Boost/Amp, increasing demon's PATK would increase its damage</li>
+                    <li>Meat Balloon can increase counter damage and increase the chance for counters</li>
                   </ul>
                 </div>
                 
@@ -552,7 +568,7 @@
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Infusion</button>
                 <div class="DG-Demon"><br>
                   <p>A feature that allows players to increase the base stats of a demon that is unlocked and added to the Pandemonium when you <strong>clear Chapter 5</strong> of the story.
-                    <br>Infusion is done via either sacrificing <strong>Mitamas</strong> or using an item called <strong>Mitama Extract</strong>(5 variations, based on primary stats), each boosting stats to a varying degree depending on the type.
+                    <br>Infusion is done via either sacrificing <strong>Mitamas</strong> or using an item called <strong>Mitama Extract</strong> (5 variations, based on primary stats), each boosting stats to a varying degree depending on the type.
                     <br>Mitamas can be found in Aura Gate Floors 41-50 (recruitable as a Rare Encounter) and upon defeat can drop Mitama Extracts.
                   </p>
                   <p><strong>Sacrificing Mitamas/Using Extracts</strong></p>
@@ -623,7 +639,8 @@
                   </table></div>
                   <br><p><strong>Undoing Infusions</strong></p>
                   <p>In case you want to remove stats gained through Infusion, the <strong>Purge</strong> feature can do so (also found in the Pandemonium). To purge a demon, you need to use the relevant <strong>Purge Extract</strong> 
-                    which can be purchased in the Black Market (accessed from Hideout). For example a Ag Purge Extract would remove 1 infused Ag point, St Purge Extract for St point, etc.
+                    which can be purchased in the Black Market (accessed from Hideout). One Ag Purge Extract would remove 1 infused Ag point, St Purge Extract would remove 1 St point, the same applies to the rest of the extract types. It is randomized 
+                    in the store, but you can purchase 3 at a time for ~2,000 macca.
                   </p>
                 </div>
               </b-card>

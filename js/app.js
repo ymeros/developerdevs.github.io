@@ -1144,7 +1144,7 @@ const skill_stable = [
             {"name":"Mediara","name_tw":"梅迪拉","desc":"Heals All Party Members with 60 power. (9 uses)","mp":7,"point":5,"element":"Null"},
             {"name":"Mediarama","name_tw":"梅迪拉瑪","desc":"Heals All Party Members with 95 power. (9 uses)","mp":8,"point":8,"element":"Null"},
             {"name":"Mediarahan","name_tw":"梅迪亞拉翰","desc":"Heals All Party Members with 130 power. (9 uses)","mp":9,"point":"11","element":"Null"},
-            {"name":"Salvation","name_tw":"救世主喚起者","desc":"Heals All Party Members with 95 power. Cures all status aliments. (3 uses)","mp":"10","point":"15","element":"Null"},
+            {"name":"Salvation","name_tw":"救世主喚起者","desc":"Heals All Party Members with 95 power. Cures all status aliments. (3 uses)","mp":"9","point":"15","element":"Null"},
             {"name":"Orleans Prayer","name_tw":"","desc":"Heals a Single Party Member with 130 power and recovers 3 MP. (6 uses)","mp":null,"point":null,"element":"Null"},
             //持回
             {"name":"Lydia","name_tw":"利迪亞","desc":"Casts Lydia on a Single Party Member, healing their HP at the beginning of their turn for 3 turns.","mp":4,"point":8,"element":"Null"},
