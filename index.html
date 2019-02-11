@@ -364,13 +364,7 @@
                       <td>INFO.</td>
                     </tr>
                 -->
-                <div class="DG-Table">
-                <table>
-                  <!-- Labels -->
-                  <tr>
-                    <td class="DG-Table-Label">Link</td>
-                    <td class="DG-Table-Label">Explanation</td>
-                  </tr>
+                <div class="DG-Table"><table>
                   <!-- Entries -->
                   <tr><td class="DG-Table-Label"><a href="https://dx2wiki.com/index.php/Demon_List" target="_blank">Wiki: Demon Compendium</a></td>
                     <td>Contain's demon's maxed out stats, aether requirements and skill levels. If you can't find a specific demon, search up it's name in searchbar.</td>
@@ -393,12 +387,15 @@
                   <tr><td class="DG-Table-Label"><a href="https://b0lt.github.io/dx2plan/" target="_blank">PVP Turn Planner</a></td>
                     <td>Simulates a pvp battle. Assign the demons you want to run, view mana rotation and press turn usage.</td>
                   </tr>
-                </table></div>
+                </table></div><br>
                 
-                <br>
-                
+                <!-- [Updates] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates</button>
                 <div class="DG-Demon"><br>
+                  <strong>[11/2]</strong>
+                  <ul>
+                    <li>Mini Guides: Added AG Challenge writeup</li>
+                  </ul>
                   <strong>[7/2]</strong>
                   <ul>
                     <li>Calculator: Multi-Fusion demons now list their components in the info tab</li>
@@ -468,7 +465,7 @@
                     <li><strong>Endure/Enduring Soul:</strong> Will activate in the order which you transferred them to the demon (If you have multiple). 
                       <br>E.g. <strong><a href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Vishnu</a></strong> with Enduring Soul in slot 5 and Endure in slot 6 
                       will activate Avatar first, followed by Enduring Soul, then Endure last</li>
-                    <li><strong>Repel Phys/Repel Magic (Makarakarn/Tetrakarn/5 Elements):</strong> Do not stack on top of eachother, if already have one reflect shield and cast another, it'll replace it.
+                    <li><strong>Repel Phys/Repel Magic (Makarakarn/Tetrakarn/5 Elements):</strong> Do not stack on top of eachother, if already have one reflect shield and cast another, it'll replace it.</li>
                     <li><strong>Healing:</strong> Affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
                   </ul>
                   
@@ -502,7 +499,7 @@
                   
                   <p><strong>Counter Passives:</strong></p>
                   <ul>
-                    <li>Regardless of whether the demon hit has n/d/r phys or the attack missed, if they're targeted by a phys attack counter will activate</li>
+                    <li>Regardless of whether the demon hit has ndr phys or the attack missed, if they're targeted by a phys attack counter will activate</li>
                     <li>Is activated on hits, if a demon with counter is hit twice, the passive is procced twice</li>
                     <li>If a demon has multiple counter passives, only one will activate per hit. 
                       <br> E.g. <strong><a href="javascript:void(0)" @click="show_guide_devil('Ose')">Common Ose</a></strong> with counter, either counter/retaliate will activate or neither of them(never both)</li>
@@ -621,20 +618,12 @@
                   <p>As like sacrificing demons for skill points/evolve materials, mitama are used up for Infusion boosting a primary stat by two and a secondary by one, with using extracts you have to use 5 at a time to boost a stat by one.</p>
                   <div class="DG-Table"><table class="DG-ToC">
                     <tr>
-                      <td class="DG-Table-Label">Extract Type</td>
-                      <td><img src="images/guides/ExtractSt.png"></td><td><img src="images/guides/ExtractMa.png"></td><td><img src="images/guides/ExtractVi.png"></td><td><img src="images/guides/ExtractAg.png"></td><td><img src="images/guides/ExtractLu.png"></td>
-                    </tr>
-                    <tr>
-                      <td class="DG-Table-Label">Stats</td>
-                      <td>St+1</td><td>Ma+1</td><td>Vi+1</td><td>Ag+1</td><td>Lu+1</td>
+                      <td class="DG-Table-Label">Extract</td>
+                      <td><img src="images/guides/ExtractSt.png"><br>St+1</td><td><img src="images/guides/ExtractMa.png"><br>Ma+1</td><td><img src="images/guides/ExtractVi.png"><br>Vi+1</td><td><img src="images/guides/ExtractAg.png"><br>Ag+1</td><td><img src="images/guides/ExtractLu.png"><br>Lu+1</td>
                     </tr>
                     <tr>
                       <td class="DG-Table-Label">Mitama</td>
-                      <td><img src="images/devil/AraMitama.png"></td><td><img src="images/devil/NigiMitama.png"></td><td><img src="images/devil/KusiMitama.png"></td><td><img src="images/devil/SakiMitama.png"></td>
-                    </tr>
-                    <tr>
-                      <td class="DG-Table-Label">Stats</td>
-                      <td>St+2, Ag+1</td><td>Ma+2, Lu+1</td><td>Ag+2, Vi+1</td><td>Vi+2, Lu+1</td>
+                      <td><img src="images/devil/AraMitama.png"><br>St+2, Ag+1</td><td><img src="images/devil/NigiMitama.png"><br>Ma+2, Lu+1</td><td><img src="images/devil/KusiMitama.png"><br>Ag+2, Vi+1</td><td><img src="images/devil/SakiMitama.png"><br>Vi+2, Lu+1</td>
                     </tr>
                   </table></div>
                   
@@ -689,6 +678,185 @@
                     in the store, but you can purchase 3 at a time for ~2,000 macca.
                   </p>
                 </div>
+              
+                <!-- [AG-Challenge] -->
+                <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Aura Gate Challenge Titles</button>
+                <div class="DG-Demon"><br>
+                  <p>To be attempted only when you're satisfied with your main demons as it takes extra investment into demons you may not normally use. These challenges test your 
+                  demon building ability and for the reward you are granted titles to show off. They have restrictions pertaining to grade, requiring you to finish it without any continues and so if you break 
+                  them then you won't get the title unlocked upon clearing the stage.
+                  </p>
+                  
+                  <p><strong>Rules:</strong></p>
+                  <ul>
+                    <li><strong>1. Grade Limit:</strong> Each party is limited based on their total grade.
+                      <br>E.g. Grade Limit of 10: 
+                      <br><strong>Team 1 =</strong> 
+                          <strong><a href="javascript:void(0)" @click="show_guide_devil('Mokoi')">Mokoi</a></strong> and 
+                          <strong><a href="javascript:void(0)" @click="show_guide_devil('Agathion')">Agathion</a></strong> (5+5)
+                      <br><strong>Team 2 =</strong> 
+                          <strong><a href="javascript:void(0)" @click="show_guide_devil('Melchom')">Melchom</a></strong> and 
+                          <strong><a href="javascript:void(0)" @click="show_guide_devil('Chagrin')">Chagrin</a></strong> (4+4)
+                      <br>This setup is valid, but if you replace any with <strong><a href="javascript:void(0)" @click="show_guide_devil('Koppa Tengu')">Koppa Tengu</a></strong> 
+                          (5+7 or 4+7), it would be over the limit.
+                    </li>
+                    <li><strong>2. No Continues:</strong> Clear the stage without using Gems to revive your team.</li>
+                  </ul>
+                  
+                  <p><strong>Tips and Recommendations:</strong></p>
+                  <ul>
+                    <li>You can use items, be sure to do so as they'd come in handy for reviving, healing and curing ailments. Reflect mirrors can also help in making your foes lose press turns.</li>
+                    <li>For the later stages (40 and 50), it is recommended to start off the battle with a secondary team. Buffs/Debuffs will carry over when you switch teams so auto-buffs/debuffs would be useful on the get go.</li>
+                    <li>Both <strong><a href="javascript:void(0)" @click="show_guide_devil('Jack Frost')">Yellow Jack Frost</a></strong> and 
+                             <strong><a href="javascript:void(0)" @click="show_guide_devil('Pyro Jack')">Yellow Pyro Jack</a></strong> 
+                        will prove very useful in the later fights. Tag allows your main damage source to spam many attacks and if you bring a weakness hitting demon + use Chalk Eater you'd get 
+                        buffs in the process (also gaining chances to gain extra press turn icons). Their total grade value is 20 (7+13), so if you only want to run one then Jack Frost is the cheaper demon.
+                    </li>
+                    <li>The suggested Dx2s to use is Seiran for your sub team and Chalk Eater for your main team. Start off the floor as Seiran for a free scan of the floor (helps you reach the boss easier), Chalk will be for taking advantage of weaknesses.</li>
+                    <li>In the later floors, you'd require demons with Aura Gate trap related passives, preventing the effects of Damage Tiles and Dark Zone Tiles when figuring out the path to the boss</li>
+                    <li>You can skip encounters by closing the app then reopening it, it'll place you back on the tile you were standing on before you started combat. If you were in the boss fight you'll immediately refight it from the beginning.</li>
+                    <li>Hare of Inaba's unique passive "Trap Free" gives you the Void Dark Zone effect and damage reduction from Damage Panels (-30%). If you transfer Dmg Panel VI (-25%) and Dmg Panel VII (-50%), you can get immunity to 
+                    both negative tile effects in the one demon. I've done so for my Hare and so my general secondary team for 40 and 50 consist of mainly Hare other demons.</li>
+                  </ul>
+                  
+                  <div class="DG-Table"><table class="DG-ToC">
+                    <tr><td class="DG-Table-Label">Suggested Demons <br>(40-50F):</td><td class="DG-Table-Label" colspan="2">Void Dark Zone</td><td class="DG-Table-Label">Dmg Panel Immunity</td></tr>
+                    <tr>
+                      <td class="DG-Table-Label">Demon</td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Kelpie')"><img src="images/devil/yousei_kerupi.png"><br>Kelpie</a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Hare of Inaba')"><img src="images/devil/tinjyuu_inabasirousagi.png"><br>Hare of Inaba</a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Zouchouten')"><img src="images/devil/kisin_zoutyouten.png"><br>Zouchouten</a></strong></td>
+                    </tr>
+                  </table></div><br>
+                  
+                  <div class="DG-Table"><table>
+                  <!-- DG-Hidden-Table -->
+                    <tr class="DG-Table-Label"><td>Challenge Guide</td></tr>
+                    <tr>
+                      <td><table class="DG-AG-Challenge">
+                        <tr>
+                          <td class="DG-Table-Label">10F</td><td class="DG-Table-Label">20F</td><td class="DG-Table-Label">30F</td>
+                          <td class="DG-Table-Label">40F</td><td class="DG-Table-Label">50F</td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/guides/AG10Title.png" width="160px;"></td> <td><img src="images/guides/AG20Title.png" width="160px;"></td>
+                          <td><img src="images/guides/AG30Title.png" width="160px;"></td> <td><img src="images/guides/AG40Title.png" width="160px;"></td>
+                          <td><img src="images/guides/AG50Title.png" width="160px;"></td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/guides/AG10Boss.png" width="160px;"></td>  <td><img src="images/guides/AG20Boss.png" width="160px;"></td>
+                          <td><img src="images/guides/AG30Boss.png" width="480px;"></td>  <td><img src="images/guides/AG40Boss.png" width="160px;"></td>
+                          <td><img src="images/guides/AG50Boss.png" width="480px;"></td>
+                        </tr>
+                        <tr>
+                          <td class="DG-Table-Label">Grade Limit: 10</td>   <td class="DG-Table-Label">Grade Limit: 20</td> <td class="DG-Table-Label">Grade Limit: 30</td>
+                          <td class="DG-Table-Label">Grade Limit: 100</td>  <td class="DG-Table-Label">Grade Limit: 150</td>
+                        </tr>
+                        <tr>
+                          <td> <!-- 10F -->
+                            <p>Not many choices for this stage.
+                              <br>Simply pick one that you like, level it to 45 and it shouldn't be that much of a problem.
+                              <br>Even though he comes to Makarakarn, all i've seen him spam is Fog Breath and Hamadyne.
+                            </p>
+                          </td>
+                          
+                          <td> <!-- 20F -->
+                            <p>Azrael here isn't too tough as well just like Dantalian.
+                              <br>Bringing Yellow Jack Frost + one damage unit with Ice would make short work of him.
+                              <br>Like Dantalian i've mainly just seen him using his attack skills.
+                            </p>
+                          </td>
+                          
+                          <td> <!-- 30F -->
+                            <p>Tag and Weakness hitting spells would still work wonders for this stage. Baphomet will mainly spam Mamudo with the occasional Maragi and so be sure 
+                            to heal up with Beads in case things go awry. Having Ice should take care of both Dakini and Light is takes care of Baphomet.
+                            <br><br>Yellow Pyro Jack would work better here compared to the previously mentioned Yellow Jack Frost as he takes reduced damage from Maragi/Agilao
+                            </p>
+                          </td>
+                          
+                          <td> <!-- 40F -->
+                            <p>With the boosted grade limit, a low grade demon won't cut it anymore. Slime likes to favour Life Drain over Megaton Raid and luckily it doesn't do much damage, so 
+                            if you use a demon with Drain Phys, you should be able to heal up the damage to taken from the skill (Repel to make him take more damage).
+                            </p>
+                            <table class="DG-Hidden-Table">
+                              <tr><td colspan="2"><strong>Useful Demons:</strong></td></tr>
+                              <tr><td><strong>Repel Phys</strong></td>
+                                <td>
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Girimekhala')">Red Girimekhala</a>,
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Rangda')">Rangda</a>
+                                </td>
+                              </tr>
+                              <tr><td><strong>Drain Phys</strong></td>
+                                <td>
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Siegfried')">Siegfried</a>,
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Abraxas')">Abraxas</a>
+                                </td>
+                              </tr>
+                              <tr><td><strong>Back Attack / Merciless Blow</strong></td>
+                                <td>
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Efreet')">Purple Efreet</a>,
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Anubis')">Purple Anubis</a>,
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Titania')">Purple Titania</a>,
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Izanami')">Izanami</a>
+                                </td>
+                              </tr>
+                              <tr><td><strong>Other:</strong></td>
+                                <td>
+                                  <a href="javascript:void(0)" @click="show_guide_devil('Loki')">Loki</a>
+                                </td>
+                              </tr>
+                            </table>
+                            <br>
+                          </td>
+                          
+                          <td> <!-- 50F -->
+                            <p> The toughest challenge yet compared to the others. There is only one strategy that we've figured out so far and it involves using a gacha only demon sadly.
+                              Start off the battle with your sub team containing <a href="javascript:void(0)" @click="show_guide_devil('White Rider')">White Rider</a> and hit both Alice and Asherah with
+                              God's Bow. If it fails even once you'd have to reset the fight as they both need to be down in order for this to go smoothly. Required battle speed is >16,701, so pairing White Rider with a speedy demon 
+                              is mandatory to start off first (+ 1200 from Seiran helps).
+                              
+                              <br><br>Once they're down, White Rider + your speedster would likely fall, leading to your main team. <a href="javascript:void(0)" @click="show_guide_devil('Huang Long')">Huang Long</a> + 
+                              whatever you like should be able to handle the rest of the fight. 5 Elements will reflect all of Metatron's moves, so then all you have to do is rely on healing yourself up via items 
+                              if your team gets too badly bruised. Huang Long is Grade 88, so you have 62 left to pick from.
+                            </p>
+                            
+                            <p><strong>Useful Demons:</strong><br>
+                              <a href="javascript:void(0)" @click="show_guide_devil('Illuyanka')">Illuyanka</a>,
+                              <a href="javascript:void(0)" @click="show_guide_devil('Ammut')">Ammut</a>,
+                              <a href="javascript:void(0)" @click="show_guide_devil('Valkyrie')">Valkyrie</a>,
+                              <a href="javascript:void(0)" @click="show_guide_devil('Zouchouten')">Zouchouten</a>,
+                              <a href="javascript:void(0)" @click="show_guide_devil('Baphomet')">Baphomet</a>
+                            </p>
+                          </td>
+                        </tr>
+                        <tr><!-- Notes -->
+                          <td>
+                            <strong>My completed attempt (7):</strong>
+                            <br> Yellow Jack Frost
+                          </td>
+                          <td>
+                            <strong>My completed attempt (19):</strong>
+                            <br> Yellow Jack Frost, <a href="javascript:void(0)" @click="show_guide_devil('Leanan Sidhe')">Teal Leanan Sidhe</a>
+                          </td>
+                          <td>
+                            <strong>My completed attempt (19):</strong>
+                            <br> Yellow Jack Frost, Teal Leanan Sidhe
+                          </td>
+                          <td>
+                            <strong>My completed attempt (95):</strong>
+                            <br> Yellow Jack Frost, Yellow Pyro Jack, Teal Loki
+                          </td>
+                          <td>
+                            <strong>My completed attempt (149):</strong>
+                            <br> Yellow Jack Frost, Yellow Pyro Jack, Teal Baphomet, Teal Huang Long
+                          </td>
+                        </tr>
+                      </table></td>
+                    </tr>
+                  </table></div><br>
+                </div>
+                
+                
               </b-card>
               
               <b-card>
