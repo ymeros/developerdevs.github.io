@@ -468,6 +468,7 @@
                     <li><strong>Endure/Enduring Soul:</strong> Will activate in the order which you transferred them to the demon (If you have multiple). 
                       <br>E.g. <strong><a href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Vishnu</a></strong> with Enduring Soul in slot 5 and Endure in slot 6 
                       will activate Avatar first, followed by Enduring Soul, then Endure last</li>
+                    <li><strong>Repel Phys/Repel Magic (Makarakarn/Tetrakarn/5 Elements):</strong> Do not stack on top of eachother, if already have one reflect shield and cast another, it'll replace it.
                     <li><strong>Healing:</strong> Affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
                   </ul>
                   
@@ -483,10 +484,11 @@
               
                   <p><strong>AI:</strong></p>
                   <ul>
-                    <li><strong>Attack:</strong> Focused on using damage skills, they won't use Support skills at all. An exception is that they will use revive skills like Recarm/Samarecarm/Recarmdra/Ce Actl's Return</li>
+                    <li><strong>Attack:</strong> Focused on using damage skills, they won't use Support skills at all</li>
                     <li><strong>Support:</strong> Focused on using support skills (Buffs/Debuffs), they can use healing (mainly when multiple demons are injured, if one is badly injured they won't use it) and attack skills</li>
                     <li><strong>Heal:</strong> Focused on healing/revival skills. If a demon is even scratched, they'll likely heal up that injured demon. I haven't seen Heal AI demons use Support skills at all however</li>
-                    <li>All AI types prioritize hitting weaknesses and being able to finish off an enemy over their base behaviour. In pvp if they see a level one demon, they'd likely just target them with a basic phys attack unless they can aoe phys</li>
+                    <li><strong>All types:</strong> Have an exception when it comes to revive skills (Recarm/Samarecarm/Recarmdra/Ce Actl's Return). If they have the mp for it and see a fallen ally they will use it</li>
+                    <li><strong>All types:</strong> Prioritize hitting weaknesses and being able to finish off an enemy over their base behaviour. In pvp if they see a level one demon, they'd likely just target them with a basic phys attack unless they can aoe phys</li>
                     <li>Programmed so that they cannot use the same skill multiple times in a row. A Divine branded demon with a 4mp skill would break out of the 0->4->0 cycle if their skill is used multiple times in a row</li>
                   </ul>
                   
@@ -1025,9 +1027,10 @@
                     </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Insanity/Madness. Increasing his chance of inflicting mute</li>
-                        <li>Endure/Enduring Soul. Gives him more chances do the Concentrate + Apocalypse combo.</li>
-                        <li>Serial Killer/Butcher. Increases his Apocalypse damage.</li>
+                      <li>Insanity/Madness. Increasing his chance of inflicting mute.</li>
+                      <li>Endure/Enduring Soul. Gives him more chances do the Concentrate + Apocalypse combo.</li>
+                      <li>Serial Killer/Butcher. Increases his Apocalypse damage.</li>
+                      <li>Deadly Mute. Reliant on an opponent being muted in the first place, however adds a large damage boost compared to Serial Killer/Butcher.</li>
                     </ul>
                     <p><strong>Brands: </strong>Divine/Ward. Apocalypse is costly, so be sure to get divine so you can
                         two turn use it. Maxing it out would help with mp cost but this brand setup would still be good for
@@ -2925,11 +2928,11 @@
                     </div>
                     <p><strong>Recommended skills: </strong></p>
                     <ul>
-                        <li>Resist Ice. Optional, on the one hand covering his weakness would prevent opponents
-                            from getting extra turns, on the other he'll die anyways so at least they'd only get one
-                            extra turn.</li>
-                        <li>Megido for sweeping</li>
-                        <li>Magic aoe for sweeping, i think Megido would work best for coverage</li>
+                      <li>Resist Ice. Optional, on the one hand covering his weakness would prevent opponents
+                          from getting extra turns, on the other he'll die anyways so at least they'd only get one
+                          extra turn.</li>
+                      <li>Megido for sweeping</li>
+                      <li>Magic aoe for sweeping, i think Megido would work best for coverage</li>
                     </ul>
                     <p><strong>Brands: </strong>Divine since we want to be sweeping as quickly as possible. This will allow you to turn 1 Megido in pvp. 
                         Go for Spell Type if you wanna use him for Vanity 10 (you can then go with Mamudo). 
@@ -2952,40 +2955,42 @@
                     <p><table>
                       <tbody>
                         <tr><td class="DG-CMN">Common</td>
-                            <td><strong>Insanity</strong> can be used to boost her charm chance. Compared to Luck Amp III, its a 5% difference.</td>
-                            <td>Usable</td>
+                          <td><strong>Insanity</strong> can be used to boost Allure's charm chance.</td>
+                          <td>Usable</td>
                         </tr>
                         <tr><td class="DG-ARA">Aragami</td>
-                            <td><strong>Mind Break</strong> is a easily transferable skill that can only be gotten from gacha though. 
-                            <br>
-                              Not really worth it as an awakened skill due to being the weakest single target skill in the game (Its for support rather than damage).
-                            </td>
-                            <td>Worst</td>
+                          <td><strong>Mind Break</strong> is a easily transferable skill that can only be gotten from gacha though. 
+                            <br>She's the only demon in the game with access to a -1mp Mind Break currently. It wouldn't have much use in pve and for pvp sadly
+                              due to her frail nature though it is possible to build her as a support with hp% and divine brands so she can spam it every turn.
+                          </td>
+                          <td>Usable</td>
                         </tr>
                         <tr><td class="DG-PRO">Protector</td>
-                            <td><strong>Samarecarm</strong> gives her a cheaper revive, she can utilize it as a support ai demon at least.</td>
-                            <td>Usable</td>
+                          <td><strong>Samarecarm</strong> gives her a cheaper revive, Samarecarm is easily transferable anyways. -1 mp doesn't really do much for it as you'd still need 
+                            Divine brands to two turn it.
+                          </td>
+                          <td>Bad</td>
                         </tr>
                         <tr><td class="DG-PSY">Psychic</td>
-                            <td><strong>Luck Amp III</strong> increases her luck, adding increased crit chance, ailment resistance, infliction, accuracy, 
-                                dodge and reducing chances of crits taken in turn.</td>
-                            <td>Usable</td>
+                          <td><strong>Luck Amp III</strong> increases her luck, adding increased crit chance, ailment resistance, infliction, accuracy, 
+                              dodge and reducing chances of crits taken in turn.</td>
+                          <td>Usable</td>
                         </tr>
                         <tr><td class="DG-ELE">Elementalist</td>
-                            <td><strong>Null Light</strong> covers one of her weaknesses leaving you free reign over the final slot (provided you also cover force weakness).</td>
-                            <td><strong>Best</strong></td>
+                          <td><strong>Null Light</strong> covers one of her weaknesses leaving you free reign over the final slot (provided you also cover force weakness).</td>
+                          <td><strong>Best</strong></td>
                         </tr>
                       </tbody>
                     </table></p>
                   </div>
                   <p><strong>Recommended skills: </strong></p>
                   <ul>
-                      <li>Resist Force. To cover her weakness</li>
-                      <li>Resist Light. If not Teal.</li>
-                      <li>Megido for more coverage</li>
-                      <li>Dark boost for more allure damage</li>
+                    <li>Resist Force. To cover her weakness</li>
+                    <li>Resist Light. If not Teal.</li>
+                    <li>Megido. For coverage</li>
+                    <li>Dark boost. More allure damage</li>
                   </ul>
-                  <p><strong>Brands: </strong>Spell/Life. Allure isn't that costly at all which is nice (6 mp cost), you can opt for Divine if you like.</p>
+                  <p><strong>Brands: </strong>Spell/Life. Allure isn't that costly at all which is nice (6 mp cost), you can opt for Divine if you want more spamming.</p>
                   <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/guides/HomeButton.png"></a></p>
                 </div>
                 </div>
