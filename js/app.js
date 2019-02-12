@@ -901,9 +901,19 @@ const ddd_stable = [
         name_en:'Event',
         formulas:[],
         devils:[
-            {                name:'Halloween Jack',        name_tw:'奧伯隆',  name_en:'Halloween Jack',      rarity:4,                grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
-            {                name:'Helper Frost',        name_tw:'奧伯隆',  name_en:'Helper Frost',      rarity:4,                grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Weak","Drain","","","",""], type:"Attack"            },
-            {                name:'Mishaguji',        name_tw:'奧伯隆',  name_en:'Mishaguji',      rarity:4,                grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:['','Tetraja','','',''],elements:["","","","Null","Weak","Weak","Null"], type:"Attack"            }
+            { name:'Halloween Jack', name_tw:'奧伯隆', name_en:'Halloween Jack', rarity:4, grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
+            { name:'Helper Frost',   name_tw:'奧伯隆', name_en:'Helper Frost',   rarity:4, grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Weak","Drain","","","",""], type:"Attack"            },
+            { name:'Mishaguji',      name_tw:'奧伯隆', name_en:'Mishaguji',      rarity:4, grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:['','Tetraja','','',''],elements:["","","","Null","Weak","Weak","Null"], type:"Attack"            }
+        ]
+    },
+    {
+        name:'Witch',
+        name_tw:'Witch',
+        name_en:'Witch',
+        formulas:[],
+        devils:[
+            { name:'Bayonetta', name_tw:'魔女ベヨネッタ', name_en:'',rarity:4, grade:65, icon:'Bayonetta.png', skills:['Mortal Jihad','Berserker','Soul Drain'], skill4:['Strength Amp II','Hurricane Slash','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp II','Deadly Charm','Phys Boost','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'},
+            { name:'Jeanne', name_tw:'魔女ジャンヌ', name_en:'',rarity:4, grade:65, icon:'Jeanne.png', skills:['Hades Blast','Berserker','Soul Drain'], skill4:['Magic Amp II','Myriad Arrows','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp II','Deadly Bondage','Retaliate','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'}
         ]
     }
 ];
