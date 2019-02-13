@@ -1508,8 +1508,8 @@ const skill_stable = [
         {"name":"Sass","name_tw":"月之庇佑","desc":"When an enemy is Charmed, reduces all enemy's DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},           
         {"name":"Call to Helheim","name_tw":"月之庇佑","desc":"When the demon with this skill downs an enemy, reduces all enemy ATK and DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},
         //Bayonetta Event
-        {"name":"Madame Stomp","name_tw":"マダムストンプ","desc":"When the demon with this skill hits an enemy with a critical hit, inflict Almighty (Magic) damage with 100 power to that enemy, and 30% chance to inflict Charm","mp":null,"point":null,"element":"Passive"},
-        {"name":"Madame Upper","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflict Almighty (Magic) damage with 100 power to that enemy, and 30% chance to inflict Bind","mp":null,"point":null,"element":"Passive"}
+        {"name":"Madame Stomp","name_tw":"マダムストンプ","desc":"When the demon with this skill hits an enemy with a critical hit, inflict Almighty (Magic) damage with 100 power to that enemy with a 30% chance to inflict Charm","mp":null,"point":null,"element":"Passive"},
+        {"name":"Madame Upper","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflict Almighty (Magic) damage with 100 power to that enemy with a 30% chance to inflict Bind","mp":null,"point":null,"element":"Passive"}
       ]
     },
     {
