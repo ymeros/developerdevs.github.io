@@ -892,7 +892,7 @@ const ddd_stable = [
         name_en:'Entity',
         formulas:[],
         devils:[
-            { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support \u00A0\u00A0 | Lady Pele + Herald Sandalphon + Lady Kushinada + Herald Azrael |'}
+          { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'irei_arirato.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support \u00A0\u00A0 | Lady Pele + Herald Sandalphon + Lady Kushinada + Herald Azrael |'}
         ]
     },
     {
@@ -901,9 +901,10 @@ const ddd_stable = [
         name_en:'Event',
         formulas:[],
         devils:[
-            { name:'Halloween Jack', name_tw:'奧伯隆', name_en:'Halloween Jack', rarity:4, grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack"            },
-            { name:'Helper Frost',   name_tw:'奧伯隆', name_en:'Helper Frost',   rarity:4, grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Weak","Drain","","","",""], type:"Attack"            },
-            { name:'Mishaguji',      name_tw:'奧伯隆', name_en:'Mishaguji',      rarity:4, grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:['','Tetraja','','',''],elements:["","","","Null","Weak","Weak","Null"], type:"Attack"            }
+          { name:'Halloween Jack', name_tw:'奧伯隆', name_en:'Halloween Jack', rarity:4, grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack" },
+          { name:'Helper Frost',   name_tw:'奧伯隆', name_en:'Helper Frost',   rarity:4, grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Weak","Drain","","","",""], type:"Attack" },
+          { name:'Mishaguji',      name_tw:'奧伯隆', name_en:'Mishaguji',      rarity:4, grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:['','Tetraja','','',''],elements:["","","","Null","Weak","Weak","Null"], type:"Attack" },
+          { name:'Beloved', name_tw:'能天使ビラブド', name_en:'', rarity:4, grade:70, icon:'Beloved.png', skills:["Bloody Glee","Oni-Kagura","Beloved Slash"], skill4:["Life Gain","Power Hit","Rebellion","Retaliate","Null Light"], skill5:["","Good Aim","Phys Boost","Wild Guess","Hellish Mask"],elements:["Resist","","","","","Resist","Weak"], type:"Attack" },
         ]
     },
     {
@@ -912,605 +913,618 @@ const ddd_stable = [
         name_en:'Witch',
         formulas:[],
         devils:[
-            { name:'Bayonetta', name_tw:'魔女ベヨネッタ', name_en:'',rarity:4, grade:65, icon:'Bayonetta.png', skills:['Mortal Jihad','Berserker','Soul Drain'], skill4:['Strength Amp II','Hurricane Slash','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp II','Deadly Charm','Phys Boost','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'},
-            { name:'Jeanne', name_tw:'魔女ジャンヌ', name_en:'',rarity:4, grade:65, icon:'Jeanne.png', skills:['Hades Blast','Berserker','Soul Drain'], skill4:['Magic Amp II','Myriad Arrows','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp II','Deadly Bondage','Retaliate','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'}
+          { name:'Bayonetta ☆', name_tw:'魔女ベヨネッタ', name_en:'',rarity:5, grade:85, icon:'Bayonetta.png', skills:['Mortal Jihad','Madame Stomp','Summon Monster Gomorra B'], skill4:['','Myriad Arrows','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp III','Deadly Charm','Assassin','Titanomachia'], elements:['','','','','','Resist','Resist'], type:'Attack'},
+          { name:'Jeanne ☆', name_tw:'魔女ジャンヌ', name_en:'',rarity:5, grade:85, icon:'Jeanne.png', skills:['Hades Blast','Madame Upper','Summon Monster Gomorra J'], skill4:['Magic Amp II','Myriad Arrows','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp III','Deadly Bondage','Assassin','Megidola'], elements:['','','','','','Resist','Resist'], type:'Attack'},
+          { name:'Bayonetta', name_tw:'魔女ベヨネッタ', name_en:'',rarity:4, grade:65, icon:'Bayonetta.png', skills:['Mortal Jihad','Berserker','Soul Drain'], skill4:['Strength Amp II','Tempest Slash','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp II','Deadly Charm','Phys Boost','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'},
+          { name:'Jeanne', name_tw:'魔女ジャンヌ', name_en:'',rarity:4, grade:65, icon:'Jeanne.png', skills:['Hades Blast','Berserker','Soul Drain'], skill4:['Magic Amp II','Myriad Arrows','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp II','Deadly Bondage','Retaliate','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'}
         ]
     }
+    
+    // Entry format:
+    // Resistances = Drain, Weak, Repel, Null
+    // AI = Attack, Support, Heal
+    // { name:'', name_tw:'', name_en:'', rarity:, grade:, icon:'.png', skills:["","",""], skill4:["","","","",""], skill5:["","","","",""],elements:["","","","","","",""], type:"" },
 ];
 
 const skill_stable = [
     {
-        name:"Physical",
-        name_tw:"Physical",
-        name_en:"",
-        skills:[
-            {"name":"Cleave","name_tw":"斬擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Physical"},
-            {"name":"Fatal Sword","name_tw":"絕命劍","desc":"Inflicts Phys (Physical) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Physical"},
-            {"name":"Berserker God","name_tw":"怪力亂神","desc":"Inflicts Phys (Physical) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Physical"},
-            {"name":"Megaton Raid","name_tw":"百萬噸襲擊","desc":"Inflicts Phys (Physical) damage with 180 power on a Single Enemy.","mp":7,"point":"12","element":"Physical"},
-            {"name":"God's Hand","name_tw":"神之手","desc":"Inflicts Phys (Physical) damage with 200 power on a Single Enemy.","mp":8,"point":"15","element":"Physical"},
+      name:"Physical",
+      name_tw:"Physical",
+      name_en:"",
+      skills:[
+        {"name":"Cleave","name_tw":"斬擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Physical"},
+        {"name":"Fatal Sword","name_tw":"絕命劍","desc":"Inflicts Phys (Physical) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Physical"},
+        {"name":"Berserker God","name_tw":"怪力亂神","desc":"Inflicts Phys (Physical) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Physical"},
+        {"name":"Megaton Raid","name_tw":"百萬噸襲擊","desc":"Inflicts Phys (Physical) damage with 180 power on a Single Enemy.","mp":7,"point":"12","element":"Physical"},
+        {"name":"God's Hand","name_tw":"神之手","desc":"Inflicts Phys (Physical) damage with 200 power on a Single Enemy.","mp":8,"point":"15","element":"Physical"},
 
-            {"name":"Mow Down","name_tw":"橫斬","desc":"Inflicts Phys (Physical) damage with 80 power on All Enemies.","mp":4,"point":2,"element":"Physical"},
-            {"name":"Herculean Strike","name_tw":"金剛發破","desc":"Inflicts Phys (Physical) damage with 100 power on All Enemies.","mp":5,"point":4,"element":"Physical"},
-            {"name":"Hades Blast","name_tw":"Hades Blast","desc":"Inflicts Phys (Physical) damage with 120 power on All Enemies.","mp":6,"point":6,"element":"Physical"},
-            {"name":"Vorpal Blade","name_tw":"Vorpal Blade","desc":"Inflicts Phys (Physical) damage with 140 power on All Enemies.","mp":7,"point":8,"element":"Physical"},
-            {"name":"Gigantomachia","name_tw":"巨人之戰","desc":"Inflicts Phys (Physical) damage with 160 power on All Enemies.","mp":8,"point":"10","element":"Physical"},
+        {"name":"Mow Down","name_tw":"橫斬","desc":"Inflicts Phys (Physical) damage with 80 power on All Enemies.","mp":4,"point":2,"element":"Physical"},
+        {"name":"Herculean Strike","name_tw":"金剛發破","desc":"Inflicts Phys (Physical) damage with 100 power on All Enemies.","mp":5,"point":4,"element":"Physical"},
+        {"name":"Hades Blast","name_tw":"Hades Blast","desc":"Inflicts Phys (Physical) damage with 120 power on All Enemies.","mp":6,"point":6,"element":"Physical"},
+        {"name":"Vorpal Blade","name_tw":"Vorpal Blade","desc":"Inflicts Phys (Physical) damage with 140 power on All Enemies.","mp":7,"point":8,"element":"Physical"},
+        {"name":"Gigantomachia","name_tw":"巨人之戰","desc":"Inflicts Phys (Physical) damage with 160 power on All Enemies.","mp":8,"point":"10","element":"Physical"},
 
-            {"name":"Lunge","name_tw":"突擊","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 115 power on a Single Enemy.","mp":4,"point":2,"element":"Physical"},
-            {"name":"Oni-Kagura","name_tw":"鬼神樂","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 130 power on a Single Enemy.","mp":5,"point":5,"element":"Physical"},
-            {"name":"Mortal Jihad","name_tw":"絕命鬥爭","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on a Single Enemy.","mp":6,"point":7,"element":"Physical"},
-            {"name":"Occult Flash","name_tw":"絕命鬥爭","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 200 power on a Single Enemy, with 100% chance to inflict Mortal. (Limit 3)","mp":8,"point":null,"element":"Physical"},
+        {"name":"Lunge","name_tw":"突擊","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 115 power on a Single Enemy.","mp":4,"point":2,"element":"Physical"},
+        {"name":"Oni-Kagura","name_tw":"鬼神樂","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 130 power on a Single Enemy.","mp":5,"point":5,"element":"Physical"},
+        {"name":"Mortal Jihad","name_tw":"絕命鬥爭","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on a Single Enemy.","mp":6,"point":7,"element":"Physical"},
+        {"name":"Occult Flash","name_tw":"絕命鬥爭","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 200 power on a Single Enemy, with 100% chance to inflict Mortal. (Limit 3)","mp":8,"point":null,"element":"Physical"},
 
-            {"name":"Heat Wave","name_tw":"灼熱波浪","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 70 power on All Enemies.","mp":5,"point":2,"element":"Physical"},
-            {"name":"Megaton Press","name_tw":"百萬噸重壓","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 90 power on All Enemies.","mp":6,"point":4,"element":"Physical"},
-            {"name":"Titanomachia","name_tw":"泰坦之戰","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 110 power on All Enemies.","mp":7,"point":6,"element":"Physical"},
-            {"name":"Gungnir","name_tw":"永恆之槍","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on All Enemies. (3 uses)","mp":7,"point":null,"element":"Physical"},
-            {"name":"Yinlong Killer","name_tw":"應龍擊破","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 150 power on All Enemies.","mp":8,"point":null,"element":"Physical"},
+        {"name":"Heat Wave","name_tw":"灼熱波浪","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 70 power on All Enemies.","mp":5,"point":2,"element":"Physical"},
+        {"name":"Megaton Press","name_tw":"百萬噸重壓","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 90 power on All Enemies.","mp":6,"point":4,"element":"Physical"},
+        {"name":"Titanomachia","name_tw":"泰坦之戰","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 110 power on All Enemies.","mp":7,"point":6,"element":"Physical"},
+        {"name":"Gungnir","name_tw":"永恆之槍","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on All Enemies. (3 uses)","mp":7,"point":null,"element":"Physical"},
+        {"name":"Yinlong Killer","name_tw":"應龍擊破","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 150 power on All Enemies.","mp":8,"point":null,"element":"Physical"},
+        {"name":"Summon Monster Gomorra J","name_tw":"魔獣ゴモラ召喚J","desc":"Available Turn Three. Inflicts Phys (Physical) damage with 50% crit rate and 180 power on a All Enemies with a 50% chance to inflict Bind. The damage inflicted by this skill is dependent on 50% of your Phys ATK status and 50% of your Mag ATK status and gains the Physical Pierce effect.","mp":8,"point":null,"element":"Physical"},
+        {"name":"Beloved Slash","name_tw":"ビラブド斬り","desc":"Inflicts Phys (Physical) damage with 60 power on All Enemies twice.","mp":6,"point":null,"element":"Physical"},
+        
+        {"name":"Rampage","name_tw":"橫衝直撞","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 45 power on Random Enemy/(ies).","mp":3,"point":3,"element":"Physical"},
+        {"name":"Deathbound","name_tw":"神威之擊","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 55 power on Random Enemy/(ies).","mp":4,"point":5,"element":"Physical"},
+        {"name":"Madness Nails","name_tw":"狂亂硬爪","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 65 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
 
-            {"name":"Rampage","name_tw":"橫衝直撞","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 45 power on Random Enemy/(ies).","mp":3,"point":3,"element":"Physical"},
-            {"name":"Deathbound","name_tw":"神威之擊","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 55 power on Random Enemy/(ies).","mp":4,"point":5,"element":"Physical"},
-            {"name":"Madness Nails","name_tw":"狂亂硬爪","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 65 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
+        {"name":"Hell Claw","name_tw":"地獄兇爪","desc":"Inflicts Phys (Physical) damage 3 times with 30% crit rate and 65 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
+        {"name":"Nihil Claw","name_tw":"虛空爪激","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 75 power on Random Enemy/(ies).","mp":6,"point":9,"element":"Physical"},
+        {"name":"Tempest Slash","name_tw":"五月雨斬","desc":"Inflicts Phys (Physical) damage 2 to 5 times with 50 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
+        {"name":"Myriad Arrows","name_tw":"剎那五月雨擊","desc":"Inflicts Phys (Physical) damage 2 to 5 times with 65 power on Random Enemy/(ies).","mp":7,"point":9,"element":"Physical"},
+        {"name":"Mist Slashes","name_tw":"亂・霞霧斬擊","desc":"Inflicts Phys (Physical) damage 3 to 5 times with 50 power on Random Enemy/(ies).","mp":6,"point":null,"element":"Physical"},
+        {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50 power on Random Enemy/(ies) 4 times with a 35% chance to inflict Charm.","mp":7,"point":null,"element":"Physical"},
+        {"name":"Gae Bolg","name_tw":"千棘魔槍","desc":"Inflicts Phys (Physical) damage 4 to 6 times with 50 power on Random Enemy/(ies).","mp":7,"point":null,"element":"Physical"},
+        {"name":"Hassou Tobi","name_tw":"八艘跳躍","desc":"Inflicts Phys (Physical) damage 8 times with 35 power on Random Enemy/(ies). Adds Physical Pierce.","mp":7,"point":null,"element":"Physical"},
+        {"name":"Summon Monster Gomorra B","name_tw":"魔獣ゴモラ召喚B","desc":"Available Turn Three. Inflicts Phys (Physical) damage 5 times with 50% crit rate and 50 power on a Single Enemy with a 50% chance to inflict Charm. The damage inflicted by this skill is dependent on 50% of your Phys ATK status and 50% of your Mag ATK status and gains the Physical Pierce effect.","mp":8,"point":null,"element":"Physical"},
+        
+        {"name":"Toxic Sting","name_tw":"Toxic Sting","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Poison.","mp":5,"point":6,"element":"Physical"},
+        {"name":"Binding Claw","name_tw":"束縛爪擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Bind.","mp":5,"point":6,"element":"Physical"},
+        {"name":"Paralyzing Bite","name_tw":"麻痺咬痕","desc":"Inflicts Phys (Physical) damage with 160 power on a Single Enemy with 35% chance to inflict Poison.","mp":5,"point":null,"element":"Physical"},
+        {"name":"Dark Sword","name_tw":"暗夜劍","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Mute.","mp":5,"point":6,"element":"Physical"},
+        {"name":"Sweet Bite","name_tw":"甜蜜輕咬","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflicts Charm.","mp":5,"point":6,"element":"Physical"},
 
-            {"name":"Hell Claw","name_tw":"地獄兇爪","desc":"Inflicts Phys (Physical) damage 3 times with 30% crit rate and 65 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
-            {"name":"Nihil Claw","name_tw":"虛空爪激","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 75 power on Random Enemy/(ies).","mp":6,"point":9,"element":"Physical"},
-            {"name":"Tempest Slash","name_tw":"五月雨斬","desc":"Inflicts Phys (Physical) damage 2 to 5 times with 50 power on Random Enemy/(ies).","mp":5,"point":7,"element":"Physical"},
-            {"name":"Myriad Arrows","name_tw":"剎那五月雨擊","desc":"Inflicts Phys (Physical) damage 2 to 5 times with 65 power on Random Enemy/(ies).","mp":7,"point":9,"element":"Physical"},
-            {"name":"Mist Slashes","name_tw":"亂・霞霧斬擊","desc":"Inflicts Phys (Physical) damage 3 to 5 times with 50 power on Random Enemy/(ies).","mp":6,"point":null,"element":"Physical"},
-            {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50 power on Random Enemy/(ies) 4 times with a 35% chance to inflict Charm.","mp":7,"point":null,"element":"Physical"},
-            {"name":"Gae Bolg","name_tw":"千棘魔槍","desc":"Inflicts Phys (Physical) damage 4 to 6 times with 50 power on Random Enemy/(ies).","mp":7,"point":null,"element":"Physical"},
-            {"name":"Hassou Tobi","name_tw":"八艘跳躍","desc":"Inflicts Phys (Physical) damage 8 times with 35 power on Random Enemy/(ies). Adds Physical Pierce.","mp":7,"point":null,"element":"Physical"},
+        {"name":"Eat Whole","name_tw":"大快朵頤","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":6,"element":"Physical"},
+        {"name":"Binge Eating","name_tw":"Binge Eating","desc":"Inflicts Phys (Physical) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":8,"element":"Physical"},
+        {"name":"Ouas","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 160 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":null,"element":"Physical"},
+        {"name":"Power Hit","name_tw":"捨身一擊","desc":"Use 10% of own HP to inflict Phys (Physical) damage with 170 power on a Single Enemy.","mp":7,"point":6,"element":"Physical"},
+        {"name":"Bleeder","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy and reduces MP by 2.","mp":6,"point":null,"element":"Physical"}
+      ]
+    },
+    {
+      name:"Fire",
+      name_tw:"Fire",
+      name_en:"",
+      skills:[
+        //火
+        {"name":"Agi","name_tw":"亞基","desc":"Inflicts Fire (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Fire"},
+        {"name":"Agilao","name_tw":"亞基拉歐","desc":"Inflicts Fire (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Fire"},
+        {"name":"Agidyne","name_tw":"亞基達因","desc":"Inflicts Fire (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Fire"},
+        {"name":"Trisagion","name_tw":"多利斯亞基翁","desc":"Inflicts Fire (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Fire"},
+        
+        {"name":"Maragi","name_tw":"瑪哈拉基","desc":"Inflicts Fire (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Fire"},
+        {"name":"Maragion","name_tw":"瑪哈拉基翁","desc":"Inflicts Fire (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Fire"},
+        {"name":"Maragidyne","name_tw":"瑪哈亞吉達因","desc":"Inflicts Fire (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Fire"},
+        
+        {"name":"Fire Breath","name_tw":"火焰吐息","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Fire"},
+        {"name":"Hellfire","name_tw":"地獄業火","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":"10","element":"Fire"},
+        
+        {"name":"Ragnarok","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 215 power on a Single Enemy. Adds 20% damage to this skill based on your Phys ATK status.","mp":7,"point":null,"element":"Fire"},
+        {"name":"MahaLantine","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Fire"}
+      ]
+    },
+    {
+      name:"Ice",
+      name_tw:"冰凍",
+      name_en:"",
+      skills:[
+        //冰
+        {"name":"Bufu","name_tw":"布芙","desc":"Inflicts Ice (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Ice"},
+        {"name":"Bufula","name_tw":"布芙拉","desc":"Inflicts Ice (Magic) damage with 140 power on a Single Enemy.","mp":"5","point":"6","element":"Ice"},
+        {"name":"Bufudyne","name_tw":"布芙達因","desc":"Inflicts Ice (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Ice"},
+        {"name":"Ice Age","name_tw":"大冰河時期","desc":"Inflicts Ice (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Ice"},
+        
+        {"name":"Mabufu","name_tw":"瑪哈布芙","desc":"Inflicts Ice (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Ice"},
+        {"name":"Mabufula","name_tw":"瑪哈布芙拉","desc":"Inflicts Ice (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Ice"},
+        {"name":"Mabufudyne","name_tw":"瑪哈布芙達因","desc":"Inflicts Ice (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Ice"},
+        
+        {"name":"Ice Breath","name_tw":"極寒吐息","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Ice"},
+        {"name":"Glacial Blast","name_tw":"絕對零度","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Ice"},
+        
+        {"name":"Cold World","name_tw":"Cold World","desc":"Inflicts Ice (Magic) damage with 130 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":7,"point":null,"element":"Ice"},
+        {"name":"MahaFrosty","name_tw":"諸神的黃昏","desc":"Inflicts Ice (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Ice"}
+      ]
+    },
+    {
+      name:"Elec",
+      name_tw:"電擊",
+      name_en:"",
+      skills:[
+        //雷
+        {"name":"Zio","name_tw":"吉歐","desc":"Inflicts Elec (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Elec"},
+        {"name":"Zionga","name_tw":"吉歐加","desc":"Inflicts Elec (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Elec"},
+        {"name":"Ziodyne","name_tw":"吉歐達因","desc":"Inflicts Elec (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Elec"},
+        {"name":"Thunder Reign","name_tw":"真理之雷","desc":"Inflicts Elec (Magic) damage with 180 power on a Single Enemy.","mp":"7","point":12,"element":"Elec"},
+        
+        {"name":"Mazio","name_tw":"瑪哈吉歐","desc":"Inflicts Elec (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Elec"},
+        {"name":"Mazionga","name_tw":"瑪哈吉歐加","desc":"Inflicts Elec (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Elec"},
+        {"name":"Maziodyne","name_tw":"瑪哈吉歐達因","desc":"Inflicts Elec (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Elec"},
+        
+        {"name":"Shock","name_tw":"Shock","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Elec"},
+        {"name":"Bolt Storm","name_tw":"衝擊波","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Elec"},
+        {"name":"Mjolnir","name_tw":"雷神之槌","desc":"Inflicts Elec (Magic) damage 4 to 5 times with 60 power on Random Enemy/ies.","mp":7,"point":null,"element":"Elec"}
+      ]
+    },
+    {
+      name:"Force",
+      name_tw:"衝擊",
+      name_en:"",
+      skills:[
+        //衝
+        {"name":"Zan","name_tw":"颯","desc":"Inflicts Force (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Force"},
+        {"name":"Zanma","name_tw":"颯瑪","desc":"Inflicts Force (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Force"},
+        {"name":"Zandyne","name_tw":"颯達因","desc":"Inflicts Force (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Force"},
+        {"name":"Killing Wind","name_tw":"Deadly Wind","desc":"Inflicts Force (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Force"},
+        
+        {"name":"Mazan","name_tw":"瑪哈颯","desc":"Inflicts Force (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Force"},
+        {"name":"Mazanma","name_tw":"瑪哈颯瑪","desc":"Inflicts Force (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Force"},
+        {"name":"Mazandyne","name_tw":"瑪哈颯達因","desc":"Inflicts Force (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Force"},
+        
+        {"name":"Wind Breath","name_tw":"狂風吐息","desc":"Inflicts Force (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Force"},
+        {"name":"Twister","name_tw":"龍捲風","desc":"Inflicts Force (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Force"},
+        
+        {"name":"Kusanagi","name_tw":"","desc":"Inflicts Force (Magic) damage with 205 power on a Single Enemy and increases own party's ATK 20% for 3 turns. The damage inflicted by this skill is dependent on Phys ATK.","mp":6,"point":null,"element":"Force"}
+      ]
+    },
+    {
+      name:"Light",
+      name_tw:"Light",
+      name_en:"",
+      skills:[
+        //Light
+        {"name":"Hama","name_tw":"哈瑪","desc":"Inflicts Light (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Light"},
+        {"name":"Hamaon","name_tw":"哈瑪翁","desc":"Inflicts Light (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Light"},
+        {"name":"Hamadyne","name_tw":"哈瑪達因","desc":"Inflicts Light (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Light"},
+        {"name":"Thunderclap","name_tw":"制裁雷火","desc":"Inflicts Light (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Light"},
+        
+        {"name":"Mahama","name_tw":"瑪哈瑪","desc":"Inflicts Light (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Light"},
+        {"name":"Mahamaon","name_tw":"瑪哈瑪翁","desc":"Inflicts Light (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Light"},
+        {"name":"Mahamadyne","name_tw":"瑪翰達因","desc":"Inflicts Light (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Light"},
+        
+        {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Light (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
+        {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Light (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
+        {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Light (Magic) damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"},
+        
+        {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Light (Magic) damage with 200 power on a Single Enemy, with 50% kill rate. (2 Uses)","mp":7,"point":null,"element":"Light"},
+        {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Light (Magic) damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"}
+      ]
+    },
+    {
+      name:"Dark",
+      name_tw:"咒殺",
+      name_en:"",
+      skills:[
+        //Dark
+        {"name":"Mudo","name_tw":"姆多","desc":"Inflicts Dark (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Dark"},
+        {"name":"Mudoon","name_tw":"姆多翁","desc":"Inflicts Dark (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Dark"},
+        {"name":"Mudodyne","name_tw":"姆多達因","desc":"Inflicts Dark (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Dark"},
+        {"name":"Hell Gaze","name_tw":"Hell Gaze","desc":"Inflicts Dark (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Dark"},
+        
+        {"name":"Mamudo","name_tw":"瑪哈姆多","desc":"Inflicts Dark (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Dark"},
+        {"name":"Mamudoon","name_tw":"瑪哈姆多翁","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Dark"},
+        {"name":"Mamudodyne","name_tw":"瑪哈姆多翁","desc":"Inflicts Dark (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Dark"},
+        
+        {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Dark"},
+        {"name":"Purgatory","name_tw":"Purgatory","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Dark"},
+        
+        {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":null,"element":"Dark"},
+        {"name":"Gluttony","name_tw":"暴食重罪","desc":"Inflicts Dark (Magic) damage with 130 power on All Enemies, while healing caster 50% of damage dealt.","mp":7,"point":null,"element":"Dark"},
+        {"name":"Go to Hell!","name_tw":"可以為我而死嗎？","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies with a 80% chance to inflict Curse. This skill has the Dark Pierce effect.","mp":7,"point":null,"element":"Dark"},
+        {"name":"Die for Me!","name_tw":"可以為我而死嗎？","desc":"Kills a Single Enemy. 1 Use.","mp":7,"point":null,"element":"Dark"}
+      ]
+    },
+    {
+      name:"Almighty",
+      name_tw:"萬能",
+      name_en:"",
+      skills:[
+        {"name":"Life Drain","name_tw":"Life Drain","desc":"Inflicts Almighty (Magic) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":3,"element":"Almighty"},
+        {"name":"Deathtouch","name_tw":"死亡之觸","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":6,"element":"Almighty"},
+        {"name":"Spirit Drain","name_tw":"Spirit Drain","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 1MP.","mp":6,"point":3,"element":"Almighty"},
+        {"name":"Mind Blast","name_tw":"Mind Blast","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 4MP.","mp":7,"point":8,"element":"Almighty"},
+        {"name":"Energy Drain","name_tw":"能量抽取","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy, while healing caster 25% of damage dealt and drains 1MP.","mp":7,"point":6,"element":"Almighty"},
+        {"name":"Soul Drain","name_tw":"靈魂抽取","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt and drains 1MP.","mp":8,"point":7,"element":"Almighty"},
+        
+        {"name":"Megido","name_tw":"米吉朵","desc":"Inflicts Almighty (Magic) damage with 80 power on All Enemies.","mp":6,"point":5,"element":"Almighty"},
+        {"name":"Megidola","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies.","mp":7,"point":8,"element":"Almighty"},
+        {"name":"Megidolaon","name_tw":"米吉朵拉翁","desc":"Inflicts Almighty (Magic) damage with 120 power on All Enemies.","mp":8,"point":"12","element":"Almighty"},
+        
+        {"name":"Sea of Chaos","name_tw":"混沌之海","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+        {"name":"Demon Birth Cry","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's ATK 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+        {"name":"Rattle","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's EV/AC 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+        {"name":"Necro Dogma","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases allies DEF 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+        {"name":"Judgement","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+        {"name":"Foresight","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's EV/AC 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
+        
+        {"name":"Mind Break","name_tw":"Mind Break","desc":"Inflicts Almighty (Magic) damage with 80 power on a Single Enemy and reduces MP by 3 MP.","mp":5,"point":6,"element":"Almighty"},
+        {"name":"Fire of Sinai","name_tw":"西奈的神火","desc":"Inflicts Almighty (Magic) damage 5 times with 45 power on Random Enemy/ies.","mp":7,"point":null,"element":"Almighty"},
+        {"name":"Pralaya","name_tw":"大劫","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies while removing Repel Phys and Repel Mag. The damage inflicted by this skill is dependent on Phys ATK.","mp":8,"point":null,"element":"Almighty"},
+        {"name":"Apocalypse","name_tw":"默示錄","desc":"Inflicts Almighty (Magic) damage with 110 power on All Enemies with 30% chance to inflict Mute.","mp":8,"point":null,"element":"Almighty"},
+        {"name":"Morning Star","name_tw":"拂曉明星","desc":"Inflicts Almighty (Magic) damage with 150 power on All Enemies. (3 uses)","mp":8,"point":null,"element":"Almighty"},
+        {"name":"Divine Bows' Allure","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 190 power on a Single Enemy with 45% chance to inflict Charm.","mp":8,"point":null,"element":"Almighty"},
+        {"name":"God's Malice","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 120 power on a single enemy with 30% chance to inflict Poison, Bind, Mute and Charm.","mp":7,"point":null,"element":"Almighty"},
+        {"name":"Mesopotamian Star","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies. Reduces enemy's ATK by 20% and increases own party's ATK by 20%. (3 turns)","mp":8,"point":null,"element":"Almighty"},
+        {"name":"Babylon Goblet","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power and drains 1 MP on All Enemies.","mp":8,"point":null,"element":"Almighty"},
+        {"name":"Brahmastra","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage 3 times with 40 power on All Enemies.","mp":7,"point":null,"element":"Almighty"},
+      ]
+    },
+    {
+      name:"Recovery",
+      namw_tw:"Recovery",
+      name_en:"Heal",
+      skills:[
+        //回
+        {"name":"Dia","name_tw":"迪亞","desc":"Heals a Single Party Member with 50 power. (9 uses)","mp":4,"point":1,"element":"Null"},
+        {"name":"Diara","name_tw":"迪亞拉","desc":"Heals a Single Party Member with 90 power. (9 uses)","mp":5,"point":5,"element":"Null"},
+        {"name":"Diarama","name_tw":"迪亞拉瑪","desc":"Heals a Single Party Member with 130 power. (9 uses)","mp":6,"point":8,"element":"Null"},
+        {"name":"Diarahan","name_tw":"迪亞拉瑪翰","desc":"Heals a Single Party Member with 170 power. (9 uses)","mp":7,"point":"11","element":"Null"},
+        {"name":"Media","name_tw":"梅迪亞","desc":"Heals All Party Members with 25 power. (9 uses)","mp":6,"point":2,"element":"Null"},
+        {"name":"Mediara","name_tw":"梅迪拉","desc":"Heals All Party Members with 60 power. (9 uses)","mp":7,"point":5,"element":"Null"},
+        {"name":"Mediarama","name_tw":"梅迪拉瑪","desc":"Heals All Party Members with 95 power. (9 uses)","mp":8,"point":8,"element":"Null"},
+        {"name":"Mediarahan","name_tw":"梅迪亞拉翰","desc":"Heals All Party Members with 130 power. (9 uses)","mp":9,"point":"11","element":"Null"},
+        {"name":"Salvation","name_tw":"救世主喚起者","desc":"Heals All Party Members with 95 power. Cures all status aliments. (3 uses)","mp":"9","point":"15","element":"Null"},
+        {"name":"Orleans Prayer","name_tw":"","desc":"Heals a Single Party Member with 130 power and recovers 3 MP. (6 uses)","mp":null,"point":null,"element":"Null"},
+        //持回
+        {"name":"Lydia","name_tw":"利迪亞","desc":"Casts Lydia on a Single Party Member, healing their HP at the beginning of their turn for 3 turns.","mp":4,"point":8,"element":"Null"},
+        {"name":"Lydia Break","name_tw":"利迪亞破壞","desc":"Removes Lydia from All Enemies.","mp":3,"point":6,"element":"Null"},
+        //復活
+        {"name":"Recarm","name_tw":"利卡姆","desc":"Revive a Single Party Member with 10% HP. (3 uses)","mp":6,"point":6,"element":"Null"},
+        {"name":"Samarecarm","name_tw":"薩瑪利卡姆","desc":"Revive a Single Party Member with full HP. (1 use)","mp":8,"point":8,"element":"Null"},
+        {"name":"Recarmdra","name_tw":"利卡姆托拉","desc":"Revive All Party Members with full HP, caster dies. (1 use)","mp":8,"point":"10","element":"Null"},
+        {"name":"Mother's Creation","name_tw":"","desc":"Revive a Single Party Member with full HP and endows Lydia. (1 use)","mp":8,"point":null,"element":"Null"},
+        {"name":"Ce Acatls' Return","name_tw":"","desc":"Revive All Party Members with full HP. (1 use)","mp":7,"point":null,"element":"Null"},
+        //解毒
+        {"name":"Posumudi","name_tw":"病毒解除術","desc":"Cures a Single Party Member of Poison. Reduces the chance of being Poisoned during this wave by 30%.","mp":3,"point":1,"element":"Null"},
+        {"name":"Meposumudi","name_tw":"梅波茲姆迪","desc":"Cures All Party Members of Poison. Reduces the chance of being Poisoned during this wave by 30%.","mp":4,"point":5,"element":"Null"},
+        //解封
+        {"name":"Closedi","name_tw":"克洛茲迪","desc":"Cures a Single Party Member of Mute. Reduces the chance of being Muteed during this wave by 30%.","mp":3,"point":1,"element":"Null"},
+        {"name":"Meclosedi","name_tw":"梅克洛茲迪","desc":"Cures All Party Members of Mute. Reduces the chance of being Muteed during this wave by 30%.","mp":4,"point":5,"element":"Null"},
+        //解縛
+        {"name":"Paraladi","name_tw":"帕拉拉迪","desc":"Cures a Single Party Member of Bind. Reduces the chance of being Binded during this wave by 30%.","mp":3,"point":1,"element":"Null"},
+        {"name":"Meparaladi","name_tw":"梅帕拉拉迪","desc":"Cures All Party Members of Bind. Reduces the chance of being Binded during this wave by 30%.","mp":4,"point":5,"element":"Null"},
+        //解魅
+        {"name":"Charmdi","name_tw":"查姆蒂","desc":"Cures a Single Party Member of Charm. Reduces the chance of being Charmed during this wave by 30%.","mp":3,"point":1,"element":"Null"},
+        {"name":"Mecharmdi","name_tw":"梅查姆蒂","desc":"Cures All Party Members of Charm. Reduces the chance of being Charmed during this wave by 30%.","mp":4,"point":5,"element":"Null"},
+        //解呪
+        {"name":"Cursedi","name_tw":"卡斯迪","desc":"Cures a Single Party Member of Curse. Reduces the chance of being Cursed during this wave by 30%.","mp":3,"point":1,"element":"Null"},
+        {"name":"Mecursedi","name_tw":"梅卡斯迪","desc":"Cures All Party Members of Curse. Reduces the chance of being Cursed during this wave by 30%.","mp":4,"point":5,"element":"Null"},
+        //解虛
+        {"name":"Weakdi","name_tw":"溫坤迪","desc":"Cures a Single Party Member of Weak. Reduces the chance of being Weakened during this wave by 30%.","mp":3,"point":1,"element":"Null"},
+        {"name":"Meweakdi","name_tw":"梅溫庫迪","desc":"Cures All Party Members of Weak. Reduces the chance of being Weakened during this wave by 30%.","mp":4,"point":5,"element":"Null"},
+        //解異常
+        {"name":"Amrita","name_tw":"甘露","desc":"Cures all status ailments of a Single Party Member.","mp":4,"point":3,"element":"Null"},
+        {"name":"Prayer","name_tw":"永恆的祈禱","desc":"Cures all status ailments of All Party Members.","mp":5,"point":8,"element":"Null"},
+        {"name":"Silent Prayer","name_tw":"寂靜的禱告","desc":"Cures all status ailments of All Party Members and Enemies.","mp":7,"point":8,"element":"Null"},
+        //狀態
+        {"name":"Barrier","name_tw":"防壁","desc":"Casts a Barrier on a Single Party Member, granting immunity to all status ailments for 3 turns.","mp":4,"point":8,"element":"Null"},
+        {"name":"Barrier Break","name_tw":"防壁破壞","desc":"Remove Barrier from All Enemies.","mp":3,"point":6,"element":"Null"}
+      ]
+    },
+    {
+      name:"Ailment",
+      name_tw:"Ailment",
+      name_en:"",
+      skills:[
+        //毒
+        {"name":"Poisma","name_tw":"波伊佐瑪","desc":"40% chance to inflict Poison on a Single Enemy.","mp":5,"point":2,"element":"Null"},
+        {"name":"Poismaon","name_tw":"波伊佐瑪翁","desc":"50% chance to inflict Poison on a Single Enemy.","mp":6,"point":8,"element":"Null"},
+        {"name":"Mahapoisma","name_tw":"瑪哈波伊佐瑪","desc":"30% chance to inflict Poison on All Enemies.","mp":6,"point":5,"element":"Null"},
+        {"name":"Mahapoismaon","name_tw":"瑪哈波伊佐瑪翁","desc":"40% chance to inflict Poison on All Enemies.","mp":7,"point":9,"element":"Null"},
+        {"name":"Poison Breath","name_tw":"猛毒吐息","desc":"30% chance to inflict Poison 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
+        //縛
+        {"name":"Shibaboo","name_tw":"希巴縛","desc":"40% chance to inflict Bind on a Single Enemy.","mp":5,"point":2,"element":"Null"},
+        {"name":"Shibaboon","name_tw":"希巴縛翁","desc":"50% chance to inflict Bind on a Single Enemy.","mp":6,"point":8,"element":"Null"},
+        {"name":"Mahashibaboo","name_tw":"瑪哈希巴縛","desc":"30% chance to inflict Bind on All Enemies.","mp":6,"point":5,"element":"Null"},
+        {"name":"Mahashibaboon","name_tw":"瑪哈希巴縛翁","desc":"40% chance to inflict Bind on All Enemies.","mp":7,"point":9,"element":"Null"},
+        {"name":"Binding Cry","name_tw":"束縛咆嘯","desc":"30% chance to inflict Bind 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
+        //魅
+        {"name":"Marin Karin","name_tw":"瑪琳卡琳","desc":"40% chance to inflict Charm on a Single Enemy.","mp":5,"point":2,"element":"Null"},
+        {"name":"Marin Karion","name_tw":"瑪琳卡琳翁","desc":"50% chance to inflict Charm on a Single Enemy.","mp":6,"point":8,"element":"Null"},
+        {"name":"Mahamarin Karin","name_tw":"瑪哈瑪琳卡琳","desc":"30% chance to inflict Charm on All Enemies.","mp":6,"point":5,"element":"Null"},
+        {"name":"Mahamarin Karion","name_tw":"瑪哈瑪琳卡琳翁","desc":"40% chance to inflict Charm on All Enemies.","mp":7,"point":9,"element":"Null"},
+        {"name":"Sexy Dance","name_tw":"色誘之舞","desc":"30% chance to inflict Charm 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
+        {"name":"Lotus Dance","name_tw":"蓮華之舞","desc":"60% chance to inflict Charm on All Enemies.","mp":6,"point":null,"element":"Null"},
+        //封
+        {"name":"Makajam","name_tw":"瑪卡加瑪","desc":"40% chance to inflict Mute on a Single Enemy.","mp":5,"point":2,"element":"Null"},
+        {"name":"Makajamaon","name_tw":"瑪卡加瑪翁","desc":"50% chance to inflict Mute on a Single Enemy.","mp":6,"point":8,"element":"Null"},
+        {"name":"Mahamakajam","name_tw":"瑪哈瑪卡加瑪","desc":"30% chance to inflict Mute on All Enemies.","mp":6,"point":5,"element":"Null"},
+        {"name":"Mahamakajamaon","name_tw":"瑪哈瑪卡加瑪翁","desc":"40% chance to inflict Mute on All Enemies.","mp":7,"point":9,"element":"Null"},
+        {"name":"White Noise","name_tw":"白茫噪音","desc":"30% chance to inflict Mute 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
+        //呪
+        {"name":"Ju","name_tw":"祖","desc":"50% chance to inflict Curse on a Single Enemy.","mp":5,"point":2,"element":"Null"},
+        {"name":"Juon","name_tw":"祖翁","desc":"60% chance to inflict Curse on a Single Enemy.","mp":6,"point":8,"element":"Null"},
+        {"name":"Mahaju","name_tw":"瑪哈祖","desc":"40% chance to inflict Curse on All Enemies.","mp":6,"point":5,"element":"Null"},
+        {"name":"Mahajuon","name_tw":"瑪哈祖翁","desc":"50% chance to inflict Curse on All Enemies.","mp":7,"point":9,"element":"Null"},
+        {"name":"Vengeance","name_tw":"報應","desc":"40% chance to inflict Curse 1 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
+        //虛
+        {"name":"Dezoreto","name_tw":"特奏累托","desc":"70% chance to inflict Weak on a Single Enemy.","mp":5,"point":2,"element":"Null"},
+        {"name":"Dezoreton","name_tw":"特奏累托翁","desc":"80% chance to inflict Weak on a Single Enemy.","mp":6,"point":8,"element":"Null"},
+        {"name":"Madezoreto","name_tw":"瑪哈特奏累托","desc":"60% chance to inflict Weak on All Enemies.","mp":6,"point":5,"element":"Null"},
+        {"name":"Madezoreton","name_tw":"瑪哈特奏累托翁","desc":"70% chance to inflict Weak on All Enemies.","mp":7,"point":9,"element":"Null"},
+        {"name":"Outbreak","name_tw":"威力爆發","desc":"60% chance to inflict Weak 1 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
+        {"name":"Plague of Babylon","name_tw":"威力爆發","desc":"80% chance to inflict Weak on all enemies after removing Barriers from all enemies.","mp":6,"point":null,"element":"Null"}
+      ]
+    },
+    {
+      name:"Support",
+      name_tw:"Support",
+      name_en:"",
+      skills:[
+        //蓄力
+        {"name":"Charge","name_tw":"蓄力","desc":"Self enters a state of Charge. Increases the next Phys attack damage by 125%.","mp":6,"point":8,"element":"Null"},
+        {"name":"Rebellion","name_tw":"反叛","desc":"Self enters a state of Might. The next Phys attack will have a Critical effect.","mp":4,"point":8,"element":"Null"},
+        {"name":"Mega Boost","name_tw":"反叛魔象","desc":"Self enters a state of Charge and Might. Increases the next Phys attack damage by 125% and will have a Critical effect.","mp":6,"point":null,"element":"Null"},
+        {"name":"Concentrate","name_tw":"專注","desc":"Self enters a state of Concentrate. Increases the next Mag attack damage by 125%.","mp":6,"point":8,"element":"Null"},
+        {"name":"Discord","name_tw":"異調相斥","desc":"Removes Charge, Concentrate and Might from All Enemies.","mp":3,"point":6,"element":"Null"},
+        {"name":"Tag","name_tw":"下一位","desc":"Self skips a turn without using a Press Turn Icon.","mp":3,"point":6,"element":"Null"},
+        //反射
+        {"name":"Tetrakarn","name_tw":"提特拉康","desc":"All Party Members repels Physical damage for 1 turn.","mp":7,"point":8,"element":"Null"},
+        {"name":"Makarakarn","name_tw":"瑪卡拉康","desc":"All Party Members repels Magic damage for 1 turn.","mp":7,"point":8,"element":"Null"},
+        {"name":"Five Elements ","name_tw":"Five Elements ","desc":"All Party Members repels Magic (including Almighty) damage for 1 turn.","mp":6,"point":null,"element":"Null"},
+        {"name":"Tetra Break","name_tw":"提特拉破壞","desc":"Removes Repel Phys from All Enemies.","mp":3,"point":6,"element":"Null"},
+        {"name":"Makara Break","name_tw":"瑪卡拉破壞","desc":"Removes Repel Mag from All Enemies.","mp":3,"point":6,"element":"Null"},
+        //防即死
+        {"name":"Tetraja","name_tw":"","desc":"All Party Members will evade Instant Kill for 1 turn","mp":4,"point":null,"element":"Null"},
+        //強弱化
+        {"name":"Tarukaja","name_tw":"塔爾卡加","desc":"Increases ATK of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
+        {"name":"Rakukaja","name_tw":"拉庫卡加","desc":"Increases DEF of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
+        {"name":"Sukukaja","name_tw":"斯庫卡加","desc":"Increases EV/AC of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
+        {"name":"Tarunda","name_tw":"塔倫達","desc":"Reduces ATK of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
+        {"name":"Rakunda","name_tw":"拉昆達","desc":"Reduces DEF of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
+        {"name":"Sukunda","name_tw":"斯坤達","desc":"Reduces EV/AC of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
+        {"name":"Dekaja","name_tw":"迪卡加","desc":"Remove buffs from All Enemies.","mp":5,"point":4,"element":"Null"},
+        {"name":"Dekunda","name_tw":"迪坤達","desc":"Remove debuffs from All Party Members.","mp":5,"point":4,"element":"Null"},
 
-            {"name":"Toxic Sting","name_tw":"Toxic Sting","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Poison.","mp":5,"point":6,"element":"Physical"},
-            {"name":"Binding Claw","name_tw":"束縛爪擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Bind.","mp":5,"point":6,"element":"Physical"},
-            {"name":"Paralyzing Bite","name_tw":"麻痺咬痕","desc":"Inflicts Phys (Physical) damage with 160 power on a Single Enemy with 35% chance to inflict Poison.","mp":5,"point":null,"element":"Physical"},
-            {"name":"Dark Sword","name_tw":"暗夜劍","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Mute.","mp":5,"point":6,"element":"Physical"},
-            {"name":"Sweet Bite","name_tw":"甜蜜輕咬","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflicts Charm.","mp":5,"point":6,"element":"Physical"},
+        {"name":"Barong Dance","name_tw":"巴隆之舞","desc":"Heals All Party Members with 95 power and increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns. (3 uses)","mp":7,"point":null,"element":"Null"},
+        {"name":"Tenson Kourin","name_tw":"Tenson Kourin","desc":"Removes debuffs and increases ATK, DEF, EV/AC of All Party Members by 20% for 6 turns.","mp":8,"point":null,"element":"Null"},
+        {"name":"Luster Candy","name_tw":"","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns.","mp":8,"point":15,"element":"Null"},
+        {"name":"Agile Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy EV/AC and increases own parties EV/AC by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
+        {"name":"Offensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy DEF and increases own parties ATK by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
+        {"name":"Defensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy ATK and increases own parties DEF by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
+        {"name":"War Dance","name_tw":"塔爾卡加","desc":"Increases own parties ATK and DEF by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
+        {"name":"Nocturne","name_tw":"塔爾卡加","desc":"Increases own parties DEF and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
+        {"name":"Blood Rush","name_tw":"塔爾卡加","desc":"Increases own parties ATK and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
+        {"name":"War Cry","name_tw":"吶喊","desc":"Reduces ATK and DEF of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
+        {"name":"Acid Breath","name_tw":"溶解吐息","desc":"Reduces DEF and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
+        {"name":"Fog Breath","name_tw":"迷霧吐息","desc":"Reduces ATK and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
+        {"name":"Taunt","name_tw":"挑釁","desc":"Increases ATK and reduces of DEF of All Enemies by 20% for 3 turns.","mp":3,"point":8,"element":"Null"},
+        {"name":"Debilitate","name_tw":"女巫詛咒","desc":"Reduces ATK, DEF, and EV/AC of All Enemies by 20% for 3 turns.","mp":8,"point":"15","element":"Null"},
+        {"name":"Red Zone","name_tw":"女巫詛咒","desc":"All Party Members enter a state of Might. The next Phys attack will have a Critical effect. (3 uses)","mp":7,"point":null,"element":"Null"},
+        {"name":"Dark Pandemic","name_tw":"女巫詛咒","desc":"Remove buffs from All Enemies, then reduces ATK or DEF or EV/AC of All Enemies by 20% for 3 turns.","mp":5,"point":null,"element":"Null"}
+      ]
+    },
+    {
+      name:"Resistance Passive",
+      name_tw:"屬性",
+      name_en:"",
+      skills:[
+        //強化
+        {"name":"Phys Boost","name_tw":"物理強化","desc":"+15% to Phys damage.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Phys Amp","name_tw":"高級物理強化","desc":"+25% to Phys damage.","mp":null,"point":"21","element":"Passive"},
+        {"name":"Fire Boost","name_tw":"火炎強化","desc":"+15% to Fire damage.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Fire Amp","name_tw":"高級火炎強化","desc":"+25% to Fire damage.","mp":null,"point":21,"element":"Passive"},
+        {"name":"Ice Boost","name_tw":"冰凍強化","desc":"+15% to Ice damage.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Ice Amp","name_tw":"高級冰凍強化","desc":"+25% to Ice damage.","mp":null,"point":21,"element":"Passive"},
+        {"name":"Elec Boost","name_tw":"電擊強化","desc":"+15% to Elec damage.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Elec Amp","name_tw":"高級電擊強化","desc":"+25% to Elec damage.","mp":null,"point":"21","element":"Passive"},
+        {"name":"Force Boost","name_tw":"衝擊強化","desc":"+15% to Force damage.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Force Amp","name_tw":"高級衝擊強化","desc":"+25% to Force damage.","mp":null,"point":"21","element":"Passive"},
+        {"name":"Light Boost","name_tw":"破魔強化","desc":"+15% to Light damage.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Light Amp","name_tw":"高級破魔強化","desc":"+25% to Light damage.","mp":null,"point":21,"element":"Passive"},
+        {"name":"Dark Boost","name_tw":"咒殺強化","desc":"+15% to Dark damage.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Dark Amp","name_tw":"高級咒殺強化","desc":"+25% to Dark damage.","mp":null,"point":"21","element":"Passive"},
+        {"name":"Recovery Boost","name_tw":"回復強化","desc":"+15% to Healing skill effectiveness.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Recovery Amp","name_tw":"高級回復強化","desc":"+25% to Healing skill effectiveness.","mp":null,"point":"21","element":"Passive"},
+        //貫通
+        {"name":"Phys Pierce","name_tw":"Phys Pierce","desc":"Phys attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+        {"name":"Superior Power","name_tw":"帝王權威","desc":"+20% to Phys hit rate and adds Phys Pierce.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Warlord's Wrath","name_tw":"帝王權威","desc":"Adds Phys Pierce. Reduces 1 enemy Press Turn Icon at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects. When receiving a Phys Attack, 100% chance to counter dealing Phys damage. Power: 100","mp":null,"point":null,"element":"Passive"},
+        {"name":"Fire Pierce","name_tw":"Fire Pierce","desc":"Fire attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+        {"name":"Elec Pierce","name_tw":"電擊貫通","desc":"Elec attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+        {"name":"Force Pierce","name_tw":"衝擊貫通","desc":"Force attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+        {"name":"Ice Pierce","name_tw":"衝擊貫通","desc":"Ice attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+        {"name":"Dark Pierce","name_tw":"衝擊貫通","desc":"Dark attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
+        //耐性
+        {"name":"Resist Phys","name_tw":"Resist Phys","desc":"Resist Phys damage","mp":null,"point":"12","element":"Passive"},
+        {"name":"Resist Fire","name_tw":"Resist Fire","desc":"Resist Fire damage","mp":null,"point":8,"element":"Passive"},
+        {"name":"Resist Ice","name_tw":"冰凍耐性","desc":"Resist Ice damage","mp":null,"point":8,"element":"Passive"},
+        {"name":"Resist Elec","name_tw":"電擊耐性","desc":"Resist Elec damage","mp":null,"point":8,"element":"Passive"},
+        {"name":"Resist Force","name_tw":"衝擊耐性","desc":"Resist Force damage","mp":null,"point":8,"element":"Passive"},
+        {"name":"Resist Light","name_tw":"Resist Light","desc":"Resist Light damage","mp":null,"point":8,"element":"Passive"},
+        {"name":"Resist Dark","name_tw":"咒殺耐性","desc":"Resist Dark damage","mp":null,"point":8,"element":"Passive"},
 
-            {"name":"Eat Whole","name_tw":"大快朵頤","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":6,"element":"Physical"},
-            {"name":"Binge Eating","name_tw":"Binge Eating","desc":"Inflicts Phys (Physical) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":8,"element":"Physical"},
-            {"name":"Ouas","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 160 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":null,"element":"Physical"},
-            {"name":"Power Hit","name_tw":"捨身一擊","desc":"Use 10% of own HP to inflict Phys (Physical) damage with 170 power on a Single Enemy.","mp":7,"point":6,"element":"Physical"},
-            {"name":"Bleeder","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy and reduces MP by 2.","mp":6,"point":null,"element":"Physical"}
-        ]
-    },
-    {
-        name:"Fire",
-        name_tw:"Fire",
-        name_en:"",
-        skills:[
-            //火
-            {"name":"Agi","name_tw":"亞基","desc":"Inflicts Fire (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Fire"},
-            {"name":"Agilao","name_tw":"亞基拉歐","desc":"Inflicts Fire (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Fire"},
-            {"name":"Agidyne","name_tw":"亞基達因","desc":"Inflicts Fire (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Fire"},
-            {"name":"Trisagion","name_tw":"多利斯亞基翁","desc":"Inflicts Fire (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Fire"},
-            
-            {"name":"Maragi","name_tw":"瑪哈拉基","desc":"Inflicts Fire (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Fire"},
-            {"name":"Maragion","name_tw":"瑪哈拉基翁","desc":"Inflicts Fire (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Fire"},
-            {"name":"Maragidyne","name_tw":"瑪哈亞吉達因","desc":"Inflicts Fire (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Fire"},
-            
-            {"name":"Fire Breath","name_tw":"火焰吐息","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Fire"},
-            {"name":"Hellfire","name_tw":"地獄業火","desc":"Inflicts Fire (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":"10","element":"Fire"},
-            
-            {"name":"Ragnarok","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 215 power on a Single Enemy. Adds 20% damage to this skill based on your Phys ATK status.","mp":7,"point":null,"element":"Fire"},
-            {"name":"MahaLantine","name_tw":"諸神的黃昏","desc":"Inflicts Fire (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Fire"}
-        ]
-    },
-    {
-        name:"Ice",
-        name_tw:"冰凍",
-        name_en:"",
-        skills:[
-            //冰
-            {"name":"Bufu","name_tw":"布芙","desc":"Inflicts Ice (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Ice"},
-            {"name":"Bufula","name_tw":"布芙拉","desc":"Inflicts Ice (Magic) damage with 140 power on a Single Enemy.","mp":"5","point":"6","element":"Ice"},
-            {"name":"Bufudyne","name_tw":"布芙達因","desc":"Inflicts Ice (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Ice"},
-            {"name":"Ice Age","name_tw":"大冰河時期","desc":"Inflicts Ice (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Ice"},
-            
-            {"name":"Mabufu","name_tw":"瑪哈布芙","desc":"Inflicts Ice (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Ice"},
-            {"name":"Mabufula","name_tw":"瑪哈布芙拉","desc":"Inflicts Ice (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Ice"},
-            {"name":"Mabufudyne","name_tw":"瑪哈布芙達因","desc":"Inflicts Ice (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Ice"},
-            
-            {"name":"Ice Breath","name_tw":"極寒吐息","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Ice"},
-            {"name":"Glacial Blast","name_tw":"絕對零度","desc":"Inflicts Ice (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Ice"},
-            
-            {"name":"Cold World","name_tw":"Cold World","desc":"Inflicts Ice (Magic) damage with 130 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":7,"point":null,"element":"Ice"},
-            {"name":"MahaFrosty","name_tw":"諸神的黃昏","desc":"Inflicts Ice (Magic) damage with 50 power on All Enemies twice.","mp":7,"point":null,"element":"Ice"}
-        ]
-    },
-    {
-        name:"Elec",
-        name_tw:"電擊",
-        name_en:"",
-        skills:[
-            //雷
-            {"name":"Zio","name_tw":"吉歐","desc":"Inflicts Elec (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Elec"},
-            {"name":"Zionga","name_tw":"吉歐加","desc":"Inflicts Elec (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Elec"},
-            {"name":"Ziodyne","name_tw":"吉歐達因","desc":"Inflicts Elec (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Elec"},
-            {"name":"Thunder Reign","name_tw":"真理之雷","desc":"Inflicts Elec (Magic) damage with 180 power on a Single Enemy.","mp":"7","point":12,"element":"Elec"},
-            
-            {"name":"Mazio","name_tw":"瑪哈吉歐","desc":"Inflicts Elec (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Elec"},
-            {"name":"Mazionga","name_tw":"瑪哈吉歐加","desc":"Inflicts Elec (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Elec"},
-            {"name":"Maziodyne","name_tw":"瑪哈吉歐達因","desc":"Inflicts Elec (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Elec"},
-            
-            {"name":"Shock","name_tw":"Shock","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Elec"},
-            {"name":"Bolt Storm","name_tw":"衝擊波","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Elec"},
-            {"name":"Mjolnir","name_tw":"雷神之槌","desc":"Inflicts Elec (Magic) damage 4 to 5 times with 60 power on Random Enemy/ies.","mp":7,"point":null,"element":"Elec"}
-        ]
-    },
-    {
-        name:"Force",
-        name_tw:"衝擊",
-        name_en:"",
-        skills:[
-            //衝
-            {"name":"Zan","name_tw":"颯","desc":"Inflicts Force (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Force"},
-            {"name":"Zanma","name_tw":"颯瑪","desc":"Inflicts Force (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Force"},
-            {"name":"Zandyne","name_tw":"颯達因","desc":"Inflicts Force (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Force"},
-            {"name":"Killing Wind","name_tw":"Deadly Wind","desc":"Inflicts Force (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Force"},
-            
-            {"name":"Mazan","name_tw":"瑪哈颯","desc":"Inflicts Force (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Force"},
-            {"name":"Mazanma","name_tw":"瑪哈颯瑪","desc":"Inflicts Force (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Force"},
-            {"name":"Mazandyne","name_tw":"瑪哈颯達因","desc":"Inflicts Force (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Force"},
-            
-            {"name":"Wind Breath","name_tw":"狂風吐息","desc":"Inflicts Force (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Force"},
-            {"name":"Twister","name_tw":"龍捲風","desc":"Inflicts Force (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Force"},
-            
-            {"name":"Kusanagi","name_tw":"","desc":"Inflicts Force (Magic) damage with 205 power on a Single Enemy and increases own party's ATK 20% for 3 turns. The damage inflicted by this skill is dependent on Phys ATK.","mp":6,"point":null,"element":"Force"}
-        ]
-    },
-    {
-        name:"Light",
-        name_tw:"Light",
-        name_en:"",
-        skills:[
-            //Light
-            {"name":"Hama","name_tw":"哈瑪","desc":"Inflicts Light (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Light"},
-            {"name":"Hamaon","name_tw":"哈瑪翁","desc":"Inflicts Light (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Light"},
-            {"name":"Hamadyne","name_tw":"哈瑪達因","desc":"Inflicts Light (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Light"},
-            {"name":"Thunderclap","name_tw":"制裁雷火","desc":"Inflicts Light (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Light"},
-            
-            {"name":"Mahama","name_tw":"瑪哈瑪","desc":"Inflicts Light (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Light"},
-            {"name":"Mahamaon","name_tw":"瑪哈瑪翁","desc":"Inflicts Light (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Light"},
-            {"name":"Mahamadyne","name_tw":"瑪翰達因","desc":"Inflicts Light (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Light"},
-            
-            {"name":"Judgement Light","name_tw":"審判之光","desc":"Inflicts Light (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":7,"point":7,"element":"Light"},
-            {"name":"Holy Wrath","name_tw":"天譴","desc":"Inflicts Light (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Light"},
-            {"name":"Soul Judgement","name_tw":"斷罪刑魂","desc":"Inflicts Light (Magic) damage 7 times with 30 power on Random Enemy/ies.","mp":5,"point":null,"element":"Light"},
-            
-            {"name":"God's Bow","name_tw":"神差箭矢","desc":"Inflicts Light (Magic) damage with 200 power on a Single Enemy, with 50% kill rate. (2 Uses)","mp":7,"point":null,"element":"Light"},
-            {"name":"Trial of Hate","name_tw":"憎惡的試煉","desc":"Inflicts Light (Magic) damage with 130 power on All Enemies and increases ATK or DEF or EVA/ACC by 20% for 3 turns.","mp":7,"point":null,"element":"Light"}
-        ]
-    },
-    {
-        name:"Dark",
-        name_tw:"咒殺",
-        name_en:"",
-        skills:[
-            //Dark
-            {"name":"Mudo","name_tw":"姆多","desc":"Inflicts Dark (Magic) damage with 120 power on a Single Enemy.","mp":4,"point":1,"element":"Dark"},
-            {"name":"Mudoon","name_tw":"姆多翁","desc":"Inflicts Dark (Magic) damage with 140 power on a Single Enemy.","mp":5,"point":6,"element":"Dark"},
-            {"name":"Mudodyne","name_tw":"姆多達因","desc":"Inflicts Dark (Magic) damage with 160 power on a Single Enemy.","mp":6,"point":9,"element":"Dark"},
-            {"name":"Hell Gaze","name_tw":"Hell Gaze","desc":"Inflicts Dark (Magic) damage with 180 power on a Single Enemy.","mp":7,"point":12,"element":"Dark"},
-            
-            {"name":"Mamudo","name_tw":"瑪哈姆多","desc":"Inflicts Dark (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Dark"},
-            {"name":"Mamudoon","name_tw":"瑪哈姆多翁","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Dark"},
-            {"name":"Mamudodyne","name_tw":"瑪哈姆多翁","desc":"Inflicts Dark (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Dark"},
-            
-            {"name":"Evil Gaze","name_tw":"邪惡之眼","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Dark"},
-            {"name":"Purgatory","name_tw":"Purgatory","desc":"Inflicts Dark (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Dark"},
-            
-            {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":null,"element":"Dark"},
-            {"name":"Gluttony","name_tw":"暴食重罪","desc":"Inflicts Dark (Magic) damage with 130 power on All Enemies, while healing caster 50% of damage dealt.","mp":7,"point":null,"element":"Dark"},
-            {"name":"Go to Hell!","name_tw":"可以為我而死嗎？","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies with a 80% chance to inflict Curse. The damage is done with Dark Pierce.","mp":7,"point":null,"element":"Dark"},
-            {"name":"Die for Me!","name_tw":"可以為我而死嗎？","desc":"Kills a Single Enemy. 1 Use.","mp":7,"point":null,"element":"Dark"}
-        ]
-    },
-    {
-        name:"Almighty",
-        name_tw:"萬能",
-        name_en:"",
-        skills:[
-            {"name":"Life Drain","name_tw":"Life Drain","desc":"Inflicts Almighty (Magic) damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":3,"element":"Almighty"},
-            {"name":"Deathtouch","name_tw":"死亡之觸","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":6,"element":"Almighty"},
-            {"name":"Spirit Drain","name_tw":"Spirit Drain","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 1MP.","mp":6,"point":3,"element":"Almighty"},
-            {"name":"Mind Blast","name_tw":"Mind Blast","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy and drains 4MP.","mp":7,"point":8,"element":"Almighty"},
-            {"name":"Energy Drain","name_tw":"能量抽取","desc":"Inflicts Almighty (Magic) damage with 100 power on a Single Enemy, while healing caster 25% of damage dealt and drains 1MP.","mp":7,"point":6,"element":"Almighty"},
-            {"name":"Soul Drain","name_tw":"靈魂抽取","desc":"Inflicts Almighty (Magic) damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt and drains 1MP.","mp":8,"point":7,"element":"Almighty"},
-            
-            {"name":"Megido","name_tw":"米吉朵","desc":"Inflicts Almighty (Magic) damage with 80 power on All Enemies.","mp":6,"point":5,"element":"Almighty"},
-            {"name":"Megidola","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies.","mp":7,"point":8,"element":"Almighty"},
-            {"name":"Megidolaon","name_tw":"米吉朵拉翁","desc":"Inflicts Almighty (Magic) damage with 120 power on All Enemies.","mp":8,"point":"12","element":"Almighty"},
-            
-            {"name":"Sea of Chaos","name_tw":"混沌之海","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's DEF 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
-            {"name":"Demon Birth Cry","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's ATK 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
-            {"name":"Rattle","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and reduces enemy's EV/AC 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
-            {"name":"Necro Dogma","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases allies DEF 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
-            {"name":"Judgement","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's ATK 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
-            {"name":"Foresight","name_tw":"審判","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies and increases own party's EV/AC 20% for 3 turns.","mp":9,"point":12,"element":"Almighty"},
-            
-            {"name":"Mind Break","name_tw":"Mind Break","desc":"Inflicts Almighty (Magic) damage with 80 power on a Single Enemy and reduces MP by 3 MP.","mp":5,"point":6,"element":"Almighty"},
-            {"name":"Fire of Sinai","name_tw":"西奈的神火","desc":"Inflicts Almighty (Magic) damage 5 times with 45 power on Random Enemy/ies.","mp":7,"point":null,"element":"Almighty"},
-            {"name":"Pralaya","name_tw":"大劫","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies while removing Repel Phys and Repel Mag. The damage inflicted by this skill is dependent on Phys ATK.","mp":8,"point":null,"element":"Almighty"},
-            {"name":"Apocalypse","name_tw":"默示錄","desc":"Inflicts Almighty (Magic) damage with 110 power on All Enemies with 30% chance to inflict Mute.","mp":8,"point":null,"element":"Almighty"},
-            {"name":"Morning Star","name_tw":"拂曉明星","desc":"Inflicts Almighty (Magic) damage with 150 power on All Enemies. (3 uses)","mp":8,"point":null,"element":"Almighty"},
-            {"name":"Divine Bows' Allure","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 190 power on a Single Enemy with 45% chance to inflict Charm.","mp":8,"point":null,"element":"Almighty"},
-            {"name":"God's Malice","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 120 power on a single enemy with 30% chance to inflict Poison, Bind, Mute and Charm.","mp":7,"point":null,"element":"Almighty"},
-            {"name":"Mesopotamian Star","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage with 100 power on All Enemies. Reduces enemy's ATK by 20% and increases own party's ATK by 20%. (3 turns)","mp":8,"point":null,"element":"Almighty"},
-            {"name":"Babylon Goblet","name_tw":"米吉朵拉","desc":"Inflicts Almighty (Magic) damage with 100 power and drains 1 MP on All Enemies.","mp":8,"point":null,"element":"Almighty"},
-            {"name":"Brahmastra","name_tw":"魅惑神弓","desc":"Inflicts Almighty (Magic) damage 3 times with 40 power on All Enemies.","mp":7,"point":null,"element":"Almighty"}
-        ]
-    },
-    {
-        name:"Recovery",
-        namw_tw:"Recovery",
-        name_en:"Heal",
-        skills:[
-            //回
-            {"name":"Dia","name_tw":"迪亞","desc":"Heals a Single Party Member with 50 power. (9 uses)","mp":4,"point":1,"element":"Null"},
-            {"name":"Diara","name_tw":"迪亞拉","desc":"Heals a Single Party Member with 90 power. (9 uses)","mp":5,"point":5,"element":"Null"},
-            {"name":"Diarama","name_tw":"迪亞拉瑪","desc":"Heals a Single Party Member with 130 power. (9 uses)","mp":6,"point":8,"element":"Null"},
-            {"name":"Diarahan","name_tw":"迪亞拉瑪翰","desc":"Heals a Single Party Member with 170 power. (9 uses)","mp":7,"point":"11","element":"Null"},
-            {"name":"Media","name_tw":"梅迪亞","desc":"Heals All Party Members with 25 power. (9 uses)","mp":6,"point":2,"element":"Null"},
-            {"name":"Mediara","name_tw":"梅迪拉","desc":"Heals All Party Members with 60 power. (9 uses)","mp":7,"point":5,"element":"Null"},
-            {"name":"Mediarama","name_tw":"梅迪拉瑪","desc":"Heals All Party Members with 95 power. (9 uses)","mp":8,"point":8,"element":"Null"},
-            {"name":"Mediarahan","name_tw":"梅迪亞拉翰","desc":"Heals All Party Members with 130 power. (9 uses)","mp":9,"point":"11","element":"Null"},
-            {"name":"Salvation","name_tw":"救世主喚起者","desc":"Heals All Party Members with 95 power. Cures all status aliments. (3 uses)","mp":"9","point":"15","element":"Null"},
-            {"name":"Orleans Prayer","name_tw":"","desc":"Heals a Single Party Member with 130 power and recovers 3 MP. (6 uses)","mp":null,"point":null,"element":"Null"},
-            //持回
-            {"name":"Lydia","name_tw":"利迪亞","desc":"Casts Lydia on a Single Party Member, healing their HP at the beginning of their turn for 3 turns.","mp":4,"point":8,"element":"Null"},
-            {"name":"Lydia Break","name_tw":"利迪亞破壞","desc":"Removes Lydia from All Enemies.","mp":3,"point":6,"element":"Null"},
-            //復活
-            {"name":"Recarm","name_tw":"利卡姆","desc":"Revive a Single Party Member with 10% HP. (3 uses)","mp":6,"point":6,"element":"Null"},
-            {"name":"Samarecarm","name_tw":"薩瑪利卡姆","desc":"Revive a Single Party Member with full HP. (1 use)","mp":8,"point":8,"element":"Null"},
-            {"name":"Recarmdra","name_tw":"利卡姆托拉","desc":"Revive All Party Members with full HP, caster dies. (1 use)","mp":8,"point":"10","element":"Null"},
-            {"name":"Mother's Creation","name_tw":"","desc":"Revive a Single Party Member with full HP and endows Lydia. (1 use)","mp":8,"point":null,"element":"Null"},
-            {"name":"Ce Acatls' Return","name_tw":"","desc":"Revive All Party Members with full HP. (1 use)","mp":7,"point":null,"element":"Null"},
-            //解毒
-            {"name":"Posumudi","name_tw":"病毒解除術","desc":"Cures a Single Party Member of Poison. Reduces the chance of being Poisoned during this wave by 30%.","mp":3,"point":1,"element":"Null"},
-            {"name":"Meposumudi","name_tw":"梅波茲姆迪","desc":"Cures All Party Members of Poison. Reduces the chance of being Poisoned during this wave by 30%.","mp":4,"point":5,"element":"Null"},
-            //解封
-            {"name":"Closedi","name_tw":"克洛茲迪","desc":"Cures a Single Party Member of Mute. Reduces the chance of being Muteed during this wave by 30%.","mp":3,"point":1,"element":"Null"},
-            {"name":"Meclosedi","name_tw":"梅克洛茲迪","desc":"Cures All Party Members of Mute. Reduces the chance of being Muteed during this wave by 30%.","mp":4,"point":5,"element":"Null"},
-            //解縛
-            {"name":"Paraladi","name_tw":"帕拉拉迪","desc":"Cures a Single Party Member of Bind. Reduces the chance of being Binded during this wave by 30%.","mp":3,"point":1,"element":"Null"},
-            {"name":"Meparaladi","name_tw":"梅帕拉拉迪","desc":"Cures All Party Members of Bind. Reduces the chance of being Binded during this wave by 30%.","mp":4,"point":5,"element":"Null"},
-            //解魅
-            {"name":"Charmdi","name_tw":"查姆蒂","desc":"Cures a Single Party Member of Charm. Reduces the chance of being Charmed during this wave by 30%.","mp":3,"point":1,"element":"Null"},
-            {"name":"Mecharmdi","name_tw":"梅查姆蒂","desc":"Cures All Party Members of Charm. Reduces the chance of being Charmed during this wave by 30%.","mp":4,"point":5,"element":"Null"},
-            //解呪
-            {"name":"Cursedi","name_tw":"卡斯迪","desc":"Cures a Single Party Member of Curse. Reduces the chance of being Cursed during this wave by 30%.","mp":3,"point":1,"element":"Null"},
-            {"name":"Mecursedi","name_tw":"梅卡斯迪","desc":"Cures All Party Members of Curse. Reduces the chance of being Cursed during this wave by 30%.","mp":4,"point":5,"element":"Null"},
-            //解虛
-            {"name":"Weakdi","name_tw":"溫坤迪","desc":"Cures a Single Party Member of Weak. Reduces the chance of being Weakened during this wave by 30%.","mp":3,"point":1,"element":"Null"},
-            {"name":"Meweakdi","name_tw":"梅溫庫迪","desc":"Cures All Party Members of Weak. Reduces the chance of being Weakened during this wave by 30%.","mp":4,"point":5,"element":"Null"},
-            //解異常
-            {"name":"Amrita","name_tw":"甘露","desc":"Cures all status ailments of a Single Party Member.","mp":4,"point":3,"element":"Null"},
-            {"name":"Prayer","name_tw":"永恆的祈禱","desc":"Cures all status ailments of All Party Members.","mp":5,"point":8,"element":"Null"},
-            {"name":"Silent Prayer","name_tw":"寂靜的禱告","desc":"Cures all status ailments of All Party Members and Enemies.","mp":7,"point":8,"element":"Null"},
-            //狀態
-            {"name":"Barrier","name_tw":"防壁","desc":"Casts a Barrier on a Single Party Member, granting immunity to all status ailments for 3 turns.","mp":4,"point":8,"element":"Null"},
-            {"name":"Barrier Break","name_tw":"防壁破壞","desc":"Remove Barrier from All Enemies.","mp":3,"point":6,"element":"Null"}
-        ]
-    },
-    {
-        name:"Ailment",
-        name_tw:"Ailment",
-        name_en:"",
-        skills:[
-            //毒
-            {"name":"Poisma","name_tw":"波伊佐瑪","desc":"40% chance to inflict Poison on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Poismaon","name_tw":"波伊佐瑪翁","desc":"50% chance to inflict Poison on a Single Enemy.","mp":6,"point":8,"element":"Null"},
-            {"name":"Mahapoisma","name_tw":"瑪哈波伊佐瑪","desc":"30% chance to inflict Poison on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahapoismaon","name_tw":"瑪哈波伊佐瑪翁","desc":"40% chance to inflict Poison on All Enemies.","mp":7,"point":9,"element":"Null"},
-            {"name":"Poison Breath","name_tw":"猛毒吐息","desc":"30% chance to inflict Poison 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
-            //縛
-            {"name":"Shibaboo","name_tw":"希巴縛","desc":"40% chance to inflict Bind on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Shibaboon","name_tw":"希巴縛翁","desc":"50% chance to inflict Bind on a Single Enemy.","mp":6,"point":8,"element":"Null"},
-            {"name":"Mahashibaboo","name_tw":"瑪哈希巴縛","desc":"30% chance to inflict Bind on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahashibaboon","name_tw":"瑪哈希巴縛翁","desc":"40% chance to inflict Bind on All Enemies.","mp":7,"point":9,"element":"Null"},
-            {"name":"Binding Cry","name_tw":"束縛咆嘯","desc":"30% chance to inflict Bind 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
-            //魅
-            {"name":"Marin Karin","name_tw":"瑪琳卡琳","desc":"40% chance to inflict Charm on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Marin Karion","name_tw":"瑪琳卡琳翁","desc":"50% chance to inflict Charm on a Single Enemy.","mp":6,"point":8,"element":"Null"},
-            {"name":"Mahamarin Karin","name_tw":"瑪哈瑪琳卡琳","desc":"30% chance to inflict Charm on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahamarin Karion","name_tw":"瑪哈瑪琳卡琳翁","desc":"40% chance to inflict Charm on All Enemies.","mp":7,"point":9,"element":"Null"},
-            {"name":"Sexy Dance","name_tw":"色誘之舞","desc":"30% chance to inflict Charm 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
-            {"name":"Lotus Dance","name_tw":"蓮華之舞","desc":"60% chance to inflict Charm on All Enemies.","mp":6,"point":null,"element":"Null"},
-            //封
-            {"name":"Makajam","name_tw":"瑪卡加瑪","desc":"40% chance to inflict Mute on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Makajamaon","name_tw":"瑪卡加瑪翁","desc":"50% chance to inflict Mute on a Single Enemy.","mp":6,"point":8,"element":"Null"},
-            {"name":"Mahamakajam","name_tw":"瑪哈瑪卡加瑪","desc":"30% chance to inflict Mute on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahamakajamaon","name_tw":"瑪哈瑪卡加瑪翁","desc":"40% chance to inflict Mute on All Enemies.","mp":7,"point":9,"element":"Null"},
-            {"name":"White Noise","name_tw":"白茫噪音","desc":"30% chance to inflict Mute 2 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
-            //呪
-            {"name":"Ju","name_tw":"祖","desc":"50% chance to inflict Curse on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Juon","name_tw":"祖翁","desc":"60% chance to inflict Curse on a Single Enemy.","mp":6,"point":8,"element":"Null"},
-            {"name":"Mahaju","name_tw":"瑪哈祖","desc":"40% chance to inflict Curse on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Mahajuon","name_tw":"瑪哈祖翁","desc":"50% chance to inflict Curse on All Enemies.","mp":7,"point":9,"element":"Null"},
-            {"name":"Vengeance","name_tw":"報應","desc":"40% chance to inflict Curse 1 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
-            //虛
-            {"name":"Dezoreto","name_tw":"特奏累托","desc":"70% chance to inflict Weak on a Single Enemy.","mp":5,"point":2,"element":"Null"},
-            {"name":"Dezoreton","name_tw":"特奏累托翁","desc":"80% chance to inflict Weak on a Single Enemy.","mp":6,"point":8,"element":"Null"},
-            {"name":"Madezoreto","name_tw":"瑪哈特奏累托","desc":"60% chance to inflict Weak on All Enemies.","mp":6,"point":5,"element":"Null"},
-            {"name":"Madezoreton","name_tw":"瑪哈特奏累托翁","desc":"70% chance to inflict Weak on All Enemies.","mp":7,"point":9,"element":"Null"},
-            {"name":"Outbreak","name_tw":"威力爆發","desc":"60% chance to inflict Weak 1 to 4 times on Random Enemy/ies.","mp":6,"point":7,"element":"Null"},
-            {"name":"Plague of Babylon","name_tw":"威力爆發","desc":"80% chance to inflict Weak on all enemies after removing Barriers from all enemies.","mp":6,"point":null,"element":"Null"}
-        ]
-    },
-    {
-        name:"Support",
-        name_tw:"Support",
-        name_en:"",
-        skills:[
-            //蓄力
-            {"name":"Charge","name_tw":"蓄力","desc":"Self enters a state of Charge. Increases the next Phys attack damage by 125%.","mp":6,"point":8,"element":"Null"},
-            {"name":"Rebellion","name_tw":"反叛","desc":"Self enters a state of Might. The next Phys attack will have a Critical effect.","mp":4,"point":8,"element":"Null"},
-            {"name":"Mega Boost","name_tw":"反叛魔象","desc":"Self enters a state of Charge and Might. Increases the next Phys attack damage by 125% and will have a Critical effect.","mp":6,"point":null,"element":"Null"},
-            {"name":"Concentrate","name_tw":"專注","desc":"Self enters a state of Concentrate. Increases the next Mag attack damage by 125%.","mp":6,"point":8,"element":"Null"},
-            {"name":"Discord","name_tw":"異調相斥","desc":"Removes Charge, Concentrate and Might from All Enemies.","mp":3,"point":6,"element":"Null"},
-            {"name":"Tag","name_tw":"下一位","desc":"Self skips a turn without using a Press Turn Icon.","mp":3,"point":6,"element":"Null"},
-            //反射
-            {"name":"Tetrakarn","name_tw":"提特拉康","desc":"All Party Members repels Physical damage for 1 turn.","mp":7,"point":8,"element":"Null"},
-            {"name":"Makarakarn","name_tw":"瑪卡拉康","desc":"All Party Members repels Magic damage for 1 turn.","mp":7,"point":8,"element":"Null"},
-            {"name":"Five Elements ","name_tw":"Five Elements ","desc":"All Party Members repels Magic (including Almighty) damage for 1 turn.","mp":6,"point":null,"element":"Null"},
-            {"name":"Tetra Break","name_tw":"提特拉破壞","desc":"Removes Repel Phys from All Enemies.","mp":3,"point":6,"element":"Null"},
-            {"name":"Makara Break","name_tw":"瑪卡拉破壞","desc":"Removes Repel Mag from All Enemies.","mp":3,"point":6,"element":"Null"},
-            //防即死
-            {"name":"Tetraja","name_tw":"","desc":"All Party Members will evade Instant Kill for 1 turn","mp":4,"point":null,"element":"Null"},
-            //強弱化
-            {"name":"Tarukaja","name_tw":"塔爾卡加","desc":"Increases ATK of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
-            {"name":"Rakukaja","name_tw":"拉庫卡加","desc":"Increases DEF of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
-            {"name":"Sukukaja","name_tw":"斯庫卡加","desc":"Increases EV/AC of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
-            {"name":"Tarunda","name_tw":"塔倫達","desc":"Reduces ATK of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
-            {"name":"Rakunda","name_tw":"拉昆達","desc":"Reduces DEF of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
-            {"name":"Sukunda","name_tw":"斯坤達","desc":"Reduces EV/AC of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
-            {"name":"Dekaja","name_tw":"迪卡加","desc":"Remove buffs from All Enemies.","mp":5,"point":4,"element":"Null"},
-            {"name":"Dekunda","name_tw":"迪坤達","desc":"Remove debuffs from All Party Members.","mp":5,"point":4,"element":"Null"},
+        {"name":"Null Phys","name_tw":"物理無效","desc":"Nullify Phys damage","mp":null,"point":"18","element":"Passive"},
+        {"name":"Null Fire","name_tw":"火炎無效","desc":"Nullify Fire damage","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Ice","name_tw":"冰凍無效","desc":"Nullify Ice damage","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Elec","name_tw":"電擊無效","desc":"Nullify Elec damage","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Force","name_tw":"衝擊無效","desc":"Nullify Force damage","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Light","name_tw":"破魔無效","desc":"Nullify Light damage","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Dark","name_tw":"咒殺無效","desc":"Nullify Dark damage","mp":null,"point":"12","element":"Passive"},
 
-            {"name":"Barong Dance","name_tw":"巴隆之舞","desc":"Heals All Party Members with 95 power and increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns. (3 uses)","mp":7,"point":null,"element":"Null"},
-            {"name":"Tenson Kourin","name_tw":"Tenson Kourin","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 6 turns. (3 uses)","mp":8,"point":null,"element":"Null"},
-            {"name":"Luster Candy","name_tw":"","desc":"Increases ATK, DEF, EV/AC of All Party Members by 20% for 3 turns.","mp":7,"point":15,"element":"Null"},
-            {"name":"Agile Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy EV/AC and increases own parties EV/AC by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
-            {"name":"Offensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy DEF and increases own parties ATK by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
-            {"name":"Defensive Cry","name_tw":"塔爾卡加","desc":"Reduces all enemy ATK and increases own parties DEF by 20%. (3 turns)","mp":7,"point":15,"element":"Null"},
-            {"name":"War Dance","name_tw":"塔爾卡加","desc":"Increases own parties ATK and DEF by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
-            {"name":"Nocturne","name_tw":"塔爾卡加","desc":"Increases own parties DEF and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
-            {"name":"Blood Rush","name_tw":"塔爾卡加","desc":"Increases own parties ATK and EV/AC by 20%. (3 turns)","mp":6,"point":null,"element":"Null"},
-            {"name":"War Cry","name_tw":"吶喊","desc":"Reduces ATK and DEF of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
-            {"name":"Acid Breath","name_tw":"溶解吐息","desc":"Reduces DEF and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
-            {"name":"Fog Breath","name_tw":"迷霧吐息","desc":"Reduces ATK and EV/AC of All Enemies by 20% for 3 turns.","mp":6,"point":8,"element":"Null"},
-            {"name":"Taunt","name_tw":"挑釁","desc":"Increases ATK and reduces of DEF of All Enemies by 20% for 3 turns.","mp":3,"point":8,"element":"Null"},
-            {"name":"Debilitate","name_tw":"女巫詛咒","desc":"Reduces ATK, DEF, and EV/AC of All Enemies by 20% for 3 turns.","mp":8,"point":"15","element":"Null"},
-            {"name":"Red Zone","name_tw":"女巫詛咒","desc":"All Party Members enter a state of Might. The next Phys attack will have a Critical effect. (3 uses)","mp":7,"point":null,"element":"Null"},
-            {"name":"Dark Pandemic","name_tw":"女巫詛咒","desc":"Remove buffs from All Enemies, then reduces ATK or DEF or EV/AC of All Enemies by 20% for 3 turns.","mp":5,"point":null,"element":"Null"}
-        ]
+        {"name":"Repel Phys","name_tw":"物理反射","desc":"Repel Phys damage","mp":null,"point":null,"element":"Passive"},
+        {"name":"Repel Fire","name_tw":"Repel Fire","desc":"Repel Fire damage","mp":null,"point":"16","element":"Passive"},
+        {"name":"Repel Ice","name_tw":"冰凍反射","desc":"Repel Ice damage","mp":null,"point":"16","element":"Passive"},
+        {"name":"Repel Elec","name_tw":"電擊反射","desc":"Repel Elec damage","mp":null,"point":"16","element":"Passive"},
+        {"name":"Repel Force","name_tw":"衝擊反射","desc":"Repel Force damage","mp":null,"point":"16","element":"Passive"},
+        {"name":"Repel Light","name_tw":"Repel Light","desc":"Repel Light damage","mp":null,"point":"16","element":"Passive"},
+        {"name":"Repel Dark","name_tw":"咒殺反射","desc":"Repel Dark damage","mp":null,"point":"16","element":"Passive"},
+
+        {"name":"Drain Phys","name_tw":"物理吸收","desc":"Drain Phys damage","mp":null,"point":"30","element":"Passive"},
+        {"name":"Drain Fire","name_tw":"火炎吸收","desc":"Drain Fire damage","mp":null,"point":"20","element":"Passive"},
+        {"name":"Drain Ice","name_tw":"冰凍吸收","desc":"Drain Ice damage","mp":null,"point":"20","element":"Passive"},
+        {"name":"Drain Elec","name_tw":"電擊吸收","desc":"Drain Elec damage","mp":null,"point":"20","element":"Passive"},
+        {"name":"Drain Force","name_tw":"破魔吸收","desc":"Drain Force damage","mp":null,"point":"20","element":"Passive"},
+        {"name":"Drain Light","name_tw":"破魔吸收","desc":"Drain Light damage","mp":null,"point":"20","element":"Passive"},
+        {"name":"Drain Dark","name_tw":"破魔吸收","desc":"Drain Dark damage","mp":null,"point":"20","element":"Passive"},
+
+        {"name":"Resist Poison","name_tw":"Resist Poison","desc":"Poison resistance +50%","mp":null,"point":4,"element":"Passive"},
+        {"name":"Resist Bind","name_tw":"束縛耐性","desc":"Bind resistance +50%","mp":null,"point":4,"element":"Passive"},
+        {"name":"Resist Charm","name_tw":"魅惑耐性","desc":"Charm resistance +50%","mp":null,"point":4,"element":"Passive"},
+        {"name":"Resist Mute","name_tw":"Resist Mute","desc":"Mute resistance +50%","mp":null,"point":4,"element":"Passive"},
+        {"name":"Resist Curse","name_tw":"詛咒耐性","desc":"Curse resistance +50%","mp":null,"point":4,"element":"Passive"},
+        {"name":"Resist Weak","name_tw":"虛弱耐性","desc":"Weak resistance +50%","mp":null,"point":4,"element":"Passive"},
+
+        {"name":"Null Poison","name_tw":"毒無效","desc":"Immune to Poison","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Bind","name_tw":"束縛無效","desc":"Immune to Bind","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Charm","name_tw":"魅惑無效","desc":"Immune to Charm","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Mute","name_tw":"魔封無效","desc":"Immune to Mute","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Curse","name_tw":"詛咒無效","desc":"Immune to Curse","mp":null,"point":"12","element":"Passive"},
+        {"name":"Null Weak","name_tw":"虛弱無效","desc":"Immune to Weak","mp":null,"point":"12","element":"Passive"}
+      ]
     },
     {
-        name:"Resistance Passive",
-        name_tw:"屬性",
-        name_en:"",
-        skills:[
-            //強化
-            {"name":"Phys Boost","name_tw":"物理強化","desc":"+15% to Phys damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Phys Amp","name_tw":"高級物理強化","desc":"+25% to Phys damage.","mp":null,"point":"21","element":"Passive"},
-            {"name":"Fire Boost","name_tw":"火炎強化","desc":"+15% to Fire damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Fire Amp","name_tw":"高級火炎強化","desc":"+25% to Fire damage.","mp":null,"point":21,"element":"Passive"},
-            {"name":"Ice Boost","name_tw":"冰凍強化","desc":"+15% to Ice damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Ice Amp","name_tw":"高級冰凍強化","desc":"+25% to Ice damage.","mp":null,"point":21,"element":"Passive"},
-            {"name":"Elec Boost","name_tw":"電擊強化","desc":"+15% to Elec damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Elec Amp","name_tw":"高級電擊強化","desc":"+25% to Elec damage.","mp":null,"point":"21","element":"Passive"},
-            {"name":"Force Boost","name_tw":"衝擊強化","desc":"+15% to Force damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Force Amp","name_tw":"高級衝擊強化","desc":"+25% to Force damage.","mp":null,"point":"21","element":"Passive"},
-            {"name":"Light Boost","name_tw":"破魔強化","desc":"+15% to Light damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Light Amp","name_tw":"高級破魔強化","desc":"+25% to Light damage.","mp":null,"point":21,"element":"Passive"},
-            {"name":"Dark Boost","name_tw":"咒殺強化","desc":"+15% to Dark damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Dark Amp","name_tw":"高級咒殺強化","desc":"+25% to Dark damage.","mp":null,"point":"21","element":"Passive"},
-            {"name":"Recovery Boost","name_tw":"回復強化","desc":"+15% to Healing skill effectiveness.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Recovery Amp","name_tw":"高級回復強化","desc":"+25% to Healing skill effectiveness.","mp":null,"point":"21","element":"Passive"},
-            //貫通
-            {"name":"Phys Pierce","name_tw":"Phys Pierce","desc":"Phys attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            {"name":"Superior Power","name_tw":"帝王權威","desc":"+20% to Phys hit rate and adds Phys Pierce.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Warlord's Wrath","name_tw":"帝王權威","desc":"Adds Phys Pierce. Reduces 1 enemy Press Turn Icon at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects. When receiving a Phys Attack, 100% chance to counter dealing Phys damage. Power: 100","mp":null,"point":null,"element":"Passive"},
-            {"name":"Fire Pierce","name_tw":"Fire Pierce","desc":"Fire attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            {"name":"Elec Pierce","name_tw":"電擊貫通","desc":"Elec attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            {"name":"Force Pierce","name_tw":"衝擊貫通","desc":"Force attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            {"name":"Ice Pierce","name_tw":"衝擊貫通","desc":"Ice attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            {"name":"Dark Pierce","name_tw":"衝擊貫通","desc":"Dark attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            //耐性
-            {"name":"Resist Phys","name_tw":"Resist Phys","desc":"Resist Phys damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Resist Fire","name_tw":"Resist Fire","desc":"Resist Fire damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Ice","name_tw":"冰凍耐性","desc":"Resist Ice damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Elec","name_tw":"電擊耐性","desc":"Resist Elec damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Force","name_tw":"衝擊耐性","desc":"Resist Force damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Light","name_tw":"Resist Light","desc":"Resist Light damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Dark","name_tw":"咒殺耐性","desc":"Resist Dark damage","mp":null,"point":8,"element":"Passive"},
-
-            {"name":"Null Phys","name_tw":"物理無效","desc":"Nullify Phys damage","mp":null,"point":"18","element":"Passive"},
-            {"name":"Null Fire","name_tw":"火炎無效","desc":"Nullify Fire damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Ice","name_tw":"冰凍無效","desc":"Nullify Ice damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Elec","name_tw":"電擊無效","desc":"Nullify Elec damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Force","name_tw":"衝擊無效","desc":"Nullify Force damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Light","name_tw":"破魔無效","desc":"Nullify Light damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Dark","name_tw":"咒殺無效","desc":"Nullify Dark damage","mp":null,"point":"12","element":"Passive"},
-
-            {"name":"Repel Phys","name_tw":"物理反射","desc":"Repel Phys damage","mp":null,"point":null,"element":"Passive"},
-            {"name":"Repel Fire","name_tw":"Repel Fire","desc":"Repel Fire damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Ice","name_tw":"冰凍反射","desc":"Repel Ice damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Elec","name_tw":"電擊反射","desc":"Repel Elec damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Force","name_tw":"衝擊反射","desc":"Repel Force damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Light","name_tw":"Repel Light","desc":"Repel Light damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Dark","name_tw":"咒殺反射","desc":"Repel Dark damage","mp":null,"point":"16","element":"Passive"},
-
-            {"name":"Drain Phys","name_tw":"物理吸收","desc":"Drain Phys damage","mp":null,"point":"30","element":"Passive"},
-            {"name":"Drain Fire","name_tw":"火炎吸收","desc":"Drain Fire damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Ice","name_tw":"冰凍吸收","desc":"Drain Ice damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Elec","name_tw":"電擊吸收","desc":"Drain Elec damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Force","name_tw":"破魔吸收","desc":"Drain Force damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Light","name_tw":"破魔吸收","desc":"Drain Light damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Dark","name_tw":"破魔吸收","desc":"Drain Dark damage","mp":null,"point":"20","element":"Passive"},
-
-            {"name":"Resist Poison","name_tw":"Resist Poison","desc":"Poison resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Bind","name_tw":"束縛耐性","desc":"Bind resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Charm","name_tw":"魅惑耐性","desc":"Charm resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Mute","name_tw":"Resist Mute","desc":"Mute resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Curse","name_tw":"詛咒耐性","desc":"Curse resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Weak","name_tw":"虛弱耐性","desc":"Weak resistance +50%","mp":null,"point":4,"element":"Passive"},
-
-            {"name":"Null Poison","name_tw":"毒無效","desc":"Immune to Poison","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Bind","name_tw":"束縛無效","desc":"Immune to Bind","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Charm","name_tw":"魅惑無效","desc":"Immune to Charm","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Mute","name_tw":"魔封無效","desc":"Immune to Mute","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Curse","name_tw":"詛咒無效","desc":"Immune to Curse","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Weak","name_tw":"虛弱無效","desc":"Immune to Weak","mp":null,"point":"12","element":"Passive"}
-        ]
+      name:"Stat Passive",
+      name_tw:"Stat Passive",
+      name_en:"",
+      skills:[
+        //速度
+        {"name":"Speedster","name_tw":"急速之星","desc":"+50% to Battle Speed of this demon.","mp":null,"point":"10","element":"Passive"},
+        //命中
+        {"name":"Good Aim","name_tw":"百發百中","desc":"+10% to Phys hit rate.","mp":null,"point":4,"element":"Passive"},
+        {"name":"Great Aim","name_tw":"千發千中","desc":"+20% to Phys hit rate.","mp":null,"point":16,"element":"Passive"},
+        {"name":"Rasetsu","name_tw":"千發千中","desc":"+10% to Phys hit rate and casts Rebellion on self at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Dragon Sense","name_tw":"","desc":"+15% to Phys hit rate and +15% Phys evasion rate.","mp":null,"point":null,"element":"Passive"},
+        //迴避
+        {"name":"Dodge","name_tw":"識破","desc":"+10% Phys evasion rate.","mp":null,"point":4,"element":"Passive"},
+        {"name":"Evade","name_tw":"分寸識破","desc":"+20% Phys evasion rate.","mp":null,"point":"16","element":"Passive"},
+        {"name":"Vahana","name_tw":"神馭騎獸","desc":"+15% to Phys evasion rate. -30% chance of receiving status ailments.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Stealth","name_tw":"隱密","desc":"HP will stop at 1 upon receiving the first killing blow, and increases Phys evasion rate by +20%.","mp":null,"point":null,"element":"Passive"},
+        //異命
+        {"name":"Madness","name_tw":"凌亂綻放","desc":"+10% chance to inflict status ailments.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Insanity","name_tw":"狂亂綻放","desc":"+20% chance to inflict status ailments.","mp":null,"point":24,"element":"Passive"},
+        //狀防
+        {"name":"Hellish Mask","name_tw":"地域口罩","desc":"-35% chance of receiving status ailments.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"-60% chance of receiving status ailments.","mp":null,"point":16,"element":"Passive"},
+        {"name":"Mutant","name_tw":"稀人","desc":"Becomes immune to all status ailments.","mp":null,"point":null,"element":"Passive"},
+        //狀回
+        {"name":"Fast Recovery","name_tw":"自然痊癒","desc":"+20% to status ailment auto cure rate.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"+30% to status ailment auto cure rate.","mp":null,"point":16,"element":"Passive"},
+        //會增
+        {"name":"Bloody Glee","name_tw":"殺戮的愉悅","desc":"+15% to Critical hit rate.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Savage Glee","name_tw":"趕盡殺絕的愉悅","desc":"+25% to Critical hit rate.","mp":null,"point":"14","element":"Passive"},
+        //會減
+        {"name":"Wild Guess","name_tw":"野生直覺","desc":"-15% to Critical hit rate of damage received.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Wild Instinct","name_tw":"野獸直覺","desc":"-25% to Critical hit rate of damage received.","mp":null,"point":14,"element":"Passive"},
+        //
+        {"name":"Life Bonus","name_tw":"一分之活泉","desc":"+10% to Max HP.","mp":null,"point":3,"element":"Passive"},
+        {"name":"Life Gain","name_tw":"二分之活泉","desc":"+20% to Max HP.","mp":null,"point":7,"element":"Passive"},
+        {"name":"Life Surge","name_tw":"三分之活泉","desc":"+30% to Max HP.","mp":null,"point":15,"element":"Passive"},
+        {"name":"Mana Bonus","name_tw":"一分之魔脈","desc":"+1 to max MP.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"+2 to max MP.","mp":null,"point":15,"element":"Passive"},
+        {"name":"Mana Surge","name_tw":"二分之魔脈","desc":"+3 to max MP.","mp":null,"point":21,"element":"Passive"},
+        {"name":"Strength Amp I","name_tw":"初段之剛力","desc":"+5 to Strength.","mp":null,"point":3,"element":"Passive"},
+        {"name":"Magic Amp I","name_tw":"初段之賢魔","desc":"+5 to Magic.","mp":null,"point":3,"element":"Passive"},
+        {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"+5 to Vitality.","mp":null,"point":3,"element":"Passive"},
+        {"name":"Agility Amp I","name_tw":"初段之猛速","desc":"+5 to Agility.","mp":null,"point":3,"element":"Passive"},
+        {"name":"Luck Amp I","name_tw":"初段之強運","desc":"+5 to Luck.","mp":null,"point":3,"element":"Passive"},
+        {"name":"Strength Amp II","name_tw":"二段之剛力","desc":"+10 to Strength.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Magic Amp II","name_tw":"二段之賢魔","desc":"+10 to Magic.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"+10 to Vitality.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"+10 to Agility.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Luck Amp II","name_tw":"二段之強運","desc":"+10 to Luck.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"+15 to Strength.","mp":null,"point":32,"element":"Passive"},
+        {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"+15 to Magic.","mp":null,"point":32,"element":"Passive"},
+        {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"+15 to Vitality.","mp":null,"point":32,"element":"Passive"},
+        {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"+15 to Agility.","mp":null,"point":32,"element":"Passive"},
+        {"name":"Luck Amp III","name_tw":"三段之強運","desc":"+15 to Luck.","mp":null,"point":32,"element":"Passive"}
+      ]
     },
     {
-        name:"Stat Passive",
-        name_tw:"Stat Passive",
-        name_en:"",
-        skills:[
-            //速度
-            {"name":"Speedster","name_tw":"急速之星","desc":"+50% to Battle Speed of this demon.","mp":null,"point":"10","element":"Passive"},
-            //命中
-            {"name":"Good Aim","name_tw":"百發百中","desc":"+10% to Phys hit rate.","mp":null,"point":4,"element":"Passive"},
-            {"name":"Great Aim","name_tw":"千發千中","desc":"+20% to Phys hit rate.","mp":null,"point":16,"element":"Passive"},
-            {"name":"Rasetsu","name_tw":"千發千中","desc":"+10% to Phys hit rate and casts Rebellion on self at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Dragon Sense","name_tw":"","desc":"+15% to Phys hit rate and +15% Phys evasion rate.","mp":null,"point":null,"element":"Passive"},
-            //迴避
-            {"name":"Dodge","name_tw":"識破","desc":"+10% Phys evasion rate.","mp":null,"point":4,"element":"Passive"},
-            {"name":"Evade","name_tw":"分寸識破","desc":"+20% Phys evasion rate.","mp":null,"point":"16","element":"Passive"},
-            {"name":"Vahana","name_tw":"神馭騎獸","desc":"+15% to Phys evasion rate. -30% chance of receiving status ailments.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Stealth","name_tw":"隱密","desc":"HP will stop at 1 upon receiving the first killing blow, and increases Phys evasion rate by +20%.","mp":null,"point":null,"element":"Passive"},
-            //異命
-            {"name":"Madness","name_tw":"凌亂綻放","desc":"+10% chance to inflict status ailments.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Insanity","name_tw":"狂亂綻放","desc":"+20% chance to inflict status ailments.","mp":null,"point":24,"element":"Passive"},
-            //狀防
-            {"name":"Hellish Mask","name_tw":"地域口罩","desc":"-35% chance of receiving status ailments.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"-60% chance of receiving status ailments.","mp":null,"point":16,"element":"Passive"},
-            {"name":"Mutant","name_tw":"稀人","desc":"Becomes immune to all status ailments.","mp":null,"point":null,"element":"Passive"},
-            //狀回
-            {"name":"Fast Recovery","name_tw":"自然痊癒","desc":"+20% to status ailment auto cure rate.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"+30% to status ailment auto cure rate.","mp":null,"point":16,"element":"Passive"},
-            //會增
-            {"name":"Bloody Glee","name_tw":"殺戮的愉悅","desc":"+15% to Critical hit rate.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Savage Glee","name_tw":"趕盡殺絕的愉悅","desc":"+25% to Critical hit rate.","mp":null,"point":"14","element":"Passive"},
-            //會減
-            {"name":"Wild Guess","name_tw":"野生直覺","desc":"-15% to Critical hit rate of damage received.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Wild Instinct","name_tw":"野獸直覺","desc":"-25% to Critical hit rate of damage received.","mp":null,"point":14,"element":"Passive"},
-            //
-            {"name":"Life Bonus","name_tw":"一分之活泉","desc":"+10% to Max HP.","mp":null,"point":3,"element":"Passive"},
-            {"name":"Life Gain","name_tw":"二分之活泉","desc":"+20% to Max HP.","mp":null,"point":7,"element":"Passive"},
-            {"name":"Life Surge","name_tw":"三分之活泉","desc":"+30% to Max HP.","mp":null,"point":15,"element":"Passive"},
-            {"name":"Mana Bonus","name_tw":"一分之魔脈","desc":"+1 to max MP.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"+2 to max MP.","mp":null,"point":15,"element":"Passive"},
-            {"name":"Mana Surge","name_tw":"二分之魔脈","desc":"+3 to max MP.","mp":null,"point":21,"element":"Passive"},
-            {"name":"Strength Amp I","name_tw":"初段之剛力","desc":"+5 to Strength.","mp":null,"point":3,"element":"Passive"},
-            {"name":"Magic Amp I","name_tw":"初段之賢魔","desc":"+5 to Magic.","mp":null,"point":3,"element":"Passive"},
-            {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"+5 to Vitality.","mp":null,"point":3,"element":"Passive"},
-            {"name":"Agility Amp I","name_tw":"初段之猛速","desc":"+5 to Agility.","mp":null,"point":3,"element":"Passive"},
-            {"name":"Luck Amp I","name_tw":"初段之強運","desc":"+5 to Luck.","mp":null,"point":3,"element":"Passive"},
-            {"name":"Strength Amp II","name_tw":"二段之剛力","desc":"+10 to Strength.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Magic Amp II","name_tw":"二段之賢魔","desc":"+10 to Magic.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"+10 to Vitality.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"+10 to Agility.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Luck Amp II","name_tw":"二段之強運","desc":"+10 to Luck.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"+15 to Strength.","mp":null,"point":32,"element":"Passive"},
-            {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"+15 to Magic.","mp":null,"point":32,"element":"Passive"},
-            {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"+15 to Vitality.","mp":null,"point":32,"element":"Passive"},
-            {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"+15 to Agility.","mp":null,"point":32,"element":"Passive"},
-            {"name":"Luck Amp III","name_tw":"三段之強運","desc":"+15 to Luck.","mp":null,"point":32,"element":"Passive"}
-        ]
+      name:"Damage Passive",
+      name_tw:"Damage Passive",
+      name_en:"",
+      skills:[
+        {"name":"Assassin","name_tw":"Assassin","desc":"+10% to single-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% damage to skills that target all or random enemies.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Butcher","name_tw":"Butcher","desc":"+20% damage to skills that target all or random enemies.","mp":null,"point":"24","element":"Passive"},
+        
+        {"name":"Deadly Poison","name_tw":"毒追擊","desc":"+30% damage to Poisoned enemies.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"+30% damage to Charmed enemies.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Deadly Curse","name_tw":"魅惑追擊","desc":"+30% damage to Cursed enemies.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"+30% damage to Muted enemies.","mp":null,"point":13,"element":"Passive"},
+        {"name":"Death Lust","name_tw":"魅惑追擊","desc":"+25% damage to Charmed enemies. Has a 30% to Charm all enemies at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Curse of Distress","name_tw":"魅惑追擊","desc":"+10% damage to Cursed enemies. -10% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Curse of Anguish","name_tw":"魔封追擊","desc":"+15% damage to Cursed enemies. -15% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
+        
+        {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":18,"element":"Passive"},
+        {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":12,"element":"Passive"},
+        {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Arcane Ritual","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members receive the following effect: 20% increase in status ailment auto cure rate.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Hell's Gate","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 5% less multiple-target attack damage that target all or random allies. (Max reduction: 50%)","mp":null,"point":null,"element":"Passive"},
+        {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 20% (up to 60%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
+      ]
     },
     {
-        name:"Damage Passive",
-        name_tw:"Damage Passive",
-        name_en:"",
-        skills:[
-            {"name":"Assassin","name_tw":"Assassin","desc":"+10% to single-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% damage to skills that target all or random enemies.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Butcher","name_tw":"Butcher","desc":"+20% damage to skills that target all or random enemies.","mp":null,"point":"24","element":"Passive"},
-            
-            {"name":"Deadly Poison","name_tw":"毒追擊","desc":"+30% damage to Poisoned enemies.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"+30% damage to Charmed enemies.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Curse","name_tw":"魅惑追擊","desc":"+30% damage to Cursed enemies.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"+30% damage to Muted enemies.","mp":null,"point":13,"element":"Passive"},
-            {"name":"Death Lust","name_tw":"魅惑追擊","desc":"+25% damage to Charmed enemies. Has a 30% to Charm all enemies at the beginning of the 1st turn.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Curse of Distress","name_tw":"魅惑追擊","desc":"+10% damage to Cursed enemies. -10% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Curse of Anguish","name_tw":"魔封追擊","desc":"+15% damage to Cursed enemies. -15% damage from Cursed enemies.","mp":null,"point":null,"element":"Passive"},
-            
-            {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":18,"element":"Passive"},
-            {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":12,"element":"Passive"},
-            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Arcane Ritual","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members receive the following effect: 20% increase in status ailment auto cure rate.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Hell's Gate","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 5% less multiple-target attack damage that target all or random allies. (Max reduction: 50%)","mp":null,"point":null,"element":"Passive"},
-            {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 20% (up to 60%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
-        ]
+      name:"Combat Passive",
+      name_tw:"自動",
+      name_en:"",
+      skills:[
+        //反擊
+        {"name":"Counter","name_tw":"反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 50 power.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Retaliate","name_tw":"兇猛反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 100 power.","mp":null,"point":"12","element":"Passive"},
+        {"name":"Death Counter","name_tw":"死亡反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 150 power.","mp":null,"point":"18","element":"Passive"},
+        {"name":"Euphoric Frenzy","name_tw":"魅惑追擊","desc":"When receiving a Phys Attack, 50% chance to Charm the assailant","mp":null,"point":null,"element":"Passive"},
+        {"name":"Yaxche","name_tw":"魅惑追擊","desc":"When downed during the enemy turn, inflicts Almighty (Power:100) damage to the attacker, with 100% chance to inflict Mortal. Nullifies all death prevention skills. Won't activate when your party is wiped out.","mp":null,"point":null,"element":"Passive"},
+        //防死
+        {"name":"Endure","name_tw":"強忍","desc":"HP stops at 1 HP upon receiving the first killing blow.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"Heals 200 HP upon receiving the first killing blow.","mp":null,"point":"18","element":"Passive"},
+        {"name":"Avatar","name_tw":"降世化身","desc":"Heals 500 HP upon receiving the first killing blow. Heals 50% HP when clearing a wave.","mp":null,"point":null,"element":"Passive"},
+        //自回
+        {"name":"Life Aid","name_tw":"勝利的氣息","desc":"Heals 30% HP when clearing a wave.","mp":null,"point":6,"element":"Passive"},
+        {"name":"Mana Aid","name_tw":"勝利的查克拉","desc":"Heals 10 MP when clearing a wave.","mp":null,"point":"12","element":"Passive"},
+        {"name":"Infinite Chakra","name_tw":"無限的查克拉","desc":"Increases naturally recovered MP by 1 MP.","mp":null,"point":"18","element":"Passive"},
+        //反射
+        {"name":"Tetraka Shift","name_tw":"提特拉康脈動","desc":"Casts Tetrakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
+        {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"Casts Makarakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
+        {"name":"Repel Pierce","name_tw":"貫反靈壓","desc":"While the demon with this skill is alive, Pierce will have no effect on any party member that can repel the attribute they are attacked with.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Drain Pierce","name_tw":"貫反靈壓","desc":"While the demon with this skill is alive, Pierce will have no effect on any party member that can drain the attribute they are attacked with.","mp":null,"point":null,"element":"Passive"},
+        //Support
+        {"name":"Auto-Taruka","name_tw":"自動塔爾卡","desc":"Casts Tarukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+        {"name":"Auto-Rakuka","name_tw":"自動拉庫卡","desc":"Casts Rakukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+        {"name":"Auto-Sukuka","name_tw":"自動斯庫卡","desc":"Casts Sukukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+        {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"Casts Tarunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+        {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"Casts Rakunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+        {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"Casts Sukunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+        //壓制
+        {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"Reduces 1 enemy Press Turn at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects.","mp":null,"point":"21","element":"Passive"},
+        {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"While the demon with this skill is alive, the enemy loses an extra Press Turn Icon every time you drain their attack.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Faith in Wealth","name_tw":"","desc":"Increases max HP by 10%. Recover 1 MP every time your Press Turn Icon decreases due to enemy skills.","mp":null,"point":null,"element":"Passive"},
+        //節省
+        {"name":"Law of Hell","name_tw":"狡計之星","desc":"As long as the demon with this skill is alive, no bonus turn will be granted when a party member's weak point is attacked.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"	While the demon with this skill is alive, all party members will receive the following effect: Reduces damage received by 15% from skills that target all or random allies.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Youre Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Meslamtaea","name_tw":"月之庇佑","desc":"Increases AC by 20%, and enters a state of Rebellion when the enemy is Poisoned.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Fruit of the Dead","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, any enemy demon that is revived will only have 1 HP.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Fog of Death","name_tw":"月之庇佑","desc":"When an enemy is Weakened, reduces all enemy EV/AC by 20% (3 turns) and 100% chance to inflict Poison.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Sass","name_tw":"月之庇佑","desc":"When an enemy is Charmed, reduces all enemy's DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},           
+        {"name":"Call to Helheim","name_tw":"月之庇佑","desc":"When the demon with this skill downs an enemy, reduces all enemy ATK and DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},
+        //Bayonetta Event
+        {"name":"Madame Stomp","name_tw":"マダムストンプ","desc":"When the demon with this skill hits an enemy with a critical hit, inflict Almighty (Magic) damage with 100 power to that enemy, and 30% chance to inflict Charm","mp":null,"point":null,"element":"Passive"},
+        {"name":"Madame Upper","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflict Almighty (Magic) damage with 100 power to that enemy, and 30% chance to inflict Bind","mp":null,"point":null,"element":"Passive"}
+      ]
     },
     {
-        name:"Combat Passive",
-        name_tw:"自動",
-        name_en:"",
-        skills:[
-            //反擊
-            {"name":"Counter","name_tw":"反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 50 power.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Retaliate","name_tw":"兇猛反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 100 power.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Death Counter","name_tw":"死亡反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 150 power.","mp":null,"point":"18","element":"Passive"},
-            {"name":"Euphoric Frenzy","name_tw":"魅惑追擊","desc":"When receiving a Phys Attack, 50% chance to Charm the assailant","mp":null,"point":null,"element":"Passive"},
-            {"name":"Yaxche","name_tw":"魅惑追擊","desc":"When downed during the enemy turn, inflicts Almighty (Power:100) damage to the attacker, with 100% chance to inflict Mortal. Nullifies all death prevention skills. Won't activate when your party is wiped out.","mp":null,"point":null,"element":"Passive"},
-            //防死
-            {"name":"Endure","name_tw":"強忍","desc":"HP stops at 1 HP upon receiving the first killing blow.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"Heals 200 HP upon receiving the first killing blow.","mp":null,"point":"18","element":"Passive"},
-            {"name":"Avatar","name_tw":"降世化身","desc":"Heals 500 HP upon receiving the first killing blow. Heals 50% HP when clearing a wave.","mp":null,"point":null,"element":"Passive"},
-            //自回
-            {"name":"Life Aid","name_tw":"勝利的氣息","desc":"Heals 30% HP when clearing a wave.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Mana Aid","name_tw":"勝利的查克拉","desc":"Heals 10 MP when clearing a wave.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Infinite Chakra","name_tw":"無限的查克拉","desc":"Increases naturally recovered MP by 1 MP.","mp":null,"point":"18","element":"Passive"},
-            //反射
-            {"name":"Tetraka Shift","name_tw":"提特拉康脈動","desc":"Casts Tetrakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
-            {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"Casts Makarakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
-            {"name":"Repel Pierce","name_tw":"貫反靈壓","desc":"While the demon with this skill is alive, Pierce will have no effect on any party member that can repel the attribute they are attacked with.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Drain Pierce","name_tw":"貫反靈壓","desc":"While the demon with this skill is alive, Pierce will have no effect on any party member that can drain the attribute they are attacked with.","mp":null,"point":null,"element":"Passive"},
-            //Support
-            {"name":"Auto-Taruka","name_tw":"自動塔爾卡","desc":"Casts Tarukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Rakuka","name_tw":"自動拉庫卡","desc":"Casts Rakukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Sukuka","name_tw":"自動斯庫卡","desc":"Casts Sukukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"Casts Tarunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"Casts Rakunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"Casts Sukunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
-            //壓制
-            {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"Reduces 1 enemy Press Turn at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects.","mp":null,"point":"21","element":"Passive"},
-            {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"While the demon with this skill is alive, the enemy loses an extra Press Turn Icon every time you drain their attack.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Faith in Wealth","name_tw":"","desc":"Increases max HP by 10%. Recover 1 MP every time your Press Turn Icon decreases due to enemy skills.","mp":null,"point":null,"element":"Passive"},
-            //節省
-            {"name":"Law of Hell","name_tw":"狡計之星","desc":"As long as the demon with this skill is alive, no bonus turn will be granted when a party member's weak point is attacked.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Kongo Zaou","name_tw":"月之庇佑","desc":"All party members in the state of Might gain Phys Pierce while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Guards of Tartarus","name_tw":"月之庇佑","desc":"	While the demon with this skill is alive, all party members will receive the following effect: Reduces damage received by 15% from skills that target all or random allies.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Youre Next","name_tw":"月之庇佑","desc":"If the demon with this skill kills an enemy with a single target attack, and that enemy is revived, they will come back as a Lv. 1 Reiko Kashima.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Meslamtaea","name_tw":"月之庇佑","desc":"Increases AC by 20%, and enters a state of Rebellion when the enemy is Poisoned.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Fruit of the Dead","name_tw":"月之庇佑","desc":"While the demon with this skill is alive, any enemy demon that is revived will only have 1 HP.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Fog of Death","name_tw":"月之庇佑","desc":"When an enemy is Weakened, reduces all enemy EV/AC by 20% (3 turns) and 100% chance to inflict Poison.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Sass","name_tw":"月之庇佑","desc":"When an enemy is Charmed, reduces all enemy's DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},           
-            {"name":"Call to Helheim","name_tw":"月之庇佑","desc":"When the demon with this skill downs an enemy, reduces all enemy ATK and DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"}
-        ]
-    },
-    {
-        name:"Special Passive",
-        name_tw:"Special Passive",
-        name_en:"",
-        skills:[
-            {"name":"Luck","name_tw":"幸運","desc":"Increases Exp gained by Dx2 and all party members by 20% and Macca obtained during battle by 20%.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Nightlife","name_tw":"幸運","desc":"Increases Macca obtained in battle by 5%.","mp":null,"point":null,"element":"Passive"},     
-            {"name":"Dmg Panel V I","name_tw":"幸運","desc":"-25% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":2,"element":"Passive"},
-            {"name":"Dmg Panel V II","name_tw":"幸運","desc":"-50% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":4,"element":"Passive"},
-            {"name":"Trap Free","name_tw":"陷阱弱化","desc":"-30% to damage received from Damage Panels in the Aura Gate, and nullifies Dark Zone effects.","mp":null,"point":null,"element":"Passive"},
-            {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"Nullifies Damage Panels in the Aura Gate.","mp":null,"point":8,"element":"Passive"},
-            {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"Nullifies Dark Zone effects in the Aura Gate.","mp":null,"point":8,"element":"Passive"}
-        ]
+      name:"Special Passive",
+      name_tw:"Special Passive",
+      name_en:"",
+      skills:[
+        {"name":"Luck","name_tw":"幸運","desc":"Increases Exp gained by Dx2 and all party members by 20% and Macca obtained during battle by 20%.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Nightlife","name_tw":"幸運","desc":"Increases Macca obtained in battle by 5%.","mp":null,"point":null,"element":"Passive"},     
+        {"name":"Dmg Panel V I","name_tw":"幸運","desc":"-25% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":2,"element":"Passive"},
+        {"name":"Dmg Panel V II","name_tw":"幸運","desc":"-50% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":4,"element":"Passive"},
+        {"name":"Trap Free","name_tw":"陷阱弱化","desc":"-30% to damage received from Damage Panels in the Aura Gate, and nullifies Dark Zone effects.","mp":null,"point":null,"element":"Passive"},
+        {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"Nullifies Damage Panels in the Aura Gate.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"Nullifies Dark Zone effects in the Aura Gate.","mp":null,"point":8,"element":"Passive"}
+      ]
     }
 ];
 
