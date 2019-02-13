@@ -908,13 +908,22 @@ const ddd_stable = [
         ]
     },
     {
+        name:'Powers',
+        name_tw:'Powers',
+        name_en:'Powers',
+        formulas:[],
+        devils:[
+          { name:'Beloved', name_tw:'能天使ビラブド', name_en:'', rarity:4, grade:70, icon:'Beloved.png', skills:["Bloody Glee","Oni-Kagura","Beloved Slash"], skill4:["Life Gain","Power Hit","Rebellion","Retaliate","Null Light"], skill5:["","Good Aim","Phys Boost","Wild Guess","Hellish Mask"],elements:["Resist","","","","","Resist","Weak"], type:"Attack" }
+        ]
+    },
+    {
         name:'Witch',
         name_tw:'Witch',
         name_en:'Witch',
         formulas:[],
         devils:[
-          { name:'Bayonetta ☆', name_tw:'魔女ベヨネッタ', name_en:'',rarity:5, grade:85, icon:'Bayonetta.png', skills:['Mortal Jihad','Madame Stomp','Summon Monster Gomorra B'], skill4:['','Myriad Arrows','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp III','Deadly Charm','Assassin','Titanomachia'], elements:['','','','','','Resist','Resist'], type:'Attack'},
-          { name:'Jeanne ☆', name_tw:'魔女ジャンヌ', name_en:'',rarity:5, grade:85, icon:'Jeanne.png', skills:['Hades Blast','Madame Upper','Summon Monster Gomorra J'], skill4:['Magic Amp II','Myriad Arrows','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp III','Deadly Bondage','Assassin','Megidola'], elements:['','','','','','Resist','Resist'], type:'Attack'},
+          { name:'Bayonetta ☆', name_tw:'魔女ベヨネッタ', name_en:'',rarity:5, grade:85, icon:'Bayonetta.png', skills:['Mortal Jihad','Madama Stomp','Gomorrah (B)'], skill4:['','Myriad Arrows','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp III','Deadly Charm','Assassin','Titanomachia'], elements:['','','','','','Resist','Resist'], type:'Attack'},
+          { name:'Jeanne ☆', name_tw:'魔女ジャンヌ', name_en:'',rarity:5, grade:85, icon:'Jeanne.png', skills:['Hades Blast','Madama Uppercut','Gomorrah (J)'], skill4:['','Tempest Slash','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp III','Deadly Bondage','Assassin','Megidola'], elements:['','','','','','Resist','Resist'], type:'Attack'},
           { name:'Bayonetta', name_tw:'魔女ベヨネッタ', name_en:'',rarity:4, grade:65, icon:'Bayonetta.png', skills:['Mortal Jihad','Berserker','Soul Drain'], skill4:['Strength Amp II','Tempest Slash','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp II','Deadly Charm','Phys Boost','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'},
           { name:'Jeanne', name_tw:'魔女ジャンヌ', name_en:'',rarity:4, grade:65, icon:'Jeanne.png', skills:['Hades Blast','Berserker','Soul Drain'], skill4:['Magic Amp II','Myriad Arrows','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp II','Deadly Bondage','Retaliate','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'}
         ]
@@ -954,8 +963,8 @@ const skill_stable = [
         {"name":"Titanomachia","name_tw":"泰坦之戰","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 110 power on All Enemies.","mp":7,"point":6,"element":"Physical"},
         {"name":"Gungnir","name_tw":"永恆之槍","desc":"Inflicts Phys (Physical) damage with 30% crit rate and 145 power on All Enemies. (3 uses)","mp":7,"point":null,"element":"Physical"},
         {"name":"Yinlong Killer","name_tw":"應龍擊破","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 150 power on All Enemies.","mp":8,"point":null,"element":"Physical"},
-        {"name":"Summon Monster Gomorra J","name_tw":"魔獣ゴモラ召喚J","desc":"Available Turn Three. Inflicts Phys (Physical) damage with 50% crit rate and 180 power on a All Enemies with a 50% chance to inflict Bind. The damage inflicted by this skill is dependent on 50% of your Phys ATK status and 50% of your Mag ATK status and gains the Physical Pierce effect.","mp":8,"point":null,"element":"Physical"},
-        {"name":"Beloved Slash","name_tw":"ビラブド斬り","desc":"Inflicts Phys (Physical) damage with 60 power on All Enemies twice.","mp":6,"point":null,"element":"Physical"},
+        {"name":"Gomorrah (J)","name_tw":"魔獣ゴモラ召喚J","desc":"Can be used from the 3rd turn. Inflicts Phys (Physical) damage with 50% crit rate on all enemies and a 50% chance to inflict Bind on all enemies. Power: 180 *Damage inflicted by this skill is 50% dependent on Phys ATK, 50% on Mag ATK and will have Phys Pierce effect.","mp":8,"point":null,"element":"Physical"},
+        {"name":"Beloved Slash","name_tw":"ビラブド斬り","desc":"Inflicts Phys (Physical) damage on all enemies twice. Power: 60","mp":6,"point":null,"element":"Physical"},
         
         {"name":"Rampage","name_tw":"橫衝直撞","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 45 power on Random Enemy/(ies).","mp":3,"point":3,"element":"Physical"},
         {"name":"Deathbound","name_tw":"神威之擊","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 55 power on Random Enemy/(ies).","mp":4,"point":5,"element":"Physical"},
@@ -969,7 +978,7 @@ const skill_stable = [
         {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50 power on Random Enemy/(ies) 4 times with a 35% chance to inflict Charm.","mp":7,"point":null,"element":"Physical"},
         {"name":"Gae Bolg","name_tw":"千棘魔槍","desc":"Inflicts Phys (Physical) damage 4 to 6 times with 50 power on Random Enemy/(ies).","mp":7,"point":null,"element":"Physical"},
         {"name":"Hassou Tobi","name_tw":"八艘跳躍","desc":"Inflicts Phys (Physical) damage 8 times with 35 power on Random Enemy/(ies). Adds Physical Pierce.","mp":7,"point":null,"element":"Physical"},
-        {"name":"Summon Monster Gomorra B","name_tw":"魔獣ゴモラ召喚B","desc":"Available Turn Three. Inflicts Phys (Physical) damage 5 times with 50% crit rate and 50 power on a Single Enemy with a 50% chance to inflict Charm. The damage inflicted by this skill is dependent on 50% of your Phys ATK status and 50% of your Mag ATK status and gains the Physical Pierce effect.","mp":8,"point":null,"element":"Physical"},
+        {"name":"Gomorrah (B)","name_tw":"魔獣ゴモラ召喚B","desc":"Can be used from the 3rd turn. Inflicts Phys (Physical) damage with 50% crit rate on a single enemy 5 times and a 50% chance to inflict Charm on all enemies. Power: 50 *Damage inflicted by this skill is 50% dependent on Phys ATK, 50% on Mag ATK and will have Phys Pierce effect.","mp":8,"point":null,"element":"Physical"},
         
         {"name":"Toxic Sting","name_tw":"Toxic Sting","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Poison.","mp":5,"point":6,"element":"Physical"},
         {"name":"Binding Claw","name_tw":"束縛爪擊","desc":"Inflicts Phys (Physical) damage with 120 power on a Single Enemy with 40% chance to inflict Bind.","mp":5,"point":6,"element":"Physical"},
@@ -1508,8 +1517,8 @@ const skill_stable = [
         {"name":"Sass","name_tw":"月之庇佑","desc":"When an enemy is Charmed, reduces all enemy's DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},           
         {"name":"Call to Helheim","name_tw":"月之庇佑","desc":"When the demon with this skill downs an enemy, reduces all enemy ATK and DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},
         //Bayonetta Event
-        {"name":"Madame Stomp","name_tw":"マダムストンプ","desc":"When the demon with this skill hits an enemy with a critical hit, inflict Almighty (Magic) damage with 100 power to that enemy with a 30% chance to inflict Charm","mp":null,"point":null,"element":"Passive"},
-        {"name":"Madame Upper","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflict Almighty (Magic) damage with 100 power to that enemy with a 30% chance to inflict Bind","mp":null,"point":null,"element":"Passive"}
+        {"name":"Madama Stomp","name_tw":"マダムストンプ","desc":"When landing a critical hit, inflicts Almighty (Magic) damage on a single enemy with a 30% chance to inflict Charm. Power: 100","mp":null,"point":null,"element":"Passive"},
+        {"name":"Madama Uppercut","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflicts Almighty (Magic) damage on a single enemy with a 30% chance to inflict Bind. Power: 100　","mp":null,"point":null,"element":"Passive"}
       ]
     },
     {
