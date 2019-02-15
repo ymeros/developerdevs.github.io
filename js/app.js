@@ -956,7 +956,7 @@ const ddd_stable = [
         name_en:'Powers',
         formulas:[],
         devils:[
-          { name:'Beloved', name_tw:'能天使ビラブド', name_en:'', rarity:4, grade:70, icon:'Beloved.png', skills:["Bloody Glee","Oni-Kagura","Beloved Slash"], skill4:["Life Gain","Power Hit","Rebellion","Retaliate","Null Light"], skill5:["","Good Aim","Phys Boost","Wild Guess","Hellish Mask"],elements:["Resist","","","","","Resist","Weak"], type:"Attack" }
+          { name:'Beloved', name_tw:'能天使ビラブド', name_en:'', rarity:4, grade:70, icon:'Beloved.png', skills:["Bloody Glee","Oni-Kagura","Beloved Slash"], skill4:["Vitality Amp II","Power Hit","Rebellion","Retaliate","Null Light"], skill5:["","Good Aim","Phys Boost","Wild Guess","Hellish Mask"],elements:["Resist","","","","","Resist","Weak"], type:"Attack" }
         ]
     },
     {
