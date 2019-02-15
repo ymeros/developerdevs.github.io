@@ -50,7 +50,9 @@ const ddd_stable = [
             ['Femme','Avatar'],
             ['Femme','Lady'],
             ['Jaki', 'Haunt'],
-            ['Femme','Fairy']
+            ['Femme','Fairy'],
+            
+            ['Femme','(Event) Fairy']
         ],
         devils:[
             {                name:'Izanami',         name_tw:'吉祥天', name_en:'Izanami',       rarity:5,                grade:89, icon:'Izanami.png', skills:["Bolt Storm","Merciless Blow","Yomotsu Okami"], skill4:["Life Surge","Hell Gaze","Concentrate","Elec Amp","Repel Ice"], skill5:["","Auto-Rakunda","Silent Prayer","Maziodyne","Recarmdra"], elements:["","Weak","Null","","","Resist","Drain"], type:"Support"            },
@@ -80,7 +82,10 @@ const ddd_stable = [
             ['Wilder','Yoma'],
             ['Wilder','Snake'],
             ['Jaki', 'Holy'],
-            ['Tyrant','Yoma']
+            ['Tyrant','Yoma'],
+            
+            ['(Event) Fairy','Snake'],
+            ['(Event) Fairy','Beast']
         ],
         devils:[
             {                name:'Garuda',         name_tw:'迦樓羅', name_en:'Garuda',      rarity:5,                grade:80, icon:'reityou_garuda.png', skills:["Zandyne","Auto-Rakunda","Vahana"], skill4:["Magic Amp III","Maragidyne","Fog Breath","Berserker","Null Light"], skill5:["","Trisagion","Megidola","Evade","Resist Ice"], elements:["","Repel","Weak","","Null","Resist",""], type:"Attack"            },
@@ -164,7 +169,12 @@ const ddd_stable = [
             ['Night','Genma'],
             ['Wilder','Megami'],
             ['Jaki', 'Avian'],
-            ['Haunt','Fairy']
+            ['Haunt','Fairy'],
+            
+            ['(Event) Fairy','Herald'],
+            ['(Event) Fairy','Divine'],
+            ['(Event) Fairy','Yoma'],
+            ['(Event) Fairy','Haunt']
         ],
         devils:[
             {                name:'Sphinx',     name_tw:'斯芬克斯', name_en:'Sphinx',          rarity:4,                grade:76, icon:'seijyuu_sufuinkusu.png', skills:["Barrier","Tetraka Shift","Mahamaon"], skill4:["Mortal Jihad","Ziodyne","Mediarahan","Auto-Rakuka","Null Ice"], skill5:["","Ju","Megaton Press","Resist Ice","Evil Gaze"],elements:["","Null","Weak","","","Repel","Weak"], type:"Support"            },
@@ -288,8 +298,10 @@ const ddd_stable = [
             //['Vile','Night'],      //180419 remove
             ['Jaki', 'Herald'],
             ['Jaki', 'Fairy'],
-            ['Tyrant','Femme']
+            ['Tyrant','Femme'],
             //['Tyrant','Night']    //Jaki
+            
+            ['(Event) Fairy','Jaki']
         ],
         devils:[
             {   name:'Asherah',    name_tw:'亞舍拉', name_en:'Asherah', rarity:5,        grade:83, icon:'tibosin_asyerato.png', skills:["Mediarama","Mother's Creation","Maragion"], skill4:["Sea of Chaos","Trisagion","Silent Prayer","Recovery Amp","Repel Ice"], skill5:["","Vitality Amp III","Null Bind","Luck Amp II","Resist Dark"],elements:["","Null","Weak","","Null","","Weak"], type:"Recovery"            },
@@ -349,7 +361,11 @@ const ddd_stable = [
             ['Foul','Herald'],
             ['Foul','Snake'],
             ['Haunt','Avatar'],
-            ['Haunt','Holy']
+            ['Haunt','Holy'],
+            
+            ['(Event) Fairy','Avatar'],
+            ['(Event) Fairy','Fallen'],
+            ['(Event) Fairy','Night'],
         ],
         devils:[
             {                name:'Throne',         name_tw:'座天使', name_en:'Throne',      rarity:4,                grade:60, icon:'tensi_sorone.png', skills:["Resist Elec","Maragion","Void Dark Zones"], skill4:["Mediara","Mahamaon","Diarahan","Evade","Null Ice"], skill5:["","War Cry","Resist Ice","Deathtouch","Wild Guess"],elements:["","Null","Weak","","","Null","Weak"], type:"Attack"            },
@@ -411,8 +427,11 @@ const ddd_stable = [
             ['Foul','Yoma'],
             ['Tyrant','Fury'],
             ['Jaki', 'Dragon'],
-            ['Tyrant','Foul']
+            ['Tyrant','Foul'],
             //['Haunt','Kishin']     //180713 remove
+            
+            ['(Event) Fairy','Holy'],
+            ['(Event) Fairy','Genma'],
         ],
         devils:[
             {                name:'Ananta',      name_tw:'阿南塔', name_en:'Ananta',         rarity:5,                grade:83, icon:'ryuuou_ananta.png' , skills:["Diarahan","Auto-Sukuka","Auto-Rakuka"], skill4:["Holy Wrath","Mabufudyne","Mahapoismaon","Auto-Taruka","Drain Ice"], skill5:["","Gigantomachia","Deadly Poison","Mazandyne","Resist Force"],elements:["","","Null","Null","Weak","Null",""], type:'Support'           },
@@ -533,7 +552,10 @@ const ddd_stable = [
             ['Wilder','Holy'],
             ['Haunt','Snake'],
             ['Haunt','Fallen'],
-            ['Haunt','Foul']
+            ['Haunt','Foul'],
+            
+            ['(Event) Fairy','Fury'],
+            ['(Event) Fairy','Kishin'],
         ],
         devils:[
             {                name:'Ongyo-Ki',     name_tw:'隱形鬼', name_en:'',          rarity:4,                grade:68, icon:'youki_ongyouki.png', skills:["Dark Sword","Auto-Rakuka","Mabufula"], skill4:["Deathtouch","Nihil Claw","Nocturne","Death Counter","Null Dark"], skill5:["","Counter","Deadly Charm","Luck Amp I","Wind Breath"],elements:["Resist","","Resist","","Resist","Weak",""], type:"Attack"            },
@@ -597,17 +619,23 @@ const ddd_stable = [
             //['Tyrant','Yoma'],      //180419 remove
             ['Tyrant','Fairy'],
             ['Tyrant','Wilder'],
-            ['Haunt','Wilder']
+            ['Haunt','Wilder'],
+            
+            ['(Event) Fairy','Dragon'],
+            ['(Event) Fairy','Avian'],
+            ['(Event) Fairy','Deity'],
+            ['(Event) Fairy','Brute'],
+            ['(Event) Fairy','Tyrant']
         ],
         devils:[
-            {                name:'Lilith',        name_tw:'莉莉絲', name_en:'',       rarity:5,                grade:80, icon:'yoma_ririsu.png', skills:["Maziodyne","Energy Drain","Allure"], skill4:["Insanity","Mind Break","Samarecarm","Luck Amp III","Null Light"], skill5:["","Deadly Charm","Madezoreton","Agility Amp III","Resist Force"],elements:["","Resist","Resist","Drain","Weak","Weak","Null"], type:"Support"            },
-            {                name:'Succubus',    name_tw:'女夢魔', name_en:'',           rarity:4,                grade:63, icon:'yoma_sakyubasu.png', skills:["Mahamarin Karin","Deadly Charm","Bufudyne"], skill4:["Spirit Drain","Mazionga","Madezoreto","Null Charm","Resist Light"], skill5:["","Life Drain","Mabufula","Wild Instinct","Mamudoon"],elements:["","Resist","Resist","","","Weak",""], type:"Support"            },
-            {                name:'Lilim',        name_tw:'莉莉姆', name_en:'',       rarity:3,                grade:47, icon:'yoma_ririmu.png', skills:["Resist Charm","Mazanma","Marin Karin"], skill4:["Spirit Drain","Zandyne","Meclosedi","Magic Amp II","Null Elec"], skill5:["","Luck Amp I","Bufu","Weakdi","Zio"],elements:["","","Weak","","Null","",""], type:"Support"            },
-            {                name:'Kaiwan',        name_tw:'迦溫',   name_en:'',     rarity:3,                grade:42, icon:'yoma_kiun.png', skills:["Mudoon","Mamudo","Dark Boost"], skill4:["Sukukaja","Mamudoon","Makara Break","Endure","Resist Ice"], skill5:["","Magic Amp I","Luck Amp I","Bloody Glee","Mahama"],elements:["","","Weak","","","Weak","Null"], type:"Attack"            },
-            {                name:'Fomorian',   name_tw:'弗莫爾', name_en:'',            rarity:2,                grade:30, icon:'yoma_huomoria.png' , skills:["Mabufu","Herculean Strike","Hamaon"], skill4:["Back Attack","Bufula","Rebellion","Life Gain","Resist Light"], skill5:["","Mudo","Zan","Bufu","Maragi"],elements:["","Weak","Resist","","","",""], type:"Attack"           },
-            {                name:'Incubus',   name_tw:'男夢魔', name_en:'',            rarity:2,                grade:21, icon:'yoma_inkyubasu.png', skills:["Marin Karin","Mudoon","Zan"], skill4:["Life Drain","Mazan","Meparaladi","Deadly Charm","Resist Ice"], skill5:["","Mamudo","Madness","Hellish Mask","Bloody Glee"],elements:["","","","Weak","Resist","",""], type:"Support"            },
-            {                name:'Sandman',     name_tw:'睡魔', name_en:'',          rarity:1,                grade:10, icon:'yoma_zandoman.png', skills:["Zan","Cleave",""], skill4:["Shibaboo","Dark Sword","Sukunda","Epic Recovery","Resist Ice"], skill5:["","Rampage","Posumudi","Mazio","Dmg Panel V I"],elements:["","","","Weak","Resist","",""], type:"Attack"            },
-            {                name:'Mokoi',         name_tw:'惡靈', name_en:'',      rarity:1,                grade:5, icon:'yoma_mokoi.png', skills:["Zio","Lunge",""], skill4:["Rampage","Zionga","Weakdi","Strength Amp I","Resist Dark"], skill5:["","Mudo","Heat Wave","Dmg Panel V I","Fast Recovery"],elements:["","","","Resist","Weak","",""], type:"Attack"            }
+            { name:'Lilith',        name_tw:'莉莉絲', name_en:'',       rarity:5,                grade:80, icon:'yoma_ririsu.png', skills:["Maziodyne","Energy Drain","Allure"], skill4:["Insanity","Mind Break","Samarecarm","Luck Amp III","Null Light"], skill5:["","Deadly Charm","Madezoreton","Agility Amp III","Resist Force"],elements:["","Resist","Resist","Drain","Weak","Weak","Null"], type:"Support"            },
+            { name:'Succubus',    name_tw:'女夢魔', name_en:'',           rarity:4,                grade:63, icon:'yoma_sakyubasu.png', skills:["Mahamarin Karin","Deadly Charm","Bufudyne"], skill4:["Spirit Drain","Mazionga","Madezoreto","Null Charm","Resist Light"], skill5:["","Life Drain","Mabufula","Wild Instinct","Mamudoon"],elements:["","Resist","Resist","","","Weak",""], type:"Support"            },
+            { name:'Lilim',        name_tw:'莉莉姆', name_en:'',       rarity:3,                grade:47, icon:'yoma_ririmu.png', skills:["Resist Charm","Mazanma","Marin Karin"], skill4:["Spirit Drain","Zandyne","Meclosedi","Magic Amp II","Null Elec"], skill5:["","Luck Amp I","Bufu","Weakdi","Zio"],elements:["","","Weak","","Null","",""], type:"Support"            },
+            { name:'Kaiwan',        name_tw:'迦溫',   name_en:'',     rarity:3,                grade:42, icon:'yoma_kiun.png', skills:["Mudoon","Mamudo","Dark Boost"], skill4:["Sukukaja","Mamudoon","Makara Break","Endure","Resist Ice"], skill5:["","Magic Amp I","Luck Amp I","Bloody Glee","Mahama"],elements:["","","Weak","","","Weak","Null"], type:"Attack"            },
+            { name:'Fomorian',   name_tw:'弗莫爾', name_en:'',            rarity:2,                grade:30, icon:'yoma_huomoria.png' , skills:["Mabufu","Herculean Strike","Hamaon"], skill4:["Back Attack","Bufula","Rebellion","Life Gain","Resist Light"], skill5:["","Mudo","Zan","Bufu","Maragi"],elements:["","Weak","Resist","","","",""], type:"Attack"           },
+            { name:'Incubus',   name_tw:'男夢魔', name_en:'',            rarity:2,                grade:21, icon:'yoma_inkyubasu.png', skills:["Marin Karin","Mudoon","Zan"], skill4:["Life Drain","Mazan","Meparaladi","Deadly Charm","Resist Ice"], skill5:["","Mamudo","Madness","Hellish Mask","Bloody Glee"],elements:["","","","Weak","Resist","",""], type:"Support"            },
+            { name:'Sandman',     name_tw:'睡魔', name_en:'',          rarity:1,                grade:10, icon:'yoma_zandoman.png', skills:["Zan","Cleave",""], skill4:["Shibaboo","Dark Sword","Sukunda","Epic Recovery","Resist Ice"], skill5:["","Rampage","Posumudi","Mazio","Dmg Panel V I"],elements:["","","","Weak","Resist","",""], type:"Attack"            },
+            { name:'Mokoi',         name_tw:'惡靈', name_en:'',      rarity:1,                grade:5, icon:'yoma_mokoi.png', skills:["Zio","Lunge",""], skill4:["Rampage","Zionga","Weakdi","Strength Amp I","Resist Dark"], skill5:["","Mudo","Heat Wave","Dmg Panel V I","Fast Recovery"],elements:["","","","Resist","Weak","",""], type:"Attack"            }
         ]
     },
     {
@@ -625,12 +653,12 @@ const ddd_stable = [
             ['Tyrant','Beast']
         ],
         devils:[
-            {                name:'Seth',         name_tw:'賽特', name_en:'',      rarity:5,                grade:84, icon:'jyasin_seto.png', skills:["Zandyne","Debilitate","Ouas"], skill4:["Titanomachia","Bleeder","Nocturne","Force Amp","Resist Fire"], skill5:["","Sweet Bite","Luck Amp III","Vorpal Blade","Assassin"],elements:["","Weak","","Null","Null","","Drain"], type:'Attack'            },
-            {                name:'Girimekhala',    name_tw:'獨眼魔象', name_en:'',           rarity:4,                grade:67, icon:'jyasin_girimekara.png', skills:["Resist Dark","Mega Boost","Megaton Press"], skill4:["Binding Cry","Binge Eating","Rakunda","Savage Glee","Resist Force"], skill5:["","Judgement Light","Agidyne","Closedi","Bufula"],elements:["Repel","","","Weak","Weak","Weak",""], type:'Attack'            },
-            {                name:'Pazuzu',        name_tw:'帕祖祖', name_en:'',       rarity:4,                grade:62, icon:'jyasin_pazusu.png', skills:["Resist Fire","Mediarama","Purgatory"], skill4:["White Noise","Allure","Samarecarm","Death Counter","Null Light"], skill5:["","Resist Mute","Media","Zanma","Deathbound"],elements:["","","Weak","","Null","","Null"], type:'Recovery'            },
-            {                name:'Arahabaki',    name_tw:'荒霸吐', name_en:'',           rarity:3,                grade:50, icon:'jyasin_arahabaki.png', skills:["Megido","Makarakarn","Concentrate"], skill4:["Energy Drain","Ice Breath","Meposumudi","Makara Shift","Null Ice"], skill5:["","Mow Down","Madness","Mudo","Mecharmdi"],elements:["Resist","Weak","Weak","Weak","Weak","Resist","Resist"], type:'Attack'            },
-            {                name:'Baphomet',  name_tw:'巴風特', name_en:'',             rarity:3,                grade:41, icon:'jyasin_bahuometo.png', skills:["Mamudo","Life Drain","Maragi"], skill4:["Mana Gain","Mudodyne","Mahapoisma","Dark Boost","Resist Light"], skill5:["","Rampage","Mabufu","Wild Guess","Zio"],elements:["","","","","","Weak","Null"], type:'Attack'            },
-            {                name:'Abraxas',  name_tw:'亞布拉薩', name_en:'',             rarity:2,                grade:26, icon:'jyasin_aburakusasu.png', skills:["Dekunda","Tarukaja","Bufula"], skill4:["Rakukaja","Herculean Strike","Amrita","Hellish Mask","Null Dark"], skill5:["","Maragi","Magic Amp I","Maragi","Madness"],elements:["Drain","Weak","Weak","Weak","Weak","Weak","Weak"], type:'Support'            }
+            { name:'Seth',         name_tw:'賽特', name_en:'',      rarity:5,                grade:84, icon:'jyasin_seto.png', skills:["Zandyne","Debilitate","Ouas"], skill4:["Titanomachia","Bleeder","Nocturne","Force Amp","Resist Fire"], skill5:["","Sweet Bite","Luck Amp III","Vorpal Blade","Assassin"],elements:["","Weak","","Null","Null","","Drain"], type:'Attack'            },
+            { name:'Girimekhala',    name_tw:'獨眼魔象', name_en:'',           rarity:4,                grade:67, icon:'jyasin_girimekara.png', skills:["Resist Dark","Mega Boost","Megaton Press"], skill4:["Binding Cry","Binge Eating","Rakunda","Savage Glee","Resist Force"], skill5:["","Judgement Light","Agidyne","Closedi","Bufula"],elements:["Repel","","","Weak","Weak","Weak",""], type:'Attack'            },
+            { name:'Pazuzu',        name_tw:'帕祖祖', name_en:'',       rarity:4,                grade:62, icon:'jyasin_pazusu.png', skills:["Resist Fire","Mediarama","Purgatory"], skill4:["White Noise","Allure","Samarecarm","Death Counter","Null Light"], skill5:["","Resist Mute","Media","Zanma","Deathbound"],elements:["","","Weak","","Null","","Null"], type:'Recovery'            },
+            { name:'Arahabaki',    name_tw:'荒霸吐', name_en:'',           rarity:3,                grade:50, icon:'jyasin_arahabaki.png', skills:["Megido","Makarakarn","Concentrate"], skill4:["Energy Drain","Ice Breath","Meposumudi","Makara Shift","Null Ice"], skill5:["","Mow Down","Madness","Mudo","Mecharmdi"],elements:["Resist","Weak","Weak","Weak","Weak","Resist","Resist"], type:'Attack'            },
+            { name:'Baphomet',  name_tw:'巴風特', name_en:'',             rarity:3,                grade:41, icon:'jyasin_bahuometo.png', skills:["Mamudo","Life Drain","Maragi"], skill4:["Mana Gain","Mudodyne","Mahapoisma","Dark Boost","Resist Light"], skill5:["","Rampage","Mabufu","Wild Guess","Zio"],elements:["","","","","","Weak","Null"], type:'Attack'            },
+            { name:'Abraxas',  name_tw:'亞布拉薩', name_en:'',             rarity:2,                grade:26, icon:'jyasin_aburakusasu.png', skills:["Dekunda","Tarukaja","Bufula"], skill4:["Rakukaja","Herculean Strike","Amrita","Hellish Mask","Null Dark"], skill5:["","Maragi","Magic Amp I","Maragi","Madness"],elements:["Drain","Weak","Weak","Weak","Weak","Weak","Weak"], type:'Support'            }
         ]
     },
     {
@@ -677,7 +705,10 @@ const ddd_stable = [
             ['Wilder','Fairy'],
             ['Haunt','Brute'],
             ['Haunt','Femme'],
-            ['Haunt','Vile']
+            ['Haunt','Vile'],
+            
+            ['(Event) Fairy','Wilder'],
+            ['(Event) Fairy','Lady']
         ],
         devils:[
             {                name:'Mad Gasser',     name_tw:'毒氣怪客', name_en:'',          rarity:3,                grade:45, icon:'gedou_madogasa.png', skills:["Mahapoisma","Deadly Poison","Mudodyne"], skill4:["Hellish Mask","Deathtouch","Barrier Break","Madness","Null Dark"], skill5:["","Zio","Hama","Sukukaja","Mecharmdi"],elements:["","","","","","Weak","Resist"],type:"Support"            },
@@ -735,16 +766,19 @@ const ddd_stable = [
             ['Jaki', 'Femme'],
             ['Jaki', 'Vile'],
             //['Tyrant','Brute'],       //Jaki
-            ['Tyrant','Vile']
+            ['Tyrant','Vile'],
+            
+            ['(Event) Fairy','Foul'],
+            ['(Event) Fairy','Megami'],
         ],
         devils:[
-            {                name:'Vetala',        name_tw:'毘陀羅', name_en:'',       rarity:3,                grade:55, icon:'yuuki_vetara.png', skills:["Lydia Break","Bufudyne","Eat Whole"], skill4:["Rampage","Energy Drain","Acid Breath","Resist Poison","Resist Fire"], skill5:["","Cursedi","Agility Amp I","Heat Wave","Agility Amp I"],elements:["","Weak","","","","Weak","Null"], type:"Attack"            },
-            {                name:'Chatterskull',   name_tw:'笑面骷髏', name_en:'',            rarity:3,                grade:44, icon:'yuuki_rahuinsukaru.png', skills:["Discord","Mudoon","Deathtouch"], skill4:["Dekaja","Hades Blast","War Cry","Null Bind","Resist Force"], skill5:["","Mow Down","Posumudi","Rampage","Mazio"],elements:["","Drain","Weak","","","Weak","Null"], type:"Support"            },
-            {                name:'Legion',          name_tw:'惡靈軍團', name_en:'',     rarity:2,                grade:34, icon:'yuuki_region.png', skills:["Mazan","Mudo","Agi"], skill4:["Deathbound","Wind Breath","Makara Break","Force Boost","Resist Fire"], skill5:["","Luck Amp I","Heat Wave","Mabufu","Meweakdi"],elements:["","","","Weak","","Weak","Resist"], type:"Attack"            },
-            {                name:'Pisaca',      name_tw:'畢舍遮', name_en:'',         rarity:2,                grade:26, icon:'yuuki_pisyatya.png', skills:["Mamudo","Charm Bite","Life Drain"], skill4:["Ju","Mudoon","Mahashibaboo","Dmg Panel V II","Resist Ice"], skill5:["","Cleave","Hellish Mask","Hama","Good Aim"],elements:["","Weak","","","Null","Weak","Resist"], type:"Support"            },
-            {                name:'Mou-Ryo',        name_tw:'魍魎', name_en:'',       rarity:2,                grade:20, icon:'yuuki_mouryou.png', skills:["Mudo","Shibaboon","Fire Breath"], skill4:["Spirit Drain","Evil Gaze","Cursedi","Magic Amp I","Repel Dark"], skill5:["","Weakdi","Rampage","Meclosedi","Dodge"],elements:["","","","","","Weak","Null"], type:"Attack"            },
-            {                name:'Obariyon',        name_tw:'背負小鬼', name_en:'',       rarity:1,                grade:7, icon:'yuuki_obariyon.png', skills:["Closedi","Media",""], skill4:["Lunge","Rampage","Sukunda","Dodge","Resist Fire"], skill5:["","Madness","Mecursedi","Hellish Mask","Mahama"],elements:["","","Weak","Resist","","Weak","Null"], type:"Recovery"            },
-            {                name:'Preta',             name_tw:'餓鬼', name_en:'',  rarity:1,                grade:4, icon:'yuuki_gaki.png', skills:["Bufu","Mudo",""], skill4:["Mabufu","Life Drain","Discord","Good Aim","Resist Force"], skill5:["","Heat Wave","Meparaladi","Mamudo","Strength Amp I"],elements:["","Weak","Resist","","Weak","Weak","Null"], type:"Attack"            }
+            { name:'Vetala',        name_tw:'毘陀羅', name_en:'',       rarity:3,                grade:55, icon:'yuuki_vetara.png', skills:["Lydia Break","Bufudyne","Eat Whole"], skill4:["Rampage","Energy Drain","Acid Breath","Resist Poison","Resist Fire"], skill5:["","Cursedi","Agility Amp I","Heat Wave","Agility Amp I"],elements:["","Weak","","","","Weak","Null"], type:"Attack"            },
+            { name:'Chatterskull',   name_tw:'笑面骷髏', name_en:'',            rarity:3,                grade:44, icon:'yuuki_rahuinsukaru.png', skills:["Discord","Mudoon","Deathtouch"], skill4:["Dekaja","Hades Blast","War Cry","Null Bind","Resist Force"], skill5:["","Mow Down","Posumudi","Rampage","Mazio"],elements:["","Drain","Weak","","","Weak","Null"], type:"Support"            },
+            { name:'Legion',          name_tw:'惡靈軍團', name_en:'',     rarity:2,                grade:34, icon:'yuuki_region.png', skills:["Mazan","Mudo","Agi"], skill4:["Deathbound","Wind Breath","Makara Break","Force Boost","Resist Fire"], skill5:["","Luck Amp I","Heat Wave","Mabufu","Meweakdi"],elements:["","","","Weak","","Weak","Resist"], type:"Attack"            },
+            { name:'Pisaca',      name_tw:'畢舍遮', name_en:'',         rarity:2,                grade:26, icon:'yuuki_pisyatya.png', skills:["Mamudo","Charm Bite","Life Drain"], skill4:["Ju","Mudoon","Mahashibaboo","Dmg Panel V II","Resist Ice"], skill5:["","Cleave","Hellish Mask","Hama","Good Aim"],elements:["","Weak","","","Null","Weak","Resist"], type:"Support"            },
+            { name:'Mou-Ryo',        name_tw:'魍魎', name_en:'',       rarity:2,                grade:20, icon:'yuuki_mouryou.png', skills:["Mudo","Shibaboon","Fire Breath"], skill4:["Spirit Drain","Evil Gaze","Cursedi","Magic Amp I","Repel Dark"], skill5:["","Weakdi","Rampage","Meclosedi","Dodge"],elements:["","","","","","Weak","Null"], type:"Attack"            },
+            { name:'Obariyon',        name_tw:'背負小鬼', name_en:'',       rarity:1,                grade:7, icon:'yuuki_obariyon.png', skills:["Closedi","Media",""], skill4:["Lunge","Rampage","Sukunda","Dodge","Resist Fire"], skill5:["","Madness","Mecursedi","Hellish Mask","Mahama"],elements:["","","Weak","Resist","","Weak","Null"], type:"Recovery"            },
+            { name:'Preta',             name_tw:'餓鬼', name_en:'',  rarity:1,                grade:4, icon:'yuuki_gaki.png', skills:["Bufu","Mudo",""], skill4:["Mabufu","Life Drain","Discord","Good Aim","Resist Force"], skill5:["","Heat Wave","Meparaladi","Mamudo","Strength Amp I"],elements:["","Weak","Resist","","Weak","Weak","Null"], type:"Attack"            }
         ]
     },
     {
@@ -761,7 +795,9 @@ const ddd_stable = [
             ['Tyrant','Brute'],
             ['Vile','Night'],
             ['Tyrant','Night'],
-            ['Vile','Brute']
+            ['Vile','Brute'],
+            
+            ['(Event) Fairy','Vile'],
         ],
         devils:[
             { name:'Black Frost', name_tw:'啃咬魔', name_en:'', rarity:5, grade:81, icon:'Black-Frost.png', skills:['Mabufudyne','Curse of Anguish','Go to Hell!'], skill4:['Maragion','Hell Gaze','Concentrate','Ice Amp','Null Fire'], skill5:['','Merciless Blow','Insanity','Ice Age','Resist Light'], elements:['','Resist','Null','','','Weak','Null'], type:'Attack'},
@@ -896,15 +932,23 @@ const ddd_stable = [
         ]
     },
     {
-        name:'Event',
-        name_tw:'Event',
-        name_en:'Event',
-        formulas:[],
-        devils:[
-          { name:'Halloween Jack', name_tw:'奧伯隆', name_en:'Halloween Jack', rarity:4, grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack" },
-          { name:'Helper Frost',   name_tw:'奧伯隆', name_en:'Helper Frost',   rarity:4, grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Weak","Drain","","","",""], type:"Attack" },
-          { name:'Mishaguji',      name_tw:'奧伯隆', name_en:'Mishaguji',      rarity:4, grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:['','Tetraja','','',''],elements:["","","","Null","Weak","Weak","Null"], type:"Attack" },  
-        ]
+      name:'(Event) Fairy',
+      name_tw:'(Event) Fairy',
+      name_en:'(Event) Fairy',
+      formulas:[],
+      devils:[
+        { name:'Halloween Jack', name_tw:'奧伯隆', name_en:'Halloween Jack', rarity:4, grade:65, icon:'yousei_jyakurantan.png', skills:["Agilao","Mudoon","Endure"], skill4:["MahaLantine","","","",""], skill5:["","","","",""],elements:["","Drain","Weak","","","",""], type:"Attack" },
+        { name:'Helper Frost',   name_tw:'奧伯隆', name_en:'Helper Frost',   rarity:4, grade:63, icon:'yousei_jyakufurosuto.png', skills:["Bufula","Hamaon","Endure"], skill4:["MahaFrosty","","","",""], skill5:["","","","",""],elements:["","Weak","Drain","","","",""], type:"Attack" },
+      ]
+    },
+    {
+      name:'(Event) Vile',
+      name_tw:'(Event) Vile',
+      name_en:'(Event) Vile',
+      formulas:[],
+      devils:[
+        { name:'Mishaguji',      name_tw:'奧伯隆', name_en:'Mishaguji',      rarity:4, grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:['','Tetraja','','',''],elements:["","","","Null","Weak","Weak","Null"], type:"Attack" },  
+      ]
     },
     {
         name:'Powers',
