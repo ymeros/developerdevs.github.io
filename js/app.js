@@ -1943,6 +1943,7 @@ SkillType.prototype.showName = function(){
         name = '';
     return name;
 }
+
 ////////////////////
 // Devil Bom Class
 ////////////////////
@@ -2050,7 +2051,6 @@ DevilBom.prototype.showMag = function(){
     return (this.mag/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
-
 DevilBom.prototype.showMagPure = function(){
 
     return (this.mag_pure/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
@@ -2132,7 +2132,7 @@ DevilBom.prototype.getCostPure = function(rarity){
 
     if(cost1==null||cost2==null)
         return null;
-
+    
     return (d1.rarity > rarity ? cost1 : 0)
         + (d2.rarity > rarity ? cost2 : 0)
         + this.mag_pure;
@@ -2166,7 +2166,7 @@ function Resource(ddd, sss){
     var type_data = {};
     var skill_data = {};
     var skill_array = [];
-
+    
     sss = sss.map(function(type){
 
         type = new SkillType(type);
@@ -2288,11 +2288,11 @@ function Resource(ddd, sss){
     //create fission and fusion options
 
     devil_array.forEach(function(devil){
-        devil.fission_boms = [];
-        devil.fission_options = devil.fission_formulas();
-        devil.fission_options.forEach(function(option){
-             devil.fission_boms = devil.fission_boms.concat(option.boms);
-        });
+      devil.fission_boms = [];
+      devil.fission_options = devil.fission_formulas();
+      devil.fission_options.forEach(function(option){
+        devil.fission_boms = devil.fission_boms.concat(option.boms);
+      });
     });
 
     var break_limit=10;
@@ -2305,49 +2305,60 @@ function Resource(ddd, sss){
         devil_array.forEach(function(devil){
 
             var pass = true;
-
+            
             for(var rarity=1; rarity<=5; rarity++){
 
                 var cost = null;
                 var pure_cost = null;
-
-                if(devil.fission_boms.length){
-
-                    devil.fission_boms.forEach(function(bom){
-
-                        var l_pure_cost = bom.getCostPure(rarity);
-
-                        if(l_pure_cost==null) pass = false;
-                        else if(pure_cost==null) pure_cost = l_pure_cost;
-                        else pure_cost = pure_cost > l_pure_cost ? l_pure_cost : pure_cost;
-
-                        var l_cost = bom.getCost(rarity);
-
-                        if(l_cost==null)    pass = false;
-                        else if(cost==null) cost = l_cost;
-                        else                cost = cost > l_cost ? l_cost : cost;
-                    });
-
-                    if(devil.rarity > rarity){
-
-                        if(pure_cost!=null && devil.pure_costs[rarity] != pure_cost){
-                            devil.pure_costs[rarity] = pure_cost;
-                            pass = false;
-                        }
-
-                        if(cost!=null && devil.costs[rarity] != cost){
-                            devil.costs[rarity] = cost;
-                            pass = false;
-                        }
-                    }
-                    else{
-                        devil.pure_costs[rarity] = 0;
-                        devil.costs[rarity] = 0;
-                    }
+                
+                // Get event tag and set base costs high (prevent appearing in lowest cost calculations
+                var race_exception = devil.race.name.substring(0, 7)
+                
+                if(race_exception == "(Event)") 
+                {
+                  devil.pure_costs[rarity] = 999999999;
+                  devil.costs[rarity] = 999999999;
                 }
-                else{
-                    devil.pure_costs[rarity] = 0;
-                    devil.costs[rarity] = 0;
+                else 
+                {
+                  if(devil.fission_boms.length){
+
+                      devil.fission_boms.forEach(function(bom){
+
+                          var l_pure_cost = bom.getCostPure(rarity);
+
+                          if(l_pure_cost==null) pass = false;
+                          else if(pure_cost==null) pure_cost = l_pure_cost;
+                          else pure_cost = pure_cost > l_pure_cost ? l_pure_cost : pure_cost;
+
+                          var l_cost = bom.getCost(rarity);
+
+                          if(l_cost==null)    pass = false;
+                          else if(cost==null) cost = l_cost;
+                          else                cost = cost > l_cost ? l_cost : cost;
+                      });
+
+                      if(devil.rarity > rarity){
+
+                          if(pure_cost!=null && devil.pure_costs[rarity] != pure_cost){
+                              devil.pure_costs[rarity] = pure_cost;
+                              pass = false;
+                          }
+
+                          if(cost!=null && devil.costs[rarity] != cost){
+                              devil.costs[rarity] = cost;
+                              pass = false;
+                          }
+                      }
+                      else{
+                          devil.pure_costs[rarity] = 0;
+                          devil.costs[rarity] = 0;
+                      }
+                  }
+                  else{
+                      devil.pure_costs[rarity] = 0;
+                      devil.costs[rarity] = 0;
+                  }
                 }
             }
 
