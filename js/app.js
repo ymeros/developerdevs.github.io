@@ -1771,8 +1771,8 @@ Devil.prototype.fission_formulas = function(){
 
         if(boms.length>0){
             formulas.push({
-                'name': r1.name + ' x ' + r2.name,
-                'boms':boms
+              'name': r1.name + ' x ' + r2.name,
+              'boms':boms
             });
         }
 
@@ -1814,7 +1814,7 @@ Devil.prototype.fusion_formulas = function(){
                 if(boms.length>0){
 
                     formulas.push({
-                        'name': d1.race.name_en + ' x ' + r2.name_en,
+                        'name': d1.race.name + ' x ' + r2.name,
                         'boms': boms
                     });
                 }
