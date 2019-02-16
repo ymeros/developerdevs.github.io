@@ -378,9 +378,6 @@
                   <tr><td class="DG-Table-Label"><a href="https://aqiu384.github.io/megaten-fusion-tool/dx2/demons" target="_blank">Fusion Calculator <br>(Alternative)</a></td>
                     <td>Gives a compact view of all demons and skills, displays the fusion chart for easy reference.</td>
                   </tr>
-                  <tr><td class="DG-Table-Label"><a href="https://oceanxdds.github.io/dx2_fusion/#en" target="_blank">Japan's Fusion Calculator <br>(Translated)</a></td>
-                    <td>Our calculator is a copy of Japan's calculator with modifications and additions made (such as this guide). This is the translated version of Japan's official calculator.</td>
-                  </tr>
                   <tr><td class="DG-Table-Label"><a href="https://old.reddit.com/r/Dx2SMTLiberation/comments/a8r6zt/comparison_of_sweeper_burst_damage_december_2018/" target="_blank">
                     Sweeper Damage Comparisons <br>(Reddit Thread)</a></td>
                     <td>Writeup containing an analysis of various sweepers in the game and how much damage they produce.</td>
@@ -398,7 +395,14 @@
                 
                 <!-- [Updates] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Latest Updates [15/2]</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
+                  <strong>[16/2]</strong>
+                  <ul>
+                    <li>Mini Guides: Added Selling Gacha 3★ guide</li>
+                    <li>Demon Updates: Combined Jack Frost and Pyro Jack into one: Jack Bros</li>
+                    <li>Useful Links: Removed link to Japan's fusion calculator (Link can be found at the bottom of the page citing Dev/Dissi)</li>
+                    <li>FAQ: Removed stats information (Info can be found in Formulas link)</li>
+                  </ul>
                   <strong>[15/2]</strong>
                   <ul>
                     <li>Calculator: Forward Fusions now listed for Halloweeen Jack and Helper Frost. They are new classified into a new group as well as Mishaguji.
@@ -480,7 +484,7 @@
                 <p><strong>Mini Guides</strong></p>
                 <!-- [FAQ] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">FAQ</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p>This Mini Guide serves as both to answer frequently asked questions and give some useful information for newer players</p>
                   
                   <p><strong>Skills:</strong></p>
@@ -496,16 +500,6 @@
                     <li><strong>Healing:</strong> Affected by both Mag% and Healing Amount%, Tarukaja has no effect on it.</li>
                   </ul>
                   
-                  <p><strong>Stats:</strong></p>
-                  <ul>
-                    <li><strong>St (Strength)</strong>: Increases Phys Damage and Phys Defense</li>
-                    <li><strong>Ma (Magic)</strong>: Increases Magic Damage, Healing Amount and Magic Defense</li>
-                    <li><strong>Ag (Agility)</strong>: Increases Accuracy, Evasion, Battle Speed and affects Turn Order. Demon's with the highest agility will start first, followed by second highest, third then last</li>
-                    <li><strong>Vi (Vitality)</strong>: Increases HP, Phys Defense, Magic Defense</li>
-                    <li><strong>Lu (Luck)</strong>: Increases Accuracy, Evasion, Ailment Infliction, Ailment Resistance, Critical chance and Reduces chance to receive criticals</li>
-                    <li>1 Ag = 100 Battle Speed</li>
-                  </ul>
-              
                   <p><strong>AI:</strong></p>
                   <ul>
                     <li><strong>Attack:</strong> Focused on using damage skills, they won't use Support skills at all</li>
@@ -540,9 +534,109 @@
                   </ul>
                 </div>
                 
+                <!-- [Gacha 3 star demons] -->
+                <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Selling Gacha 3★s</button>
+                <div class="DG-CollapsibleContent"><br>
+                  <p>This is a table listing 3★ demons that can be sold for karma and those to keep. Inspired by the spreadsheet made by /u/patoente on Reddit. It can be found 
+                    <strong><a href="https://old.reddit.com/r/Dx2SMTLiberation/comments/9z8sen/resource_gacha_3stars_to_sell_for_karma/." target="_blank">here</a></strong>
+                    <br>Click on the demon's portrait to view its overall information.
+                  </p>
+                  
+                  <div class="DG-Table"><table class="DG-ToC">
+                    <tr><td class="DG-Table-Label" colspan="13">Keep</td></tr>
+                    <tr>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Arahabaki')"><img src="images/devil/Arahabaki.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Ares')"><img src="images/devil/Ares.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Baihu')"><img src="images/devil/Baihu.png"></a></td> 
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Berserker')"><img src="images/devil/Berserker.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Dakini')"><img src="images/devil/Dakini.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Efreet')"><img src="images/devil/Efreet.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Feng Huang')"><img src="images/devil/FengHuang.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Grendel')"><img src="images/devil/Grendel.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Gui Xian')"><img src="images/devil/GuiXian.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Horkos')"><img src="images/devil/Horkos.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Illuyanka')"><img src="images/devil/Illuyanka.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Isis')"><img src="images/devil/Isis.png"></a></td>
+                    </tr><tr>
+                      <td><strong>Innate:</strong><br>Megido<br><strong>Yellow:</strong><br>Madness</td>
+                      <td><strong>Innate:</strong><br>Herculean Strike<br><strong>Red:</strong><br>Hellish Mask<br><strong>Yellow:</strong><br>Sexy Dance</td>
+                      <td><strong>Red:</strong><br>Madness<br><strong>Purple:</strong><br>Mind Break</td>
+                      <td><strong>Red:</strong><br>Soul Drain</td>
+                      <td><strong>Yellow:</strong><br>Bolt Storm</td>
+                      <td><strong>Teal:</strong><br>Outbreak</td>
+                      <td><strong>Red:</strong><br>Bloody Glee</td>
+                      <td><strong>Red:</strong><br>Binding Claw<br><strong>Purple:</strong><br>Retaliate</td>
+                      <td><strong>Teal:</strong><br>Madness</td>
+                      <td><strong>Yellow:</strong><br>Dodge</td>
+                      <td><strong>Innate:</strong><br>Endure</td>
+                      <td><strong>Yellow:</strong><br>Good Aim</td>
+                    </tr>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Jatayu')"><img src="images/devil/Jatayu.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Kaiwan')"><img src="images/devil/Kaiwan.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Koumokuten')"><img src="images/devil/Koumokuten.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Kresnik')"><img src="images/devil/Kresnik.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Makara')"><img src="images/devil/Makara.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Mothman')"><img src="images/devil/Mothman.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Ose')"><img src="images/devil/Ose.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Setanta')"><img src="images/devil/Setanta.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Shiki-Ouji')"><img src="images/devil/ShikiOuji.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Silky')"><img src="images/devil/Silky.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Zouchouten')"><img src="images/devil/Zouchouten.png"></a></td>
+                    </tr><tr>
+                      <td><strong>Yellow:</strong><br>Madness</td> 
+                      <td><strong>Yellow:</strong><br>Bloody Glee</td>
+                      <td><strong>Purple:</strong><br>Bloody Glee</td>
+                      <td><strong>Purple:</strong><br>Retaliate<br><strong>Teal:</strong><br>Good Aim</td>
+                      <td><strong>Purple:</strong><br>Mind Break<br><strong>Teal:</strong><br>Sweet Bite</td>
+                      <td><strong>Purple:</strong><br>Dodge</td>
+                      <td><strong>Innate:</strong><br>Hades Blast<br><strong>Teal:</strong><br>Madness</td>
+                      <td><strong>Innate:</strong><br>Oni-Kagura</td>
+                      <td><strong>Purple:</strong><br>Vengeance</td>
+                      <td><strong>Red:</strong><br>Bloody Glee</td>
+                      <td><strong>Red:</strong><br>Hellish Mask</td>
+                    </tr>
+                  </table></div>
+                  
+                  <br>
+                  
+                  <div class="DG-Table"><table class="DG-ImageTable">
+                    <tr>
+                      <td class="DG-Table-Label" rowspan="2">Sell</td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Apis')"><img src="images/devil/Apis.png"></a><br></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Ammut')"><img src="images/devil/Ammut.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Arianrhod')"><img src="images/devil/Arianrhod.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Baphomet')"><img src="images/devil/Baphomet.png"></a></td> 
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Chatterskull')"><img src="images/devil/Chatterskull.png"></a></td> 
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Chimera')"><img src="images/devil/Chimera.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Dominion')"><img src="images/devil/Dominion.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Forneus')"><img src="images/devil/Forneus.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Horus')"><img src="images/devil/Horus.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Ikusa')"><img src="images/devil/Ikusa.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Kushinada')"><img src="images/devil/Kushinada.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Lailah')"><img src="images/devil/Lailah.png"></a></td> 
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Lilim')"><img src="images/devil/Lilim.png"></a></td>  
+                    </tr><tr>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Mad Gasser')"><img src="images/devil/MadGasser.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Makami')"><img src="images/devil/Makami.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Mermaid')"><img src="images/devil/Mermaid.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Mitra')"><img src="images/devil/Mitra.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Peallaidh')"><img src="images/devil/Peallaidh.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Pele')"><img src="images/devil/Pele.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Power')"><img src="images/devil/Power.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Scathach')"><img src="images/devil/Scathach.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Tam Lin')"><img src="images/devil/TamLin.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Unicorn')"><img src="images/devil/Unicorn.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Valkyrie')"><img src="images/devil/Valkyrie.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Vetala')"><img src="images/devil/Vetala.png"></a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Virtue')"><img src="images/devil/Virtue.png"></a></td>
+                    </tr>                   
+                  </table></div>
+                  <br>
+                </div>
+                
                 <!-- [Shifter/Selector] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Archetype Shifter/Selector</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p>Introduced as another option for spending Karma, Archetype Shifting/Selecting allows you to change the archetype of a demon from one 
                     color to another (excluding Common archetypes), the result is always a different archetype. <br> Shifters/Selectors can be found in the exchange 
                     store either via the PvP screen (Exchange) or Pandemonium (Sell Demons -> Exchange) and can also be obtained via events/mission rewards.
@@ -577,7 +671,7 @@
                 
                 <!-- [Support Demons] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Support Demons</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p>In game you are able to choose a demon to set as support, enabling others to use your demon in Story, Brand and Aether farming. Support demons are controlled by the AI and will 
                      always act last regardless of their speed in comparison to your own (I believe they also have no effect on battle speed). In the case of running levelling quests (two parties), the support demon 
                      will appear twice, once for your first team and once for your second (if your first team falls), in both situations the demon starts off at full health/mana and if effective enough could carry your team.
@@ -636,7 +730,7 @@
                 
                 <!-- [Infusion] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Infusion</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p>A feature that allows players to increase the base stats of a demon that is unlocked and added to the Pandemonium when you <strong>clear Chapter 5</strong> of the story.
                     <br>Infusion is done via either sacrificing <strong>Mitamas</strong> or using an item called <strong>Mitama Extract</strong> (5 variations, based on primary stats), each boosting stats to a varying degree depending on the type.
                     <br>Mitamas can be found in Aura Gate Floors 41-50 (recruitable as a Rare Encounter) and upon defeat can drop Mitama Extracts.
@@ -708,7 +802,7 @@
               
                 <!-- [AG-Challenge] -->
                 <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Aura Gate Challenge Titles</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p>To be attempted only when you're satisfied with your main demons as it takes extra investment into demons you may not normally use. These challenges test your 
                   demon building ability and for the reward you are granted titles to show off. They have restrictions pertaining to grade, requiring you to finish it without any continues and so if you break 
                   them then you won't get the title unlocked upon clearing the stage.
@@ -750,9 +844,9 @@
                     <tr><td class="DG-Table-Label">Suggested Demons <br>(40-50F):</td><td class="DG-Table-Label" colspan="2">Void Dark Zone</td><td class="DG-Table-Label">Dmg Panel Immunity</td></tr>
                     <tr>
                       <td class="DG-Table-Label">Demon</td>
-                      <td><a href="javascript:void(0)" @click="show_guide_devil('Kelpie')"><img src="images/devil/yousei_kerupi.png"><br>Kelpie</a></td>
-                      <td><a href="javascript:void(0)" @click="show_guide_devil('Hare of Inaba')"><img src="images/devil/tinjyuu_inabasirousagi.png"><br>Hare of Inaba</a></td>
-                      <td><a href="javascript:void(0)" @click="show_guide_devil('Zouchouten')"><img src="images/devil/kisin_zoutyouten.png"><br>Zouchouten</a></strong></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Kelpie')"><img src="images/devil/Kelpie.png"><br>Kelpie</a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Hare of Inaba')"><img src="images/devil/HareOfInaba.png"><br>Hare of Inaba</a></td>
+                      <td><a href="javascript:void(0)" @click="show_guide_devil('Zouchouten')"><img src="images/devil/Zouchouten.png"><br>Zouchouten</a></strong></td>
                     </tr>
                   </table></div><br>
                   
@@ -883,7 +977,6 @@
                   </table></div><br>
                 </div>
                 
-                
               </b-card>
               
               <b-card>
@@ -900,14 +993,14 @@
                     <tr>
                       <td class="DG-Table-Label" rowspan="2">Gacha</td>
                       <!-- Fiend -->
-                      <td><a href="#Alice" onclick="openCollapsibleViaToC('Alice')"><img src="images/devil/majin_arisu.png"><br>Alice</a></td>
-                      <td><a href="#Mother Harlot" onclick="openCollapsibleViaToC('Mother Harlot')"><img src="images/devil/Mother-Harlot.png"><br>Mother Harlot</a></td>
-                      <td><a href="#Trumpeter" onclick="openCollapsibleViaToC('Trumpeter')"><img src="images/devil/majin_toranpeta.png"><br>Trumpeter</a></td>
+                      <td><a href="#Alice" onclick="openCollapsibleViaToC('Alice')"><img src="images/devil/Alice.png"><br>Alice</a></td>
+                      <td><a href="#Mother Harlot" onclick="openCollapsibleViaToC('Mother Harlot')"><img src="images/devil/MotherHarlot.png"><br>Mother Harlot</a></td>
+                      <td><a href="#Trumpeter" onclick="openCollapsibleViaToC('Trumpeter')"><img src="images/devil/Trumpeter.png"><br>Trumpeter</a></td>
                       <!-- Hero -->
-                      <td><a href="#Huang Di" onclick="openCollapsibleViaToC('Huang Di')"><img src="images/devil/eiyuu_koutei.png"><br>Huang Di</a></td>
+                      <td><a href="#Huang Di" onclick="openCollapsibleViaToC('Huang Di')"><img src="images/devil/HuangDi.png"><br>Huang Di</a></td>
                       <td><a href="#Rama" onclick="openCollapsibleViaToC('Rama')"><img src="images/devil/Rama.png"><br>Rama</a></td>
-                      <td><a href="#Siegfried" onclick="openCollapsibleViaToC('Siegfried')"><img src="images/devil/eiyuu_jikuhurito.png"><br>Siegfried</a></td>
-                      <td><a href="#Yoshitsune" onclick="openCollapsibleViaToC('Yoshitsune')"><img src="images/devil/eiyuu_yositune.png"><br>Yoshitsune</a></td>
+                      <td><a href="#Siegfried" onclick="openCollapsibleViaToC('Siegfried')"><img src="images/devil/Siegfried.png"><br>Siegfried</a></td>
+                      <td><a href="#Yoshitsune" onclick="openCollapsibleViaToC('Yoshitsune')"><img src="images/devil/Yoshitsune.png"><br>Yoshitsune</a></td>
                       <!-- Reaper-->
                       <td><a href="#Ixtab" onclick="openCollapsibleViaToC('Ixtab')"><img src="images/devil/Ixtab.png"><br>Ixtab</a></td>
                       <td><a href="#Mot" onclick="openCollapsibleViaToC('Mot')"><img src="images/devil/Mot.png"><br>Mot</a></li>
@@ -922,36 +1015,36 @@
                     </tr>
                     <tr>
                       <td class="DG-Table-Label" rowspan="3">Fusable</td>
-                      <td><a href="#Alilat" onclick="openCollapsibleViaToC('Alilat')"><img src="images/devil/irei_arirato.png"><br>Alilat</a></td>
-                      <td><a href="#Amaterasu" onclick="openCollapsibleViaToC('Amaterasu')"><img src="images/devil/majin_amaterasu.png"><br>Amaterasu</a></td>
-                      <td><a href="#Ananta" onclick="openCollapsibleViaToC('Ananta')"><img src="images/devil/ryuuou_ananta.png"><br>Ananta</a></td>
-                      <td><a href="#Asherah" onclick="openCollapsibleViaToC('Asherah')"><img src="images/devil/tibosin_asyerato.png"><br>Asherah</a></td>
-                      <td><a href="#Barong" onclick="openCollapsibleViaToC('Barong')"><img src="images/devil/sinjyuu_baron.png"><br>Barong</a></td>
-                      <td><a href="#Black Frost" onclick="openCollapsibleViaToC('Black Frost')"><img src="images/devil/Black-Frost.png"><br>Black Frost</a></td>
-                      <td><a href="#Cu Chulainn" onclick="openCollapsibleViaToC('Cu Chulainn')"><img src="images/devil/genma_kuhurin.png"><br>Cu Chulainn</a></td>
-                      <td><a href="#Garuda" onclick="openCollapsibleViaToC('Garuda')"><img src="images/devil/reityou_garuda.png"><br>Garuda</a></td>
-                      <td><a href="#Huang Long" onclick="openCollapsibleViaToC('Huang Long')"><img src="images/devil/ryuusin_kouryu.png"><br>Huang Long</a></td>
+                      <td><a href="#Alilat" onclick="openCollapsibleViaToC('Alilat')"><img src="images/devil/Alilat.png"><br>Alilat</a></td>
+                      <td><a href="#Amaterasu" onclick="openCollapsibleViaToC('Amaterasu')"><img src="images/devil/Amaterasu.png"><br>Amaterasu</a></td>
+                      <td><a href="#Ananta" onclick="openCollapsibleViaToC('Ananta')"><img src="images/devil/Ananta.png"><br>Ananta</a></td>
+                      <td><a href="#Asherah" onclick="openCollapsibleViaToC('Asherah')"><img src="images/devil/Asherah.png"><br>Asherah</a></td>
+                      <td><a href="#Barong" onclick="openCollapsibleViaToC('Barong')"><img src="images/devil/Barong.png"><br>Barong</a></td>
+                      <td><a href="#Black Frost" onclick="openCollapsibleViaToC('Black Frost')"><img src="images/devil/BlackFrost.png"><br>Black Frost</a></td>
+                      <td><a href="#Cu Chulainn" onclick="openCollapsibleViaToC('Cu Chulainn')"><img src="images/devil/CuChulainn.png"><br>Cu Chulainn</a></td>
+                      <td><a href="#Garuda" onclick="openCollapsibleViaToC('Garuda')"><img src="images/devil/Garuda.png"><br>Garuda</a></td>
+                      <td><a href="#Huang Long" onclick="openCollapsibleViaToC('Huang Long')"><img src="images/devil/HuangLong.png"><br>Huang Long</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#Ishtar" onclick="openCollapsibleViaToC('Ishtar')"><img src="images/devil/megami_isyutaru.png"><br>Ishtar</a></td>
+                      <td><a href="#Ishtar" onclick="openCollapsibleViaToC('Ishtar')"><img src="images/devil/Ishtar.png"><br>Ishtar</a></td>
                       <td><a href="#Izanami" onclick="openCollapsibleViaToC('Izanami')"><img src="images/devil/Izanami.png"><br>Izanami</a></td>
-                      <td><a href="#Lakshmi" onclick="openCollapsibleViaToC('Lakshmi')"><img src="images/devil/megami_rakusyumi.png"><br>Lakshmi</a></td>
-                      <td><a href="#Lilith" onclick="openCollapsibleViaToC('Lilith')"><img src="images/devil/yoma_ririsu.png"><br>Lilith</a></td>
-                      <td><a href="#Lucifer" onclick="openCollapsibleViaToC('Lucifer')"><img src="images/devil/maou_rusifua.png"><br>Lucifer</a></td>
-                      <td><a href="#Mara" onclick="openCollapsibleViaToC('Mara')"><img src="images/devil/maou_mara.png"><br>Mara</a></li>
-                      <td><a href="#Mastema" onclick="openCollapsibleViaToC('Mastema')"><img src="images/devil/daitensi_mansemato.png"><br>Mastema</a></td>
-                      <td><a href="#Metatron" onclick="openCollapsibleViaToC('Metatron')"><img src="images/devil/daitensi_metatoron.png"><br>Metatron</a></td>
-                      <td><a href="#Michael" onclick="openCollapsibleViaToC('Michael')"><img src="images/devil/daitensi_mikaeru.png"><br>Michael</a></td>
+                      <td><a href="#Lakshmi" onclick="openCollapsibleViaToC('Lakshmi')"><img src="images/devil/Lakshmi.png"><br>Lakshmi</a></td>
+                      <td><a href="#Lilith" onclick="openCollapsibleViaToC('Lilith')"><img src="images/devil/Lilith.png"><br>Lilith</a></td>
+                      <td><a href="#Lucifer" onclick="openCollapsibleViaToC('Lucifer')"><img src="images/devil/Lucifer.png"><br>Lucifer</a></td>
+                      <td><a href="#Mara" onclick="openCollapsibleViaToC('Mara')"><img src="images/devil/Mara.png"><br>Mara</a></li>
+                      <td><a href="#Mastema" onclick="openCollapsibleViaToC('Mastema')"><img src="images/devil/Mastema.png"><br>Mastema</a></td>
+                      <td><a href="#Metatron" onclick="openCollapsibleViaToC('Metatron')"><img src="images/devil/Metatron.png"><br>Metatron</a></td>
+                      <td><a href="#Michael" onclick="openCollapsibleViaToC('Michael')"><img src="images/devil/Michael.png"><br>Michael</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#Quetzalcoatl" onclick="openCollapsibleViaToC('Quetzalcoatl')"><img src="images/devil/ryuusin_kezuarukatoru.png"><br>Quetzalcoatl</a></td>
-                      <td><a href="#Samael" onclick="openCollapsibleViaToC('Samael')"><img src="images/devil/datensi_samaeru.png"><br>Samael</a></td>
-                      <td><a href="#Seth" onclick="openCollapsibleViaToC('Seth')"><img src="images/devil/jyasin_seto.png"><br>Seth</a></td>
-                      <td><a href="#Shiva" onclick="openCollapsibleViaToC('Shiva')"><img src="images/devil/hakaisin_siva.png"><br>Shiva</a></td>
-                      <td><a href="#Surt" onclick="openCollapsibleViaToC('Surt')"><img src="images/devil/maou_suruto.png"><br>Surt</a></td>
-                      <td><a href="#Susano-o" onclick="openCollapsibleViaToC('Susano-o')"><img src="images/devil/hakaisin_susanoo.png"><br>Susano-o</a></td>
-                      <td><a href="#Thor" onclick="openCollapsibleViaToC('Thor')"><img src="images/devil/kisin_toru.png"><br>Thor</a></td>
-                      <td><a href="#Vishnu" onclick="openCollapsibleViaToC('Vishnu')"><img src="images/devil/majin_visyunu.png"><br>Vishnu</a></td>
+                      <td><a href="#Quetzalcoatl" onclick="openCollapsibleViaToC('Quetzalcoatl')"><img src="images/devil/Quetzalcoatl.png"><br>Quetzalcoatl</a></td>
+                      <td><a href="#Samael" onclick="openCollapsibleViaToC('Samael')"><img src="images/devil/Samael.png"><br>Samael</a></td>
+                      <td><a href="#Seth" onclick="openCollapsibleViaToC('Seth')"><img src="images/devil/Seth.png"><br>Seth</a></td>
+                      <td><a href="#Shiva" onclick="openCollapsibleViaToC('Shiva')"><img src="images/devil/Shiva.png"><br>Shiva</a></td>
+                      <td><a href="#Surt" onclick="openCollapsibleViaToC('Surt')"><img src="images/devil/Surt.png"><br>Surt</a></td>
+                      <td><a href="#Susano-o" onclick="openCollapsibleViaToC('Susano-o')"><img src="images/devil/Susanoo.png"><br>Susano-o</a></td>
+                      <td><a href="#Thor" onclick="openCollapsibleViaToC('Thor')"><img src="images/devil/Thor.png"><br>Thor</a></td>
+                      <td><a href="#Vishnu" onclick="openCollapsibleViaToC('Vishnu')"><img src="images/devil/Vishnu.png"><br>Vishnu</a></td>
                       <td><a href="#Zaou-Gongen" onclick="openCollapsibleViaToC('Zaou-Gongen')"><img src="images/devil/Zaou-Gongen.png"><br>Zaou-Gongen</a></td>
                     </tr>                      
                   </tbody></table>
@@ -963,10 +1056,10 @@
                     <tr>
                       <td class="DG-Table-Label" rowspan="2">Gacha</td>
                       <!-- Fiend -->
-                      <td><a href="#Hell Biker" onclick="openCollapsibleViaToC('Hell Biker')"><img src="images/devil/Hell-Biker.png"><br>Hell Biker</a></td>
-                      <td><a href="#White Rider" onclick="openCollapsibleViaToC('White Rider')"><img src="images/devil/majin_waitonaito.png"><br>White Rider</a></td>
+                      <td><a href="#Hell Biker" onclick="openCollapsibleViaToC('Hell Biker')"><img src="images/devil/HellBiker.png"><br>Hell Biker</a></td>
+                      <td><a href="#White Rider" onclick="openCollapsibleViaToC('White Rider')"><img src="images/devil/WhiteRider.png"><br>White Rider</a></td>
                       <!-- Hero -->
-                      <td><a href="#Jeanne D Arc" onclick="openCollapsibleViaToC('Jeanne D Arc')"><img src="images/devil/eiyuu_jannu.png"><br>Jeanne D'Arc</a></td>
+                      <td><a href="#Jeanne D Arc" onclick="openCollapsibleViaToC('Jeanne D Arc')"><img src="images/devil/JeanneDArc.png"><br>Jeanne D'Arc</a></td>
                       <!-- Reaper -->
                       <td><a href="#Chernobog" onclick="openCollapsibleViaToC('Chernobog')"><img src="images/devil/Chernobog.png"><br>Chernobog</a></td>
                       <td><a href="#Hel" onclick="openCollapsibleViaToC('Hel')"><img src="images/devil/Hel.png"><br>Hel</a></td>
@@ -983,31 +1076,33 @@
                     </tr>
                     <tr>
                       <td class="DG-Table-Label" rowspan = "2">4★</td>
-                      <td><a href="#Beelzebub" onclick="openCollapsibleViaToC('Beelzebub')"><img src="images/devil/maou_beruzebubu.png"><br>Beelzebub</a></td>
-                      <td><a href="#Fenrir" onclick="openCollapsibleViaToC('Fenrir')"><img src="images/devil/youjyuu_huenriru.png"><br>Fenrir</a></td>
-                      <td><a href="#Ganesha" onclick="openCollapsibleViaToC('Ganesha')"><img src="images/devil/youma_ganesya.png"><br>Ganesha</a></td>
-                      <td><a href="#Gucumatz" onclick="openCollapsibleViaToC('Gucumatz')"><img src="images/devil/ryuusin_gukumatu.png"><br>Gucumatz</a></td>
+                      <td><a href="#Beelzebub" onclick="openCollapsibleViaToC('Beelzebub')"><img src="images/devil/Beelzebub.png"><br>Beelzebub</a></td>
+                      <td><a href="#Fenrir" onclick="openCollapsibleViaToC('Fenrir')"><img src="images/devil/Fenrir.png"><br>Fenrir</a></td>
+                      <td><a href="#Ganesha" onclick="openCollapsibleViaToC('Ganesha')"><img src="images/devil/Ganesha.png"><br>Ganesha</a></td>
+                      <td><a href="#Gucumatz" onclick="openCollapsibleViaToC('Gucumatz')"><img src="images/devil/Gucumatz.png"><br>Gucumatz</a></td>
                       <td><a href="#Hecatoncheires" onclick="openCollapsibleViaToC('Hecatoncheires')"><img src="images/devil/Hecatoncheires.png"><br>Hecatoncheires</a></td>
-                      <td><a href="#King Frost" onclick="openCollapsibleViaToC('King Frost')"><img src="images/devil/maou_jyakuhurosuto.png"><br>King Frost</a></td>
-                      <td><a href="#Loki" onclick="openCollapsibleViaToC('Loki')"><img src="images/devil/maou_roki.png"><br>Loki</a></td>
-                      <td><a href="#Pallas Athena" onclick="openCollapsibleViaToC('Pallas Athena')"><img src="images/devil/megami_parasuatena.png"><br>Pallas Athena</a></td>
+                      <td><a href="#King Frost" onclick="openCollapsibleViaToC('King Frost')"><img src="images/devil/KingFrost.png"><br>King Frost</a></td>
+                      <td><a href="#Loki" onclick="openCollapsibleViaToC('Loki')"><img src="images/devil/Loki.png"><br>Loki</a></td>
+                      <td><a href="#Pallas Athena" onclick="openCollapsibleViaToC('Pallas Athena')"><img src="images/devil/PallasAthena.png"><br>Pallas Athena</a></td>
                       <td><a href="#Rakshasa" onclick="openCollapsibleViaToC('Rakshasa')"><img src="images/devil/Rakshasa.png"><br>Rakshasa</a></td>
                     </tr>
                     <tr>
-                      <td><a href="#Rangda" onclick="openCollapsibleViaToC('Rangda')"><img src="images/devil/kijyo_randa.png"><br>Rangda</a></td>
-                      <td><a href="#Sandalphon" onclick="openCollapsibleViaToC('Sandalphon')"><img src="images/devil/daitensi_sandaruhuon.png"><br>Sandalphon</a></td>
-                      <td><a href="#Sleipnir" onclick="openCollapsibleViaToC('Sleipnir')"><img src="images/devil/seijyuu_sureipuniru.png"><br>Sleipnir</a></td>
-                      <td><a href="#Yatagarasu" onclick="openCollapsibleViaToC('Yatagarasu')"><img src="images/devil/reityou_yatagarasu.png"><br>Yatagarasu</a></td>
-                      <td><a href="#Zhong Kui" onclick="openCollapsibleViaToC('Zhong Kui')"><img src="images/devil/kisin_syouki.png"><br>Zhong Kui</a></td>
+                      <td><a href="#Rangda" onclick="openCollapsibleViaToC('Rangda')"><img src="images/devil/Rangda.png"><br>Rangda</a></td>
+                      <td><a href="#Sandalphon" onclick="openCollapsibleViaToC('Sandalphon')"><img src="images/devil/Sandalphon.png"><br>Sandalphon</a></td>
+                      <td><a href="#Sleipnir" onclick="openCollapsibleViaToC('Sleipnir')"><img src="images/devil/Sleipnir.png"><br>Sleipnir</a></td>
+                      <td><a href="#Yatagarasu" onclick="openCollapsibleViaToC('Yatagarasu')"><img src="images/devil/Yatagarasu.png"><br>Yatagarasu</a></td>
+                      <td><a href="#Zhong Kui" onclick="openCollapsibleViaToC('Zhong Kui')"><img src="images/devil/ZhongKui.png"><br>Zhong Kui</a></td>
                     </tr>
                     <tr>
                       <td class="DG-Table-Label" rowspan = "2">Other</td>
-                      <td><a href="#Baihu" onclick="openCollapsibleViaToC('Baihu')"><img src="images/devil/seijyuu_byako.png"><br>Baihu</a></td>
-                      <td><a href="#Kinmamon" onclick="openCollapsibleViaToC('Kinmamon')"><img src="images/devil/hisin_kinmamon.png"><br>Kinmamon</a></td>
-                      <td><a href="#Mitra" onclick="openCollapsibleViaToC('Mitra')"><img src="images/devil/majin_mitora.png"><br>Mitra</a></td>
-                      <td><a href="#Jack Frost" onclick="openCollapsibleViaToC('Jack Frost')"><img src="images/devil/yousei_jyakufurosuto.png"><br>Jack Frost</a></td>
-                      <td><a href="#Pyro Jack" onclick="openCollapsibleViaToC('Pyro Jack')"><img src="images/devil/yousei_jyakurantan.png"><br>Pyro Jack</a></td>
-                      <td><a href="#Chupacabra" onclick="openCollapsibleViaToC('Chupacabra')"><img src="images/devil/tinjyuu_typakabura.png"><br>Chupacabra</a></td>
+                      <td colspan="2"><a href="#Jack Bros" onclick="openCollapsibleViaToC('Jack Bros')">
+                        <img src="images/devil/JackFrost.png">
+                        <img src="images/devil/PyroJack.png">
+                      <br>Jack Bros</a></td>
+                      <td><a href="#Baihu" onclick="openCollapsibleViaToC('Baihu')"><img src="images/devil/Baihu.png"><br>Baihu</a></td>
+                      <td><a href="#Kinmamon" onclick="openCollapsibleViaToC('Kinmamon')"><img src="images/devil/Kinmamon.png"><br>Kinmamon</a></td>
+                      <td><a href="#Mitra" onclick="openCollapsibleViaToC('Mitra')"><img src="images/devil/Mitra.png"><br>Mitra</a></td>
+                      <td><a href="#Chupacabra" onclick="openCollapsibleViaToC('Chupacabra')"><img src="images/devil/Chupacabra.png"><br>Chupacabra</a></td>
                     </tr>
                   </tbody></table>
                 </div>
@@ -1015,7 +1110,7 @@
               
               <!-- Demon Entry Format:
                 <button id="ID" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">NAME</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('NAME')">Demon Information</a></strong></p>
                   <p></p>
 
@@ -1060,7 +1155,7 @@
                 <div><p><strong>5★ Gacha Demons</strong></p>     
                   <!-- [Alice] -->
                   <button id="Alice" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Alice</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Alice')">Demon Information</a></strong></p>
                     <p>Dark oriented unit with Mamudoon, Mudodyne and her unique Die for Me! (DfM) (Kills a single enemy,
                       one use only). Yup, she can kill anyone she points her finger at and so she's really good for shutting down dangerous
@@ -1126,7 +1221,7 @@
                   
                   <!-- [Mother Harlot] -->
                   <button id="Mother Harlot" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Mother Harlot</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Mother Harlot')">Demon Information</a></strong></p>
                     <p>Comes with 2 unique skills: Death Lust (increased dmg to charmed enemies, chance to charm foes at the start of your turn), 
                        Babylon Goblet (BG) (almighty aoe skill which drains 1mp from each target hit) and Mana Gain. She
@@ -1188,7 +1283,7 @@
                   
                   <!-- [Trumpeter] -->
                   <button id="Trumpeter" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Trumpeter</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Trumpeter')">Demon Information</a></strong></p>
                     <p>Has no weaknesses and Nulls Light/Dark, he comes with Concentrate,
                         Soul Drain and his unique skill Apocalypse (Almighty, hit all with chance to mute).
@@ -1248,7 +1343,7 @@
                   
                   <!-- [Huang Di] -->
                   <button id="Huang Di" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Huang Di</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Huang Di')">Demon Information</a></strong></p>
                     <p>The most powerful hero in game with no weaknesses, high strength, high agility, luck, sporting 2 unique skills + Hades Blast. Superior Power 
                       (which boosts his accuracy and granting him Phys pierce (!!!) and Yinlong Killer, a sweeping phys skill which adds 50% with high power. 
@@ -1305,7 +1400,7 @@
                   
                   <!-- [Rama] -->
                   <button id="Rama" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Rama</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Rama')">Rama</a></strong></p>
                     <p>OP demon with no weaknesses (Immune to fire, resistant to ice). Rama comes with Mabufudyne and 2 unique skills: Drain Pierce (Pierce has no 
                         effect on demons with Drain resistances, provided he's alive) and Brahmastra (Almighty hit all 3 times). He's the drain version of Alilat's effect 
@@ -1361,7 +1456,7 @@
                   
                   <!-- [Siegfried] -->
                   <button id="Siegfried" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Siegfried</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Siegfried')">Demon Information</a></strong></p>
                     <p>An amazing physical attacker with no weaknesses, also draining phys. He utilizes Berserker God, Rebellion and a unique passive "Arms Mastery" 
                        (+15% phys damage/phys hit rate, levellable) making him effective at hitting his target without any problems or repercussions from reflected
@@ -1416,7 +1511,7 @@
                   
                   <!-- [Yoshitsune] -->
                   <button id="Yoshitsune" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Yoshitsune</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                       <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Yoshitsune')">Demon Information</a></strong></p>
                       <p>Immune to light and dark, resistant to phys attacks, has high strength, good agility
                           and high luck to boot for criticals. He comes with the unique skill Hassou Tobi (8x random piercing hits), very useful 
@@ -1425,53 +1520,54 @@
                       </p>
                           
                       <div class="DG-Table">
-                          <p><table>
-                            <tbody>
-                              <tr><td class="DG-CMN">Common</td>
-                                  <td><strong>Enduring Soul</strong> would give him more survivability. Pair this up with Endure so he can take 2 extra hits before dying</td>
-                                  <td>Unobtainable</td>
-                              </tr>
-                              <tr><td class="DG-ARA">Aragami</td>
-                                  <td><strong>Gigantomachia</strong> is a direct upgrade to Vorpal Blade, though i feel it is a waste having two aoes on him (Vorpal Blade works anyways). 
-                                  <br>It goes out well with a HB/ZG setup however (due to not needing to worry about criticals) but even so i'd personally recommend the other 
-                                      archetypes over this.
-                                  <br>
-                                    <strong>God's Hand</strong> gives him a powerful single attack skill. Most people replace this as Hassou Tobi can instead 
-                                    be used for bosses.</td>
-                                  <td>Usable</td>
-                              </tr>
-                              <tr><td class="DG-PRO">Protector</td>
-                                  <td><strong>Charge</strong> allows you to ramp up your damage even further; a 5mp charge coupled with Templar Dragon's passive would hit really hard.
-                                  <br><strong>Auto-Sukuka</strong> is a decent auto buff that increases your accuracy and evasion, allowing you to land/dodge hits more often.
-                                  </td>
-                                  <td>Usable</td>
-                              </tr>
-                              <tr><td class="DG-PSY">Psychic</td>
-                                  <td><strong>Phys Amp</strong> boosts his damage greatly allow him to hit really hard, ripping them shreds (To shreds you say?) 
-                                  <br>
-                                      <strong>Savage Glee</strong> would add onto his crit rate meaning it'll be quite likely in you getting another turn.
-                                  </td>
-                                  <td><strong>Best<br>(Offensive)</strong></td>
-                              </tr>
-                              <tr><td class="DG-ELE">Elementalist</td>
-                                  <td><strong>Drain Phys</strong> allows you not to worry about reflected Phys damage and, greatly adding to his 
-                                      survivability (Though if he is charmed, he can hurt himself with Hassou Tobi, healing himself with the rest of his skills).
-                                  <br>
-                                      <strong>Resist Ice</strong> can be replaced as he doesn't have an ice weakness.</td>
-                                  <td><strong>Best<br>(Defensive)</strong></td>
-                              </tr>
-                            </tbody>
-                          </table></p>
-                        </div>
+                        <p><table>
+                          <tbody>
+                            <tr><td class="DG-CMN">Common</td>
+                                <td><strong>Enduring Soul</strong> would give him more survivability. Pair this up with Endure so he can take 2 extra hits before dying</td>
+                                <td>Unobtainable</td>
+                            </tr>
+                            <tr><td class="DG-ARA">Aragami</td>
+                                <td><strong>Gigantomachia</strong> is a direct upgrade to Vorpal Blade, though i feel it is a waste having two aoes on him (Vorpal Blade works anyways). 
+                                <br>It goes out well with a HB/ZG setup however (due to not needing to worry about criticals) but even so i'd personally recommend the other 
+                                    archetypes over this.
+                                <br>
+                                  <strong>God's Hand</strong> gives him a powerful single attack skill. Most people replace this as Hassou Tobi can instead 
+                                  be used for bosses.</td>
+                                <td>Usable</td>
+                            </tr>
+                            <tr><td class="DG-PRO">Protector</td>
+                                <td><strong>Charge</strong> allows you to ramp up your damage even further; a 5mp charge coupled with Templar Dragon's passive would hit really hard.
+                                <br><strong>Auto-Sukuka</strong> is a decent auto buff that increases your accuracy and evasion, allowing you to land/dodge hits more often.
+                                </td>
+                                <td>Usable</td>
+                            </tr>
+                            <tr><td class="DG-PSY">Psychic</td>
+                                <td><strong>Phys Amp</strong> boosts his damage greatly allow him to hit really hard, ripping them shreds (To shreds you say?) 
+                                <br>
+                                    <strong>Savage Glee</strong> would add onto his crit rate meaning it'll be quite likely in you getting another turn.
+                                </td>
+                                <td><strong>Best<br>(Offensive)</strong></td>
+                            </tr>
+                            <tr><td class="DG-ELE">Elementalist</td>
+                                <td><strong>Drain Phys</strong> allows you not to worry about reflected Phys damage and, greatly adding to his 
+                                    survivability (Though if he is charmed, he can hurt himself with Hassou Tobi, healing himself with the rest of his skills).
+                                <br>
+                                    <strong>Resist Ice</strong> can be replaced as he doesn't have an ice weakness.</td>
+                                <td><strong>Best<br>(Defensive)</strong></td>
+                            </tr>
+                          </tbody>
+                        </table></p>
+                      </div>
       
                       <p><strong> Recommended skills: </strong></p>
                       <ul>
-                          <li>Phys Boost/Amp. Give him more power.</li>
-                          <li>Bloody/Savage Glee. Give him more crit (if not purple)</li>
-                          <li>Good/Great Aim. If you find he's missing a lot this can help with accuracy issues. Though
-                              you should aim for accuracy % tertiaries from brands.</li>
-                          <li>Charge (Optional). To pull off stuff like the Templar Dragon strategy.</li>
-                          <li>Butcher. As multi-hit skills count as aoe, this can increase Hassou-Tobi/Vorpal Blade damage. Phys Amp, Boost, Butcher maximises his damage</li>
+                        <li>Phys Boost/Amp. Give him more power.</li>
+                        <li>Bloody/Savage Glee. Give him more crit (if not purple)</li>
+                        <li>Good/Great Aim. If you find he's missing a lot this can help with accuracy issues. Though
+                            you should aim for accuracy % tertiaries from brands.</li>
+                        <li>Charge (Optional). To pull off stuff like the Templar Dragon strategy.</li>
+                        <li>Luck Amp III. Equivalent to Bloody Glee in terms of crit boosting, but has the added effect of extra crit avoidance, accuracy, evasion, ailment resistance and infliction</li>
+                        <li>Butcher. As multi-hit skills count as aoe, this can increase Hassou-Tobi/Vorpal Blade damage. Phys Amp, Boost, Butcher maximises his damage</li>
                       </ul>
                       <p><strong>Brands: </strong>War or Divine. Divine would be better for charge/pvp setups, for pve it isn't really needed</p>
                       <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/guides/HomeButton.png"></a></p>
@@ -1479,7 +1575,7 @@
                   
                   <!-- [Ixtab] -->
                   <button id="Ixtab" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Ixtab</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Ixtab')">Demon Information</a></strong></p>
                     <p>The opposite of a tanky demon as instead of surviving as long as possible she'd prefer to die for me due to her unique passive Yaxche. 
                         This activates only on the enemy turn as when she dies: her killer is hit by an almighty attack and is killed with a 100%
@@ -1553,7 +1649,7 @@
                   
                   <!-- [Mot] -->
                   <button id="Mot" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Mot</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Mot')">Demon Information</a></strong></p>
                     <p>Mot is a tanky caster coming with Megidolaon, Mamudodyne and Harmonius Death, a really useful passive (Every second turn he gains 
                        10% damage (cap = 50%) and an extra press turn). Naturally he repels Force and Dark, meaning if you pair him up with Alilat you can prevent 
@@ -1615,7 +1711,7 @@
                   
                   <!-- [Nergal] -->
                   <button id="Nergal" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Nergal</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Nergal')">Demon Information</a></strong></p>
                     <p>Phys oriented demon who can be paired with Chernobog to produce devastating results. He has amazing strength, agility and 
                        luck so he can dish out hits, crits all day. Naturally he has Berserker God and two unique skills: Meslamtea (+20% accuracy, casts rebellion 
@@ -1668,7 +1764,7 @@
                   
                   <!-- [Orcus] -->
                   <button id="Orcus" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Orcus</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Orcus')">Demon Information</a></strong></p>
                     <p>Demon designed and built for tankiness with two unique abilities centering around weaknesses: Law of Hell prevents the enemy team 
                        from getting extra press turn icons when a weakness is hit, whilst Hell's Gate grants damage reduction depending on the number of weak 
@@ -1734,7 +1830,7 @@
                   
                   <!-- [Masakado] -->
                   <button id="Masakado" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Masakado</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Masakado')">Demon Information</a></strong></p>
                     <p>One of the most OP demons in the game, hats off to you if you've obtained him. He has no weaknesses: Null Phys, Resist Light, Drains Dark (He can't be killed by Alice), 
                        the highest strength in the game and really high luck (meaning he can easily crit, have high innate ailment resistance and infliction) and a really powerful 
@@ -1798,7 +1894,7 @@
                   
                   <!-- [Bayonetta 5] -->
                   <button id="Bayonetta ☆" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Bayonetta ☆</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Bayonetta ☆')">Demon Information</a></strong></p>
                     <p>Bayonetta from the Bayonetta series is a collaboration event character oriented towards criticals and charm. She has no elemental weaknesses, Mortal Jihad for single 
                       target phys attacks and two unique abilities (one passive, one active). Madama Stomp (Passive) activates whenever she lands a critical hit, comboing with an almighty attack 
@@ -1874,7 +1970,7 @@
                   
                   <!-- [Jeanne 5] -->
                   <button id="Jeanne ☆" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jeanne ☆</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jeanne ☆')">Demon Information</a></strong></p>
                     <p>Collaboration event character, Jeanne from the Bayonetta series is built similarly as a mirror to Bayonetta, they both have the same stats and resistances, 
                       except St and Ma being flipped meaning Jeanne is naturally more magic focused. Jeanne is Bind oriented and can combo off Bayonetta's charm passive (and any charm source in general). 
@@ -1950,7 +2046,7 @@
                 <div><p><br><strong>5★ Fusable Demons</strong></p>
                   <!-- [Metatron] -->
                   <button id="Metatron" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Metatron</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Metatron')">Demon Information</a></strong></p>
                     <p>Highest grade demon with the unique skill Fire Of Sinai (FoS). FoS hits really hard with
                         guaranteed 5 hits (+1 if you're using Eileen enabling you to activate her skills),
@@ -2026,7 +2122,7 @@
 
                   <!-- [Lucifer] -->
                   <button id="Lucifer" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Lucifer</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Lucifer')">Demon Information</a></strong></p>
                     <p>Strongest almighty sweeper, ideally you'd want purple archetype (Butcher) to ensure he's as
                         powerful as he can get. The reason for this is that he comes with the unique skill: Morning
@@ -2086,7 +2182,7 @@
                     
                   <!-- [Vishnu] -->
                   <button id="Vishnu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Vishnu</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Vishnu')">Demon Information</a></strong></p>
                     <p>A Strong slow caster with the unique passive Avatar. This acts as an improved Enduring Soul + Life Aid
                        combined into one (500 HP, 50% per wave. It's also levellable). He naturally also nulls light/dark and with his low agi 
@@ -2139,7 +2235,7 @@
 
                   <!-- [Shiva] -->
                   <button id="Shiva" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Shiva</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Shiva')">Demon Information</a></strong></p>
                     <p>Strong phys unit built towards aoe, he comes with a unique skill Pralaya (aoe almighty damage based on his
                         strength stat (Levellable with -2 mp cost, effectively reducing its cost down to 6)). He comes with Vorpal Blade and Serial Killer, a weaker
@@ -2193,7 +2289,7 @@
                   
                   <!-- [Michael] -->
                   <button id="Michael" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Michael</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Michael')">Demon Information</a></strong></p>
                     <p>Magic oriented demon (even though he has both equal magic and strength). Has the unique skill Soul Judgement (multiple hits, light) which makes him a 
                        really good demon for Sloth 10, Megidolaon for general sweeping and Life Aid for healing in between waves making him an effective pve demon.
@@ -2241,7 +2337,7 @@
                   
                   <!-- [Mara] -->
                   <button id="Mara" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Mara</button>
-                  <div class="DG-Demon"><br>                
+                  <div class="DG-CollapsibleContent"><br>                
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Mara')">Demon Information</a></strong></p>
                     <p>Strong phys unit with a unique skill Hell Thrust (Gee i wonder why its called that), doing
                         multiple hits and having a chance to charm enemies on hit. Naturally Mara has amazing
@@ -2289,7 +2385,7 @@
                   
                   <!-- [Izanami] -->
                   <button id="Izanami" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Izanami</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Izanami')">Demon Information</a></strong></p>
                     <p>A really strong magical demon with good survivability as well. She utilizes the unique skill
                         Yomotsu Okami which, as long as she's alive Elec and Dark attacks do 10% more damage for all
@@ -2348,7 +2444,7 @@
                   
                   <!-- [Huang Long] -->
                   <button id="Huang Long" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Huang Long</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Huang Long')">Demon Information</a></strong></p>
                     <p>Arguably the best support demon in the game with resistance to all elements (minus dark, phys), Null Light + high stats (minus strength). His main use is Five Elements (5E) which 
                        is an improved version of Makarakarn, reflecting all spells including Almighty meaning only pierce skills/phys attacks can be used. Regardless of the archetype, i would 
@@ -2407,7 +2503,7 @@
 
                   <!-- [Zaou Gongen] -->
                   <button id="Zaou-Gongen" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Zaou-Gongen</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Zaou-Gongen')">Demon Information</a></strong></p>
                     <p>One of the key pieces in the Rebellion + Pierce combo (Pair him with Hell Biker and let them go ham). This is
                         due to his unique skill Kongo Zaou which enables demons with Rebellion (Might effect) to also have pierce attached to their phys attacks/skills.
@@ -2453,7 +2549,7 @@
                   
                   <!-- [Alilat] -->
                   <button id="Alilat" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Alilat</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Alilat')">Demon Information</a></strong></p>
                     <p>Really good defensive demon to use, helping immensely vs piercing units (such as those that can be seen in AG). 
                        This is because of her unique skill Repel Pierce, ignoring the pierce effect on units that repel the attribute. 
@@ -2503,7 +2599,7 @@
                   
                   <!-- [Lakshmi] -->
                   <button id="Lakshmi" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Lakshmi</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a id="Lakshmi" href="javascript:void(0)" @click="show_guide_devil('Lakshmi')">Demon Information</a></strong></p>
                     <p>Demon with the highest magic stat in the game. She also comes with a unique skill Lotus dance (60% chance to charm all enemies), 
                        given her high luck stat she's almost guaranteed to inflict charm on the enemy team and so can be built as magic damage or ailment slinger.</p>
@@ -2554,7 +2650,7 @@
                   
                   <!-- [Samael] -->
                   <button id="Samael" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Samael</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Samael')">Demon Information</a></strong></p>
                     <p>Another 5★ unit with access to Infinite Chakra. Naturally he also has pretty high stats (excluding strength), repels light and dark but has a elec weakness.
                       He comes with Salvation (same heal amount as Mediarama + prayer effect attached to it, 3 uses), Mana Aid meaning he'd be a really effective pve demon and God's Malice 
@@ -2602,7 +2698,7 @@
 
                   <!-- [Seth] -->
                   <button id="Seth" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Seth</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Seth')">Demon Information</a></strong></p>
                     <p>Second highest ATK in the game (losing out to an angry red man), coming with Debilitate (All debuffs in one), Zandyne and his unique skill Ouas 
                       (really high single target phys damage, excellent crit rate, with an added 40% healing based on damage done). He's built to be a single target sniping unit.
@@ -2652,7 +2748,7 @@
                   
                   <!-- [Barong] -->
                   <button id="Barong" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Barong</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Barong')">Demon Information</a></strong></p>
                     <p>One of the worst 5★ demons in game (Sharing that title with Lilith), due to having two weaknesses, a lackluster skillset, pretty bad archetypes and mediocre HP/Vit 
                       (He has good Agi/Luck at least). Mazionga, Bolt Storm won't do much damage with his low magic and so his unique skill Barong Dance (Aoe healing, same power as Mediarama + 
@@ -2698,7 +2794,7 @@
                   
                   <!-- [Ananta] -->
                   <button id="Ananta" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Ananta</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Ananta')">Demon Information</a></strong></p>
                     <p>Ananta's main use is seen in pvp due to his auto buffs: Auto Sukuka, Rakuka, (and Taruka when purple). He has Amazing stats: high health, vitality, agility 
                        meaning he'd be good at tanking. Also is immune to ice, elec and light which is pretty cool (weak to force). He is the only 5★ in the game 
@@ -2749,7 +2845,7 @@
                   
                   <!-- [Surt] -->
                   <button id="Surt" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Surt</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Surt')">Demon Information</a></strong></p>
                     <p>The only source of Fire Pierce, but not that good of a demon as a fire weakness isn't that
                         prevalent. He's mainly seen either with a purple archetype for Fire Pierce or Clear for
@@ -2798,7 +2894,7 @@
                   
                   <!-- [Thor] -->
                   <button id="Thor" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Thor</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Thor')">Demon Information</a></strong></p>
                     <p>Quite tanky, has high strength and if purple is our Elec Pierce unit making him able to be built towards phys or magic. 
                        He comes with a unique skill Mjolnir hitting 4-5 times with elec damage. Pair him up with Eileen to take advantage of
@@ -2847,7 +2943,7 @@
                   
                   <!-- [Asherah] -->
                   <button id="Asherah" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Asherah</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a id="Asherah" href="javascript:void(0)" @click="show_guide_devil('Asherah')">Demon Information</a></strong></p>
                     <p>One of the tankiest healers in the game with high magic, hp and vitality stats. She however comes with two weaknesses and so you'd 
                        need to invest a fair amount to cover it. She has Mediarama for party healing, maragion and a unique skill Mother's Creation which 
@@ -2894,7 +2990,7 @@
                   
                   <!-- [Mastema] -->
                   <button id="Mastema" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Mastema</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a id="Mastema" href="javascript:void(0)" @click="show_guide_devil('Mastema')">Demon Information</a></strong></p>
                     <p>High magic and is oriented towards light, making him very useful in Sloth 10 farming. He comes Judgement Light, binding cry and the 
                        unique skill Trial Of Hate: an aoe light attack that applies random debuff only when the attack successfully hits all targets. 
@@ -2942,7 +3038,7 @@
                   
                   <!-- [Amaterasu] -->
                   <button id="Amaterasu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Amaterasu</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Amaterasu')">Demon Information</a></strong></p>
                     <p>One of the best buffers due to her unique skill Tenson Kourin (TK), it has the same effect as Luster Candy but casts Dekunda beforehand so you'd always have 3
                        buffs on you whenever you cast it. Naturally she repels fire and resists light (weak to elec), comes with Maragion, Tarunda also has really 
@@ -2989,7 +3085,7 @@
                   
                   <!-- [Ishtar] -->
                   <button id="Ishtar" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Ishtar</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Ishtar')">Demon Information</a></strong></p>
                     <p>Second strongest caster in the game with Mahamaon, Diarahan and her unique skill Mesopotamian Star: almighty aoe 
                         casting Tarukaja and Tarunda when it lands. She's mainly used for a sweeping Jack Bros team in pvp with Yellow
@@ -3043,7 +3139,7 @@
                   
                   <!-- [Susano-o] -->
                   <button id="Susano-o" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Susano-o</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Susano-o')">Demon Information</a></strong></p>
                     <p>Single target sniper with really high strength but all round mediocre stats as his kit contains Assassin (+10% bonus damage for single target skills), Mortal Jihad and Kusanagi. 
                        Kusanagi being his unique skill is fully boosted by Phys ATK and when it lands (single target force) casts Tarukaja. This means most of the time you'd have a damage buff active.
@@ -3094,7 +3190,7 @@
                   
                   <!-- [Black Frost] -->
                   <button id="Black Frost" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Black Frost</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Black Frost')">Demon Information</a></strong></p>
                     <p>Dark sweeper the unique skill Go To Hell! (GTH), dark aoe with 80% curse effect (that also 
                        pierces). He comes with a unique Jaki trait passive Curse Of Anguish which reduces damage taken  and increases damage towards cursed enemies. 
@@ -3140,7 +3236,7 @@
                   
                   <!-- [Cu Chulainn] -->
                   <button id="Cu Chulainn" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Cu Chulainn</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Cu Chulainn')">Demon Information</a></strong></p>
                     <p>Recommended sweeper and first 5★ demon to fuse in the game. With Force Pierce (Purple only) and
                         Mazandyne he can sweep any pve content like crazy. He also has no weaknesses so you get to mix and match a variety of skills. 
@@ -3187,7 +3283,7 @@
                   
                   <!-- [Quetzalcoatl] -->
                   <button id="Quetzalcoatl" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Quetzalcoatl</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a id="Quetzalcoatl" href="javascript:void(0)" @click="show_guide_devil('Quetzalcoatl')">Demon Information</a></strong></p>
                     <p>Demon that can be built to be tanky due to his resistances (He resists all except for
                         ice and elec and is weak to dark, Teal gives him Repel Phys). His base kit consists of
@@ -3241,7 +3337,7 @@
                   
                   <!-- [Garuda] -->
                   <button id="Garuda" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Garuda</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Garuda')">Demon Information</a></strong></p>
                     <p>Speediest demon in the game and really squishy. He has high luck and magic meaning he's built
                         for evasion and turn one kill pvp teams. Repelling Fire and Nulling Force means he'd be really
@@ -3300,7 +3396,7 @@
                   
                   <!-- [Lilith] -->
                   <button id="Lilith" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Lilith</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Lilith')">Demon Information</a></strong></p>
                   <p>Along with Barong she's another 5★ which is not so good. She has two weaknesses meaning you'd
                      need to cover them (and she'd be costly to invest into). She comes with a unique skill Allure
@@ -3358,7 +3454,7 @@
                 <div><p><strong>3/4★ Gacha Demons</strong></p>
                 <!-- [Chernobog] -->
                 <button id="Chernobog" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Chernobog</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Chernobog')">Demon Information</a></strong></p>
                   <p>Strong phys unit pairing well with Nergal. He is poison oriented with Deadly Poison, Hades Blast for aoe and his unique passive Fog Of Death. 
                      Whever a enemy is weakened, he casts Sukunda and inflicts poison on them. To synergize, Nergal happens to have an ability which removes barrier then inflicts 
@@ -3416,7 +3512,7 @@
                 
                 <!-- [Hel] -->
                 <button id="Hel" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Hel</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Hel')">Demon Information</a></strong></p>
                   <p>Strong caster designed for aoe spellcasting especially given she has Mabufula, Mamudo and Call to Helhiem her unique passive. Whenever she kills an enemy, 
                      War Cry is casted on their team (Rakunda, Tarunda) and so this makes her really good for Wanted missions (where most of them are weak to dark/ice), V10 and in 
@@ -3474,7 +3570,7 @@
                 
                 <!-- [Hell Biker] -->
                 <button id="Hell Biker" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Hell Biker</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Hell Biker')">Demon Information</a></strong></p>
                   <p>The second component in the setup HB/ZG setup. He comes with Maragion, Speedster and his unique Red Zone (Grants Rebellion to all allies, 3 uses). 
                      Given his innate high agility and a need for speed with Speedster, with him in your team you'd reach really high battle speeds almost guaranteeing first strikes 
@@ -3535,7 +3631,7 @@
                 
                 <!-- [Jeanne D'Arc] -->
                 <button id="Jeanne D Arc" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jeanne D'Arc</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jeanne d\'Arc')">Demon Information</a></strong></p>
                   <p>Good healer (when compared with Pazuzu and Feng Huang), coming with Recovery Boost for higher heals, Holy Wrath and her unique Orlean Prayer 
                     (Heals single ally and recovers 3 mp, 6 uses). Orlean Prayer can be used offensively, acting as a mana battery for your hard hitters. 
@@ -3592,7 +3688,7 @@
                 
                 <!-- [Persephone] -->
                 <button id="Persephone" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Persephone</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Persephone')">Demon Information</a></strong></p>
                   <p> Persephone comes with Bufudyne, Mamudoon and a unique passive Fruit of the Dead. A direct counter to revive teams as units come back with only 1 hp, allowing for easy re-wipes. 
                       High Agility, Luck and good Hp, Vitality and Magic means she can be built as a ailment clearer or spell caster. Ideally you'd want her to remain alive as long as possible for 
@@ -3650,7 +3746,7 @@
                 
                 <!-- [White Rider] -->
                 <button id="White Rider" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">White Rider</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('White Rider')">Demon Information</a></strong></p>
                   <p> High magic and agility makes him a speedy caster, though with low Hp and Vitality he's quite squishy (essentially a glass cannon). He uses Ziodyne, White Noise and his unique God's Bow 
                       (Light, a single foe with 50% chance to kill, 2 uses). Along with Alice, he's amazing for pve content for one shotting dangerous foes as you get 2 chances, at best 
@@ -3706,7 +3802,7 @@
                 
                 <!-- [Man Eater] -->
                 <button id="Man Eater" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Man Eater</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Man Eater')">Demon Information</a></strong></p>
                   <p>Phys support oriented demon with resist elec, repel dark and weakness to light. She has quite low hp/vit/mag, decent agi, decent str and high luck.
                     With this stat spread she can take advantage of her kit's Eat whole for damage, Sexy dance for ailment infliction and Sass (Passive: when foe is charmed, cast Rakunda) adding 
@@ -3762,7 +3858,7 @@
                 
                 <!-- [Bodyconian] -->
                 <button id="Bodyconian" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Bodyconian</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Bodyconian')">Demon Information</a></strong></p>
                   <p> Our first gacha 3★ unit in the game. She has two weaknesses (fire and light), resists dark at least and has all round pretty bad stats (besides luck and agi).
                     Bodyconian knows Madness, Sexy Dance and lives the Nightlife (Passive: Increases Macca earned). With this kit she'll spam charm to no end (which makes her pair well with Man Eater).
@@ -3816,7 +3912,7 @@
                 
                 <!-- [Beloved] -->
                 <button id="Beloved" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Beloved</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Beloved')">Demon Information</a></strong></p>
                   <p>From the Bayonetta Collaboration, Beloved is a slow beefy phys demon with resistance to phys, light and weak to dark. He has a pretty amazing base kit with 
                     Bloody Glee for boosted critical rates, Oni-Kagura, for single targeting (also adding crit) and his unique skill Beloved Slash which hits all foes twice. The main 
@@ -3875,7 +3971,7 @@
                 
                 <!-- [Bayonetta] -->
                 <button id="Bayonetta" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Bayonetta</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Bayonetta')">Demon Information</a></strong></p>
                   <p>4★ version of Bayonetta without the unique passive and skill (and lower base stats but the same resistances). She has the matching Mortal Jihad skill but now instead 
                   has Berserker (takes more damage, deals more damage) and Soul Drain (Almighty single target), a way worse kit compared to the 5★ version. With Berserker she'd fall even easier 
@@ -3934,7 +4030,7 @@
                 
                 <!-- [Jeanne] -->
                 <button id="Jeanne" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jeanne</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jeanne')">Demon Information</a></strong></p>
                   <p>Like Bayonetta, she also as a more inferior 4★ version (also having mirroring stats to Bayonetta, with flipped St and Ma, meaning she's a spell unit). 
                   Without her unique skill and passive she has Hades Blast (which is bad on her), Berserker and Soul Drain. Compared to 4★ Bayo, with her stat spread i'd recommend building 
@@ -3996,7 +4092,7 @@
                 <div><p><br><strong>4★ Fusable Demons</strong></p>
                 <!-- [Beelzebub] -->
                 <button id="Beelzebub" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Beelzebub</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Beelzebub')">Demon Information</a></strong></p>
                   <p> Balanced unit with mid range stats (excluding luck) and excellent resistances (Null light/dark, resist force/elec). Beelzebub is a elec/dark oriented unit 
                       with Mudodyne, Mazionga and his unique dark skill Gluttony (aoe dark damage, heals himself based on 50% of damage done). If you face off against foes that 
@@ -4043,7 +4139,7 @@
                 
                 <!-- [Fenrir] -->
                 <button id="Fenrir" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Fenrir</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Fenrir')">Demon Information</a></strong></p>
                   <p>Recommended mainly for Aura Gate 45-50 farming and only when Purple. You need to reach around ~21,000 speed for those floors in order to get first strikes, ensuring your team doesn't 
                      fall as the recommended team on the wiki is very squishy. If you want an improved version to use, Purple Huang Long (or any other HL with Speedster) would suit this bill in terms of 
@@ -4092,7 +4188,7 @@
                 
                 <!-- [Ganesha] -->
                 <button id="Ganesha" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Ganesha</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Ganesha')">Demon Information</a></strong></p>
                   <p> Bulky slow demon with resist phys, null force but two weaknesses. Though this is detrimental, the reason why he's recommended isn't for pve but instead pvp against intimidating stance teams.
                       He comes with Berserker God, Rakukaja and his unique passive: Faith in Wealth (Increases his max hp and recovers 1mp to your team whenever you lose a press turn icon). When facing off against IS teams,
@@ -4141,7 +4237,7 @@
                 
                 <!-- [Gucumatz] -->
                 <button id="Gucumatz" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Gucumatz</button>
-                  <div class="DG-Demon"><br>
+                  <div class="DG-CollapsibleContent"><br>
                     <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Gucumatz')">Demon Information</a></strong></p>
                     <p>Sturdy slow demon with good hp/vit and luck. For pvp he's a auto-debuffer with Auto-Tarunda (his other two skills are quite useless) and shines as Yellow 
                        for the sole purpose of spamming Fog Breath. If you want a replacement demon, Purple Ananta works better in this regard. Having both Auto-Tarunda and Auto-Rakuka cast
@@ -4192,7 +4288,7 @@
                 
                 <!-- [Hecatoncheires] -->
                 <button id="Hecatoncheires" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Hecatoncheires</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Hecatoncheires')">Demon Information</a></strong></p>
                   <p>Extremely tanky demon with high luck, vit, hp, luck and strength (low mag, agi). He has Megaton Press, Bloody Glee and a unique passive Guards of Tartarus which reduces all aoe/multi-target 
                      damage done to your team by 15%. Given his stats he naturally has higher resistance to ailments and can crit (if he manages to land a hit). Amazing for both pvp and pve as his presence alone 
@@ -4240,7 +4336,7 @@
                 
                 <!-- [King Frost] -->
                 <button id="King Frost" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">King Frost</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('King Frost')">Demon Information</a></strong></p>
                   <p>Slow tanky caster, hee comes with the unique skill Cold World (CW), a aoe ice attack with an added Rakunda effect if all targets are hit.
                     Ice boost ramps up this damage, whilst his last skill Megaton Press doesn't really do much. With King Frost hee hoever works best when there are no
@@ -4286,7 +4382,7 @@
                 
                 <!-- [Loki] -->
                 <button id="Loki" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Loki</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Loki')">Demon Information</a></strong></p>
                   <p>Slow single target oriented mage with great HP/Vit stats for survivability. Loki is a Trickster, his unique passive granting a chance to ignore 
                      press turn usage when a weakness is hit. Naturally coming with Zandyne and Agidyne he's great for coverage and targeting weaknesses in content such as 
@@ -4334,7 +4430,7 @@
                 
                 <!-- [Pallas Athena] -->
                 <button id="Pallas Athena" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Pallas Athena</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Pallas Athena')">Demon Information</a></strong></p>
                   <p>Mainly considered for two uses: Resist Force transfer or as a budget Yoshitsune (only when purple). She naturally comes with Resist Force (for transferral), 
                      Myriad Arrows (For bosses) and Holy Wrath. She has high strength, agility and luck, making her a excellent phys unit for farming. Her hp, mag and vit is on the low end 
@@ -4382,7 +4478,7 @@
 
                 <!-- [Rakshasa] -->
                 <button id="Rakshasa" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Rakshasa</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Rakshasa')">Demon Information</a></strong></p>
                   <p>Powerful glass cannon phys unit (Low hp/vit/mag + two weaknesses). He has Fatal Sword, Charge and his unique Rasetsu, increasing his base accuracy and granting him Rebellion at 
                      the start of battle. Combined with Zaou Gongen, you can immediately pierce when you start combat, give him an aoe to let him wreck havok. Due to Rasetsu only activating once however, 
@@ -4431,7 +4527,7 @@
                 
                 <!-- [Rangda] -->
                 <button id="Rangda" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Rangda</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Rangda')">Demon Information</a></strong></p>
                   <p> Magic unit with a kit that has Mahajuon for cursing foes, Mudodyne and Mazandyne for spells to cast. Her appeal mainly is in her natural repel phys resistance and 
                       her archetype as Yellow with Recarmdra, pair her with Alilat to prevent phys piercing from the likes of HB/ZG teams, Mara and Huang Di. You can build her either as a spell 
@@ -4481,7 +4577,7 @@
                 
                 <!-- [Sandalphon] -->
                 <button id="Sandalphon" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Sandalphon</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Sandalphon')">Demon Information</a></strong></p>
                   <p>One of the first recommended 4★ demons to build in the game (he's also a component for Alilat). Having no weaknesses and really good resistances, a balanced stat spread, two single 
                      target skills and Auto-Sukuka to boot he's a pretty good well rounded demon. Red is recommended if you want to use him for farming brands or on your AG farming team, whilst Yellow is 
@@ -4528,7 +4624,7 @@
                 
                 <!-- [Sleipnir] -->
                 <button id="Sleipnir" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Sleipnir</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Sleipnir')">Demon Information</a></strong></p>
                   <p>Speedy caster that's generally recommended for AG 45-50 and Sloth 10 (If Red). He has Light Boost to increase the damage of Mahamaon and Speedster, giving your 
                      team a needed boost in battle speed for farming content. He is pretty squishy however and so you should expect him to fall quite easily. This is why you can also find a 
@@ -4583,7 +4679,7 @@
                 
                 <!-- [Yatagarasu] -->
                 <button id="Yatagarasu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Yatagarasu</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Yatagarasu')">Demon Information</a></strong></p>
                   <p>Lighting fast bird with high strength, very high agility and decent luck. Yatagarasu has Hades Blast, Auto-Sukunda and Speedster making him a effective demon 
                     for HB/ZG comps. Speedster would ensure your team gets high battle speeds, whilst Auto-Sukunda assists with hit rates (since the team is fully reliant on phys). 
@@ -4636,7 +4732,7 @@
                 
                 <!-- [Zhong Kui] -->
                 <button id="Zhong Kui" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Zhong Kui</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Zhong Kui')">Demon Information</a></strong></p>
                   <p>The angry red man with the highest strength stat in the game (also with second highest luck) meaning he will strike with heavy critical hits. He has Hellish Mask boosting his ailment resistance, 
                      Oni-Kagura to strike with a boosted crit chance and Auto-Taruka giving your team an immediate boost in attack at the start of combat.
@@ -4692,9 +4788,66 @@
               <!-- [Other Demons] -->
               <b-card>     
                 <p><strong>Other Demons</strong></p>
+                
+                <!-- [Jack Bros] -->
+                <button id="Jack Bros" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jack Bros</button>
+                <div class="DG-CollapsibleContent"><br>
+                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jack Frost')">Jack Frost</a> and <a href="javascript:void(0)" @click="show_guide_devil('Pyro Jack')">Pyro Jack</a></strong>
+                  </p>
+                  <p>The Jack siblings follow the same build via being optimal as Yellow. They're excellent for manual play and in pvp form the Jack Bros team. Tag 
+                  will pass their turn without consuming any turn icons and so allies will be able to quickly regain mana. Ideally you'd want your sweeper to 
+                  run concentrate so that you can one shot them or do enough damage to finish them off the second turn. Aim to start first, but if you can bear the 
+                  brunt of their attacks (and have no demons fall) then starting second would be fine too as you'd begin with even more mana.
+                    <br><br> The team mainly comprises of the Tag Jacks + One swheeper and one spheedy supphort.
+                    <ul>
+                      <li><strong>Sweepers:</strong> Yellow Ishtar, Trumpeter, Rama (with concentrate), Yellow Black Frost, Mother Harlot</li>
+                      <li><strong>Support:</strong> Fenrir, Garuda, Kinmamon</li>
+                    </ul>
+                  </p>
+
+                  <div class="DG-Table">
+                    <p><table>
+                      <tbody>
+                          <tr><td class="DG-CMN">Common</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ARA">Aragami</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-PRO">Protector</td>
+                            <td>Pass their turn and <strong>Tag</strong> your next theeam member</td>
+                            <td><strong>Best</strong></td>
+                          </tr>
+                          <tr><td class="DG-PSY">Psychic</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                          <tr><td class="DG-ELE">Elementalist</td>
+                            <td>-</td>
+                            <td>Bad</td>
+                          </tr>
+                      </tbody>
+                    </table></p>
+                  </div>
+
+                  <p><strong>Recommended skills:</strong></p>
+                  <ul>
+                    <li>Endure + Samarecarm. Good combo when your team doesn't manage to one turn sweep and the opponent counters and wipes your sweeper</li>
+                    <li>Mind Break. Great support usage.</li>
+                    <li>Megido. Clean up any demons that have endured</li>
+                    <li>Auto Taruka/Auto Rakunda. Use only when you're sure you want to stick with this attack team type, it's quite a heavy investment.</li>
+                  </ul>
+                  <p><strong>Brands: </strong>Life to increase survivability. One fun fact is if they're charmed then they can use tag so Ward could be optional if you don't care about 
+                    Mute/Bind (Note they can also still use his other skills of course, or just standard attack).
+                  </p>
+                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/guides/HomeButton.png"></a></p>
+                </div>
+                
                 <!-- [Baihu] -->
                 <button id="Baihu" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Baihu</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Baihu')">Baihu</a></strong></p>
                   <p>Mainly used in pvp for his purple archetype. Overall Baihu doesn't really have any notable qualities to him and so people like to use him as a 
                     low speed unit in their defense team, pair him with Zhong Kui for double intimidation. Baihu is deliberately left at lv 1 for this case (to ensure your team being really slow), 
@@ -4743,7 +4896,7 @@
                 
                 <!-- [Mitra] -->
                 <button id="Mitra" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Mitra</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Mitra')">Demon Information</a></strong></p>
                   <p>Phys Repel demon with resistance to light/dark but having the hard to cover Ice weakness. He has pretty good HP, Vit, Str and Mag but bad Agi/Luck.
                     Mitra comes with Mahaju, Barrier Break and Evil Gaze and so on manual play would be a good demon for barrier removal + if Yellow, support. If you do decide to build 
@@ -4792,7 +4945,7 @@
                 
                 <!-- [Kinmamon] -->
                 <button id="Kinmamon" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Kinmamon</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Kinmamon')">Demon Information</a></strong></p>
                   <p>The best demon for ailment clearing in game. His kit comes with Megido, Barrier and Mutant (passive which grants him immunity to all ailments),
                      nulls fire, resistance to light/dark and is weak to ice. Naturally he also has high agility and luck which is great as an ailment clearer should always act first before 
@@ -4837,108 +4990,10 @@
                   <p><strong>Brands: </strong>Life and Shield/Guard work best to give him bulk. Lead could be used if you pair him with faster demons.</p>
                   <p><a href="#DG-5StarDemons"><img class="DG-HomeButton" src="images/guides/HomeButton.png"></a></p>
                 </div>
-                
-                <!-- [Jack Frost] -->
-                <button id="Jack Frost" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Jack Frost</button>
-                <div class="DG-Demon"><br>
-                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Jack Frost')">Demon Information</a></strong></p>
-                  <p>Hee Ho the mascot of the series. Hee Ho is best for when hee is Protector archetype ho. Tag allows hee to pass hee's turn without using 
-                     a press turn icon ho. Pair hee with brother Pyro Jack for the deadly Jack Bros Tag Team Ho.
-                     <br> The Jack Bros team uses two hee Tag Jacks + One swheeper and one spheedy support ho.
-                     <ul>
-                       <li><strong>Sweepers:</strong> Yellow Ishtar, Trumpeter, Rama (with concentrate), Yellow Black Frost, Mother Harlot</li>
-                       <li><strong>Support:</strong> Fenrir, Garuda</li>
-                     </ul>
-                  </p>
 
-                  <div class="DG-Table">
-                    <p><table>
-                      <tbody>
-                          <tr><td class="DG-CMN">Common</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                          <tr><td class="DG-ARA">Aragami</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                          <tr><td class="DG-PRO">Protector</td>
-                            <td>Pass the baton and <strong>Tag</strong> hee</td>
-                            <td><strong>Best</strong></td>
-                          </tr>
-                          <tr><td class="DG-PSY">Psychic</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                          <tr><td class="DG-ELE">Elementalist</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                      </tbody>
-                    </table></p>
-                  </div>
-
-                  <p><strong>Recommended skills:</strong></p>
-                  <ul>
-                    <li>Endure + Samarecarm. Good combo when your team doesn't manage to one turn sweep and the opponent counters and wipes your sweeper</li>
-                    <li>Mind Break. Great support usage.</li>
-                    <li>Megido. Clean up any demons that have endured</li>
-                    <li>Auto Taruka/Auto Rakunda. Use only when you're sure you want to stick with this attack team type, it's quite a heavy investment.</li>
-                  </ul>
-                  <p><strong>Brands: </strong>Life to increase survivability. One fun fact is if he's charmed then he can use tag so Ward could be optional if you don't care about 
-                    Mute/Bind (Note he can also still use his other skills of course, or just standard attack).
-                  </p>
-                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/guides/HomeButton.png"></a></p>
-                </div>
-
-                <!-- [Pyro Jack] -->
-                <button id="Pyro Jack" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Pyro Jack</button>
-                <div class="DG-Demon"><br>
-                  <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Pyro Jack')">Demon Information</a></strong></p>
-                  <p>Brother of Jack Frost ho, pair for the fearsome Jack Bros team. Hee is also best as Protector for Tag, pass turn for no costs whatsoever ho.</p>
-
-                  <div class="DG-Table">
-                    <p><table>
-                      <tbody>
-                          <tr><td class="DG-CMN">Common</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                          <tr><td class="DG-ARA">Aragami</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                          <tr><td class="DG-PRO">Protector</td>
-                            <td>Recieve baton and <strong>Tag</strong> the next, hee ho.</td>
-                            <td><strong>Best</strong></td>
-                          </tr>
-                          <tr><td class="DG-PSY">Psychic</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                          <tr><td class="DG-ELE">Elementalist</td>
-                            <td>-</td>
-                            <td>Bad</td>
-                          </tr>
-                      </tbody>
-                    </table></p>
-                  </div>
-
-                  <p><strong>Recommended skills:</strong></p>
-                  <ul>
-                    <li>Essentially the same as Jack Frost's skills:</li>
-                    <li>Endure + Samarecarm. Good combo when your team doesn't manage to one turn sweep and the opponent counters and wipes your sweeper</li>
-                    <li>Mind Break. Great support usage.</li>
-                    <li>Megido. Clean up any demons that have endured</li>
-                    <li>Auto Taruka/Auto Rakunda. Use only when you're sure you want to stick with this attack team type, it's quite a heavy investment.</li>
-                  </ul>
-                  <p><strong>Brands: </strong>Same brand setup as Jack Frost.</p>
-                  <p><a href="#DG-NotableDemons"><img class="DG-HomeButton" src="images/guides/HomeButton.png"></a></p>
-                </div>
-                
                 <!-- [Chupacabra] -->
                 <button id="Chupacabra" class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Chupacabra</button>
-                <div class="DG-Demon"><br>
+                <div class="DG-CollapsibleContent"><br>
                   <p><strong><a href="javascript:void(0)" @click="show_guide_devil('Chupacabra')">Demon Information</a></strong></p>
                   <p>Mainly used in pvp offense when you want a good counter towards 2x Intimdation stance teams running heavy phys units,
                     Chupacabara is generally left at level 1 so that you can purposely outslow the enemy team. Coming with Auto-Sukuka and Mazan (for 
@@ -4977,7 +5032,7 @@
 
                   <p><strong>Recommended skills:</strong></p>
                   <ul>
-                    <li>Endure. </li>
+                    <li>Endure. Once Stealth activates, it means the next hit will kill him. This will act as a safety harness in the case you are unlucky.</li>
                     <li>Mind Break. Great support usage.</li>
                     <li>Sukunda. Adds to his evasion if you don't have another demon to use it</li>
                     <li>Samarecarm. Gives him a revive skill for fallen allies.</li>
@@ -5284,7 +5339,7 @@
                     <div class=""><br>
                   -->
                       <button class="DG-CollapsibleButton" onclick="toggleCollapsible(this)">Building An Example Demon: Part 1 - Yoshitsune</button>
-                      <div class="DG-Demon"><br>
+                      <div class="DG-CollapsibleContent"><br>
                         <!-- <p><strong>Building An Example Demon: Part 1</strong></p> -->
                         <p>Let's analyze a Level 50 Yoshitsune: (Analysis of different demons coming soon)</p>
                         <ul>

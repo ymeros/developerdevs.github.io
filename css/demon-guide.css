@@ -27,6 +27,10 @@
   width: 120px;
 }
 
+.DG-ImageTable img{
+  height:80px;
+}
+
 .DG-Hidden-Table td{
   border: none;
   border-spacing:0;
@@ -81,15 +85,15 @@
   margin-top: 5px;
 }
 
-.DG-Active, .DG-CollapsibleButton:hover {
-  background-color: #777777;
-  color:white;
-}
-
-.DG-Demon {
+.DG-CollapsibleContent {
   background-color: #F7F7F7;
   padding: 0 18px;
   display: none;
   overflow: hidden;
   border-style: groove;
+}
+
+.DG-Active, .DG-CollapsibleButton:hover {
+  background-color: #777777;
+  color:white;
 }
