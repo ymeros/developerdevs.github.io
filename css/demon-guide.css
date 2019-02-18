@@ -97,3 +97,12 @@
   background-color: #777777;
   color:white;
 }
+
+/* Background Images */
+.DG-PartyMonsters {
+  background-image: url('../images/theme/EasterEgg.gif');
+  background-position: center;
+  background-size: 1000px;
+  background-repeat:no-repeat;
+  
+}
