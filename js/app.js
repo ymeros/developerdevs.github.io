@@ -898,7 +898,7 @@ const ddd_stable = [
         formulas:[],
         devils:[
             { name:'Hare of Inaba', name_tw:'因幡白兔', name_en:'',rarity:3, grade:41, icon:'HareOfInaba.png', skills:['Dekaja','Media','Trap Free'], skill4:['Recarm','','','',''], skill5:['','','','',''], elements:['','Weak','','','','',''], type:'Recovery \u00A0\u00A0 | Beast Nekomata + Night Fomorian + Avatar Makami |'},
-            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'Chupacabra.png', skills:['Mazan','Stealth','Trap Free'], skill4:['Auto-Sukuka','','','',''], skill5:['','','','',''], elements:['','','','Weak','','',''], type:'Attack \u00A0\u00A0 | Foul Slime + Fallen Melchom + Wilder Chagrin |'}
+            { name:'Chupacabra', name_tw:'卓柏卡布拉', name_en:'',rarity:1, grade:15, icon:'Chupacabra.png', skills:['Mazan','Stealth',''], skill4:['Auto-Sukuka','','','',''], skill5:['','','','',''], elements:['','','','Weak','','',''], type:'Attack \u00A0\u00A0 | Foul Slime + Fallen Melchom + Wilder Chagrin |'}
         ]
     },
     {
