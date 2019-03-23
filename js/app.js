@@ -950,6 +950,24 @@ const ddd_stable = [
         { name:'Mishaguji',      name_tw:'奧伯隆', name_en:'Mishaguji',      rarity:4, grade:65, icon:'Mishaguji.png', skills:["Mazionga","Elec Boost","Arcane Ritual"], skill4:["","Shock","Concentrate","Wild Instinct","Drain Elec"], skill5:['','Tetraja','','',''],elements:["","","","Null","Weak","Weak","Null"], type:"Attack" },  
       ]
     },
+	 {
+      name:'(Event) Beast',
+      name_tw:'(Event) Beast',
+      name_en:'(Event) Beast',
+      formulas:[],
+      devils:[
+        { name:'Nekomata A',      name_tw:'魔獣ネコマタ', name_en:'Nekomata A',      rarity:4, grade:60, icon:'NekomataA.png', skills:["Speedster","Evade","Pussyfoot"], skill4:["","Binding Claw","Mahamarin Karin","Null Charm","Repel Elec"], skill5:['','Dodge','Madness','War Dance','Blood Rush'],elements:["","Resist","","Weak","Resist","",""], type:"Attack" },  
+      ]
+    },
+	 {
+      name:'(Event) Tyrant',
+      name_tw:'(Event) Tyrant',
+      name_en:'(Event) Tyrant',
+      formulas:[],
+      devils:[
+        { name:'Abaddon A',      name_tw:'魔王アバドン', name_en:'Abaddon A',      rarity:4, grade:60, icon:'AbaddonA.png', skills:["Binge Eating","Death Counter","Lord of the Abyss"], skill4:["","Hellfire","Necro Dogma","Infernal Mask","Repel Phys"], skill5:['','Fire Boost','Life Gain','Hellish Mask','Resist Elec'],elements:["Null","Repel","","Weak","","",""], type:"Attack" },  
+      ]
+    },
     {
         name:'Powers',
         name_tw:'Powers',
@@ -1508,6 +1526,7 @@ const skill_stable = [
         {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
         {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
         {"name":"Arcane Ritual","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members receive the following effect: 20% increase in status ailment auto cure rate.","mp":null,"point":null,"element":"Passive"},
+		{"name":"Pussyfoot","name_tw":"キャットウォーク","desc":"While the demon with this skill is alive, all party members will recieve the following effect: +20% EV.","mp":null,"point":null,"element":"Passive"},
         {"name":"Hell's Gate","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 5% less multiple-target attack damage that target all or random allies. (Max reduction: 50%)","mp":null,"point":null,"element":"Passive"},
         {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 20% (up to 60%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
       ]
@@ -1543,6 +1562,7 @@ const skill_stable = [
         {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"Casts Tarunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
         {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"Casts Rakunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
         {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"Casts Sukunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+		{"name":"Lord of the Abyss","name_tw":"奈落の王","desc":"Removes all status buffs of all enemies at the beginning of the first turn in a boss battle and decreases the ATK, DEF and EV/AC of all enemies by 20%. (3 turns)","mp":null,"point":"12","element":"Passive"},
         //壓制
         {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"Reduces 1 enemy Press Turn at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects.","mp":null,"point":"21","element":"Passive"},
         {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"While the demon with this skill is alive, the enemy loses an extra Press Turn Icon every time you drain their attack.","mp":null,"point":null,"element":"Passive"},
