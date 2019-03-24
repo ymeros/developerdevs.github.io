@@ -210,7 +210,7 @@ const ddd_stable = [
             ['Haunt','Deity']
         ],
         devils:[
-            {                name:'Cu Chulainn',    name_tw:'庫夫林', name_en:'Cu Chulainn',           rarity:5,                grade:81, icon:'CuChulainn.png', skills:["Savage Glee","Mazandyne","Gae Bolg"], skill4:["Rebellion","Killing Wind","Recarmdra","Force Pierce","Repel Dark"], skill5:["","God's Hand","Mortal Jihad","Force Boost","Resist Light"],elements:["Resist","","","","Null","",""],type:"Attack"            },
+            {                name:'Cu Chulainn',    name_tw:'庫夫林', name_en:'Cu Chulainn',           rarity:5,                grade:81, icon:'CuChulainn.png', skills:["Savage Glee","Mazandyne","Gae Bulg"], skill4:["Rebellion","Killing Wind","Recarmdra","Force Pierce","Repel Dark"], skill5:["","God's Hand","Mortal Jihad","Force Boost","Resist Light"],elements:["Resist","","","","Null","",""],type:"Attack"            },
             {                name:'Tsukuyomi',          name_tw:'月讀', name_en:'Tsukuyomi',     rarity:4,                grade:67, icon:'Tsukuyomi.png', skills:["Mana Bonus","Zanma","Lunar Blessing"], skill4:["Mazan","Mudoon","Recarm","Life Gain","Drain Fire"], skill5:["","Sukukaja","Fast Recovery","Hamaon","Zionga"],elements:["Weak","Null","Null","Resist","Resist","",""], type:"Support"            },
             {                name:'Hanuman',        name_tw:'哈奴曼', name_en:'Hanuman',       rarity:4,                grade:60, icon:'Hanuman.png', skills:["Resist Phys","Vorpal Blade","Mazanma"], skill4:["Madness Nails","Zandyne","Taunt","Retaliate","Repel Force"], skill5:["","Vitality Amp I","Evil Gaze","Judgement Light","Resist Weak"],elements:["","","","Weak","Null","",""],type:"Attack"            },
             {                name:'Kresnik',      name_tw:'克雷斯尼克', name_en:'Kresnik',         rarity:3,                grade:49, icon:'Kresnik.png', skills:["Sukunda","Null Elec","Judgement Light"], skill4:["Mana Aid","Tempest Slash","Rebellion","Merciless Blow","Null Dark"], skill5:["","Vitality Amp I","Mamudo","Retaliate","Good Aim"],elements:["","","","","Weak","Null",""],type:"Attack"            },
@@ -268,7 +268,7 @@ const ddd_stable = [
             ['Haunt','Kishin']
         ],
         devils:[
-            {  name:'Huang Long',  name_tw:'黃龍', name_en:'Huang Long',  rarity:5,  grade:88, icon:'HuangLong.png' , skills:["Agility Amp II","Megidolaon","Five Elements "], skill4:["Life Aid","Energy Drain","Luster Candy","Speedster","Null Dark"], skill5:["","Magic Amp III","Serial Killer","Hell Gaze","Enduring Soul"],elements:["","Resist","Resist","Resist","Resist","Null",""],type:"Support"   },
+            {  name:'Huang Long',  name_tw:'黃龍', name_en:'Huang Long',  rarity:5,  grade:88, icon:'HuangLong.png' , skills:["Agility Amp II","Megidolaon","Five Elements"], skill4:["Life Aid","Energy Drain","Luster Candy","Speedster","Null Dark"], skill5:["","Magic Amp III","Serial Killer","Hell Gaze","Enduring Soul"],elements:["","Resist","Resist","Resist","Resist","Null",""],type:"Support"   },
             {  name:'Quetzalcoatl',  name_tw:'羽蛇神', name_en:'Quetzalcoatl',  rarity:5,  grade:80, icon:'Quetzalcoatl.png' , skills:["Maragidyne","Mazandyne","Ce Acatls' Return"], skill4:["Null Poison","Mahamadyne","Concentrate","Auto-Tarunda","Repel Phys"], skill5:["","Mabufudyne","Back Attack","Null Mute","Mamudodyne"],elements:["Resist","Resist","","","Resist","Resist","Weak"],type:"Attack"   },
             {  name:'Gucumatz',  name_tw:'庫庫爾坎', name_en:'Gucumatz',  rarity:4,  grade:69, icon:'Gucumatz.png' , skills:["Heat Wave","Ice Breath","Auto-Tarunda"], skill4:["Wild Guess","Wind Breath","Fog Breath","Tetraka Shift","Null Fire"], skill5:["","Berserker God","Tarunda","Retaliate","Mediara"],elements:["","Weak","Resist","","Resist","",""],type:"Support"   },
             {  name:'Long',  name_tw:'青龍', name_en:'Long',  rarity:4,  grade:63, icon:'Long.png' , skills:["Force Boost","Zandyne","Dragon Sense"], skill4:["Agility Amp II","Berserker God","Concentrate","Mana Aid","Repel Force"], skill5:["","Mazandyne","Vorpal Blade","Ziodyne","Makara Break"],elements:["","","Resist","Weak","Null","",""],type:"Attack"   },
@@ -817,9 +817,13 @@ const ddd_stable = [
         devils:[
             { name:'Mother Harlot', name_tw:'吹號者', name_en:'', rarity:5, grade:95, icon:'MotherHarlot.png', skills:['Mana Gain','Death Lust',"Babylon Goblet"], skill4:['Magic Amp III','Deathtouch','Debilitate','Deadly Charm','Drain Phys'], skill5:['','Tetraka Shift','Infernal Mask','Insanity','Makara Shift'], elements:['Null','','','Drain','Weak','Resist','Resist'], type:'Support'},
             { name:'Trumpeter', name_tw:'吹號者', name_en:'', rarity:5, grade:94, icon:'Trumpeter.png', skills:['Concentrate','Soul Drain',"Apocalypse"], skill4:['Mahamakajamaon','Judgement','Demon Birth Cry','Auto-Rakuka','Resist Phys'], skill5:['','Evade','Auto-Tarunda','Trisagion','Resist Fire'], elements:['','','','','','Null','Null'], type:'Attack'},
+			{ name:'Nero ☆', name_tw:'ネロ☆', name_en:'', rarity:5, grade:90, icon:'Nero.png', skills:['Elec Boost','Voltage',"Overture"], skill4:['','Ziodyne','Necro Dogma','Auto-Rakuga','Null Dark'], skill5:['','Elec Amp','Mana Aid','Merciless Blow','Null Elec'], elements:['','','','Resist','','','Resist'], type:'Attack'},			
+			{ name:'Dante ☆', name_tw:'ダンテ☆', name_en:'', rarity:5, grade:90, icon:'Dante.png', skills:['Phys Boost','Rapid Shot',"Million Stab"], skill4:['','Megaton Raid','Taunt','Death Counter','Null Dark'], skill5:['','Life Aid','Phys Amp','Savage Glee','Null Fire'], elements:['','Resist','','','','','Resist'], type:'Attack'},
             { name:'Alice', name_tw:'愛麗絲', name_en:'', rarity:5, grade:89, icon:'Alice.png', skills:['Mamudoon','Mudodyne','Die for Me!'], skill4:['Soul Drain','Hell Gaze','Necro Dogma','Dark Amp','Repel Light'], skill5:['','Glacial Blast','Epic Recovery','Wild Instinct','Thunder Reign'], elements:['','','','','','Weak','Repel'], type:'Attack'},
             { name:'Hell Biker', name_tw:'白騎士', name_en:'', rarity:4, grade:77, icon:'HellBiker.png', skills:['Maragion','Speedster',"Red Zone"], skill4:['Power Hit','Mamudoon','Recarmdra','Auto-Sukuka','Repel Light'], skill5:['','Agidyne','War Cry','Deadly Bondage','Resist Dark'], elements:['','Repel','','','Resist','Weak',''], type:'Attack'},
-            { name:'White Rider', name_tw:'白騎士', name_en:'', rarity:4, grade:74, icon:'WhiteRider.png', skills:['Ziodyne','White Noise',"God's Bow"], skill4:['Bolt Storm','Soul Drain','Recarmdra','Null Bind','Null Force'], skill5:['','Bufula','Good Aim','Mecharmdi','Maragion'], elements:['','','','Drain','Weak','Resist','Resist'], type:'Attack'}
+            { name:'White Rider', name_tw:'白騎士', name_en:'', rarity:4, grade:74, icon:'WhiteRider.png', skills:['Ziodyne','White Noise',"God's Bow"], skill4:['Bolt Storm','Soul Drain','Recarmdra','Null Bind','Null Force'], skill5:['','Bufula','Good Aim','Mecharmdi','Maragion'], elements:['','','','Drain','Weak','Resist','Resist'], type:'Attack'},
+			{ name:'Nero', name_tw:'ネロ', name_en:'', rarity:4, grade:70, icon:'Nero.png', skills:['Elec Boost','Back Attack',"Mazionga"], skill4:['Agility Amp II','Ziodyne','Necro Dogma','Auto-Rakuga','Null Dark'], skill5:['','Agility Amp II','Magic Amp II','Ziodyne','Resist Ice'], elements:['','','','Resist','','','Resist'], type:'Attack'},
+			{ name:'Dante', name_tw:'ダンテ', name_en:'', rarity:4, grade:70, icon:'Dante.png', skills:['Phys Boost','Fatal Sword',"Titanomachia"], skill4:['Strength Amp II','Megaton Raid','Taunt','Death Counter','Null Dark'], skill5:['','Strength Amp II','Tempest Slash','Vitality Amp II','Resist Phys'], elements:['','Resist','','','','','Resist'], type:'Attack'}
         ]
     },
     {
@@ -931,6 +935,18 @@ const ddd_stable = [
           { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'Alilat.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support \u00A0\u00A0 | Lady Pele + Herald Sandalphon + Lady Kushinada + Herald Azrael |'}
         ]
     },
+	{
+      name:'Mitama',
+      name_tw:'Mitama',
+      name_en:'Mitama',
+      formulas:[],
+      devils:[
+		{ name:'Saki Mitama', name_tw:'サキミタマ', name_en:'Saki Mitama', rarity:2, grade:36, icon:'SakiMitama.png', skills:["Vitality Amp I","Makarakarn","Life Bonus"], skill4:["Luck Amp I","Shock","Rakukaja","Madness","Null Elec"], skill5:["","","","",""],elements:["","","","Resist","","Resist","Resist"], type:"Support" },
+		{ name:'Kusi Mitama', name_tw:'クシミタマ', name_en:'Kusi Mitama', rarity:2, grade:31, icon:'KusiMitama.png', skills:["Agility Amp I","Charge","Concentrate"], skill4:["Vitality Amp I","Wind Breath","Sukukaja","Dodge","Null Force"], skill5:["","","","",""],elements:["","","","","Resist","Resist","Resist"], type:"Support" },
+		{ name:'Nigi Mitama', name_tw:'ニギミタマ', name_en:'Nigi Mitama', rarity:2, grade:26, icon:'NigiMitama.png', skills:["Magic Amp I","Media","Recarm"], skill4:["Luck Amp I","Ice Breath","Diara","Fast Recovery","Null Ice"], skill5:["","","","",""],elements:["","","Resist","","","Resist","Resist"], type:"Support" },
+		{ name:'Ara Mitama', name_tw:'アラミタマ', name_en:'Ara Mitama', rarity:2, grade:21, icon:'AraMitama.png', skills:["Strength Amp I","Charge","Lunge"], skill4:["Agility Amp I","Fire Breath","Tarukaja","Good Aim","Null Fire"], skill5:["","","","",""],elements:["","Resist","","","","Resist","Resist"], type:"Support" }
+	  ]
+	},
     {
       name:'(Event) Fairy',
       name_tw:'(Event) Fairy',
@@ -988,8 +1004,18 @@ const ddd_stable = [
           { name:'Bayonetta', name_tw:'魔女ベヨネッタ', name_en:'',rarity:4, grade:65, icon:'Bayonetta.png', skills:['Mortal Jihad','Berserker','Soul Drain'], skill4:['Strength Amp II','Myriad Arrows','Sweet Bite','Savage Glee','Null Dark'], skill5:['','Strength Amp II','Deadly Charm','Phys Boost','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'},
           { name:'Jeanne', name_tw:'魔女ジャンヌ', name_en:'',rarity:4, grade:65, icon:'Jeanne.png', skills:['Hades Blast','Berserker','Soul Drain'], skill4:['Magic Amp II','Tempest Slash','Dark Sword','Evade','Null Light'], skill5:['','Magic Amp II','Deadly Mute','Retaliate','Speedster'], elements:['','','','','','Resist','Resist'], type:'Attack'}
         ]
+    },
+    {
+        name:'??',
+        name_tw:'??',
+        name_en:'??',
+        formulas:[],
+        devils:[
+          { name:'V ☆', name_tw:'V(ブイ)☆', name_en:'', rarity:5, grade:90, icon:'V.png', skills:["Enduring Soul","Shadow-Shock","Griffon-Bolt"], skill4:["","Sea of Chaos","Rattle","Infernal Mask","Null Dark"], skill5:["","Butcher","Wild Instinct","Megidolaon","Null Light"],elements:["","","","","","Resist","Resist"], type:"Attack" },
+		  { name:'V', name_tw:'V(ブイ)', name_en:'', rarity:4, grade:70, icon:'V.png', skills:["Enduring Soul","Soul Drain","Megido"], skill4:["Magic Amp II","Sea of Chaos","Rattle","Infernal Mask","Null Dark"], skill5:["","Magic Amp II","Luck Amp II","Hamadyne","Resist Force"],elements:["","","","","","Resist","Resist"], type:"Attack" }
+        ]
     }
-    
+	
     // Entry format:
     // Resistances = Drain, Weak, Repel, Null
     // AI = Attack, Support, Heal
@@ -1026,6 +1052,7 @@ const skill_stable = [
         {"name":"Yinlong Killer","name_tw":"應龍擊破","desc":"Inflicts Phys (Physical) damage with 50% crit rate and 150 power on All Enemies.","mp":8,"point":null,"element":"Physical"},
         {"name":"Gomorrah (J)","name_tw":"魔獣ゴモラ召喚J","desc":"Can be used from the 3rd turn. Inflicts Phys (Physical) damage with 50% crit rate on all enemies and a 50% chance to inflict Bind on all enemies. Power: 180 *Damage inflicted by this skill is 50% dependent on Phys ATK, 50% on Mag ATK and will have Phys Pierce effect.","mp":8,"point":null,"element":"Physical"},
         {"name":"Beloved Slash","name_tw":"ビラブド斬り","desc":"Inflicts Phys (Physical) damage on all enemies twice. Power: 60","mp":6,"point":null,"element":"Physical"},
+		{"name":"Million Stab","name_tw":"ミリオンスタッブ","desc":"Inflicts Phys (Physical) damage 4 times on all enemies. When in a state of Might, this skill will have Phys Pierce.","mp":8,"point":null,"element":"Physical"},
         
         {"name":"Rampage","name_tw":"橫衝直撞","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 45 power on Random Enemy/(ies).","mp":3,"point":3,"element":"Physical"},
         {"name":"Deathbound","name_tw":"神威之擊","desc":"Inflicts Phys (Physical) damage 2 to 3 times with 55 power on Random Enemy/(ies).","mp":4,"point":5,"element":"Physical"},
@@ -1037,7 +1064,7 @@ const skill_stable = [
         {"name":"Myriad Arrows","name_tw":"剎那五月雨擊","desc":"Inflicts Phys (Physical) damage 2 to 5 times with 65 power on Random Enemy/(ies).","mp":7,"point":9,"element":"Physical"},
         {"name":"Mist Slashes","name_tw":"亂・霞霧斬擊","desc":"Inflicts Phys (Physical) damage 3 to 5 times with 50 power on Random Enemy/(ies).","mp":6,"point":null,"element":"Physical"},
         {"name":"Hell Thrust","name_tw":"地域刺擊","desc":"Inflicts Phys (Physical) damage with 50 power on Random Enemy/(ies) 4 times with a 35% chance to inflict Charm.","mp":7,"point":null,"element":"Physical"},
-        {"name":"Gae Bolg","name_tw":"千棘魔槍","desc":"Inflicts Phys (Physical) damage 4 to 6 times with 50 power on Random Enemy/(ies).","mp":7,"point":null,"element":"Physical"},
+        {"name":"Gae Bulg","name_tw":"千棘魔槍","desc":"Inflicts Phys (Physical) damage 4 to 6 times with 50 power on Random Enemy/(ies).","mp":7,"point":null,"element":"Physical"},
         {"name":"Hassou Tobi","name_tw":"八艘跳躍","desc":"Inflicts Phys (Physical) damage 8 times with 35 power on Random Enemy/(ies). Adds Physical Pierce.","mp":7,"point":null,"element":"Physical"},
         {"name":"Gomorrah (B)","name_tw":"魔獣ゴモラ召喚B","desc":"Can be used from the 3rd turn. Inflicts Phys (Physical) damage with 50% crit rate on a single enemy 5 times and a 50% chance to inflict Charm on all enemies. Power: 50 *Damage inflicted by this skill is 50% dependent on Phys ATK, 50% on Mag ATK and will have Phys Pierce effect.","mp":8,"point":null,"element":"Physical"},
         
@@ -1112,6 +1139,7 @@ const skill_stable = [
         {"name":"Mazio","name_tw":"瑪哈吉歐","desc":"Inflicts Elec (Magic) damage with 80 power on All Enemies.","mp":5,"point":2,"element":"Elec"},
         {"name":"Mazionga","name_tw":"瑪哈吉歐加","desc":"Inflicts Elec (Magic) damage with 100 power on All Enemies.","mp":6,"point":6,"element":"Elec"},
         {"name":"Maziodyne","name_tw":"瑪哈吉歐達因","desc":"Inflicts Elec (Magic) damage with 120 power on All Enemies.","mp":7,"point":9,"element":"Elec"},
+		{"name":"Overture","name_tw":"オーバーチュア","desc":"After inflicting Elec (Magic) damage (Power: 80) on all enemies, enters into a state of Concentrate, increasing next Mag attack damage by 125%. This skill will have Elec Pierce.","mp":7,"point":null,"element":"Elec"},
         
         {"name":"Shock","name_tw":"Shock","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 40 power on Random Enemy/ies.","mp":4,"point":7,"element":"Elec"},
         {"name":"Bolt Storm","name_tw":"衝擊波","desc":"Inflicts Elec (Magic) damage 2 to 4 times with 50 power on Random Enemy/ies.","mp":5,"point":10,"element":"Elec"},
@@ -1183,7 +1211,7 @@ const skill_stable = [
         {"name":"Allure","name_tw":"瑪哈姆多達因","desc":"Inflicts Dark (Magic) damage with 110 power on All Enemies with 35% chance to Inflicts Charm.","mp":7,"point":null,"element":"Dark"},
         {"name":"Gluttony","name_tw":"暴食重罪","desc":"Inflicts Dark (Magic) damage with 130 power on All Enemies, while healing caster 50% of damage dealt.","mp":7,"point":null,"element":"Dark"},
         {"name":"Go to Hell!","name_tw":"可以為我而死嗎？","desc":"Inflicts Dark (Magic) damage with 100 power on All Enemies with a 80% chance to inflict Curse. This skill has the Dark Pierce effect.","mp":7,"point":null,"element":"Dark"},
-        {"name":"Die for Me!","name_tw":"可以為我而死嗎？","desc":"Kills a Single Enemy. 1 Use.","mp":7,"point":null,"element":"Dark"}
+        {"name":"Die for Me!","name_tw":"可以為我而死嗎？","desc":"Inflicts Dark (Magic) damage on a single enemy with 100% chance to inflict Mortal. Nullifies all death prevention skills. Power: 180 (Limit 1)","mp":7,"point":null,"element":"Dark"}
       ]
     },
     {
@@ -1333,11 +1361,11 @@ const skill_stable = [
         //反射
         {"name":"Tetrakarn","name_tw":"提特拉康","desc":"All Party Members repels Physical damage for 1 turn.","mp":7,"point":8,"element":"Null"},
         {"name":"Makarakarn","name_tw":"瑪卡拉康","desc":"All Party Members repels Magic damage for 1 turn.","mp":7,"point":8,"element":"Null"},
-        {"name":"Five Elements ","name_tw":"Five Elements ","desc":"All Party Members repels Magic (including Almighty) damage for 1 turn.","mp":6,"point":null,"element":"Null"},
+        {"name":"Five Elements","name_tw":"Five Elements","desc":"All Party Members repels Magic (including Almighty) damage for 1 turn.","mp":6,"point":null,"element":"Null"},
         {"name":"Tetra Break","name_tw":"提特拉破壞","desc":"Removes Repel Phys from All Enemies.","mp":3,"point":6,"element":"Null"},
         {"name":"Makara Break","name_tw":"瑪卡拉破壞","desc":"Removes Repel Mag from All Enemies.","mp":3,"point":6,"element":"Null"},
         //防即死
-        {"name":"Tetraja","name_tw":"","desc":"All Party Members will evade Instant Kill for 1 turn","mp":4,"point":null,"element":"Null"},
+        {"name":"Tetraja","name_tw":"","desc":"All Party Members will evade Instant Kill for 1 turn","mp":4,"point":4,"element":"Null"},
         //強弱化
         {"name":"Tarukaja","name_tw":"塔爾卡加","desc":"Increases ATK of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
         {"name":"Rakukaja","name_tw":"拉庫卡加","desc":"Increases DEF of All Party Members by 20% for 3 turns.","mp":5,"point":6,"element":"Null"},
@@ -1526,7 +1554,7 @@ const skill_stable = [
         {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"},
         {"name":"Yomotsu Okami","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members gain +10% damage to Elec and Dark attacks.","mp":null,"point":null,"element":"Passive"},
         {"name":"Arcane Ritual","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members receive the following effect: 20% increase in status ailment auto cure rate.","mp":null,"point":null,"element":"Passive"},
-		{"name":"Pussyfoot","name_tw":"キャットウォーク","desc":"While the demon with this skill is alive, all party members will recieve the following effect: +20% EV.","mp":null,"point":null,"element":"Passive"},
+		{"name":"Pussyfoot","name_tw":"キャットウォーク","desc":"While the demon with this skill is alive, all party members will receive the following effect: +20% EV.","mp":null,"point":null,"element":"Passive"},
         {"name":"Hell's Gate","name_tw":"武道的素養","desc":"While the demon with this skill is alive, all party members will receive the following effect: For every Weak attribute, all party members will receive 5% less multiple-target attack damage that target all or random allies. (Max reduction: 50%)","mp":null,"point":null,"element":"Passive"},
         {"name":"Harmonious Death","name_tw":"狡計之星","desc":"At the beginning of every second turn, damage dealt by the demon with this skill will increase by 20% (up to 60%) and all party members receive 1 additional Press Turn Icon.","mp":null,"point":null,"element":"Passive"}
       ]
@@ -1582,6 +1610,11 @@ const skill_stable = [
         //Bayonetta Event
         {"name":"Madama Stomp","name_tw":"マダムストンプ","desc":"When landing a critical hit, inflicts Almighty (Magic) damage on a single enemy with a 30% chance to inflict Charm. Power: 100","mp":null,"point":null,"element":"Passive"},
         {"name":"Madama Uppercut","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflicts Almighty (Magic) damage on a single enemy with a 30% chance to inflict Bind. Power: 100　","mp":null,"point":null,"element":"Passive"}
+		//Devil May Cry Event
+		{"name":"Voltage","name_tw":"ボルテージ","desc":"When Entering a state of Concentrate, increases own party's ATK and EV/AC by 20%. (1 turn)","mp":null,"point":null,"element":"Passive"},
+		{"name":"Rapid Shot","name_tw":"ラピッドショット","desc":"+20% to Phys hit rate. Regular Attacks will change to the following effect. Inflicts Phys damage 5 times (Power: 20) on a single target with a 25% Crit Rate. Then enters a state of Might.","mp":null,"point":null,"element":"Passive"},
+		{"name":"Shadow-Shock","name_tw":"シャドウ・超撃","desc":"Regular Attacks will change to the following effect. Inflicts Almighty (Mag) damage on a single target. Power: 100","mp":null,"point":null,"element":"Passive"},
+		{"name":"Griffon-Bolt","name_tw":"グリフォン・雷","desc":"When a member of your party deals damage with a regular Attack, inflicts Almighty (Mag) damage 4 times on random enemies. Power: 30","mp":null,"point":null,"element":"Passive"}
       ]
     },
     {
