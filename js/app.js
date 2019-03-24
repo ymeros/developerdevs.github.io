@@ -879,10 +879,10 @@ const ddd_stable = [
         name_en:'Mitama',
         formulas:[],
         devils:[
-            { name:'Saki Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:36, icon:'SakiMitama.png', skills:['Vitality Amp I','Makarakarn','Life Bonus'], skill4:['Luck Amp I','Shock','Rakukaja','Madness','Null Elec'], skill5:['','','','',''], elements:['','','','Resist','','Resist','Resist'], type:'Support'},
-            { name:'Kusi Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:31, icon:'KusiMitama.png', skills:['Agility Amp I','Charge','Concentrate'], skill4:['Vitality Amp I','Wind Breath','Sukukaja','Dodge','Null Force'], skill5:['','','','',''], elements:['','','','','Resist','Resist','Resist'], type:'Support'},
-            { name:'Nigi Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:26, icon:'NigiMitama.png', skills:['Magic Amp I','Media','Recarm'], skill4:['Luck Amp I','Ice Breath','Diara','Fast Recovery','Null Ice'], skill5:['','','','',''], elements:['','','Resist','','','Resist','Resist'], type:'Support'},
-            { name:'Ara Mitama', name_tw:'啃咬魔', name_en:'', rarity:2, grade:21, icon:'AraMitama.png', skills:['Strength Amp I','Charge','Lunge'], skill4:['Agility Amp I','Fire Breath','Tarukaja','Good Aim','Null Fire'], skill5:['','','','',''], elements:['','Resist','','','','Resist','Resist'], type:'Support'}
+            { name:'Saki Mitama', name_tw:'サキミタマ', name_en:'', rarity:2, grade:36, icon:'SakiMitama.png', skills:['Vitality Amp I','Makarakarn','Life Bonus'], skill4:['Luck Amp I','Shock','Rakukaja','Madness','Null Elec'], skill5:['','','','',''], elements:['','','','Resist','','Resist','Resist'], type:'Support'},
+            { name:'Kusi Mitama', name_tw:'クシミタマ', name_en:'', rarity:2, grade:31, icon:'KusiMitama.png', skills:['Agility Amp I','Charge','Concentrate'], skill4:['Vitality Amp I','Wind Breath','Sukukaja','Dodge','Null Force'], skill5:['','','','',''], elements:['','','','','Resist','Resist','Resist'], type:'Support'},
+            { name:'Nigi Mitama', name_tw:'ニギミタマ', name_en:'', rarity:2, grade:26, icon:'NigiMitama.png', skills:['Magic Amp I','Media','Recarm'], skill4:['Luck Amp I','Ice Breath','Diara','Fast Recovery','Null Ice'], skill5:['','','','',''], elements:['','','Resist','','','Resist','Resist'], type:'Support'},
+            { name:'Ara Mitama', name_tw:'アラミタマ', name_en:'', rarity:2, grade:21, icon:'AraMitama.png', skills:['Strength Amp I','Charge','Lunge'], skill4:['Agility Amp I','Fire Breath','Tarukaja','Good Aim','Null Fire'], skill5:['','','','',''], elements:['','Resist','','','','Resist','Resist'], type:'Support'}
         ]
     },
     {
@@ -935,18 +935,6 @@ const ddd_stable = [
           { name:'Alilat', name_tw:'阿利拉特', name_en:'',rarity:5, grade:85, icon:'Alilat.png', skills:['Megidola','Infernal Mask','Repel Pierce'], skill4:['Diarahan','','','',''], skill5:['','','','',''], elements:['Resist','','','','','Resist','Resist'], type:'Support \u00A0\u00A0 | Lady Pele + Herald Sandalphon + Lady Kushinada + Herald Azrael |'}
         ]
     },
-	{
-      name:'Mitama',
-      name_tw:'Mitama',
-      name_en:'Mitama',
-      formulas:[],
-      devils:[
-		{ name:'Saki Mitama', name_tw:'サキミタマ', name_en:'Saki Mitama', rarity:2, grade:36, icon:'SakiMitama.png', skills:["Vitality Amp I","Makarakarn","Life Bonus"], skill4:["Luck Amp I","Shock","Rakukaja","Madness","Null Elec"], skill5:["","","","",""],elements:["","","","Resist","","Resist","Resist"], type:"Support" },
-		{ name:'Kusi Mitama', name_tw:'クシミタマ', name_en:'Kusi Mitama', rarity:2, grade:31, icon:'KusiMitama.png', skills:["Agility Amp I","Charge","Concentrate"], skill4:["Vitality Amp I","Wind Breath","Sukukaja","Dodge","Null Force"], skill5:["","","","",""],elements:["","","","","Resist","Resist","Resist"], type:"Support" },
-		{ name:'Nigi Mitama', name_tw:'ニギミタマ', name_en:'Nigi Mitama', rarity:2, grade:26, icon:'NigiMitama.png', skills:["Magic Amp I","Media","Recarm"], skill4:["Luck Amp I","Ice Breath","Diara","Fast Recovery","Null Ice"], skill5:["","","","",""],elements:["","","Resist","","","Resist","Resist"], type:"Support" },
-		{ name:'Ara Mitama', name_tw:'アラミタマ', name_en:'Ara Mitama', rarity:2, grade:21, icon:'AraMitama.png', skills:["Strength Amp I","Charge","Lunge"], skill4:["Agility Amp I","Fire Breath","Tarukaja","Good Aim","Null Fire"], skill5:["","","","",""],elements:["","Resist","","","","Resist","Resist"], type:"Support" }
-	  ]
-	},
     {
       name:'(Event) Fairy',
       name_tw:'(Event) Fairy',
@@ -1609,7 +1597,7 @@ const skill_stable = [
         {"name":"Call to Helheim","name_tw":"月之庇佑","desc":"When the demon with this skill downs an enemy, reduces all enemy ATK and DEF by 20%. (3 turns)","mp":null,"point":null,"element":"Passive"},
         //Bayonetta Event
         {"name":"Madama Stomp","name_tw":"マダムストンプ","desc":"When landing a critical hit, inflicts Almighty (Magic) damage on a single enemy with a 30% chance to inflict Charm. Power: 100","mp":null,"point":null,"element":"Passive"},
-        {"name":"Madama Uppercut","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflicts Almighty (Magic) damage on a single enemy with a 30% chance to inflict Bind. Power: 100　","mp":null,"point":null,"element":"Passive"}
+        {"name":"Madama Uppercut","name_tw":"マダムストンプ","desc":"When an enemy is Charmed, inflicts Almighty (Magic) damage on a single enemy with a 30% chance to inflict Bind. Power: 100　","mp":null,"point":null,"element":"Passive"},
 		//Devil May Cry Event
 		{"name":"Voltage","name_tw":"ボルテージ","desc":"When Entering a state of Concentrate, increases own party's ATK and EV/AC by 20%. (1 turn)","mp":null,"point":null,"element":"Passive"},
 		{"name":"Rapid Shot","name_tw":"ラピッドショット","desc":"+20% to Phys hit rate. Regular Attacks will change to the following effect. Inflicts Phys damage 5 times (Power: 20) on a single target with a 25% Crit Rate. Then enters a state of Might.","mp":null,"point":null,"element":"Passive"},
