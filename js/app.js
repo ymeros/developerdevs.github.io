@@ -1506,16 +1506,16 @@ const skill_stable = [
         {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"+5 to Vitality.","mp":null,"point":3,"element":"Passive"},
         {"name":"Agility Amp I","name_tw":"初段之猛速","desc":"+5 to Agility.","mp":null,"point":3,"element":"Passive"},
         {"name":"Luck Amp I","name_tw":"初段之強運","desc":"+5 to Luck.","mp":null,"point":3,"element":"Passive"},
-        {"name":"Strength Amp II","name_tw":"二段之剛力","desc":"+10 to Strength.","mp":null,"point":13,"element":"Passive"},
-        {"name":"Magic Amp II","name_tw":"二段之賢魔","desc":"+10 to Magic.","mp":null,"point":13,"element":"Passive"},
-        {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"+10 to Vitality.","mp":null,"point":13,"element":"Passive"},
-        {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"+10 to Agility.","mp":null,"point":13,"element":"Passive"},
-        {"name":"Luck Amp II","name_tw":"二段之強運","desc":"+10 to Luck.","mp":null,"point":13,"element":"Passive"},
-        {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"+15 to Strength.","mp":null,"point":32,"element":"Passive"},
-        {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"+15 to Magic.","mp":null,"point":32,"element":"Passive"},
-        {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"+15 to Vitality.","mp":null,"point":32,"element":"Passive"},
-        {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"+15 to Agility.","mp":null,"point":32,"element":"Passive"},
-        {"name":"Luck Amp III","name_tw":"三段之強運","desc":"+15 to Luck.","mp":null,"point":32,"element":"Passive"}
+        {"name":"Strength Amp II","name_tw":"二段之剛力","desc":"+10 to Strength.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Magic Amp II","name_tw":"二段之賢魔","desc":"+10 to Magic.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"+10 to Vitality.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"+10 to Agility.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Luck Amp II","name_tw":"二段之強運","desc":"+10 to Luck.","mp":null,"point":8,"element":"Passive"},
+        {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"+15 to Strength.","mp":null,"point":12,"element":"Passive"},
+        {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"+15 to Magic.","mp":null,"point":12,"element":"Passive"},
+        {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"+15 to Vitality.","mp":null,"point":12,"element":"Passive"},
+        {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"+15 to Agility.","mp":null,"point":12,"element":"Passive"},
+        {"name":"Luck Amp III","name_tw":"三段之強運","desc":"+15 to Luck.","mp":null,"point":12,"element":"Passive"}
       ]
     },
     {
